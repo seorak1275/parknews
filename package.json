@@ -1,0 +1,13 @@
+{
+  "name": "parkwatch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "국립공원 현안 뉴스 · 글로벌 하이브리드 맵 대시보드",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0"
+  }
+}

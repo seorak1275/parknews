@@ -1,0 +1,23 @@
+node_modules/
+.vercel
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.pyc
+tools/ne50.geojson
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+
+# ── 원본 소스 자료 (저장소에 넣지 않음) ────────────────────────
+# 15MB 원본 경계 zip — 변환 결과물(assets/data/parks-kr.geojson)만 커밋합니다.
+전국국립공원 경계 파일 *.zip
+*.gpkg
+
+# 신문 지면 스크랩 PDF — 언론사 저작물이라 공개 저장소에 올리지 않습니다.
+# 형식 참고용으로 로컬에만 두세요. (포함하려면 아래 두 줄을 지우세요)
+일일기사요약/
+*.pdf
