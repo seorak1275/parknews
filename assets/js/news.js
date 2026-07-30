@@ -27,8 +27,34 @@ window.NewsService = (() => {
     return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&${loc}`;
   }
 
-  /* rss2json — CORS가 열려 있어 프록시 없이 바로 호출 가능한 1순위 경로.
-     무료 공개 엔드포인트라 한 번에 10건 정도만 주지만 가장 안정적이다. */
+  /* ---------- 1순위: 자체 서버리스 (/api/news) ----------
+     서버에서는 CORS가 없어 구글 뉴스 RSS를 직접 가져올 수 있다.
+     서드파티 프록시(rss2json·allorigins 등)는 수시로 죽으므로
+     배포 환경에서는 이 경로만 쓰고, 나머지는 폴백으로만 남긴다. */
+  let apiNewsDown = false;          // 한 번 실패하면 이 세션에서는 재시도하지 않음
+
+  async function fetchViaApi(query, lang, limit) {
+    if (apiNewsDown) throw new Error('api/news unavailable');
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 13000);
+    try {
+      const res = await fetch(
+        `/api/news?q=${encodeURIComponent(query)}&lang=${lang}&limit=${limit}`,
+        { signal: ctrl.signal });
+      if (!res.ok) {
+        if (res.status === 404 || res.status === 405) apiNewsDown = true;  // 정적 호스팅
+        throw new Error(`HTTP ${res.status}`);
+      }
+      const json = await res.json();
+      if (!json.items?.length) throw new Error('empty');
+      return json.items;
+    } catch (e) {
+      if (e.name === 'TypeError') apiNewsDown = true;   // 네트워크/파싱 — 로컬 정적 서버
+      throw e;
+    } finally { clearTimeout(t); }
+  }
+
+  /* rss2json — CORS가 열려 있어 프록시 없이 호출 가능. 폴백 2순위. */
   async function fetchViaRss2Json(rssUrl) {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), 10000);
@@ -225,7 +251,7 @@ window.NewsService = (() => {
     const task = (async () => {
       let items = null;
 
-      // 1) 서버리스(네이버) 우선 — 국내 지역에서만 의미가 있음
+      // 1) 네이버 검색 API (국내 지역, 키가 등록돼 있을 때만)
       if (CONFIG.USE_SERVERLESS && region.lang === 'ko') {
         try {
           const res = await fetch(`/api/naver-news?query=${encodeURIComponent(query)}&display=20`);
@@ -235,14 +261,21 @@ window.NewsService = (() => {
           }
         } catch { /* 무시하고 폴백 */ }
       }
+
+      // 2) 자체 서버리스 — 배포 환경의 기본 경로
+      if (!items) {
+        try { items = await fetchViaApi(query, region.lang, pool); }
+        catch { /* 폴백 */ }
+      }
+
       const rss = googleRssUrl(query, region.lang);
 
-      // 2) rss2json (CORS 개방 · 가장 안정적)
+      // 3) rss2json (서드파티, 불안정)
       if (!items) {
         try { items = parseRss2Json(await fetchViaRss2Json(rss)).slice(0, pool); }
         catch { /* 폴백 */ }
       }
-      // 3) 구글 뉴스 RSS 원본 (+ CORS 프록시 3중 폴백)
+      // 4) CORS 프록시 3중 폴백
       if (!items) {
         const xml = await fetchViaProxy(rss);
         items = parseRss(xml).slice(0, pool);
@@ -261,12 +294,21 @@ window.NewsService = (() => {
   /** 캐시에 이미 있으면 즉시 반환 (호버 팝업용) */
   const peek = (region) => cache.get(region.id)?.data || null;
 
-  /** 임의 키워드로 검색 — 국립공원 관련도 필터를 동일하게 적용 (하단 티커용) */
+  /** 임의 키워드로 검색 — 국립공원 관련도 필터를 동일하게 적용
+      (핫이슈 띠 · 인기뉴스 순위 · 하단 티커 · 일일요약 간이본이 사용) */
   async function search(query, lang = 'ko', limit = 12) {
     const rss = googleRssUrl(query, lang);
-    let items;
-    try { items = parseRss2Json(await fetchViaRss2Json(rss)); }
-    catch { items = parseRss(await fetchViaProxy(rss)); }
+    let items = null;
+
+    try { items = await fetchViaApi(query, lang, limit * 3); }
+    catch { /* 폴백 */ }
+
+    if (!items) {
+      try { items = parseRss2Json(await fetchViaRss2Json(rss)); }
+      catch { /* 폴백 */ }
+    }
+    if (!items) items = parseRss(await fetchViaProxy(rss));
+
     const pseudo = { name: query, q: query, lang, must: ['국립공원', 'national park'] };
     return filterPark(pseudo, items.slice(0, limit * 3)).slice(0, limit);
   }

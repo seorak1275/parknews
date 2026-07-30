@@ -40,11 +40,14 @@
 
 <!-- ===== 상단 바 ===== -->
 <header class="topbar glass">
+  <button class="burger" id="btn-panel" aria-label="탐색 패널 열기" aria-expanded="true">
+    <span></span><span></span><span></span>
+  </button>
   <div class="brand">
     <span class="brand__mark"></span>
     <div>
       <h1>PARKWATCH</h1>
-      <p>국립공원 현안 · 실시간 교통 · 글로벌 뉴스</p>
+      <p>국립공원 현안 · 국내외 뉴스 · 보전기관</p>
     </div>
   </div>
 
@@ -57,6 +60,10 @@
       <span class="stat__k">현재 시각 (KST)</span>
       <span class="stat__v mono" id="clock">--:--:--</span>
     </div>
+    <button class="dlbtn dlbtn--stat" id="btn-stats">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M3 3v16a2 2 0 002 2h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M7 15l4-5 3 3 5-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      통계
+    </button>
     <button class="dlbtn dlbtn--alt" id="btn-ranking">
       <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       인기뉴스
@@ -150,6 +157,21 @@
   </div>
 </section>
 
+<!-- ===== 전국 통계 ===== -->
+<div class="dg-overlay" id="stats" role="dialog" aria-modal="true" aria-label="국립공원 통계">
+  <div class="dg-panel glass">
+    <header class="dg-bar">
+      <div class="dg-bar__l"><b>국립공원 통계</b></div>
+      <div class="dg-bar__r">
+        <button class="iconbtn" id="st-close" aria-label="닫기">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </header>
+    <div class="dg-scroll" id="st-body"></div>
+  </div>
+</div>
+
 <!-- ===== 통합 인기뉴스 순위 ===== -->
 <div class="dg-overlay" id="ranking" role="dialog" aria-modal="true" aria-label="통합 인기뉴스 순위">
   <div class="dg-panel glass">
@@ -211,6 +233,7 @@
 <script src="assets/js/explorer.js"></script>
 <script src="assets/js/hotbar.js"></script>
 <script src="assets/js/ranking.js"></script>
+<script src="assets/js/stats.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

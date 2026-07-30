@@ -648,7 +648,26 @@
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSidebar(); });
 
-    $('#panel-fold').addEventListener('click', () => $('#panel').classList.toggle('is-folded'));
+    /* ---------- 패널 열고 닫기 (데스크톱: 접기 / 모바일: 서랍) ---------- */
+    const isMobile = () => window.matchMedia('(max-width: 860px)').matches;
+    const setPanel = (open) => {
+      $('#panel').classList.toggle('is-folded', !open);
+      $('#btn-panel').setAttribute('aria-expanded', String(open));
+      $('#btn-panel').classList.toggle('is-on', open);
+    };
+    const togglePanel = () => setPanel($('#panel').classList.contains('is-folded'));
+
+    $('#panel-fold').addEventListener('click', togglePanel);
+    $('#btn-panel').addEventListener('click', togglePanel);
+
+    /* 모바일에서는 기본으로 닫아 지도를 가리지 않게 */
+    if (isMobile()) setPanel(false);
+    window.addEventListener('resize', () => {
+      if (!isMobile()) setPanel(true);
+    });
+
+    /* 모바일에서 공원을 고르면 패널을 닫아 지도가 보이게 */
+    state.onPickMobileClose = () => { if (isMobile()) setPanel(false); };
 
     /* 현재 탭의 기본 화면으로 되돌린다 (국내면 대한민국, 해외면 전 세계) */
     $('#btn-home').addEventListener('click', () => {
@@ -706,8 +725,9 @@
     bindUI();
     Digest.init();
     Ranking.init();
+    Stats.init();
     try { setMono(localStorage.getItem('parkwatch-mono') === '1', false); } catch { /* 무시 */ }
-    Explorer.init({ onPick: (p) => select(p) });
+    Explorer.init({ onPick: (p) => { select(p); state.onPickMobileClose?.(); } });
     Explorer.onScope(({ scope, parks, level, reason }) => {
       applyVisibility();
 
