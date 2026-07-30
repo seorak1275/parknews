@@ -719,8 +719,17 @@
 
   function initClock() {
     const el = $('#clock');
-    const tick = () => { el.textContent = new Date().toLocaleTimeString('ko-KR', { hour12: false }); };
-    tick(); setInterval(tick, 1000);
+    if (!el) return;
+    /* toLocaleTimeString('ko-KR', {hour12:false}) 는 iOS Safari 에서
+       "14시 0분 59초" 같은 서술형을 돌려줘 폭이 터집니다.
+       브라우저에 맡기지 않고 직접 조립합니다. */
+    const p = (n) => String(n).padStart(2, '0');
+    const tick = () => {
+      const d = new Date();
+      el.textContent = `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+    };
+    tick();
+    setInterval(tick, 1000);
   }
 
   /* ==========================================================
