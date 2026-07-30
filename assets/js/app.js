@@ -504,6 +504,7 @@
 
     renderSidebar(region);
     openSidebar();
+    state.onPickMobileClose?.();   // 모바일: 탐색 시트를 닫아 상세가 온전히 보이게
   }
 
   function renderSidebar(region) {
@@ -666,8 +667,13 @@
       if (!isMobile()) setPanel(true);
     });
 
-    /* 모바일에서 공원을 고르면 패널을 닫아 지도가 보이게 */
+    /* 모바일에서 공원을 고르면 시트를 닫아 지도가 보이게 */
     state.onPickMobileClose = () => { if (isMobile()) setPanel(false); };
+
+    /* 지도를 탭하면 열려 있던 시트를 닫는다 (바깥 탭으로 닫기) */
+    $('#map').addEventListener('pointerdown', () => {
+      if (isMobile() && !$('#panel').classList.contains('is-folded')) setPanel(false);
+    }, { passive: true });
 
     /* 현재 탭의 기본 화면으로 되돌린다 (국내면 대한민국, 해외면 전 세계) */
     $('#btn-home').addEventListener('click', () => {

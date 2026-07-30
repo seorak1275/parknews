@@ -35,6 +35,8 @@ body.has-hotbar{--hot-h:42px}
 
 *,*::before,*::after{box-sizing:border-box}
 html,body{height:100%}
+/* 모바일 주소창 높이 변화 대응 — dvh 미지원 브라우저는 vh 로 폴백 */
+@supports (height:100dvh){ html,body{height:100dvh} }
 body{
   margin:0;
   background:var(--bg);
@@ -1041,20 +1043,29 @@ body.mono .st-rank em{color:var(--ink-2)}
   .dlbtn svg{width:17px;height:17px}
   .iconbtn--top{width:38px;height:38px}
 
-  /* ── 좌측 패널 = 서랍 ── */
+  /* ── 좌측 패널 → 하단 바텀시트 ──
+     상단 헤더와 겹치는 문제를 구조적으로 없애기 위해
+     화면 아래에서 올라오는 시트로 바꿉니다. top 계산이 아예 사라집니다. */
   .panel{
-    left:0;top:calc(var(--topbar-h) + 12px + var(--hot-h));
-    width:min(300px,86vw);
-    border-radius:0 var(--r-lg) var(--r-lg) 0;
-    border-left:0;
-    max-height:calc(100dvh - var(--topbar-h) - 28px - var(--hot-h));
-    padding-left:env(safe-area-inset-left);
-    z-index:22;
+    left:0;right:0;bottom:0;top:auto;
+    width:auto;max-width:none;
+    max-height:min(62dvh,520px);
+    border-radius:18px 18px 0 0;
+    border-left:0;border-right:0;border-bottom:0;
+    padding-bottom:env(safe-area-inset-bottom);
+    transform:translateY(0);
+    transition:transform .38s var(--ease);
+    z-index:19;                        /* 상단바(20)·사이드바(20)보다 아래 */
+    box-shadow:0 -14px 40px rgba(0,0,0,.5);
   }
-  .panel.is-folded{transform:translateX(-100%)}
-  .panel__fold{display:none}          /* 햄버거로 대체 */
-  .panel__body{padding:14px}
-  .ex-list{max-height:34dvh}
+  .panel.is-folded{transform:translateY(101%)}
+  .panel::before{                      /* 드래그 핸들 */
+    content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);
+    width:38px;height:4px;border-radius:2px;background:rgba(255,255,255,.24);
+  }
+  .panel__fold{display:none}           /* 햄버거로 대체 */
+  .panel__body{padding:20px 14px 14px}
+  .ex-list{max-height:30dvh}
   .ex-tab{padding:9px 4px;font-size:13px}
   .ex-row{padding:11px 10px}          /* 터치 타깃 확대 */
   .search input{font-size:16px}       /* iOS 자동 확대 방지 */

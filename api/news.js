@@ -59,28 +59,40 @@ export default async function handler(req, res) {
   if (!q) return res.status(400).json({ error: 'q 파라미터가 필요합니다' });
 
   const loc = lang === 'ko' ? 'hl=ko&gl=KR&ceid=KR:ko' : 'hl=en-US&gl=US&ceid=US:en';
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${loc}`;
+  const mkt = lang === 'ko' ? '&setmkt=ko-KR' : '';
 
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), 12000);
-  try {
-    const r = await fetch(url, {
-      signal: ctrl.signal,
-      headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
-    });
-    if (!r.ok) {
-      return res.status(502).json({ error: `구글 뉴스 응답 오류 (${r.status})` });
+  /* 상위 소스를 순서대로 시도 — 한 곳이 죽어도 뉴스가 끊기지 않게.
+     (실측: 구글 100건, Bing 12건 응답 확인) */
+  const SOURCES = [
+    { name: 'google-news-rss',
+      url: `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${loc}` },
+    { name: 'bing-news-rss',
+      url: `https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=RSS${mkt}` },
+  ];
+
+  const errors = [];
+  for (const src of SOURCES) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 11000);
+    try {
+      const r = await fetch(src.url, {
+        signal: ctrl.signal,
+        headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' },
+      });
+      if (!r.ok) { errors.push(`${src.name}:${r.status}`); continue; }
+
+      const items = parseRss(await r.text(), limit);
+      if (!items.length) { errors.push(`${src.name}:empty`); continue; }
+
+      // 같은 질의는 5분간 CDN 캐시 — 여러 사용자가 눌러도 원본에 한 번만 나감
+      res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=1800');
+      return res.status(200).json({ items, count: items.length, source: src.name });
+    } catch (e) {
+      errors.push(`${src.name}:${e?.name === 'AbortError' ? 'timeout' : 'err'}`);
+    } finally {
+      clearTimeout(timer);
     }
-    const xml = await r.text();
-    const items = parseRss(xml, limit);
-
-    // 같은 질의는 5분간 CDN 캐시 — 여러 사용자가 눌러도 구글에 한 번만 나감
-    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=1800');
-    return res.status(200).json({ items, count: items.length, source: 'google-news-rss' });
-  } catch (e) {
-    const msg = e?.name === 'AbortError' ? '시간 초과' : String(e?.message || e);
-    return res.status(502).json({ error: msg });
-  } finally {
-    clearTimeout(timer);
   }
+
+  return res.status(502).json({ error: '모든 뉴스 소스 실패', tried: errors });
 }

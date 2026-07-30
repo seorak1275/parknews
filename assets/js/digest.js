@@ -255,9 +255,32 @@ window.Digest = (() => {
       await loadScript('https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js');
       await loadScript('https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js');
 
-      const canvas = await window.html2canvas(sheet, {
-        scale: 2, backgroundColor: '#ffffff', useCORS: true, logging: false,
-      });
+      /* 모바일에서는 시트가 화면 폭(예: 390px)이라 그대로 캡처하면
+         길쭉한 PDF가 나옵니다. 캡처 순간만 A4 폭(794px)으로 고정합니다. */
+      const A4_W = 794;
+      const narrow = sheet.offsetWidth < A4_W;
+      const prev = { width: sheet.style.width, maxWidth: sheet.style.maxWidth };
+      if (narrow) {
+        sheet.style.width = `${A4_W}px`;
+        sheet.style.maxWidth = 'none';
+      }
+
+      let canvas;
+      try {
+        canvas = await window.html2canvas(sheet, {
+          scale: narrow ? 2 : 2,
+          backgroundColor: '#ffffff',
+          useCORS: true,
+          logging: false,
+          windowWidth: A4_W,
+          width: A4_W,
+        });
+      } finally {
+        if (narrow) {
+          sheet.style.width = prev.width;
+          sheet.style.maxWidth = prev.maxWidth;
+        }
+      }
 
       const { jsPDF } = window.jspdf;
       const pdf = new jsPDF({ unit: 'mm', format: 'a4', orientation: 'portrait' });
