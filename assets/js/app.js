@@ -153,6 +153,10 @@
     addMarkers();
     updateEngineBadge();
 
+    /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
+       부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
+    fitTo(REGIONS_KR, { duration: 0, maxZoom: 8, pitch: 40 });
+
     boot.textContent = '';
     $('#boot').classList.add('is-done');
     setTimeout(() => $('#boot')?.remove(), 700);
@@ -343,16 +347,45 @@
     $('#stat-points').textContent = parks.length.toLocaleString();
   }
 
+  /** 좌측 패널·사이드바를 피한 여백 (화면 폭에 따라 조정) */
+  function fitPadding() {
+    const narrow = window.innerWidth <= 860;
+    return {
+      top: narrow ? 90 : 120,
+      bottom: narrow ? 70 : 90,
+      left: narrow ? 24 : 306,
+      right: narrow ? 24 : 80,
+    };
+  }
+
   /** 보이는 지점들이 다 들어오도록 화면 맞추기 */
-  function fitTo(points) {
-    if (!points.length || !state.map) return;
+  function fitTo(points, opts = {}) {
+    if (!points?.length || !state.map) return;
+    const { duration = 900, maxZoom = 9, pitch } = opts;
+
     if (points.length === 1) {
-      state.map.flyTo({ center: [points[0].lng, points[0].lat], zoom: 8.5, pitch: 45, duration: 900 });
+      state.map.flyTo({
+        center: [points[0].lng, points[0].lat],
+        zoom: 8.5, pitch: pitch ?? 45, duration, essential: true,
+      });
       return;
     }
     const b = new state.gl.LngLatBounds();
     for (const p of points) b.extend([p.lng, p.lat]);
-    state.map.fitBounds(b, { padding: { top: 120, bottom: 90, left: 300, right: 80 }, duration: 900, maxZoom: 9 });
+    state.map.fitBounds(b, {
+      padding: fitPadding(), duration, maxZoom, essential: true,
+      ...(pitch !== undefined ? { pitch } : {}),
+    });
+  }
+
+  const flyWorld = (duration = 1100) =>
+    state.map?.flyTo({ ...CONFIG.WORLD_VIEW, duration, essential: true });
+
+  /** 탭(국내/해외/기관)에 해당하는 기본 화면으로 이동 */
+  function frameScope(scope, duration = 900) {
+    if (scope === 'kr') return fitTo(REGIONS_KR, { duration, maxZoom: 8, pitch: 40 });
+    if (scope === 'org') return fitTo(REGIONS_ORG, { duration, maxZoom: 4, pitch: 20 });
+    return flyWorld(duration);
   }
 
   /* ==========================================================
@@ -617,11 +650,14 @@
 
     $('#panel-fold').addEventListener('click', () => $('#panel').classList.toggle('is-folded'));
 
+    /* 현재 탭의 기본 화면으로 되돌린다 (국내면 대한민국, 해외면 전 세계) */
     $('#btn-home').addEventListener('click', () => {
       if (!state.map) return;
-      const { center, zoom, pitch, bearing } = CONFIG.MAP_START;
-      state.map.flyTo({ center, zoom, pitch, bearing, speed: 0.9, essential: true });
+      frameScope(Explorer.scope, 1000);
       $$('.mk').forEach((e) => e.classList.remove('is-active'));
+      if (state.map.getLayer('gp-active')) {
+        state.map.setFilter('gp-active', ['==', ['get', 'id'], '__none__']);
+      }
       closeSidebar();
     });
   }
@@ -672,12 +708,23 @@
     Ranking.init();
     try { setMono(localStorage.getItem('parkwatch-mono') === '1', false); } catch { /* 무시 */ }
     Explorer.init({ onPick: (p) => select(p) });
-    Explorer.onScope(({ scope, parks, level }) => {
+    Explorer.onScope(({ scope, parks, level, reason }) => {
       applyVisibility();
-      if (scope === 'global') {
-        showGlobal(parks);
-        if (level !== 'continent' && parks.length && parks.length <= 400) fitTo(parks);
+
+      if (scope === 'global') showGlobal(parks);
+
+      /* 탭을 바꿨을 때만 그 범위의 기본 화면으로 이동 */
+      if (reason === 'scope') {
+        frameScope(scope, 1000);
+        return;
       }
+      if (scope !== 'global') return;
+
+      /* 드릴다운/검색은 대상이 적당할 때만 따라간다 (타이핑마다 튀지 않도록) */
+      const follow = reason === 'nav'
+        ? level !== 'continent' && parks.length && parks.length <= 400
+        : parks.length > 0 && parks.length <= 40;
+      if (follow) fitTo(parks);
     });
     if (!hasToken()) $('#token-note').hidden = false;
 

@@ -181,7 +181,7 @@ window.Explorer = (() => {
   /* ==========================================================
    *  이동
    * ======================================================== */
-  function goto(level, value) {
+  function goto(level, value, reason = 'nav') {
     if (level === 'continent') {
       Object.assign(state, { level: 'continent', continent: null, subregion: null, iso3: null });
     } else if (level === 'subregion') {
@@ -195,13 +195,21 @@ window.Explorer = (() => {
       state.level = 'park';
     }
     render();
-    emitScope();
+    emitScope(reason);
   }
 
-  /** 현재 화면에 보여야 할 해외 공원 집합을 app.js 에 알린다 */
-  function emitScope() {
+  /**
+   * 현재 화면에 보여야 할 집합을 app.js 에 알린다.
+   * reason 으로 "왜" 바뀌었는지 구분한다 —
+   *   'scope'  탭 전환      → 지도를 그 범위로 이동
+   *   'nav'    드릴다운      → 선택 범위로 이동
+   *   'search' 검색어 입력   → 결과가 적을 때만 이동 (타이핑마다 튀지 않도록)
+   */
+  function emitScope(reason = 'nav') {
     if (!state.onScope) return;
-    if (state.scope !== 'global') return state.onScope({ scope: state.scope, parks: [] });
+    if (state.scope !== 'global') {
+      return state.onScope({ scope: state.scope, parks: [], reason });
+    }
 
     let parks = state.data?.parks || [];
     const q = state.query.trim().toLowerCase();
@@ -213,7 +221,7 @@ window.Explorer = (() => {
     else if (state.subregion) parks = parks.filter((p) => p.subregionKo === state.subregion);
     else if (state.continent) parks = parks.filter((p) => p.continentKo === state.continent);
 
-    state.onScope({ scope: 'global', parks, level: state.level });
+    state.onScope({ scope: 'global', parks, level: state.level, reason });
   }
 
   const PLACEHOLDER = {
@@ -233,12 +241,12 @@ window.Explorer = (() => {
     if (scope === 'global') {
       await ensureData();
       $('#ex-count').textContent = `${(state.data.total || 0).toLocaleString()}곳`;
-      goto('continent');
+      goto('continent', undefined, 'scope');
     } else {
       $('#ex-count').textContent =
         `${(scope === 'org' ? REGIONS_ORG : REGIONS_KR).length}곳`;
       render();
-      emitScope();
+      emitScope('scope');
     }
   }
 
@@ -260,7 +268,7 @@ window.Explorer = (() => {
     $('#ex-search').addEventListener('input', (e) => {
       state.query = e.target.value;
       render();
-      emitScope();
+      emitScope('search');
     });
 
     $('#ex-crumb').addEventListener('click', (e) => {
