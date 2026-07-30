@@ -1,4 +1,4 @@
-# 🌐 PARKWATCH — 국립공원 현안 뉴스 대시보드
+# 🌐 파크뉴스 (PARKNEWS) — 국립공원 현안 뉴스 대시보드
 
 > 국내 24곳 · 해외 2천여 곳 국립공원의 현안 뉴스와 통계를 지도 위에서 한눈에
 
@@ -123,7 +123,7 @@ NAVER_CLIENT_SECRET  = 발급받은 Client Secret
 | `ANTHROPIC_API_KEY` | ✅ | 요약 생성. <https://console.anthropic.com/> |
 | `CRON_SECRET` | 권장 | 수동 실행 보호 |
 | `GITHUB_TOKEN` | 선택 | 아카이브 커밋용 PAT (`contents: write`) |
-| `GITHUB_REPO` | 선택 | 예) `yourname/parkwatch` |
+| `GITHUB_REPO` | 선택 | 예) `yourname/parknews` |
 | `GITHUB_BRANCH` | 선택 | 기본값 `main` |
 | `DIGEST_EFFORT` | 선택 | 기본 `medium`, Pro 요금제면 `high` 권장 |
 
@@ -249,7 +249,7 @@ python tools/import_wdpa.py assets/data/parks-global.json
 ```bash
 git init
 git add .
-git commit -m "PARKWATCH 대시보드"
+git commit -m "파크뉴스 대시보드"
 git branch -M main
 git remote add origin https://github.com/<아이디>/<저장소>.git
 git push -u origin main

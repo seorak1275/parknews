@@ -35,7 +35,7 @@ SUBREGION_KO = {
 # ---------- Natural Earth 내려받기 ----------
 if not os.path.exists(NE_PATH):
     print("Natural Earth 50m 내려받는 중…")
-    req = urllib.request.Request(NE_URL, headers={"User-Agent": "ParkWatch/1.0"})
+    req = urllib.request.Request(NE_URL, headers={"User-Agent": "ParkNews/1.0"})
     with urllib.request.urlopen(req, timeout=300) as r, open(NE_PATH, "wb") as f:
         f.write(r.read())
 ne = json.load(open(NE_PATH, encoding="utf-8"))
