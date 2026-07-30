@@ -69,7 +69,8 @@ window.NewsService = (() => {
     } finally { clearTimeout(t); }
   }
 
-  /* 프록시를 순서대로 시도 */
+  /* 프록시를 순서대로 시도.
+     allorigins 의 /get 은 원문을 JSON({contents:"…"})으로 감싸 주므로 풀어 준다. */
   async function fetchViaProxy(url) {
     let lastErr;
     for (const build of CONFIG.PROXIES) {
@@ -79,9 +80,18 @@ window.NewsService = (() => {
         const res = await fetch(build(url), { signal: ctrl.signal });
         clearTimeout(t);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const text = await res.text();
-        if (text && text.length > 80) return text;
-        throw new Error('empty body');
+
+        let text = await res.text();
+        const head = text.slice(0, 40).trimStart();
+        if (head.startsWith('{')) {
+          try {
+            const j = JSON.parse(text);
+            if (typeof j.contents === 'string') text = j.contents;   // allorigins /get
+          } catch { /* JSON 아님 — 원문 그대로 */ }
+        }
+
+        if (text && text.includes('<item') && text.length > 200) return text;
+        throw new Error('no items');
       } catch (e) { lastErr = e; }
     }
     throw lastErr || new Error('all proxies failed');

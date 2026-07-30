@@ -32,11 +32,14 @@ window.CONFIG = {
   NEWS_COUNT: 6,          // 지역당 표시할 기사 수
   NEWS_CACHE_MS: 10 * 60 * 1000,   // 10분 캐시
 
-  /* CORS 우회용 무료 프록시 (앞에서부터 순서대로 시도) */
+  /* CORS 우회용 무료 프록시 — /api/news 가 없을 때만 쓰는 폴백.
+     2026-07-30 실측 기준 순서 (allorigins 계열만 안정적으로 응답):
+       allorigins/raw 200 · allorigins/get 200 · codetabs 522 · corsproxy 403 */
   PROXIES: [
     (u) => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
-    (u) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
+    (u) => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
     (u) => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
+    (u) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
   ],
 
   /* Vercel 서버리스 함수 사용 여부 (배포 후 네이버 API 키를 넣었다면 자동 사용)
