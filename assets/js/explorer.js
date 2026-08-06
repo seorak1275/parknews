@@ -116,18 +116,29 @@ window.Explorer = (() => {
       return;
     }
 
-    /* ---------- 보전기관 ---------- */
+    /* ---------- 보전기관 — 국내/해외 공원청/국제기구 섹션으로 묶어서 ---------- */
     if (state.scope === 'org') {
       const q0 = state.query.trim().toLowerCase();
       const rows = REGIONS_ORG.filter((r) =>
         !q0 || r.name.toLowerCase().includes(q0) || (r.desc || '').toLowerCase().includes(q0));
       crumbBox.innerHTML = `<span class="ex-crumb__now">보전기관·연맹 ${rows.length}곳</span>`;
-      list.innerHTML = rows.length
-        ? rows.map((r) =>
-            `<li><button class="ex-row ex-row--org" data-park="${esc(r.id)}">
-               <span class="ex-row__n">${esc(r.name)}<em>${esc((r.desc || '').split(' · ')[0])}</em></span>
-             </button></li>`).join('')
-        : `<li class="ex-state">검색 결과가 없습니다.</li>`;
+
+      const ORG_GROUPS = [
+        ['kr', '국내 기관'],
+        ['agency', '해외 공원청·연합'],
+        ['intl', '국제기구·NGO'],
+      ];
+      const row = (r) =>
+        `<li><button class="ex-row ex-row--org" data-park="${esc(r.id)}">
+           <span class="ex-row__n">${esc(r.name)}<em>${esc((r.desc || '').split(' · ')[0])}</em></span>
+         </button></li>`;
+      const sections = ORG_GROUPS.map(([key, title]) => {
+        const inGroup = rows.filter((r) => (r.group || 'intl') === key);
+        if (!inGroup.length) return '';
+        return `<li class="ex-group">${title} <i>${inGroup.length}</i></li>` + inGroup.map(row).join('');
+      }).join('');
+
+      list.innerHTML = sections || `<li class="ex-state">검색 결과가 없습니다.</li>`;
       return;
     }
 

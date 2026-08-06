@@ -261,6 +261,15 @@ code{
 .ex-list::-webkit-scrollbar{width:5px}
 .ex-list::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:3px}
 
+.ex-group{
+  display:flex;align-items:baseline;gap:6px;
+  font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-4);padding:12px 9px 5px;
+  border-bottom:1px solid var(--stroke);margin-bottom:3px;
+}
+.ex-group:first-child{padding-top:3px}
+.ex-group i{font-style:normal;font-weight:700;color:var(--ink-4);opacity:.8}
+
 .ex-row{
   width:100%;display:flex;align-items:center;gap:8px;
   padding:8px 9px;border-radius:8px;text-align:left;
