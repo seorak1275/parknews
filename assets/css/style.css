@@ -732,6 +732,34 @@ body.dg-lock{overflow:hidden}
 .dg-title a{color:inherit;text-decoration:none;border-bottom:1px solid transparent}
 .dg-title a:hover{border-bottom-color:#0e7490;color:#0e7490}
 .dg-sum{font-size:11.5px;line-height:1.65;color:#3c4453;margin-top:4px;word-break:keep-all}
+.dg-sum--line{
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;
+  overflow:hidden;word-break:break-all;
+}
+
+/* ---------- 주요기사 상세 (번호별 요약 전문 + 관련 보도) ---------- */
+.dg-detail{
+  display:flex;gap:11px;padding:10px 2px;border-top:1px solid #e3e6ec;
+}
+.dg-sec--detail .dg-detail:first-of-type{border-top:0}
+.dg-detail__no{
+  flex:none;width:20px;height:20px;border-radius:50%;
+  display:grid;place-items:center;margin-top:1px;
+  font-size:11px;font-weight:800;color:#fff;background:#0e7490;
+}
+.dg-detail__b{flex:1;min-width:0}
+.dg-detail__t{font-size:12.5px;font-weight:700;line-height:1.45;color:#111}
+.dg-detail__sum{font-size:11.5px;line-height:1.65;color:#3c4453;margin-top:3px;word-break:keep-all}
+.dg-detail__links{margin-top:6px;display:flex;flex-direction:column;gap:3px}
+.dg-detail__links a{
+  font-size:10.5px;color:#41505f;line-height:1.5;display:flex;gap:6px;align-items:baseline;
+}
+.dg-detail__links a:hover{color:#0e7490}
+.dg-detail__press{
+  flex:none;font-size:9.5px;font-weight:700;color:#0e7490;
+  background:#e6f5f8;border:1px solid #cfeaf0;border-radius:3px;padding:0 5px;
+  white-space:nowrap;
+}
 
 .dg-notes{
   margin-top:20px;padding:11px 13px;border-radius:5px;
@@ -769,6 +797,8 @@ body.dg-lock{overflow:hidden}
   .dg-sheet{box-shadow:none;border-radius:0;max-width:none;padding:0}
   .dg-sec{break-inside:avoid}
   .dg-table tr{break-inside:avoid}
+  .dg-sec--detail{break-before:page;break-inside:auto}
+  .dg-detail{break-inside:avoid}
 }
 
 /* =============================================================
@@ -797,6 +827,17 @@ body.mono .kwbar__fill{background:linear-gradient(90deg,rgba(228,228,231,.4),#e4
 body.mono .dg-sheet{filter:grayscale(1)}
 .iconbtn--top{flex:none;border:1px solid var(--stroke-2)}
 .iconbtn--top.is-on{color:#18181b;background:#e4e4e7;border-color:#e4e4e7}
+
+/* =============================================================
+ *  밝은 지도 (CARTO Positron)
+ *  타일만 밝게 바꾸고 UI 는 다크 글래스를 유지한다.
+ * ========================================================== */
+body.map-light .vignette{opacity:.25}
+body.map-light .mk__label{
+  color:#18202e;
+  text-shadow:0 1px 2px rgba(255,255,255,.9),0 0 10px rgba(255,255,255,.75);
+}
+body.map-light .mk__dot{border-color:rgba(255,255,255,.92)}
 
 /* =============================================================
  *  통합 인기뉴스 순위
@@ -1016,6 +1057,7 @@ body.mono .st-rank em{color:var(--ink-2)}
   .burger.is-on{background:rgba(34,211,238,.16);border-color:rgba(34,211,238,.45)}
   .burger.is-on span{background:var(--kr)}
   .brand p,.topbar__stats .stat{display:none}
+  #btn-light{display:none}            /* 모바일은 탐색 시트의 '밝은 지도' 스위치로 */
   .brand h1{font-size:13px;letter-spacing:.14em}
   .brand__mark{width:26px;height:26px;border-radius:8px}
   .brand__mark::after{inset:5px}

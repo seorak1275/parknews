@@ -107,6 +107,7 @@ window.Digest = (() => {
         category: i < 6 ? '주요기사' : '참고기사',
         reports: g.arts.length,
         links: g.arts.map((a) => a.link),
+        articles: g.arts.slice(0, 5).map((a) => ({ title: a.title, press: a.press, link: a.link })),
       }));
 
     return {
@@ -152,7 +153,9 @@ window.Digest = (() => {
    * ======================================================== */
   function sheetHtml(d) {
     const rows = (cat) => d.items.filter((i) => i.category === cat);
-    const block = (cat) => {
+
+    /* 표에서는 요약을 한 줄로만 — 전문은 아래 '주요기사 상세'에 */
+    const block = (cat, oneLine) => {
       const list = rows(cat);
       if (!list.length) return '';
       return `
@@ -171,11 +174,45 @@ window.Digest = (() => {
                         ? `<a href="${esc(it.links[0])}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a>`
                         : esc(it.title)
                     }</p>
-                    ${it.summary ? `<p class="dg-sum">${esc(it.summary)}</p>` : ''}
+                    ${it.summary ? `<p class="dg-sum${oneLine ? ' dg-sum--line' : ''}">${esc(it.summary)}</p>` : ''}
                   </td>
                 </tr>`).join('')}
             </tbody>
           </table>
+        </div>`;
+    };
+
+    /* 번호별 관련 보도 목록 — 서버본은 articles(제목 포함), 없으면 links로 폴백 */
+    const relatedHtml = (it) => {
+      const rows = Array.isArray(it.articles) && it.articles.length
+        ? it.articles.map((a) => ({ link: a.link, label: a.press, text: a.title }))
+        : (it.links || []).map((l, i) => ({
+            link: l,
+            label: (it.press?.length === it.links.length ? it.press[i] : null) || `보도 ${i + 1}`,
+            text: null,
+          }));
+      if (!rows.length) return '';
+      return `<ul class="dg-detail__links">${rows.slice(0, 4).map((r) => `
+        <li><a href="${esc(r.link)}" target="_blank" rel="noopener noreferrer"><span class="dg-detail__press">${esc(r.label)}</span>${r.text ? esc(r.text) : '기사 원문 보기'}</a></li>`).join('')}
+      </ul>`;
+    };
+
+    /* 주요기사 상세 — 표의 번호 순서대로, 요약 전문 + 관련 보도 (약 한 장 분량) */
+    const detailBlock = () => {
+      const list = rows('주요기사');
+      if (!list.length) return '';
+      return `
+        <div class="dg-sec dg-sec--detail">
+          <div class="dg-sec__tag">주요기사 상세</div>
+          ${list.map((it) => `
+            <div class="dg-detail">
+              <span class="dg-detail__no">${it.no}</span>
+              <div class="dg-detail__b">
+                <p class="dg-detail__t">${esc(it.title)}</p>
+                ${it.summary ? `<p class="dg-detail__sum">${esc(it.summary)}</p>` : ''}
+                ${relatedHtml(it)}
+              </div>
+            </div>`).join('')}
         </div>`;
     };
 
@@ -189,8 +226,9 @@ window.Digest = (() => {
           }</p>
         </header>
 
-        ${block('주요기사')}
-        ${block('참고기사')}
+        ${block('주요기사', true)}
+        ${block('참고기사', false)}
+        ${detailBlock()}
 
         ${d.duplicateNotes?.length ? `
           <div class="dg-notes">
