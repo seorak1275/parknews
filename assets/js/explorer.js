@@ -485,6 +485,8 @@ window.Explorer = (() => {
     init,
     setScope,
     parkById,
+    /** 해외 공원 전체 목록 (필요 시 지연 로드) — '모든 지점 표시'가 사용 */
+    allParks: async () => (await ensureData()).parks || [],
     onScope: (fn) => { state.onScope = fn; },
     get scope() { return state.scope; },
   };

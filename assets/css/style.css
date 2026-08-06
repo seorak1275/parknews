@@ -397,6 +397,10 @@ code{
 }
 .mk:hover .mk__dot,.mk.is-active .mk__dot{transform:scale(1.45)}
 .mk:hover .mk__label{opacity:1}
+/* 낮은 줌 — 라벨 숨김 (겹침 방지 · 호버/선택 시엔 표시) */
+body.map-lowzoom .mk__label{opacity:0}
+body.map-lowzoom .mk:hover .mk__label,
+body.map-lowzoom .mk.is-active .mk__label{opacity:1}
 .mk.is-active{z-index:5}
 .mk.is-active .mk__dot{box-shadow:0 0 0 4px color-mix(in srgb,var(--c) 30%,transparent),0 0 26px 6px var(--c)}
 
