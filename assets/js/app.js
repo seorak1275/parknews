@@ -22,6 +22,7 @@
     showBounds: true,
     showAll: false,            // 모든 지점 표시 (국내+해외+기관 동시)
     allParksCache: null,       // 해외 공원 전체 (토글 첫 사용 시 로드)
+    glyphs: null,              // 응답 확인된 글리프 서버 (없으면 숫자 레이어 생략)
     light: false,              // 밝은 지도 (CARTO Positron)
     popup: null,
     globalShown: [],           // 현재 지도에 뿌린 해외 공원
@@ -89,10 +90,32 @@
   const cartoTiles = (kind) => ['a', 'b', 'c', 'd'].map((s) =>
     `https://${s}.basemaps.cartocdn.com/${kind}/{z}/{x}/{y}@2x.png`);
 
-  const FALLBACK_STYLE = {
+  /* 글리프(글꼴) 서버 — 클러스터 숫자·지도 라벨(text-field)에 필요.
+     글리프 요청이 실패하면 같은 타일의 원(circle)까지 통째로 사라지므로
+     부팅 때 실제로 응답하는 서버만 쓰고, 없으면 숫자 레이어를 생략한다. */
+  const GLYPH_SERVERS = [
+    'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+    'https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf',
+  ];
+  async function pickGlyphs() {
+    for (const tpl of GLYPH_SERVERS) {
+      const test = tpl
+        .replace('{fontstack}', encodeURIComponent('Open Sans Regular'))
+        .replace('{range}', '0-255');
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), 3500);
+      try {
+        const r = await fetch(test, { signal: ctrl.signal });
+        if (r.ok) return tpl;
+      } catch { /* 다음 후보 */ }
+      finally { clearTimeout(t); }
+    }
+    return null;
+  }
+
+  const makeFallbackStyle = (glyphs) => ({
     version: 8,
-    /* glyphs 가 없으면 text-field 레이어(클러스터 숫자·공원 라벨)가 그려지지 않는다 */
-    glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+    ...(glyphs ? { glyphs } : {}),
     sources: {
       'carto-dark': {
         type: 'raster', tiles: cartoTiles('dark_all'), tileSize: 256,
@@ -109,7 +132,7 @@
       { id: 'carto-light', type: 'raster', source: 'carto-light',
         layout: { visibility: 'none' }, paint: { 'raster-opacity': 1 } },
     ],
-  };
+  });
 
   /* ==========================================================
    *  1. 지도 초기화
@@ -124,21 +147,27 @@
       state.gl = window.mapboxgl;
       state.gl.accessToken = CONFIG.MAPBOX_TOKEN.trim();
       state.engine = 'mapbox';
+      state.glyphs = 'mapbox';                        // 스타일이 자체 제공
     } else {
+      const glyphsCheck = pickGlyphs();               // 라이브러리 로드와 병렬 확인
       await loadCss('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css');
       await loadScript('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js');
       state.gl = window.maplibregl;
       state.engine = 'maplibre';
+      state.glyphs = await glyphsCheck;
     }
 
     const { center, zoom, pitch, bearing } = CONFIG.MAP_START;
     state.map = new state.gl.Map({
       container: 'map',
-      style: state.engine === 'mapbox' ? CONFIG.MAPBOX_STYLE : FALLBACK_STYLE,
+      style: state.engine === 'mapbox' ? CONFIG.MAPBOX_STYLE
+        : makeFallbackStyle(state.glyphs === 'mapbox' ? null : state.glyphs),
       center, zoom, pitch, bearing,
       attributionControl: false,
       projection: state.engine === 'mapbox' ? 'globe' : undefined,
     });
+
+    window.__PN_MAP = state.map;   // 콘솔 디버그·테스트용 핸들
 
     state.map.addControl(new state.gl.NavigationControl({ visualizePitch: true }), 'bottom-right');
     state.map.addControl(new state.gl.AttributionControl({ compact: true }), 'bottom-left');
@@ -164,17 +193,23 @@
     await addBoundaryLayer();
     addMarkers();
 
-    /* 낮은 줌에서는 마커 이름 라벨을 숨겨 겹침을 막는다 (호버·선택 시엔 표시) */
-    const updateLabelVis = () =>
-      document.body.classList.toggle('map-lowzoom', state.map.getZoom() < 5.2);
+    /* 낮은 줌에서는 마커 이름 라벨을 숨겨 겹침을 막는다 (호버·선택 시엔 표시)
+       독도 표기는 시군구 수준(줌 7.5+)으로 확대했을 때만 보여준다 */
+    const updateLabelVis = () => {
+      const z = state.map.getZoom();
+      document.body.classList.toggle('map-lowzoom', z < 5.2);
+      document.body.classList.toggle('map-zoom-city', z >= 7.5);
+    };
     state.map.on('zoom', updateLabelVis);
     updateLabelVis();
 
-    /* 독도 표기 — 국립공원은 아니지만(천연기념물 제336호) 지도에 항상 이름을 보여준다 */
-    const dokdo = document.createElement('div');
-    dokdo.className = 'dokdo';
-    dokdo.innerHTML = '<i></i>독도';
-    new state.gl.Marker({ element: dokdo, anchor: 'left' })
+    /* 독도 표기 — 시군구 수준으로 확대했을 때만 이름을 보여준다.
+       (MapLibre 가 마커 루트에 인라인 opacity 를 걸어 CSS 를 덮어쓰므로
+        내부 요소를 만들어 그쪽을 숨기고 보인다) */
+    const dokdoRoot = document.createElement('div');
+    dokdoRoot.style.pointerEvents = 'none';
+    dokdoRoot.innerHTML = '<div class="dokdo"><i></i>독도</div>';
+    new state.gl.Marker({ element: dokdoRoot, anchor: 'left' })
       .setLngLat([131.8674, 37.2431])
       .addTo(state.map);
 
@@ -280,16 +315,20 @@
       },
     });
 
-    state.map.addLayer({
-      id: 'gp-count', type: 'symbol', source: 'global-parks',
-      filter: ['has', 'point_count'],
-      layout: {
-        'text-field': ['get', 'point_count_abbreviated'],
-        'text-size': 12, 'text-font': ['Open Sans Bold'],
-        'text-allow-overlap': true,
-      },
-      paint: { 'text-color': '#ffffff' },
-    });
+    /* 글꼴 서버가 응답할 때만 숫자·라벨 레이어를 넣는다
+       (글리프 요청 실패는 타일 전체를 죽여 원까지 사라지게 하므로) */
+    if (state.glyphs) {
+      state.map.addLayer({
+        id: 'gp-count', type: 'symbol', source: 'global-parks',
+        filter: ['has', 'point_count'],
+        layout: {
+          'text-field': ['get', 'point_count_abbreviated'],
+          'text-size': 12, 'text-font': ['Open Sans Regular'],
+          'text-allow-overlap': true,
+        },
+        paint: { 'text-color': '#ffffff' },
+      });
+    }
 
     state.map.addLayer({
       id: 'gp-point', type: 'circle', source: 'global-parks',
@@ -302,30 +341,34 @@
       },
     });
 
-    state.map.addLayer({
-      id: 'gp-label', type: 'symbol', source: 'global-parks',
-      filter: ['!', ['has', 'point_count']], minzoom: 6,
-      layout: {
-        'text-field': ['get', 'name'], 'text-size': 11,
-        'text-offset': [0, 1.1], 'text-anchor': 'top',
-        'text-font': ['Open Sans Regular'],
-      },
-      paint: {
-        'text-color': 'rgba(255,255,255,.92)',
-        'text-halo-color': 'rgba(0,0,0,.85)', 'text-halo-width': 1.4,
-      },
-    });
+    if (state.glyphs) {
+      state.map.addLayer({
+        id: 'gp-label', type: 'symbol', source: 'global-parks',
+        filter: ['!', ['has', 'point_count']], minzoom: 6,
+        layout: {
+          'text-field': ['get', 'name'], 'text-size': 11,
+          'text-offset': [0, 1.1], 'text-anchor': 'top',
+          'text-font': ['Open Sans Regular'],
+        },
+        paint: {
+          'text-color': 'rgba(255,255,255,.92)',
+          'text-halo-color': 'rgba(0,0,0,.85)', 'text-halo-width': 1.4,
+        },
+      });
+    }
 
-    /* 클러스터 클릭 → 확대 */
+    /* 클러스터 클릭 → 확대
+       MapLibre v4는 Promise, Mapbox는 콜백을 쓰므로 둘 다 지원한다
+       (콜백만 쓰면 MapLibre 에서 조용히 무시되어 클릭이 안 먹는다) */
     state.map.on('click', 'gp-cluster', (e) => {
       const f = e.features[0];
-      state.map.getSource('global-parks').getClusterExpansionZoom(
+      const ease = (zoom) =>
+        state.map.easeTo({ center: f.geometry.coordinates, zoom: zoom + 0.4, duration: 650 });
+      const ret = state.map.getSource('global-parks').getClusterExpansionZoom(
         f.properties.cluster_id,
-        (err, zoom) => {
-          if (err) return;
-          state.map.easeTo({ center: f.geometry.coordinates, zoom: zoom + 0.4, duration: 650 });
-        }
+        (err, zoom) => { if (!err) ease(zoom); }
       );
+      if (ret && typeof ret.then === 'function') ret.then(ease).catch(() => { /* 무시 */ });
     });
 
     /* 선택된 해외 공원 강조 링 */
