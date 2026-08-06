@@ -18,10 +18,10 @@ window.CONFIG = {
   /* 지도 초기 위치 — 시작은 국내(대한민국) 기준.
      실제로는 국내 공원 24곳이 모두 들어오도록 자동으로 화면을 맞추고,
      아래 값은 그 계산이 실패했을 때의 대비값입니다. */
-  MAP_START: { center: [127.8, 36.3], zoom: 6.2, pitch: 40, bearing: -8 },
+  MAP_START: { center: [127.8, 36.3], zoom: 6.2, pitch: 0, bearing: 0 },
 
   /* 해외 탭으로 나갈 때 쓰는 전 세계 뷰 */
-  WORLD_VIEW: { center: [30, 25], zoom: 1.6, pitch: 25, bearing: 0 },
+  WORLD_VIEW: { center: [30, 25], zoom: 1.6, pitch: 0, bearing: 0 },
 
   /* 스타일 */
   MAPBOX_STYLE: 'mapbox://styles/mapbox/dark-v11',

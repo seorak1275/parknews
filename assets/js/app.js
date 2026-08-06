@@ -162,7 +162,7 @@
 
     /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
        부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
-    fitTo(REGIONS_KR, { duration: 0, maxZoom: 8, pitch: 40 });
+    fitTo(REGIONS_KR, { duration: 0, maxZoom: 8, pitch: 0 });
 
     boot.textContent = '';
     $('#boot').classList.add('is-done');
@@ -228,6 +228,22 @@
   const EMPTY_FC = { type: 'FeatureCollection', features: [] };
 
   function addGlobalLayer() {
+    /* 선택한 해외 공원의 경계 폴리곤 — 점 레이어보다 먼저 추가해 아래에 깔리게 */
+    state.map.addSource('global-bound', { type: 'geojson', data: EMPTY_FC });
+    state.map.addLayer({
+      id: 'global-bound-fill', type: 'fill', source: 'global-bound',
+      paint: { 'fill-color': CONFIG.COLORS.global, 'fill-opacity': 0.14 },
+    });
+    state.map.addLayer({
+      id: 'global-bound-line', type: 'line', source: 'global-bound',
+      layout: { 'line-join': 'round' },
+      paint: {
+        'line-color': CONFIG.COLORS.global,
+        'line-width': ['interpolate', ['linear'], ['zoom'], 3, 1, 8, 2, 12, 2.6],
+        'line-opacity': 0.9,
+      },
+    });
+
     state.map.addSource('global-parks', {
       type: 'geojson', data: EMPTY_FC,
       cluster: true, clusterRadius: 46, clusterMaxZoom: 9,
@@ -336,6 +352,50 @@
     }
   }
 
+  /* ----------------------------------------------------------
+   *  해외 공원 경계 — 전 세계 2천여 곳의 폴리곤을 미리 담을 수 없어
+   *  선택 시 OSM Nominatim 에서 해당 관계(osmId)의 경계만 가져온다.
+   *  (클릭할 때 1회 조회 — Nominatim 이용 정책(1req/s) 내 · 결과는 캐시)
+   * -------------------------------------------------------- */
+  const boundCache = new Map();          // park.id -> Feature | null(없음)
+
+  async function fetchGlobalBound(region) {
+    if (boundCache.has(region.id)) return boundCache.get(region.id);
+    let feat = null;
+    if (region.osmId) {
+      /* osmId 는 대부분 관계(R)지만 일부는 웨이(W)로 저장돼 있다 */
+      for (const t of ['R', 'W']) {
+        try {
+          const res = await fetch(
+            'https://nominatim.openstreetmap.org/lookup'
+            + `?osm_ids=${t}${region.osmId}`
+            + '&format=jsonv2&polygon_geojson=1&polygon_threshold=0.001',
+            { headers: { Accept: 'application/json' } });
+          if (!res.ok) break;
+          const rows = await res.json();
+          const g = rows?.[0]?.geojson;
+          if (g && (g.type === 'Polygon' || g.type === 'MultiPolygon')) {
+            feat = { type: 'Feature', properties: { id: region.id }, geometry: g };
+            break;
+          }
+        } catch { /* 네트워크 실패 — 경계 없이 점만 표시 */ }
+      }
+    }
+    boundCache.set(region.id, feat);
+    return feat;
+  }
+
+  async function showGlobalBound(region) {
+    const src = state.map?.getSource('global-bound');
+    if (!src) return;
+    src.setData(EMPTY_FC);
+    if (!region || region.cat !== 'global') return;
+    const feat = await fetchGlobalBound(region);
+    if (!feat) return;
+    if (state.active?.id !== region.id) return;   // 기다리는 사이 다른 곳 선택
+    src.setData({ type: 'FeatureCollection', features: [feat] });
+  }
+
   /** 탐색기에서 고른 범위를 지도에 반영 */
   function showGlobal(parks) {
     state.globalShown = parks;
@@ -373,7 +433,7 @@
     if (points.length === 1) {
       state.map.flyTo({
         center: [points[0].lng, points[0].lat],
-        zoom: 8.5, pitch: pitch ?? 45, duration, essential: true,
+        zoom: 8.5, pitch: pitch ?? 0, bearing: 0, duration, essential: true,
       });
       return;
     }
@@ -390,8 +450,8 @@
 
   /** 탭(국내/해외/기관)에 해당하는 기본 화면으로 이동 */
   function frameScope(scope, duration = 900) {
-    if (scope === 'kr') return fitTo(REGIONS_KR, { duration, maxZoom: 8, pitch: 40 });
-    if (scope === 'org') return fitTo(REGIONS_ORG, { duration, maxZoom: 4, pitch: 20 });
+    if (scope === 'kr') return fitTo(REGIONS_KR, { duration, maxZoom: 8, pitch: 0 });
+    if (scope === 'org') return fitTo(REGIONS_ORG, { duration, maxZoom: 4, pitch: 0 });
     return flyWorld(duration);
   }
 
@@ -432,6 +492,7 @@
     }
     if (scope !== 'global') {
       showGlobal([]);
+      state.map?.getSource('global-bound')?.setData(EMPTY_FC);
       $('#stat-points').textContent = shown.toLocaleString();
     }
     for (const id of ['kr-bounds-fill', 'kr-bounds-line']) {
@@ -503,12 +564,14 @@
         ['==', ['get', 'id'], region.cat === 'global' ? region.id : '__none__']);
     }
 
+    /* 정면(수직) 뷰 유지 — 기울이면 위경도에 따라 지도가 누워 보인다 */
     state.map.flyTo({
       center: [region.lng, region.lat],
       zoom: region.cat === 'city' ? 11 : 9.2,
-      pitch: 52, bearing: -14, speed: 0.85, curve: 1.5, essential: true,
+      pitch: 0, bearing: 0, speed: 0.85, curve: 1.5, essential: true,
     });
 
+    showGlobalBound(region);       // 해외 공원이면 경계 조회·표시 (아니면 지움)
     renderSidebar(region);
     openSidebar();
     state.onPickMobileClose?.();   // 모바일: 탐색 시트를 닫아 상세가 온전히 보이게
@@ -669,6 +732,10 @@
     if (m?.getLayer('gp-active')) {
       m.setPaintProperty('gp-active', 'circle-stroke-color', on ? DARK.global : CONFIG.COLORS.global);
     }
+    if (m?.getLayer('global-bound-fill')) {
+      m.setPaintProperty('global-bound-fill', 'fill-color', on ? DARK.global : CONFIG.COLORS.global);
+      m.setPaintProperty('global-bound-line', 'line-color', on ? DARK.global : CONFIG.COLORS.global);
+    }
     if (persist) {
       try { localStorage.setItem('parknews-light', on ? '1' : '0'); } catch { /* 무시 */ }
     }
@@ -754,6 +821,7 @@
       if (state.map.getLayer('gp-active')) {
         state.map.setFilter('gp-active', ['==', ['get', 'id'], '__none__']);
       }
+      state.map.getSource('global-bound')?.setData(EMPTY_FC);
       closeSidebar();
     });
   }
