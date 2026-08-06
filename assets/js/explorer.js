@@ -55,6 +55,182 @@ window.Explorer = (() => {
   const parksOf = (pred) => (state.data?.parks || []).filter(pred);
 
   /* ==========================================================
+   *  검색 — 한글 표기 + 오타 허용 퍼지 매칭
+   *  · "요세미티" 같은 한글 표기: 별칭 사전 + 한글→로마자 변환으로 매칭
+   *  · "yosemiet" 같은 오타: 편집거리 기반 근사 부분일치로 허용
+   * ======================================================== */
+
+  /* 유명 공원 한글 표기 → 영문 검색어 (| 로 복수 표기) */
+  const KO_ALIASES = {
+    /* 북미 */
+    '요세미티': 'yosemite', '옐로스톤': 'yellowstone', '옐로우스톤': 'yellowstone',
+    '그랜드캐니언': 'grandcanyon', '그랜드캐년': 'grandcanyon', '그랜드티턴': 'grandteton',
+    '자이언': 'zion', '브라이스캐니언': 'brycecanyon', '아치스': 'arches',
+    '세쿼이아': 'sequoia', '킹스캐니언': 'kingscanyon', '데스밸리': 'deathvalley',
+    '조슈아트리': 'joshuatree', '로키마운틴': 'rockymountain', '글레이셔': 'glacier',
+    '올림픽': 'olympic', '레이니어': 'rainier', '마운트레이니어': 'rainier',
+    '크레이터레이크': 'craterlake', '배들랜즈': 'badlands', '아카디아': 'acadia',
+    '에버글레이즈': 'everglades', '데날리': 'denali', '빅벤드': 'bigbend',
+    '사와로': 'saguaro', '화이트샌즈': 'whitesands', '칼즈배드': 'carlsbad',
+    '카를스바드': 'carlsbad', '메사버드': 'mesaverde', '캐니언랜즈': 'canyonlands',
+    '캐피톨리프': 'capitolreef', '그레이트스모키': 'greatsmoky', '셰넌도어': 'shenandoah',
+    '셰난도어': 'shenandoah', '하와이화산': 'hawaiivolcanoes', '레드우드': 'redwood',
+    '그레이트베이슨': 'greatbasin', '노스캐스케이드': 'northcascades',
+    '채널제도': 'channelislands', '매머드동굴': 'mammothcave', '맘모스케이브': 'mammothcave',
+    '핫스프링스': 'hotsprings', '반프': 'banff', '재스퍼': 'jasper', '요호': 'yoho',
+    '쿠트니': 'kootenay', '워터턴': 'waterton', '그로모른': 'grosmorne',
+    /* 중남미 */
+    '토레스델파이네': 'torresdelpaine', '이과수': 'iguazu|iguacu', '갈라파고스': 'galapagos',
+    '티칼': 'tikal', '코르코바도': 'corcovado', '로스글라시아레스': 'losglaciares',
+    '나우엘우아피': 'nahuelhuapi', '코토팍시': 'cotopaxi', '마누': 'manu',
+    '우아스카란': 'huascaran', '카나이마': 'canaima',
+    /* 아프리카 */
+    '크루거': 'kruger', '세렝게티': 'serengeti', '킬리만자로': 'kilimanjaro',
+    '에토샤': 'etosha', '초베': 'chobe', '암보셀리': 'amboseli', '차보': 'tsavo',
+    '비룽가': 'virunga', '브윈디': 'bwindi', '시미엔': 'simien',
+    '테이블마운틴': 'tablemountain', '아루샤': 'arusha', '나이로비': 'nairobi',
+    /* 유럽 */
+    '플리트비체': 'plitvice', '사렉': 'sarek', '아비스코': 'abisko', '오울랑카': 'oulanka',
+    '타트라': 'tatra', '트리글라브': 'triglav', '두르미토르': 'durmitor',
+    '올림포스': 'olympus', '칼랑크': 'calanques', '요툰헤이멘': 'jotunheimen',
+    '케언곰': 'cairngorms', '레이크디스트릭트': 'lakedistrict',
+    '스노도니아': 'snowdonia|eryri', '피크디스트릭트': 'peakdistrict',
+    '도냐나': 'donana', '시에라네바다': 'sierranevada', '피코스데에우로파': 'picosdeeuropa',
+    '테이데': 'teide', '그란파라디소': 'granparadiso', '아브루초': 'abruzzo',
+    '친퀘테레': 'cinqueterre', '바이에른숲': 'bayerischerwald',
+    '작센스위스': 'sachsischeschweiz', '베르히테스가덴': 'berchtesgaden',
+    '바누아즈': 'vanoise', '에크랭': 'ecrins', '피레네': 'pyrenees',
+    /* 아시아 */
+    '후지하코네': 'fujihakone', '시레토코': 'shiretoko', '닛코': 'nikko',
+    '아소': 'aso', '다이세쓰잔': 'daisetsuzan', '장자제': 'zhangjiajie', '장가계': 'zhangjiajie',
+    '코모도': 'komodo', '브로모': 'bromo', '구눙레우세르': 'gunungleuser',
+    '카오야이': 'khaoyai', '카오속': 'khaosok', '도이인타논': 'doiinthanon',
+    '카지랑가': 'kaziranga', '코르벳': 'corbett', '란탐보르': 'ranthambore',
+    '순다르반스': 'sundarbans', '치트완': 'chitwan', '사가르마타': 'sagarmatha',
+    '랑탕': 'langtang', '푸꾸옥': 'phuquoc', '퐁냐케방': 'phongnhakebang',
+    '깟바': 'catba', '타만네가라': 'tamannegara', '키나발루': 'kinabalu',
+    /* 오세아니아 */
+    '카카두': 'kakadu', '울루루': 'uluru', '블루마운틴스': 'bluemountains',
+    '다인트리': 'daintree', '크레이들마운틴': 'cradlemountain', '통가리로': 'tongariro',
+    '피오르드랜드': 'fiordland', '아오라키': 'aoraki|mountcook', '마운트쿡': 'aoraki|mountcook',
+    '아벨태즈먼': 'abeltasman',
+  };
+
+  /* 정규화 — 소문자 · 발음기호 제거 · 한글/영숫자 외 제거 */
+  const norm = (s) => String(s || '').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC')
+    .replace(/[^a-z0-9가-힣]/g, '');
+
+  const hasHangul = (s) => /[가-힣]/.test(s);
+
+  /* 한글 → 로마자 (외래어 표기 역추정용 — 정확할 필요 없이 퍼지 매칭 입력) */
+  const H2L = (() => {
+    const ON = ['g', 'kk', 'n', 'd', 'tt', 'r', 'm', 'b', 'pp', 's', 'ss', '', 'j', 'jj', 'ch', 'k', 't', 'p', 'h'];
+    const VO = ['a', 'ae', 'ya', 'yae', 'eo', 'e', 'yeo', 'ye', 'o', 'wa', 'wae', 'oe', 'yo', 'u', 'wo', 'we', 'wi', 'yu', 'eu', 'ui', 'i'];
+    const CO = ['', 'k', 'k', 'k', 'n', 'n', 'n', 't', 'l', 'k', 'm', 'l', 'l', 'l', 'l', 'l', 'm', 'p', 'p', 't', 't', 'ng', 't', 't', 'k', 't', 'p', 't'];
+    return (s) => {
+      let out = '';
+      for (const ch of s) {
+        const c = ch.codePointAt(0);
+        if (c < 0xAC00 || c > 0xD7A3) { out += ch; continue; }
+        const i = c - 0xAC00;
+        const on = ON[Math.floor(i / 588)];
+        const vo = VO[Math.floor((i % 588) / 28)];
+        const co = CO[i % 28];
+        /* '스'·'트' 같은 받침 없는 '으' 음절은 자음만 (외래어 삽입모음) */
+        out += (vo === 'eu' && !co && on) ? on : on + vo + co;
+      }
+      return out;
+    };
+  })();
+
+  /* 근사 부분일치 — needle 이 hay 안 어딘가에 편집거리 max 이내로 존재하면 그 거리 */
+  function subDist(hay, needle, max) {
+    if (!hay || hay.length < needle.length - max) return Infinity;
+    let prev = new Array(hay.length + 1).fill(0);   // 시작 위치 자유
+    for (let i = 1; i <= needle.length; i++) {
+      const cur = [i];
+      let rowMin = i;
+      for (let j = 1; j <= hay.length; j++) {
+        const cost = needle[i - 1] === hay[j - 1] ? 0 : 1;
+        const v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+        cur.push(v);
+        if (v < rowMin) rowMin = v;
+      }
+      if (rowMin > max) return Infinity;
+      prev = cur;
+    }
+    return Math.min(...prev);
+  }
+
+  /* 허용 오타 수 — 한글은 음절 단위라 보수적으로 */
+  const tol = (term) => hasHangul(term)
+    ? (term.length >= 3 ? 1 : 0)
+    : (term.length <= 3 ? 0 : term.length <= 6 ? 1 : term.length <= 10 ? 2 : 3);
+
+  /** 이름류 필드에서 최고 점수 (부분일치 0 · 퍼지 1+거리 · 불일치 Infinity) */
+  function fieldScore(fields, term) {
+    let best = Infinity;
+    const t = tol(term);
+    for (const hay of fields) {
+      if (!hay) continue;
+      if (hay.includes(term)) return 0;
+      if (t) {
+        const d = subDist(hay, term, t);
+        if (d !== Infinity && d + 1 < best) best = d + 1;
+      }
+    }
+    return best;
+  }
+
+  /** 검색어 → 매칭에 쓸 항(term) 목록 */
+  function searchTerms(raw) {
+    const nq = norm(raw);
+    if (!nq) return [];
+    if (!hasHangul(nq)) return [nq];
+    const terms = [nq];
+    for (const [ko, en] of Object.entries(KO_ALIASES)) {
+      const k = norm(ko);
+      const hit = k.includes(nq) || nq.includes(k)
+        || (nq.length >= 3 && subDist(k, nq, 1) !== Infinity);
+      if (hit) for (const t of en.split('|')) terms.push(t);
+    }
+    const lat = H2L(nq);
+    if (lat && !hasHangul(lat)) terms.push(lat);
+    return terms;
+  }
+
+  let searchMemo = { q: null, hits: null };
+
+  /** 해외 공원 퍼지 검색 — 점수순 정렬 (목록·지도 공용) */
+  function globalSearch(raw) {
+    if (searchMemo.q === raw) return searchMemo.hits;
+    const terms = searchTerms(raw);
+    const scored = [];
+    for (const p of state.data?.parks || []) {
+      if (!p.__idx) {
+        p.__idx = {
+          names: [norm(p.name), norm(p.nameEn), norm(p.nameLocal)],
+          geo: [norm(p.countryKo), norm(p.country), norm(p.subregionKo)],
+        };
+      }
+      let best = Infinity;
+      for (const t of terms) {
+        /* 나라·지역명은 정확 부분일치만 (퍼지 허용 시 잡음 폭증) */
+        if (p.__idx.geo.some((g) => g && g.includes(t))) { best = 0; break; }
+        const s = fieldScore(p.__idx.names, t);
+        if (s < best) best = s;
+        if (!best) break;
+      }
+      if (best !== Infinity) scored.push([best, p]);
+    }
+    scored.sort((a, b) => a[0] - b[0] || a[1].name.localeCompare(b[1].name));
+    const hits = scored.map((x) => x[1]);
+    searchMemo = { q: raw, hits };
+    return hits;
+  }
+
+  /* ==========================================================
    *  렌더링
    * ======================================================== */
   function crumb() {
@@ -106,7 +282,12 @@ window.Explorer = (() => {
     if (state.scope === 'kr') {
       crumbBox.innerHTML = `<span class="ex-crumb__now">국내 국립공원 ${REGIONS_KR.length}곳</span>`;
       const q = state.query.trim().toLowerCase();
-      const rows = REGIONS_KR.filter((r) => !q || r.name.toLowerCase().includes(q));
+      let rows = REGIONS_KR.filter((r) => !q || r.name.toLowerCase().includes(q));
+      /* 정확 일치가 없으면 오타 허용 (예: 설학산 → 설악산) */
+      if (q && !rows.length) {
+        const nq = norm(q);
+        rows = REGIONS_KR.filter((r) => fieldScore([norm(r.name)], nq) !== Infinity);
+      }
       list.innerHTML = rows.length
         ? rows.map((r) =>
             `<li><button class="ex-row ex-row--park" data-park="${esc(r.id)}">
@@ -119,8 +300,12 @@ window.Explorer = (() => {
     /* ---------- 보전기관 — 국내/해외 공원청/국제기구 섹션으로 묶어서 ---------- */
     if (state.scope === 'org') {
       const q0 = state.query.trim().toLowerCase();
-      const rows = REGIONS_ORG.filter((r) =>
+      let rows = REGIONS_ORG.filter((r) =>
         !q0 || r.name.toLowerCase().includes(q0) || (r.desc || '').toLowerCase().includes(q0));
+      if (q0 && !rows.length) {
+        const nq = norm(q0);
+        rows = REGIONS_ORG.filter((r) => fieldScore([norm(r.name)], nq) !== Infinity);
+      }
       crumbBox.innerHTML = `<span class="ex-crumb__now">보전기관·연맹 ${rows.length}곳</span>`;
 
       const ORG_GROUPS = [
@@ -142,15 +327,10 @@ window.Explorer = (() => {
       return;
     }
 
-    /* ---------- 해외 : 검색 중이면 단계 무시하고 전역 검색 ---------- */
+    /* ---------- 해외 : 검색 중이면 단계 무시하고 전역 퍼지 검색 ---------- */
     const q = state.query.trim().toLowerCase();
     if (q) {
-      const hits = parksOf((p) =>
-        p.name.toLowerCase().includes(q) ||
-        (p.nameEn || '').toLowerCase().includes(q) ||
-        (p.countryKo || '').toLowerCase().includes(q) ||
-        (p.country || '').toLowerCase().includes(q)
-      ).slice(0, 120);
+      const hits = globalSearch(state.query).slice(0, 120);
       crumbBox.innerHTML = `<span class="ex-crumb__now">검색 “${esc(state.query)}” · ${hits.length}곳</span>`;
       list.innerHTML = hits.length
         ? hits.map((p) =>
@@ -225,9 +405,7 @@ window.Explorer = (() => {
     let parks = state.data?.parks || [];
     const q = state.query.trim().toLowerCase();
     if (q) {
-      parks = parks.filter((p) =>
-        p.name.toLowerCase().includes(q) || (p.nameEn || '').toLowerCase().includes(q) ||
-        (p.countryKo || '').toLowerCase().includes(q) || (p.country || '').toLowerCase().includes(q));
+      parks = globalSearch(state.query).slice(0, 200);
     } else if (state.iso3) parks = parks.filter((p) => p.iso3 === state.iso3);
     else if (state.subregion) parks = parks.filter((p) => p.subregionKo === state.subregion);
     else if (state.continent) parks = parks.filter((p) => p.continentKo === state.continent);
@@ -237,7 +415,7 @@ window.Explorer = (() => {
 
   const PLACEHOLDER = {
     kr: '국내 공원 검색 (예: 설악)',
-    global: '전 세계 검색 (예: Banff, 태국)',
+    global: '전 세계 검색 (예: 요세미티, Banff, 태국)',
     org: '기관 검색 (예: IUCN, 공단)',
   };
 
