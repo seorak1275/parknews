@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>PARKNEWS · 섹터별 뉴스 대시보드</title>
+<meta name="description" content="국립공원 뉴스를 행정 · 재난안전 · 자원보전 · 탐방시설 분야로 나눠 한눈에 보는 대시보드" />
+<meta name="theme-color" content="#080b13" />
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="db-page">
+
+<header class="topbar glass">
+  <a class="brand" href="./">
+    <span class="brand__mark"></span>
+    <div>
+      <h1>PARKNEWS</h1>
+      <p>섹터별 뉴스 대시보드</p>
+    </div>
+  </a>
+  <div class="topbar__stats">
+    <button class="dlbtn" id="db-refresh">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M20 12a8 8 0 11-2.34-5.66M20 4v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      새로고침
+    </button>
+    <a class="dlbtn dlbtn--stat" href="./">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M9 20l-6-2V4l6 2 6-2 6 2v14l-6-2-6 2zM9 6v14M15 4v14" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></svg>
+      지도 대시보드
+    </a>
+  </div>
+</header>
+
+<main class="db-wrap">
+  <div class="db-head">
+    <h2>섹터별 국립공원 뉴스</h2>
+    <p>최근 기사를 <b>행정 · 재난안전 · 자원보전 · 탐방시설</b> 네 분야로 자동 분류합니다.
+       기사 제목·요약의 키워드 기반이라 일부 오분류가 있을 수 있습니다.</p>
+  </div>
+
+  <div class="db-tiles" id="db-tiles"></div>
+  <div class="db-grid" id="db-grid"></div>
+
+  <p class="db-src">출처: 구글 뉴스 검색 · 클릭하면 원문 기사로 이동합니다.</p>
+</main>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/news.js"></script>
+<script src="assets/js/sector.js"></script>
+</body>
+</html>

@@ -237,7 +237,7 @@ window.Digest = (() => {
           </div>` : ''}
 
         <footer class="dg-foot">
-          <span>파크뉴스 일일 국립공원 기사요약</span>
+          <span>PARKNEWS 일일 국립공원 기사요약</span>
           <span>${d.simple ? '간이본 · AI 요약 미적용' : 'Claude 자동 요약'} · 수집 ${d.collected ?? d.itemCount}건</span>
         </footer>
       </div>`;
