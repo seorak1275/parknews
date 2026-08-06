@@ -20,7 +20,6 @@
     markers: new Map(),        // id -> { marker, el, region }  (국내 공원 + 보전기관)
     active: null,
     showBounds: true,
-    mono: false,
     light: false,              // 밝은 지도 (CARTO Positron)
     popup: null,
     globalShown: [],           // 현재 지도에 뿌린 해외 공원
@@ -627,20 +626,6 @@
   /* ==========================================================
    *  7. UI 바인딩
    * ======================================================== */
-  /* ---------- 흑백 모드 ----------
-     body 에 filter 를 걸면 position:fixed 가 깨지므로
-     지도에만 grayscale 을 적용하고 UI 색은 CSS 변수로 바꿉니다. */
-  function setMono(on, persist = true) {
-    state.mono = on;
-    document.body.classList.toggle('mono', on);
-    $('#toggle-mono').checked = on;
-    $('#btn-mono').classList.toggle('is-on', on);
-    $('#btn-mono').setAttribute('aria-pressed', String(on));
-    if (persist) {
-      try { localStorage.setItem('parknews-mono', on ? '1' : '0'); } catch { /* 무시 */ }
-    }
-  }
-
   /* ---------- 밝은 지도 ----------
      MapLibre 폴백 스타일에 실어 둔 다크·라이트 래스터 레이어의
      가시성만 바꾼다. (Mapbox 토큰 사용 시에는 스타일이 달라 미적용) */
@@ -665,6 +650,25 @@
     if (m?.getLayer('gp-count')) {
       m.setPaintProperty('gp-count', 'text-color', on ? '#1f2937' : '#ffffff');
     }
+    /* 지역 표시(경계·해외 지점·강조 링)도 밝은 지도에서는 어두운 톤으로 */
+    const DARK = { kr: '#0e7490', global: '#5b21b6' };
+    for (const id of ['kr-bounds-fill']) {
+      if (m?.getLayer(id)) m.setPaintProperty(id, 'fill-color', on ? DARK.kr : CONFIG.COLORS.kr);
+    }
+    if (m?.getLayer('kr-bounds-line')) {
+      m.setPaintProperty('kr-bounds-line', 'line-color', on ? DARK.kr : CONFIG.COLORS.kr);
+    }
+    if (m?.getLayer('gp-point')) {
+      m.setPaintProperty('gp-point', 'circle-color', on ? DARK.global : CONFIG.COLORS.global);
+      m.setPaintProperty('gp-point', 'circle-stroke-color', on ? 'rgba(255,255,255,.92)' : 'rgba(8,11,19,.9)');
+    }
+    if (m?.getLayer('gp-cluster')) {
+      m.setPaintProperty('gp-cluster', 'circle-color', on ? DARK.global : CONFIG.COLORS.global);
+      m.setPaintProperty('gp-cluster', 'circle-stroke-color', on ? DARK.global : CONFIG.COLORS.global);
+    }
+    if (m?.getLayer('gp-active')) {
+      m.setPaintProperty('gp-active', 'circle-stroke-color', on ? DARK.global : CONFIG.COLORS.global);
+    }
     if (persist) {
       try { localStorage.setItem('parknews-light', on ? '1' : '0'); } catch { /* 무시 */ }
     }
@@ -675,9 +679,6 @@
       state.showBounds = e.target.checked;
       applyVisibility();
     });
-
-    $('#toggle-mono').addEventListener('change', (e) => setMono(e.target.checked));
-    $('#btn-mono').addEventListener('click', () => setMono(!state.mono));
 
     $('#toggle-light').addEventListener('change', (e) => setMapLight(e.target.checked));
     $('#btn-light').addEventListener('click', () => setMapLight(!state.light));
@@ -801,10 +802,6 @@
     Digest.init();
     Ranking.init();
     Stats.init();
-    try {
-      const saved = localStorage.getItem('parknews-mono') ?? localStorage.getItem('parkwatch-mono');
-      setMono(saved === '1', false);
-    } catch { /* 무시 */ }
     Explorer.init({ onPick: (p) => { select(p); state.onPickMobileClose?.(); } });
     Explorer.onScope(({ scope, parks, level, reason }) => {
       applyVisibility();

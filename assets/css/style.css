@@ -801,30 +801,6 @@ body.dg-lock{overflow:hidden}
   .dg-detail{break-inside:avoid}
 }
 
-/* =============================================================
- *  흑백 모드
- *  body 에 filter 를 걸면 position:fixed 자식이 깨지므로
- *  지도에만 grayscale 을 적용하고 UI 는 색 변수만 회색으로 바꿉니다.
- * ========================================================== */
-body.mono #map{filter:grayscale(1) contrast(1.06) brightness(1.03)}
-body.mono{
-  --kr:#e4e4e7;
-  --global:#a1a1aa;
-  --org:#d4d4d8;
-}
-body.mono .brand__mark{background:conic-gradient(from 200deg,#e4e4e7,#a1a1aa,#71717a,#e4e4e7);box-shadow:0 0 20px rgba(228,228,231,.28)}
-body.mono .hotbar{background:linear-gradient(90deg,rgba(63,63,70,.94),rgba(39,39,42,.92) 45%,rgba(14,19,32,.92))}
-body.mono .hot-item__flag{background:#e4e4e7;color:#18181b}
-body.mono .hot-item__m s{color:#d4d4d8}
-body.mono .primarybtn{background:linear-gradient(135deg,#e4e4e7,#a1a1aa);color:#18181b;box-shadow:0 4px 16px rgba(228,228,231,.22)}
-body.mono .sb-live i{background:#e4e4e7;box-shadow:0 0 10px rgba(228,228,231,.6)}
-body.mono .dlbtn{color:#e4e4e7;background:rgba(228,228,231,.10);border-color:rgba(228,228,231,.32)}
-body.mono .dlbtn:hover{background:rgba(228,228,231,.2)}
-body.mono .rk-no--1{background:#e4e4e7;color:#18181b}
-body.mono .rk-no--2{background:#a1a1aa;color:#18181b}
-body.mono .rk-no--3{background:#71717a;color:#fafafa}
-body.mono .kwbar__fill{background:linear-gradient(90deg,rgba(228,228,231,.4),#e4e4e7)}
-body.mono .dg-sheet{filter:grayscale(1)}
 .iconbtn--top{flex:none;border:1px solid var(--stroke-2)}
 .iconbtn--top.is-on{color:#18181b;background:#e4e4e7;border-color:#e4e4e7}
 
@@ -838,13 +814,16 @@ body.map-light .mk__label{
   text-shadow:0 1px 2px rgba(255,255,255,.9),0 0 10px rgba(255,255,255,.75);
 }
 body.map-light .mk__dot{border-color:rgba(255,255,255,.92)}
+/* 지역 표시(마커 점·펄스)도 밝은 지도에서는 어두운 톤 유지 */
+body.map-light .mk--kr{--c:#0e7490}
+body.map-light .mk--global{--c:#5b21b6}
+body.map-light .mk--org{--c:#b45309}
 
 /* =============================================================
  *  통합 인기뉴스 순위
  * ========================================================== */
 .dlbtn--alt{color:#fde68a;background:rgba(251,191,36,.12);border-color:rgba(251,191,36,.38)}
 .dlbtn--alt:hover{background:rgba(251,191,36,.22);border-color:rgba(251,191,36,.6)}
-body.mono .dlbtn--alt{color:#e4e4e7;background:rgba(228,228,231,.10);border-color:rgba(228,228,231,.32)}
 
 .rk-tabs{display:flex;gap:3px;padding:3px;border-radius:9px;
   background:rgba(255,255,255,.05);border:1px solid var(--stroke);margin-left:8px}
@@ -889,7 +868,6 @@ body.mono .dlbtn--alt{color:#e4e4e7;background:rgba(228,228,231,.10);border-colo
   font-weight:800;color:#fde68a;background:rgba(251,191,36,.14);
   border:1px solid rgba(251,191,36,.3);border-radius:999px;padding:1px 8px;
 }
-body.mono .rk-heat{color:#e4e4e7;background:rgba(228,228,231,.12);border-color:rgba(228,228,231,.28)}
 .rk-press{color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:52%}
 .rk-more{margin-top:6px}
 .rk-more summary{font-size:10.5px;color:var(--kr);cursor:pointer;opacity:.85;list-style:none}
@@ -907,7 +885,6 @@ body.mono .rk-heat{color:#e4e4e7;background:rgba(228,228,231,.12);border-color:r
 .rk-bar{height:5px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
 .rk-bar i{display:block;height:100%;width:var(--w);border-radius:3px;
   background:linear-gradient(90deg,rgba(251,191,36,.45),#fbbf24)}
-body.mono .rk-bar i{background:linear-gradient(90deg,rgba(228,228,231,.4),#e4e4e7)}
 
 .ex-row--org:hover{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.28)}
 
@@ -916,7 +893,6 @@ body.mono .rk-bar i{background:linear-gradient(90deg,rgba(228,228,231,.4),#e4e4e
  * ========================================================== */
 .dlbtn--stat{color:#c7d2fe;background:rgba(129,140,248,.12);border-color:rgba(129,140,248,.38)}
 .dlbtn--stat:hover{background:rgba(129,140,248,.22);border-color:rgba(129,140,248,.6)}
-body.mono .dlbtn--stat{color:#e4e4e7;background:rgba(228,228,231,.10);border-color:rgba(228,228,231,.32)}
 
 .st-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:18px}
 .st-tile{
@@ -964,7 +940,6 @@ body.mono .dlbtn--stat{color:#e4e4e7;background:rgba(228,228,231,.10);border-col
 .st-rank li:nth-child(odd){background:rgba(255,255,255,.03)}
 .st-rank b{font-size:11px;color:var(--ink-4);font-variant-numeric:tabular-nums}
 .st-rank em{font-style:normal;font-size:11.5px;color:var(--global);font-variant-numeric:tabular-nums}
-body.mono .st-rank em{color:var(--ink-2)}
 
 .st-src{
   margin-top:18px;padding:11px 12px;border-radius:var(--r-sm);
