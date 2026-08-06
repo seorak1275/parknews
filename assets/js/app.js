@@ -20,6 +20,8 @@
     markers: new Map(),        // id -> { marker, el, region }  (국내 공원 + 보전기관)
     active: null,
     showBounds: true,
+    showAll: false,            // 모든 지점 표시 (국내+해외+기관 동시)
+    allParksCache: null,       // 해외 공원 전체 (토글 첫 사용 시 로드)
     light: false,              // 밝은 지도 (CARTO Positron)
     popup: null,
     globalShown: [],           // 현재 지도에 뿌린 해외 공원
@@ -159,6 +161,12 @@
     addGlobalLayer();
     await addBoundaryLayer();
     addMarkers();
+
+    /* 낮은 줌에서는 마커 이름 라벨을 숨겨 겹침을 막는다 (호버·선택 시엔 표시) */
+    const updateLabelVis = () =>
+      document.body.classList.toggle('map-lowzoom', state.map.getZoom() < 5.2);
+    state.map.on('zoom', updateLabelVis);
+    updateLabelVis();
 
     /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
        부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
@@ -480,25 +488,31 @@
     applyVisibility();
   }
 
-  /** 현재 탭(국내/해외/기관)에 맞춰 마커·경계 표시 */
+  /** 현재 탭(국내/해외/기관) 또는 '모든 지점 표시'에 맞춰 마커·경계 표시 */
   function applyVisibility() {
     const scope = Explorer.scope;          // 'kr' | 'global' | 'org'
     let shown = 0;
     for (const { el, region } of state.markers.values()) {
-      const on = (scope === 'kr' && region.cat === 'kr')
+      const on = state.showAll
+              || (scope === 'kr' && region.cat === 'kr')
               || (scope === 'org' && region.cat === 'org');
       el.style.display = on ? '' : 'none';
       if (on) shown++;
     }
     if (scope !== 'global') {
-      showGlobal([]);
-      state.map?.getSource('global-bound')?.setData(EMPTY_FC);
-      $('#stat-points').textContent = shown.toLocaleString();
+      if (state.showAll && state.allParksCache) {
+        showGlobal(state.allParksCache);
+        $('#stat-points').textContent = (shown + state.allParksCache.length).toLocaleString();
+      } else {
+        showGlobal([]);
+        state.map?.getSource('global-bound')?.setData(EMPTY_FC);
+        $('#stat-points').textContent = shown.toLocaleString();
+      }
     }
     for (const id of ['kr-bounds-fill', 'kr-bounds-line']) {
       if (state.map?.getLayer(id)) {
         state.map.setLayoutProperty(id, 'visibility',
-          (scope === 'kr' && state.showBounds) ? 'visible' : 'none');
+          ((scope === 'kr' || state.showAll) && state.showBounds) ? 'visible' : 'none');
       }
     }
   }
@@ -744,6 +758,15 @@
   function bindUI() {
     $('#toggle-bounds').addEventListener('change', (e) => {
       state.showBounds = e.target.checked;
+      applyVisibility();
+    });
+
+    /* 모든 지점 표시 — 카메라는 움직이지 않고 표시만 더한다 */
+    $('#toggle-all').addEventListener('change', async (e) => {
+      state.showAll = e.target.checked;
+      if (state.showAll && !state.allParksCache) {
+        state.allParksCache = await Explorer.allParks();   // 최초 1회 지연 로드
+      }
       applyVisibility();
     });
 
