@@ -91,6 +91,8 @@
 
   const FALLBACK_STYLE = {
     version: 8,
+    /* glyphs 가 없으면 text-field 레이어(클러스터 숫자·공원 라벨)가 그려지지 않는다 */
+    glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
     sources: {
       'carto-dark': {
         type: 'raster', tiles: cartoTiles('dark_all'), tileSize: 256,
@@ -167,6 +169,14 @@
       document.body.classList.toggle('map-lowzoom', state.map.getZoom() < 5.2);
     state.map.on('zoom', updateLabelVis);
     updateLabelVis();
+
+    /* 독도 표기 — 국립공원은 아니지만(천연기념물 제336호) 지도에 항상 이름을 보여준다 */
+    const dokdo = document.createElement('div');
+    dokdo.className = 'dokdo';
+    dokdo.innerHTML = '<i></i>독도';
+    new state.gl.Marker({ element: dokdo, anchor: 'left' })
+      .setLngLat([131.8674, 37.2431])
+      .addTo(state.map);
 
     /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
        부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
@@ -275,7 +285,7 @@
       filter: ['has', 'point_count'],
       layout: {
         'text-field': ['get', 'point_count_abbreviated'],
-        'text-size': 12, 'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-size': 12, 'text-font': ['Open Sans Bold'],
         'text-allow-overlap': true,
       },
       paint: { 'text-color': '#ffffff' },
@@ -298,7 +308,7 @@
       layout: {
         'text-field': ['get', 'name'], 'text-size': 11,
         'text-offset': [0, 1.1], 'text-anchor': 'top',
-        'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+        'text-font': ['Open Sans Regular'],
       },
       paint: {
         'text-color': 'rgba(255,255,255,.92)',
@@ -589,6 +599,9 @@
     renderSidebar(region);
     openSidebar();
     state.onPickMobileClose?.();   // 모바일: 탐색 시트를 닫아 상세가 온전히 보이게
+
+    /* 딥링크 — 주소를 복사해 공유하면 이 공원이 바로 열린다 */
+    try { history.replaceState(null, '', `#p=${encodeURIComponent(region.id)}`); } catch { /* 무시 */ }
   }
 
   function renderSidebar(region) {
@@ -846,6 +859,7 @@
       }
       state.map.getSource('global-bound')?.setData(EMPTY_FC);
       closeSidebar();
+      try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
     });
   }
 
@@ -925,5 +939,16 @@
 
     HotBar.init();
     initTicker();
+
+    /* 딥링크 진입 — #p=<공원id> 로 들어오면 해당 공원을 바로 연다 */
+    const hash = location.hash.match(/^#p=([%\w.-]+)/);
+    if (hash) {
+      const id = decodeURIComponent(hash[1]);
+      let p = Explorer.parkById(id);
+      if (!p) {                       // 해외 공원이면 데이터를 불러와 다시 찾는다
+        try { await Explorer.allParks(); p = Explorer.parkById(id); } catch { /* 무시 */ }
+      }
+      if (p) select(p);
+    }
   })();
 })();

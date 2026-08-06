@@ -401,6 +401,25 @@ code{
 body.map-lowzoom .mk__label{opacity:0}
 body.map-lowzoom .mk:hover .mk__label,
 body.map-lowzoom .mk.is-active .mk__label{opacity:1}
+
+/* 독도 표기 — 클릭 대상이 아닌 지명 라벨 */
+.dokdo{
+  display:flex;align-items:center;gap:5px;
+  font-size:10.5px;font-weight:600;letter-spacing:.02em;
+  color:rgba(255,255,255,.88);
+  text-shadow:0 1px 3px #000,0 0 10px rgba(0,0,0,.9);
+  pointer-events:none;
+}
+.dokdo i{
+  width:4px;height:4px;border-radius:50%;flex:none;
+  background:rgba(255,255,255,.75);box-shadow:0 0 6px rgba(255,255,255,.5);
+}
+body.map-lowzoom .dokdo{opacity:0}
+body.map-light .dokdo{
+  color:#18202e;
+  text-shadow:0 1px 2px rgba(255,255,255,.9),0 0 8px rgba(255,255,255,.75);
+}
+body.map-light .dokdo i{background:#334155;box-shadow:none}
 .mk.is-active{z-index:5}
 .mk.is-active .mk__dot{box-shadow:0 0 0 4px color-mix(in srgb,var(--c) 30%,transparent),0 0 26px 6px var(--c)}
 
