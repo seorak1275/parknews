@@ -21,6 +21,7 @@
     active: null,
     showBounds: true,
     mono: false,
+    light: false,              // 밝은 지도 (CARTO Positron)
     popup: null,
     globalShown: [],           // 현재 지도에 뿌린 해외 공원
   };
@@ -81,20 +82,29 @@
     return t.startsWith('pk.') && !t.includes('여기에') && t.length > 40;
   };
 
+  /* 다크(기본)·라이트 타일을 한 스타일에 모두 실어 두고
+     가시성만 전환한다 — setStyle 과 달리 커스텀 레이어가 유지되고 즉시 바뀐다.
+     visibility:none 인 레이어는 타일을 요청하지 않으므로 트래픽 낭비도 없다. */
+  const cartoTiles = (kind) => ['a', 'b', 'c', 'd'].map((s) =>
+    `https://${s}.basemaps.cartocdn.com/${kind}/{z}/{x}/{y}@2x.png`);
+
   const FALLBACK_STYLE = {
     version: 8,
     sources: {
-      carto: {
-        type: 'raster',
-        tiles: ['a', 'b', 'c', 'd'].map((s) =>
-          `https://${s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png`),
-        tileSize: 256,
+      'carto-dark': {
+        type: 'raster', tiles: cartoTiles('dark_all'), tileSize: 256,
+        attribution: '© OpenStreetMap contributors © CARTO',
+      },
+      'carto-light': {
+        type: 'raster', tiles: cartoTiles('light_all'), tileSize: 256,
         attribution: '© OpenStreetMap contributors © CARTO',
       },
     },
     layers: [
       { id: 'bg', type: 'background', paint: { 'background-color': '#080b13' } },
-      { id: 'carto', type: 'raster', source: 'carto', paint: { 'raster-opacity': 0.95 } },
+      { id: 'carto-dark', type: 'raster', source: 'carto-dark', paint: { 'raster-opacity': 0.95 } },
+      { id: 'carto-light', type: 'raster', source: 'carto-light',
+        layout: { visibility: 'none' }, paint: { 'raster-opacity': 1 } },
     ],
   };
 
@@ -631,6 +641,35 @@
     }
   }
 
+  /* ---------- 밝은 지도 ----------
+     MapLibre 폴백 스타일에 실어 둔 다크·라이트 래스터 레이어의
+     가시성만 바꾼다. (Mapbox 토큰 사용 시에는 스타일이 달라 미적용) */
+  function setMapLight(on, persist = true) {
+    state.light = on;
+    document.body.classList.toggle('map-light', on);
+    $('#toggle-light').checked = on;
+    $('#btn-light').classList.toggle('is-on', on);
+    $('#btn-light').setAttribute('aria-pressed', String(on));
+
+    const m = state.map;
+    if (m?.getLayer('carto-light')) {
+      m.setLayoutProperty('carto-light', 'visibility', on ? 'visible' : 'none');
+      m.setLayoutProperty('carto-dark', 'visibility', on ? 'none' : 'visible');
+      m.setPaintProperty('bg', 'background-color', on ? '#e9ecf1' : '#080b13');
+    }
+    /* 밝은 배경에서는 지도 위 글자를 어두운 색 + 밝은 외곽선으로 */
+    if (m?.getLayer('gp-label')) {
+      m.setPaintProperty('gp-label', 'text-color', on ? 'rgba(24,32,46,.95)' : 'rgba(255,255,255,.92)');
+      m.setPaintProperty('gp-label', 'text-halo-color', on ? 'rgba(255,255,255,.9)' : 'rgba(0,0,0,.85)');
+    }
+    if (m?.getLayer('gp-count')) {
+      m.setPaintProperty('gp-count', 'text-color', on ? '#1f2937' : '#ffffff');
+    }
+    if (persist) {
+      try { localStorage.setItem('parknews-light', on ? '1' : '0'); } catch { /* 무시 */ }
+    }
+  }
+
   function bindUI() {
     $('#toggle-bounds').addEventListener('change', (e) => {
       state.showBounds = e.target.checked;
@@ -639,6 +678,9 @@
 
     $('#toggle-mono').addEventListener('change', (e) => setMono(e.target.checked));
     $('#btn-mono').addEventListener('click', () => setMono(!state.mono));
+
+    $('#toggle-light').addEventListener('change', (e) => setMapLight(e.target.checked));
+    $('#btn-light').addEventListener('click', () => setMapLight(!state.light));
 
     $('#sb-close').addEventListener('click', closeSidebar);
     $('#sb-toggle').addEventListener('click', () => {
@@ -785,6 +827,7 @@
     try {
       await initMap();
       applyVisibility();
+      try { setMapLight(localStorage.getItem('parknews-light') === '1', false); } catch { /* 무시 */ }
     } catch (e) {
       console.error(e);
       $('#boot-status').innerHTML =

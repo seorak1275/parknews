@@ -72,6 +72,9 @@
       <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 3v11m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       일일 요약
     </button>
+    <button class="iconbtn iconbtn--top" id="btn-light" title="밝은 지도" aria-label="밝은 지도 전환">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+    </button>
     <button class="iconbtn iconbtn--top" id="btn-mono" title="흑백 모드" aria-label="흑백 모드 전환">
       <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 3a9 9 0 000 18z" fill="currentColor"/></svg>
     </button>
@@ -139,6 +142,11 @@
         <input type="checkbox" id="toggle-bounds" checked />
         <span class="switch__ui"></span>
         <span class="switch__lb">국립공원 경계</span>
+      </label>
+      <label class="switch">
+        <input type="checkbox" id="toggle-light" />
+        <span class="switch__ui"></span>
+        <span class="switch__lb">밝은 지도</span>
       </label>
       <label class="switch">
         <input type="checkbox" id="toggle-mono" />

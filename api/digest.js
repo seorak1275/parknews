@@ -427,7 +427,18 @@ export default async function handler(req, res) {
 
     const { parsed, usage } = await summarize({ targetDate, groups, prev1, prev2 });
 
-    const items = parsed.items.map((it, i) => ({ no: i + 1, ...it }));
+    /* 링크로 수집 원본을 되찾아 항목마다 기사 목록(제목·언론사·링크)을 붙인다
+       — 프론트의 '주요기사 상세' 섹션이 이걸 그대로 그린다 */
+    const linkIndex = new Map(articles.map((a) => [a.link, a]));
+    const items = parsed.items.map((it, i) => ({
+      no: i + 1,
+      ...it,
+      articles: (it.links || [])
+        .map((l) => linkIndex.get(l))
+        .filter(Boolean)
+        .slice(0, 5)
+        .map((a) => ({ title: a.title, press: a.press, link: a.link })),
+    }));
     const digest = {
       issueDate,
       issueDateKo: korean(issueDate),
