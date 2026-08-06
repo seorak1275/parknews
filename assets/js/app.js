@@ -104,15 +104,14 @@
   async function initMap() {
     const boot = $('#boot-status');
 
+    boot.textContent = '지도 엔진 로딩 중…';
     if (hasToken()) {
-      boot.textContent = 'Mapbox 엔진 로딩 중…';
       await loadCss('https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css');
       await loadScript('https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js');
       state.gl = window.mapboxgl;
       state.gl.accessToken = CONFIG.MAPBOX_TOKEN.trim();
       state.engine = 'mapbox';
     } else {
-      boot.textContent = 'MapLibre 엔진 로딩 중… (토큰 미설정)';
       await loadCss('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css');
       await loadScript('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js');
       state.gl = window.maplibregl;
@@ -151,7 +150,6 @@
     addGlobalLayer();
     await addBoundaryLayer();
     addMarkers();
-    updateEngineBadge();
 
     /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
        부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
@@ -629,7 +627,7 @@
     $('#btn-mono').classList.toggle('is-on', on);
     $('#btn-mono').setAttribute('aria-pressed', String(on));
     if (persist) {
-      try { localStorage.setItem('parkwatch-mono', on ? '1' : '0'); } catch { /* 무시 */ }
+      try { localStorage.setItem('parknews-mono', on ? '1' : '0'); } catch { /* 무시 */ }
     }
   }
 
@@ -672,8 +670,38 @@
 
     /* 지도를 탭하면 열려 있던 시트를 닫는다 (바깥 탭으로 닫기) */
     $('#map').addEventListener('pointerdown', () => {
-      if (isMobile() && !$('#panel').classList.contains('is-folded')) setPanel(false);
+      if (!isMobile()) return;
+      if (!$('#panel').classList.contains('is-folded')) setPanel(false);
+      if ($('#sidebar').classList.contains('is-open')) closeSidebar();
     }, { passive: true });
+
+    /* ---------- 모바일 바텀시트: 상단 핸들을 아래로 끌면 닫힘 ---------- */
+    const enableSheetDrag = (sheet, onClose, grabPx = 52) => {
+      let startY = 0, dy = 0, dragging = false;
+      sheet.addEventListener('touchstart', (e) => {
+        if (!isMobile()) return;
+        const y = e.touches[0].clientY;
+        if (y - sheet.getBoundingClientRect().top > grabPx) return;
+        startY = y; dy = 0; dragging = true;
+        sheet.style.transition = 'none';
+      }, { passive: true });
+      sheet.addEventListener('touchmove', (e) => {
+        if (!dragging) return;
+        dy = Math.max(0, e.touches[0].clientY - startY);
+        sheet.style.transform = `translateY(${dy}px)`;
+      }, { passive: true });
+      const end = () => {
+        if (!dragging) return;
+        dragging = false;
+        sheet.style.transition = '';
+        sheet.style.transform = '';
+        if (dy > 70) onClose();
+      };
+      sheet.addEventListener('touchend', end);
+      sheet.addEventListener('touchcancel', end);
+    };
+    enableSheetDrag($('#panel'), () => setPanel(false));
+    enableSheetDrag($('#sidebar'), closeSidebar);
 
     /* 현재 탭의 기본 화면으로 되돌린다 (국내면 대한민국, 해외면 전 세계) */
     $('#btn-home').addEventListener('click', () => {
@@ -685,16 +713,6 @@
       }
       closeSidebar();
     });
-  }
-
-  function updateEngineBadge() {
-    const b = $('#engine-badge');
-    if (state.engine === 'mapbox') {
-      b.textContent = 'Mapbox';
-      b.classList.add('is-live');
-    } else {
-      b.textContent = 'MapLibre · 데모 모드';
-    }
   }
 
   /* ==========================================================
@@ -741,7 +759,10 @@
     Digest.init();
     Ranking.init();
     Stats.init();
-    try { setMono(localStorage.getItem('parkwatch-mono') === '1', false); } catch { /* 무시 */ }
+    try {
+      const saved = localStorage.getItem('parknews-mono') ?? localStorage.getItem('parkwatch-mono');
+      setMono(saved === '1', false);
+    } catch { /* 무시 */ }
     Explorer.init({ onPick: (p) => { select(p); state.onPickMobileClose?.(); } });
     Explorer.onScope(({ scope, parks, level, reason }) => {
       applyVisibility();
@@ -761,8 +782,6 @@
         : parks.length > 0 && parks.length <= 40;
       if (follow) fitTo(parks);
     });
-    if (!hasToken()) $('#token-note').hidden = false;
-
     try {
       await initMap();
       applyVisibility();

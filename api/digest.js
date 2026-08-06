@@ -15,7 +15,7 @@
  *    ANTHROPIC_API_KEY   요약 생성용 (필수)
  *    CRON_SECRET         수동 실행 보호용 (권장)
  *    GITHUB_TOKEN        아카이브 저장용 (선택 · 없으면 저장 없이 결과만 반환)
- *    GITHUB_REPO         예) yourname/parkwatch
+ *    GITHUB_REPO         예) yourname/parknews
  *    GITHUB_BRANCH       기본값 main
  * ============================================================= */
 
@@ -89,7 +89,7 @@ async function fetchRss(query) {
   try {
     const res = await fetch(url, {
       signal: ctrl.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ParkWatch/1.0)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ParkNews/1.0)' },
     });
     if (!res.ok) return [];
     const xml = await res.text();

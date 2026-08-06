@@ -12,7 +12,7 @@
  *    → { items: [{ title, press, link, date, summary }], count, source }
  * ============================================================= */
 
-const UA = 'Mozilla/5.0 (compatible; ParkWatch/1.0; +https://parknews.vercel.app)';
+const UA = 'Mozilla/5.0 (compatible; ParkNews/1.0; +https://parknews.vercel.app)';
 
 const decodeEntities = (s) => String(s || '')
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')

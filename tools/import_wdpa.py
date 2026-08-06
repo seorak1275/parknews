@@ -25,7 +25,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 API = "https://api.protectedplanet.net/v4/protected_areas/search"
 IUCN_CATEGORY_II = "II"
-UA = {"User-Agent": "ParkWatch/1.0 (national park news dashboard)"}
+UA = {"User-Agent": "ParkNews/1.0 (national park news dashboard)"}
 
 CONTINENT_KO = {
     "Africa": "아프리카", "Asia": "아시아", "Europe": "유럽",
