@@ -22,7 +22,8 @@ tools/ne50.geojson
 일일기사요약/
 *.pdf
 
-# 작업용 스크린샷
+# 작업용 스크린샷 — 기본적으로 제외하되, README에 싣는 화면 캡처만 예외로 포함합니다.
 *.png
 *.jpg
 *.jpeg
+!screenshot-*.jpg
