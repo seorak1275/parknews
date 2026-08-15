@@ -1,0 +1,36 @@
+# =============================================================
+#  GitLab CI — 파크뉴스 정적 사이트를 GitLab Pages로 배포합니다.
+#
+#  ※ 이 파일이 저장소에 있으면 Auto DevOps는 자동으로 꺼집니다.
+#     (Auto DevOps는 .gitlab-ci.yml 이 없을 때만 동작)
+#     기존에 실패하던 build / test / code_quality 잡이 사라지고,
+#     아래 pages 잡 하나만 돌게 됩니다.
+#
+#  이 프로젝트는 빌드 과정이 없는 정적 사이트라
+#  파일을 public/ 으로 복사하는 것이 배포의 전부입니다.
+# =============================================================
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    # GitLab Pages는 public/ 디렉터리 안의 내용만 게시합니다.
+    - mkdir -p public
+    - cp index.html dashboard.html public/
+    - cp -r assets public/
+
+    # vercel.json 의 cleanUrls 대체 —
+    # /dashboard 로도 열리도록 디렉터리 형태를 하나 더 만들어 둡니다.
+    - mkdir -p public/dashboard
+    - cp dashboard.html public/dashboard/index.html
+
+    - echo "게시 대상:" && ls -R public | head -40
+  artifacts:
+    paths:
+      - public
+  rules:
+    # 기본 브랜치(main)에 올라올 때만 배포합니다.
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
