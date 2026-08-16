@@ -1,9 +1,9 @@
 {
   "date": "2026-08-10",
   "dateKo": "2026년 8월 10일 월요일",
-  "generatedAt": "2026-08-16T01:26:58.698Z",
+  "generatedAt": "2026-08-16T01:33:53.788Z",
   "kr": {
-    "collected": 17,
+    "collected": 16,
     "failedQueries": 0,
     "rows": [
       {
@@ -13,7 +13,7 @@
           "경남도민신문",
           "진주신문",
           "뉴시스",
-          "네이트"
+          "news.nate.com"
         ],
         "outletCount": 4,
         "articles": [
@@ -34,7 +34,7 @@
           },
           {
             "title": "국립공원공단-남동발전, 아동 생태체험·치유 기회 확대 '맞손'",
-            "press": "네이트",
+            "press": "news.nate.com",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XRF9KVzhlMTUzaVZwak9UZ1hCc3BLY1FjdXpudHI5ZjlOWWpXOFhiRExiLVJRaHAzZWUyOUwwOFVMMk5ob0xFemEzdmpHNWstZ18w?oc=5"
           }
         ],
@@ -231,22 +231,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yUm8xU1FuYmJoV3hqSHdURE56ZkNUMy1IMEFEYV9zQXpsd25mcUtobktXT3JLRjZHTF9yRDJES000NWNvVTFnUHRfczNOQ21mZGhJcDU1bHY0SHdyOGRHRmJtS0JfVUxQdnFoVV8wQVVVajZJN3U2N0Fn?oc=5"
-      },
-      {
-        "title": "주왕산 국립공원 > 굿데이 / 다시보기 - TBC 티비씨",
-        "reports": 1,
-        "press": [
-          "tbc.co.kr"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "주왕산 국립공원 > 굿데이 / 다시보기 - TBC 티비씨",
-            "press": "tbc.co.kr",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SOHc2VnhBWllKZm02Z3A4Zm9sV2I0blFYY19MMXpTVGhpSFBFNzBldUxTMjN6enRIT1Vwcmg4WHRjaHpPenJZLXdaZk9sNGJSYkZaRER5MlZyQnU0dlFqcGZiRE1NWmMzckZTcWxn?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SOHc2VnhBWllKZm02Z3A4Zm9sV2I0blFYY19MMXpTVGhpSFBFNzBldUxTMjN6enRIT1Vwcmg4WHRjaHpPenJZLXdaZk9sNGJSYkZaRER5MlZyQnU0dlFqcGZiRE1NWmMzckZTcWxn?oc=5"
       }
     ]
   },
