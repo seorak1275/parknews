@@ -1,9 +1,9 @@
 {
   "date": "2026-08-10",
   "dateKo": "2026년 8월 10일 월요일",
-  "generatedAt": "2026-08-16T01:33:53.788Z",
+  "generatedAt": "2026-08-16T01:53:56.496Z",
   "kr": {
-    "collected": 16,
+    "collected": 19,
     "failedQueries": 0,
     "rows": [
       {
@@ -13,7 +13,7 @@
           "경남도민신문",
           "진주신문",
           "뉴시스",
-          "news.nate.com"
+          "네이트"
         ],
         "outletCount": 4,
         "articles": [
@@ -34,11 +34,33 @@
           },
           {
             "title": "국립공원공단-남동발전, 아동 생태체험·치유 기회 확대 '맞손'",
-            "press": "news.nate.com",
+            "press": "네이트",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XRF9KVzhlMTUzaVZwak9UZ1hCc3BLY1FjdXpudHI5ZjlOWWpXOFhiRExiLVJRaHAzZWUyOUwwOFVMMk5ob0xFemEzdmpHNWstZ18w?oc=5"
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rLThSdnBRNWt4bDRvRlNzY3VqLThFV2xJYnF0dWl1WkFlY0hkenpjMmsyVUY4dC1JM1A3NndzTXlCeVlUcWpuS0hBd1oydkhNdzRYdEYtb1NEc0JOazVnNTlGNzRjdExZ?oc=5"
+      },
+      {
+        "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+        "reports": 2,
+        "press": [
+          "네이트",
+          "뉴스1"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+            "press": "네이트",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbXozRldRWDVpWjdYSXM3eHhBWk44ekFXNUx6b1JPU1JTMlZnNld6QkpjdWpDcFNySU5FSy1HU0dhRkZjbUt1VE9hQUttNWVWRE92Q3RKcjBDeDlTdjRVTA?oc=5"
+          },
+          {
+            "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53el9PbDF4bFhkZEtKSWdkcXdrOWJPYUdyMnVjakFKQmM1UW5LcnNEd0JrbFJTMURpMUFwWGdnMzlOejhEUmp0VnFPYzFMUjIwZFVKQUJfUjdFMElfOFHSAWNBVV95cUxPRFFJdlZ5amZDRE1ueWhKMHplOENmOFA2NlR4Rlp6UURTNFBYNXhVTmdzZ3pNMVdXZWpZUWFVUDgwV19tbkFmNjhIbEVlSFhSZTd3TzNuVTFteW4xSnh2TDE3NVU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbXozRldRWDVpWjdYSXM3eHhBWk44ekFXNUx6b1JPU1JTMlZnNld6QkpjdWpDcFNySU5FSy1HU0dhRkZjbUt1VE9hQUttNWVWRE92Q3RKcjBDeDlTdjRVTA?oc=5"
       },
       {
         "title": "한여름에 등산 다녀온 이유? '국립공원 산악박물관' 때문이죠!",
@@ -215,6 +237,22 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTbUI2VDM1X2JjRUphNFhwbEVLSFh1UGJhNjlxaHNySFpCaGdyeURLVmZGSjhJOUZ6RWFHVU1Ob0tFYzU0OWxLQ3dtWUNKT013c3Y3T0VTSExXVDh1UjFnQlRtaW80bG500gFsQVVfeXFMTzNvYV9UZlJZd0pkb05NaVZ2MEluNElwd01OMnFZMGhyekp3cnVpTmVBcURFZlNXcG43ZE1qZmJTbjFxSnlfNEFvNGoxVFN2WXBIQ1AtVHNyNURVOEotRWdIeTJnelhXVENzUzhJ?oc=5"
+      },
+      {
+        "title": "폐교 살려 국립공원 야영장으로…남해 덕신야영장 ‘성공 안착’",
+        "reports": 1,
+        "press": [
+          "경남일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "폐교 살려 국립공원 야영장으로…남해 덕신야영장 ‘성공 안착’",
+            "press": "경남일보",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBULXhxaVZET3pSTlYxLWVLODdPNFdMVlF5elplWUk0am9ZN29vLXRUSGJfUFdScUhKb0tGYlBMd3BmT3h2cU9TX3hCMXhLVUN4aFZtbGd0OXM0YU1NVUI2RUR1c1Y4aVJLTnJz?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBULXhxaVZET3pSTlYxLWVLODdPNFdMVlF5elplWUk0am9ZN29vLXRUSGJfUFdScUhKb0tGYlBMd3BmT3h2cU9TX3hCMXhLVUN4aFZtbGd0OXM0YU1NVUI2RUR1c1Y4aVJLTnJz?oc=5"
       },
       {
         "title": "가야산국립공원사무소, 이의철 신임소장 부임",
