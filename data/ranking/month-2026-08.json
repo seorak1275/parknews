@@ -3,7 +3,7 @@
   "days": 7,
   "from": "2026-08-09",
   "to": "2026-08-15",
-  "generatedAt": "2026-08-16T01:54:00.169Z",
+  "generatedAt": "2026-08-16T01:54:02.495Z",
   "kr": {
     "rows": [
       {
@@ -249,6 +249,28 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzazA2VU9XY28zdXVKb0YyTTZ1QjZHNjRiZzZ2RkJwYVZzVm5yRmhhTmllNGRmMlZZZGVhcGttT0JnT0pYaExkUW0tNWVybzFBTnB2ZmtkZ0J3N1Z6?oc=5"
       },
       {
+        "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
+        "reports": 2,
+        "press": [
+          "매일일보",
+          "충남일보"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
+            "press": "매일일보",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
+          },
+          {
+            "title": "[포토] 계룡산국립공원, 배재대 간호학과 '바이탈안전센터 운영 업무협약' 체결",
+            "press": "충남일보",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xc1FCS0ZTbkNtU2c1eHpRT3RkenE4cGVhWHRtMXE0VFpQdURTTzJVTG9PRkxJQzlVV3Y0Q2tGZkNlVWNQRFE4eFZfQml4WVJmbE5EZW1aS1lCVm9UNFJSTzh5UjVvX0YycVhoQlBmUkJJY0k?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
+      },
+      {
         "title": "한라산국립공원의 샘터, 마셔도 될까? 수질검사 모두 '적합'",
         "reports": 2,
         "press": [
@@ -335,6 +357,28 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RcmtjS1dkLVQyUU1YZ2tTOWhxNVpmZk5kaUhBRkVQVlNnZlp3RGZoU0RBVFRQa3lfRGljZ2VsUVNlSjU4alVLdUhHMTV4LUVONV9oUGpyOGFqV3hMVWE2V2dwLVdNaS04?oc=5"
+      },
+      {
+        "title": "인도네시아는 브로모 국립공원의 산불을 진압하기 위해 노력하고 있습니다.",
+        "reports": 2,
+        "press": [
+          "Vietnam.vn",
+          "뉴스1"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "인도네시아는 브로모 국립공원의 산불을 진압하기 위해 노력하고 있습니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2pHZWFEWWpHSG5xdHFvTUxkRHEwSGwzTHo0Ql9HUjBfdVMwNGFZQUF4LXo0TkhKc0UzWFNTcHNxUndxcTRZTzRmeHVvaWVuQktmVGo2VzE0dDJVeGpkaFFEMldfUDB0bTlGenp0TGc3X0lEUnZXbFc3VmVKZUtEV2R3VXZlMnFEMnZySXB3?oc=5"
+          },
+          {
+            "title": "[포토] 인도네시아 브로모 화산 국립공원 산불",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB2MlB4eUtrQlVhRVhkYU1BZ0o1a2h0V3Vpc0Fudm1qMGgzZXlqUF80cmp4SmRMRDI5QVlFd25zTURxOXh4b1NLZEV1cw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2pHZWFEWWpHSG5xdHFvTUxkRHEwSGwzTHo0Ql9HUjBfdVMwNGFZQUF4LXo0TkhKc0UzWFNTcHNxUndxcTRZTzRmeHVvaWVuQktmVGo2VzE0dDJVeGpkaFFEMldfUDB0bTlGenp0TGc3X0lEUnZXbFc3VmVKZUtEV2R3VXZlMnFEMnZySXB3?oc=5"
       },
       {
         "title": "계룡산생태탐방원, 무인 ‘국립공원숍 운영’ 개시",
@@ -530,22 +574,6 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNFdwdnQ3LXA5ZzlJSF9XSlVjT0g4UC1tdFdwTEh4cFhGUl9UaUF2SFkwVU5KTnp5SGw5dlVuMjZxTDF0dWY2c1VkcE9DLXhiWE5VRVNuQndDREQ5TkZqME9vTy01d2VZenNleTJ0ODVWbENwT2pBVTk0TE1BOFRtWThnVVhHSk0?oc=5"
       },
       {
-        "title": "인도네시아는 브로모 국립공원의 산불을 진압하기 위해 노력하고 있습니다.",
-        "reports": 1,
-        "press": [
-          "Vietnam.vn"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "인도네시아는 브로모 국립공원의 산불을 진압하기 위해 노력하고 있습니다.",
-            "press": "Vietnam.vn",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2pHZWFEWWpHSG5xdHFvTUxkRHEwSGwzTHo0Ql9HUjBfdVMwNGFZQUF4LXo0TkhKc0UzWFNTcHNxUndxcTRZTzRmeHVvaWVuQktmVGo2VzE0dDJVeGpkaFFEMldfUDB0bTlGenp0TGc3X0lEUnZXbFc3VmVKZUtEV2R3VXZlMnFEMnZySXB3?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2pHZWFEWWpHSG5xdHFvTUxkRHEwSGwzTHo0Ql9HUjBfdVMwNGFZQUF4LXo0TkhKc0UzWFNTcHNxUndxcTRZTzRmeHVvaWVuQktmVGo2VzE0dDJVeGpkaFFEMldfUDB0bTlGenp0TGc3X0lEUnZXbFc3VmVKZUtEV2R3VXZlMnFEMnZySXB3?oc=5"
-      },
-      {
         "title": "국립공원공단 소백산에 여우 28마리 추가 방사··· 현재 110마리 서식",
         "reports": 1,
         "press": [
@@ -722,22 +750,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHSHlIdDV0X3VVb2JlWnNaU3RjcDk1LWhiZ1hua1NQRkZ4V09vbmEwMVNXNC1ORDFmMmczODZqaExseGxmTU53MW5MVUd0UDZYTDN1MWUwZHIwZVhJQ29ZWl9RQzY4ZnRR?oc=5"
       },
       {
-        "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
-        "reports": 1,
-        "press": [
-          "로컬투데이"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
-            "press": "로컬투데이",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
-      },
-      {
         "title": "꽝찌성은 퐁냐-케방 국립공원에 국제 관광객을 유치하기 위해 장애물을 제거하고 있습니다.",
         "reports": 1,
         "press": [
@@ -770,6 +782,22 @@
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVdzT0NKZGZmSlFSbTlzenpsM2RYMzRuSTRlcG03SV9ORVVpNlV6VHY1WHRnSF85UFhGYnhRX1FXWXBsQ01Gd29fUzBPWEJZUHZieVhteWdPV2x4TEc4NFJjXzRiY3ZKckpLay1tTFZhMFBoUlRDTzBrZVVFaGliNmdETVN6UXZoSkxz?oc=5"
       },
       {
+        "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
+        "reports": 1,
+        "press": [
+          "로컬투데이"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
+            "press": "로컬투데이",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+      },
+      {
         "title": "국립공원 곳곳 무인 카메라… 멸종위기 야생생물도 포착｜D:이슈 Alexandre Carrier (tpKVYahCXt)",
         "reports": 1,
         "press": [
@@ -784,22 +812,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84VnVOQU9SaUdFTjRLbFdrZzJRRllnV2pZUjFlanEzNERYNmVvOFYzMk1mbjNiWjYwZzlWTlF5NWJFR1EzMFMtWkhZZk5DZ2RZZE1DOG5tclJZcGM?oc=5"
-      },
-      {
-        "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
-        "reports": 1,
-        "press": [
-          "매일일보"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
-            "press": "매일일보",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
       }
     ]
   },
