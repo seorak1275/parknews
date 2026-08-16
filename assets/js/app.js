@@ -93,24 +93,34 @@
   /* 글리프(글꼴) 서버 — 클러스터 숫자·지도 라벨(text-field)에 필요.
      글리프 요청이 실패하면 같은 타일의 원(circle)까지 통째로 사라지므로
      부팅 때 실제로 응답하는 서버만 쓰고, 없으면 숫자 레이어를 생략한다. */
+  /* 타일과 같은 CDN(carto)을 앞에 둔다 — 어차피 지도 타일로 곧 붙을 서버라 대개 이미 따뜻하다 */
   const GLYPH_SERVERS = [
-    'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
     'https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf',
+    'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
   ];
+
+  /**
+   * 글꼴 서버 고르기.
+   * 후보를 하나씩 순서대로 확인하면 앞선 서버가 느릴 때 그만큼 지도가 늦게 뜬다.
+   * (실측 2026-08-16: openmaptiles 첫 요청 6.4초 · carto 0.03초 → 첫 화면이 10초까지 밀렸다)
+   * → 동시에 던져 두고 먼저 성공한 쪽을 쓴다. 전부 실패하면 글꼴 없이 진행한다.
+   */
   async function pickGlyphs() {
-    for (const tpl of GLYPH_SERVERS) {
+    const probe = (tpl) => {
       const test = tpl
         .replace('{fontstack}', encodeURIComponent('Open Sans Regular'))
         .replace('{range}', '0-255');
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), 3500);
-      try {
-        const r = await fetch(test, { signal: ctrl.signal });
-        if (r.ok) return tpl;
-      } catch { /* 다음 후보 */ }
-      finally { clearTimeout(t); }
+      return fetch(test, { signal: ctrl.signal })
+        .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return tpl; })
+        .finally(() => clearTimeout(t));
+    };
+    try {
+      return await Promise.any(GLYPH_SERVERS.map(probe));
+    } catch {
+      return null;                     // 폐쇄망 등 — 라벨 글꼴 없이도 지도는 뜬다
     }
-    return null;
   }
 
   const makeFallbackStyle = (glyphs) => ({
