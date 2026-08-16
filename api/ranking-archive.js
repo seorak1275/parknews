@@ -421,18 +421,21 @@ export default async function handler(req, res) {
     /* 수집은 GitHub 에 커밋을 남기므로 아무나 부르게 두면 안 된다.
        예전에는 CRON_SECRET 이 없으면 무조건 통과시켜(!secret) 무방비였다.
 
-       1) Vercel Cron 이 붙이는 x-vercel-cron 헤더 — 플랫폼이 외부에서 들어온
-          x-vercel-* 헤더를 덮어쓰므로 바깥에서는 흉내낼 수 없다.
-       2) CRON_SECRET 을 등록했다면 수동 실행도 허용한다. (선택)
-       둘 다 아니면 거절한다 — 기본값이 '거절'이어야 한다. */
+       x-vercel-cron 헤더만으로는 부족하다 — 2026-08-16 실측 결과 외부에서
+       그 헤더를 붙여 보내도 그대로 통과했다. Vercel 이 걸러주지 않는다.
+
+       그래서 두 등급으로 나눈다.
+         · CRON_SECRET 일치  → 전권 (날짜 지정·덮어쓰기)
+         · 그 외             → 어제치만, 그리고 이미 보관돼 있으면 아무것도
+                               하지 않는다. 위조해서 불러도 크론이 할 일을
+                               한 번 대신 할 뿐이라 피해가 없다.
+       CRON_SECRET 을 등록하면 이 완충 장치 없이 깔끔하게 막힌다. */
     const secret = process.env.CRON_SECRET;
-    const fromVercelCron = req.headers['x-vercel-cron'] !== undefined;
-    const withSecret = Boolean(secret)
+    const trusted = Boolean(secret)
       && (req.headers.authorization === `Bearer ${secret}` || req.query.key === secret);
-    if (!fromVercelCron && !withSecret) {
-      return res.status(401).json({
-        error: '인증 실패 — Vercel Cron 이 아니고 CRON_SECRET 도 맞지 않습니다.',
-      });
+    const fromVercelCron = req.headers['x-vercel-cron'] !== undefined;
+    if (!trusted && !fromVercelCron) {
+      return res.status(401).json({ error: '인증 실패 — 수집은 크론만 호출할 수 있습니다.' });
     }
 
     if (!GH.ok()) {
@@ -441,7 +444,20 @@ export default async function handler(req, res) {
       });
     }
 
-    const targetDate = String(req.query.date || addDays(today, -1));
+    /* 비밀값 없이 들어온 호출은 날짜를 고를 수 없다 — 어제치로 고정 */
+    const targetDate = trusted ? String(req.query.date || addDays(today, -1)) : addDays(today, -1);
+
+    /* 그리고 이미 보관돼 있으면 그대로 끝낸다.
+       위조 호출이 반복돼도 커밋이 쌓이지 않는다. (재수집은 CRON_SECRET 필요) */
+    if (!trusted) {
+      const exists = await loadDay(targetDate);
+      if (exists) {
+        return res.status(200).json({
+          ok: true, skipped: true, date: targetDate,
+          note: '이미 보관된 날짜입니다. 다시 수집하려면 CRON_SECRET 이 필요합니다.',
+        });
+      }
+    }
 
     try {
       const snapshot = {
