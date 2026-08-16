@@ -3,7 +3,7 @@
   "days": 7,
   "from": "2026-08-09",
   "to": "2026-08-15",
-  "generatedAt": "2026-08-16T01:53:57.724Z",
+  "generatedAt": "2026-08-16T01:54:00.169Z",
   "kr": {
     "rows": [
       {
@@ -53,7 +53,7 @@
           "경남도민신문",
           "진주신문",
           "뉴시스",
-          "news.nate.com",
+          "네이트",
           "진주인터넷뉴스"
         ],
         "outletCount": 5,
@@ -75,7 +75,7 @@
           },
           {
             "title": "국립공원공단-남동발전, 아동 생태체험·치유 기회 확대 '맞손'",
-            "press": "news.nate.com",
+            "press": "네이트",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XRF9KVzhlMTUzaVZwak9UZ1hCc3BLY1FjdXpudHI5ZjlOWWpXOFhiRExiLVJRaHAzZWUyOUwwOFVMMk5ob0xFemEzdmpHNWstZ18w?oc=5"
           },
           {
@@ -141,6 +141,34 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWaFBlbkE2cFZraDJkQ0tFY1gyc3F5ZTIwUVZIMjFNSGF5V3hZQS1WV0EyM3NnYXBLLVZmZVNoYVYzNUx2eUVBaERMM0E0R3VjeXR0blVsVEtJMmFMd0VSdUNQZ0wzUWtYczJqd2YzTnrSAXBBVV95cUxQVmhQZW5BNnBWa2gyZENLRWNYMnNxeWUyMFFWSDIxTUhheVd4WUEtVldBMjNzZ2FwSy1WZmVTaGFWMzVMdnlFQWhETDNBNEd1Y3l0dG5VbFRLSTJhTHdFUnVDUGdMM1FrWHMyandmM056?oc=5"
+      },
+      {
+        "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+        "reports": 3,
+        "press": [
+          "네이트",
+          "뉴스1",
+          "gukjenews.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+            "press": "네이트",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbXozRldRWDVpWjdYSXM3eHhBWk44ekFXNUx6b1JPU1JTMlZnNld6QkpjdWpDcFNySU5FSy1HU0dhRkZjbUt1VE9hQUttNWVWRE92Q3RKcjBDeDlTdjRVTA?oc=5"
+          },
+          {
+            "title": "인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53el9PbDF4bFhkZEtKSWdkcXdrOWJPYUdyMnVjakFKQmM1UW5LcnNEd0JrbFJTMURpMUFwWGdnMzlOejhEUmp0VnFPYzFMUjIwZFVKQUJfUjdFMElfOFHSAWNBVV95cUxPRFFJdlZ5amZDRE1ueWhKMHplOENmOFA2NlR4Rlp6UURTNFBYNXhVTmdzZ3pNMVdXZWpZUWFVUDgwV19tbkFmNjhIbEVlSFhSZTd3TzNuVTFteW4xSnh2TDE3NVU?oc=5"
+          },
+          {
+            "title": "인도네시아 브로모텡게르세메루 국립공원 산불 8일째",
+            "press": "gukjenews.com",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVZHlQaVJmVzNQNXZ6dzY4ZkpPMEFuYkZ4dHowc19TVmFNTUJIZjZfeUJBMmp6QnVGU3FGbkVEVjJfVG93NjJmRXlFVVZDT3l4anFCVXdFUVhfa2FyVF9reDRiRU01MTdIcXZEX0xn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbXozRldRWDVpWjdYSXM3eHhBWk44ekFXNUx6b1JPU1JTMlZnNld6QkpjdWpDcFNySU5FSy1HU0dhRkZjbUt1VE9hQUttNWVWRE92Q3RKcjBDeDlTdjRVTA?oc=5"
       },
       {
         "title": "지리산·북한산의 광복 흔적…국립공원 독립운동 유산 재조명",
@@ -582,6 +610,22 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTbUI2VDM1X2JjRUphNFhwbEVLSFh1UGJhNjlxaHNySFpCaGdyeURLVmZGSjhJOUZ6RWFHVU1Ob0tFYzU0OWxLQ3dtWUNKT013c3Y3T0VTSExXVDh1UjFnQlRtaW80bG500gFsQVVfeXFMTzNvYV9UZlJZd0pkb05NaVZ2MEluNElwd01OMnFZMGhyekp3cnVpTmVBcURFZlNXcG43ZE1qZmJTbjFxSnlfNEFvNGoxVFN2WXBIQ1AtVHNyNURVOEotRWdIeTJnelhXVENzUzhJ?oc=5"
       },
       {
+        "title": "폐교 살려 국립공원 야영장으로…남해 덕신야영장 ‘성공 안착’",
+        "reports": 1,
+        "press": [
+          "경남일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "폐교 살려 국립공원 야영장으로…남해 덕신야영장 ‘성공 안착’",
+            "press": "경남일보",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBULXhxaVZET3pSTlYxLWVLODdPNFdMVlF5elplWUk0am9ZN29vLXRUSGJfUFdScUhKb0tGYlBMd3BmT3h2cU9TX3hCMXhLVUN4aFZtbGd0OXM0YU1NVUI2RUR1c1Y4aVJLTnJz?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBULXhxaVZET3pSTlYxLWVLODdPNFdMVlF5elplWUk0am9ZN29vLXRUSGJfUFdScUhKb0tGYlBMd3BmT3h2cU9TX3hCMXhLVUN4aFZtbGd0OXM0YU1NVUI2RUR1c1Y4aVJLTnJz?oc=5"
+      },
+      {
         "title": "가야산국립공원사무소, 이의철 신임소장 부임",
         "reports": 1,
         "press": [
@@ -644,6 +688,38 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KNFEwQzFhaUYwSDEzUEN2ZV8ydFliSmNOS1RIQW5jU2RSQ0NuVkZLUVhETGRyZkQwbmY0dEpqYWhuZC16N1M2eTVDcGlZek01bzhOc3NR?oc=5"
+      },
+      {
+        "title": "\"무릎 아픈 부모님도 단 5분이면 정상 인근에 도착\"… 케이블카 품은 878m 도립공원",
+        "reports": 1,
+        "press": [
+          "아던트뉴스"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"무릎 아픈 부모님도 단 5분이면 정상 인근에 도착\"… 케이블카 품은 878m 도립공원",
+            "press": "아던트뉴스",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMHVFbkRScjR5bG5zTThtcGhjZlZEby1Td25KejRnTFREWmlTakh1cnV0MkJ4dHpwZ3ZpOUxkZ3hTT2tScFR5dHBZYnhIVjdURzJGXzZFY0pSZ3F0ME5jOGVHVTFKQzBCMTY2SmtqQdIBc0FVX3lxTE1ZNVdjNVFrV3R3bW1rajZCMFViaUtHQ0pCQXJROVRnOGJTUnJlRDQ5ck9YLTZSRjlXZ0lBUUgtMXo0ejBPRU1Hc09xSjNZZHV4bzFYcjk0SEtiTG5PUldKenpwY0tfUEVTeThqZnZSZFMwcDQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMHVFbkRScjR5bG5zTThtcGhjZlZEby1Td25KejRnTFREWmlTakh1cnV0MkJ4dHpwZ3ZpOUxkZ3hTT2tScFR5dHBZYnhIVjdURzJGXzZFY0pSZ3F0ME5jOGVHVTFKQzBCMTY2SmtqQdIBc0FVX3lxTE1ZNVdjNVFrV3R3bW1rajZCMFViaUtHQ0pCQXJROVRnOGJTUnJlRDQ5ck9YLTZSRjlXZ0lBUUgtMXo0ejBPRU1Hc09xSjNZZHV4bzFYcjk0SEtiTG5PUldKenpwY0tfUEVTeThqZnZSZFMwcDQ?oc=5"
+      },
+      {
+        "title": "오대산국립공원사무소, 오대산 람사르습지 탐사대 성황리에 운영",
+        "reports": 1,
+        "press": [
+          "원주신문"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "오대산국립공원사무소, 오대산 람사르습지 탐사대 성황리에 운영",
+            "press": "원주신문",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHSHlIdDV0X3VVb2JlWnNaU3RjcDk1LWhiZ1hua1NQRkZ4V09vbmEwMVNXNC1ORDFmMmczODZqaExseGxmTU53MW5MVUd0UDZYTDN1MWUwZHIwZVhJQ29ZWl9RQzY4ZnRR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHSHlIdDV0X3VVb2JlWnNaU3RjcDk1LWhiZ1hua1NQRkZ4V09vbmEwMVNXNC1ORDFmMmczODZqaExseGxmTU53MW5MVUd0UDZYTDN1MWUwZHIwZVhJQ29ZWl9RQzY4ZnRR?oc=5"
       },
       {
         "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
@@ -724,70 +800,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
-      },
-      {
-        "title": "국립공원, 여름철 폭염 안전관리 대책 추진",
-        "reports": 1,
-        "press": [
-          "서울Pn"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "국립공원, 여름철 폭염 안전관리 대책 추진",
-            "press": "서울Pn",
-            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXpMWTJjOFJCbVRPWXBWcXptTTE2eU1jZEpmY3JqYXpBQU1ZMUN4N1ZNZlgwNGpxdDU5TzNLTE5IU1haUldQT3VGclV2SF95SVpUMUl6OUItSDN0WFQzZ2VnS204amtjLUdGTkNNX0FkZGgxd3Eyc1oyLTFYdnpLbExIRkJIS2tQTXZB?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXpMWTJjOFJCbVRPWXBWcXptTTE2eU1jZEpmY3JqYXpBQU1ZMUN4N1ZNZlgwNGpxdDU5TzNLTE5IU1haUldQT3VGclV2SF95SVpUMUl6OUItSDN0WFQzZ2VnS204amtjLUdGTkNNX0FkZGgxd3Eyc1oyLTFYdnpLbExIRkJIS2tQTXZB?oc=5"
-      },
-      {
-        "title": "예산군, 금오산 정상에 새 쉼터 마련… 등산객 안전 높였다",
-        "reports": 1,
-        "press": [
-          "충청일보"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "예산군, 금오산 정상에 새 쉼터 마련… 등산객 안전 높였다",
-            "press": "충청일보",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6elJwV3djX1NBQXNfTGxSdUhPQk53MnBIaFJiNExDS0lhcGFLZlpveFBZN2k5UTFraENHM0VaWUYxMi1PV21aYzgwYjZwaVF1M24tVTBBWm1WeG5UYmdMTFBDQ3JxRE9RSTNaWkhETFM?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6elJwV3djX1NBQXNfTGxSdUhPQk53MnBIaFJiNExDS0lhcGFLZlpveFBZN2k5UTFraENHM0VaWUYxMi1PV21aYzgwYjZwaVF1M24tVTBBWm1WeG5UYmdMTFBDQ3JxRE9RSTNaWkhETFM?oc=5"
-      },
-      {
-        "title": "퐁냐께방 국립공원, 외국인 관광객 국경지역 출입 허가 절차 폐지",
-        "reports": 1,
-        "press": [
-          "씬짜오베트남"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "퐁냐께방 국립공원, 외국인 관광객 국경지역 출입 허가 절차 폐지",
-            "press": "씬짜오베트남",
-            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBmOFhGT216Y1JCMnNnTURGQXlWMnVlT0lxQjJLSEJPYnNHUUUxdjZzN0I5Vk51eXFCWmJGUzZTQXhkekJYdVZRNA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBmOFhGT216Y1JCMnNnTURGQXlWMnVlT0lxQjJLSEJPYnNHUUUxdjZzN0I5Vk51eXFCWmJGUzZTQXhkekJYdVZRNA?oc=5"
-      },
-      {
-        "title": "[보은소식]속리산국립공원 체험 프로그램 특허 등록 등",
-        "reports": 1,
-        "press": [
-          "news.nate.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "[보은소식]속리산국립공원 체험 프로그램 특허 등록 등",
-            "press": "news.nate.com",
-            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5udXVmSUlENW9XbTJOYlA3ck9oYWc4TldXT0ZUamlfbWszcWtRREFKalNYTS1Db1otTFo0LUlFRWdsMEFfbms5S1NWVzllLTBXZnV3?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5udXVmSUlENW9XbTJOYlA3ck9oYWc4TldXT0ZUamlfbWszcWtRREFKalNYTS1Db1otTFo0LUlFRWdsMEFfbms5S1NWVzllLTBXZnV3?oc=5"
       }
     ]
   },
