@@ -208,7 +208,8 @@ NAVER_CLIENT_SECRET  = 발급받은 Client Secret
 | `GITHUB_TOKEN` | ✅ | 보관본 커밋용 PAT — fine-grained, 대상 저장소 1개, `Contents: Read and write` |
 | `GITHUB_REPO` | ✅ | 예) `seorak1275/parknews` |
 | `GITHUB_BRANCH` | 선택 | 기본 `main` |
-| `CRON_SECRET` | 권장 | 수동 실행 보호 |
+| `CRON_SECRET` | 권장 | 손으로 수집을 돌릴 때 필요 (날짜 지정·재수집).
+미등록이어도 외부인이 저장소를 채울 수는 없습니다 — 아래 참고 |
 
 > ⏱️ Vercel Hobby는 함수 최대 60초 — RSS 50개 질의(동시 6개 제한) + GitHub 쓰기로 충분합니다.
 > 📅 **보관본은 소급 생성되지 않습니다.** 구글 뉴스 RSS가 과거 날짜를 온전히 돌려주지 않기 때문입니다.
@@ -223,6 +224,29 @@ curl "https://<도메인>/api/ranking-archive?period=week"                      
 curl "https://<도메인>/api/ranking-archive?period=year&set=global"            # 국외 연간
 curl "https://<도메인>/api/ranking-archive?list=1"                            # 보관 날짜 목록
 ```
+
+**수집 호출 보호 (2026-08-16 실측)**
+
+수집은 GitHub 에 커밋을 남기므로 아무나 부르면 안 됩니다. 원래는 `CRON_SECRET` 이
+없으면 무조건 통과시켜 무방비였습니다.
+
+Vercel 이 크론에 붙이는 `x-vercel-cron` 헤더로 막아 봤지만 **외부에서 그 헤더를
+그대로 붙여 보내도 통과했습니다.** Vercel 은 이 헤더를 걸러주지 않습니다.
+
+그래서 두 등급으로 나눴습니다.
+
+| 호출 | 결과 |
+|---|---|
+| 헤더도 비밀값도 없음 | **401 차단** |
+| 헤더 위조 (또는 진짜 크론) | 어제치만 · **이미 보관된 날짜면 즉시 종료** |
+| `CRON_SECRET` 일치 | 전권 — 날짜 지정·재수집 |
+
+위조해서 불러도 크론이 할 일을 한 번 대신 할 뿐이라 커밋이 쌓이지 않고,
+임의 날짜로 저장소를 채우는 것도 막힙니다.
+
+> 비밀값을 등록한 뒤에도 이 완충 경로는 **일부러 남겨 뒀습니다.** 엄격하게만 막아두면
+> Vercel 이 헤더를 안 보내는 상황에서 매일 조용히 401 을 맞고, 하루 한 번뿐이라
+> 몇 주 지나서야 아카이브 구멍을 발견하게 됩니다.
 
 **실시간 탭**은 이 API를 쓰지 않습니다. 브라우저가 `NewsService`로 그 자리에서 집계하므로
 보관본이 하나도 없어도 항상 동작합니다.

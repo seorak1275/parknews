@@ -429,7 +429,12 @@ export default async function handler(req, res) {
          · 그 외             → 어제치만, 그리고 이미 보관돼 있으면 아무것도
                                하지 않는다. 위조해서 불러도 크론이 할 일을
                                한 번 대신 할 뿐이라 피해가 없다.
-       CRON_SECRET 을 등록하면 이 완충 장치 없이 깔끔하게 막힌다. */
+       CRON_SECRET 을 등록해도 이 완충 경로는 일부러 남겨 둔다.
+       Vercel Cron 이 Authorization 헤더를 보내지 않는 상황이 오면
+       엄격하게 막아둔 쪽은 매일 조용히 401 을 맞고 아카이브에 구멍이
+       생긴다 — 하루 한 번뿐이라 몇 주 지나서야 눈치챈다.
+       완충 경로는 위조돼도 크론이 할 일을 한 번 대신 할 뿐이므로,
+       '조용히 죽는 것'보다 이쪽이 낫다. */
     const secret = process.env.CRON_SECRET;
     const trusted = Boolean(secret)
       && (req.headers.authorization === `Bearer ${secret}` || req.query.key === secret);
