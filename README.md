@@ -323,9 +323,18 @@ IUCN 정본으로 교체되고 기존 한국어명은 좌표 대조로 자동 �
 프레임워크 **Other**, 빌드 명령·출력 디렉터리는 **비워둡니다**. 이후 main에 푸시할 때마다 자동 배포됩니다.
 `api/` 서버리스와 순위 보관 크론이 전부 동작하는 것은 이 경로뿐입니다.
 
-**GitLab Pages (사내망 · `.gitlab-ci.yml`)**
+**GitLab Pages (사내망 · `.gitlab-ci.yml`) — 현재 꺼둠**
 
-저장소의 `.gitlab-ci.yml`이 정적 파일을 `public/`으로 복사해 Pages로 게시합니다.
+`gitlab.aigov.go.kr` 에는 CI 러너가 한 대도 없어 파이프라인이 만들어져도
+실행할 서버가 없습니다. 80분쯤 대기하다 실패하고, 푸시할 때마다 하나씩 쌓입니다.
+서비스는 Vercel 에서 돌고 GitLab 은 소스 보관용이라 `workflow: rules: - when: never`
+로 **파이프라인 생성 자체를 막아 두었습니다.**
+
+파일을 지우지 않은 이유는, `.gitlab-ci.yml` 이 없으면 Auto DevOps 가 켜져
+정적 사이트를 Node 앱으로 오인하고 잡 6개를 만들기 때문입니다. 지금보다 더 쌓입니다.
+
+**다시 켜려면** `.gitlab-ci.yml` 의 `workflow` 블록 3줄만 지우면 됩니다.
+그러면 아래 설명대로 정적 파일을 `public/`으로 복사해 Pages로 게시합니다.
 이 파일이 있으면 **Auto DevOps는 자동으로 꺼집니다** — 기존에 실패하던 `build`/`test`/`code_quality` 잡이 이 때문에 생긴 것이었습니다 (정적 사이트를 Node 앱으로 오인해 Docker 빌드를 시도).
 
 Pages 배포 시 제약:
