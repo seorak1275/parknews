@@ -1,9 +1,13 @@
 /* =============================================================
  *  charts.js  —  트렌드 차트 + 키워드 바
  *
- *  데이터 경로 (자동 폴백)
- *   1) /api/datalab  ← Vercel 배포 + 네이버 DataLab 키 등록 시 실측 데이터
- *   2) 시드 기반 시뮬레이션 데이터 (지역마다 항상 동일한 곡선)
+ *  트렌드 차트는 **네이버 데이터랩 실측값이 있을 때만** 그립니다.
+ *  (/api/datalab — NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 등록 시)
+ *
+ *  예전에는 키가 없으면 시드 난수로 그럴듯한 곡선을 지어내 '시뮬레이션 데이터'
+ *  배지를 달아 보여줬습니다. 공공기관 사이트에서 근거 없는 그래프는 배지가
+ *  붙어 있어도 실제 검색량으로 오해될 수 있어 걷어냈습니다.
+ *  → 실측이 없으면 차트 영역 자체가 나타나지 않습니다. (app.js 가 숨김 처리)
  *
  *  차트 원칙
  *   · 단일 시리즈 → 범례 없음(제목이 시리즈를 지칭), 축은 하나만
@@ -15,49 +19,9 @@ window.TrendChart = (() => {
   let chart = null;
   const dataCache = new Map();
 
-  /* ---------- 시드 난수 (지역별 고정 곡선) ---------- */
-  function seedOf(str) {
-    let h = 2166136261;
-    for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
-    return h >>> 0;
-  }
-  function mulberry32(a) {
-    return () => {
-      a = (a + 0x6D2B79F5) | 0;
-      let t = Math.imul(a ^ (a >>> 15), 1 | a);
-      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-    };
-  }
-
   const DAYS = 14;
 
-  function labels() {
-    const out = [];
-    for (let i = DAYS - 1; i >= 0; i--) {
-      const d = new Date(Date.now() - i * 86400000);
-      out.push(`${d.getMonth() + 1}/${d.getDate()}`);
-    }
-    return out;
-  }
-
-  /** 시뮬레이션: 완만한 추세 + 주말 상승 + 노이즈 (0~100 정규화) */
-  function simulate(region) {
-    const rnd = mulberry32(seedOf(region.id));
-    const drift = (rnd() - 0.35) * 2.2;
-    const base = 32 + rnd() * 26;
-    const raw = [];
-    for (let i = 0; i < DAYS; i++) {
-      const d = new Date(Date.now() - (DAYS - 1 - i) * 86400000);
-      const weekend = (d.getDay() === 0 || d.getDay() === 6) ? 12 : 0;
-      const wave = Math.sin((i / DAYS) * Math.PI * 2 + rnd()) * 8;
-      raw.push(Math.max(4, base + drift * i + weekend + wave + (rnd() - 0.5) * 14));
-    }
-    const max = Math.max(...raw);
-    return raw.map((v) => Math.round((v / max) * 100));
-  }
-
-  /** DataLab(있으면) → 없으면 시뮬레이션 */
+  /** 네이버 데이터랩 실측값. 없으면 null — 지어낸 수치로 채우지 않는다. */
   async function getSeries(region) {
     if (dataCache.has(region.id)) return dataCache.get(region.id);
 
@@ -71,15 +35,13 @@ window.TrendChart = (() => {
           const pts = j?.results?.[0]?.data || [];
           if (pts.length >= 5) {
             result = {
-              real: true,
               labels: pts.map((p) => p.period.slice(5).replace('-', '/')),
               values: pts.map((p) => Math.round(p.ratio)),
             };
           }
         }
-      } catch { /* 폴백 */ }
+      } catch { /* 키 미등록·오류 — 차트를 띄우지 않는다 */ }
     }
-    if (!result) result = { real: false, labels: labels(), values: simulate(region) };
 
     dataCache.set(region.id, result);
     return result;
@@ -106,11 +68,18 @@ window.TrendChart = (() => {
 
   /* ---------- 렌더 ---------- */
   async function render(canvas, region, badgeEl) {
-    const { real, labels: lb, values } = await getSeries(region);
+    const series = await getSeries(region);
 
+    /* 실측이 없으면 아무것도 그리지 않는다 — 호출부가 카드째로 숨긴다 */
+    if (!series) {
+      if (chart) { chart.destroy(); chart = null; }
+      return { real: false };
+    }
+
+    const { labels: lb, values } = series;
     if (badgeEl) {
-      badgeEl.textContent = real ? '실측 · 네이버 데이터랩' : '시뮬레이션 데이터';
-      badgeEl.classList.toggle('is-sim', !real);
+      badgeEl.textContent = '실측 · 네이버 데이터랩';
+      badgeEl.classList.remove('is-sim');
     }
 
     const ctx = canvas.getContext('2d');
@@ -187,7 +156,7 @@ window.TrendChart = (() => {
       plugins: [crosshair],
     });
 
-    return { real, values };
+    return { real: true, values };
   }
 
   function destroy() { if (chart) { chart.destroy(); chart = null; } }

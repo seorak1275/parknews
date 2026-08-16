@@ -672,13 +672,15 @@
         <div id="site-body"></div>
       </section>
 
-      <section class="sb-card">
+      <!-- 검색 관심도 — 네이버 데이터랩 실측이 있을 때만 나타난다.
+           키가 없으면 지어낸 곡선 대신 카드째로 감춘다. -->
+      <section class="sb-card" id="trend-card" hidden>
         <div class="sb-h-row">
           <h3 class="sb-h">검색 관심도 추이 · 최근 14일</h3>
           <span class="badge" id="trend-badge">불러오는 중</span>
         </div>
         <div class="chart-wrap"><canvas id="trend-canvas"></canvas></div>
-        <p class="axis-note">값은 기간 내 최댓값을 100으로 환산한 상대 지수입니다.</p>
+        <p class="axis-note">네이버 데이터랩 실측값 · 기간 내 최댓값을 100으로 환산한 상대 지수입니다.</p>
       </section>
 
       <section class="sb-card">
@@ -697,7 +699,8 @@
 
     renderSite(region);
     TrendChart.render($('#trend-canvas'), region, $('#trend-badge'))
-      .catch(() => { $('#trend-badge').textContent = '데이터 없음'; });
+      .then((r) => { if (r?.real) $('#trend-card').hidden = false; })
+      .catch(() => { /* 실측이 없으면 카드를 숨긴 채로 둔다 */ });
 
     const fill = ({ items, raw, dropped }) => {
       $('#filter-note').innerHTML = items.length
