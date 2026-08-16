@@ -127,18 +127,28 @@ window.Ranking = (() => {
     }
 
     /* 해외 2,034곳 — 'Big Bend National Park' → 'big bend' */
+    const norm = (s) => String(s || '').toLowerCase()
+      .replace(/national\s*park|nationalpark|national\s*monument|national\s*preserve/g, ' ')
+      .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+
     try {
       for (const p of await Explorer.allParks()) {
-        const base = String(p.nameEn || p.name || '').toLowerCase()
-          .replace(/national\s*park|nationalpark|national\s*monument|national\s*preserve/g, ' ')
-          .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
-        if (base.length >= 4) idx.push({ key: base, park: p, re: new RegExp(`\\b${reEsc(base)}\\b`) });
+        /* name 과 nameEn 을 둘 다 넣는다.
+           미국 Glacier 는 nameEn 이 'Glacier National Park Montana' 라서
+           nameEn 만 보면 기사 제목의 'Glacier National Park' 과 안 맞고,
+           같은 이름의 캐나다 공원으로 잘못 가버린다. */
+        for (const key of new Set([norm(p.nameEn), norm(p.name)])) {
+          if (key.length >= 4) idx.push({ key, park: p, re: new RegExp(`\\b${reEsc(key)}\\b`) });
+        }
       }
     } catch (e) {
       console.warn('해외 공원 목록을 불러오지 못해 위치 바로가기를 건너뜁니다:', e);
     }
 
-    idx.sort((a, b) => b.key.length - a.key.length);   // 긴 이름 우선 매칭
+    /* 긴 이름 우선 → 같은 길이면 큐레이션된(유명한) 공원 우선.
+       'glacier' 처럼 여러 나라에 같은 이름이 있을 때 뉴스에 나올 법한 쪽을 고른다. */
+    idx.sort((a, b) => b.key.length - a.key.length
+      || (b.park.curated ? 1 : 0) - (a.park.curated ? 1 : 0));
     parkIndex = idx;
     return idx;
   }
