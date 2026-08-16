@@ -1,26 +1,32 @@
 {
   "date": "2026-08-12",
   "dateKo": "2026년 8월 12일 수요일",
-  "generatedAt": "2026-08-16T01:33:58.202Z",
+  "generatedAt": "2026-08-16T01:54:01.318Z",
   "kr": {
-    "collected": 10,
+    "collected": 12,
     "failedQueries": 0,
     "rows": [
       {
-        "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
-        "reports": 1,
+        "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
+        "reports": 2,
         "press": [
-          "로컬투데이"
+          "매일일보",
+          "충남일보"
         ],
-        "outletCount": 1,
+        "outletCount": 2,
         "articles": [
           {
-            "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
-            "press": "로컬투데이",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+            "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
+            "press": "매일일보",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
+          },
+          {
+            "title": "[포토] 계룡산국립공원, 배재대 간호학과 '바이탈안전센터 운영 업무협약' 체결",
+            "press": "충남일보",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xc1FCS0ZTbkNtU2c1eHpRT3RkenE4cGVhWHRtMXE0VFpQdURTTzJVTG9PRkxJQzlVV3Y0Q2tGZkNlVWNQRFE4eFZfQml4WVJmbE5EZW1aS1lCVm9UNFJSTzh5UjVvX0YycVhoQlBmUkJJY0k?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
       },
       {
         "title": "꽝찌성은 퐁냐-케방 국립공원에 국제 관광객을 유치하기 위해 장애물을 제거하고 있습니다.",
@@ -87,6 +93,22 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0MEpyOTNJSkhLS1VfVE9sYUx5dzhlUXFoTWt5bXF4VWVjTzF3eVVUYWMwUmg3ME5vQUN5N1NqQ2dIMVYwcWVRbWR2ZExTTmxtSEJFa2FlY1lIdEUwc1M3RXEwdjlpVmV0cXpRSmQ1alFrdw?oc=5"
       },
       {
+        "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
+        "reports": 1,
+        "press": [
+          "로컬투데이"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "계룡산생태탐방원, 무인 ‘국립공원숍’ 운영 시작",
+            "press": "로컬투데이",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXVnJPYV9sQW1tQnIxUF9VbWRpU2hYcjF3SVFiZldMWjl1WlNQUEV5N285THdMU205YkxqbExoTWtGOU1JODUyZW0xazN6TG5kQTZFb1FKMmVKREt4UFIzaFoyQmU5SFd4bVlhMEE0YUM?oc=5"
+      },
+      {
         "title": "계룡산생태탐방원 '무인 국립공원숍' 운영 시작",
         "reports": 1,
         "press": [
@@ -119,22 +141,6 @@
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84VnVOQU9SaUdFTjRLbFdrZzJRRllnV2pZUjFlanEzNERYNmVvOFYzMk1mbjNiWjYwZzlWTlF5NWJFR1EzMFMtWkhZZk5DZ2RZZE1DOG5tclJZcGM?oc=5"
       },
       {
-        "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
-        "reports": 1,
-        "press": [
-          "매일일보"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "계룡산국립공원·배재대학교, ‘바이탈안전센터 운영 업무협약’ 체결",
-            "press": "매일일보",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fYlZpNkY2RG1pWFliMUNabC1ONVdVUzdnNHpKWFJzWEk2Uy16LTU3aGlQVWQwZjZQSjRKM3dsSDd4QnhkemJ5YjhfNnJkVkMwZm4wMmh5MGRXTjJyRGpaeGc2dGY?oc=5"
-      },
-      {
         "title": "국립공원, 여름철 폭염 안전관리 대책 추진",
         "reports": 1,
         "press": [
@@ -149,6 +155,22 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXpMWTJjOFJCbVRPWXBWcXptTTE2eU1jZEpmY3JqYXpBQU1ZMUN4N1ZNZlgwNGpxdDU5TzNLTE5IU1haUldQT3VGclV2SF95SVpUMUl6OUItSDN0WFQzZ2VnS204amtjLUdGTkNNX0FkZGgxd3Eyc1oyLTFYdnpLbExIRkJIS2tQTXZB?oc=5"
+      },
+      {
+        "title": "[포토] 인도네시아 브로모 화산 국립공원 산불",
+        "reports": 1,
+        "press": [
+          "뉴스1"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[포토] 인도네시아 브로모 화산 국립공원 산불",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB2MlB4eUtrQlVhRVhkYU1BZ0o1a2h0V3Vpc0Fudm1qMGgzZXlqUF80cmp4SmRMRDI5QVlFd25zTURxOXh4b1NLZEV1cw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB2MlB4eUtrQlVhRVhkYU1BZ0o1a2h0V3Vpc0Fudm1qMGgzZXlqUF80cmp4SmRMRDI5QVlFd25zTURxOXh4b1NLZEV1cw?oc=5"
       },
       {
         "title": "예산군, 금오산 정상에 새 쉼터 마련… 등산객 안전 높였다",
