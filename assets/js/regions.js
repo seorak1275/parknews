@@ -1,7 +1,7 @@
 /* =============================================================
  *  regions.js  —  국내 국립공원 24곳 + 정책·관문 도시
  *
- *  좌표는 환경부/국립공원공단 「전국국립공원 경계」(EPSG:5179) 원본을
+ *  좌표는 기후에너지환경부(구 환경부)/국립공원공단 「전국국립공원 경계」(EPSG:5179) 원본을
  *  WGS84로 변환해 각 공원 최대 폴리곤의 대표점(내부 보장)으로 산출했습니다.
  *  경계 폴리곤 자체는 assets/data/parks-kr.geojson 에 있으며
  *  지도에서 실제 공원 영역으로 그려집니다.
@@ -168,10 +168,12 @@ window.REGIONS_ORG = [
     q: '국립공원공단', lang: 'ko', must: ['국립공원', '공원공단'],
     site: 'https://www.knps.or.kr',
     desc: '강원 원주 · 국내 국립공원 24곳 관리 주체' },
-  { id: 'me-korea', group: 'kr', name: '환경부', cat: 'org', lng: 127.2650, lat: 36.5040,
-    q: '환경부 국립공원', lang: 'ko', must: ['국립공원', '자연공원'],
-    site: 'https://www.me.go.kr',
-    desc: '세종 · 국립공원 지정·해제 및 자연공원법 소관' },
+  /* 2025년 정부조직 개편으로 환경부 → 기후에너지환경부.
+     me.go.kr 은 mcee.go.kr 로 넘어간다. */
+  { id: 'me-korea', group: 'kr', name: '기후에너지환경부', cat: 'org', lng: 127.2650, lat: 36.5040,
+    q: '기후에너지환경부 국립공원', lang: 'ko', must: ['국립공원', '자연공원'],
+    site: 'https://mcee.go.kr',
+    desc: '세종 · 국립공원 지정·해제 및 자연공원법 소관 · 구 환경부' },
   { id: 'nie', group: 'kr', name: '국립생태원', cat: 'org', lng: 126.7180, lat: 36.0510,
     q: '국립생태원 멸종위기', lang: 'ko',
     site: 'https://www.nie.re.kr',
