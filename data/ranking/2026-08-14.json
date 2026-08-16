@@ -1,24 +1,22 @@
 {
   "date": "2026-08-14",
   "dateKo": "2026년 8월 14일 금요일",
-  "generatedAt": "2026-08-16T01:51:39.425Z",
+  "generatedAt": "2026-08-16T01:52:07.633Z",
   "kr": {
-    "collected": 29,
+    "collected": 28,
     "failedQueries": 0,
     "rows": [
       {
         "title": "지리산 천왕봉에 새긴 독립 염원…국립공원에 남은 선열의 흔적",
-        "reports": 7,
+        "reports": 5,
         "press": [
           "연합뉴스",
           "서남투데이",
           "네이트",
           "koreafuture.co.kr",
-          "환경일보",
-          "우먼타임스",
           "한국글로벌뉴스"
         ],
-        "outletCount": 7,
+        "outletCount": 5,
         "articles": [
           {
             "title": "지리산 천왕봉에 새긴 독립 염원…국립공원에 남은 선열의 흔적",
@@ -39,16 +37,6 @@
             "title": "국립공원에 깃든 광복의 역사… 선열의 독립 염원 새겨진 흔적 재조명",
             "press": "koreafuture.co.kr",
             "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zbGFMdG55RVN0Q3pqYjFGTWoyYXJKNjNXa1ctTFZWMmo2eTNlUHBzYXY1V0dKT0k0NXU4cHNYZUJvSURMVUdLQXQxM1hoRTYtVFF4eldkZDU5MnR4T3VLWC1rbGlQRVE5?oc=5"
-          },
-          {
-            "title": "국립공원에 남은 광복의 기억",
-            "press": "환경일보",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VQnBGZlFoeWtDNnk2dXc3VGF2bWhXVHFQakRXQ2JNdUEwRjRVZ013T2I5SVhTYndHT3Z4ckx4U3FwVGxnRWxnWVpCZUotb3djU2Q4UnBJSkd0NEZ0bHJSdkJkbERxMURI?oc=5"
-          },
-          {
-            "title": "[포토&뉴스] 국립공원에 남은 독립운동과 광복의 기억",
-            "press": "우먼타임스",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nLUswLVpDTTFRVlpCaXNvazRTdFJBdndQdnNTUEV0Zi1WT3hjOTg3UHJCdExJUTdyaWhoeFA0Q2ZBZnJFM3BJQko2X1JqNmh3czktMUFoN2pPVUpBcUE0dFptajF6bjJvUHdRc2N2VXbSAXRBVV95cUxNNDhlem93X1BMRFdCZ3J5ZEg2Tk5rekpvbmQyekFDdjE4UkE0cXFuZGkxb1lzeUpIN2d0Mmp2NWpLaHIyYXpiMkoxQkFEZzhoTXFpYmQtbjVvb0tSWV9TZDgzek5aLWhPcmY3RG5IVFFLbzVDVg?oc=5"
           },
           {
             "title": "기후에너지환경부, 국립공원에 남은 광복의 기억… 선열의 뜻과 역사를 품다",
@@ -311,6 +299,22 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tNjgzVWdZWEJWdWltX24zTWc2MzBnUUNTNFRzbC1oT09WdWFuTjVVa09WeURJc2lJUVowNDlDbXlBeU1Jem93Z3FidGFuUTM5MUZ1dXN1cjlZZWM3czJ3WWx1dDJGUjctUDNxNy16d1VoNmVyd2NN?oc=5"
+      },
+      {
+        "title": "[포토&뉴스] 국립공원에 남은 독립운동과 광복의 기억",
+        "reports": 1,
+        "press": [
+          "우먼타임스"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[포토&뉴스] 국립공원에 남은 독립운동과 광복의 기억",
+            "press": "우먼타임스",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nLUswLVpDTTFRVlpCaXNvazRTdFJBdndQdnNTUEV0Zi1WT3hjOTg3UHJCdExJUTdyaWhoeFA0Q2ZBZnJFM3BJQko2X1JqNmh3czktMUFoN2pPVUpBcUE0dFptajF6bjJvUHdRc2N2VXbSAXRBVV95cUxNNDhlem93X1BMRFdCZ3J5ZEg2Tk5rekpvbmQyekFDdjE4UkE0cXFuZGkxb1lzeUpIN2d0Mmp2NWpLaHIyYXpiMkoxQkFEZzhoTXFpYmQtbjVvb0tSWV9TZDgzek5aLWhPcmY3RG5IVFFLbzVDVg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nLUswLVpDTTFRVlpCaXNvazRTdFJBdndQdnNTUEV0Zi1WT3hjOTg3UHJCdExJUTdyaWhoeFA0Q2ZBZnJFM3BJQko2X1JqNmh3czktMUFoN2pPVUpBcUE0dFptajF6bjJvUHdRc2N2VXbSAXRBVV95cUxNNDhlem93X1BMRFdCZ3J5ZEg2Tk5rekpvbmQyekFDdjE4UkE0cXFuZGkxb1lzeUpIN2d0Mmp2NWpLaHIyYXpiMkoxQkFEZzhoTXFpYmQtbjVvb0tSWV9TZDgzek5aLWhPcmY3RG5IVFFLbzVDVg?oc=5"
       },
       {
         "title": "다가오는 광복절, 국립공원에 남은 선열들의 흔적을 찾아서",
