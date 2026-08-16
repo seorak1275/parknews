@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "dateKo": "2026년 8월 14일 금요일",
-  "generatedAt": "2026-08-16T01:27:10.689Z",
+  "generatedAt": "2026-08-16T01:34:00.666Z",
   "kr": {
     "collected": 27,
     "failedQueries": 0,
@@ -12,7 +12,7 @@
         "press": [
           "연합뉴스",
           "서남투데이",
-          "네이트",
+          "news.nate.com",
           "koreafuture.co.kr",
           "한국글로벌뉴스"
         ],
@@ -30,7 +30,7 @@
           },
           {
             "title": "지리산 천왕봉에 새긴 독립 염원…국립공원에 남은 선열의 흔적",
-            "press": "네이트",
+            "press": "news.nate.com",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SOXF5eFdCcFVEN2xaZUEyNkxqNEo0S1E4T283NjBMajJyM2JtYnZuRUFOREZVTHYxeFQ2UGNIa1RCdnplVWNKWi1YY21FN2xTZG9v?oc=5"
           },
           {
@@ -51,7 +51,7 @@
         "reports": 3,
         "press": [
           "전기신문",
-          "브릿지경제",
+          "viva100.com",
           "디스커버리뉴스(DISCOVERYNEWS)"
         ],
         "outletCount": 3,
@@ -63,7 +63,7 @@
           },
           {
             "title": "국립공원공단, 공원 내 독립운동 역사문화자원 재조명",
-            "press": "브릿지경제",
+            "press": "viva100.com",
             "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50cHFmRUZjRnVmb2dPbnZPZ1didkpUUV90T2JadXVIUVEwbmJuSFFEQUN1ZEJoWGFJTHN3T1otU0dOMEZZbS1JelFac2FFNXFUcnVRX0xQMnAxUQ?oc=5"
           },
           {
@@ -361,7 +361,7 @@
     ]
   },
   "global": {
-    "collected": 61,
+    "collected": 62,
     "failedQueries": 0,
     "rows": [
       {
@@ -467,28 +467,6 @@
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zWXNvS3pwR1BxQnJrbW5JOUM5ZmE1WDVOUlF2cEpoSTNNMXc0S2FPN1ZuNVUwOVU3Yzd2R1VHcGlKcHJCY28xNHhUcVJSVG9WOE9USnduRWZXLWZ1RU1raXlTVEJpcFRJYzRZMHN5U2tmYkU?oc=5"
       },
       {
-        "title": "Kansas City man killed by falling rock at Glacier National Park",
-        "reports": 2,
-        "press": [
-          "KCTV",
-          "KFYR-TV"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Kansas City man killed by falling rock at Glacier National Park",
-            "press": "KCTV",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQUUwVzNIb2R1QmZoNzNFT3Q2X01JRnpWckJrajgwakpIZGE3bWZfWVhvTnFCZnhRbjNOcnRjVnBqSFJON2x6VGlNN1ZpRi1oYmZVd0kxT0JhLWVlYU1GY2xDQjJzWFFmZENmU1FTY0xxXzNYLU5hMzVEaDdPNGdMM1AwdHhpdTAtaHlncmJ4NGtaR2xmTzdvcnFn0gGuAUFVX3lxTE13TnlnRkRnTDc4VGtZSC1oRW1MTTdqcld5MDdyV2tHb1prdkJtN3pTTXNLSkFzNW80WkZSYTBzdWRZVEFkZGtFVmtVU0VOVVBtZ3Z2Qi1wZVFmTm5hMGVhdXJsbllpYzVBQWVFY2dubnBRRmpqNDFZTU5NVE1wUklLNU50X0Nka1BvNG16Qkd1RHd0Vk5zR2k1SENtdW1tdDRhX0JINjhQcGkyeU5fQQ?oc=5"
-          },
-          {
-            "title": "A Kansas City grandfather was killed after a freak accident at Glacier National Park. - KFYR-TV",
-            "press": "KFYR-TV",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd2hOdnNuRjNTeGFRWENxVkE4d0hJMVhCTklQMUNTQm5vd3otejd2UVRkaHR2V3ota0RjLXB4cHphdmszaEZPM0JfMkIzaVZ0MlVGcFNiNmFMSGx5TUVILVhLRkJ2dkhFUVFqT3dxdHZVeGFIbVJ2YVBxSnZRdU5CN09yMHZlM1Zia1prSGd1MlFsMk5JV1pNT2h5OGViU2FNekFwaXE3a2pSeVBLR3VobWl0S20zbTlxcVE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQUUwVzNIb2R1QmZoNzNFT3Q2X01JRnpWckJrajgwakpIZGE3bWZfWVhvTnFCZnhRbjNOcnRjVnBqSFJON2x6VGlNN1ZpRi1oYmZVd0kxT0JhLWVlYU1GY2xDQjJzWFFmZENmU1FTY0xxXzNYLU5hMzVEaDdPNGdMM1AwdHhpdTAtaHlncmJ4NGtaR2xmTzdvcnFn0gGuAUFVX3lxTE13TnlnRkRnTDc4VGtZSC1oRW1MTTdqcld5MDdyV2tHb1prdkJtN3pTTXNLSkFzNW80WkZSYTBzdWRZVEFkZGtFVmtVU0VOVVBtZ3Z2Qi1wZVFmTm5hMGVhdXJsbllpYzVBQWVFY2dubnBRRmpqNDFZTU5NVE1wUklLNU50X0Nka1BvNG16Qkd1RHd0Vk5zR2k1SENtdW1tdDRhX0JINjhQcGkyeU5fQQ?oc=5"
-      },
-      {
         "title": "National park signs on women and LGBTQ+ history are disappearing. Librarians are preserving the record",
         "reports": 2,
         "press": [
@@ -509,6 +487,50 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55YU1YUU9pakJpSzV6SXl6SXZ0Q2sxNGMwVm1SOElQV2ZKYXNxZFU1OWhZQ1VxMFNxQlJHemFHUExXNldoZHkwZ09NZTM1cEsxVDZWU3VnMFh5aThxT3JwOWp4N0d1Mm84a0hLVVpBa29SbjRZX3ZLYg?oc=5"
+      },
+      {
+        "title": "At Big Bend National Park, bulldozers begin clearing pristine desert land for border barrier work",
+        "reports": 2,
+        "press": [
+          "NPR",
+          "NationofChange"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "At Big Bend National Park, bulldozers begin clearing pristine desert land for border barrier work",
+            "press": "NPR",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdDaUFRaU02Zjh3YVNNel9DdnV5MTJYV1VBMV9LYWlIbVlJNUphZWt1R2JHRG5QYThSeVVCWXpkdS1FYXVTbGR6RkJpTnQ3VnpLZDV5dmZpY0FHUnpuamxjWW5YX1QtSHdCdHJNMlVvcGlaMzREY1AtNnF2UnpLdWhoYw?oc=5"
+          },
+          {
+            "title": "Bulldozers begin clearing ground for border barriers inside Big Bend National Park",
+            "press": "NationofChange",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkJkaS05ZFR3Tm1EejZ0U1BfUm80MHZPVDdETDdrWUM4MllUaGR4eldhOTk4bzFpckVuSFlPQmdPU2lheTVUWEtDWHhOYUFtMktrV29YdENhaVlvVjdzS2ZTcHZHdEF5VnZqaXBmRzdFUS0tSS1DM0lmemxXSlZPcEx3a0tIZ2hmV0lLQW5OeU9abjdmX1pfU3pyRVEyTVkxcXBFUkVQc3JyRHFYREdRbzNCZGpZMHU0aWxHLU96d00xUFE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdDaUFRaU02Zjh3YVNNel9DdnV5MTJYV1VBMV9LYWlIbVlJNUphZWt1R2JHRG5QYThSeVVCWXpkdS1FYXVTbGR6RkJpTnQ3VnpLZDV5dmZpY0FHUnpuamxjWW5YX1QtSHdCdHJNMlVvcGlaMzREY1AtNnF2UnpLdWhoYw?oc=5"
+      },
+      {
+        "title": "Amid pushback, CBP says it is placing ‘limited’ barriers, not 30-foot wall, in national park",
+        "reports": 2,
+        "press": [
+          "The Hill",
+          "NewsNation"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Amid pushback, CBP says it is placing ‘limited’ barriers, not 30-foot wall, in national park",
+            "press": "The Hill",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGRQUDBVcG1GYzhFYlZreHZsWmpPNnBnZnRVbjlaNkY0bXpUOE81YnhGS2NoUGhLUUJxVXpjQTRoS0dZWGNwTFlqbXdhWnIxMnZxQmk0ZTRidi1EMm03MmU2YkViZVhYVGpReVJVTmdobnliOE9WYUVRTkdYdXBfV0UzSlNrNGV20gGOAUFVX3lxTE9laE9oejQ0bU5DckFWOEE1M2FORlV5SU90RE00M1hwd2thVHNOS1dZdUJ2QWt1MGpENUhJV1hfYWxQSHRldkhfeDBUVjJWT0Jma1hmRlQ5VTk4d0NGcVdyVkR5RHNHOHBWb2I3VjhTYVBzXy04czFsR3FoT0JjNVY2bUQ2MlpTeTNPNVMwS3c?oc=5"
+          },
+          {
+            "title": "CBP says it is placing ‘limited’ barriers, not 30-foot wall, in national park",
+            "press": "NewsNation",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVFEMFZZSUpjemFFQkU4UWUzSnMwVEtqbDNlWVpwcnlIMmxNLXU0d3hEb2NNNU1vd09hRzk0c08tZklqVHlLYlhrZUxNQ2tSM01fZlp2c2liYzFrQkFhUEZ1ekNKZWw5WjgyOHVSSVlwamplZXlDOURwby05dTZrWDZLVXJKMDJ4OXpvOGxFNFd6UFFGLVJKRGpOeVlVRUFiNU5kR0YyRjJrd9IBrwFBVV95cUxNVjg3U2FSN1Vjb3laMHYzQi1kNWplZm1RRzNfa0QyU0lKZVl2eFNpY2txanNMRjB0WnRxYzlaQXVZOHpEaXN3UGhwYmZ5R0YyZEdqUGE1S05WN0FZMGVRTFpySnh6eWR0Ym5SNWV0YzJYTzNEY3h1NUY4Tlo0Z1ZDOXl6WE5wLW51MUE2WkJXNHBWS2tWQmFSTXA4UE9sY2pMeVJ3aS1iR0NXZFZURWxV?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGRQUDBVcG1GYzhFYlZreHZsWmpPNnBnZnRVbjlaNkY0bXpUOE81YnhGS2NoUGhLUUJxVXpjQTRoS0dZWGNwTFlqbXdhWnIxMnZxQmk0ZTRidi1EMm03MmU2YkViZVhYVGpReVJVTmdobnliOE9WYUVRTkdYdXBfV0UzSlNrNGV20gGOAUFVX3lxTE9laE9oejQ0bU5DckFWOEE1M2FORlV5SU90RE00M1hwd2thVHNOS1dZdUJ2QWt1MGpENUhJV1hfYWxQSHRldkhfeDBUVjJWT0Jma1hmRlQ5VTk4d0NGcVdyVkR5RHNHOHBWb2I3VjhTYVBzXy04czFsR3FoT0JjNVY2bUQ2MlpTeTNPNVMwS3c?oc=5"
       },
       {
         "title": "Texas' Big Bend National Park getting border barriers that even some Trump supporters dislike",
@@ -577,16 +599,80 @@
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYm8wOWdObTYyQjZQdGZtU2xwSmlWd3p4MjM2TGJJSHdtLV9ZbmFTY0tfc19tNm45QlpJSjk0UTdNcDFaZmpOTndPQTFqejQycWlEdXBDZnpNeHNBYzdRSWU2UloxY1pzNXpDTEdFZ0c4UDBYSERkX3RUZF9zUDJPM0xDYVE2ZV84c1R2VVU2OFQyMmc4THdyUmw0bVZoTVNqUnVOUXJDaVQ?oc=5"
       },
       {
+        "title": "How women farmers are helping elephants and forests in a Sumatran national park",
+        "reports": 1,
+        "press": [
+          "news.mongabay.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "How women farmers are helping elephants and forests in a Sumatran national park",
+            "press": "news.mongabay.com",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0oxRGJKd0tDdFBCTENfYmJ5REdqby1EZUVYZ3otVjU3QkR2ejhYWFhkZldhUUtvMTVXLWVnVjNOTXJueE5VLUZvNXVIQTZEQTFRUHJReGRuNGp2bllBdDhPUWt3VEJtYzh4UUxId3FPV3hDWllPeUh2eXA1N2xRT3lORW9PUWFJOWFoRXdnaEFtQnNRMWZCVGlYU1RMcUdVdnloR1NWN0o5dFMyQWVkSDV0cjnSAboBQVVfeXFMTndyMmFYOGs4T19WY3lDa0Nnc2FuMkIwUDJ5SjF1bnNOc2pwcHl4RFZMY1RUVXNLQ296VmNOMTg5RUhncjFkSUhDR3UtWEE1VExIVHdJVzFvcS1LRmRsRS1iX2I1cFVXdkVCS1NhQmdUNkR1MzdFc2FlaUJ6VEVOaEJLOFc2c1Z0ZTVxaVRmMHRqMnVUUnBNMGcwNFdJT0c5cFpyM3l4VUstN3J6ZUE1Qk9aaGo4VFZqQTJR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0oxRGJKd0tDdFBCTENfYmJ5REdqby1EZUVYZ3otVjU3QkR2ejhYWFhkZldhUUtvMTVXLWVnVjNOTXJueE5VLUZvNXVIQTZEQTFRUHJReGRuNGp2bllBdDhPUWt3VEJtYzh4UUxId3FPV3hDWllPeUh2eXA1N2xRT3lORW9PUWFJOWFoRXdnaEFtQnNRMWZCVGlYU1RMcUdVdnloR1NWN0o5dFMyQWVkSDV0cjnSAboBQVVfeXFMTndyMmFYOGs4T19WY3lDa0Nnc2FuMkIwUDJ5SjF1bnNOc2pwcHl4RFZMY1RUVXNLQ296VmNOMTg5RUhncjFkSUhDR3UtWEE1VExIVHdJVzFvcS1LRmRsRS1iX2I1cFVXdkVCS1NhQmdUNkR1MzdFc2FlaUJ6VEVOaEJLOFc2c1Z0ZTVxaVRmMHRqMnVUUnBNMGcwNFdJT0c5cFpyM3l4VUstN3J6ZUE1Qk9aaGo4VFZqQTJR?oc=5"
+      },
+      {
+        "title": "Small businesses at the gateways to America’s national parks face 4 big risks – including changing boundaries and extreme weather",
+        "reports": 1,
+        "press": [
+          "The Conversation"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Small businesses at the gateways to America’s national parks face 4 big risks – including changing boundaries and extreme weather",
+            "press": "The Conversation",
+            "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOWtJUEVLeENCSjF2UVc4aDZDQkFwZ0NsLUVIQWhTd2lRWFpPZ3ZXV2NvV2MyZTRZVXIyQl9WcTV6REdYUkc0MW5jYXFYdlNNVm9fdlc3dEllOFVYdVh0SER4aGI1dWFhQ1g4RDFWRnNpUUc4Z3BOODJQN09ocmw0Q3hsMWlsS3pmZ3plbDZxVW9Da3dacXdGYVRUbFBDRnd6bU13SjMtRUZOSlJnNlMzUEhFSnNreENPTkh1Y0ZkVUNHTmZhODZOaHZNTWRkbVg5Rmx4UlZKeURGeF9tNVdYWDg5Nm03WkE1NzJlMjJZSlFrcEk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOWtJUEVLeENCSjF2UVc4aDZDQkFwZ0NsLUVIQWhTd2lRWFpPZ3ZXV2NvV2MyZTRZVXIyQl9WcTV6REdYUkc0MW5jYXFYdlNNVm9fdlc3dEllOFVYdVh0SER4aGI1dWFhQ1g4RDFWRnNpUUc4Z3BOODJQN09ocmw0Q3hsMWlsS3pmZ3plbDZxVW9Da3dacXdGYVRUbFBDRnd6bU13SjMtRUZOSlJnNlMzUEhFSnNreENPTkh1Y0ZkVUNHTmZhODZOaHZNTWRkbVg5Rmx4UlZKeURGeF9tNVdYWDg5Nm03WkE1NzJlMjJZSlFrcEk?oc=5"
+      },
+      {
+        "title": "Kansas City man killed by falling rock at Glacier National Park",
+        "reports": 1,
+        "press": [
+          "KCTV"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Kansas City man killed by falling rock at Glacier National Park",
+            "press": "KCTV",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQUUwVzNIb2R1QmZoNzNFT3Q2X01JRnpWckJrajgwakpIZGE3bWZfWVhvTnFCZnhRbjNOcnRjVnBqSFJON2x6VGlNN1ZpRi1oYmZVd0kxT0JhLWVlYU1GY2xDQjJzWFFmZENmU1FTY0xxXzNYLU5hMzVEaDdPNGdMM1AwdHhpdTAtaHlncmJ4NGtaR2xmTzdvcnFn0gGuAUFVX3lxTE13TnlnRkRnTDc4VGtZSC1oRW1MTTdqcld5MDdyV2tHb1prdkJtN3pTTXNLSkFzNW80WkZSYTBzdWRZVEFkZGtFVmtVU0VOVVBtZ3Z2Qi1wZVFmTm5hMGVhdXJsbllpYzVBQWVFY2dubnBRRmpqNDFZTU5NVE1wUklLNU50X0Nka1BvNG16Qkd1RHd0Vk5zR2k1SENtdW1tdDRhX0JINjhQcGkyeU5fQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQUUwVzNIb2R1QmZoNzNFT3Q2X01JRnpWckJrajgwakpIZGE3bWZfWVhvTnFCZnhRbjNOcnRjVnBqSFJON2x6VGlNN1ZpRi1oYmZVd0kxT0JhLWVlYU1GY2xDQjJzWFFmZENmU1FTY0xxXzNYLU5hMzVEaDdPNGdMM1AwdHhpdTAtaHlncmJ4NGtaR2xmTzdvcnFn0gGuAUFVX3lxTE13TnlnRkRnTDc4VGtZSC1oRW1MTTdqcld5MDdyV2tHb1prdkJtN3pTTXNLSkFzNW80WkZSYTBzdWRZVEFkZGtFVmtVU0VOVVBtZ3Z2Qi1wZVFmTm5hMGVhdXJsbllpYzVBQWVFY2dubnBRRmpqNDFZTU5NVE1wUklLNU50X0Nka1BvNG16Qkd1RHd0Vk5zR2k1SENtdW1tdDRhX0JINjhQcGkyeU5fQQ?oc=5"
+      },
+      {
+        "title": "What's next for Big Bend National Park now as border construction is underway",
+        "reports": 1,
+        "press": [
+          "Houston Chronicle"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "What's next for Big Bend National Park now as border construction is underway",
+            "press": "Houston Chronicle",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemZadjlZNmloLVBRQTBBcVlfeEV4T05IWURLTmNzeHRhNXMyQ1A2aDd1bmxvWlFEbGRoRklLZXdDeU9mTDFWcTlEUUlxMGJGWnR0RVJJckNRTjBTWU54UlVQZ2pJRUVJNUV3Z2RTYTJadk1uLU1pYnJYUTNTN1VZSzVVeE02RzExaHU4NWtOZTQ1NVk3MjIxU2pLTk1yTUpzcC1wZg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemZadjlZNmloLVBRQTBBcVlfeEV4T05IWURLTmNzeHRhNXMyQ1A2aDd1bmxvWlFEbGRoRklLZXdDeU9mTDFWcTlEUUlxMGJGWnR0RVJJckNRTjBTWU54UlVQZ2pJRUVJNUV3Z2RTYTJadk1uLU1pYnJYUTNTN1VZSzVVeE02RzExaHU4NWtOZTQ1NVk3MjIxU2pLTk1yTUpzcC1wZg?oc=5"
+      },
+      {
         "title": "Bat That ‘Swooped’ into Mystery Woman’s Hair at National Park Tests Positive for Rabies, Prompting an Urgent Warning",
         "reports": 1,
         "press": [
-          "people.com"
+          "People.com"
         ],
         "outletCount": 1,
         "articles": [
           {
             "title": "Bat That ‘Swooped’ into Mystery Woman’s Hair at National Park Tests Positive for Rabies, Prompting an Urgent Warning",
-            "press": "people.com",
+            "press": "People.com",
             "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcEVaSnJIaS1zLWl0T3dxZ1h6UG12aDNXZFlxNlhidi1WczNjYzJkczdDeEdxQ2NHMFBLVk5vMm1pSVlhd3RPaGh1eDNHcTRENFVDdGdJbm5kbHdaVUE0NVB2ZFdnNWgzTUg2SXVXSzVDTk51NFlLY0JZLUl3R2FMVDVB?oc=5"
           }
         ],
@@ -641,22 +727,6 @@
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUFJBR2pYZDFEaURTVkl0ZzFQczlQalBGcm05M1I4NlprWGcyYTk0dVNGckFrWnJodUhza0xidzNWT1NFUWhIT3poT1hSOEtFekYyUXUzTFhkVFpDZDc1SnB1eFdqNkNvbGRfU2xia203eWxORXVESGFMWjRBM05sRWhCUmhmOS1ubUc1eW1fcWhSMk91T3hpREhpeE5OMF9fbUo5bFFtTkxZeTNxdkVNYnhmV0FoSTlweWpJWVJzTQ?oc=5"
       },
       {
-        "title": "How women farmers are helping elephants and forests in a Sumatran national park",
-        "reports": 1,
-        "press": [
-          "news.mongabay.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "How women farmers are helping elephants and forests in a Sumatran national park",
-            "press": "news.mongabay.com",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0oxRGJKd0tDdFBCTENfYmJ5REdqby1EZUVYZ3otVjU3QkR2ejhYWFhkZldhUUtvMTVXLWVnVjNOTXJueE5VLUZvNXVIQTZEQTFRUHJReGRuNGp2bllBdDhPUWt3VEJtYzh4UUxId3FPV3hDWllPeUh2eXA1N2xRT3lORW9PUWFJOWFoRXdnaEFtQnNRMWZCVGlYU1RMcUdVdnloR1NWN0o5dFMyQWVkSDV0cjnSAboBQVVfeXFMTndyMmFYOGs4T19WY3lDa0Nnc2FuMkIwUDJ5SjF1bnNOc2pwcHl4RFZMY1RUVXNLQ296VmNOMTg5RUhncjFkSUhDR3UtWEE1VExIVHdJVzFvcS1LRmRsRS1iX2I1cFVXdkVCS1NhQmdUNkR1MzdFc2FlaUJ6VEVOaEJLOFc2c1Z0ZTVxaVRmMHRqMnVUUnBNMGcwNFdJT0c5cFpyM3l4VUstN3J6ZUE1Qk9aaGo4VFZqQTJR?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0oxRGJKd0tDdFBCTENfYmJ5REdqby1EZUVYZ3otVjU3QkR2ejhYWFhkZldhUUtvMTVXLWVnVjNOTXJueE5VLUZvNXVIQTZEQTFRUHJReGRuNGp2bllBdDhPUWt3VEJtYzh4UUxId3FPV3hDWllPeUh2eXA1N2xRT3lORW9PUWFJOWFoRXdnaEFtQnNRMWZCVGlYU1RMcUdVdnloR1NWN0o5dFMyQWVkSDV0cjnSAboBQVVfeXFMTndyMmFYOGs4T19WY3lDa0Nnc2FuMkIwUDJ5SjF1bnNOc2pwcHl4RFZMY1RUVXNLQ296VmNOMTg5RUhncjFkSUhDR3UtWEE1VExIVHdJVzFvcS1LRmRsRS1iX2I1cFVXdkVCS1NhQmdUNkR1MzdFc2FlaUJ6VEVOaEJLOFc2c1Z0ZTVxaVRmMHRqMnVUUnBNMGcwNFdJT0c5cFpyM3l4VUstN3J6ZUE1Qk9aaGo4VFZqQTJR?oc=5"
-      },
-      {
         "title": "Great-grandfather killed in front of wife after rock crashes through Jeep roof in national park",
         "reports": 1,
         "press": [
@@ -705,22 +775,6 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdWxMX2xCLUxfVmxPbU8wYzlUaGVDQ29JQnBCU1A5ei00SGdOSnhWVzcxMHUwT3ZCQkRBYlNnRnY2TG1DY2tqbVlJQnJ2dnBHNG8zbm1GTS05UnV2TDZrTXJXRjJPM3ZqNFU3eVdfOVcyZDBnTHcyODRUUFdWcTluU2RsbmJOeUtyTVhMOQ?oc=5"
       },
       {
-        "title": "Small businesses at the gateways to America’s national parks face 4 big risks – including changing boundaries and extreme weather",
-        "reports": 1,
-        "press": [
-          "The Conversation"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Small businesses at the gateways to America’s national parks face 4 big risks – including changing boundaries and extreme weather",
-            "press": "The Conversation",
-            "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOWtJUEVLeENCSjF2UVc4aDZDQkFwZ0NsLUVIQWhTd2lRWFpPZ3ZXV2NvV2MyZTRZVXIyQl9WcTV6REdYUkc0MW5jYXFYdlNNVm9fdlc3dEllOFVYdVh0SER4aGI1dWFhQ1g4RDFWRnNpUUc4Z3BOODJQN09ocmw0Q3hsMWlsS3pmZ3plbDZxVW9Da3dacXdGYVRUbFBDRnd6bU13SjMtRUZOSlJnNlMzUEhFSnNreENPTkh1Y0ZkVUNHTmZhODZOaHZNTWRkbVg5Rmx4UlZKeURGeF9tNVdYWDg5Nm03WkE1NzJlMjJZSlFrcEk?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOWtJUEVLeENCSjF2UVc4aDZDQkFwZ0NsLUVIQWhTd2lRWFpPZ3ZXV2NvV2MyZTRZVXIyQl9WcTV6REdYUkc0MW5jYXFYdlNNVm9fdlc3dEllOFVYdVh0SER4aGI1dWFhQ1g4RDFWRnNpUUc4Z3BOODJQN09ocmw0Q3hsMWlsS3pmZ3plbDZxVW9Da3dacXdGYVRUbFBDRnd6bU13SjMtRUZOSlJnNlMzUEhFSnNreENPTkh1Y0ZkVUNHTmZhODZOaHZNTWRkbVg5Rmx4UlZKeURGeF9tNVdYWDg5Nm03WkE1NzJlMjJZSlFrcEk?oc=5"
-      },
-      {
         "title": "An Arches National Park shuttle is tearing Moab apart",
         "reports": 1,
         "press": [
@@ -735,22 +789,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaW1JaTNyX0w5UXlYaW9RaVJubk1UX1pDUURfaXZXci1nYUo0YkQxbjRic3ZaR2FNN01iVjhrWEZ2YXVqMzQybVhJZDIyQ0xjdm4xbU5mZnREcW40bDZSV21uZmgyTjZtWm9GeVdXeGd2RW5YbmhSV3VqTWIwYUdwaDRPaFRzQnNOVlZRVWZlU3g?oc=5"
-      },
-      {
-        "title": "Bulldozers begin clearing ground for border barriers inside Big Bend National Park",
-        "reports": 1,
-        "press": [
-          "NationofChange"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Bulldozers begin clearing ground for border barriers inside Big Bend National Park",
-            "press": "NationofChange",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkJkaS05ZFR3Tm1EejZ0U1BfUm80MHZPVDdETDdrWUM4MllUaGR4eldhOTk4bzFpckVuSFlPQmdPU2lheTVUWEtDWHhOYUFtMktrV29YdENhaVlvVjdzS2ZTcHZHdEF5VnZqaXBmRzdFUS0tSS1DM0lmemxXSlZPcEx3a0tIZ2hmV0lLQW5OeU9abjdmX1pfU3pyRVEyTVkxcXBFUkVQc3JyRHFYREdRbzNCZGpZMHU0aWxHLU96d00xUFE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkJkaS05ZFR3Tm1EejZ0U1BfUm80MHZPVDdETDdrWUM4MllUaGR4eldhOTk4bzFpckVuSFlPQmdPU2lheTVUWEtDWHhOYUFtMktrV29YdENhaVlvVjdzS2ZTcHZHdEF5VnZqaXBmRzdFUS0tSS1DM0lmemxXSlZPcEx3a0tIZ2hmV0lLQW5OeU9abjdmX1pfU3pyRVEyTVkxcXBFUkVQc3JyRHFYREdRbzNCZGpZMHU0aWxHLU96d00xUFE?oc=5"
       },
       {
         "title": "Water restrictions increase at Grand Canyon National Park",
@@ -833,22 +871,6 @@
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTDF4YS1jVjhBR2ZUM3FDVFM1OUI4UkpUNW9kTTNVZGlCbzhmZkVrVHNyUTFhR3NUMTUyU2M2SlI5UjBMa0l4ZkJybkVxQWZBc3N1akZmM0p2aW54eC1wY1E2ZGFKLW1uV2FjTWZIcmluSjJYbWdSQVVDZFpXdUQzNk8taURqZkNfZW96V1dVUFc4QXo5UW0tZVhSM0pYZThZQUdqbW5XS01DLXMwOExGcEJfY0UwLWt3aVUwMjU2WGtTZDZK?oc=5"
       },
       {
-        "title": "CBP says it is placing ‘limited’ barriers, not 30-foot wall, in national park",
-        "reports": 1,
-        "press": [
-          "NewsNation"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "CBP says it is placing ‘limited’ barriers, not 30-foot wall, in national park",
-            "press": "NewsNation",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVFEMFZZSUpjemFFQkU4UWUzSnMwVEtqbDNlWVpwcnlIMmxNLXU0d3hEb2NNNU1vd09hRzk0c08tZklqVHlLYlhrZUxNQ2tSM01fZlp2c2liYzFrQkFhUEZ1ekNKZWw5WjgyOHVSSVlwamplZXlDOURwby05dTZrWDZLVXJKMDJ4OXpvOGxFNFd6UFFGLVJKRGpOeVlVRUFiNU5kR0YyRjJrd9IBrwFBVV95cUxNVjg3U2FSN1Vjb3laMHYzQi1kNWplZm1RRzNfa0QyU0lKZVl2eFNpY2txanNMRjB0WnRxYzlaQXVZOHpEaXN3UGhwYmZ5R0YyZEdqUGE1S05WN0FZMGVRTFpySnh6eWR0Ym5SNWV0YzJYTzNEY3h1NUY4Tlo0Z1ZDOXl6WE5wLW51MUE2WkJXNHBWS2tWQmFSTXA4UE9sY2pMeVJ3aS1iR0NXZFZURWxV?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVFEMFZZSUpjemFFQkU4UWUzSnMwVEtqbDNlWVpwcnlIMmxNLXU0d3hEb2NNNU1vd09hRzk0c08tZklqVHlLYlhrZUxNQ2tSM01fZlp2c2liYzFrQkFhUEZ1ekNKZWw5WjgyOHVSSVlwamplZXlDOURwby05dTZrWDZLVXJKMDJ4OXpvOGxFNFd6UFFGLVJKRGpOeVlVRUFiNU5kR0YyRjJrd9IBrwFBVV95cUxNVjg3U2FSN1Vjb3laMHYzQi1kNWplZm1RRzNfa0QyU0lKZVl2eFNpY2txanNMRjB0WnRxYzlaQXVZOHpEaXN3UGhwYmZ5R0YyZEdqUGE1S05WN0FZMGVRTFpySnh6eWR0Ym5SNWV0YzJYTzNEY3h1NUY4Tlo0Z1ZDOXl6WE5wLW51MUE2WkJXNHBWS2tWQmFSTXA4UE9sY2pMeVJ3aS1iR0NXZFZURWxV?oc=5"
-      },
-      {
         "title": "Wyomingites from across world become U.S. citizens in Grand Teton National Park",
         "reports": 1,
         "press": [
@@ -927,22 +949,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDNzVk14cjhBcVlONzZVaGxPOUxnMlhuT2NDR1hRU0N2T2F1YTFubzFLZzMzZWhLSzRhX0dxbl9EbEo1WTQtNU1ua0FSSHB5UnJwbW0zNUpueTdmUVY0Qks0d3VzQjdCRFhweFFsTmJGVnhPZldfeEx2aEZHZWV5OXQ0dzNZakxwWk5OenFQSDA1SndmMjVUMnZ1c3BQbWpBRFFHN21wV1hheUVLYkROQllNSzQyencyWUZndWVnTXdhc0hw?oc=5"
-      },
-      {
-        "title": "What's next for Big Bend National Park now as border construction is underway",
-        "reports": 1,
-        "press": [
-          "Houston Chronicle"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "What's next for Big Bend National Park now as border construction is underway",
-            "press": "Houston Chronicle",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemZadjlZNmloLVBRQTBBcVlfeEV4T05IWURLTmNzeHRhNXMyQ1A2aDd1bmxvWlFEbGRoRklLZXdDeU9mTDFWcTlEUUlxMGJGWnR0RVJJckNRTjBTWU54UlVQZ2pJRUVJNUV3Z2RTYTJadk1uLU1pYnJYUTNTN1VZSzVVeE02RzExaHU4NWtOZTQ1NVk3MjIxU2pLTk1yTUpzcC1wZg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemZadjlZNmloLVBRQTBBcVlfeEV4T05IWURLTmNzeHRhNXMyQ1A2aDd1bmxvWlFEbGRoRklLZXdDeU9mTDFWcTlEUUlxMGJGWnR0RVJJckNRTjBTWU54UlVQZ2pJRUVJNUV3Z2RTYTJadk1uLU1pYnJYUTNTN1VZSzVVeE02RzExaHU4NWtOZTQ1NVk3MjIxU2pLTk1yTUpzcC1wZg?oc=5"
       },
       {
         "title": "In Big Bend, new border construction raises fears over light pollution and wildlife",
