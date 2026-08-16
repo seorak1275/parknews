@@ -144,7 +144,7 @@ window.Ranking = (() => {
                   ${esc(o.title)}<em>${esc(o.press)}</em></a></li>`).join('')}</ul>
             </details>` : ''}
         </div>
-        <div class="rk-bar" style="--w:${Math.min(100, Math.round(r.reports / max * 100))}%"><i></i></div>
+        <div class="rk-bar" style="--w:${Math.min(100, Math.round(r.outletCount / max * 100))}%"><i></i></div>
       </li>`;
   }
 
@@ -175,7 +175,7 @@ window.Ranking = (() => {
         body.innerHTML = `<div class="rk-state">집계할 기사를 찾지 못했습니다.</div>`;
         return;
       }
-      const max = Math.max(...rows.map((r) => r.reports)) || 1;
+      const max = Math.max(...rows.map((r) => r.outletCount)) || 1;
       body.innerHTML = `
         <p class="rk-note">
           같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다

@@ -81,7 +81,9 @@ const SETS = {
       '반달가슴곰', '자연휴양림', '깃대종', '개화', '서식',
     ],
     noise: ['주가', '증권', '코스피', '분양', '아파트', '청약', '프로야구', '이적',
-            '채용', '입찰', '공고', '모집공고'],
+            '채용', '입찰', '공고', '모집공고',
+            /* 기사가 아닌 것 — 편성표·다시보기 페이지가 제목만 보면 걸러지지 않는다 */
+            '다시보기', '편성표', '재방송', '실시간tv', '무료보기'],
   },
   global: {
     label: '국외',
@@ -280,7 +282,10 @@ function groupByIssue(entries) {
       articles: g.articles,
       link: g.articles[0]?.link || '',
     }))
-    .sort((a, b) => b.reports - a.reports || b.outletCount - a.outletCount);
+    /* 화면·README가 모두 "언론사 수 기준"이라고 밝히므로 그대로 정렬한다.
+       보도 건수를 1순위로 두면 한 매체가 같은 사안을 여러 번 쓴 것이
+       여러 매체가 다룬 사안을 앞지른다. */
+    .sort((a, b) => b.outletCount - a.outletCount || b.reports - a.reports);
 }
 
 /** 원본 기사 배열 → groupByIssue 가 먹는 형태 */
