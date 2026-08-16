@@ -982,6 +982,11 @@
     HotBar.init();
     initTicker();
 
+    /* 다른 모듈이 "이 공원 위치로 보내달라"고 요청할 수 있게 열어 둔다.
+       (인기뉴스 순위의 '위치 바로가기'가 사용 — 해외 기사는 어디 있는 공원인지
+        제목만 봐서는 알 수 없다) */
+    window.ParkMap = { select: (p) => { try { select(p); } catch (e) { console.warn(e); } } };
+
     /* 딥링크 진입 — #p=<공원id> 로 들어오면 해당 공원을 바로 연다 */
     const hash = location.hash.match(/^#p=([%\w.-]+)/);
     if (hash) {

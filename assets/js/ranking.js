@@ -105,12 +105,74 @@ window.Ranking = (() => {
     };
   }
 
+  /* ==========================================================
+   *  제목 → 공원 찾기 (위치 바로가기)
+   *
+   *  해외 기사는 "Bulldozers tear through Big Bend national park…" 처럼
+   *  제목만 봐서는 그 공원이 어디 있는 나라인지 알 수 없다.
+   *  제목에서 공원 이름을 찾아내 지도로 보내주는 버튼을 붙인다.
+   * ======================================================== */
+  let parkIndex = null;
+
+  const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  async function ensureParkIndex() {
+    if (parkIndex) return parkIndex;
+    const idx = [];
+
+    /* 국내 24곳 — '지리산국립공원' → '지리산' 으로 찾는다 */
+    for (const r of (window.REGIONS_KR || [])) {
+      const key = r.name.replace('국립공원', '').trim();
+      if (key.length >= 2) idx.push({ key, park: r, ko: true });
+    }
+
+    /* 해외 2,034곳 — 'Big Bend National Park' → 'big bend' */
+    try {
+      for (const p of await Explorer.allParks()) {
+        const base = String(p.nameEn || p.name || '').toLowerCase()
+          .replace(/national\s*park|nationalpark|national\s*monument|national\s*preserve/g, ' ')
+          .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+        if (base.length >= 4) idx.push({ key: base, park: p, re: new RegExp(`\\b${reEsc(base)}\\b`) });
+      }
+    } catch (e) {
+      console.warn('해외 공원 목록을 불러오지 못해 위치 바로가기를 건너뜁니다:', e);
+    }
+
+    idx.sort((a, b) => b.key.length - a.key.length);   // 긴 이름 우선 매칭
+    parkIndex = idx;
+    return idx;
+  }
+
+  function findPark(title, idx) {
+    const t = String(title).toLowerCase();
+    for (const e of idx) {
+      if (e.ko) {
+        /* '경주' 처럼 짧은 이름은 지명과 겹치므로 '국립공원'이 함께 있을 때만 인정 */
+        if (!t.includes(e.key)) continue;
+        if (e.key.length <= 2 && !t.includes('국립공원')) continue;
+        return e.park;
+      }
+      if (e.re.test(t)) return e.park;
+    }
+    return null;
+  }
+
+  async function attachParks(rows) {
+    try {
+      const idx = await ensureParkIndex();
+      return rows.map((r) => ({ ...r, park: findPark(r.title, idx) }));
+    } catch {
+      return rows;                     // 위치 버튼만 빠지고 순위는 그대로 보여준다
+    }
+  }
+
   async function fetchRank(which, period) {
     const ck = `${which}|${period}`;
     const hit = state.cache[ck];
     if (hit && Date.now() - hit.at < TTL) return hit.res;
 
-    const res = period === 'live' ? await fetchLive(which) : await fetchArchive(which, period);
+    const raw = period === 'live' ? await fetchLive(which) : await fetchArchive(which, period);
+    const res = { ...raw, rows: await attachParks(raw.rows) };
     state.cache[ck] = { at: Date.now(), res };
     return res;
   }
@@ -125,6 +187,18 @@ window.Ranking = (() => {
     return `<b class="rk-no">${i + 1}</b>`;
   }
 
+  /** 지도로 보내는 버튼 — 어느 나라 어디쯤인지 알려준다 */
+  function locHtml(p) {
+    if (!p) return '';
+    const where = p.cat === 'kr'
+      ? (p.desc || '').split(' · ')[0]                 // 예) '전남·전북·경남'
+      : (p.countryKo || p.country || '');
+    return `<button type="button" class="rk-loc" data-park="${esc(p.id)}"
+      title="지도에서 이 공원 위치 보기">
+      <svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" fill="currentColor"/></svg>
+      ${esc(p.name)}${where ? ` · ${esc(where)}` : ''}</button>`;
+  }
+
   function rowHtml(r, i, max) {
     const others = r.others || [];
     return `
@@ -137,6 +211,7 @@ window.Ranking = (() => {
             <span class="rk-press">${esc(r.press.slice(0, 4).join(' · '))}${r.press.length > 4 ? ` 외 ${r.press.length - 4}` : ''}</span>
             ${r.time ? `<span class="rk-time">${esc(r.time)}</span>` : ''}
           </p>
+          ${locHtml(r.park)}
           ${others.length ? `<details class="rk-more">
               <summary>관련 보도 ${others.length}건 더보기</summary>
               <ul>${others.map((o) => `
@@ -178,8 +253,8 @@ window.Ranking = (() => {
       const max = Math.max(...rows.map((r) => r.outletCount)) || 1;
       body.innerHTML = `
         <p class="rk-note">
-          같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다
-          <span>${label} · 상위 ${rows.length}건 · ${note}</span>
+          <span class="rk-note__l">같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다</span>
+          <span class="rk-note__r">${label} · 상위 ${rows.length}건 · ${note}</span>
         </p>
         <ol class="rk-list">${rows.map((r, i) => rowHtml(r, i, max)).join('')}</ol>`;
     } catch (e) {
@@ -204,6 +279,16 @@ window.Ranking = (() => {
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && $('#ranking')?.classList.contains('is-open')) close();
     });
+    /* 위치 바로가기 — 순위 창을 닫고 그 공원으로 지도를 이동시킨다 */
+    $('#rk-body')?.addEventListener('click', (e) => {
+      const b = e.target.closest('.rk-loc');
+      if (!b) return;
+      const p = (parkIndex || []).find((x) => x.park.id === b.dataset.park)?.park;
+      if (!p || !window.ParkMap) return;
+      close();
+      window.ParkMap.select(p);
+    });
+
     $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; render(); });
     $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; render(); });
     $('#rk-periods')?.addEventListener('click', (e) => {

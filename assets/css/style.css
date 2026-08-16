@@ -945,7 +945,22 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
   display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
 }
 .rk-note b{color:var(--ink-2)}
-.rk-note span{color:var(--ink-4);white-space:nowrap}
+/* 좌·우를 각각 하나의 덩어리로 묶는다.
+   문장을 그냥 두면 <b>와 앞뒤 글자가 제각각 flex 항목이 되어
+   space-between 이 문장 한가운데를 벌려버린다. */
+.rk-note__l{color:var(--ink-3)}
+.rk-note__r{color:var(--ink-4)}
+
+/* 위치 바로가기 — 해외 기사는 어느 나라 공원인지 제목만 봐선 모른다 */
+.rk-loc{
+  display:inline-flex;align-items:center;gap:5px;margin-top:6px;
+  padding:4px 9px;border-radius:999px;font-size:11px;font-weight:600;
+  color:var(--global);background:color-mix(in srgb,var(--global) 12%,transparent);
+  border:1px solid color-mix(in srgb,var(--global) 32%,transparent);
+  transition:background .18s,color .18s;
+}
+.rk-loc:hover{background:color-mix(in srgb,var(--global) 24%,transparent);color:#fff}
+.rk-loc svg{flex:none;opacity:.9}
 
 .rk-list{display:flex;flex-direction:column;gap:3px;counter-reset:rk}
 .rk-row{
