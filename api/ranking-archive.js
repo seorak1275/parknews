@@ -19,7 +19,9 @@
  *    GITHUB_TOKEN        아카이브 저장용 (필수 · Contents 읽기/쓰기)
  *    GITHUB_REPO         예) seorak1275/parknews
  *    GITHUB_BRANCH       기본값 main
- *    CRON_SECRET         수동 실행 보호용 (권장)
+ *    CRON_SECRET         (선택) 손으로 수집을 돌릴 때만 필요.
+ *                        평소 자동 수집은 Vercel Cron 헤더로 인증하므로
+ *                        이 값이 없어도 외부인은 수집을 호출할 수 없다.
  *
  *  --------- 조회
  *    GET /api/ranking-archive?period=day            어제 하루
@@ -416,11 +418,22 @@ export default async function handler(req, res) {
 
   /* ---------- 생성 모드 (크론 또는 수동) ---------- */
   if (req.query.cron || req.query.generate) {
+    /* 수집은 GitHub 에 커밋을 남기므로 아무나 부르게 두면 안 된다.
+       예전에는 CRON_SECRET 이 없으면 무조건 통과시켜(!secret) 무방비였다.
+
+       1) Vercel Cron 이 붙이는 x-vercel-cron 헤더 — 플랫폼이 외부에서 들어온
+          x-vercel-* 헤더를 덮어쓰므로 바깥에서는 흉내낼 수 없다.
+       2) CRON_SECRET 을 등록했다면 수동 실행도 허용한다. (선택)
+       둘 다 아니면 거절한다 — 기본값이 '거절'이어야 한다. */
     const secret = process.env.CRON_SECRET;
-    const authed = !secret
-      || req.headers.authorization === `Bearer ${secret}`
-      || req.query.key === secret;
-    if (!authed) return res.status(401).json({ error: '인증 실패 (CRON_SECRET)' });
+    const fromVercelCron = req.headers['x-vercel-cron'] !== undefined;
+    const withSecret = Boolean(secret)
+      && (req.headers.authorization === `Bearer ${secret}` || req.query.key === secret);
+    if (!fromVercelCron && !withSecret) {
+      return res.status(401).json({
+        error: '인증 실패 — Vercel Cron 이 아니고 CRON_SECRET 도 맞지 않습니다.',
+      });
+    }
 
     if (!GH.ok()) {
       return res.status(501).json({
