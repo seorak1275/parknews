@@ -109,11 +109,23 @@ window.Explorer = (() => {
     '순다르반스': 'sundarbans', '치트완': 'chitwan', '사가르마타': 'sagarmatha',
     '랑탕': 'langtang', '푸꾸옥': 'phuquoc', '퐁냐케방': 'phongnhakebang',
     '깟바': 'catba', '타만네가라': 'tamannegara', '키나발루': 'kinabalu',
+    '테를지': 'terelj|gorkhiterelj', '고르히테를지': 'terelj|gorkhiterelj',
+    '고비': 'gobigurvansaikhan', '구르반사이한': 'gobigurvansaikhan',
+    '주부산가쿠': 'chubusangaku', '기타알프스': 'chubusangaku',
     /* 오세아니아 */
     '카카두': 'kakadu', '울루루': 'uluru', '블루마운틴스': 'bluemountains',
     '다인트리': 'daintree', '크레이들마운틴': 'cradlemountain', '통가리로': 'tongariro',
     '피오르드랜드': 'fiordland', '아오라키': 'aoraki|mountcook', '마운트쿡': 'aoraki|mountcook',
     '아벨태즈먼': 'abeltasman',
+    '태즈메이니아': 'cradlemountain|freycinet|franklingordon|mountfield',
+    '프레이시넷': 'freycinet', '마운트필드': 'mountfield',
+    '그램피언스': 'grampians', '코지어스코': 'kosciuszko', '코시어스코': 'kosciuszko',
+    '리치필드': 'litchfield', '카리지니': 'karijini', '퍼눌룰루': 'purnululu',
+    '피너클스': 'nambung', '남붕': 'nambung', '오트웨이': 'greatotway',
+    '마운트아스파이어링': 'mountaspiring', '웨스트랜드': 'westland',
+    '에그몬트': 'egmont', '타라나키': 'egmont', '아서스패스': 'arthurspass',
+    '라키우라': 'rakiura', '스튜어트섬': 'rakiura', '넬슨레이크스': 'nelsonlakes',
+    '카후랑이': 'kahurangi', '파파로아': 'paparoa',
   };
 
   /* 정규화 — 소문자 · 발음기호 제거 · 한글/영숫자 외 제거 */

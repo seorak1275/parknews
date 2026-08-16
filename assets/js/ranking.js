@@ -126,7 +126,7 @@ window.Ranking = (() => {
       if (key.length >= 2) idx.push({ key, park: r, ko: true });
     }
 
-    /* 해외 2,034곳 — 'Big Bend National Park' → 'big bend' */
+    /* 해외 1,966곳 — 'Big Bend National Park' → 'big bend' */
     const norm = (s) => String(s || '').toLowerCase()
       .replace(/national\s*park|nationalpark|national\s*monument|national\s*preserve/g, ' ')
       .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
