@@ -947,7 +947,6 @@
   (async function boot() {
     initClock();
     bindUI();
-    Digest.init();
     Ranking.init();
     Stats.init();
     Explorer.init({ onPick: (p) => { select(p); state.onPickMobileClose?.(); } });

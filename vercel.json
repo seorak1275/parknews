@@ -3,12 +3,12 @@
   "cleanUrls": true,
   "crons": [
     {
-      "path": "/api/digest?cron=1",
+      "path": "/api/ranking-archive?cron=1",
       "schedule": "0 22 * * *"
     }
   ],
   "functions": {
-    "api/digest.js": {
+    "api/ranking-archive.js": {
       "maxDuration": 60
     }
   },

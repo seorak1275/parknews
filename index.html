@@ -72,41 +72,11 @@
       <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       인기뉴스
     </button>
-    <button class="dlbtn" id="btn-digest">
-      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 3v11m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      일일 요약
-    </button>
     <button class="iconbtn iconbtn--top" id="btn-light" title="밝은 지도" aria-label="밝은 지도 전환">
       <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
     </button>
   </div>
 </header>
-
-<!-- ===== 일일기사요약 모달 ===== -->
-<div class="dg-overlay" id="digest" role="dialog" aria-modal="true" aria-label="일일 국립공원 기사요약">
-  <div class="dg-panel glass">
-    <header class="dg-bar">
-      <div class="dg-bar__l">
-        <button class="iconbtn" id="dg-prev" aria-label="이전 날짜">
-          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-        <b id="dg-date">—</b>
-        <button class="iconbtn" id="dg-next" aria-label="다음 날짜">
-          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-        <span class="badge" id="dg-badge">—</span>
-      </div>
-      <div class="dg-bar__r">
-        <button class="ghostbtn ghostbtn--sm" id="dg-print">인쇄</button>
-        <button class="primarybtn" id="dg-pdf" disabled>PDF 다운로드</button>
-        <button class="iconbtn" id="dg-close" aria-label="닫기">
-          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        </button>
-      </div>
-    </header>
-    <div class="dg-scroll" id="dg-body"></div>
-  </div>
-</div>
 
 <!-- ===== 좌측 컨트롤 패널 ===== -->
 <section class="panel glass" id="panel">
@@ -185,6 +155,13 @@
           <button class="rk-tab is-on" id="rk-tab-kr">국내</button>
           <button class="rk-tab" id="rk-tab-global">국외</button>
         </div>
+        <div class="rk-tabs rk-tabs--period" id="rk-periods" role="group" aria-label="집계 기간">
+          <button class="rk-tab is-on" data-period="live">실시간</button>
+          <button class="rk-tab" data-period="day">일간</button>
+          <button class="rk-tab" data-period="week">주간</button>
+          <button class="rk-tab" data-period="month">월간</button>
+          <button class="rk-tab" data-period="year">연간</button>
+        </div>
       </div>
       <div class="dg-bar__r">
         <button class="ghostbtn ghostbtn--sm" id="rk-refresh">새로고침</button>
@@ -232,7 +209,6 @@
      (regions-global.js 는 그 데이터를 만들 때 쓰는 큐레이션 원본입니다) -->
 <script src="assets/js/news.js"></script>
 <script src="assets/js/charts.js"></script>
-<script src="assets/js/digest.js"></script>
 <script src="assets/js/explorer.js"></script>
 <script src="assets/js/hotbar.js"></script>
 <script src="assets/js/ranking.js"></script>

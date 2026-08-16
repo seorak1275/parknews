@@ -1,11 +1,18 @@
 /* =============================================================
- *  ranking.js  —  통합 인기뉴스 순위 (국내 / 국외)
+ *  ranking.js  —  통합 인기뉴스 순위 (국내 / 국외 · 실시간 ~ 연간)
  *
- *  순위 기준 (NewsService.groupIssues)
- *    heat = 같은 사안을 보도한 언론사 수 + (최근 12시간 내 보도면 +1.5)
+ *  순위 기준
+ *    같은 사안을 보도한 매체가 많을수록 위로 올라갑니다.
+ *    단일 매체 단독 기사는 아무리 최신이어도 상위에 오지 않습니다.
+ *    → 조회수(화제성)가 아니라 "언론이 얼마나 중요하게 봤나"를 재는 지표입니다.
  *
- *  같은 사안을 여러 매체가 받아쓸수록 위로 올라갑니다.
- *  단일 매체 단독 기사는 아무리 최신이어도 상위에 오지 않습니다.
+ *  기간
+ *    실시간  지금 이 순간 검색되는 기사로 즉석 집계 (NewsService)
+ *    일·주·월·연  매일 아침 쌓아둔 보관본을 합산 (/api/ranking-archive)
+ *
+ *  보관본은 2026-08-16부터 하루씩 쌓입니다. 그 이전 기간은 소급되지 않으므로
+ *  주간은 7일, 월간은 30일, 연간은 12개월이 지나야 온전한 순위가 됩니다.
+ *  (모자란 동안에는 "n일치 기준"이라고 화면에 밝힙니다)
  * ============================================================= */
 
 window.Ranking = (() => {
@@ -31,22 +38,86 @@ window.Ranking = (() => {
     },
   };
 
-  const state = { tab: 'kr', cache: {}, loading: false };
+  const PERIODS = {
+    live:  '실시간',
+    day:   '일간',
+    week:  '주간',
+    month: '월간',
+    year:  '연간',
+  };
+
+  const state = { tab: 'kr', period: 'live', cache: {}, loading: false };
   const TTL = 10 * 60 * 1000;
 
-  async function fetchRank(which) {
-    const hit = state.cache[which];
-    if (hit && Date.now() - hit.at < TTL) return hit.rows;
+  /* ==========================================================
+   *  자료 가져오기 — 실시간은 즉석 집계, 나머지는 보관본
+   * ======================================================== */
 
+  /** 실시간: 지금 검색되는 기사를 그 자리에서 묶어 순위를 낸다 */
+  async function fetchLive(which) {
     const cfg = SETS[which];
     const batches = await Promise.all(
       cfg.queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => []))
     );
-    const rows = NewsService.groupIssues(batches.flat()).slice(0, 25);
-    state.cache[which] = { at: Date.now(), rows };
-    return rows;
+    const groups = NewsService.groupIssues(batches.flat()).slice(0, 25);
+    return {
+      rows: groups.map((g) => ({
+        title: g.lead.title,
+        link: g.lead.link,
+        press: g.outlets,
+        outletCount: g.outletCount,
+        reports: g.arts.length,
+        time: NewsService.timeAgo(g.lead.date),
+        others: g.arts.slice(1, 4).map((o) => ({ title: o.title, press: o.press, link: o.link })),
+      })),
+      note: `지금 검색되는 기사 기준 · ${new Date().toLocaleTimeString('ko-KR', { hour12: false })} 집계`,
+    };
   }
 
+  /** 일·주·월·연: 매일 쌓아둔 보관본을 합산해 받아온다 */
+  async function fetchArchive(which, period) {
+    const r = await fetch(`/api/ranking-archive?period=${period}&set=${which}`);
+    const data = await r.json().catch(() => ({}));
+
+    if (!r.ok) {
+      const err = new Error(data.error || `순위를 불러오지 못했습니다 (${r.status})`);
+      err.hint = data.hint;
+      err.soft = r.status === 404;      // 자료가 아직 없는 것 — 고장이 아님
+      throw err;
+    }
+
+    const unitKo = data.unit === 'month' ? '개월' : '일';
+    const partial = data.have < data.want
+      ? ` · <b>${data.have}${unitKo}치만 쌓여 있습니다</b> (${data.want}${unitKo} 기준 예정)`
+      : '';
+
+    return {
+      rows: (data.rows || []).map((x) => ({
+        title: x.title,
+        link: x.link,
+        press: x.press || [],
+        outletCount: x.outletCount || (x.press || []).length,
+        reports: x.reports || 0,
+        time: '',
+        others: (x.articles || []).slice(1, 4),
+      })),
+      note: `${esc(data.from)} ~ ${esc(data.to)} 보도 합산${partial}`,
+    };
+  }
+
+  async function fetchRank(which, period) {
+    const ck = `${which}|${period}`;
+    const hit = state.cache[ck];
+    if (hit && Date.now() - hit.at < TTL) return hit.res;
+
+    const res = period === 'live' ? await fetchLive(which) : await fetchArchive(which, period);
+    state.cache[ck] = { at: Date.now(), res };
+    return res;
+  }
+
+  /* ==========================================================
+   *  그리기
+   * ======================================================== */
   function medal(i) {
     if (i === 0) return '<b class="rk-no rk-no--1">1</b>';
     if (i === 1) return '<b class="rk-no rk-no--2">2</b>';
@@ -54,18 +125,17 @@ window.Ranking = (() => {
     return `<b class="rk-no">${i + 1}</b>`;
   }
 
-  function rowHtml(g, i) {
-    const a = g.lead;
-    const others = g.arts.slice(1, 4);
+  function rowHtml(r, i, max) {
+    const others = r.others || [];
     return `
       <li class="rk-row">
         ${medal(i)}
         <div class="rk-main">
-          <a class="rk-title" href="${esc(a.link)}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a>
+          <a class="rk-title" href="${esc(r.link)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>
           <p class="rk-meta">
-            <span class="rk-heat" title="이 사안을 보도한 언론사 수">${g.outletCount}개사</span>
-            <span class="rk-press">${esc(g.outlets.slice(0, 4).join(' · '))}${g.outlets.length > 4 ? ` 외 ${g.outlets.length - 4}` : ''}</span>
-            <span class="rk-time">${esc(NewsService.timeAgo(a.date))}</span>
+            <span class="rk-heat" title="이 사안을 보도한 언론사 수">${r.outletCount}개사</span>
+            <span class="rk-press">${esc(r.press.slice(0, 4).join(' · '))}${r.press.length > 4 ? ` 외 ${r.press.length - 4}` : ''}</span>
+            ${r.time ? `<span class="rk-time">${esc(r.time)}</span>` : ''}
           </p>
           ${others.length ? `<details class="rk-more">
               <summary>관련 보도 ${others.length}건 더보기</summary>
@@ -74,33 +144,53 @@ window.Ranking = (() => {
                   ${esc(o.title)}<em>${esc(o.press)}</em></a></li>`).join('')}</ul>
             </details>` : ''}
         </div>
-        <div class="rk-bar" style="--w:${Math.min(100, Math.round(g.outletCount / 8 * 100))}%"><i></i></div>
+        <div class="rk-bar" style="--w:${Math.min(100, Math.round(r.reports / max * 100))}%"><i></i></div>
       </li>`;
+  }
+
+  function syncTabs() {
+    $('#rk-tab-kr')?.classList.toggle('is-on', state.tab === 'kr');
+    $('#rk-tab-global')?.classList.toggle('is-on', state.tab === 'global');
+    document.querySelectorAll('#rk-periods .rk-tab').forEach((b) => {
+      b.classList.toggle('is-on', b.dataset.period === state.period);
+    });
   }
 
   async function render() {
     const body = $('#rk-body');
     if (!body) return;
+    syncTabs();
 
-    $('#rk-tab-kr').classList.toggle('is-on', state.tab === 'kr');
-    $('#rk-tab-global').classList.toggle('is-on', state.tab === 'global');
+    const label = `${SETS[state.tab].label} · ${PERIODS[state.period]}`;
+    body.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> ${esc(label)} 순위를 집계하는 중…</div>`;
 
-    body.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> 순위를 집계하는 중…</div>`;
+    const token = `${state.tab}|${state.period}`;
+    state.loading = token;
+
     try {
-      const rows = await fetchRank(state.tab);
+      const { rows, note } = await fetchRank(state.tab, state.period);
+      if (state.loading !== token) return;         // 그 사이 다른 탭을 눌렀으면 버림
+
       if (!rows.length) {
         body.innerHTML = `<div class="rk-state">집계할 기사를 찾지 못했습니다.</div>`;
         return;
       }
+      const max = Math.max(...rows.map((r) => r.reports)) || 1;
       body.innerHTML = `
         <p class="rk-note">
-          같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 최근 12시간 내 보도는 가산
-          <span>${SETS[state.tab].label} · 상위 ${rows.length}건 · ${new Date().toLocaleTimeString('ko-KR', { hour12: false })} 기준</span>
+          같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다
+          <span>${label} · 상위 ${rows.length}건 · ${note}</span>
         </p>
-        <ol class="rk-list">${rows.map(rowHtml).join('')}</ol>`;
+        <ol class="rk-list">${rows.map((r, i) => rowHtml(r, i, max)).join('')}</ol>`;
     } catch (e) {
+      if (state.loading !== token) return;
       console.warn(e);
-      body.innerHTML = `<div class="rk-state">순위를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</div>`;
+      body.innerHTML = e.soft
+        ? `<div class="rk-state">
+             ${esc(e.message)}
+             ${e.hint ? `<small>${esc(e.hint)}</small>` : ''}
+           </div>`
+        : `<div class="rk-state">순위를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</div>`;
     }
   }
 
@@ -116,6 +206,12 @@ window.Ranking = (() => {
     });
     $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; render(); });
     $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; render(); });
+    $('#rk-periods')?.addEventListener('click', (e) => {
+      const b = e.target.closest('.rk-tab');
+      if (!b || !b.dataset.period) return;
+      state.period = b.dataset.period;
+      render();
+    });
     $('#rk-refresh')?.addEventListener('click', () => { state.cache = {}; render(); });
   }
 
