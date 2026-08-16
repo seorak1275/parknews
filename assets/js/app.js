@@ -123,6 +123,11 @@
     }
   }
 
+  /** 밝은 지도로 열지 여부 — 저장된 설정이 없으면 밝게(기본값) */
+  function prefersLight() {
+    try { return localStorage.getItem('parknews-light') !== '0'; } catch { return true; }
+  }
+
   const makeFallbackStyle = (glyphs) => ({
     version: 8,
     ...(glyphs ? { glyphs } : {}),
@@ -136,12 +141,19 @@
         attribution: '© OpenStreetMap contributors © CARTO',
       },
     },
-    layers: [
-      { id: 'bg', type: 'background', paint: { 'background-color': '#080b13' } },
-      { id: 'carto-dark', type: 'raster', source: 'carto-dark', paint: { 'raster-opacity': 0.95 } },
-      { id: 'carto-light', type: 'raster', source: 'carto-light',
-        layout: { visibility: 'none' }, paint: { 'raster-opacity': 1 } },
-    ],
+    /* 기본은 밝은 지도. 스타일을 만들 때부터 맞춰 두어야
+       첫 화면이 어두웠다가 밝아지는 깜빡임이 없다. */
+    layers: (() => {
+      const light = prefersLight();
+      return [
+        { id: 'bg', type: 'background',
+          paint: { 'background-color': light ? '#e9ecf1' : '#080b13' } },
+        { id: 'carto-dark', type: 'raster', source: 'carto-dark',
+          layout: { visibility: light ? 'none' : 'visible' }, paint: { 'raster-opacity': 0.95 } },
+        { id: 'carto-light', type: 'raster', source: 'carto-light',
+          layout: { visibility: light ? 'visible' : 'none' }, paint: { 'raster-opacity': 1 } },
+      ];
+    })(),
   });
 
   /* ==========================================================
@@ -226,6 +238,9 @@
     /* 첫 화면 = 국내 국립공원 24곳이 모두 들어오는 범위.
        부팅 오버레이가 걷히기 전에 잡아 두어 화면이 튀지 않게 합니다. */
     fitTo(REGIONS_KR, { duration: 0, maxZoom: 8, pitch: 0 });
+
+    /* 밝기 설정도 부팅 화면이 걷히기 전에 맞춘다 — 나중에 하면 한 번 깜빡인다 */
+    setMapLight(prefersLight(), false);
 
     boot.textContent = '';
     $('#boot').classList.add('is-done');
@@ -774,7 +789,10 @@
    * ======================================================== */
   /* ---------- 밝은 지도 ----------
      MapLibre 폴백 스타일에 실어 둔 다크·라이트 래스터 레이어의
-     가시성만 바꾼다. (Mapbox 토큰 사용 시에는 스타일이 달라 미적용) */
+     가시성만 바꾼다. (Mapbox 토큰 사용 시에는 스타일이 달라 미적용)
+
+     기본값은 '밝은 지도'다. 저장된 설정이 없으면 밝게 시작하고,
+     사용자가 직접 끈 경우('0')에만 어두운 지도로 연다. */
   function setMapLight(on, persist = true) {
     state.light = on;
     document.body.classList.toggle('map-light', on);
@@ -982,9 +1000,8 @@
       if (follow) fitTo(parks);
     });
     try {
-      await initMap();
+      await initMap();          // 밝기 설정은 initMap 안에서 이미 적용된다
       applyVisibility();
-      try { setMapLight(localStorage.getItem('parknews-light') === '1', false); } catch { /* 무시 */ }
     } catch (e) {
       console.error(e);
       $('#boot-status').innerHTML =
