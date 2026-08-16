@@ -3,7 +3,7 @@
   "days": 7,
   "from": "2026-08-09",
   "to": "2026-08-15",
-  "generatedAt": "2026-08-16T01:54:04.945Z",
+  "generatedAt": "2026-08-16T01:54:07.148Z",
   "kr": {
     "rows": [
       {
@@ -204,7 +204,7 @@
         "press": [
           "뉴스1",
           "인디포커스",
-          "korea.kr"
+          "대한민국 정책브리핑"
         ],
         "outletCount": 3,
         "articles": [
@@ -220,7 +220,7 @@
           },
           {
             "title": "지리산·북한산 등 국립공원 내 독립운동 역사문화자원 재조명",
-            "press": "korea.kr",
+            "press": "대한민국 정책브리핑",
             "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdlhtSExiUGQ5YnV5a2hvODNxN1RuQzNEcTVpN0otSGZhTDlreUZUbGxxMUZxc0VhdFpNQkRIUVo4WWtldXlOY2JnRzVzRnd6RnFNY2NlUmVqZE9CWEhiYVBDN3AtVXo3RVdfaXo2R3dBbGxSNTFYVl93MlNXczhqQTZHdGdKSzJmVXc?oc=5"
           }
         ],
@@ -836,50 +836,46 @@
   "global": {
     "rows": [
       {
-        "title": "What Is Happening at the Border in Big Bend National Park?",
-        "reports": 11,
+        "title": "‘Devastating’: bulldozers plough through Big Bend national park as Trump’s border work pushes ahead",
+        "reports": 12,
         "press": [
-          "The New York Times",
-          "vox.com",
-          "Marfa Public Radio",
-          "MS NOW",
-          "NPR",
-          "NationofChange",
+          "The Guardian",
+          "Public Domain | Substack",
+          "National Parks Conservation Association",
+          "GearJunkie",
           "Texas Monthly",
           "CNN",
-          "Houston Chronicle"
+          "Houston Chronicle",
+          "Yahoo",
+          "Marfa Public Radio",
+          "vox.com"
         ],
-        "outletCount": 9,
+        "outletCount": 10,
         "articles": [
           {
-            "title": "What Is Happening at the Border in Big Bend National Park?",
-            "press": "The New York Times",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYSS0tbTk4MldDSzRYR3AxOGc5UWNvV3B2eEloeVJIUzFBQkNoV0pwaC1BN3p4T2pHalpFczhNUE9KdHY1aU96ZkRXakJCWFloOFl0b3hQUk1WWFllUk1EVmRyUmtjVEZoMV9pX3A2QjA3UQ?oc=5"
+            "title": "‘Devastating’: bulldozers plough through Big Bend national park as Trump’s border work pushes ahead",
+            "press": "The Guardian",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTkwNFdFNG5vd09YTk5NMFZCZmswcGdKb3NyNHg3T1pfRHhrYTFHNFkxR2pldENtMWZJRVNhY0huOW9FZ2J3YjkwdEcyalUxaHlJc19RNTZVeE5qZG8xUzBYZHNlWFcza2JwRkhSTzhnMjlRc0QwRl9VdjdkWF9YSEloWGhoYjFUWjNHOHlZc1o?oc=5"
           },
           {
-            "title": "Big Bend border construction: Why Trump is tearing up a beloved national park",
-            "press": "vox.com",
-            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVHU0SEhsVHJJZTNLUGVlUnM4d0MxVzBZNXhQYWFZMFRCeWQtVjJnWUZqUFVHUXJmb1hFOGhtYzBFajBZeEREal9CRGE0SVBFQ1Z4VEdod3d6cEhWNWptdWlWUUhUVlJJcHZSZm5YeTI4eGFmTkxBSnZRWkRTOXNOLXprWG8yMmYwbGc2cnRUeEM5dm4wX0E2NmN5bTl5ZTRhclRYZ3F0NHZjTFdGb0VaLTRjbU9tb1Fa?oc=5"
+            "title": "Bulldozers tear through Big Bend national park as Trump's border work pushes ahead – video",
+            "press": "The Guardian",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVV93YTNpQmFHV0VsOXlmWDhoSE12Mk1tcG1jRWZXZkNhUTJBZ21fZXl1OG51ckx3c3FGZ1BkRS05QjNiaXZTUWd6MF9JQXF3ZzlZR3N3SElraE45bldyR1kzRVBiaXkxdVZrTURXWlYtUTY5Wmhhc0tybjNxbVBXTUdEOHJ6cjhQaWhqU3NIXzNQOGUzU0ZVRXM5YktiSXNzRkE4SEEzeF82d3AtaVJwWTBQQ3ZuSnF3MlA0c3BnWjY4TDFKLWpCdDJ0anhqTkZoS2N3azJHMzg?oc=5"
           },
           {
-            "title": "Indigenous group sues to block border construction in Big Bend National Park",
-            "press": "Marfa Public Radio",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdW1Va1JSdG5sMVIxNElvcjRPeThMU2ZrX3hwU2NfMmNNendEVFVTXzI3Y0M3SVJqMUEtYkY2d2NCTjZrc29UQzhRT0ItbDVxNnF6NndRaTNLZ2s1Q18wQlVEOUkyejBPN0tuRml2dHc4S0VodHZRTUZDOVVTM3Y3XzJVRkE5WDVua2xDRjZyaTcwZ1pPcHVDQ3VoNFdha3BQaWtZTEZJTlJtLUh1czhkbEhEWDk1OURqNWd5dUVlZTBlalU?oc=5"
+            "title": "Bulldozers Plow Through Big Bend National Park As Trump’s Border Work Surges Ahead",
+            "press": "Public Domain | Substack",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKUk9GcFhMaU1taVgzWU1NdUJ1TFgwWUptSm1XRzV5MXA3dDdpT0pzRzFsQWt1bVFhMEdfMXJ6QVhvOXlxSjJBT1BramgwNXh2cnI1VnQxSENRaFRZMmJReFdhX0xiMFN1ajV3cUNLSXJ0UQ?oc=5"
           },
           {
-            "title": "President Trump destroying Big Bend National Park",
-            "press": "MS NOW",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS1hKZ0VLQ21CS1NGeFBodGdWM0ltYUE1UHBfa1l0OVI5VnR6SlhmQngzOFIwVHI3WmtXc2pSeEprUi1FN1duZ2dCSjlZUjdYXzIyQnk1YWFtMTBNdW94WXdHZDFKa25CczI4WjVac0pCSjRoNWFtMm56WTFZakEyQmhpOFl6RzZ0N2k0bWRvX3hZbHZWeUFtS1lIM3FXZw?oc=5"
+            "title": "Administration Begins Bulldozing Through Big Bend National Park",
+            "press": "National Parks Conservation Association",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVFXUjYxT29RMDhzT2xRZllsOHhGU1BmZ21jNkZUUmlkbEhBUmVqTWFBRzlHWXpxVFpZYmFRV1pqRy1rZ2pHcnlrcmdhT3dEZlNWT0dQSDF2LV84b1BwNGpGVld6WTVXQmNuaWxXbDhjR1JfMFMzZm9FMGZJY0J1Y21sSFlLUmhFM2NhWXdOV3dOd2pzY01ITHBaMzN2ZWRr?oc=5"
           },
           {
-            "title": "At Big Bend National Park, bulldozers begin clearing pristine desert land for border barrier work",
-            "press": "NPR",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdDaUFRaU02Zjh3YVNNel9DdnV5MTJYV1VBMV9LYWlIbVlJNUphZWt1R2JHRG5QYThSeVVCWXpkdS1FYXVTbGR6RkJpTnQ3VnpLZDV5dmZpY0FHUnpuamxjWW5YX1QtSHdCdHJNMlVvcGlaMzREY1AtNnF2UnpLdWhoYw?oc=5"
-          },
-          {
-            "title": "Bulldozers begin clearing ground for border barriers inside Big Bend National Park",
-            "press": "NationofChange",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkJkaS05ZFR3Tm1EejZ0U1BfUm80MHZPVDdETDdrWUM4MllUaGR4eldhOTk4bzFpckVuSFlPQmdPU2lheTVUWEtDWHhOYUFtMktrV29YdENhaVlvVjdzS2ZTcHZHdEF5VnZqaXBmRzdFUS0tSS1DM0lmemxXSlZPcEx3a0tIZ2hmV0lLQW5OeU9abjdmX1pfU3pyRVEyTVkxcXBFUkVQc3JyRHFYREdRbzNCZGpZMHU0aWxHLU96d00xUFE?oc=5"
+            "title": "‘A Day of Infamy’: Construction Bulldozes Through Big Bend National Park",
+            "press": "GearJunkie",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUmxBUmxFU3Jvb1I3Y2JrcnlFODZGU3NhU2FwbEpEeDAxcWhVRmctU21JR3Q5dEljZ3RPa3NZcVlBMnN3d3BYbkR1Y2hBejdmX0Jya3RPQkZnU2d5SktrSVA4Z2VzVGpvZW43Vi14eEhPWlJKbHQzNy1pREZtdXlSOXBneTFtNWhhT0UzRGVackgxYkNfemc?oc=5"
           },
           {
             "title": "Photos: Construction Begins in Big Bend National Park",
@@ -887,12 +883,17 @@
             "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uSnJYU1JOWE11VTN4TEVwYVFFV1pqMFRibUhfQVNRT0ZoSWN4SXBuZE81MHhpWGpSekNhclU4SnFpZHdQQWlmT25lQkFkbEsxRENzdzFVVUE2Vm04djlRQVBnblp6c2ZhVkd0QlVFTTZSWmhKT2xSX2R0OA?oc=5"
           },
           {
-            "title": "Protesters gather at Big Bend National Park",
+            "title": "Bulldozers tear through Big Bend National Park for border security project",
             "press": "CNN",
-            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdjI2V2FPVTBLdFphS1FlTzFFTFBycklhczd3WTJKTGdpXzRsWFJQeElTQmlOWUx5d1ZBQldZOUN5bzM0bHpGWEwyOUNWZk54b2Yzekl0TXN1R1NMNzFONGE1OVBCLUZxQm50UFJsQUJpUXdsUVczeDEydGx2TFpEZ2dPdGVNSlU4d0tyVC1Ddw?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGNFVXNLc21waFBXV2UyR2ItS1AwVjNJWnZLc2g4MG1jbDJvM3pTREJadlA2NzlKTklUbGlZbE43X3JTdGFKSlQzZUIzZWlOdkMtRU13MDJPUVp0dUx4TjFySTBZRzNnZUtZRGZ2eXo2TndtckJFamJHUFBvaG5OWnk4cGV6cXk4Z2p6RFV1MnRIUG9KcVphMG5abkpmOHZhM1hhR3luckluSGVzWnQ0?oc=5"
+          },
+          {
+            "title": "What's next for Big Bend National Park now as border construction is underway",
+            "press": "Houston Chronicle",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemZadjlZNmloLVBRQTBBcVlfeEV4T05IWURLTmNzeHRhNXMyQ1A2aDd1bmxvWlFEbGRoRklLZXdDeU9mTDFWcTlEUUlxMGJGWnR0RVJJckNRTjBTWU54UlVQZ2pJRUVJNUV3Z2RTYTJadk1uLU1pYnJYUTNTN1VZSzVVeE02RzExaHU4NWtOZTQ1NVk3MjIxU2pLTk1yTUpzcC1wZg?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYSS0tbTk4MldDSzRYR3AxOGc5UWNvV3B2eEloeVJIUzFBQkNoV0pwaC1BN3p4T2pHalpFczhNUE9KdHY1aU96ZkRXakJCWFloOFl0b3hQUk1WWFllUk1EVmRyUmtjVEZoMV9pX3A2QjA3UQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQTkwNFdFNG5vd09YTk5NMFZCZmswcGdKb3NyNHg3T1pfRHhrYTFHNFkxR2pldENtMWZJRVNhY0huOW9FZ2J3YjkwdEcyalUxaHlJc19RNTZVeE5qZG8xUzBYZHNlWFcza2JwRkhSTzhnMjlRc0QwRl9VdjdkWF9YSEloWGhoYjFUWjNHOHlZc1o?oc=5"
       },
       {
         "title": "In the Reflecting Pool saga, the National Park Service's mission is tested by Trump's demands",
@@ -939,52 +940,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFZfbjhGTXJLaGJDMXUzdVVqck5FWHZDbFpWcUgxMktnUVp6RmdwdTJNVERZTmRBekE1SUViT0FxN2Jma2QxQUZVMi1pSWt5S19NTWVXU0podFRjUGNrLV9CczZNcWswTTJxUlVBYTBqRVBQelRkclRsSmd2aGNpMVlMMUpkYXp0NGVGWGJKQTN1U3RXNWhURUluXzZuaElXT3B6ckNB?oc=5"
-      },
-      {
-        "title": "Administration Begins Bulldozing Through Big Bend National Park",
-        "reports": 6,
-        "press": [
-          "National Parks Conservation Association",
-          "GearJunkie",
-          "The Guardian",
-          "Public Domain | Substack",
-          "Yahoo",
-          "Breaking News, Latest News and Videos"
-        ],
-        "outletCount": 6,
-        "articles": [
-          {
-            "title": "Administration Begins Bulldozing Through Big Bend National Park",
-            "press": "National Parks Conservation Association",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVFXUjYxT29RMDhzT2xRZllsOHhGU1BmZ21jNkZUUmlkbEhBUmVqTWFBRzlHWXpxVFpZYmFRV1pqRy1rZ2pHcnlrcmdhT3dEZlNWT0dQSDF2LV84b1BwNGpGVld6WTVXQmNuaWxXbDhjR1JfMFMzZm9FMGZJY0J1Y21sSFlLUmhFM2NhWXdOV3dOd2pzY01ITHBaMzN2ZWRr?oc=5"
-          },
-          {
-            "title": "‘A Day of Infamy’: Construction Bulldozes Through Big Bend National Park",
-            "press": "GearJunkie",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUmxBUmxFU3Jvb1I3Y2JrcnlFODZGU3NhU2FwbEpEeDAxcWhVRmctU21JR3Q5dEljZ3RPa3NZcVlBMnN3d3BYbkR1Y2hBejdmX0Jya3RPQkZnU2d5SktrSVA4Z2VzVGpvZW43Vi14eEhPWlJKbHQzNy1pREZtdXlSOXBneTFtNWhhT0UzRGVackgxYkNfemc?oc=5"
-          },
-          {
-            "title": "Bulldozers tear through Big Bend national park as Trump's border work pushes ahead – video",
-            "press": "The Guardian",
-            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVV93YTNpQmFHV0VsOXlmWDhoSE12Mk1tcG1jRWZXZkNhUTJBZ21fZXl1OG51ckx3c3FGZ1BkRS05QjNiaXZTUWd6MF9JQXF3ZzlZR3N3SElraE45bldyR1kzRVBiaXkxdVZrTURXWlYtUTY5Wmhhc0tybjNxbVBXTUdEOHJ6cjhQaWhqU3NIXzNQOGUzU0ZVRXM5YktiSXNzRkE4SEEzeF82d3AtaVJwWTBQQ3ZuSnF3MlA0c3BnWjY4TDFKLWpCdDJ0anhqTkZoS2N3azJHMzg?oc=5"
-          },
-          {
-            "title": "Bulldozers Plow Through Big Bend National Park As Trump’s Border Work Surges Ahead",
-            "press": "Public Domain | Substack",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKUk9GcFhMaU1taVgzWU1NdUJ1TFgwWUptSm1XRzV5MXA3dDdpT0pzRzFsQWt1bVFhMEdfMXJ6QVhvOXlxSjJBT1BramgwNXh2cnI1VnQxSENRaFRZMmJReFdhX0xiMFN1ajV3cUNLSXJ0UQ?oc=5"
-          },
-          {
-            "title": "Bipartisan backlash grows as Trump administration begins to bulldoze Big Bend National Park for border wall",
-            "press": "Yahoo",
-            "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM1AwLXYzeEdIbDBfNFJDMlhrWEpkaEJ5VXZFWG42TmI1RGYwUUpuZ3liR3RfX3dhYzB3UklSeDg3ajBaUnVIblM0aTN4bEpDTHRqcDh0RHpsUThfbC1GeGlVTjBBNFM1UnVmUlEtc2VOU0xSZlFJMDdHRm9Sck5ITHVxeVhXSnNQalE1WU40QWhnU2xCQXAxZVB1Vy1TRUNIY2NpU2x0QWdyLTBaQnQwOGg1VFNsMkR3cEdvSUs4MFVsRGpUYWFSLVlyTEo1RlJnMzlMMEJIbl8xbjlkY2lnTjdldzllcUJST2JKZmpQN3I5QQ?oc=5"
-          },
-          {
-            "title": "Video New border wall could run through national park - ABC News",
-            "press": "Breaking News, Latest News and Videos",
-            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJYzBYZXVVb1RsZEotTHB5cjdiQTR6OVVxWmtQOFFFaHQxaTl1dVpkaTBvd2ZXNHYxSGNyZl9FUDQ3cnQzd3FaLVgtX1Q?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVFXUjYxT29RMDhzT2xRZllsOHhGU1BmZ21jNkZUUmlkbEhBUmVqTWFBRzlHWXpxVFpZYmFRV1pqRy1rZ2pHcnlrcmdhT3dEZlNWT0dQSDF2LV84b1BwNGpGVld6WTVXQmNuaWxXbDhjR1JfMFMzZm9FMGZJY0J1Y21sSFlLUmhFM2NhWXdOV3dOd2pzY01ITHBaMzN2ZWRr?oc=5"
       },
       {
         "title": "Rabid bat found at Olympic National Park",
@@ -1108,6 +1063,34 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQld2UmY2aTduVjBRS1JpWDVLMlNSTVhHZlRvZS1IbUNJOUltUW5veS03YTAzVjd1TVV3S2toUE5NQko2QVJQTWRLTG9oeGN6ODhoRHR1aVByemU3SUZkVGp4Q2xoUENpb3lIeUh2V1NSREpPNnZFLVRLanNNczBjTDdJSFdOU0ZLanc5ZlQyTUp0WVJsbVc5UlBXR1VtMjlpVmZ0cnJ0LWROb0ozYmNnVGduTFVybXRWclMtNHlmQUllbC1uaTl30gHMAUFVX3lxTE1HRzlkUW1hMjh1SC1SUWZGVW5vTjVDcTE1OWJXOU5meDhSMVNhdXVMV2JMczNmWlV6LVBuZi1FdXRBRjg5d3d2UEVoTGMwd0FBZm9La2FtVGFEaGpfNDlscWE2WUFYUnFBZkM4bnJrWEV5Q0JveG50dnRielJwMlk3U0R0d0JNUTdPQkdmOWtIbko2c1diNy1jekRXT0hiVkNpZC1WcHFSOFZ1aFhxY2NJNzY4Vm8yWG80RllRcTVrTGJRcm1vOW5yN1JGQQ?oc=5"
+      },
+      {
+        "title": "At Big Bend National Park, bulldozers begin clearing pristine desert land for border barrier work",
+        "reports": 3,
+        "press": [
+          "NPR",
+          "NationofChange",
+          "CNN"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "At Big Bend National Park, bulldozers begin clearing pristine desert land for border barrier work",
+            "press": "NPR",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdDaUFRaU02Zjh3YVNNel9DdnV5MTJYV1VBMV9LYWlIbVlJNUphZWt1R2JHRG5QYThSeVVCWXpkdS1FYXVTbGR6RkJpTnQ3VnpLZDV5dmZpY0FHUnpuamxjWW5YX1QtSHdCdHJNMlVvcGlaMzREY1AtNnF2UnpLdWhoYw?oc=5"
+          },
+          {
+            "title": "Bulldozers begin clearing ground for border barriers inside Big Bend National Park",
+            "press": "NationofChange",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkJkaS05ZFR3Tm1EejZ0U1BfUm80MHZPVDdETDdrWUM4MllUaGR4eldhOTk4bzFpckVuSFlPQmdPU2lheTVUWEtDWHhOYUFtMktrV29YdENhaVlvVjdzS2ZTcHZHdEF5VnZqaXBmRzdFUS0tSS1DM0lmemxXSlZPcEx3a0tIZ2hmV0lLQW5OeU9abjdmX1pfU3pyRVEyTVkxcXBFUkVQc3JyRHFYREdRbzNCZGpZMHU0aWxHLU96d00xUFE?oc=5"
+          },
+          {
+            "title": "Protesters gather at Big Bend National Park",
+            "press": "CNN",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdjI2V2FPVTBLdFphS1FlTzFFTFBycklhczd3WTJKTGdpXzRsWFJQeElTQmlOWUx5d1ZBQldZOUN5bzM0bHpGWEwyOUNWZk54b2Yzekl0TXN1R1NMNzFONGE1OVBCLUZxQm50UFJsQUJpUXdsUVczeDEydGx2TFpEZ2dPdGVNSlU4d0tyVC1Ddw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdDaUFRaU02Zjh3YVNNel9DdnV5MTJYV1VBMV9LYWlIbVlJNUphZWt1R2JHRG5QYThSeVVCWXpkdS1FYXVTbGR6RkJpTnQ3VnpLZDV5dmZpY0FHUnpuamxjWW5YX1QtSHdCdHJNMlVvcGlaMzREY1AtNnF2UnpLdWhoYw?oc=5"
       },
       {
         "title": "Kansas City man killed by falling rock at Glacier National Park",
