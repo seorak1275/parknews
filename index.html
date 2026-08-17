@@ -171,6 +171,8 @@
         </button>
       </div>
     </header>
+    <!-- 분야 고르기 — 구조출동만 따로 볼 수 있습니다 -->
+    <nav class="rk-sectors" id="rk-sectors" aria-label="분야 선택"></nav>
     <!-- 국내 24곳 — 공원 하나만 골라서 볼 수 있습니다 -->
     <nav class="rk-parks" id="rk-parks" aria-label="공원 선택" hidden></nav>
     <div class="dg-scroll" id="rk-body"></div>
@@ -210,6 +212,7 @@
 <script src="assets/js/regions.js"></script>
 <!-- 해외 공원은 assets/data/parks-global.json 을 탐색기가 지연 로드합니다.
      (regions-global.js 는 그 데이터를 만들 때 쓰는 큐레이션 원본입니다) -->
+<script src="assets/js/taxonomy.js"></script>
 <script src="assets/js/news.js"></script>
 <script src="assets/js/charts.js"></script>
 <script src="assets/js/explorer.js"></script>

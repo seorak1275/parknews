@@ -52,7 +52,11 @@ window.Ranking = (() => {
     id: r.id, name: r.name.replace('국립공원', ''), q: r.q || r.name,
   }));
 
-  const state = { tab: 'kr', period: 'live', park: '', cache: {}, loading: false };
+  const state = { tab: 'kr', period: 'live', park: '', sector: '', cache: {}, loading: false };
+
+  const SECTORS = window.Taxonomy?.SECTORS || [];
+  const sectorOf = (r) =>
+    window.Taxonomy?.classify(`${r.title} ${(r.others || []).map((o) => o.title).join(' ')}`) || null;
   const TTL = 10 * 60 * 1000;
 
   /* ==========================================================
@@ -208,7 +212,8 @@ window.Ranking = (() => {
       ? raw.rows.filter((r) => r.title.includes(park.name))
       : raw.rows;
 
-    const res = { ...raw, rows: await attachParks(rows) };
+    const withParks = await attachParks(rows);
+    const res = { ...raw, rows: withParks.map((r) => ({ ...r, sector: sectorOf(r) })) };
     state.cache[ck] = { at: Date.now(), res };
     return res;
   }
@@ -237,10 +242,12 @@ window.Ranking = (() => {
 
   function rowHtml(r, i, max) {
     const others = r.others || [];
+    const s = r.sector;
     return `
       <li class="rk-row">
         ${medal(i)}
         <div class="rk-main">
+          ${s ? `<span class="rk-sec" style="--c:${s.color}" title="${esc(s.desc)}">${esc(s.name)}</span>` : ''}
           <a class="rk-title" href="${esc(r.link)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>
           <p class="rk-meta">
             <!-- 'N개사'를 누르면 아래에 언론사 전체 목록이 펼쳐진다 -->
@@ -248,6 +255,8 @@ window.Ranking = (() => {
               title="누르면 보도한 언론사를 모두 봅니다">${r.outletCount}개사</button>
             <span class="rk-press">${esc(r.press.slice(0, 4).join(' · '))}${r.press.length > 4 ? ` 외 ${r.press.length - 4}` : ''}</span>
             ${r.time ? `<span class="rk-time">${esc(r.time)}</span>` : ''}
+            <!-- 검색량 추이 — 자료가 오면 채워진다 (부가 정보라 없어도 무방) -->
+            <span class="rk-trend" id="rk-trend-${i}" hidden></span>
           </p>
           <div class="rk-outlets" id="rk-outlets-${i}" hidden>
             <b>보도한 언론사 ${r.press.length}곳</b>
@@ -270,12 +279,82 @@ window.Ranking = (() => {
       </li>`;
   }
 
+  /* ==========================================================
+   *  화제성 — '사람들이 실제로 얼마나 찾아봤나'
+   *
+   *  보도량(언론사 수)만으로는 '언론은 많이 썼는데 아무도 안 찾아본 사안'
+   *  과 '기사는 적은데 검색이 몰린 사안'이 구분되지 않는다.
+   *  이슈 제목에서 핵심어를 뽑아 네이버 데이터랩 검색량을 함께 보여준다.
+   *
+   *  ※ 기사 조회수가 아니다. 조회수는 어떤 공개 API로도 얻을 수 없다.
+   * ======================================================== */
+  const TREND_STOP = new Set(['국립공원', '공원', '국립', '지역', '관련', '올해', '지난',
+    '위해', '대한', '이번', '오늘', '내일', '기자', '뉴스', '사진', '영상', '단독']);
+
+  /** 제목에서 검색해 볼 만한 낱말 하나 — 가장 길고 흔하지 않은 것 */
+  function coreWord(r) {
+    if (r.park?.cat === 'kr') return r.park.name;         // 국내는 공원명이 가장 안정적
+    const ws = String(r.title).replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/)
+      .map((w) => w.trim())
+      .filter((w) => w.length >= 2 && !TREND_STOP.has(w) && !/^\d+$/.test(w));
+    return ws.sort((a, b) => b.length - a.length)[0] || '';
+  }
+
+  const spark = (vals) => {
+    const bars = '▁▂▃▄▅▆▇█';
+    const mx = Math.max(...vals) || 1;
+    return vals.map((v) => bars[Math.min(7, Math.round(v / mx * 7))]).join('');
+  };
+
+  /** 상위 몇 건만 — 데이터랩은 한 번에 키워드 5개까지 받는다 */
+  async function renderTrends(rows) {
+    const targets = rows
+      .map((r, i) => ({ i, w: coreWord(r) }))
+      .filter((x) => x.w)
+      .slice(0, 10);
+    if (!targets.length) return;
+
+    for (let n = 0; n < targets.length; n += 5) {
+      const chunk = targets.slice(n, n + 5);
+      try {
+        const q = new URLSearchParams({
+          keywords: chunk.map((c) => c.w).join(','), unit: 'week',
+        });
+        const res = await fetch(`/api/datalab?${q}`);
+        if (!res.ok) return;                       // 키 미설정 등 — 조용히 건너뛴다
+        const data = await res.json();
+        for (const g of data.results || []) {
+          const hit = chunk.find((c) => c.w === g.title);
+          const el = hit && $(`#rk-trend-${hit.i}`);
+          const pts = (g.data || []).map((d) => d.ratio);
+          if (!el || pts.length < 3) continue;
+          const last = pts[pts.length - 1];
+          const prev = pts.length >= 2 ? pts[pts.length - 2] : last;
+          const dir = last > prev * 1.15 ? '▲' : last < prev * 0.85 ? '▼' : '·';
+          el.innerHTML = `<span class="rk-spark" title="'${esc(g.title)}' 최근 검색량 추이">${spark(pts)}</span>`
+            + `<em class="rk-dir rk-dir--${dir === '▲' ? 'up' : dir === '▼' ? 'down' : 'flat'}">${dir}</em>`;
+          el.hidden = false;
+        }
+      } catch { /* 화제성은 부가 정보 — 실패해도 순위는 그대로 */ }
+    }
+  }
+
   function syncTabs() {
     $('#rk-tab-kr')?.classList.toggle('is-on', state.tab === 'kr');
     $('#rk-tab-global')?.classList.toggle('is-on', state.tab === 'global');
     document.querySelectorAll('#rk-periods .rk-tab').forEach((b) => {
       b.classList.toggle('is-on', b.dataset.period === state.period);
     });
+
+    /* 분야 고르기 — 구조대는 '구조출동'만 따로 보고 싶을 때가 많다 */
+    const sbox = $('#rk-sectors');
+    if (sbox) {
+      sbox.innerHTML = `
+        <button class="rk-sec-btn${state.sector ? '' : ' is-on'}" data-sector="">전체 분야</button>
+        ${SECTORS.map((s) => `
+          <button class="rk-sec-btn${state.sector === s.key ? ' is-on' : ''}"
+            style="--c:${s.color}" data-sector="${s.key}">${esc(s.name)}</button>`).join('')}`;
+    }
 
     /* 공원 선택은 국내에서만 의미가 있다 */
     const box = $('#rk-parks');
@@ -304,20 +383,28 @@ window.Ranking = (() => {
     state.loading = token;
 
     try {
-      const { rows, note } = await fetchRank(state.tab, state.period);
+      const all = (await fetchRank(state.tab, state.period)).rows;
+      const { note } = await fetchRank(state.tab, state.period);
       if (state.loading !== token) return;         // 그 사이 다른 탭을 눌렀으면 버림
 
+      const rows = state.sector ? all.filter((r) => r.sector?.key === state.sector) : all;
       if (!rows.length) {
-        body.innerHTML = `<div class="rk-state">집계할 기사를 찾지 못했습니다.</div>`;
+        const sn = SECTORS.find((s) => s.key === state.sector)?.name;
+        body.innerHTML = `<div class="rk-state">${
+          state.sector ? `이 기간에 <b>${esc(sn)}</b> 분야로 분류된 사안이 없습니다.` : '집계할 기사를 찾지 못했습니다.'
+        }</div>`;
         return;
       }
       const max = Math.max(...rows.map((r) => r.outletCount)) || 1;
+      const secName = SECTORS.find((s) => s.key === state.sector)?.name;
       body.innerHTML = `
         <p class="rk-note">
           <span class="rk-note__l">같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다</span>
-          <span class="rk-note__r">${label} · 상위 ${rows.length}건 · ${note}</span>
+          <span class="rk-note__r">${label}${secName ? ` · ${esc(secName)}` : ''} · 상위 ${rows.length}건${
+            state.sector ? ` / 전체 ${all.length}건` : ''} · ${note}</span>
         </p>
         <ol class="rk-list">${rows.map((r, i) => rowHtml(r, i, max)).join('')}</ol>`;
+      renderTrends(rows.slice(0, 8));
     } catch (e) {
       if (state.loading !== token) return;
       console.warn(e);
@@ -387,6 +474,12 @@ window.Ranking = (() => {
       const b = e.target.closest('.rk-park');
       if (!b) return;
       state.park = b.dataset.park || '';
+      render();
+    });
+    $('#rk-sectors')?.addEventListener('click', (e) => {
+      const b = e.target.closest('.rk-sec-btn');
+      if (!b) return;
+      state.sector = b.dataset.sector || '';
       render();
     });
     $('#rk-periods')?.addEventListener('click', (e) => {
