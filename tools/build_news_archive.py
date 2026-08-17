@@ -45,7 +45,7 @@ SECTORS = [
     ("탐방시설", ["탐방로", "탐방", "케이블카", "야영장", "대피소", "개방", "개장", "폐쇄",
                 "시설", "둘레길", "탐방객", "예약", "조성", "정비", "설치", "프로그램",
                 "축제", "체험", "해설", "전망대", "주차장", "무장애", "데크"]),
-    ("행정", ["공단", "인사", "임명", "취임", "조직", "예산", "정책", "지정", "승격",
+    ("행정", ["인사", "임명", "취임", "조직", "예산", "정책", "지정", "승격",
              "협약", "업무협약", "조례", "국정감사", "위원회", "공모", "고시", "행정",
              "법안", "개정", "이사장", "청장", "소장", "간담회", "심의", "용역"]),
 ]
@@ -151,13 +151,62 @@ def page(args):
     return query, []
 
 
+# 같은 1점이라도 근거의 세기가 다르다.
+# '조난·심정지·헬기' 는 그 분야가 거의 확실하지만 '구조·응급' 은 다른 맥락에도 쓰인다.
+# 강한 낱말 2점, 약한 낱말 1점으로 나눠 센다.
+STRONG = {
+    "구조활동": ["구조대", "조난", "조난객", "실종", "수색", "추락", "심정지", "심폐소생",
+               "응급처치", "헬기", "119", "구급대", "벌쏘임", "실족", "익사", "저체온",
+               "온열질환", "제세동", "인명구조", "산악구조"],
+    "재난안전": ["산불", "화재", "진화", "폭우", "호우", "태풍", "폭설", "대설", "한파",
+               "폭염", "산사태", "낙석", "지진", "입산통제", "출입금지", "주의보", "특보"],
+    "자원보전": ["멸종위기", "천연기념물", "깃대종", "반달가슴곰", "산양", "수달", "여우",
+               "철새", "외래종", "자연유산", "군락", "방사", "증식", "개화", "만개", "서식지"],
+    "탐방시설": ["탐방로", "케이블카", "야영장", "대피소", "둘레길", "탐방객", "전망대",
+               "무장애", "데크", "탐방예약", "휴식년"],
+    # '국립공원공단'은 주제가 아니라 발표 주체다. 보도자료 대부분에 나와
+    # 강한 낱말로 두면 탐방·생태 기사까지 행정으로 끌려온다. 뺐다.
+    "행정": ["이사장", "국정감사", "국감", "업무협약", "조례", "고시",
+            "법안", "용역", "공모", "공청회", "타당성"],
+}
+
+
 def sector_of(text):
-    best, score = "", 0
+    """(분야, 점수, 2등과의 차이) — 강한 낱말 2점 · 약한 낱말 1점
+
+    '탐방' 은 '탐방로'·'탐방객' 안에도 들어 있어 그대로 세면 한 번 나온 말이
+    두세 번 세어진다. 실제로 탐방시설이 38%까지 부풀었다.
+    긴 낱말이 먼저 맞으면 그 안에 든 짧은 낱말은 세지 않는다.
+    """
+    scored = []
     for name, words in SECTORS:
-        n = sum(1 for w in words if w in text)
-        if n > score:
-            best, score = name, n
-    return best or "기타"
+        strong = STRONG.get(name, [])
+        cand = sorted(set(words) | set(strong), key=len, reverse=True)
+        hit, n = [], 0
+        for w in cand:
+            if w not in text:
+                continue
+            if any(w in h for h in hit):      # 이미 잡힌 긴 낱말의 일부
+                continue
+            hit.append(w)
+            n += 2 if w in strong else 1
+        scored.append((n, name))
+    scored.sort(reverse=True)
+    top, second = scored[0], scored[1]
+    if not top[0]:
+        return "기타", 0, 0
+    return top[1], top[0], top[0] - second[0]
+
+
+def confidence(score, margin):
+    """분류를 얼마나 믿을 수 있는지 — 쓰는 사람이 걸러 쓸 수 있게 남긴다"""
+    if not score:
+        return "미분류"
+    if score >= 4 and margin >= 2:
+        return "상"
+    if score >= 2 and margin >= 1:
+        return "중"
+    return "하"
 
 
 def subsector_of(sector, text):
@@ -219,13 +268,18 @@ def main():
             park = next((n for n, _ in PARKS if n in desc), "")
             basis = "요약" if park else ""
         press = re.sub(r"^https?://(www\.)?", "", link).split("/")[0]
-        sec = sector_of(text)
+        sec, sc, margin = sector_of(text)
+        # 제목에 '국립공원'이 있으면 그 기사의 주제일 가능성이 높고,
+        # 요약에만 있으면 배경 설명으로 스친 것일 수 있다.
+        near = "높음" if ("국립공원" in title or "공원공단" in title) else "낮음"
         rows.append({
             "공원": park or "(전체·공통)",
             "공원판정": basis,
             "소재지": next((loc for n, loc in PARKS if n == park), ""),
             "섹터": sec,
             "세부분류": subsector_of(sec, text),
+            "분류신뢰도": confidence(sc, margin),
+            "주제근접도": near,
             "보도일": kst(a.get("pubDate", "")),
             "제목": title,
             "요약": desc[:200],
@@ -244,7 +298,8 @@ def main():
     name = f"국립공원_뉴스아카이브_네이버_{today}.csv"
     p = os.path.join(OUT, name)
     with io.open(p, "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["공원", "공원판정", "소재지", "섹터", "세부분류", "보도일",
+        w = csv.DictWriter(f, fieldnames=["공원", "공원판정", "소재지", "섹터", "세부분류",
+                                          "분류신뢰도", "주제근접도", "보도일",
                                           "제목", "요약", "매체도메인", "링크", "수집질의"])
         w.writeheader(); w.writerows(rows)
     print(f"  ✓ {name}  {len(rows):,}행  {os.path.getsize(p)/1024/1024:.1f}MB")

@@ -49,6 +49,16 @@ def main():
     for f in os.listdir(DST):
         os.remove(os.path.join(DST, f))
 
+    # 원본 폴더에 옛 이름의 파일이 남아 있으면 새 파일과 함께 올라가 목록이 겹친다.
+    # (분야 이름을 '구조출동'→'구조활동' 으로 바꿨을 때 실제로 두 벌이 올라갔다)
+    # 같은 종류인데 이름만 다른 옛 판본을 걸러 낸다.
+    RETIRED = ["구조출동"]
+    skip = {f for f in os.listdir(SRC) if any(w in f for w in RETIRED)}
+    if skip:
+        print("옛 이름 파일은 싣지 않습니다:")
+        for f in sorted(skip):
+            print("   -", f)
+
     # 압축 형식 고르기
     #   .gz 는 윈도우가 기본으로 못 연다 — 엑셀은 더더욱.
     #   작은 파일은 그냥 CSV 로 두어 눌러서 바로 엑셀로 열리게 하고,
@@ -58,7 +68,7 @@ def main():
     items = []
     for f in sorted(os.listdir(SRC)):
         p = os.path.join(SRC, f)
-        if not os.path.isfile(p):
+        if not os.path.isfile(p) or f in skip:
             continue
         if f.endswith(".csv"):
             raw = open(p, "rb").read()

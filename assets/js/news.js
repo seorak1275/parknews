@@ -235,7 +235,12 @@ window.NewsService = (() => {
         seen.add(k);
         return true;
       })
-      .sort((a, b) => b.s - a.s || Date.parse(b.it.date || 0) - Date.parse(a.it.date || 0))
+      /* 화면에 '최신 뉴스' 라고 적어 놓고 관련도순으로 늘어놓고 있었다.
+         관련도가 높은 오래된 기사가 갓 나온 기사보다 위에 오니
+         "최신인데 최신이 아니다" 라는 말이 나온다.
+         관련 없는 기사는 위에서 이미 걸러졌으므로(s<=0 제외) 날짜순으로 세운다.
+         날짜가 같거나 없을 때만 관련도로 가른다. */
+      .sort((a, b) => (Date.parse(b.it.date) || 0) - (Date.parse(a.it.date) || 0) || b.s - a.s)
       .map(({ it, s }) => ({ ...it, score: s }));
   }
 
