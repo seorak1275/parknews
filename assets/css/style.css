@@ -1391,3 +1391,9 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
   flex-basis:100%;font-style:normal;font-size:10.5px;font-weight:600;
   color:rgba(4,34,42,.72);
 }
+
+/* 대시보드 → 지도로 돌아가기 */
+.dlbtn--back{color:var(--ink-2);background:rgba(255,255,255,.06)}
+.dlbtn--back:hover{color:var(--ink-1);background:rgba(255,255,255,.12)}
+.dlbtn--data{color:#a7f3d0;background:rgba(52,211,153,.14);border-color:rgba(52,211,153,.32)}
+.dlbtn--data:hover{color:#0b0f1a;background:#34d399}

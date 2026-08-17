@@ -255,6 +255,17 @@
 
   $('#db-refresh')?.addEventListener('click', () => load());
 
+  /* 지도로 돌아가기 —
+     지도에서 '분야별로 보기'를 눌러 넘어온 경우가 대부분이므로,
+     방문 기록이 남아 있으면 뒤로가기로 보던 화면(그 공원이 열린 지도)으로
+     되돌아가는 게 자연스럽다. 기록이 없으면(주소를 직접 열었을 때) 지도 첫 화면으로. */
+  $('#db-back')?.addEventListener('click', () => {
+    const from = document.referrer;
+    const sameSite = from && new URL(from, location.href).origin === location.origin;
+    if (sameSite && history.length > 1) history.back();
+    else location.href = current ? `./#p=${encodeURIComponent(current)}` : './';
+  });
+
   const m0 = location.hash.match(/^#park=([^&]+)/);
   current = m0 ? decodeURIComponent(m0[1]) : '';
   load();

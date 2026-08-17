@@ -22,10 +22,19 @@
     </div>
   </a>
   <div class="topbar__stats">
+    <!-- 지도에서 넘어온 경우 브라우저 뒤로가기와 같게 동작합니다 -->
+    <button class="dlbtn dlbtn--back" id="db-back">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      지도로 돌아가기
+    </button>
     <button class="dlbtn" id="db-refresh">
       <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M20 12a8 8 0 11-2.34-5.66M20 4v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       새로고침
     </button>
+    <a class="dlbtn dlbtn--data" href="data.html" title="데이터셋 내려받기">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 3v11m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      자료받기
+    </a>
     <a class="dlbtn dlbtn--stat" href="./">
       <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M9 20l-6-2V4l6 2 6-2 6 2v14l-6-2-6 2zM9 6v14M15 4v14" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></svg>
       지도 대시보드
