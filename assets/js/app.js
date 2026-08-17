@@ -646,6 +646,7 @@
 
   function select(regionLike, push = true) {
     const region = asRegion(regionLike);
+    const hadActive = Boolean(state.active);   // 이미 다른 공원이 열려 있었나
     state.active = region;
     state.popup.remove();
 
@@ -669,12 +670,18 @@
     state.onPickMobileClose?.();   // 모바일: 탐색 시트를 닫아 상세가 온전히 보이게
 
     /* 딥링크 — 주소를 복사해 공유하면 이 공원이 바로 열린다 */
-    /* 방문 기록에 남긴다 — 뒤로가기로 이전 공원(또는 전체 지도)으로 돌아갈 수 있게.
-       같은 공원을 다시 고른 경우에는 기록을 쌓지 않는다. */
+    /* 방문 기록 —
+       공원을 고를 때마다 기록을 쌓으면, 여러 곳을 둘러본 뒤 뒤로가기를
+       누를 때 지나온 공원을 하나씩 되짚게 된다. 사용자가 기대하는 건
+       '뒤로가기 = 이 공원 닫기' 이므로,
+         · 아무것도 선택 안 된 상태 → 선택  : 기록을 하나 쌓는다 (pushState)
+         · 이미 다른 공원이 열린 상태 → 전환 : 주소만 바꾼다 (replaceState)
+       그래서 어느 공원에서 뒤로가기를 눌러도 전체 지도로 한 번에 돌아온다. */
     const to = `#p=${encodeURIComponent(region.id)}`;
     try {
-      if (push && location.hash !== to) history.pushState({ park: region.id }, '', to);
-      else if (!push) history.replaceState({ park: region.id }, '', to);
+      if (location.hash === to) { /* 같은 공원 — 아무것도 하지 않는다 */ }
+      else if (push && !hadActive) history.pushState({ park: region.id }, '', to);
+      else history.replaceState({ park: region.id }, '', to);
     } catch { /* 무시 */ }
   }
 
@@ -939,7 +946,9 @@
       }
       state.map.getSource('global-bound')?.setData(EMPTY_FC);
       closeSidebar();
-      try { history.pushState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
+      /* 빈 지도를 눌러 닫은 경우 — 기록을 쌓지 않고 주소만 되돌린다.
+         (뒤로가기가 '방금 닫은 공원'을 다시 여는 건 이상하다) */
+      try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
     });
 
     /* ---------- 뒤로가기 ----------
