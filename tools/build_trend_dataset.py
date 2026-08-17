@@ -74,7 +74,8 @@ def main():
             for period, v in sorted(s.items()):
                 rows.append({
                     "공원": p,
-                    "연월": period[:7],
+                    # 엑셀이 '2016-01'을 날짜로 바꿔 Jan-16 처럼 보여 줘서 한글을 넣는다
+                    "연월": f"{period[:4]}년 {period[5:7]}월",
                     "검색관심도_원값": round(v, 2),
                     "검색관심도_환산": round(v / ref_max * 100, 2),
                 })
@@ -83,7 +84,7 @@ def main():
             meta.append({
                 "공원": p,
                 "관측개월수": len(vals),
-                "최고시점": top[0][:7],
+                "최고시점": f"{top[0][:4]}년 {top[0][5:7]}월",
                 "최고값_환산": round(top[1] / ref_max * 100, 2),
                 "평균_환산": round(sum(vals) / len(vals) / ref_max * 100, 2),
                 "최근값_환산": round(vals[-1] / ref_max * 100, 2),

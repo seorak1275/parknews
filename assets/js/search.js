@@ -24,9 +24,12 @@
 
   const state = {
     meta: null, cache: new Map(), rows: [], view: 'list', page: 1,
-    q: '', year: '', park: '', sector: '', conf: '0', near: false,
+    q: '', ex: '', year: '', range: '1', park: '', sector: '', conf: '0', near: false,
   };
   const PER = 50;
+  /* 같은 사안 묶기는 기사 수가 늘수록 급격히 느려진다(서로 견줘 보므로).
+     최근 것부터 이만큼만 묶는다 — 순위는 어차피 위쪽만 보면 된다. */
+  const RANK_LIMIT = 4000;
 
   /* ---------- 자료 ---------- */
   async function meta() {
@@ -45,14 +48,35 @@
     return rows;
   }
 
-  /** 검색 대상 연도 — 고르지 않았으면 최근 5년만 (전부 받으면 11MB) */
+  /** 검색 대상 연도
+   *  연도를 고르면 그 해만. 아니면 '범위'에서 고른 만큼.
+   *  기본을 올해로 둔다 — 5년치는 8.4MB·3만 건이라 눈에 띄게 버벅였다. */
   function targetYears() {
     const ys = state.meta.years.map((y) => y.year);
     if (state.year) return [state.year];
-    return state.q ? ys : ys.slice(0, 5);
+    if (state.range === 'all') return ys;
+    return ys.slice(0, Number(state.range) || 1);
+  }
+
+  /** 지금 범위로 몇 건·몇 MB 를 받게 되는지 (고르기 전에 알려 준다) */
+  function scopeCost() {
+    const set = new Set(targetYears());
+    const ys = state.meta.years.filter((y) => set.has(y.year));
+    return {
+      years: ys.length,
+      count: ys.reduce((s, y) => s + y.count, 0),
+      mb: ys.reduce((s, y) => s + y.sizeKB, 0) / 1024,
+    };
   }
 
   /* ---------- 검색 ---------- */
+  /* 제외 낱말 — 띄어쓰기로 여러 개.
+     '드라마 맛집 분양' 처럼 적으면 그중 하나라도 걸리는 기사를 뺀다.
+     무엇을 뺄지는 보는 사람마다 다르므로 목록을 코드에 박아 두지 않고 직접 넣게 했다. */
+  function exWords() {
+    return state.ex.toLowerCase().split(/[\s,]+/).filter(Boolean);
+  }
+
   function match(r) {
     if (state.park && r[F.park] !== state.park) return false;
     if (state.sector && r[F.sector] !== state.sector) return false;
@@ -65,6 +89,13 @@
       if (!words.every((w) => t.includes(w))) return false;
     }
     return true;
+  }
+
+  /** 제외 낱말에 걸리는가 — 제목과 언론사 이름을 함께 본다 */
+  function excluded(r, ex) {
+    if (!ex.length) return false;
+    const hay = `${r[F.title]} ${r[F.press]}`.toLowerCase();
+    return ex.some((w) => hay.includes(w));
   }
 
   /* 같은 사안 묶기 — 제목 낱말이 절반 넘게 겹치면 한 사안으로 본다 */
@@ -133,9 +164,10 @@
     $('#sc-count').textContent = `${nf(rows.length)}건`;
 
     if (state.view === 'rank') {
-      const g = groupIssues(rows).slice(0, 40);
+      const src = rows.slice(0, RANK_LIMIT);
+      const g = groupIssues(src).slice(0, 40);
       box.innerHTML = `
-        <p class="sc-note">같은 사안끼리 묶어 <b>보도한 매체 수</b>로 순위를 매깁니다 · 조회수가 아닙니다</p>
+        <p class="sc-note">같은 사안끼리 묶어 <b>보도한 매체 수</b>로 순위를 매깁니다 · 조회수가 아닙니다${rows.length > RANK_LIMIT ? ` · 최근 ${nf(RANK_LIMIT)}건만 묶었습니다 (전체 ${nf(rows.length)}건)` : ''}</p>
         <ol class="sc-rank">${g.map((x, i) => `
           <li>
             <b class="sc-no">${i + 1}</b>
@@ -168,13 +200,31 @@
     const box = $('#sc-body');
     box.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> 찾는 중…</div>`;
     await meta();
+    $('#sc-range').disabled = Boolean(state.year);   // 연도를 콕 집었으면 범위는 의미가 없다
     const years = targetYears();
-    const all = (await Promise.all(years.map(yearRows))).flat();
-    state.rows = all.filter(match).sort((a, b) => `${b[9]}-${b[F.date]}`.localeCompare(`${a[9]}-${a[F.date]}`));
+    const all = [];
+    for (let i = 0; i < years.length; i++) {
+      if (years.length > 1) {
+        box.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> `
+          + `${years[i]}년 불러오는 중… (${i + 1}/${years.length})</div>`;
+      }
+      all.push(...await yearRows(years[i]));
+    }
+    const ex = exWords();
+    const hit = all.filter(match);
+    const kept = ex.length ? hit.filter((r) => !excluded(r, ex)) : hit;
+    state.excluded = hit.length - kept.length;
+    state.rows = kept.sort((a, b) => `${b[9]}-${b[F.date]}`.localeCompare(`${a[9]}-${a[F.date]}`));
     state.page = 1;
 
-    const scope = state.year ? `${state.year}년` : (state.q ? '전체 연도' : '최근 5년');
-    $('#sc-scope').textContent = scope;
+    if (state.excluded) {
+      $('#sc-excount').textContent = ` · 제외 ${nf(state.excluded)}건`;
+    } else $('#sc-excount').textContent = '';
+
+    const c = scopeCost();
+    $('#sc-scope').textContent = state.year
+      ? `${state.year}년`
+      : `${years[years.length - 1]}~${years[0]}년 (${nf(c.count)}건)`;
     render();
   }
 
@@ -186,7 +236,9 @@
 
     const go = () => {
       state.q = $('#sc-q').value.trim();
+      state.ex = $('#sc-ex').value.trim();
       state.year = $('#sc-year').value;
+      state.range = $('#sc-range').value;
       state.park = $('#sc-park').value;
       state.sector = $('#sc-sector').value;
       state.conf = $('#sc-conf').value;
@@ -194,7 +246,7 @@
       run();
     };
     $('#sc-form').addEventListener('submit', (e) => { e.preventDefault(); go(); });
-    ['#sc-year', '#sc-park', '#sc-sector', '#sc-conf'].forEach((s) =>
+    ['#sc-year', '#sc-range', '#sc-park', '#sc-sector', '#sc-conf'].forEach((s) =>
       $(s).addEventListener('change', go));
     $('#sc-near').addEventListener('change', go);
     $('#sc-tabs').addEventListener('click', (e) => {

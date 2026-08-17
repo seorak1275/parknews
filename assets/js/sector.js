@@ -39,17 +39,22 @@
       key: 'safety', name: '재난안전', color: '#f87171',
       desc: '산불 · 기상 · 통제',
       queries: ['국립공원 산불', '국립공원 안전', '국립공원 통제'],
+      /* 물놀이 '위험지역'은 사고가 아니라 미리 지정·관리하는 일이라 재난안전입니다. */
       words: ['산불', '화재', '진화', '통제', '폭우', '호우', '태풍', '폭설', '한파', '폭염',
         '산사태', '낙석', '지진', '대피', '출입금지', '입산통제', '긴급', '순찰', '경보',
-        '주의보', '특보', '재난', '예방', '점검', '훈련', '방재'],
+        '주의보', '특보', '재난', '예방', '점검', '훈련', '방재',
+        '물놀이 위험지역', '물놀이 안전', '위험지역 지정', '안전관리요원'],
     },
     {
       key: 'nature', name: '자원보전', color: '#34d399',
       desc: '생태 · 멸종위기종 · 복원',
       queries: ['국립공원 멸종위기', '국립공원 생태', '국립공원 복원'],
+      /* 불법행위·무질서행위 단속은 보전담당 소관이라 자원보전으로 넣습니다. */
       words: ['멸종위기', '복원', '생태', '서식', '천연기념물', '깃대종', '반달가슴곰', '산양',
         '수달', '여우', '발견', '개화', '만개', '식물', '조류', '철새', '외래종', '보호',
-        '보전', '자연유산', '생물', '방사', '증식', '포착', '군락', '희귀'],
+        '보전', '자연유산', '생물', '방사', '증식', '포착', '군락', '희귀',
+        '불법행위', '무질서행위', '불법채취', '불법취사', '불법야영', '밀렵', '밀거래',
+        '샛길', '비법정탐방로', '집중단속', '특별단속', '과태료', '무단출입', '오물투기'],
     },
     {
       key: 'facility', name: '탐방시설', color: '#fbbf24',
@@ -298,6 +303,7 @@
   /* 공원 선택도 방문 기록에 남긴다 — 뒤로가기로 되돌아올 수 있게 */
   function go(id, push = true) {
     current = id || '';
+    syncMapLink();
     if (push) {
       const url = current ? `#park=${encodeURIComponent(current)}` : location.pathname;
       try { history.pushState({ park: current }, '', url); } catch { /* 무시 */ }
@@ -318,18 +324,17 @@
 
   $('#db-refresh')?.addEventListener('click', () => load());
 
-  /* 지도로 돌아가기 —
-     지도에서 '분야별로 보기'를 눌러 넘어온 경우가 대부분이므로,
-     방문 기록이 남아 있으면 뒤로가기로 보던 화면(그 공원이 열린 지도)으로
-     되돌아가는 게 자연스럽다. 기록이 없으면(주소를 직접 열었을 때) 지도 첫 화면으로. */
-  $('#db-back')?.addEventListener('click', () => {
-    const from = document.referrer;
-    const sameSite = from && new URL(from, location.href).origin === location.origin;
-    if (sameSite && history.length > 1) history.back();
-    else location.href = current ? `./#p=${encodeURIComponent(current)}` : './';
-  });
-
+  /* 지도 돌아가기 —
+     예전에는 브라우저 뒤로가기(history.back)를 썼지만, 이 화면에서 공원을 바꿀 때마다
+     주소(#park=…)가 쌓여서 뒤로가기가 '지도'가 아니라 '직전에 보던 공원'으로 갔다.
+     그래서 뒤로가기를 쓰지 않고 지도 주소로 곧장 간다.
+     보고 있던 공원이 있으면 그 공원이 열린 채로 지도가 뜬다. */
+  function syncMapLink() {
+    const a = $('#db-map');
+    if (a) a.href = current ? `./#p=${encodeURIComponent(current)}` : './';
+  }
   const m0 = location.hash.match(/^#park=([^&]+)/);
   current = m0 ? decodeURIComponent(m0[1]) : '';
+  syncMapLink();
   load();
 })();

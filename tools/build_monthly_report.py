@@ -25,6 +25,18 @@ D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
 SECTOR_ORDER = ["구조활동", "재난안전", "자원보전", "탐방시설", "행정", "기타"]
 
 
+def ym(s):
+    """'2026-08' → '2026년 08월'
+
+    엑셀은 '2026-08' 을 날짜로 알아듣고 'Aug-26' 처럼 영어 월로 바꿔 보여 준다.
+    한글을 섞어 두면 글자로 남아 그대로 보인다."""
+    s = (s or "").strip()
+    if "년" in s:                       # 이미 한글로 된 값 (검색관심도 파일)
+        return s
+    s = s[:7]
+    return f"{s[:4]}년 {s[5:7]}월" if len(s) == 7 else s
+
+
 def newest(pat):
     fs = sorted(glob.glob(os.path.join(D, pat)))
     return fs[-1] if fs else None
@@ -52,8 +64,8 @@ def main():
     # ---------- 월 × 섹터 ----------
     by_ms = defaultdict(list)
     for r in news:
-        m = (r.get("보도일") or "")[:7]
-        if len(m) == 7:
+        m = ym(r.get("보도일"))
+        if m.endswith("월"):
             by_ms[(m, r["섹터"])].append(r)
     months = sorted({m for m, _ in by_ms}, reverse=True)
 
@@ -98,11 +110,11 @@ def main():
              [r for r in news if r["공원"] != "(전체·공통)"]
     print(f"  공원별 통계 대상: {len(strict):,}건 (제목 근거)")
 
-    ti = {(r["공원"], r["연월"]): float(r["검색관심도_환산"]) for r in trend} if trend else {}
+    ti = {(r["공원"], ym(r["연월"])): float(r["검색관심도_환산"]) for r in trend} if trend else {}
     cnt_mp = Counter()
     for r in strict:
-        m = (r.get("보도일") or "")[:7]
-        if len(m) == 7:
+        m = ym(r.get("보도일"))
+        if m.endswith("월"):
             cnt_mp[(r["공원"], m)] += 1
     parks = [p for p, _ in Counter(r["공원"] for r in strict).most_common()]
     pivot("국립공원_피벗_공원×월_보도건수.csv", "공원", parks, cnt_mp)
@@ -172,7 +184,7 @@ def main():
             continue
         tot = month_tot[m]
         top_parks = Counter(r["공원"] for r in news
-                            if (r.get("보도일") or "")[:7] == m
+                            if ym(r.get("보도일")) == m
                             and r["공원"] != "(전체·공통)").most_common(3)
         rescue = len(by_ms.get((m, "구조활동"), []))
         rsub = Counter(r.get("세부분류") or "-" for r in by_ms.get((m, "구조활동"), [])).most_common(2)

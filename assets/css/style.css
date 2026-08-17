@@ -1388,9 +1388,6 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
   color:rgba(4,34,42,.72);
 }
 
-/* 대시보드 → 지도로 돌아가기 */
-.dlbtn--back{color:var(--ink-2);background:rgba(255,255,255,.06)}
-.dlbtn--back:hover{color:var(--ink-1);background:rgba(255,255,255,.12)}
 .dlbtn--data{color:#a7f3d0;background:rgba(52,211,153,.14);border-color:rgba(52,211,153,.32)}
 .dlbtn--data:hover{color:#0b0f1a;background:#34d399}
 
@@ -1414,6 +1411,14 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 }
 .sc-form option,.sc-form optgroup{background:#12182a;color:#e8eefc}
 .sc-form input:focus,.sc-form select:focus{outline:2px solid rgba(34,211,238,.45);outline-offset:1px}
+/* 제외 낱말 — 검색어 칸보다 작고 흐리게 둬 '빼는 칸'임이 보이게 */
+.sc-form input.sc-ex{
+  flex:0 1 210px;min-width:150px;
+  background:rgba(248,113,113,.07);border-color:rgba(248,113,113,.26);
+}
+.sc-form input.sc-ex::placeholder{color:rgba(248,113,113,.62)}
+.sc-form input.sc-ex:focus{outline-color:rgba(248,113,113,.5)}
+.sc-form select:disabled{opacity:.42;cursor:not-allowed}
 .sc-check{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-3)}
 .sc-go{
   padding:9px 18px;border-radius:var(--r-sm);font-size:13px;font-weight:800;
@@ -1422,6 +1427,7 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 .sc-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
 .sc-scope{font-size:12px;color:var(--ink-4)}
 .sc-scope b{color:var(--ink-2)}
+.sc-scope i{font-style:normal;color:#f87171}
 .sc-note{font-size:11.5px;color:var(--ink-4);margin-bottom:10px}
 
 .sc-list{display:flex;flex-direction:column;gap:2px}
