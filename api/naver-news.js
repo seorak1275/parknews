@@ -35,7 +35,7 @@ export default async function handler(req, res) {
       url: `https://openapi.naver.com/v1/search/news.json${qs}`,
       headers: { 'X-Naver-Client-Id': ID, 'X-Naver-Client-Secret': SECRET } },
     { name: 'apihub',
-      url: `https://naveropenapi.apigw.ntruss.com/v1/search/news.json${qs}`,
+      url: `https://naverapihub.apigw.ntruss.com/search/v1/news${qs}&format=json`,
       headers: { 'X-NCP-APIGW-API-KEY-ID': ID, 'X-NCP-APIGW-API-KEY': SECRET } },
   ];
 

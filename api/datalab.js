@@ -42,7 +42,7 @@ export default async function handler(req, res) {
       url: 'https://openapi.naver.com/v1/datalab/search',
       headers: { 'X-Naver-Client-Id': ID, 'X-Naver-Client-Secret': SECRET } },
     { name: 'apihub',
-      url: 'https://naveropenapi.apigw.ntruss.com/v1/datalab/search',
+      url: 'https://naverapihub.apigw.ntruss.com/search-trend/v1/search',
       headers: { 'X-NCP-APIGW-API-KEY-ID': ID, 'X-NCP-APIGW-API-KEY': SECRET } },
   ];
 
