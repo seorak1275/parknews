@@ -27,9 +27,9 @@
     q: '', ex: '', year: '', range: '1', park: '', sector: '', conf: '0', near: false,
   };
   const PER = 50;
-  /* 같은 사안 묶기는 기사 수가 늘수록 급격히 느려진다(서로 견줘 보므로).
-     최근 것부터 이만큼만 묶는다 — 순위는 어차피 위쪽만 보면 된다. */
-  const RANK_LIMIT = 4000;
+  /* 같은 사안 묶기를 낱말 색인으로 바꿔 훨씬 빨라졌지만(4천 건 620ms → 35ms),
+     전체 범위(5만여 건)까지 한 번에 묶을 일은 없다. 최근 것부터 이만큼만 묶는다. */
+  const RANK_LIMIT = 20000;
 
   /* ---------- 자료 ---------- */
   async function meta() {
@@ -104,19 +104,42 @@
     t.replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/)
       .filter((w) => w.length >= 2 && !STOP.has(w)));
 
+  /* 낱말 하나도 안 겹치는 기사끼리는 견줘 볼 것도 없다.
+     예전에는 새 기사마다 이미 만든 묶음을 전부 훑어서, 기사가 늘면
+     제곱으로 느려졌다(3만 건이면 몇십 초). 낱말 → 묶음 색인을 두고
+     낱말이 겹치는 묶음만 견준다. */
   function groupIssues(rows) {
     const groups = [];
+    const byWord = new Map();          // 낱말 → 그 낱말을 가진 묶음 번호들
     for (const r of rows) {
       const tk = tokens(r[F.title]);
       if (!tk.size) continue;
-      const g = groups.find((x) => {
-        let inter = 0;
-        for (const w of tk) if (x.tk.has(w)) inter++;
-        return inter && Math.max(inter / (x.tk.size + tk.size - inter),
-          inter / Math.min(x.tk.size, tk.size)) >= 0.5;
-      });
-      if (g) { g.rows.push(r); tk.forEach((w) => g.tk.add(w)); }
-      else groups.push({ tk, rows: [r] });
+
+      const inter = new Map();         // 묶음 번호 → 겹친 낱말 수
+      for (const w of tk) {
+        const ids = byWord.get(w);
+        if (!ids) continue;
+        for (const id of ids) inter.set(id, (inter.get(id) || 0) + 1);
+      }
+      /* 번호 순으로 본다 — 먼저 만들어진 묶음이 이기게 (예전과 같은 결과) */
+      let gi = -1;
+      for (const id of [...inter.keys()].sort((x, y) => x - y)) {
+        const n = inter.get(id);
+        const g = groups[id];
+        if (Math.max(n / (g.tk.size + tk.size - n),
+          n / Math.min(g.tk.size, tk.size)) >= 0.5) { gi = id; break; }
+      }
+
+      if (gi < 0) { gi = groups.length; groups.push({ tk: new Set(), rows: [] }); }
+      const g = groups[gi];
+      g.rows.push(r);
+      for (const w of tk) {
+        if (!g.tk.has(w)) {
+          g.tk.add(w);
+          const ids = byWord.get(w);
+          if (ids) ids.push(gi); else byWord.set(w, [gi]);
+        }
+      }
     }
     return groups
       .map((g) => ({
@@ -224,7 +247,8 @@
     const c = scopeCost();
     $('#sc-scope').textContent = state.year
       ? `${state.year}년`
-      : `${years[years.length - 1]}~${years[0]}년 (${nf(c.count)}건)`;
+      : (years.length === 1 ? `${years[0]}년` : `${years[years.length - 1]}~${years[0]}년`)
+        + ` (${nf(c.count)}건)`;
     render();
   }
 
