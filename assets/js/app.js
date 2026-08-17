@@ -501,11 +501,19 @@
   }
 
   /** 좌측 패널·사이드바를 피한 여백 (화면 폭에 따라 조정) */
+  /* 지도를 맞출 때 비워 둘 가장자리.
+     고정값(120px)을 쓰다가 최북단 설악산(위도 38.13)이 상단바에 가려 잘렸다.
+     핫이슈 띠 42 + 상단바 66 + 위 여백 14 = 122px 로 이미 넘어섰기 때문이다.
+     띠가 떴다 사라지기도 하므로 실제 높이를 재서 잡는다. */
   function fitPadding() {
     const narrow = window.innerWidth <= 860;
+    const css = getComputedStyle(document.documentElement);
+    const px = (v) => parseFloat(css.getPropertyValue(v)) || 0;
+    const topUI = px('--hot-h') + px('--topbar-h') + 14;   // 띠 + 상단바 + 위 여백
+    const ticker = $('#ticker') && !$('#ticker').hidden ? 64 : 0;
     return {
-      top: narrow ? 90 : 120,
-      bottom: narrow ? 70 : 90,
+      top: Math.round(topUI + (narrow ? 20 : 34)),          // 상단바 아래로 확실히 내린다
+      bottom: (narrow ? 70 : 90) + ticker,
       left: narrow ? 24 : 306,
       right: narrow ? 24 : 80,
     };
