@@ -23,12 +23,25 @@
         '행정', '법안', '개정', '이사장', '청장', '소장', '간담회', '토론회', '심의', '용역'],
     },
     {
+      /* 구조대 업무용 — 예전에는 '재난안전'에 산불·기상과 섞여 있어
+         출동 관련 기사만 따로 보기 어려웠다. 겹치는 낱말은 이쪽으로 몰아
+         우선 잡히게 하고, 재난안전에서는 뺐다. */
+      key: 'rescue', name: '구조출동', color: '#fb923c',
+      desc: '조난 · 구조 · 수색 · 응급',
+      queries: ['국립공원 구조', '국립공원 조난', '국립공원 실종',
+        '국립공원 안전사고', '산악구조', '국립공원 심정지'],
+      words: ['구조', '구조대', '구조요청', '조난', '실종', '수색', '추락', '고립', '표류',
+        '심정지', '심폐소생', '응급', '응급처치', '이송', '후송', '헬기', '119', '소방',
+        '구급', '구급대', '탈진', '저체온', '온열질환', '벌쏘임', '뱀', '낙상', '골절',
+        '안전사고', '조난객', '등산객 사고', '익사', '수난', '실족'],
+    },
+    {
       key: 'safety', name: '재난안전', color: '#f87171',
-      desc: '산불 · 사고 · 통제 · 기상',
-      queries: ['국립공원 사고', '국립공원 산불', '국립공원 안전'],
-      words: ['산불', '화재', '사고', '실종', '구조', '추락', '사망', '부상', '안전', '통제',
-        '폭우', '호우', '태풍', '폭설', '산사태', '낙석', '대피', '고립', '수색', '익사',
-        '조난', '출입금지', '긴급', '순찰', '헬기', '119', '소방'],
+      desc: '산불 · 기상 · 통제',
+      queries: ['국립공원 산불', '국립공원 안전', '국립공원 통제'],
+      words: ['산불', '화재', '진화', '통제', '폭우', '호우', '태풍', '폭설', '한파', '폭염',
+        '산사태', '낙석', '지진', '대피', '출입금지', '입산통제', '긴급', '순찰', '경보',
+        '주의보', '특보', '재난', '예방', '점검', '훈련', '방재'],
     },
     {
       key: 'nature', name: '자원보전', color: '#34d399',
@@ -125,11 +138,45 @@
       </section>`).join('');
   }
 
+  /* ==========================================================
+   *  공원별 보기
+   *  '전체'는 국립공원 일반 기사, 공원을 고르면 그 공원 기사만 분류한다.
+   * ======================================================== */
+  const PARKS = (window.REGIONS_KR || []).map((r) => ({
+    id: r.id,
+    name: r.name.replace('국립공원', ''),   // '지리산국립공원' → '지리산'
+    q: r.q || r.name,
+  }));
+
+  let current = '';   // '' = 전체
+
+  function renderPicker() {
+    const box = $('#db-parks');
+    if (!box || !PARKS.length) return;
+    box.innerHTML = `
+      <button class="db-park${current ? '' : ' is-on'}" data-park="">전체</button>
+      ${PARKS.map((p) => `
+        <button class="db-park${current === p.id ? ' is-on' : ''}" data-park="${esc(p.id)}">
+          ${esc(p.name)}
+        </button>`).join('')}`;
+  }
+
+  /** 고른 공원 기사인지 — 제목·요약에 공원 이름이 있어야 인정 */
+  const belongsTo = (n, park) =>
+    `${n.title} ${n.summary || ''}`.includes(park.name);
+
   /* ---------- 수집 ---------- */
   async function load() {
     renderSkeleton();
+    renderPicker();
 
-    const queries = [...new Set([...BASE_QUERIES, ...SECTORS.flatMap((s) => s.queries)])];
+    const park = PARKS.find((p) => p.id === current);
+    const queries = park
+      /* 공원별: 그 공원 이름을 섹터 질의에 얹어 좁게 찾는다 */
+      ? [...new Set([park.q,
+          ...SECTORS.map((s) => `${park.name} ${s.queries[0].replace('국립공원 ', '')}`)])]
+      : [...new Set([...BASE_QUERIES, ...SECTORS.flatMap((s) => s.queries)])];
+
     const batches = await Promise.all(
       queries.map((q) => NewsService.search(q, 'ko', 25).catch(() => []))
     );
@@ -140,6 +187,7 @@
     for (const n of batches.flat()) {
       if (!n?.title || !n.link) continue;
       if (NOISE.some((w) => n.title.includes(w))) continue;
+      if (park && !belongsTo(n, park)) continue;      // 이름이 없으면 다른 공원 기사
       const key = `${n.title.replace(/\s+/g, '').slice(0, 30)}|${n.press}`;
       if (seen.has(key)) continue;
       seen.add(key);
@@ -151,10 +199,36 @@
       buckets[s.key].sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0));
     }
 
+    const label = park ? `${park.name}국립공원` : '국내 국립공원 전체';
+    const head = $('#db-scope');
+    if (head) head.textContent = label;
+
     renderTiles(buckets);
     renderCols(buckets);
   }
 
-  $('#db-refresh')?.addEventListener('click', () => location.reload());
+  /* 공원 선택도 방문 기록에 남긴다 — 뒤로가기로 되돌아올 수 있게 */
+  function go(id, push = true) {
+    current = id || '';
+    if (push) {
+      const url = current ? `#park=${encodeURIComponent(current)}` : location.pathname;
+      try { history.pushState({ park: current }, '', url); } catch { /* 무시 */ }
+    }
+    load();
+  }
+
+  $('#db-parks')?.addEventListener('click', (e) => {
+    const b = e.target.closest('.db-park');
+    if (b) go(b.dataset.park);
+  });
+  window.addEventListener('popstate', () => {
+    const m = location.hash.match(/^#park=([^&]+)/);
+    go(m ? decodeURIComponent(m[1]) : '', false);
+  });
+
+  $('#db-refresh')?.addEventListener('click', () => load());
+
+  const m0 = location.hash.match(/^#park=([^&]+)/);
+  current = m0 ? decodeURIComponent(m0[1]) : '';
   load();
 })();

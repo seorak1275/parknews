@@ -46,7 +46,13 @@ window.Ranking = (() => {
     year:  '연간',
   };
 
-  const state = { tab: 'kr', period: 'live', cache: {}, loading: false };
+  /* 국내 24곳 — 공원 하나만 골라서 순위를 볼 수 있게 한다.
+     '설악산에서 요즘 뭐가 이슈지?' 를 바로 확인하는 용도다. */
+  const KR_PARKS = (window.REGIONS_KR || []).map((r) => ({
+    id: r.id, name: r.name.replace('국립공원', ''), q: r.q || r.name,
+  }));
+
+  const state = { tab: 'kr', period: 'live', park: '', cache: {}, loading: false };
   const TTL = 10 * 60 * 1000;
 
   /* ==========================================================
@@ -56,9 +62,21 @@ window.Ranking = (() => {
   /** 실시간: 지금 검색되는 기사를 그 자리에서 묶어 순위를 낸다 */
   async function fetchLive(which) {
     const cfg = SETS[which];
+    const park = which === 'kr' && state.park
+      ? KR_PARKS.find((p) => p.id === state.park) : null;
+
+    /* 공원을 골랐으면 그 공원 이름을 얹어 좁게 찾고, 이름이 없는 기사는 뺀다 */
+    const queries = park
+      ? [park.q, `${park.name} 탐방`, `${park.name} 사고`, `${park.name} 생태`]
+      : cfg.queries;
     const batches = await Promise.all(
-      cfg.queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => []))
+      queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => []))
     );
+    if (park) {
+      for (let i = 0; i < batches.length; i++) {
+        batches[i] = batches[i].filter((n) => `${n.title} ${n.summary || ''}`.includes(park.name));
+      }
+    }
     const groups = NewsService.groupIssues(batches.flat()).slice(0, 25);
     return {
       rows: groups.map((g) => ({
@@ -177,12 +195,20 @@ window.Ranking = (() => {
   }
 
   async function fetchRank(which, period) {
-    const ck = `${which}|${period}`;
+    const ck = `${which}|${period}|${state.park || '-'}`;
     const hit = state.cache[ck];
     if (hit && Date.now() - hit.at < TTL) return hit.res;
 
     const raw = period === 'live' ? await fetchLive(which) : await fetchArchive(which, period);
-    const res = { ...raw, rows: await attachParks(raw.rows) };
+
+    /* 보관본은 공원별로 나눠 저장하지 않으므로 받아온 뒤 걸러 낸다 */
+    const park = which === 'kr' && state.park
+      ? KR_PARKS.find((p) => p.id === state.park) : null;
+    const rows = park && period !== 'live'
+      ? raw.rows.filter((r) => r.title.includes(park.name))
+      : raw.rows;
+
+    const res = { ...raw, rows: await attachParks(rows) };
     state.cache[ck] = { at: Date.now(), res };
     return res;
   }
@@ -239,6 +265,18 @@ window.Ranking = (() => {
     document.querySelectorAll('#rk-periods .rk-tab').forEach((b) => {
       b.classList.toggle('is-on', b.dataset.period === state.period);
     });
+
+    /* 공원 선택은 국내에서만 의미가 있다 */
+    const box = $('#rk-parks');
+    if (!box) return;
+    box.hidden = state.tab !== 'kr' || !KR_PARKS.length;
+    if (box.hidden) return;
+    box.innerHTML = `
+      <button class="rk-park${state.park ? '' : ' is-on'}" data-park="">전체</button>
+      ${KR_PARKS.map((p) => `
+        <button class="rk-park${state.park === p.id ? ' is-on' : ''}" data-park="${esc(p.id)}">
+          ${esc(p.name)}
+        </button>`).join('')}`;
   }
 
   async function render() {
@@ -246,7 +284,9 @@ window.Ranking = (() => {
     if (!body) return;
     syncTabs();
 
-    const label = `${SETS[state.tab].label} · ${PERIODS[state.period]}`;
+    const pk = state.tab === 'kr' && state.park
+      ? KR_PARKS.find((p) => p.id === state.park) : null;
+    const label = `${pk ? `${pk.name}국립공원` : SETS[state.tab].label} · ${PERIODS[state.period]}`;
     body.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> ${esc(label)} 순위를 집계하는 중…</div>`;
 
     const token = `${state.tab}|${state.period}`;
@@ -279,15 +319,36 @@ window.Ranking = (() => {
     }
   }
 
-  const open = () => { $('#ranking').classList.add('is-open'); document.body.classList.add('dg-lock'); render(); };
-  const close = () => { $('#ranking').classList.remove('is-open'); document.body.classList.remove('dg-lock'); };
+  /* 창 열고 닫기 — 여는 것도 방문 기록에 남겨 뒤로가기로 닫을 수 있게 한다.
+     휴대폰에서 창을 닫으려고 뒤로가기를 눌렀다가 사이트를 나가버리는 일을 막는다. */
+  const HASH = '#ranking';
+  const show = () => { $('#ranking').classList.add('is-open'); document.body.classList.add('dg-lock'); render(); };
+  const hide = () => { $('#ranking').classList.remove('is-open'); document.body.classList.remove('dg-lock'); };
+  const isOpen = () => $('#ranking')?.classList.contains('is-open');
+
+  const open = () => {
+    if (isOpen()) return;
+    try { history.pushState({ modal: 'ranking' }, '', HASH); } catch { /* 무시 */ }
+    show();
+  };
+  /** 닫기 버튼·ESC·바깥 클릭 — 쌓아둔 기록을 하나 되돌린다 */
+  const close = () => {
+    if (!isOpen()) return;
+    hide();
+    if (location.hash === HASH) { try { history.back(); } catch { /* 무시 */ } }
+  };
 
   function init() {
     $('#btn-ranking')?.addEventListener('click', open);
     $('#rk-close')?.addEventListener('click', close);
     $('#ranking')?.addEventListener('click', (e) => { if (e.target.id === 'ranking') close(); });
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && $('#ranking')?.classList.contains('is-open')) close();
+      if (e.key === 'Escape' && isOpen()) close();
+    });
+    /* 뒤로가기·앞으로가기에 맞춰 창을 열고 닫는다 */
+    window.addEventListener('popstate', () => {
+      if (location.hash === HASH) { if (!isOpen()) show(); }
+      else if (isOpen()) hide();
     });
     /* 위치 바로가기 — 순위 창을 닫고 그 공원으로 지도를 이동시킨다 */
     $('#rk-body')?.addEventListener('click', (e) => {
@@ -295,12 +356,20 @@ window.Ranking = (() => {
       if (!b) return;
       const p = (parkIndex || []).find((x) => x.park.id === b.dataset.park)?.park;
       if (!p || !window.ParkMap) return;
-      close();
+      /* 여기서는 기록을 되돌리지 않는다 — 지도로 간 뒤 뒤로가기를 누르면
+         순위 창으로 되돌아오는 편이 자연스럽다 */
+      hide();
       window.ParkMap.select(p);
     });
 
     $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; render(); });
-    $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; render(); });
+    $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; state.park = ''; render(); });
+    $('#rk-parks')?.addEventListener('click', (e) => {
+      const b = e.target.closest('.rk-park');
+      if (!b) return;
+      state.park = b.dataset.park || '';
+      render();
+    });
     $('#rk-periods')?.addEventListener('click', (e) => {
       const b = e.target.closest('.rk-tab');
       if (!b || !b.dataset.period) return;

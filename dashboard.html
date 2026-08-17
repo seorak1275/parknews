@@ -35,10 +35,13 @@
 
 <main class="db-wrap">
   <div class="db-head">
-    <h2>섹터별 국립공원 뉴스</h2>
-    <p>최근 기사를 <b>행정 · 재난안전 · 자원보전 · 탐방시설</b> 네 분야로 자동 분류합니다.
+    <h2>섹터별 국립공원 뉴스 — <span id="db-scope">국내 국립공원 전체</span></h2>
+    <p>최근 기사를 <b>행정 · 구조출동 · 재난안전 · 자원보전 · 탐방시설</b> 다섯 분야로 자동 분류합니다.
        기사 제목·요약의 키워드 기반이라 일부 오분류가 있을 수 있습니다.</p>
   </div>
+
+  <!-- 공원별 보기 — 누르면 그 공원 기사만 분류합니다 (뒤로가기로 되돌아옴) -->
+  <nav class="db-parks" id="db-parks" aria-label="공원 선택"></nav>
 
   <div class="db-tiles" id="db-tiles"></div>
   <div class="db-grid" id="db-grid"></div>
@@ -47,6 +50,7 @@
 </main>
 
 <script src="assets/js/config.js"></script>
+<script src="assets/js/regions.js"></script>
 <script src="assets/js/news.js"></script>
 <script src="assets/js/sector.js"></script>
 </body>

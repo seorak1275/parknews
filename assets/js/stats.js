@@ -229,15 +229,33 @@ window.Stats = (() => {
     render();
   }
 
-  const open = () => { $('#stats').classList.add('is-open'); document.body.classList.add('dg-lock'); build(); };
-  const close = () => { $('#stats').classList.remove('is-open'); document.body.classList.remove('dg-lock'); };
+  /* 여는 것을 방문 기록에 남겨 뒤로가기로 닫히게 한다 (ranking.js 와 같은 사정) */
+  const HASH = '#stats';
+  const show = () => { $('#stats').classList.add('is-open'); document.body.classList.add('dg-lock'); build(); };
+  const hide = () => { $('#stats').classList.remove('is-open'); document.body.classList.remove('dg-lock'); };
+  const isOpen = () => $('#stats')?.classList.contains('is-open');
+
+  const open = () => {
+    if (isOpen()) return;
+    try { history.pushState({ modal: 'stats' }, '', HASH); } catch { /* 무시 */ }
+    show();
+  };
+  const close = () => {
+    if (!isOpen()) return;
+    hide();
+    if (location.hash === HASH) { try { history.back(); } catch { /* 무시 */ } }
+  };
 
   function init() {
     $('#btn-stats')?.addEventListener('click', open);
     $('#st-close')?.addEventListener('click', close);
     $('#stats')?.addEventListener('click', (e) => { if (e.target.id === 'stats') close(); });
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && $('#stats')?.classList.contains('is-open')) close();
+      if (e.key === 'Escape' && isOpen()) close();
+    });
+    window.addEventListener('popstate', () => {
+      if (location.hash === HASH) { if (!isOpen()) show(); }
+      else if (isOpen()) hide();
     });
   }
 

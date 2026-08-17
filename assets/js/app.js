@@ -644,7 +644,7 @@
   const openSidebar = () => { $('#sidebar').classList.add('is-open'); $('#sb-toggle').classList.add('is-open'); };
   const closeSidebar = () => { $('#sidebar').classList.remove('is-open'); $('#sb-toggle').classList.remove('is-open'); TrendChart.destroy(); };
 
-  function select(regionLike) {
+  function select(regionLike, push = true) {
     const region = asRegion(regionLike);
     state.active = region;
     state.popup.remove();
@@ -669,7 +669,13 @@
     state.onPickMobileClose?.();   // 모바일: 탐색 시트를 닫아 상세가 온전히 보이게
 
     /* 딥링크 — 주소를 복사해 공유하면 이 공원이 바로 열린다 */
-    try { history.replaceState(null, '', `#p=${encodeURIComponent(region.id)}`); } catch { /* 무시 */ }
+    /* 방문 기록에 남긴다 — 뒤로가기로 이전 공원(또는 전체 지도)으로 돌아갈 수 있게.
+       같은 공원을 다시 고른 경우에는 기록을 쌓지 않는다. */
+    const to = `#p=${encodeURIComponent(region.id)}`;
+    try {
+      if (push && location.hash !== to) history.pushState({ park: region.id }, '', to);
+      else if (!push) history.replaceState({ park: region.id }, '', to);
+    } catch { /* 무시 */ }
   }
 
   function renderSidebar(region) {
@@ -933,7 +939,36 @@
       }
       state.map.getSource('global-bound')?.setData(EMPTY_FC);
       closeSidebar();
-      try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
+      try { history.pushState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
+    });
+
+    /* ---------- 뒤로가기 ----------
+       공원 선택·창 열기가 방문 기록에 쌓이므로, 뒤로가기를 누르면
+       사이트를 떠나는 대신 이전 상태로 돌아간다.
+       (창은 각 모듈이 자기 해시를 보고 처리하므로 여기서는 건너뛴다) */
+    const MODAL_HASHES = ['#ranking', '#stats'];
+    window.addEventListener('popstate', async () => {
+      if (MODAL_HASHES.includes(location.hash)) return;
+
+      const m = location.hash.match(/^#p=([%\w.-]+)/);
+      if (m) {
+        const id = decodeURIComponent(m[1]);
+        if (state.active?.id === id) return;
+        let p = Explorer.parkById(id);
+        if (!p) { try { await Explorer.allParks(); p = Explorer.parkById(id); } catch { /* 무시 */ } }
+        if (p) select(p, false);
+        return;
+      }
+      /* 해시가 없으면 선택 해제 상태로 */
+      if (state.active) {
+        state.active = null;
+        $$('.mk').forEach((e) => e.classList.remove('is-active'));
+        if (state.map?.getLayer('gp-active')) {
+          state.map.setFilter('gp-active', ['==', ['get', 'id'], '__none__']);
+        }
+        state.map?.getSource('global-bound')?.setData(EMPTY_FC);
+        closeSidebar();
+      }
     });
   }
 
