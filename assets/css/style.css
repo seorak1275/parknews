@@ -881,7 +881,8 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 .db-tile__v em{font-style:normal;font-size:12px;font-weight:600;color:var(--ink-3);margin-left:3px}
 .db-tile__s{font-size:10.5px;color:var(--ink-4)}
 
-.db-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:start}
+/* 섹터가 5개라 4칸이면 탐방시설이 다음 줄로 떨어진다 */
+.db-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;align-items:start}
 .db-col{border-radius:var(--r-lg);display:flex;flex-direction:column;max-height:72vh;overflow:hidden}
 .db-col__h{
   display:flex;align-items:center;gap:10px;flex:none;
@@ -905,7 +906,7 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 .db-src{margin-top:22px;font-size:10.5px;color:var(--ink-4);text-align:center}
 
 @media (max-width:1180px){
-  .db-grid{grid-template-columns:1fr 1fr}
+  .db-grid{grid-template-columns:repeat(3,1fr);gap:10px}
   .db-tiles{grid-template-columns:repeat(5,1fr);gap:8px}
 }
 @media (max-width:860px){

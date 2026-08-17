@@ -22,7 +22,7 @@ from collections import Counter, defaultdict
 
 D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
     os.path.expanduser("~"), "Desktop", "데이터뱅크_국립공원뉴스")
-SECTOR_ORDER = ["구조출동", "재난안전", "자원보전", "탐방시설", "행정", "기타"]
+SECTOR_ORDER = ["구조활동", "재난안전", "자원보전", "탐방시설", "행정", "기타"]
 
 
 def newest(pat):
@@ -138,11 +138,11 @@ def main():
         rows.append(rec)
     write("국립공원_피벗_공원×섹터.csv", ["공원"] + SECTOR_ORDER + ["합계", "최다분야"], rows)
 
-    # ── 공원 × 구조출동 세부유형 ── (구조대 업무용)
+    # ── 공원 × 구조활동 세부유형 ── (구조대 업무용)
     subs = [s for s, _ in Counter(
-        r["세부분류"] for r in strict if r["섹터"] == "구조출동" and r.get("세부분류")).most_common()]
+        r["세부분류"] for r in strict if r["섹터"] == "구조활동" and r.get("세부분류")).most_common()]
     cnt_pr = Counter((r["공원"], r["세부분류"])
-                     for r in strict if r["섹터"] == "구조출동" and r.get("세부분류"))
+                     for r in strict if r["섹터"] == "구조활동" and r.get("세부분류"))
     rows = []
     for p in parks:
         rec = {"공원": p}
@@ -174,8 +174,8 @@ def main():
         top_parks = Counter(r["공원"] for r in news
                             if (r.get("보도일") or "")[:7] == m
                             and r["공원"] != "(전체·공통)").most_common(3)
-        rescue = len(by_ms.get((m, "구조출동"), []))
-        rsub = Counter(r.get("세부분류") or "-" for r in by_ms.get((m, "구조출동"), [])).most_common(2)
+        rescue = len(by_ms.get((m, "구조활동"), []))
+        rsub = Counter(r.get("세부분류") or "-" for r in by_ms.get((m, "구조활동"), [])).most_common(2)
 
         L.append(f"## {m}")
         L.append("")
@@ -185,7 +185,7 @@ def main():
             L.append("공원별로는 " + ", ".join(f"**{p}** {n}건" for p, n in top_parks) + " 순입니다.")
         if rescue:
             det = " · ".join(f"{k} {v}건" for k, v in rsub if k != "-")
-            L.append(f"구조출동 관련은 {rescue}건이며" + (f", 유형은 {det} 입니다." if det else "."))
+            L.append(f"구조활동 관련은 {rescue}건이며" + (f", 유형은 {det} 입니다." if det else "."))
         if ti:
             vals = [(p, ti[(p, m)]) for p in {x["공원"] for x in trend} if (p, m) in ti]
             if vals:

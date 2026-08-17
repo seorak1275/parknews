@@ -26,7 +26,7 @@
       /* 구조대 업무용 — 예전에는 '재난안전'에 산불·기상과 섞여 있어
          출동 관련 기사만 따로 보기 어려웠다. 겹치는 낱말은 이쪽으로 몰아
          우선 잡히게 하고, 재난안전에서는 뺐다. */
-      key: 'rescue', name: '구조출동', color: '#fb923c',
+      key: 'rescue', name: '구조활동', color: '#fb923c',
       desc: '조난 · 구조 · 수색 · 응급',
       queries: ['국립공원 구조', '국립공원 조난', '국립공원 실종',
         '국립공원 안전사고', '산악구조', '국립공원 심정지'],
@@ -143,25 +143,11 @@
    *  '전체'는 국립공원 일반 기사, 공원을 고르면 그 공원 기사만 분류한다.
    * ======================================================== */
   /* 24곳을 단추로 늘어놓으니 한 줄을 훌쩍 넘겨 눈에 안 들어왔다.
-     권역으로 묶은 드롭다운 하나로 바꾼다. */
-  const ZONE = {
-    bukhansan: '수도권',
-    seoraksan: '강원', odaesan: '강원', chiaksan: '강원', taebaeksan: '강원',
-    gyeryongsan: '충청', songnisan: '충청', woraksan: '충청',
-    sobaeksan: '충청', taeanhaean: '충청',
-    jirisan: '전라', naejangsan: '전라', mudeungsan: '전라',
-    wolchulsan: '전라', byeonsan: '전라', dadohae: '전라', deogyusan: '전라',
-    gyeongju: '경상', gayasan: '경상', juwangsan: '경상',
-    palgongsan: '경상', geumjeongsan: '경상', hallyeo: '경상',
-    hallasan: '제주',
-  };
-  const ZONE_ORDER = ['수도권', '강원', '충청', '전라', '경상', '제주'];
-
+     드롭다운 하나로 바꾼다. 순서는 regions.js 의 지정 순서를 그대로 쓴다. */
   const PARKS = (window.REGIONS_KR || []).map((r) => ({
     id: r.id,
     name: r.name.replace('국립공원', ''),   // '지리산국립공원' → '지리산'
     q: r.q || r.name,
-    zone: ZONE[r.id] || '기타',
   }));
 
   let current = '';   // '' = 전체
@@ -175,12 +161,8 @@
         <span>공원</span>
         <select id="db-park-sel">
           <option value=""${current ? '' : ' selected'}>국내 국립공원 전체</option>
-          ${ZONE_ORDER.map((z) => {
-            const list = PARKS.filter((p) => p.zone === z);
-            if (!list.length) return '';
-            return `<optgroup label="${esc(z)}">${list.map((p) => `
-              <option value="${esc(p.id)}"${current === p.id ? ' selected' : ''}>${esc(p.name)}국립공원</option>`).join('')}</optgroup>`;
-          }).join('')}
+          ${PARKS.map((p) => `
+            <option value="${esc(p.id)}"${current === p.id ? ' selected' : ''}>${esc(p.name)}국립공원</option>`).join('')}
         </select>
       </label>
       ${cur ? `<button class="db-clear" id="db-clear">전체로 돌아가기</button>` : ''}`;
@@ -189,6 +171,23 @@
   /** 고른 공원 기사인지 — 제목·요약에 공원 이름이 있어야 인정 */
   const belongsTo = (n, park) =>
     `${n.title} ${n.summary || ''}`.includes(park.name);
+
+  /* '국립공원 산불' 같은 질의는 해외 기사도 끌어온다.
+     (예: '인도네시아 활화산 국립공원서 550헥타르 불태운 산불 진화')
+     국내 화면이므로 국내 공원이 언급되지 않은 해외 기사는 뺀다. */
+  const FOREIGN = ['인도네시아', '말레이시아', '베트남', '태국', '필리핀', '중국', '일본',
+    '몽골', '네팔', '인도', '미국', '캐나다', '멕시코', '브라질', '칠레', '아르헨티나',
+    '호주', '뉴질랜드', '케냐', '탄자니아', '남아공', '나미비아', '콩고', '독일', '프랑스',
+    '스위스', '이탈리아', '영국', '스페인', '노르웨이', '스웨덴', '아이슬란드', '러시아',
+    '터키', '튀르키예', '요세미티', '옐로스톤', '그랜드캐니언', '세렝게티', '킬리만자로'];
+  const PARK_NAMES = PARKS.map((p) => p.name);
+
+  function isDomestic(n) {
+    const text = `${n.title} ${n.summary || ''}`;
+    if (PARK_NAMES.some((w) => text.includes(w))) return true;      // 국내 공원 언급 → 국내
+    if (text.includes('공원공단') || text.includes('환경부')) return true;
+    return !FOREIGN.some((w) => text.includes(w));
+  }
 
   /* ---------- 수집 ---------- */
   async function load() {
@@ -213,6 +212,7 @@
       if (!n?.title || !n.link) continue;
       if (NOISE.some((w) => n.title.includes(w))) continue;
       if (park && !belongsTo(n, park)) continue;      // 이름이 없으면 다른 공원 기사
+      if (!isDomestic(n)) continue;                   // 해외 공원 기사는 이 화면 밖
       const key = `${n.title.replace(/\s+/g, '').slice(0, 30)}|${n.press}`;
       if (seen.has(key)) continue;
       seen.add(key);

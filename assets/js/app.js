@@ -706,7 +706,7 @@
         <a class="sb-sector" href="dashboard.html#park=${encodeURIComponent(region.id)}">
           <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v4h-7zM13 11h7v9h-7zM4 14h7v6H4z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></svg>
           ${esc(region.name)} 뉴스를 분야별로 보기
-          <em>구조출동 · 재난안전 · 자원보전 · 탐방시설 · 행정</em>
+          <em>구조활동 · 재난안전 · 자원보전 · 탐방시설 · 행정</em>
         </a>` : ''}
       </div>
 

@@ -348,7 +348,7 @@ window.Ranking = (() => {
       b.classList.toggle('is-on', b.dataset.period === state.period);
     });
 
-    /* 분야 고르기 — 구조대는 '구조출동'만 따로 보고 싶을 때가 많다 */
+    /* 분야 고르기 — 구조대는 '구조활동'만 따로 보고 싶을 때가 많다 */
     const sbox = $('#rk-sectors');
     if (sbox) {
       sbox.innerHTML = `

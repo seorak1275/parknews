@@ -28,7 +28,7 @@ PAGES = int(os.environ.get("PAGES", "3"))          # 한글 질의당 페이지 
 
 # 영문 기사용 분류어 — 국내용 한글 낱말은 영문에 걸리지 않는다
 SECTORS_EN = [
-    ("구조출동", ["rescue", "missing", "search", "stranded", "fell", "fall", "injured",
+    ("구조활동", ["rescue", "missing", "search", "stranded", "fell", "fall", "injured",
                 "died", "death", "body found", "hiker", "airlift", "helicopter",
                 "drowned", "hypothermia", "evacuated"]),
     ("재난안전", ["wildfire", "fire", "flood", "storm", "hurricane", "typhoon", "snow",
@@ -43,7 +43,7 @@ SECTORS_EN = [
              "director", "government", "shutdown", "lawsuit", "plan", "designat"]),
 ]
 SECTORS_KO = [
-    ("구조출동", ["구조", "실종", "수색", "조난", "추락", "사망", "부상", "헬기", "고립"]),
+    ("구조활동", ["구조", "실종", "수색", "조난", "추락", "사망", "부상", "헬기", "고립"]),
     ("재난안전", ["산불", "화재", "홍수", "폭우", "태풍", "폭설", "지진", "폐쇄", "통제", "폭염"]),
     ("자원보전", ["멸종위기", "생태", "복원", "서식", "야생", "보전", "빙하", "생물다양성"]),
     ("탐방시설", ["탐방", "예약", "입장", "관광", "트레킹", "여행", "숙박", "개방", "코스"]),
@@ -204,7 +204,7 @@ def main():
 
     # 피벗 — 대륙/국가 × 섹터
     from collections import Counter
-    SEC = ["구조출동", "재난안전", "자원보전", "탐방시설", "행정", "기타"]
+    SEC = ["구조활동", "재난안전", "자원보전", "탐방시설", "행정", "기타"]
     for key, fname in (("대륙", "해외국립공원_피벗_대륙×섹터"),
                        ("국가", "해외국립공원_피벗_국가×섹터")):
         cnt = Counter((r[key], r["섹터"]) for r in rows if r[key])
