@@ -142,10 +142,26 @@
    *  공원별 보기
    *  '전체'는 국립공원 일반 기사, 공원을 고르면 그 공원 기사만 분류한다.
    * ======================================================== */
+  /* 24곳을 단추로 늘어놓으니 한 줄을 훌쩍 넘겨 눈에 안 들어왔다.
+     권역으로 묶은 드롭다운 하나로 바꾼다. */
+  const ZONE = {
+    bukhansan: '수도권',
+    seoraksan: '강원', odaesan: '강원', chiaksan: '강원', taebaeksan: '강원',
+    gyeryongsan: '충청', songnisan: '충청', woraksan: '충청',
+    sobaeksan: '충청', taeanhaean: '충청',
+    jirisan: '전라', naejangsan: '전라', mudeungsan: '전라',
+    wolchulsan: '전라', byeonsan: '전라', dadohae: '전라', deogyusan: '전라',
+    gyeongju: '경상', gayasan: '경상', juwangsan: '경상',
+    palgongsan: '경상', geumjeongsan: '경상', hallyeo: '경상',
+    hallasan: '제주',
+  };
+  const ZONE_ORDER = ['수도권', '강원', '충청', '전라', '경상', '제주'];
+
   const PARKS = (window.REGIONS_KR || []).map((r) => ({
     id: r.id,
     name: r.name.replace('국립공원', ''),   // '지리산국립공원' → '지리산'
     q: r.q || r.name,
+    zone: ZONE[r.id] || '기타',
   }));
 
   let current = '';   // '' = 전체
@@ -153,12 +169,21 @@
   function renderPicker() {
     const box = $('#db-parks');
     if (!box || !PARKS.length) return;
+    const cur = PARKS.find((p) => p.id === current);
     box.innerHTML = `
-      <button class="db-park${current ? '' : ' is-on'}" data-park="">전체</button>
-      ${PARKS.map((p) => `
-        <button class="db-park${current === p.id ? ' is-on' : ''}" data-park="${esc(p.id)}">
-          ${esc(p.name)}
-        </button>`).join('')}`;
+      <label class="db-pick">
+        <span>공원</span>
+        <select id="db-park-sel">
+          <option value=""${current ? '' : ' selected'}>국내 국립공원 전체</option>
+          ${ZONE_ORDER.map((z) => {
+            const list = PARKS.filter((p) => p.zone === z);
+            if (!list.length) return '';
+            return `<optgroup label="${esc(z)}">${list.map((p) => `
+              <option value="${esc(p.id)}"${current === p.id ? ' selected' : ''}>${esc(p.name)}국립공원</option>`).join('')}</optgroup>`;
+          }).join('')}
+        </select>
+      </label>
+      ${cur ? `<button class="db-clear" id="db-clear">전체로 돌아가기</button>` : ''}`;
   }
 
   /** 고른 공원 기사인지 — 제목·요약에 공원 이름이 있어야 인정 */
@@ -217,9 +242,11 @@
     load();
   }
 
+  $('#db-parks')?.addEventListener('change', (e) => {
+    if (e.target.id === 'db-park-sel') go(e.target.value);
+  });
   $('#db-parks')?.addEventListener('click', (e) => {
-    const b = e.target.closest('.db-park');
-    if (b) go(b.dataset.park);
+    if (e.target.id === 'db-clear') go('');
   });
   window.addEventListener('popstate', () => {
     const m = location.hash.match(/^#park=([^&]+)/);
