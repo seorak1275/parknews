@@ -24,21 +24,38 @@ export default async function handler(req, res) {
   const display = Math.min(Math.max(parseInt(req.query.display, 10) || 6, 1), 20);
   if (!query) return res.status(400).json({ error: 'query 파라미터가 필요합니다' });
 
-  const url = 'https://openapi.naver.com/v1/search/news.json'
-    + `?query=${encodeURIComponent(query)}&display=${display}&sort=date`;
+  const qs = `?query=${encodeURIComponent(query)}&display=${display}&sort=date`;
 
-  try {
-    const r = await fetch(url, {
-      headers: { 'X-Naver-Client-Id': ID, 'X-Naver-Client-Secret': SECRET },
-    });
-    if (!r.ok) {
-      return res.status(r.status).json({ error: `네이버 API 오류 (${r.status})` });
+  /* 키를 어디서 발급받았느냐에 따라 부르는 곳과 헤더가 다르다.
+       · 개발자센터(developers.naver.com) → openapi.naver.com + X-Naver-*
+       · API 허브(NAVER Cloud Platform)   → naveropenapi.apigw.ntruss.com + X-NCP-*
+     발급처를 사용자가 알기 어려워 둘 다 시도하고 되는 쪽을 쓴다. */
+  const ROUTES = [
+    { name: 'developers',
+      url: `https://openapi.naver.com/v1/search/news.json${qs}`,
+      headers: { 'X-Naver-Client-Id': ID, 'X-Naver-Client-Secret': SECRET } },
+    { name: 'apihub',
+      url: `https://naveropenapi.apigw.ntruss.com/v1/search/news.json${qs}`,
+      headers: { 'X-NCP-APIGW-API-KEY-ID': ID, 'X-NCP-APIGW-API-KEY': SECRET } },
+  ];
+
+  const tried = [];
+  for (const route of ROUTES) {
+    try {
+      const r = await fetch(route.url, { headers: route.headers });
+      if (r.ok) {
+        const data = await r.json();
+        // 5분 CDN 캐시 → 무료 호출량 절약
+        res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
+        return res.status(200).json({ ...data, via: route.name });
+      }
+      tried.push(`${route.name}:${r.status}`);
+    } catch (e) {
+      tried.push(`${route.name}:${e?.name || 'err'}`);
     }
-    const data = await r.json();
-    // 5분 CDN 캐시 → 무료 호출량 절약
-    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
-    return res.status(200).json(data);
-  } catch (e) {
-    return res.status(502).json({ error: String(e.message || e) });
   }
+  return res.status(502).json({
+    error: '네이버 검색 API 호출 실패 — 키가 맞는지 확인해 주세요',
+    tried,
+  });
 }

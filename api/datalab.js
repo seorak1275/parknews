@@ -36,23 +36,36 @@ export default async function handler(req, res) {
     keywordGroups: [{ groupName: keyword, keywords: [keyword] }],
   };
 
-  try {
-    const r = await fetch('https://openapi.naver.com/v1/datalab/search', {
-      method: 'POST',
-      headers: {
-        'X-Naver-Client-Id': ID,
-        'X-Naver-Client-Secret': SECRET,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    });
-    if (!r.ok) {
-      return res.status(r.status).json({ error: `데이터랩 API 오류 (${r.status})` });
+  /* 발급처에 따라 주소·헤더가 다르다 (naver-news.js 와 같은 사정) */
+  const ROUTES = [
+    { name: 'developers',
+      url: 'https://openapi.naver.com/v1/datalab/search',
+      headers: { 'X-Naver-Client-Id': ID, 'X-Naver-Client-Secret': SECRET } },
+    { name: 'apihub',
+      url: 'https://naveropenapi.apigw.ntruss.com/v1/datalab/search',
+      headers: { 'X-NCP-APIGW-API-KEY-ID': ID, 'X-NCP-APIGW-API-KEY': SECRET } },
+  ];
+
+  const tried = [];
+  for (const route of ROUTES) {
+    try {
+      const r = await fetch(route.url, {
+        method: 'POST',
+        headers: { ...route.headers, 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+      if (r.ok) {
+        const data = await r.json();
+        res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=7200');
+        return res.status(200).json({ ...data, via: route.name });
+      }
+      tried.push(`${route.name}:${r.status}`);
+    } catch (e) {
+      tried.push(`${route.name}:${e?.name || 'err'}`);
     }
-    const data = await r.json();
-    res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=7200');
-    return res.status(200).json(data);
-  } catch (e) {
-    return res.status(502).json({ error: String(e.message || e) });
   }
+  return res.status(502).json({
+    error: '데이터랩 API 호출 실패 — 키와 이용 신청 상태를 확인해 주세요',
+    tried,
+  });
 }
