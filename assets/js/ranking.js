@@ -317,8 +317,10 @@ window.Ranking = (() => {
     for (let n = 0; n < targets.length; n += 5) {
       const chunk = targets.slice(n, n + 5);
       try {
+        /* 주 단위로 12주 — 기본값(14일)이면 두 칸밖에 안 나와 추이가 안 보인다 */
+        const since = new Date(Date.now() - 84 * 86400000).toISOString().slice(0, 10);
         const q = new URLSearchParams({
-          keywords: chunk.map((c) => c.w).join(','), unit: 'week',
+          keywords: chunk.map((c) => c.w).join(','), unit: 'week', start: since,
         });
         const res = await fetch(`/api/datalab?${q}`);
         if (!res.ok) return;                       // 키 미설정 등 — 조용히 건너뛴다
