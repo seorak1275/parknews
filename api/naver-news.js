@@ -21,10 +21,16 @@ export default async function handler(req, res) {
   }
 
   const query = String(req.query.query || '').slice(0, 100);
-  const display = Math.min(Math.max(parseInt(req.query.display, 10) || 6, 1), 20);
   if (!query) return res.status(400).json({ error: 'query 파라미터가 필요합니다' });
 
-  const qs = `?query=${encodeURIComponent(query)}&display=${display}&sort=date`;
+  /* 네이버 검색은 한 질의당 display 100건 · start 1000까지 페이지를 넘길 수 있다.
+     → 한 검색어로 최대 1,000건까지 과거로 거슬러 모을 수 있어
+       데이터셋을 만들 때 이 두 값을 쓴다. (화면은 기본값 6건만 쓴다) */
+  const display = Math.min(Math.max(parseInt(req.query.display, 10) || 6, 1), 100);
+  const start = Math.min(Math.max(parseInt(req.query.start, 10) || 1, 1), 1000);
+  const sort = req.query.sort === 'sim' ? 'sim' : 'date';
+
+  const qs = `?query=${encodeURIComponent(query)}&display=${display}&start=${start}&sort=${sort}`;
 
   /* 키를 어디서 발급받았느냐에 따라 부르는 곳과 헤더가 다르다.
        · 개발자센터(developers.naver.com) → openapi.naver.com + X-Naver-*
