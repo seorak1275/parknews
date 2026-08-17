@@ -509,7 +509,13 @@
     const narrow = window.innerWidth <= 860;
     const css = getComputedStyle(document.documentElement);
     const px = (v) => parseFloat(css.getPropertyValue(v)) || 0;
-    const topUI = px('--hot-h') + px('--topbar-h') + 14;   // 띠 + 상단바 + 위 여백
+
+    /* 핫이슈 띠는 뉴스를 받아온 뒤에 나타난다 — 지도를 맞추는 시점(부팅)에는
+       아직 없어서 여백을 좁게 잡고, 곧이어 띠가 뜨면서 상단바가 42px 내려와
+       최북단 설악산을 덮었다. 띠가 뜰 자리를 처음부터 비워 둔다. */
+    const hotNow = px('--hot-h');
+    const hotSlot = $('#hotbar') ? Math.max(hotNow, 42) : hotNow;
+    const topUI = hotSlot + px('--topbar-h') + 14;   // 띠 + 상단바 + 위 여백
     const ticker = $('#ticker') && !$('#ticker').hidden ? 64 : 0;
     return {
       top: Math.round(topUI + (narrow ? 20 : 34)),          // 상단바 아래로 확실히 내린다
@@ -965,6 +971,18 @@
          (뒤로가기가 '방금 닫은 공원'을 다시 여는 건 이상하다) */
       try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
     });
+
+    /* 핫이슈 띠가 뜨거나 닫히면 위쪽 여백이 42px 달라진다.
+       공원을 고르지 않은 첫 화면일 때만 조용히 다시 맞춘다. */
+    let hadHot = document.body.classList.contains('has-hotbar');
+    new MutationObserver(() => {
+      const now = document.body.classList.contains('has-hotbar');
+      if (now === hadHot) return;
+      hadHot = now;
+      if (!state.active && Explorer.scope === 'kr') {
+        fitTo(REGIONS_KR, { duration: 300, maxZoom: 8, pitch: 0 });
+      }
+    }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
 
     /* ---------- 뒤로가기 ----------
        공원 선택·창 열기가 방문 기록에 쌓이므로, 뒤로가기를 누르면
