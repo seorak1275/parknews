@@ -243,10 +243,16 @@ window.Ranking = (() => {
         <div class="rk-main">
           <a class="rk-title" href="${esc(r.link)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a>
           <p class="rk-meta">
-            <span class="rk-heat" title="이 사안을 보도한 언론사 수">${r.outletCount}개사</span>
+            <!-- 'N개사'를 누르면 아래에 언론사 전체 목록이 펼쳐진다 -->
+            <button type="button" class="rk-heat" data-outlets="${i}"
+              title="누르면 보도한 언론사를 모두 봅니다">${r.outletCount}개사</button>
             <span class="rk-press">${esc(r.press.slice(0, 4).join(' · '))}${r.press.length > 4 ? ` 외 ${r.press.length - 4}` : ''}</span>
             ${r.time ? `<span class="rk-time">${esc(r.time)}</span>` : ''}
           </p>
+          <div class="rk-outlets" id="rk-outlets-${i}" hidden>
+            <b>보도한 언론사 ${r.press.length}곳</b>
+            <ul>${r.press.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
+          </div>
           ${locHtml(r.park)}
           ${others.length ? `<details class="rk-more">
               <summary>관련 보도 ${others.length}건 더보기</summary>
@@ -255,7 +261,12 @@ window.Ranking = (() => {
                   ${esc(o.title)}<em>${esc(o.press)}</em></a></li>`).join('')}</ul>
             </details>` : ''}
         </div>
-        <div class="rk-bar" style="--w:${Math.min(100, Math.round(r.outletCount / max * 100))}%"><i></i></div>
+        <!-- 막대 옆에 점수를 숫자로 함께 적는다. 막대만 있으면 '얼마나 큰지'가 안 잡힌다.
+             점수 = 이 사안을 보도한 언론사 수 (1위를 100으로 환산한 값도 함께) -->
+        <div class="rk-bar" style="--w:${Math.min(100, Math.round(r.outletCount / max * 100))}%">
+          <i></i>
+          <b class="rk-score" title="보도 언론사 ${r.outletCount}곳 · 기사 ${r.reports}건 · 1위 대비 ${Math.round(r.outletCount / max * 100)}%">${r.outletCount}</b>
+        </div>
       </li>`;
   }
 
@@ -350,6 +361,14 @@ window.Ranking = (() => {
       if (location.hash === HASH) { if (!isOpen()) show(); }
       else if (isOpen()) hide();
     });
+    /* 'N개사' — 보도한 언론사 목록을 펼치고 접는다 */
+    $('#rk-body')?.addEventListener('click', (e) => {
+      const h = e.target.closest('.rk-heat');
+      if (!h) return;
+      const box = $(`#rk-outlets-${h.dataset.outlets}`);
+      if (box) { box.hidden = !box.hidden; h.classList.toggle('is-on', !box.hidden); }
+    });
+
     /* 위치 바로가기 — 순위 창을 닫고 그 공원으로 지도를 이동시킨다 */
     $('#rk-body')?.addEventListener('click', (e) => {
       const b = e.target.closest('.rk-loc');

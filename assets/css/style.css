@@ -1018,9 +1018,25 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 }
 .rk-more a:hover{color:var(--ink)}
 .rk-more em{font-style:normal;font-size:10px;color:var(--ink-4);flex:none}
-.rk-bar{height:5px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
-.rk-bar i{display:block;height:100%;width:var(--w);border-radius:3px;
+/* 막대 + 숫자 — 막대만 있으면 '얼마나 큰지'가 안 잡혀 점수를 함께 적는다 */
+.rk-bar{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.rk-bar i{display:block;height:5px;width:var(--w);min-width:3px;border-radius:3px;align-self:stretch;
   background:linear-gradient(90deg,rgba(251,191,36,.45),#fbbf24)}
+.rk-score{font-size:12px;font-weight:800;color:#fbbf24;font-variant-numeric:tabular-nums;line-height:1}
+
+/* 'N개사'를 누르면 펼쳐지는 언론사 목록 */
+.rk-heat{cursor:pointer}
+.rk-heat.is-on{background:rgba(251,191,36,.22);color:#fbbf24}
+.rk-outlets{
+  margin:6px 0 2px;padding:8px 10px;border-radius:var(--r-sm);
+  background:rgba(255,255,255,.04);border:1px solid var(--stroke);
+}
+.rk-outlets b{display:block;font-size:11px;color:var(--ink-3);margin-bottom:5px}
+.rk-outlets ul{display:flex;flex-wrap:wrap;gap:4px}
+.rk-outlets li{
+  padding:2px 7px;border-radius:999px;font-size:11px;color:var(--ink-2);
+  background:rgba(255,255,255,.06);border:1px solid var(--stroke);
+}
 
 .ex-row--org:hover{background:rgba(251,191,36,.10);border-color:rgba(251,191,36,.28)}
 
@@ -1084,8 +1100,8 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 }
 
 @media (max-width:860px){
-  .rk-row{grid-template-columns:28px 1fr;gap:9px}
-  .rk-bar{display:none}
+  .rk-row{grid-template-columns:28px 1fr 34px;gap:9px}
+  .rk-bar i{display:none}          /* 좁은 화면에서는 막대를 접고 숫자만 남긴다 */
   .rk-tabs{margin-left:0}
   .dg-bar__l{flex-wrap:wrap;gap:6px}
   .rk-tabs--period{width:100%;justify-content:space-between}
