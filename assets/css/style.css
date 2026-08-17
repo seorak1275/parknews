@@ -172,14 +172,10 @@ code{
   gap:16px;padding:0 18px;border-radius:var(--r-lg);
 }
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
+/* 국립공원공단 CI 심볼 — 예전에는 CSS로 그린 사각형이었다 */
 .brand__mark{
-  width:32px;height:32px;border-radius:10px;flex:none;
-  background:conic-gradient(from 200deg,var(--kr),var(--global),var(--org),var(--kr));
-  box-shadow:0 0 22px rgba(34,211,238,.4);
-  position:relative;
-}
-.brand__mark::after{
-  content:'';position:absolute;inset:6px;border-radius:5px;background:var(--bg-2);
+  width:34px;height:34px;flex:none;
+  background:url('../img/knps-mark.png') center/contain no-repeat;
 }
 .brand h1{font-size:15px;font-weight:800;letter-spacing:.2em}
 .brand p{font-size:11px;color:var(--ink-3);letter-spacing:.01em;white-space:nowrap}
