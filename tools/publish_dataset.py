@@ -49,6 +49,12 @@ def main():
     for f in os.listdir(DST):
         os.remove(os.path.join(DST, f))
 
+    # 압축 형식 고르기
+    #   .gz 는 윈도우가 기본으로 못 연다 — 엑셀은 더더욱.
+    #   작은 파일은 그냥 CSV 로 두어 눌러서 바로 엑셀로 열리게 하고,
+    #   큰 파일만 ZIP 으로 싼다 (윈도우 탐색기가 기본 지원, 데이터뱅크도 ZIP 허용).
+    PLAIN_LIMIT = 2 * 1024 * 1024        # 2MB 이하는 압축하지 않는다
+
     items = []
     for f in sorted(os.listdir(SRC)):
         p = os.path.join(SRC, f)
@@ -56,13 +62,21 @@ def main():
             continue
         if f.endswith(".csv"):
             raw = open(p, "rb").read()
-            out = f + ".gz"
-            with open(os.path.join(DST, out), "wb") as w:
-                w.write(gzip.compress(raw, 9))
             rows = raw.count(b"\n") - 1
-            items.append({"file": out, "name": f, "desc": label(f),
-                          "rows": rows, "size": os.path.getsize(os.path.join(DST, out)),
-                          "rawSize": len(raw), "gz": True})
+            if len(raw) <= PLAIN_LIMIT:
+                shutil.copy2(p, os.path.join(DST, f))
+                items.append({"file": f, "name": f, "desc": label(f), "rows": rows,
+                              "size": len(raw), "rawSize": len(raw),
+                              "gz": True, "packed": False})
+            else:
+                out = f[:-4] + ".zip"
+                import zipfile
+                with zipfile.ZipFile(os.path.join(DST, out), "w",
+                                     zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+                    z.writestr(f, raw)
+                items.append({"file": out, "name": f, "desc": label(f), "rows": rows,
+                              "size": os.path.getsize(os.path.join(DST, out)),
+                              "rawSize": len(raw), "gz": True, "packed": True})
         elif f.endswith(".md"):
             shutil.copy2(p, os.path.join(DST, f))
             items.append({"file": f, "name": f, "desc": "설명 문서",
@@ -70,8 +84,8 @@ def main():
                           "rawSize": os.path.getsize(p), "gz": False})
 
     idx = {"generatedAt": time.strftime("%Y-%m-%dT%H:%M:%S+09:00"),
-           "note": "gz 파일은 압축본입니다. 데이터뱅크는 GZ 첨부를 허용하므로 "
-                   "받은 그대로 올려도 되고, 압축을 풀어 CSV 로 올려도 됩니다.",
+           "note": "CSV 는 눌러서 바로 엑셀로 열립니다. 큰 파일만 ZIP 으로 묶여 있으니 "
+                   "압축을 풀고 쓰십시오. 데이터뱅크는 CSV·ZIP 을 모두 허용합니다.",
            "items": items}
     io.open(os.path.join(DST, "index.json"), "w", encoding="utf-8").write(
         json.dumps(idx, ensure_ascii=False, indent=1))

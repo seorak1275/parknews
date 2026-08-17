@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-17T11:56:34+09:00",
- "note": "gz 파일은 압축본입니다. 데이터뱅크는 GZ 첨부를 허용하므로 받은 그대로 올려도 되고, 압축을 풀어 CSV 로 올려도 됩니다.",
+ "generatedAt": "2026-08-17T12:00:51+09:00",
+ "note": "CSV 는 눌러서 바로 엑셀로 열립니다. 큰 파일만 ZIP 으로 묶여 있으니 압축을 풀고 쓰십시오. 데이터뱅크는 CSV·ZIP 을 모두 허용합니다.",
  "items": [
   {
    "file": "검색관심도_설명.md",
@@ -12,67 +12,74 @@
    "gz": false
   },
   {
-   "file": "국립공원_검색관심도_요약_20260817.csv.gz",
+   "file": "국립공원_검색관심도_요약_20260817.csv",
    "name": "국립공원_검색관심도_요약_20260817.csv",
    "desc": "공원별 평균·최고 검색 관심도",
    "rows": 24,
-   "size": 552,
+   "size": 1040,
    "rawSize": 1040,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_검색관심도_월별_2016-2026_20260817.csv.gz",
+   "file": "국립공원_검색관심도_월별_2016-2026_20260817.csv",
    "name": "국립공원_검색관심도_월별_2016-2026_20260817.csv",
    "desc": "공원 24곳의 월별 검색 관심도 (2016~)",
    "rows": 3061,
-   "size": 19751,
+   "size": 91361,
    "rawSize": 91361,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_공원별섹터요약_20260817.csv.gz",
+   "file": "국립공원_공원별섹터요약_20260817.csv",
    "name": "국립공원_공원별섹터요약_20260817.csv",
    "desc": "공원 × 섹터 교차표",
    "rows": 25,
-   "size": 684,
+   "size": 1221,
    "rawSize": 1221,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_뉴스기사_원장_20260817.csv.gz",
+   "file": "국립공원_뉴스기사_원장_20260817.csv",
    "name": "국립공원_뉴스기사_원장_20260817.csv",
    "desc": "구글 뉴스 수집분 (네이버 아카이브와 별개)",
    "rows": 4919,
-   "size": 882720,
+   "size": 1934625,
    "rawSize": 1934625,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_뉴스아카이브_네이버_20260817.csv.gz",
+   "file": "국립공원_뉴스아카이브_네이버_20260817.zip",
    "name": "국립공원_뉴스아카이브_네이버_20260817.csv",
    "desc": "국립공원 뉴스 기사 (공원·섹터·세부분류 포함)",
    "rows": 57873,
-   "size": 7464126,
+   "size": 7464314,
    "rawSize": 30693798,
-   "gz": true
+   "gz": true,
+   "packed": true
   },
   {
-   "file": "국립공원_세부분류_연도별_20260817.csv.gz",
+   "file": "국립공원_세부분류_연도별_20260817.csv",
    "name": "국립공원_세부분류_연도별_20260817.csv",
    "desc": "세부분류 43종 × 연도 교차표",
    "rows": 43,
-   "size": 1512,
+   "size": 3043,
    "rawSize": 3043,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_연도별섹터_20260817.csv.gz",
+   "file": "국립공원_연도별섹터_20260817.csv",
    "name": "국립공원_연도별섹터_20260817.csv",
    "desc": "연도 × 섹터 5종 교차표",
    "rows": 37,
-   "size": 568,
+   "size": 1101,
    "rawSize": 1101,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
    "file": "국립공원_월간해설.md",
@@ -84,58 +91,64 @@
    "gz": false
   },
   {
-   "file": "국립공원_이슈집계_20260817.csv.gz",
+   "file": "국립공원_이슈집계_20260817.csv",
    "name": "국립공원_이슈집계_20260817.csv",
    "desc": "같은 사안끼리 묶은 이슈별 보도량",
    "rows": 1980,
-   "size": 383621,
+   "size": 759373,
    "rawSize": 759373,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_피벗_공원×구조유형.csv.gz",
+   "file": "국립공원_피벗_공원×구조유형.csv",
    "name": "국립공원_피벗_공원×구조유형.csv",
    "desc": "",
    "rows": 24,
-   "size": 605,
+   "size": 1028,
    "rawSize": 1028,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_피벗_공원×섹터.csv.gz",
+   "file": "국립공원_피벗_공원×섹터.csv",
    "name": "국립공원_피벗_공원×섹터.csv",
    "desc": "",
    "rows": 24,
-   "size": 638,
+   "size": 1287,
    "rawSize": 1287,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_피벗_공원×월_검색관심도.csv.gz",
+   "file": "국립공원_피벗_공원×월_검색관심도.csv",
    "name": "국립공원_피벗_공원×월_검색관심도.csv",
    "desc": "",
    "rows": 24,
-   "size": 1685,
+   "size": 4454,
    "rawSize": 4454,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_피벗_공원×월_보도건수.csv.gz",
+   "file": "국립공원_피벗_공원×월_보도건수.csv",
    "name": "국립공원_피벗_공원×월_보도건수.csv",
    "desc": "",
    "rows": 24,
-   "size": 1226,
+   "size": 2786,
    "rawSize": 2786,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
-   "file": "국립공원_피벗_섹터×월.csv.gz",
+   "file": "국립공원_피벗_섹터×월.csv",
    "name": "국립공원_피벗_섹터×월.csv",
    "desc": "",
    "rows": 6,
-   "size": 601,
+   "size": 1188,
    "rawSize": 1188,
-   "gz": true
+   "gz": true,
+   "packed": false
   },
   {
    "file": "데이터_명세서.md",
