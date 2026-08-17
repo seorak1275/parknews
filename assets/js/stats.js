@@ -109,11 +109,12 @@ window.Stats = (() => {
       for (const p of d.parks) {
         countries[p.countryKo] = (countries[p.countryKo] || 0) + 1;
       }
+      /* 나라별 개수는 '수록량'이지 '실제 국립공원 수'가 아니라서 순위로 보여주지
+         않는다. 국가 수만 남긴다. (2026-08-17) */
       return {
         total: d.total,
         hierarchy: d.hierarchy,
         countryCount: Object.keys(countries).length,
-        topCountries: Object.entries(countries).sort((a, b) => b[1] - a[1]).slice(0, 10),
       };
     } catch {
       return null;
@@ -201,22 +202,17 @@ window.Stats = (() => {
         ${g.hierarchy.map((c) => bar(c.name, c.count, g.hierarchy[0].count, '곳', 'global')).join('')}
       </section>
 
-      <section class="st-sec">
-        <h3 class="st-h">국가 상위 10</h3>
-        <ol class="st-rank">
-          ${g.topCountries.map(([n, c], i) =>
-            `<li><b>${i + 1}</b><span>${esc(n)}</span><em>${nf(c)}곳</em></li>`).join('')}
-        </ol>
         <p class="st-note">
-          OSM 태깅 편차로 나라별 밀도가 고르지 않습니다 —
-          캐나다는 주립공원 527곳을 걷어낸 뒤에도 실제(48곳)보다 많습니다.
-          WDPA 정본으로 교체하면 해소됩니다.
+          나라별 수록 개수는 <b>순위로 보지 마십시오.</b> 각국이 실제로 지정한
+          국립공원 수가 아니라 위키데이터에 등재된 양이며, 나라마다 편집 활동에
+          차이가 있습니다. 국립공원의 법적 정의도 나라마다 달라
+          (호주는 주정부 지정분이 900곳을 넘습니다) 단순 비교가 성립하지 않습니다.
         </p>
       </section>` : ''}
 
       <p class="st-src">
         출처 · 국내 경계·면적: 기후에너지환경부(구 환경부) 「전국국립공원 경계」(EPSG:5179 → WGS84 변환) ·
-        해외: OpenStreetMap(ODbL) + Natural Earth · 면적은 구면 근사값으로 공식 고시면적과 차이가 있을 수 있습니다.
+        해외: Wikidata(CC0) · 면적은 구면 근사값으로 공식 고시면적과 차이가 있을 수 있습니다.
       </p>`;
   }
 

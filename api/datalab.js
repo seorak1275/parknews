@@ -21,19 +21,48 @@ export default async function handler(req, res) {
     return res.status(501).json({ error: 'NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 미설정' });
   }
 
+  /* ----------------------------------------------------------
+     두 가지 쓰임을 함께 받는다.
+
+     (1) 사이드바 차트 — 지금까지 쓰던 방식
+         ?keyword=지리산 국립공원&days=14
+
+     (2) 대량 조회 — 데이터셋 만들기·화제성 집계용
+         ?keywords=지리산,설악산,북한산&start=2016-01-01&end=2026-08-16&unit=month
+
+     데이터랩은 한 번에 키워드 그룹 5개까지, 2016-01-01 이후를 준다.
+     기간을 길게 잡고 unit=month 로 받으면 10년치가 한 번에 나온다.
+     값은 요청 안에서 가장 큰 값을 100으로 둔 상대지수라, 같은 요청에
+     담긴 키워드끼리만 비교할 수 있다.
+  ---------------------------------------------------------- */
+  const MIN_DATE = '2016-01-01';                 // 데이터랩 제공 시작일
+  const clampDate = (s, fallback) =>
+    (/^\d{4}-\d{2}-\d{2}$/.test(s || '') ? (s < MIN_DATE ? MIN_DATE : s) : fallback);
+
+  const list = String(req.query.keywords || '').split(',')
+    .map((s) => s.trim().slice(0, 40)).filter(Boolean).slice(0, 5);
   const keyword = String(req.query.keyword || '').slice(0, 40);
-  const days = Math.min(Math.max(parseInt(req.query.days, 10) || 14, 7), 90);
-  if (!keyword) return res.status(400).json({ error: 'keyword 파라미터가 필요합니다' });
+  if (!list.length && !keyword) {
+    return res.status(400).json({ error: 'keyword 또는 keywords 파라미터가 필요합니다' });
+  }
 
   // 데이터랩은 당일 데이터를 제공하지 않으므로 어제까지로 요청
-  const end = new Date(Date.now() - 86400000);
-  const start = new Date(end.getTime() - (days - 1) * 86400000);
+  const yesterday = ymd(new Date(Date.now() - 86400000));
+  const days = Math.min(Math.max(parseInt(req.query.days, 10) || 14, 7), 90);
+
+  const endDate = clampDate(req.query.end, yesterday);
+  const startDate = clampDate(
+    req.query.start,
+    ymd(new Date(Date.parse(`${endDate}T00:00:00Z`) - (days - 1) * 86400000)),
+  );
+  const unit = ['date', 'week', 'month'].includes(req.query.unit) ? req.query.unit : 'date';
 
   const body = {
-    startDate: ymd(start),
-    endDate: ymd(end),
-    timeUnit: 'date',
-    keywordGroups: [{ groupName: keyword, keywords: [keyword] }],
+    startDate,
+    endDate,
+    timeUnit: unit,
+    keywordGroups: (list.length ? list : [keyword])
+      .map((k) => ({ groupName: k, keywords: [k] })),
   };
 
   /* 발급처에 따라 주소·헤더가 다르다 (naver-news.js 와 같은 사정) */
