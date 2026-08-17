@@ -189,10 +189,62 @@
     return !FOREIGN.some((w) => text.includes(w));
   }
 
+  /* ==========================================================
+   *  쌓아둔 자료 먼저 보여주기
+   *
+   *  최신 기사를 받아오는 데 몇 초가 걸린다. 그동안 빈 뼈대만 있으면
+   *  자료가 없는 것처럼 보인다. 이미 만들어 둔 검색 색인(연도별 파일)에서
+   *  올해치를 먼저 그려 두고, 최신이 도착하면 합쳐서 다시 그린다.
+   * ======================================================== */
+  const IDX = { date: 0, park: 1, sector: 2, title: 6, press: 7, url: 8 };
+  let archiveCache = null;
+
+  async function archiveRows() {
+    if (archiveCache) return archiveCache;
+    const y = new Date().getFullYear();
+    try {
+      const r = await fetch(`data/search/${y}.json`);
+      if (!r.ok) throw new Error(String(r.status));
+      archiveCache = (await r.json()).map((x) => ({
+        title: x[IDX.title], link: x[IDX.url], press: x[IDX.press],
+        date: `${y}-${x[IDX.date]}`, summary: '',
+        park: x[IDX.park], sector: x[IDX.sector],
+      }));
+    } catch {
+      archiveCache = [];                 // 색인이 없으면 그냥 건너뛴다
+    }
+    return archiveCache;
+  }
+
+  /** 색인 자료를 지금 조건(공원)에 맞춰 골라 분야별로 담는다 */
+  function bucketsFrom(rows, park) {
+    const b = Object.fromEntries(SECTORS.map((s) => [s.key, []]));
+    const byName = Object.fromEntries(SECTORS.map((s) => [s.name, s.key]));
+    for (const n of rows) {
+      if (park && n.park !== park.name) continue;
+      const k = byName[n.sector];
+      if (k) b[k].push(n);
+    }
+    for (const s of SECTORS) {
+      b[s.key].sort((a, c) => (Date.parse(c.date) || 0) - (Date.parse(a.date) || 0));
+    }
+    return b;
+  }
+
   /* ---------- 수집 ---------- */
   async function load() {
     renderSkeleton();
     renderPicker();
+
+    /* 1단계 — 쌓아둔 자료로 화면을 먼저 채운다 */
+    const park0 = PARKS.find((p) => p.id === current);
+    const arch = await archiveRows();
+    if (arch.length) {
+      const b = bucketsFrom(arch, park0);
+      if (Object.values(b).some((x) => x.length)) {
+        renderTiles(b); renderCols(b);
+      }
+    }
 
     const park = PARKS.find((p) => p.id === current);
     const queries = park
@@ -220,7 +272,18 @@
       if (sector) buckets[sector].push(n);
     }
 
+    /* 2단계 — 쌓아둔 자료를 뒤에 합친다.
+       최신 기사가 위로 오되, 아래로는 그동안의 기사가 이어져
+       화면이 늘 채워져 보인다. 같은 기사는 제목으로 걸러 낸다. */
+    const archB = bucketsFrom(arch, park);
     for (const s of SECTORS) {
+      const titles = new Set(buckets[s.key].map((n) => n.title.replace(/\s+/g, '').slice(0, 30)));
+      for (const n of archB[s.key]) {
+        const k = n.title.replace(/\s+/g, '').slice(0, 30);
+        if (titles.has(k)) continue;
+        titles.add(k);
+        buckets[s.key].push(n);
+      }
       buckets[s.key].sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0));
     }
 
