@@ -209,11 +209,20 @@ def main():
         if key in seen:
             continue
         seen.add(key)
-        park = next((n for n, _ in PARKS if n in text), "")
+        # 공원 판정 — 제목에 있으면 그 기사의 주제일 가능성이 높고,
+        # 요약에만 있으면 다른 사건을 설명하며 예로 든 것일 수 있다.
+        # (예: '충북 봄철 산악사고' 기사가 본문에서 주왕산 사고를 언급)
+        # 근거를 남겨 통계를 낼 때 걸러 쓸 수 있게 한다.
+        park = next((n for n, _ in PARKS if n in title), "")
+        basis = "제목" if park else ""
+        if not park:
+            park = next((n for n, _ in PARKS if n in desc), "")
+            basis = "요약" if park else ""
         press = re.sub(r"^https?://(www\.)?", "", link).split("/")[0]
         sec = sector_of(text)
         rows.append({
             "공원": park or "(전체·공통)",
+            "공원판정": basis,
             "소재지": next((loc for n, loc in PARKS if n == park), ""),
             "섹터": sec,
             "세부분류": subsector_of(sec, text),
@@ -235,7 +244,7 @@ def main():
     name = f"국립공원_뉴스아카이브_네이버_{today}.csv"
     p = os.path.join(OUT, name)
     with io.open(p, "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["공원", "소재지", "섹터", "세부분류", "보도일",
+        w = csv.DictWriter(f, fieldnames=["공원", "공원판정", "소재지", "섹터", "세부분류", "보도일",
                                           "제목", "요약", "매체도메인", "링크", "수집질의"])
         w.writeheader(); w.writerows(rows)
     print(f"  ✓ {name}  {len(rows):,}행  {os.path.getsize(p)/1024/1024:.1f}MB")

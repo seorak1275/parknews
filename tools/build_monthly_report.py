@@ -90,13 +90,21 @@ def main():
     pivot("국립공원_피벗_섹터×월.csv", "섹터", SECTOR_ORDER, cnt_ms)
 
     # ── 월 × 공원 (보도 건수) ──
+    # 공원별 통계는 '제목에 공원명이 있는 기사'만 센다.
+    # 요약에만 나오는 건 다른 사건을 설명하며 예로 든 경우가 많아
+    # (예: '충북 봄철 산악사고' 기사가 본문에서 주왕산 사고를 언급)
+    # 그대로 세면 특정 공원이 부풀려진다.
+    strict = [r for r in news if r.get("공원판정") == "제목"] or \
+             [r for r in news if r["공원"] != "(전체·공통)"]
+    print(f"  공원별 통계 대상: {len(strict):,}건 (제목 근거)")
+
     ti = {(r["공원"], r["연월"]): float(r["검색관심도_환산"]) for r in trend} if trend else {}
     cnt_mp = Counter()
-    for r in news:
+    for r in strict:
         m = (r.get("보도일") or "")[:7]
         if len(m) == 7:
             cnt_mp[(r["공원"], m)] += 1
-    parks = [p for p, _ in Counter(r["공원"] for r in news).most_common()]
+    parks = [p for p, _ in Counter(r["공원"] for r in strict).most_common()]
     pivot("국립공원_피벗_공원×월_보도건수.csv", "공원", parks, cnt_mp)
 
     # ── 월 × 공원 (검색 관심도) ──
@@ -118,7 +126,7 @@ def main():
         write("국립공원_피벗_공원×월_검색관심도.csv", ["공원"] + RECENT + ["평균", "최고"], rows)
 
     # ── 공원 × 섹터 ──
-    cnt_ps = Counter((r["공원"], r["섹터"]) for r in news)
+    cnt_ps = Counter((r["공원"], r["섹터"]) for r in strict)
     rows = []
     for p in parks:
         rec = {"공원": p}
@@ -132,9 +140,9 @@ def main():
 
     # ── 공원 × 구조출동 세부유형 ── (구조대 업무용)
     subs = [s for s, _ in Counter(
-        r["세부분류"] for r in news if r["섹터"] == "구조출동" and r.get("세부분류")).most_common()]
+        r["세부분류"] for r in strict if r["섹터"] == "구조출동" and r.get("세부분류")).most_common()]
     cnt_pr = Counter((r["공원"], r["세부분류"])
-                     for r in news if r["섹터"] == "구조출동" and r.get("세부분류"))
+                     for r in strict if r["섹터"] == "구조출동" and r.get("세부분류"))
     rows = []
     for p in parks:
         rec = {"공원": p}
