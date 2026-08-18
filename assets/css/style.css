@@ -384,6 +384,14 @@ code{
   70%{transform:scale(2.6);opacity:0}
   100%{opacity:0}
 }
+/* 선택된 공원 — 퍼지는 물결은 멈추고 차분한 고정 링으로 (덜 반짝이게, 깔끔하게) */
+.mk.is-active .mk__pulse{
+  animation:none;
+  transform:scale(1.9);
+  opacity:.5;
+  box-shadow:0 0 12px 1px color-mix(in srgb,var(--c) 45%,transparent),
+             inset 0 0 6px color-mix(in srgb,var(--c) 30%,transparent);
+}
 .mk__label{
   position:absolute;left:50%;top:19px;transform:translateX(-50%);
   font-size:11px;font-weight:600;white-space:nowrap;letter-spacing:.01em;

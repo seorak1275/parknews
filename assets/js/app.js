@@ -658,6 +658,20 @@
   const openSidebar = () => { $('#sidebar').classList.add('is-open'); $('#sb-toggle').classList.add('is-open'); };
   const closeSidebar = () => { $('#sidebar').classList.remove('is-open'); $('#sb-toggle').classList.remove('is-open'); TrendChart.destroy(); };
 
+  /* X·ESC 로 닫는 것은 '이 공원 그만 보기' — 선택 표시와 주소(#p=…)도 함께 지운다.
+     주소를 남겨두면 새로고침하거나 링크를 복사할 때 닫았던 공원이 되살아난다. */
+  function deselect() {
+    closeSidebar();
+    state.active = null;
+    $$('.mk').forEach((e) => e.classList.remove('is-active'));
+    if (state.map?.getLayer('gp-active')) {
+      state.map.setFilter('gp-active', ['==', ['get', 'id'], '__none__']);
+    }
+    state.map?.getSource('global-bound')?.setData(EMPTY_FC);
+    /* 기록은 쌓지 않고 주소만 지운다 — 뒤로가기가 방금 닫은 공원을 다시 열면 이상하다 */
+    try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
+  }
+
   function select(regionLike, push = true) {
     const region = asRegion(regionLike);
     const hadActive = Boolean(state.active);   // 이미 다른 공원이 열려 있었나
@@ -894,12 +908,16 @@
     $('#toggle-light').addEventListener('change', (e) => setMapLight(e.target.checked));
     $('#btn-light').addEventListener('click', () => setMapLight(!state.light));
 
-    $('#sb-close').addEventListener('click', closeSidebar);
+    $('#sb-close').addEventListener('click', deselect);
+    /* 접기 토글은 잠깐 접었다 펴는 용도 — 선택은 유지한다 */
     $('#sb-toggle').addEventListener('click', () => {
       $('#sidebar').classList.contains('is-open') ? closeSidebar()
         : (state.active ? select(state.active) : openSidebar());
     });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSidebar(); });
+    document.addEventListener('keydown', (e) => {
+      /* 인기뉴스·통계 창이 열려 있으면 ESC 는 그 창을 닫는 키다 — 선택은 건드리지 않는다 */
+      if (e.key === 'Escape' && !document.querySelector('.dg-overlay.is-open')) deselect();
+    });
 
     /* ---------- 패널 열고 닫기 (데스크톱: 접기 / 모바일: 서랍) ---------- */
     const isMobile = () => window.matchMedia('(max-width: 860px)').matches;
@@ -954,22 +972,15 @@
       sheet.addEventListener('touchend', end);
       sheet.addEventListener('touchcancel', end);
     };
+    /* 모바일에서 시트를 아래로 끌어 닫는 것도 X 와 같은 '그만 보기' 다 */
     enableSheetDrag($('#panel'), () => setPanel(false));
-    enableSheetDrag($('#sidebar'), closeSidebar);
+    enableSheetDrag($('#sidebar'), deselect);
 
     /* 현재 탭의 기본 화면으로 되돌린다 (국내면 대한민국, 해외면 전 세계) */
     $('#btn-home').addEventListener('click', () => {
       if (!state.map) return;
       frameScope(Explorer.scope, 1000);
-      $$('.mk').forEach((e) => e.classList.remove('is-active'));
-      if (state.map.getLayer('gp-active')) {
-        state.map.setFilter('gp-active', ['==', ['get', 'id'], '__none__']);
-      }
-      state.map.getSource('global-bound')?.setData(EMPTY_FC);
-      closeSidebar();
-      /* 빈 지도를 눌러 닫은 경우 — 기록을 쌓지 않고 주소만 되돌린다.
-         (뒤로가기가 '방금 닫은 공원'을 다시 여는 건 이상하다) */
-      try { history.replaceState(null, '', location.pathname + location.search); } catch { /* 무시 */ }
+      deselect();
     });
 
     /* 핫이슈 띠가 뜨거나 닫히면 위쪽 여백이 42px 달라진다.
