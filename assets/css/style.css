@@ -936,6 +936,11 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
   display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap}
 /* 아직 자료가 안 쌓였을 때의 안내문 — 한 줄 아래로 내린다 */
 .rk-state small{flex-basis:100%;margin-top:7px;font-size:11.5px;line-height:1.65;color:var(--ink-4)}
+/* 불러오기 실패·빈 결과에서 다시 시도 */
+.rk-retry{padding:6px 14px;border-radius:7px;font-size:12px;font-weight:700;cursor:pointer;
+  color:var(--ink-2);background:rgba(255,255,255,.08);border:1px solid var(--stroke);
+  transition:background .2s,color .2s}
+.rk-retry:hover{background:rgba(255,255,255,.14);color:#fff}
 .rk-note{
   font-size:11.5px;color:var(--ink-4);line-height:1.6;
   padding:9px 12px;margin-bottom:12px;border-radius:var(--r-sm);

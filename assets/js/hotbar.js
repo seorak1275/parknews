@@ -30,7 +30,8 @@ window.HotBar = (() => {
     const rail = $('#hot-rail');
     if (!bar || !rail) return;
 
-    if (!groups.length) { bar.hidden = true; return; }
+    // 일시적 수집 실패로 비어 있어도 이미 띠가 돌고 있으면 그대로 둔다
+    if (!groups.length) { if (!rail.children.length) bar.hidden = true; return; }
 
     const item = (g, i) => {
       const a = g.lead;

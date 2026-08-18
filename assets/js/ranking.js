@@ -74,14 +74,15 @@ window.Ranking = (() => {
       ? [park.q, `${park.name} 탐방`, `${park.name} 사고`, `${park.name} 생태`]
       : cfg.queries;
     const batches = await Promise.all(
-      queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => []))
+      queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => null))
     );
+    let ok = batches.filter(Boolean);
+    /* 전부 실패 = 수집 장애 — "기사 없음"과 구분해야 빈 화면으로 굳지 않는다 */
+    if (!ok.length) throw new Error('뉴스 검색이 모두 실패했습니다');
     if (park) {
-      for (let i = 0; i < batches.length; i++) {
-        batches[i] = batches[i].filter((n) => `${n.title} ${n.summary || ''}`.includes(park.name));
-      }
+      ok = ok.map((b) => b.filter((n) => `${n.title} ${n.summary || ''}`.includes(park.name)));
     }
-    const groups = NewsService.groupIssues(batches.flat()).slice(0, 25);
+    const groups = NewsService.groupIssues(ok.flat()).slice(0, 25);
     return {
       rows: groups.map((g) => ({
         title: g.lead.title,
@@ -214,7 +215,8 @@ window.Ranking = (() => {
 
     const withParks = await attachParks(rows);
     const res = { ...raw, rows: withParks.map((r) => ({ ...r, sector: sectorOf(r) })) };
-    state.cache[ck] = { at: Date.now(), res };
+    /* 빈 결과는 캐시하지 않는다 — 일시 장애로 비었을 때 10분간 "없음"으로 굳는다 */
+    if (res.rows.length) state.cache[ck] = { at: Date.now(), res };
     return res;
   }
 
@@ -371,7 +373,7 @@ window.Ranking = (() => {
         </button>`).join('')}`;
   }
 
-  async function render() {
+  async function render(retried = false) {
     const body = $('#rk-body');
     if (!body) return;
     syncTabs();
@@ -394,7 +396,8 @@ window.Ranking = (() => {
         const sn = SECTORS.find((s) => s.key === state.sector)?.name;
         body.innerHTML = `<div class="rk-state">${
           state.sector ? `이 기간에 <b>${esc(sn)}</b> 분야로 분류된 사안이 없습니다.` : '집계할 기사를 찾지 못했습니다.'
-        }</div>`;
+        }${state.sector ? '' : ' <button class="rk-retry" type="button">다시 시도</button>'}</div>`;
+        body.querySelector('.rk-retry')?.addEventListener('click', () => render());
         return;
       }
       const max = Math.max(...rows.map((r) => r.outletCount)) || 1;
@@ -410,12 +413,19 @@ window.Ranking = (() => {
     } catch (e) {
       if (state.loading !== token) return;
       console.warn(e);
+      /* soft = 보관본이 아직 안 쌓인 것 — 재시도해도 소용없으니 안내만 한다.
+         그 외는 일시 장애 — 재시도 버튼과 함께 한 번은 자동으로 다시 시도한다. */
       body.innerHTML = e.soft
         ? `<div class="rk-state">
              ${esc(e.message)}
              ${e.hint ? `<small>${esc(e.hint)}</small>` : ''}
            </div>`
-        : `<div class="rk-state">순위를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</div>`;
+        : `<div class="rk-state">순위를 불러오지 못했습니다. 잠시 후 자동으로 다시 시도합니다.
+             <button class="rk-retry" type="button">지금 다시 시도</button></div>`;
+      body.querySelector('.rk-retry')?.addEventListener('click', () => render());
+      if (!e.soft && !retried) setTimeout(() => {
+        if (isOpen() && state.loading === token && body.querySelector('.rk-retry')) render(true);
+      }, 7000);
     }
   }
 

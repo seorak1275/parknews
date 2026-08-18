@@ -349,7 +349,6 @@ const monthPath = (ym) => `data/ranking/month-${ym}.json`;
 const INDEX_PATH = 'data/ranking/index.json';
 
 const loadDay = (date) => ghRead(dayPath(date)).then((h) => h?.data || null).catch(() => null);
-const loadMonth = (ym) => ghRead(monthPath(ym)).then((h) => h?.data || null).catch(() => null);
 
 /* ==========================================================
  *  4. 기간 집계
@@ -549,19 +548,34 @@ export default async function handler(req, res) {
     let from = '';
     const to = addDays(today, -1);
 
+    /* 읽기 실패(레이트리밋·네트워크)와 '파일 없음(404)'을 구분해 센다.
+       실패를 없음으로 치면 자료가 멀쩡히 있어도 "아직 없습니다"로 보인다. */
+    let readFails = 0;
+    const readOr = (p) => p.then((h) => h?.data || null)
+      .catch(() => { readFails++; return null; });
+
     if (periodKey === 'year') {
       /* 최근 12개월 집계본 — 일간 365개를 읽지 않는다 */
       const thisMonth = to.slice(0, 7);
       const months = Array.from({ length: 12 }, (_, i) => addMonths(thisMonth, -i));
-      snapshots = (await Promise.all(months.map(loadMonth))).filter(Boolean);
+      snapshots = (await Promise.all(months.map((m) => readOr(ghRead(monthPath(m)))))).filter(Boolean);
       from = snapshots.length ? snapshots[snapshots.length - 1].from : '';
     } else {
       const dates = Array.from({ length: period.days }, (_, i) => addDays(to, -i));
-      snapshots = (await Promise.all(dates.map(loadDay))).filter(Boolean);
+      snapshots = (await Promise.all(dates.map((d) => readOr(ghRead(dayPath(d)))))).filter(Boolean);
       from = snapshots.length ? snapshots[snapshots.length - 1].date : '';
     }
 
     if (!snapshots.length) {
+      /* 전부 읽기 실패면 "자료 없음"이 아니라 일시 장애다 — 404로 답하면
+         화면이 '아직 쌓이지 않았다'고 안내해 버린다. */
+      if (readFails) {
+        return res.status(503).json({
+          error: '보관본을 일시적으로 읽지 못했습니다. 잠시 후 다시 시도해 주세요.',
+          period: periodKey,
+          readFails,
+        });
+      }
       return res.status(404).json({
         error: `${period.label} 순위를 만들 자료가 아직 없습니다.`,
         hint: '매일 07:00(KST)에 하루치씩 쌓입니다. 주간은 7일, 월간은 30일, 연간은 12개월이 지나야 온전해집니다.',
