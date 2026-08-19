@@ -302,10 +302,18 @@ window.Ranking = (() => {
     return ws.sort((a, b) => b.length - a.length)[0] || '';
   }
 
+  /** 문자 막대(▁▂▃)는 글꼴에 따라 들쭉날쭉해 지저분하다 — 매끈한 SVG 선으로 그린다 */
   const spark = (vals) => {
-    const bars = '▁▂▃▄▅▆▇█';
-    const mx = Math.max(...vals) || 1;
-    return vals.map((v) => bars[Math.min(7, Math.round(v / mx * 7))]).join('');
+    const W = 56, H = 14, P = 1.5;
+    const mx = Math.max(...vals), mn = Math.min(...vals);
+    const span = mx - mn || 1;
+    const pts = vals.map((v, i) =>
+      `${(P + i * (W - 2 * P) / (vals.length - 1)).toFixed(1)},${(H - P - (v - mn) / span * (H - 2 * P)).toFixed(1)}`);
+    const [lx, ly] = pts[pts.length - 1].split(',');
+    return `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" aria-hidden="true">
+      <polyline points="${pts.join(' ')}" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+      <circle cx="${lx}" cy="${ly}" r="1.8" fill="currentColor"/></svg>`;
   };
 
   /** 상위 몇 건만 — 데이터랩은 한 번에 키워드 5개까지 받는다 */
@@ -332,6 +340,7 @@ window.Ranking = (() => {
           const el = hit && $(`#rk-trend-${hit.i}`);
           const pts = (g.data || []).map((d) => d.ratio);
           if (!el || pts.length < 3) continue;
+          if (Math.max(...pts) === Math.min(...pts)) continue;   // 변동 없음 — 그릴 정보가 없다
           const last = pts[pts.length - 1];
           const prev = pts.length >= 2 ? pts[pts.length - 2] : last;
           const dir = last > prev * 1.15 ? '▲' : last < prev * 0.85 ? '▼' : '·';

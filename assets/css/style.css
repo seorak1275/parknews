@@ -985,7 +985,8 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 
 /* 화제성 — 검색량 추이 스파크라인 */
 .rk-trend{display:inline-flex;align-items:center;gap:3px}
-.rk-spark{font-size:11px;letter-spacing:-.5px;color:#67e8f9;opacity:.85}
+.rk-spark{display:inline-flex;align-items:center;color:#67e8f9;opacity:.9}
+.rk-spark svg{display:block}
 .rk-dir{font-style:normal;font-size:10px;font-weight:800}
 .rk-dir--up{color:#fb7185}
 .rk-dir--down{color:#38bdf8}
