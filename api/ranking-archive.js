@@ -123,7 +123,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchRssOnce(url) {
   const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), 11000);
+  const t = setTimeout(() => ctrl.abort(), 8000);
   try {
     const res = await fetch(url, {
       signal: ctrl.signal,
@@ -155,7 +155,7 @@ async function fetchRss(q, loc) {
     try {
       return await fetchRssOnce(url);
     } catch {
-      if (attempt === 0) await sleep(700);
+      if (attempt === 0) await sleep(300);
     }
   }
   return null;                       // null = 실패 (0건과 구분한다)
@@ -174,10 +174,14 @@ async function mapLimit(items, limit, fn) {
   return out;
 }
 
-/** 해당 날짜(KST)에 보도된 기사만 모은다 */
-async function collectArticles(targetDate, setKey) {
+/** 해당 날짜(KST)에 보도된 기사만 모은다.
+    deadline 을 넘기면 남은 질의는 포기한다 — 질의가 42개로 늘어난 뒤(8/15)
+    수집 전체가 Vercel 함수 제한(60초)을 넘겨 아무것도 저장하지 못하는 날이
+    생겼다. 일부라도 제때 저장하는 쪽이 빈 날을 만드는 것보다 낫다. */
+async function collectArticles(targetDate, setKey, deadline = Infinity) {
   const cfg = SETS[setKey];
-  const batches = await mapLimit(cfg.queries, 6, (q) => fetchRss(q, cfg.loc));
+  const batches = await mapLimit(cfg.queries, 6, (q) =>
+    (Date.now() > deadline ? Promise.resolve(null) : fetchRss(q, cfg.loc)));
   const failed = batches.filter((b) => b === null).length;
   const seen = new Set();
   const out = [];
@@ -473,8 +477,10 @@ export default async function handler(req, res) {
       let failedAll = 0;
       let queriesAll = 0;
 
+      /* 저장(ghWrite 3회)까지 60초 안에 끝내야 한다 — 수집은 42초에서 끊는다 */
+      const deadline = Date.now() + 42000;
       for (const key of Object.keys(SETS)) {
-        const { articles, failed, queries } = await collectArticles(targetDate, key);
+        const { articles, failed, queries } = await collectArticles(targetDate, key, deadline);
         total += articles.length;
         failedAll += failed;
         queriesAll += queries;
