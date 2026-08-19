@@ -1,8 +1,9 @@
 /* =============================================================
  *  stats.js  —  뉴스 통계
  *
- *  매일 아침 쌓이는 인기뉴스 보관본(data/ranking/*.json)을 합산해
- *  보도량·공원·분야·언론사 통계를 보여줍니다.
+ *  큰 그림은 뉴스 아카이브(자료받기와 같은 데이터, 1990~)의 피벗을,
+ *  최근 흐름은 매일 쌓이는 인기뉴스 보관본(data/ranking/*.json)을 쓴다.
+ *  — 보관본만 합산하니 자료받기 5.7만 건과 규모가 안 맞아 보였다 (2026-08-19)
  *  (공원 면적·지정연대 같은 국립공원 자체 통계는 뉴스와 무관해 뺐다 — 2026-08-19)
  * ============================================================= */
 
@@ -72,6 +73,66 @@ window.Stats = (() => {
   }
 
   /* ==========================================================
+   *  집계 2 — 뉴스 아카이브 (자료받기와 같은 데이터, 1990~)
+   *  원장 5.7만 행은 읽지 않고 작은 피벗 CSV 2개만 가져온다.
+   * ======================================================== */
+  async function csvRows(url) {
+    const t = await (await fetch(url)).text();
+    return t.replace(/^﻿/, '').trim().split(/\r?\n/).map((l) => l.split(','));
+  }
+
+  async function buildArchive() {
+    try {
+      const idx = await (await fetch('data/dataset/index.json')).json();
+      const items = idx.items || [];
+      const pick = (re) => items.find((i) => re.test(i.file || ''));
+      const yearFile = pick(/^국립공원_연도별섹터/)?.file;
+      const parkFile = pick(/^국립공원_피벗_공원×섹터/)?.file;
+      if (!yearFile || !parkFile) return null;
+
+      const [yearsCsv, parksCsv] = await Promise.all([
+        csvRows(`data/dataset/${encodeURIComponent(yearFile)}`),
+        csvRows(`data/dataset/${encodeURIComponent(parkFile)}`),
+      ]);
+
+      /* 연도별섹터: 연도,구조활동,…,기타,합계 */
+      const yHead = yearsCsv[0];
+      const yTotal = yHead.indexOf('합계');
+      const years = yearsCsv.slice(1)
+        .map((r) => ({ year: Number(r[0]), total: Number(r[yTotal]) || 0, r }))
+        .filter((y) => y.year)
+        .sort((a, b) => a.year - b.year);
+      if (!years.length) return null;
+
+      const secNames = yHead.slice(1, yTotal);
+      const sectors = secNames
+        .map((name, i) => [name, years.reduce((s, y) => s + (Number(y.r[i + 1]) || 0), 0)])
+        .sort((a, b) => b[1] - a[1]);
+
+      /* 공원×섹터: 공원,…,합계,최다분야 */
+      const pHead = parksCsv[0];
+      const pTotal = pHead.indexOf('합계');
+      const parks = parksCsv.slice(1)
+        .map((r) => [r[0], Number(r[pTotal]) || 0])
+        .filter(([, v]) => v > 0)
+        .sort((a, b) => b[1] - a[1]);
+
+      const archiveSum = years.reduce((s, y) => s + y.total, 0);
+      return {
+        totalKr: pick(/^국립공원공단_국립공원뉴스정보_\d/)?.rows || archiveSum,
+        totalGlobal: pick(/^국립공원공단_해외국립공원뉴스정보_\d/)?.rows || 0,
+        yearFrom: years[0].year, yearTo: years[years.length - 1].year,
+        yearCount: years.length,
+        thisYear: years[years.length - 1],
+        years, sectors, topParks: parks.slice(0, 5),
+        basis: (idx.generatedAt || '').slice(0, 10),
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  /* ==========================================================
    *  렌더
    * ======================================================== */
   const bar = (label, value, max, unit = '', accent = 'kr') => `
@@ -81,79 +142,94 @@ window.Stats = (() => {
       <span class="st-bar__v">${nf(value)}${unit}</span>
     </div>`;
 
-  function render(n) {
+  function render(a, n) {
     const box = $('#st-body');
     if (!box) return;
-    if (!n) {
-      box.innerHTML = `<div class="rk-state">뉴스 보관본을 불러오지 못했습니다. 잠시 후 다시 열어 보세요.</div>`;
+    if (!a && !n) {
+      box.innerHTML = `<div class="rk-state">뉴스 통계를 불러오지 못했습니다. 잠시 후 다시 열어 보세요.</div>`;
       state.built = false;             // 다음에 열면 다시 시도
       return;
     }
 
-    const md = (d) => `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}`;
-    const maxDaily = Math.max(...n.daily.map((d) => d.kr + d.global), 1);
-    const maxPark = n.topParks[0]?.[1] || 1;
-    const maxPress = n.topPress[0]?.[1] || 1;
-    const maxSector = n.sectors[0]?.[1] || 1;
-    const avg = Math.round((n.totalKr + n.totalGlobal) / n.have);
+    /* ── 큰 그림: 뉴스 아카이브 (자료받기와 같은 데이터) ── */
+    let arcHtml = '';
+    if (a) {
+      const recent = a.years.slice(-10);
+      const maxYear = Math.max(...recent.map((y) => y.total), 1);
+      const maxSector = a.sectors[0]?.[1] || 1;
+      const maxPark = a.topParks[0]?.[1] || 1;
 
-    /* 보관이 며칠 밀렸으면 그대로 밝힌다 — 없는 걸 있는 척하지 않는다 */
-    const lag = Math.round((Date.now() - new Date(`${n.to}T00:00:00+09:00`)) / 86400000);
-    const lagNote = lag > 2 ? ` · <b>최근 보관본이 ${esc(n.to)}자까지입니다</b>` : '';
-
-    box.innerHTML = `
-      <!-- ── 핵심 숫자 ── -->
+      arcHtml = `
       <div class="st-tiles">
         <div class="st-tile">
-          <span class="st-tile__k">집계 기간</span>
-          <b class="st-tile__v">${n.have}<em>일치</em></b>
-          <span class="st-tile__s">${esc(n.from)} ~ ${esc(n.to)}</span>
+          <span class="st-tile__k">뉴스 아카이브</span>
+          <b class="st-tile__v">${nf(a.totalKr)}<em>건</em></b>
+          <span class="st-tile__s">해외 ${nf(a.totalGlobal)}건 별도</span>
         </div>
         <div class="st-tile">
-          <span class="st-tile__k">총 보도량</span>
-          <b class="st-tile__v">${nf(n.totalKr + n.totalGlobal)}<em>건</em></b>
-          <span class="st-tile__s">국내 ${nf(n.totalKr)} · 국외 ${nf(n.totalGlobal)}</span>
+          <span class="st-tile__k">축적 기간</span>
+          <b class="st-tile__v">${a.yearFrom}~${a.yearTo}</b>
+          <span class="st-tile__s">${a.yearCount}개 연도 · 일 단위</span>
         </div>
         <div class="st-tile">
-          <span class="st-tile__k">하루 평균</span>
-          <b class="st-tile__v">${nf(avg)}<em>건</em></b>
-          <span class="st-tile__s">사안 ${nf(n.issueCount)}묶음 집계</span>
+          <span class="st-tile__k">올해 보도량</span>
+          <b class="st-tile__v">${nf(a.thisYear.total)}<em>건</em></b>
+          <span class="st-tile__s">${a.thisYear.year}년 · 집계 중</span>
         </div>
         <div class="st-tile">
           <span class="st-tile__k">최다 보도 공원</span>
-          <b class="st-tile__v">${n.topParks[0] ? esc(n.topParks[0][0]) : '–'}</b>
-          <span class="st-tile__s">${n.topParks[0] ? `${nf(n.topParks[0][1])}건 보도` : '집계 없음'}</span>
+          <b class="st-tile__v">${a.topParks[0] ? esc(a.topParks[0][0]) : '–'}</b>
+          <span class="st-tile__s">${a.topParks[0] ? `누적 ${nf(a.topParks[0][1])}건` : '집계 없음'}</span>
         </div>
       </div>
 
-      <!-- ── 일별 보도량 ── -->
       <section class="st-sec">
-        <h3 class="st-h">일별 보도량 <span>국내 + 국외</span></h3>
-        ${n.daily.map((d) => bar(md(d.date), d.kr + d.global, maxDaily, '건', 'org')).join('')}
-        <p class="st-note">매일 아침 하루치씩 쌓입니다${lagNote}</p>
+        <h3 class="st-h">연도별 보도량 <span>최근 10년 · 국내</span></h3>
+        ${recent.map((y) => bar(String(y.year), y.total, maxYear, '건', 'org')).join('')}
       </section>
 
-      ${n.topParks.length ? `
       <section class="st-sec">
-        <h3 class="st-h">최다 보도 공원 <span>국내 · 제목 기준</span></h3>
-        ${n.topParks.map(([name, v]) => bar(name, v, maxPark, '건')).join('')}
-      </section>` : ''}
+        <h3 class="st-h">분야별 구성 <span>전 기간 · 국내</span></h3>
+        ${a.sectors.map(([name, v]) => bar(name, v, maxSector, '건', 'global')).join('')}
+      </section>
 
-      ${n.sectors.length ? `
       <section class="st-sec">
-        <h3 class="st-h">분야별 구성 <span>국내 보도</span></h3>
-        ${n.sectors.map(([name, v]) => bar(name, v, maxSector, '건', 'global')).join('')}
-      </section>` : ''}
+        <h3 class="st-h">공원별 누적 보도 <span>제목에 공원명이 있는 기사 기준</span></h3>
+        ${a.topParks.map(([name, v]) => bar(name, v, maxPark, '건')).join('')}
+      </section>`;
+    }
+
+    /* ── 최근 흐름: 인기뉴스 일일 보관본 ── */
+    let dayHtml = '';
+    if (n) {
+      const md = (d) => `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}`;
+      const maxDaily = Math.max(...n.daily.map((d) => d.kr + d.global), 1);
+      const maxPress = n.topPress[0]?.[1] || 1;
+      const avg = Math.round((n.totalKr + n.totalGlobal) / n.have);
+
+      /* 보관이 며칠 밀렸으면 그대로 밝힌다 — 없는 걸 있는 척하지 않는다 */
+      const lag = Math.round((Date.now() - new Date(`${n.to}T00:00:00+09:00`)) / 86400000);
+      const lagNote = lag > 2 ? ` · <b>최근 보관본이 ${esc(n.to)}자까지입니다</b>` : '';
+
+      dayHtml = `
+      <section class="st-sec">
+        <h3 class="st-h">최근 일일 수집 <span>인기뉴스 보관본 · ’26.8.9.부터 매일 아침</span></h3>
+        ${n.daily.map((d) => bar(md(d.date), d.kr + d.global, maxDaily, '건', 'org')).join('')}
+        <p class="st-note">${esc(n.from)} ~ ${esc(n.to)} · ${n.have}일치 · 하루 평균 ${nf(avg)}건${lagNote}
+          — 위 아카이브와 달리 <b>순위용 상위 사안만</b> 담아 건수가 적습니다</p>
+      </section>
 
       ${n.topPress.length ? `
       <section class="st-sec">
-        <h3 class="st-h">활발히 보도한 언론사 <span>사안 수 기준</span></h3>
+        <h3 class="st-h">활발히 보도한 언론사 <span>최근 ${n.have}일 · 사안 수 기준</span></h3>
         ${n.topPress.map(([name, v]) => bar(name, v, maxPress, '건', 'org')).join('')}
-      </section>` : ''}
+      </section>` : ''}`;
+    }
 
+    box.innerHTML = `${arcHtml}${dayHtml}
       <p class="st-src">
-        출처 · 구글 뉴스·네이버 검색으로 수집한 일간 보관본 합산 ·
-        보도량은 같은 사안을 다룬 기사 수, 순위 기준은 언론사 수입니다.
+        출처 · 뉴스 아카이브(자료받기와 동일 데이터${a?.basis ? `, 기준일 ${esc(a.basis)}` : ''}, 월 단위 갱신)
+        + 인기뉴스 일일 보관본 · 분야는 제목 낱말 기반 자동분류입니다.
       </p>`;
   }
 
@@ -162,7 +238,8 @@ window.Stats = (() => {
     state.built = true;
     const box = $('#st-body');
     if (box) box.innerHTML = `<div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> 뉴스 통계를 집계하는 중…</div>`;
-    render(await buildNews());
+    const [a, n] = await Promise.all([buildArchive(), buildNews()]);
+    render(a, n);
   }
 
   /* 여는 것을 방문 기록에 남겨 뒤로가기로 닫히게 한다 (ranking.js 와 같은 사정) */
