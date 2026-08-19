@@ -24,7 +24,8 @@
 
   const state = {
     meta: null, cache: new Map(), rows: [], view: 'list', page: 1,
-    q: '', ex: '', year: '', range: '1', park: '', sector: '', conf: '0', near: false,
+    /* near 기본 켬 — 스치듯 언급만 된 기사를 빼고 국립공원 주제 기사부터 보여준다 */
+    q: '', ex: '', year: '', range: '1', park: '', sector: '', conf: '0', near: true,
   };
   const PER = 50;
   /* 같은 사안 묶기를 낱말 색인으로 바꿔 훨씬 빨라졌지만(4천 건 620ms → 35ms),
