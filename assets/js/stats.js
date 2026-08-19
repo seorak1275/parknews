@@ -122,6 +122,108 @@ window.Stats = (() => {
   }
 
   /* ==========================================================
+   *  뉴스 통계 — 매일 아침 쌓이는 보관본(data/ranking/*.json)을 합산
+   *  (인기뉴스 순위와 같은 자료를 다른 각도로 본다)
+   * ======================================================== */
+  async function buildNews() {
+    try {
+      const idx = await (await fetch('data/ranking/index.json')).json();
+      const dates = (idx.dates || []).slice(0, 14).sort();          // 오래된 → 최신
+      if (!dates.length) return null;
+
+      const days = (await Promise.all(dates.map(async (d) => {
+        try {
+          const r = await fetch(`data/ranking/${d}.json`);
+          return r.ok ? await r.json() : null;
+        } catch { return null; }
+      }))).filter(Boolean);
+      if (!days.length) return null;
+
+      const sum = (rows) => (rows || []).reduce((s, r) => s + (r.reports || 1), 0);
+      const daily = days.map((d) => ({
+        date: d.date,
+        kr: sum(d.kr?.rows),
+        global: sum(d.global?.rows),
+      }));
+
+      const parkNames = REGIONS_KR.map((r) => r.name.replace('국립공원', ''));
+      const byPark = {}, byPress = {}, bySector = {};
+      let totalKr = 0, totalGlobal = 0, issueCount = 0;
+
+      for (const d of days) {
+        totalGlobal += sum(d.global?.rows);
+        for (const row of d.kr?.rows || []) {
+          const n = row.reports || 1;
+          totalKr += n;
+          issueCount++;
+          const park = parkNames.find((p) => row.title.includes(p));
+          if (park) byPark[park] = (byPark[park] || 0) + n;
+          for (const p of row.press || []) byPress[p] = (byPress[p] || 0) + 1;
+          const sec = window.Taxonomy?.classify(row.title);
+          if (sec) bySector[sec.name] = (bySector[sec.name] || 0) + n;
+        }
+      }
+
+      const top = (obj, n) => Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, n);
+      return {
+        daily, totalKr, totalGlobal, issueCount,
+        topParks: top(byPark, 5),
+        topPress: top(byPress, 5),
+        sectors: top(bySector, 5),
+        from: days[0].date, to: days[days.length - 1].date, have: days.length,
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  function renderNews(n) {
+    const box = $('#st-news');
+    if (!box) return;
+    if (!n) {
+      box.innerHTML = `<p class="st-note">뉴스 보관본을 불러오지 못해 뉴스 통계를 표시할 수 없습니다.</p>`;
+      return;
+    }
+
+    const md = (d) => `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}`;
+    const maxDaily = Math.max(...n.daily.map((d) => d.kr + d.global), 1);
+    const maxPark = n.topParks[0]?.[1] || 1;
+    const maxPress = n.topPress[0]?.[1] || 1;
+    const maxSector = n.sectors[0]?.[1] || 1;
+
+    /* 보관이 며칠 밀렸으면 그대로 밝힌다 — 없는 걸 있는 척하지 않는다 */
+    const lag = Math.round((Date.now() - new Date(`${n.to}T00:00:00+09:00`)) / 86400000);
+    const lagNote = lag > 2 ? ` · <b>최근 보관본이 ${esc(n.to)}자까지입니다</b>` : '';
+
+    box.innerHTML = `
+      <!-- ── 뉴스 통계 (보관본 합산) ── -->
+      <section class="st-sec">
+        <h3 class="st-h">일별 보도량 <span>${esc(n.from)} ~ ${esc(n.to)} · ${n.have}일치</span></h3>
+        ${n.daily.map((d) => bar(md(d.date), d.kr + d.global, maxDaily, '건', 'org')).join('')}
+        <p class="st-note">국내 ${nf(n.totalKr)}건 + 국외 ${nf(n.totalGlobal)}건 · 사안 ${nf(n.issueCount)}묶음 ·
+          매일 아침 하루치씩 쌓입니다${lagNote}</p>
+      </section>
+
+      ${n.topParks.length ? `
+      <section class="st-sec">
+        <h3 class="st-h">최다 보도 공원 <span>국내 · 제목 기준</span></h3>
+        ${n.topParks.map(([name, v]) => bar(name, v, maxPark, '건')).join('')}
+      </section>` : ''}
+
+      ${n.sectors.length ? `
+      <section class="st-sec">
+        <h3 class="st-h">분야별 구성 <span>국내 보도</span></h3>
+        ${n.sectors.map(([name, v]) => bar(name, v, maxSector, '건', 'global')).join('')}
+      </section>` : ''}
+
+      ${n.topPress.length ? `
+      <section class="st-sec">
+        <h3 class="st-h">활발히 보도한 언론사 <span>사안 수 기준</span></h3>
+        ${n.topPress.map(([name, v]) => bar(name, v, maxPress, '건', 'org')).join('')}
+      </section>` : ''}`;
+  }
+
+  /* ==========================================================
    *  렌더
    * ======================================================== */
   const bar = (label, value, max, unit = '', accent = 'kr') => `
@@ -195,6 +297,11 @@ window.Stats = (() => {
         </div>
       </section>
 
+      <!-- ── 뉴스 통계 — 보관본을 읽는 대로 채워진다 ── -->
+      <div id="st-news">
+        <div class="rk-state"><span class="dots"><i></i><i></i><i></i></span> 뉴스 통계를 집계하는 중…</div>
+      </div>
+
       ${g ? `
       <!-- ── 세계 분포 ── -->
       <section class="st-sec">
@@ -223,6 +330,7 @@ window.Stats = (() => {
     const [kr, g] = await Promise.all([buildKr(), buildGlobal()]);
     state.kr = kr; state.global = g; state.built = true;
     render();
+    buildNews().then(renderNews);   // 뉴스 통계는 준비되는 대로 끼워 넣는다
   }
 
   /* 여는 것을 방문 기록에 남겨 뒤로가기로 닫히게 한다 (ranking.js 와 같은 사정) */
