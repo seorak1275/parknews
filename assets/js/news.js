@@ -296,7 +296,9 @@ window.NewsService = (() => {
         items = parseRss(xml).slice(0, pool);
       }
 
-      const kept = filterPark(region, items).slice(0, CONFIG.NEWS_COUNT);
+      /* 표시 개수 제한은 화면(app.js)에서 한다 — 인기순은 관련 기사
+         전체를 사안별로 묶어야 순위가 서기 때문에 전부 넘긴다. */
+      const kept = filterPark(region, items);
       return { items: kept, raw: items.length, dropped: items.length - kept.length };
     })()
       .then((data) => { cache.set(key, { at: Date.now(), data }); return data; })
@@ -423,6 +425,30 @@ window.NewsService = (() => {
     }).sort((a, b) => b.heat - a.heat || b.newest - a.newest);
   }
 
+  /**
+   * 인기순 목록 — 최근 days일 기사를 사안별로 묶어 보도 언론사 수가
+   * 많은 순으로 대표 기사를 돌려준다. 동률은 최신순.
+   *  · 대표 기사 = 묶음 안에서 가장 최신 기사 (사안은 오래돼도 보이는 건 후속 보도)
+   *  · 30일 밖·날짜 없는 기사는 1건짜리로 뒤에 붙인다 — 조용한 공원에서
+   *    목록이 비지 않게 하되 순위를 어지럽히지는 않는다.
+   */
+  function hotList(items, days = 30, limit = 6) {
+    const cut = Date.now() - days * 86400 * 1000;
+    const inWin = (n) => (Date.parse(n.date) || 0) >= cut;
+    const recent = items.filter(inWin);
+    const rest = items.filter((n) => !inWin(n));
+
+    const out = groupIssues(recent)
+      .sort((a, b) => b.outletCount - a.outletCount || b.newest - a.newest)
+      .map((g) => {
+        const lead = g.arts.reduce(
+          (m, a) => ((Date.parse(a.date) || 0) > (Date.parse(m.date) || 0) ? a : m), g.arts[0]);
+        return { ...lead, outletCount: g.outletCount };
+      });
+    for (const n of rest) out.push({ ...n, outletCount: 1 });
+    return out.slice(0, limit);
+  }
+
   /* ---------- 상대 시간 ---------- */
   function timeAgo(dateStr) {
     const t = Date.parse(dateStr);
@@ -435,5 +461,5 @@ window.NewsService = (() => {
     return new Date(t).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
   }
 
-  return { load, peek, search, keywords, timeAgo, filterPark, coreTokens, groupIssues };
+  return { load, peek, search, keywords, timeAgo, filterPark, coreTokens, groupIssues, hotList };
 })();

@@ -637,6 +637,16 @@ body.map-light .dokdo i{background:#334155;box-shadow:none}
 }
 .news-meta{font-size:10.5px;color:var(--ink-4);margin-top:6px}
 .press{color:var(--kr);opacity:.8}
+.sb-h-tools{display:flex;align-items:center;gap:10px}
+.seg{display:flex;gap:2px;background:rgba(255,255,255,.06);border:1px solid var(--stroke);border-radius:999px;padding:2px}
+.seg button{font-size:10.5px;line-height:1;padding:4px 9px;border-radius:999px;color:var(--ink-3);transition:background .15s,color .15s}
+.seg button:hover{color:var(--ink-1)}
+.seg button.on{background:rgba(251,191,36,.16);color:#fde68a;font-weight:700}
+.news-heat{
+  display:inline-block;font-weight:800;font-size:9.5px;color:#fde68a;
+  background:rgba(251,191,36,.14);border:1px solid rgba(251,191,36,.3);
+  border-radius:999px;padding:1px 6px;vertical-align:1px;
+}
 .news-skel{
   height:58px;border-radius:var(--r-md);margin-bottom:4px;
   background:linear-gradient(90deg,rgba(255,255,255,.045),rgba(255,255,255,.09),rgba(255,255,255,.045));

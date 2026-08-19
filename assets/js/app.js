@@ -753,8 +753,14 @@
 
       <section class="sb-card">
         <div class="sb-h-row">
-          <h3 class="sb-h">국립공원 관련 최신 뉴스</h3>
-          <button class="linkbtn" id="btn-refresh">새로고침</button>
+          <h3 class="sb-h">국립공원 관련 뉴스</h3>
+          <div class="sb-h-tools">
+            <div class="seg" id="news-sort">
+              <button type="button" data-mode="hot">인기순</button>
+              <button type="button" data-mode="new">최신순</button>
+            </div>
+            <button class="linkbtn" id="btn-refresh">새로고침</button>
+          </div>
         </div>
         <p class="filter-note" id="filter-note">수집한 기사 중 국립공원 관련 기사만 선별합니다.</p>
         <ul id="news-body" class="news-list">${'<li class="news-skel"></li>'.repeat(4)}</ul>
@@ -765,25 +771,57 @@
       .then((r) => { if (r?.real) $('#trend-card').hidden = false; })
       .catch(() => { /* 실측이 없으면 카드를 숨긴 채로 둔다 */ });
 
-    const fill = ({ items, raw, dropped }) => {
-      $('#filter-note').innerHTML = items.length
-        ? `수집 <b>${raw}</b>건 중 국립공원 관련 <b>${items.length}</b>건만 표시 · 무관 기사 ${dropped}건 제외`
-        : `수집 <b>${raw}</b>건 모두 국립공원과 무관해 제외했습니다.`;
+    /* 정렬: 인기순(기본) = 최근 30일 기사를 사안별로 묶어 보도 언론사 수 순.
+       조용한 공원은 전부 1건짜리 묶음이라 자연스럽게 최신순처럼 동작한다. */
+    let newsData = null;
+    let sortMode = (() => {
+      try { return localStorage.getItem('parknews-newssort') || 'hot'; } catch { return 'hot'; }
+    })();
 
-      $('#news-body').innerHTML = items.length
-        ? items.map((n) => `
+    const renderNewsList = () => {
+      if (!newsData) return;
+      const { items, raw, dropped } = newsData;
+      $('#news-sort').querySelectorAll('button').forEach((b) =>
+        b.classList.toggle('on', b.dataset.mode === sortMode));
+
+      const show = sortMode === 'hot'
+        ? NewsService.hotList(items, 30, CONFIG.NEWS_COUNT)
+        : items.slice(0, CONFIG.NEWS_COUNT);
+
+      $('#filter-note').innerHTML = !items.length
+        ? `수집 <b>${raw}</b>건 모두 국립공원과 무관해 제외했습니다.`
+        : sortMode === 'hot'
+          ? `관련 기사 <b>${items.length}</b>건을 사안별로 묶어 정렬 · <b>최근 30일</b> · 보도 언론사 수 기준`
+          : `수집 <b>${raw}</b>건 중 국립공원 관련 <b>${items.length}</b>건 · 무관 기사 ${dropped}건 제외 · 최신순`;
+
+      $('#news-body').innerHTML = show.length
+        ? show.map((n) => `
           <li class="news-item">
             <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer">
               <p class="news-title">${esc(n.title)}</p>
               ${n.summary ? `<p class="news-sum">${esc(n.summary)}</p>` : ''}
-              <p class="news-meta"><span class="press">${esc(n.press)}</span>${n.date ? ` · ${esc(NewsService.timeAgo(n.date))}` : ''}</p>
+              <p class="news-meta">${sortMode === 'hot' && n.outletCount > 1
+                ? `<span class="news-heat" title="같은 사안을 보도한 언론사 수">${n.outletCount}개사</span> `
+                : ''}<span class="press">${esc(n.press)}</span>${n.date ? ` · ${esc(NewsService.timeAgo(n.date))}` : ''}</p>
             </a>
           </li>`).join('')
         : `<li class="empty-news">최근 이 지역의 <b>국립공원 관련</b> 기사가 없습니다.
              <span class="sm muted">공원과 무관한 기사는 의도적으로 제외됩니다.</span></li>`;
-
-      KeywordBars.render($('#kw-body'), items);
     };
+
+    const fill = (data) => {
+      newsData = data;
+      renderNewsList();
+      KeywordBars.render($('#kw-body'), data.items);
+    };
+
+    $('#news-sort').addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-mode]');
+      if (!btn || btn.dataset.mode === sortMode) return;
+      sortMode = btn.dataset.mode;
+      try { localStorage.setItem('parknews-newssort', sortMode); } catch { /* 무시 */ }
+      renderNewsList();
+    });
 
     NewsService.load(region).then(fill).catch(() => {
       $('#filter-note').textContent = '';
