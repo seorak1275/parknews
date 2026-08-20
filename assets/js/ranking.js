@@ -52,7 +52,20 @@ window.Ranking = (() => {
     id: r.id, name: r.name.replace('국립공원', ''), q: r.q || r.name,
   }));
 
-  const state = { tab: 'kr', period: 'live', park: '', sector: '', cache: {}, loading: false };
+  /* 마지막으로 보던 국내/국외·기간을 기억한다 — 열 때마다 기본값으로
+     돌아가면 매번 다시 골라야 한다 (지도 밝기·뉴스 정렬과 같은 방식) */
+  const saved = (() => {
+    try { return JSON.parse(localStorage.getItem('parknews-rank') || '{}'); } catch { return {}; }
+  })();
+  const state = {
+    tab: saved.tab === 'global' ? 'global' : 'kr',
+    period: Object.prototype.hasOwnProperty.call(PERIODS, saved.period) ? saved.period : 'live',
+    park: '', sector: '', cache: {}, loading: false,
+  };
+  const remember = () => {
+    try { localStorage.setItem('parknews-rank', JSON.stringify({ tab: state.tab, period: state.period })); }
+    catch { /* 무시 */ }
+  };
 
   const SECTORS = window.Taxonomy?.SECTORS || [];
   const sectorOf = (r) =>
@@ -359,14 +372,18 @@ window.Ranking = (() => {
       b.classList.toggle('is-on', b.dataset.period === state.period);
     });
 
-    /* 분야 고르기 — 구조대는 '구조활동'만 따로 보고 싶을 때가 많다 */
+    /* 분야 고르기 — 구조대는 '구조활동'만 따로 보고 싶을 때가 많다.
+       분류 사전이 한글 낱말뿐이라 국외(영문 제목)에서는 숨긴다. */
     const sbox = $('#rk-sectors');
     if (sbox) {
-      sbox.innerHTML = `
+      sbox.hidden = state.tab !== 'kr';
+      if (!sbox.hidden) {
+        sbox.innerHTML = `
         <button class="rk-sec-btn${state.sector ? '' : ' is-on'}" data-sector="">전체 분야</button>
         ${SECTORS.map((s) => `
           <button class="rk-sec-btn${state.sector === s.key ? ' is-on' : ''}"
             style="--c:${s.color}" data-sector="${s.key}">${esc(s.name)}</button>`).join('')}`;
+      }
     }
 
     /* 공원 선택은 국내에서만 의미가 있다 */
@@ -489,8 +506,8 @@ window.Ranking = (() => {
       window.ParkMap.select(p);
     });
 
-    $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; render(); });
-    $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; state.park = ''; render(); });
+    $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; remember(); render(); });
+    $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; state.park = ''; state.sector = ''; remember(); render(); });
     $('#rk-parks')?.addEventListener('click', (e) => {
       const b = e.target.closest('.rk-park');
       if (!b) return;
@@ -507,6 +524,7 @@ window.Ranking = (() => {
       const b = e.target.closest('.rk-tab');
       if (!b || !b.dataset.period) return;
       state.period = b.dataset.period;
+      remember();
       render();
     });
     $('#rk-refresh')?.addEventListener('click', () => { state.cache = {}; render(); });
