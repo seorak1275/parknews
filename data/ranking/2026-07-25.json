@@ -1,0 +1,527 @@
+{
+  "date": "2026-07-25",
+  "dateKo": "2026년 7월 25일 토요일",
+  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "backfilled": true,
+  "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
+  "kr": {
+    "collected": 20,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "여름의 싱그러움이 가득한 청주, 자연 속에서 가볼 만한 곳",
+        "reports": 4,
+        "press": [
+          "joongangenews.com",
+          "cbci.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "여름의 싱그러움이 가득한 청주, 자연 속에서 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=533416"
+          },
+          {
+            "title": "싱그러운 여름 기운 가득한 괴산, 특별한 추억을 만들 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=591661"
+          },
+          {
+            "title": "정읍 여름 여행, 자연과 문화의 다채로운 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=533419"
+          },
+          {
+            "title": "청정한 여름 바다와 다채로운 역사, 완도 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=533406"
+          }
+        ],
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=533416"
+      },
+      {
+        "title": "“계곡 걷고 별 보며 쉬자”…국립공원에서 즐기는 피서",
+        "reports": 1,
+        "press": [
+          "donga.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "“계곡 걷고 별 보며 쉬자”…국립공원에서 즐기는 피서",
+            "press": "donga.com",
+            "link": "https://www.donga.com/news/Culture/article/all/20260724/134345316/2"
+          }
+        ],
+        "link": "https://www.donga.com/news/Culture/article/all/20260724/134345316/2"
+      },
+      {
+        "title": "[기업시민] 유일한 정신 잇는 유한양행…'건강·환경·지역·학술' 4대 사...",
+        "reports": 1,
+        "press": [
+          "ftoday.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[기업시민] 유일한 정신 잇는 유한양행…'건강·환경·지역·학술' 4대 사...",
+            "press": "ftoday.co.kr",
+            "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=362569"
+          }
+        ],
+        "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=362569"
+      },
+      {
+        "title": "구름 위에 걸린 성, 설악산 권금성에 서서",
+        "reports": 1,
+        "press": [
+          "ohmynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "구름 위에 걸린 성, 설악산 권금성에 서서",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003254105&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          }
+        ],
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003254105&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      },
+      {
+        "title": "\"물장구 치며 폭염 날린다\"…전국 주말 피서지 '인산인해'(종합)",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"물장구 치며 폭염 날린다\"…전국 주말 피서지 '인산인해'(종합)",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6238900"
+          }
+        ],
+        "link": "https://www.news1.kr/local/kangwon/6238900"
+      },
+      {
+        "title": "\"계곡에 발 담그니 폭염도 싹\"…주말 강원 계곡·바다 피서객 '북적'",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"계곡에 발 담그니 폭염도 싹\"…주말 강원 계곡·바다 피서객 '북적'",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6238864"
+          }
+        ],
+        "link": "https://www.news1.kr/local/kangwon/6238864"
+      },
+      {
+        "title": "계속 깨서 울부짖던 7개월 아기, 여기선 달랐습니다",
+        "reports": 1,
+        "press": [
+          "ohmynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "계속 깨서 울부짖던 7개월 아기, 여기선 달랐습니다",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003252238&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          }
+        ],
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003252238&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      },
+      {
+        "title": "민형배 시장, 예산처 장관 만나 국비 확보 시동…AI·자율주행 등 대거...",
+        "reports": 1,
+        "press": [
+          "namdonews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "민형배 시장, 예산처 장관 만나 국비 확보 시동…AI·자율주행 등 대거...",
+            "press": "namdonews.com",
+            "link": "https://www.namdonews.com/news/articleView.html?idxno=917941"
+          }
+        ],
+        "link": "https://www.namdonews.com/news/articleView.html?idxno=917941"
+      },
+      {
+        "title": "여름 진도의 푸른 바다와 산, 잊지 못할 풍경을 만나는 가볼 만한 곳",
+        "reports": 1,
+        "press": [
+          "cbci.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "여름 진도의 푸른 바다와 산, 잊지 못할 풍경을 만나는 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=591666"
+          }
+        ],
+        "link": "https://www.cbci.co.kr/news/articleView.html?idxno=591666"
+      },
+      {
+        "title": "[바로간다] 취사·흡연·야영 금지 국립공원‥\"몰랐어요, 봐주세요\" 올여...",
+        "reports": 1,
+        "press": [
+          "imnews.imbc.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[바로간다] 취사·흡연·야영 금지 국립공원‥\"몰랐어요, 봐주세요\" 올여...",
+            "press": "imnews.imbc.com",
+            "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6840069_37004.html"
+          }
+        ],
+        "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6840069_37004.html"
+      },
+      {
+        "title": "팔공산에 핀 희귀 난초 대흥란…생태계 보전 노력 결실",
+        "reports": 1,
+        "press": [
+          "gukjenews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "팔공산에 핀 희귀 난초 대흥란…생태계 보전 노력 결실",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3645385"
+          }
+        ],
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3645385"
+      },
+      {
+        "title": "고승유묵과 고려 청자발우, 범어사에서 만난다",
+        "reports": 1,
+        "press": [
+          "ibulgyo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "고승유묵과 고려 청자발우, 범어사에서 만난다",
+            "press": "ibulgyo.com",
+            "link": "http://www.ibulgyo.com/news/articleView.html?idxno=440560"
+          }
+        ],
+        "link": "http://www.ibulgyo.com/news/articleView.html?idxno=440560"
+      },
+      {
+        "title": "[패트롤] 구리시-남양주시-안양시-양평군-하남시",
+        "reports": 1,
+        "press": [
+          "ekn.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[패트롤] 구리시-남양주시-안양시-양평군-하남시",
+            "press": "ekn.kr",
+            "link": "https://www.ekn.kr/web/view.php?key=20260725029376131"
+          }
+        ],
+        "link": "https://www.ekn.kr/web/view.php?key=20260725029376131"
+      },
+      {
+        "title": "트럼프, 스미소니언 미국사박물관 앞에 \"전시 오류\" 안내판 설치 지시",
+        "reports": 1,
+        "press": [
+          "newsis.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "트럼프, 스미소니언 미국사박물관 앞에 \"전시 오류\" 안내판 설치 지시",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260725_0003722990"
+          }
+        ],
+        "link": "https://www.newsis.com/view/NISX20260725_0003722990"
+      },
+      {
+        "title": "지구 곳곳 불탄다...전 세계 동시다발 산불 확산",
+        "reports": 1,
+        "press": [
+          "newspenguin.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "지구 곳곳 불탄다...전 세계 동시다발 산불 확산",
+            "press": "newspenguin.com",
+            "link": "https://www.newspenguin.com/news/articleView.html?idxno=21919"
+          }
+        ],
+        "link": "https://www.newspenguin.com/news/articleView.html?idxno=21919"
+      },
+      {
+        "title": "여수갯벌 세계유산 등재…여수세계섬박람회 성공 개최 '청신호'",
+        "reports": 1,
+        "press": [
+          "dongponews.net"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "여수갯벌 세계유산 등재…여수세계섬박람회 성공 개최 '청신호'",
+            "press": "dongponews.net",
+            "link": "https://www.dongponews.net/news/articleView.html?idxno=59499"
+          }
+        ],
+        "link": "https://www.dongponews.net/news/articleView.html?idxno=59499"
+      },
+      {
+        "title": "'호프' 700억 썼는데…\"나한테 왜 이러는지\" 나홍진의 속사정 [김소연의...",
+        "reports": 1,
+        "press": [
+          "hankyung.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "'호프' 700억 썼는데…\"나한테 왜 이러는지\" 나홍진의 속사정 [김소연의...",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/202607244480H"
+          }
+        ],
+        "link": "https://www.hankyung.com/article/202607244480H"
+      }
+    ]
+  },
+  "global": {
+    "collected": 15,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "Prime Minister Visits Gros Morne National Park to go Hiking",
+        "reports": 2,
+        "press": [
+          "VOCM",
+          "CBC"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Prime Minister Visits Gros Morne National Park to go Hiking",
+            "press": "VOCM",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZVDlQRU1KNDdTVm9sYTlzcnNNLXVVNWhJRmU1ZjM3VVRqV1VyYkpURXZhd29JaGxCZldOM1hxdW5kVFlUSUUwQmlGVQ?oc=5"
+          },
+          {
+            "title": "Carney visits Gros Morne National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVcXFFTlZDdmI4T1lwMHNIRENybVlJVkhncFc0UUVhUmQ1YW1KOU9uX05jZ1Q1UGRZSlJwelJwVmFabmJ1R3o3V1Fwd2JMX1ZsTWZpT0NVeS1Xdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZVDlQRU1KNDdTVm9sYTlzcnNNLXVVNWhJRmU1ZjM3VVRqV1VyYkpURXZhd29JaGxCZldOM1hxdW5kVFlUSUUwQmlGVQ?oc=5"
+      },
+      {
+        "title": "Cairngorms National Park wildfire declared major incident as hundreds of villagers told to evacuate",
+        "reports": 2,
+        "press": [
+          "Sky News",
+          "The Straits Times"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Cairngorms National Park wildfire declared major incident as hundreds of villagers told to evacuate",
+            "press": "Sky News",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzY3ZEt0S3FUTlVJcG96V0ZXaUJEVVpXTDgtQ0ZpVzc5UjJoZ0tMaXJrQTZDRVE4S1BMaXgzUXowcV82ci14ak9UTWFtR0NVZHVTMl9VT0pJMGlQaUFKS2NjZFA1LWVOcmR4YklGSG1LWE9KcU1CY25YV09rTkNSRUpTcUJVdnNtcE5yMjhaYWl0QU54eFYxMk03MGN5SncwNU9vMDBvTjlSUi1vVEN6QXpuMGR5UXRLeXFhYUhveFNhdWx6ZjlF?oc=5"
+          },
+          {
+            "title": "Scotland orders evacuation as firefighters battle ‘major’ wildfire in Cairngorms National Park",
+            "press": "The Straits Times",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQXFKNjlWMjNWY0VkckItYmhCRElqRWhPRE9mdklRV1Z4U3pjUjdGMlhJN1A4TS05c2tsUzNfdlhUaEtRNFhOZmxaM2JtdUtwRTZ1NHV3Zk5LLWd3UkwxZ3JpY0JoSmlDREg1ODdXT3dKRE15aUFIMTBRVUV3elVxNFYzT05Iel9pQ1FqSU1rMWZjZFhxWGh4VVlSR3MwcTk5blpneg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzY3ZEt0S3FUTlVJcG96V0ZXaUJEVVpXTDgtQ0ZpVzc5UjJoZ0tMaXJrQTZDRVE4S1BMaXgzUXowcV82ci14ak9UTWFtR0NVZHVTMl9VT0pJMGlQaUFKS2NjZFA1LWVOcmR4YklGSG1LWE9KcU1CY25YV09rTkNSRUpTcUJVdnNtcE5yMjhaYWl0QU54eFYxMk03MGN5SncwNU9vMDBvTjlSUi1vVEN6QXpuMGR5UXRLeXFhYUhveFNhdWx6ZjlF?oc=5"
+      },
+      {
+        "title": "서호주에서 만난 ‘신의 작품’, 그 앞에 사람의 작품은 설 곳이 없더라",
+        "reports": 1,
+        "press": [
+          "chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "서호주에서 만난 ‘신의 작품’, 그 앞에 사람의 작품은 설 곳이 없더라",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/national/weekend/2026/07/25/FYKBLGPLQVDANK3WLDGWSIUBJM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          }
+        ],
+        "link": "https://www.chosun.com/national/weekend/2026/07/25/FYKBLGPLQVDANK3WLDGWSIUBJM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      },
+      {
+        "title": "83-year-old man who went missing near Grand Canyon rescued after overnight search",
+        "reports": 1,
+        "press": [
+          "CBS News"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "83-year-old man who went missing near Grand Canyon rescued after overnight search",
+            "press": "CBS News",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2xjaHVjQ1dncXpaTkdhSUNjM1luN1N3Y2U5MThQRFBQbVNVTElNU2R1UGcyS1Njc2ZCRDM0LV8xS0txR3BVZjN4cHdiUHV6RDFOU0s4aFhVTlBTTTBWUHltYnZJRjRVTVhoOWtwdWthT08wbXZhMlBYVll3UEFuVjVLT1U2ejk0c3FqZjJ2UHQ5RWt6?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2xjaHVjQ1dncXpaTkdhSUNjM1luN1N3Y2U5MThQRFBQbVNVTElNU2R1UGcyS1Njc2ZCRDM0LV8xS0txR3BVZjN4cHdiUHV6RDFOU0s4aFhVTlBTTTBWUHltYnZJRjRVTVhoOWtwdWthT08wbXZhMlBYVll3UEFuVjVLT1U2ejk0c3FqZjJ2UHQ5RWt6?oc=5"
+      },
+      {
+        "title": "6 people have died at the Grand Canyon this year. Here's how to stay safe",
+        "reports": 1,
+        "press": [
+          "azcentral.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "6 people have died at the Grand Canyon this year. Here's how to stay safe",
+            "press": "azcentral.com",
+            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcTllcjR6djNGci1kUzhHYzVzT1lzSTA2SjR1czFleVpjTkF4cUhSSnU1ZXBCdXQ3NC02N1Vvc1ZZbTA0czhzRmpmTHI1M0hLcjJIV0dxekt2QUJRaTFsQmpjeVRtMWNaS0pHOUd6UlpNZkZBVmk4eTJKdkdKVm9FSXVIM3BsNmZITW5sMDZJVm5tR3phamtvTEZaNDhneExWY21kYTFOMDBZS3lnVU52QndhX0dBRWF0NnJ6Q0pVem5IUy1QaWwxd3h1RHlkM3JTRm5tQUdabw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcTllcjR6djNGci1kUzhHYzVzT1lzSTA2SjR1czFleVpjTkF4cUhSSnU1ZXBCdXQ3NC02N1Vvc1ZZbTA0czhzRmpmTHI1M0hLcjJIV0dxekt2QUJRaTFsQmpjeVRtMWNaS0pHOUd6UlpNZkZBVmk4eTJKdkdKVm9FSXVIM3BsNmZITW5sMDZJVm5tR3phamtvTEZaNDhneExWY21kYTFOMDBZS3lnVU52QndhX0dBRWF0NnJ6Q0pVem5IUy1QaWwxd3h1RHlkM3JTRm5tQUdabw?oc=5"
+      },
+      {
+        "title": "Ottawa gives Gros Morne tourism a $3.7M boost",
+        "reports": 1,
+        "press": [
+          "CBC"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Ottawa gives Gros Morne tourism a $3.7M boost",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGlxRGRSam9NalFRZTRnSktfWjNMc1ozOWJSb1M0OU9wZ3JHRUVKOFVObnlUdTZXblB0RmJ1YjdTSU5oNEN5UFE5MWhIbVFFRXNfMFpZYWpJbjhwNHM5ZG9jdHVxVXp5YjYwT0FlVkpieHcwRWJkeUxqR0FlUER1ZXliT0JKUkNKM0hSNVlDU1ZPUE82UVRzTWVpUDRWWi01Y19BdWY3RFJERWM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGlxRGRSam9NalFRZTRnSktfWjNMc1ozOWJSb1M0OU9wZ3JHRUVKOFVObnlUdTZXblB0RmJ1YjdTSU5oNEN5UFE5MWhIbVFFRXNfMFpZYWpJbjhwNHM5ZG9jdHVxVXp5YjYwT0FlVkpieHcwRWJkeUxqR0FlUER1ZXliT0JKUkNKM0hSNVlDU1ZPUE82UVRzTWVpUDRWWi01Y19BdWY3RFJERWM?oc=5"
+      },
+      {
+        "title": "So you think you know Acadia National Park? - Portland Press Herald",
+        "reports": 1,
+        "press": [
+          "Maine Sunday Telegram"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "So you think you know Acadia National Park? - Portland Press Herald",
+            "press": "Maine Sunday Telegram",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zX1BQRmZWT0hnbHNQU0NKYlRSYUVDREgzZHBMT3g5Z2NZU1d2STJxelpDVHp6YkJ3dkhwcHg3YU9WdHZaTmZ4dXVyNXc1bEk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zX1BQRmZWT0hnbHNQU0NKYlRSYUVDREgzZHBMT3g5Z2NZU1d2STJxelpDVHp6YkJ3dkhwcHg3YU9WdHZaTmZ4dXVyNXc1bEk?oc=5"
+      },
+      {
+        "title": "Person struck by a falling rock at Glacier National Park dies from injuries",
+        "reports": 1,
+        "press": [
+          "KPAX News"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Person struck by a falling rock at Glacier National Park dies from injuries",
+            "press": "KPAX News",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTgxWkZKT25wUWFYZFFja2VjVDlUbFB3SWpVWVdFUHE0R1Z6X0VjMHZ3MVJ2c2d4bXVoVWl1NGJTMmlQd0pTOUtYOUFuNGdfc0owV1pQVWhmYjVxNlpGT3huaXBHM1Bhclo2eGVJa2lIbEYyQU9HZnZGalJrQ3lTc2dlSnJoejZ4dTJ2MGJ2WHlQSTA3REJrRklrekYxanVqUHBN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTgxWkZKT25wUWFYZFFja2VjVDlUbFB3SWpVWVdFUHE0R1Z6X0VjMHZ3MVJ2c2d4bXVoVWl1NGJTMmlQd0pTOUtYOUFuNGdfc0owV1pQVWhmYjVxNlpGT3huaXBHM1Bhclo2eGVJa2lIbEYyQU9HZnZGalJrQ3lTc2dlSnJoejZ4dTJ2MGJ2WHlQSTA3REJrRklrekYxanVqUHBN?oc=5"
+      },
+      {
+        "title": "Yellowstone’s oldest wolf pack leaves the park, raising fears for its future",
+        "reports": 1,
+        "press": [
+          "The Salt Lake Tribune"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Yellowstone’s oldest wolf pack leaves the park, raising fears for its future",
+            "press": "The Salt Lake Tribune",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa2VaZHBmQ0lGSHdxc1BBaV8yWGhBS25vUGtVRjZDYjZERWFRNHVYc3RXaF9FemhJMnBNZUtjQzYxOWlic0pPWXUxb0hnYkwxMWVqTVVfUjA0MmFqR0JEYzNlX05aUmFVYWNDZldCWlhFYWdZSVpNWEFhd3Foc3I1emNzQVRyRGVMZnc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa2VaZHBmQ0lGSHdxc1BBaV8yWGhBS25vUGtVRjZDYjZERWFRNHVYc3RXaF9FemhJMnBNZUtjQzYxOWlic0pPWXUxb0hnYkwxMWVqTVVfUjA0MmFqR0JEYzNlX05aUmFVYWNDZldCWlhFYWdZSVpNWEFhd3Foc3I1emNzQVRyRGVMZnc?oc=5"
+      },
+      {
+        "title": "On Jim Corbett's Birth Anniversary, Wildlife Enthusiasts Highlight Need To Control Man-Animal Conflict, Curb Unbridled Tourism",
+        "reports": 1,
+        "press": [
+          "etvbharat.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "On Jim Corbett's Birth Anniversary, Wildlife Enthusiasts Highlight Need To Control Man-Animal Conflict, Curb Unbridled Tourism",
+            "press": "etvbharat.com",
+            "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcHAzNkRRNXZqRXhrbHd6R1Q0OXVCZEFBQ29DWnRUOTVPNFdrdXZVNFF2NVZDeHZvOG53SGZFWW54YzA5bm1ld0lTTXZkc09HeVREUUpwUkdyM25zcE9fcjB3S3hDRUVzTGJyZmI3QV9jbW14elFGR1QxMXZGek1KT0dnUWczOXFGdTZSNWJORVN2V01scVlnR3RnSjh3Rmx6akUzdVhNeGJWUDUyMTF1RjFDaWJlM1IzRFdSS2x3S2JUeXNyejlISHkwYzNObEc5U2pETXIwX18zZ0VIeXZYZVlYQzVlNGlaRzlUM0VhRmstTVlYTjhLcmRmYmZPdkt4S0N2RWEzVdIBjAJBVV95cUxNU2VTZHgyNnIyUW8xVXd4S0tSVEdRckZNX3gwOG1jQTZTRzR5TkpoVi1JeTRiUHVvVkZYX1dhUmJ3LTJ5eXhGelBoenV0MmE1Nk5OQ0hYQVJlY2ZxUE5jOEpmZVlfNGVYZnFuYS05ZlFkZVFHTHM3bmJQWDR4b1YzZ0NOcDdUOHB6eVV4X1JzT1N3Y1RBMHpTUnJiNldtNGlJX0lBV0tMOWVCNWN1a3ZTdEhKcmlWQ0FPb3V6bE54VURYMGVfWDIzY0hrVDd3Ym4xcWVJYTBRTkF4dmNzZ3JERGhDM2t3TDIwaHJaSXZOUllxenR5LWxUOVZmVEZYVDNOSXF5MlNGVVYxanZB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcHAzNkRRNXZqRXhrbHd6R1Q0OXVCZEFBQ29DWnRUOTVPNFdrdXZVNFF2NVZDeHZvOG53SGZFWW54YzA5bm1ld0lTTXZkc09HeVREUUpwUkdyM25zcE9fcjB3S3hDRUVzTGJyZmI3QV9jbW14elFGR1QxMXZGek1KT0dnUWczOXFGdTZSNWJORVN2V01scVlnR3RnSjh3Rmx6akUzdVhNeGJWUDUyMTF1RjFDaWJlM1IzRFdSS2x3S2JUeXNyejlISHkwYzNObEc5U2pETXIwX18zZ0VIeXZYZVlYQzVlNGlaRzlUM0VhRmstTVlYTjhLcmRmYmZPdkt4S0N2RWEzVdIBjAJBVV95cUxNU2VTZHgyNnIyUW8xVXd4S0tSVEdRckZNX3gwOG1jQTZTRzR5TkpoVi1JeTRiUHVvVkZYX1dhUmJ3LTJ5eXhGelBoenV0MmE1Nk5OQ0hYQVJlY2ZxUE5jOEpmZVlfNGVYZnFuYS05ZlFkZVFHTHM3bmJQWDR4b1YzZ0NOcDdUOHB6eVV4X1JzT1N3Y1RBMHpTUnJiNldtNGlJX0lBV0tMOWVCNWN1a3ZTdEhKcmlWQ0FPb3V6bE54VURYMGVfWDIzY0hrVDd3Ym4xcWVJYTBRTkF4dmNzZ3JERGhDM2t3TDIwaHJaSXZOUllxenR5LWxUOVZmVEZYVDNOSXF5MlNGVVYxanZB?oc=5"
+      },
+      {
+        "title": "Evacuated villagers in Cairngorms allowed home after wildfire threat lifts",
+        "reports": 1,
+        "press": [
+          "The Guardian"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Evacuated villagers in Cairngorms allowed home after wildfire threat lifts",
+            "press": "The Guardian",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSE1pbnJfWWJFVURmSnhtWVpVcGdfaGUtUUFFVE1PUzU1STRBeW82UFdJV2puNzFrX3p6dld3ZGRpTDVKSmQ4ckFsLU9VZGtTZ05fajVodlU5NlJsQ3pUWkpjR0ZPN2VxLTNvcDdIaUxRaEg4Z1V4ZUhCTUR0R0RZX2tMdEoxdGhmeUdEbkRtNUFzM09RZUJRRVVoRk5sN09Fd0JIelUtN1NHQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSE1pbnJfWWJFVURmSnhtWVpVcGdfaGUtUUFFVE1PUzU1STRBeW82UFdJV2puNzFrX3p6dld3ZGRpTDVKSmQ4ckFsLU9VZGtTZ05fajVodlU5NlJsQ3pUWkpjR0ZPN2VxLTNvcDdIaUxRaEg4Z1V4ZUhCTUR0R0RZX2tMdEoxdGhmeUdEbkRtNUFzM09RZUJRRVVoRk5sN09Fd0JIelUtN1NHQQ?oc=5"
+      },
+      {
+        "title": "'Upset' villagers return home amid 'apocalyptic' Cairngorms park wildfire",
+        "reports": 1,
+        "press": [
+          "Metro.co.uk"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "'Upset' villagers return home amid 'apocalyptic' Cairngorms park wildfire",
+            "press": "Metro.co.uk",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlJRVGRORHZadkh3NjVwdHMyMEJPUXZIYjZveElIbTlmanpHYktxVkt6UTRZRjVxdDRTYzlTblI3TTZKa2R3Z0kyZmlPZFUxVURob3ViOE5OU2VqbXdOM19JZ196ck1uVDhjdVVMZXlWdVlqNXA5bFVqMTJPOXpvX2phOWptUmxhZEMxcjdsYVBMT25MQmFxcjdITGwyVi1rY1ZrbzJLMTJ2eVNQZnpEWGx2ZmV2bW1T0gG-AUFVX3lxTFBGdi13cDBIdlNtMThXYUljcFk4OXBacE1yUndBblRlamRoV1FYUjJMdWN4bzJ2NDZ6VXJxNVlobXVneERpRkVtNXJ1NkZEQUFkOHVfMmRSSWY5alNnYWNKdWZzQkZRajBydjdObkw3b2xKZGNNUFdodTR2QnJPZ0VOM2dvODUtWWlVQmtrbzJCX0ZsOHk3RElTanJuQzZnZ3hEWFlNSks2TXBJQXFSQlAzZE4xTi1kX2RDZll5WHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlJRVGRORHZadkh3NjVwdHMyMEJPUXZIYjZveElIbTlmanpHYktxVkt6UTRZRjVxdDRTYzlTblI3TTZKa2R3Z0kyZmlPZFUxVURob3ViOE5OU2VqbXdOM19JZ196ck1uVDhjdVVMZXlWdVlqNXA5bFVqMTJPOXpvX2phOWptUmxhZEMxcjdsYVBMT25MQmFxcjdITGwyVi1rY1ZrbzJLMTJ2eVNQZnpEWGx2ZmV2bW1T0gG-AUFVX3lxTFBGdi13cDBIdlNtMThXYUljcFk4OXBacE1yUndBblRlamRoV1FYUjJMdWN4bzJ2NDZ6VXJxNVlobXVneERpRkVtNXJ1NkZEQUFkOHVfMmRSSWY5alNnYWNKdWZzQkZRajBydjdObkw3b2xKZGNNUFdodTR2QnJPZ0VOM2dvODUtWWlVQmtrbzJCX0ZsOHk3RElTanJuQzZnZ3hEWFlNSks2TXBJQXFSQlAzZE4xTi1kX2RDZll5WHc?oc=5"
+      },
+      {
+        "title": "The Lake District supermarket car park people say has the finest view in England",
+        "reports": 1,
+        "press": [
+          "Times & Star"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The Lake District supermarket car park people say has the finest view in England",
+            "press": "Times & Star",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSnZnTmtYeC1tMjZFRm5qa196dHhvM0dGUEdWTHFmbVpqSDFOY1Z1cW9fbE5zVm4tWGF0bi1IY01TOGxYd1BXOGYtcGt1NEZLbUl6bGlBbzZKeV9MbGItMEdTNGdzWWRnOWRMLW9heXQ3RXpUT1BkLVhfWUk1bWp5UkdIUTREa003bDJPZUM0cUs0LXd4MWFqVWpn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSnZnTmtYeC1tMjZFRm5qa196dHhvM0dGUEdWTHFmbVpqSDFOY1Z1cW9fbE5zVm4tWGF0bi1IY01TOGxYd1BXOGYtcGt1NEZLbUl6bGlBbzZKeV9MbGItMEdTNGdzWWRnOWRMLW9heXQ3RXpUT1BkLVhfWUk1bWp5UkdIUTREa003bDJPZUM0cUs0LXd4MWFqVWpn?oc=5"
+      }
+    ]
+  }
+}

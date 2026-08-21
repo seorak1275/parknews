@@ -1,0 +1,1015 @@
+{
+  "date": "2026-08-07",
+  "dateKo": "2026년 8월 7일 금요일",
+  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "backfilled": true,
+  "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
+  "kr": {
+    "collected": 40,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "국산 위성 활용해 지리산 산림 변화 확인",
+        "reports": 6,
+        "press": [
+          "naeil.com",
+          "ddaily.co.kr",
+          "news1.kr",
+          "e2news.com",
+          "dailian.co.kr",
+          "newsis.com"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "국산 위성 활용해 지리산 산림 변화 확인",
+            "press": "naeil.com",
+            "link": "https://www.naeil.com/news/read/598043?ref=naver"
+          },
+          {
+            "title": "국산 위성으로 국립공원 산림 변화 관측",
+            "press": "ddaily.co.kr",
+            "link": "https://www.ddaily.co.kr/page/view/2026080710384827664"
+          },
+          {
+            "title": "국산 위성으로 국립공원 산림 변화 추적…구상나무 쇠퇴도 본다",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/society/environment/6251947"
+          },
+          {
+            "title": "국산위성으로 국립공원 산림 변화 살핀다",
+            "press": "e2news.com",
+            "link": "http://www.e2news.com/news/articleView.html?idxno=333027"
+          },
+          {
+            "title": "국산 위성으로 지리산 산림 변화 포착…활엽수림·조림지 신호 차이 확...",
+            "press": "dailian.co.kr",
+            "link": "https://www.dailian.co.kr/news/view/1675571/?sc=Naver"
+          },
+          {
+            "title": "국산 위성, 국립공원 산림 변화 관측…재난대응 등 활용",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260806_0003739530"
+          }
+        ],
+        "link": "https://www.naeil.com/news/read/598043?ref=naver"
+      },
+      {
+        "title": "'멸종위기 1급' 여우 28마리 소백산 방사…GPS로 2년간 추적",
+        "reports": 3,
+        "press": [
+          "news.tvchosun.com",
+          "e2news.com",
+          "mbn.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "'멸종위기 1급' 여우 28마리 소백산 방사…GPS로 2년간 추적",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790063.html"
+          },
+          {
+            "title": "멸종위기 야생생물 Ⅰ급 여우, 소백산 품으로",
+            "press": "e2news.com",
+            "link": "http://www.e2news.com/news/articleView.html?idxno=333026"
+          },
+          {
+            "title": "'멸종위기 1급' 토종 여우가 또 소백산에 돌아왔다…28마리 추가 방사",
+            "press": "mbn.co.kr",
+            "link": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5210852"
+          }
+        ],
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790063.html"
+      },
+      {
+        "title": "주대영 국립공원공단 이사장, 소백산서 물놀이 안전실태 점검",
+        "reports": 2,
+        "press": [
+          "news1.kr",
+          "newsis.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "주대영 국립공원공단 이사장, 소백산서 물놀이 안전실태 점검",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6252814"
+          },
+          {
+            "title": "국립공원공단 이사장, 물놀이 사고 예방 안전관리 점검",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260807_0003740719"
+          }
+        ],
+        "link": "https://www.news1.kr/local/kangwon/6252814"
+      },
+      {
+        "title": "금정산성에서 공포 체험·혼자 캠핑…금정구, 야간 체류관광 운영",
+        "reports": 2,
+        "press": [
+          "mhns.co.kr",
+          "news1.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "금정산성에서 공포 체험·혼자 캠핑…금정구, 야간 체류관광 운영",
+            "press": "mhns.co.kr",
+            "link": "https://www.mhns.co.kr/news/articleView.html?idxno=755845"
+          },
+          {
+            "title": "금정산성서 미스터리·힐링 캠핑…'요즘N금정캠핑' 운영",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/busan-gyeongnam/6251931"
+          }
+        ],
+        "link": "https://www.mhns.co.kr/news/articleView.html?idxno=755845"
+      },
+      {
+        "title": "지리산국립공원 전남사무소, 성삼재도로 불법 주정차 합동단속",
+        "reports": 1,
+        "press": [
+          "nocutnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "지리산국립공원 전남사무소, 성삼재도로 불법 주정차 합동단속",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6559643?utm_source=naver&utm_medium=article&utm_campaign=20260807100802"
+          }
+        ],
+        "link": "https://www.nocutnews.co.kr/news/6559643?utm_source=naver&utm_medium=article&utm_campaign=20260807100802"
+      },
+      {
+        "title": "[단독] 갯벌 생태계 분석도 AI로…'흰발농게' 한려해상 새 서식지 확인",
+        "reports": 1,
+        "press": [
+          "news.tvchosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[단독] 갯벌 생태계 분석도 AI로…'흰발농게' 한려해상 새 서식지 확인",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790290.html"
+          }
+        ],
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790290.html"
+      },
+      {
+        "title": "한려해상 국립공원사무소 여름철 불법행위 단속",
+        "reports": 1,
+        "press": [
+          "news.kbs.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "한려해상 국립공원사무소 여름철 불법행위 단속",
+            "press": "news.kbs.co.kr",
+            "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8631303&ref=A"
+          }
+        ],
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8631303&ref=A"
+      },
+      {
+        "title": "[정책브리핑] 2026년 08월 07일 금요일 주요 정책",
+        "reports": 1,
+        "press": [
+          "sisunnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[정책브리핑] 2026년 08월 07일 금요일 주요 정책",
+            "press": "sisunnews.co.kr",
+            "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243814"
+          }
+        ],
+        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243814"
+      },
+      {
+        "title": "설악산 권금성서 폴란드 여성 심정지로 숨져",
+        "reports": 1,
+        "press": [
+          "san.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "설악산 권금성서 폴란드 여성 심정지로 숨져",
+            "press": "san.chosun.com",
+            "link": "http://san.chosun.com/news/articleView.html?idxno=26018"
+          }
+        ],
+        "link": "http://san.chosun.com/news/articleView.html?idxno=26018"
+      },
+      {
+        "title": "괴산소방서ㆍ속리산국립공원, 물놀이 안전사고 예방 합동 캠페인",
+        "reports": 1,
+        "press": [
+          "fpn119.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "괴산소방서ㆍ속리산국립공원, 물놀이 안전사고 예방 합동 캠페인",
+            "press": "fpn119.co.kr",
+            "link": "http://fpn119.co.kr/254951"
+          }
+        ],
+        "link": "http://fpn119.co.kr/254951"
+      },
+      {
+        "title": "서귀포시, 2026 Trans Jeju by UTMB 설명회.트레일러닝 교실 개최",
+        "reports": 1,
+        "press": [
+          "headlinejeju.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "서귀포시, 2026 Trans Jeju by UTMB 설명회.트레일러닝 교실 개최",
+            "press": "headlinejeju.co.kr",
+            "link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=597138"
+          }
+        ],
+        "link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=597138"
+      },
+      {
+        "title": "[르포]천혜의 자연을 폐허로 만든 '중국 자본'…결국 혈세 투입",
+        "reports": 1,
+        "press": [
+          "sidae.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[르포]천혜의 자연을 폐허로 만든 '중국 자본'…결국 혈세 투입",
+            "press": "sidae.com",
+            "link": "https://www.sidae.com/article/2026080114334162687"
+          }
+        ],
+        "link": "https://www.sidae.com/article/2026080114334162687"
+      },
+      {
+        "title": "다채로운 역사와 풍경이 어우러진 정읍 가볼 만한 곳",
+        "reports": 1,
+        "press": [
+          "joongangenews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "다채로운 역사와 풍경이 어우러진 정읍 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=536099"
+          }
+        ],
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=536099"
+      },
+      {
+        "title": "청송 가볼 만한 곳, 주왕산 용연폭포와 얼음골 힐링 코스",
+        "reports": 1,
+        "press": [
+          "tournews21.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "청송 가볼 만한 곳, 주왕산 용연폭포와 얼음골 힐링 코스",
+            "press": "tournews21.com",
+            "link": "https://www.tournews21.com/news/articleView.html?idxno=140475"
+          }
+        ],
+        "link": "https://www.tournews21.com/news/articleView.html?idxno=140475"
+      },
+      {
+        "title": "태안의 고요한 자연 속으로, 가볼 만한 곳",
+        "reports": 1,
+        "press": [
+          "topstarnews.net"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "태안의 고요한 자연 속으로, 가볼 만한 곳",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16152911"
+          }
+        ],
+        "link": "https://www.topstarnews.net/news/articleView.html?idxno=16152911"
+      },
+      {
+        "title": "쓴 여행비 절반 돌려준다… 10일부터 반값여행 신청받는 '이 지역'",
+        "reports": 1,
+        "press": [
+          "wikitree.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "쓴 여행비 절반 돌려준다… 10일부터 반값여행 신청받는 '이 지역'",
+            "press": "wikitree.co.kr",
+            "link": "https://www.wikitree.co.kr/articles/1151093"
+          }
+        ],
+        "link": "https://www.wikitree.co.kr/articles/1151093"
+      },
+      {
+        "title": "진도군, 조도지역 주민과의 현장 소통 강화",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "진도군, 조도지역 주민과의 현장 소통 강화",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/gwangju-jeonnam/6252774"
+          }
+        ],
+        "link": "https://www.news1.kr/local/gwangju-jeonnam/6252774"
+      },
+      {
+        "title": "전국 최초 '섬 반값 여행'… 거문도·쑥섬 등 16곳 50% 환급",
+        "reports": 1,
+        "press": [
+          "wikitree.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "전국 최초 '섬 반값 여행'… 거문도·쑥섬 등 16곳 50% 환급",
+            "press": "wikitree.co.kr",
+            "link": "https://www.wikitree.co.kr/articles/1150965"
+          }
+        ],
+        "link": "https://www.wikitree.co.kr/articles/1150965"
+      },
+      {
+        "title": "[진도민,속으로] [화보] 풍경마다 전설이 깃든 섬, 관매도 / 곰솔숲부터...",
+        "reports": 1,
+        "press": [
+          "topclass.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[진도민,속으로] [화보] 풍경마다 전설이 깃든 섬, 관매도 / 곰솔숲부터...",
+            "press": "topclass.chosun.com",
+            "link": "http://topclass.chosun.com/news/articleView.html?idxno=36557"
+          }
+        ],
+        "link": "http://topclass.chosun.com/news/articleView.html?idxno=36557"
+      },
+      {
+        "title": "그늘 많은 산도 방심 금물‥사람 잡는 '폭염 산행'",
+        "reports": 1,
+        "press": [
+          "imnews.imbc.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "그늘 많은 산도 방심 금물‥사람 잡는 '폭염 산행'",
+            "press": "imnews.imbc.com",
+            "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6843230_37004.html"
+          }
+        ],
+        "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6843230_37004.html"
+      },
+      {
+        "title": "광주 동부소방, 무등산서 20대 온열질환자 구조",
+        "reports": 1,
+        "press": [
+          "jnilbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "광주 동부소방, 무등산서 20대 온열질환자 구조",
+            "press": "jnilbo.com",
+            "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000055178"
+          }
+        ],
+        "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000055178"
+      },
+      {
+        "title": "[여행 브리프] 관광공사, 한국관광 데이터 세미나 외",
+        "reports": 1,
+        "press": [
+          "edaily.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[여행 브리프] 관광공사, 한국관광 데이터 세미나 외",
+            "press": "edaily.co.kr",
+            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03322646645545024"
+          }
+        ],
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03322646645545024"
+      },
+      {
+        "title": "금정산 금샘 바닥 드러냈다…기록적 폭염이 남긴 흔적",
+        "reports": 1,
+        "press": [
+          "newsis.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "금정산 금샘 바닥 드러냈다…기록적 폭염이 남긴 흔적",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260807_0003740598"
+          }
+        ],
+        "link": "https://www.newsis.com/view/NISX20260807_0003740598"
+      },
+      {
+        "title": "더 시원할 줄 알고 찾았는데…'폭염 취약 탐방로' 가보니",
+        "reports": 1,
+        "press": [
+          "news.sbs.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "더 시원할 줄 알고 찾았는데…'폭염 취약 탐방로' 가보니",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008695526&plink=ORI&cooper=NAVER"
+          }
+        ],
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008695526&plink=ORI&cooper=NAVER"
+      },
+      {
+        "title": "\"보고·듣고·체험하는 불교\"…부산국제불교박람회 개막",
+        "reports": 1,
+        "press": [
+          "beopbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"보고·듣고·체험하는 불교\"…부산국제불교박람회 개막",
+            "press": "beopbo.com",
+            "link": "https://www.beopbo.com/news/articleView.html?idxno=337008"
+          }
+        ],
+        "link": "https://www.beopbo.com/news/articleView.html?idxno=337008"
+      },
+      {
+        "title": "새끼여우 28마리 자연 품으로‥로드킬·덫 위협",
+        "reports": 1,
+        "press": [
+          "imnews.imbc.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "새끼여우 28마리 자연 품으로‥로드킬·덫 위협",
+            "press": "imnews.imbc.com",
+            "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6843071_37012.html"
+          }
+        ],
+        "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6843071_37012.html"
+      },
+      {
+        "title": "코끼리가 사라졌다… 파괴자 따로, 견디는 자 따로 '기후 불평등'[초록...",
+        "reports": 1,
+        "press": [
+          "pressian.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "코끼리가 사라졌다… 파괴자 따로, 견디는 자 따로 '기후 불평등'[초록...",
+            "press": "pressian.com",
+            "link": "https://www.pressian.com/pages/articles/2026080710501545299?utm_source=naver&utm_medium=search"
+          }
+        ],
+        "link": "https://www.pressian.com/pages/articles/2026080710501545299?utm_source=naver&utm_medium=search"
+      },
+      {
+        "title": "[호텔·리조트 트렌드] 호시노 리조트 리조나레 괌, 2026년 하반기 괌 여...",
+        "reports": 1,
+        "press": [
+          "ibabynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[호텔·리조트 트렌드] 호시노 리조트 리조나레 괌, 2026년 하반기 괌 여...",
+            "press": "ibabynews.com",
+            "link": "https://www.ibabynews.com/news/articleView.html?idxno=153531"
+          }
+        ],
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=153531"
+      },
+      {
+        "title": "경산시 대학생 22명 몽골 해외봉사로 글로벌 역량 키워",
+        "reports": 1,
+        "press": [
+          "thepowernews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "경산시 대학생 22명 몽골 해외봉사로 글로벌 역량 키워",
+            "press": "thepowernews.co.kr",
+            "link": "https://www.thepowernews.co.kr/view.php?ud=202608062353566834c923548bdf_7"
+          }
+        ],
+        "link": "https://www.thepowernews.co.kr/view.php?ud=202608062353566834c923548bdf_7"
+      },
+      {
+        "title": "천년의 숲이 부르는 하루, 거목 아래 여름을 걷다",
+        "reports": 1,
+        "press": [
+          "koreadaily.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "천년의 숲이 부르는 하루, 거목 아래 여름을 걷다",
+            "press": "koreadaily.com",
+            "link": "https://www.koreadaily.com/article/20260806211354044"
+          }
+        ],
+        "link": "https://www.koreadaily.com/article/20260806211354044"
+      },
+      {
+        "title": "전 세계 야생동물 질병 전문가들과 어깨를 나란히 한 한국 야생동물 수...",
+        "reports": 1,
+        "press": [
+          "dailyvet.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "전 세계 야생동물 질병 전문가들과 어깨를 나란히 한 한국 야생동물 수...",
+            "press": "dailyvet.co.kr",
+            "link": "https://www.dailyvet.co.kr/news/academy/292447"
+          }
+        ],
+        "link": "https://www.dailyvet.co.kr/news/academy/292447"
+      }
+    ]
+  },
+  "global": {
+    "collected": 31,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "Kenya investigates suspected cyanide poisoning after 16 elephants die in Amboseli ecosystem",
+        "reports": 3,
+        "press": [
+          "Anadolu Ajansı",
+          "africanews.com",
+          "People Daily"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Kenya investigates suspected cyanide poisoning after 16 elephants die in Amboseli ecosystem",
+            "press": "Anadolu Ajansı",
+            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS2NYd0ZzZ3Q0Q3lBVi10MThTdEN4bElfbHlncVpQSDJfZlhjWE9HbTRoa2dvTEN2ZXd4YVE2dnl1WXdyeElhMWRRVThSZi1XaUNtSWpqT2d6TjVaaVJ6UDYyVlRYN2l0VlM0QnNfUVYyWHN3VTFkWGtsZmhlUUJhT08zYzJvTmFKM2dncGJVa3g3TEZKMEZKdTFRQjJ2YWMwSjlXdnNReDBtN0ZkanU0Ql9NY1A0bG5yc0ZkXzV5MzJrUkY1TXdENkZCUVI1cW1wQ1E?oc=5"
+          },
+          {
+            "title": "Kenyan farmers reject cyanide claims after 15 elephants die in Amboseli",
+            "press": "africanews.com",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY0NrS28zX19uZmhkclhmNHlXUkpMbXJDS1NxanBJOUo5ajdqMHZYcHY0VWJGYUFwZzI4NTdUZVNVSFk5dHU3enE1eDVCdXZQMkcxY096a01ESTVIeVRYN3FLeHRSRXZYQm8tN25NVlUwQXZFR04xVE9FbDB5V2tqVnotLVJTczJ3X1BiTHFqNk5ya3d0VjVFbTJnRFp1XzJ4S0FhenBSZFdQdF8xd2lr0gG0AUFVX3lxTE9haXNCeG90Mkg2NmVJSFVCaUlDYklUcUpQZ3loc1JlOVA1RzRKVXBXMXp0cW5HQUpuT0VXWmhHNEpSVkVSR25NUmtaa0dRcFI4b25ZdTZIZHRKbXhIWW5nQndiVWZuamFlVko1bWI4eG9Id2E1VjhYekVkU3dWTkZxdUtBQ0l2U2JLek12VVlHeWhJa05hODNnYVRrTUZXNG9QdnRLbnJjMVBaNkpGeHUxV2xpeQ?oc=5"
+          },
+          {
+            "title": "KWS: Toxicology reports find 16 elephants in Amboseli died from cyanide poisoning",
+            "press": "People Daily",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdG5wd0NvNzFZdmM1c3VLQms4SGxUYl9fSk1WT1pLZXFYMzcwY19taU9IMTZUTWUtTk02VmtjXzdpUjRidnlmdVd4a0l6eHg0ZTE0VDhISjd3RC1DRlZqMUZVR3oxYktqV1pOSmctOHBGdEQyTjdVQkN3TVMxa0pvY2lEVmR4VDhRbHljT3JaSjlVdnpadGJ1TGFDNXdaYUlVMEJXcmJ4WkhRbEM3cmxiM3d4X1gxd2JCNnByUE1QLWM4UQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS2NYd0ZzZ3Q0Q3lBVi10MThTdEN4bElfbHlncVpQSDJfZlhjWE9HbTRoa2dvTEN2ZXd4YVE2dnl1WXdyeElhMWRRVThSZi1XaUNtSWpqT2d6TjVaaVJ6UDYyVlRYN2l0VlM0QnNfUVYyWHN3VTFkWGtsZmhlUUJhT08zYzJvTmFKM2dncGJVa3g3TEZKMEZKdTFRQjJ2YWMwSjlXdnNReDBtN0ZkanU0Ql9NY1A0bG5yc0ZkXzV5MzJrUkY1TXdENkZCUVI1cW1wQ1E?oc=5"
+      },
+      {
+        "title": "Bulldozers are ripping apart Big Bend National Park. Conservationists are furious.",
+        "reports": 3,
+        "press": [
+          "SFGATE",
+          "Dallas News",
+          "Newsweek"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Bulldozers are ripping apart Big Bend National Park. Conservationists are furious.",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPckp1TmRJNnNIbDgyVEhXZ0llZFNkc2labXNTOTNwTjc5TV85aTdockVCbmtMeWdEcEZsTnBWUkJXRFFtMjFsRUhYZU54S1RLeTdqQjJpbHpfY3praGtYbWtpalNVR0J0aWhMTGtKYTBTMkhobXlsb09hekpzVm0yR1NpVlpnR1JoN3hLQXF5TmFjQQ?oc=5"
+          },
+          {
+            "title": "Bulldozers clearing land in Texas’ Big Bend National Park for roads, border barriers",
+            "press": "Dallas News",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVEFLb1g2WFVJSmVZbTBoX3lCaEwyaWlMQXFtbVIySlNoeUkzZEtSYThZQV9JSmdsd1U2V0todTZBVW5kS3RBMUdlaVQydUVsMkJfZ1V5U2lGYUNkV3VlbjlDTmdaTkl1TUdCdGlKcy1jX0lhS3hWSS10dTVmQU53V0ZYR21wQzhiRWY5X2lHVVlfLUpsd1d2eEI3YzhRN2szUU1mcF9YU0VyMzA?oc=5"
+          },
+          {
+            "title": "Bulldozers Plow Through Big Bend National Park, Sparking Fury in Texas",
+            "press": "Newsweek",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY25pbU9EcjJ3TjRfMjBmM01DSTZSTFV0N0M0U3l6VTJlY2s0QWhUaU02Q3R1ZXRxcUZmd2hyOXE4VXFKRGU4LXR5d0gwZ3pteUhIdFBwZmZNQmxUNjg1dmc1akV2QTBGRno1Z3JyQUxBdEd2RkxOOHYyY09YVXJoVGtaSWxPN09HWXoxaVhEeE9YcXFBVXpNRzBLMzJ2VlhleHhEaWl3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPckp1TmRJNnNIbDgyVEhXZ0llZFNkc2labXNTOTNwTjc5TV85aTdockVCbmtMeWdEcEZsTnBWUkJXRFFtMjFsRUhYZU54S1RLeTdqQjJpbHpfY3praGtYbWtpalNVR0J0aWhMTGtKYTBTMkhobXlsb09hekpzVm0yR1NpVlpnR1JoN3hLQXF5TmFjQQ?oc=5"
+      },
+      {
+        "title": "Crews continue to fight active wildfire inside of Olympic National Park",
+        "reports": 2,
+        "press": [
+          "Tacoma News Tribune",
+          "RSPB"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Crews continue to fight active wildfire inside of Olympic National Park",
+            "press": "Tacoma News Tribune",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BdmRqRkFtUi1fc3R0UG84RTVRNzlmV2dzOC0xc3JBOFp4VnhfNm94TW9RbFRqVVFGV3lXbU1ERkdfak5xSEdjWndIUzA1dU1aVExiQkUyZVpMWmVQTUZOc2FCMkZxUXhycU52SGRR0gFuQVVfeXFMUEJZOUVENl9wSVRsQnEtOUkzSmdPcGFOTnFVejB1b2N1WW84TTlsMjM4VDY3NTJVWU9CWkppdm9mZkx1TFFvS2otemU4cW81NEJYYW5ZbUZDNnBRNmlPMlF6a29KNjFIbGotNnB1bmc?oc=5"
+          },
+          {
+            "title": "Efforts to contain Cairngorms wildfire continue",
+            "press": "RSPB",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmVYY0hKYVVJSno4VC1GNmJlUEZMMUlfYV91RnNkcllSRUZxUlFiUXU4X2hJVXZQU3k5Y2JrbVdSMlBnb2plclNURXN3cHhPNHJ0blFuM2hOdE1ZSmkyZFZFMGdZdGRZVlFpcG1MQkJaSjNMTTRDTlRTcnJDSjBPZkRkT0lSbUhDdHBLM1lYN3pkOWtqUFZj?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BdmRqRkFtUi1fc3R0UG84RTVRNzlmV2dzOC0xc3JBOFp4VnhfNm94TW9RbFRqVVFGV3lXbU1ERkdfak5xSEdjWndIUzA1dU1aVExiQkUyZVpMWmVQTUZOc2FCMkZxUXhycU52SGRR0gFuQVVfeXFMUEJZOUVENl9wSVRsQnEtOUkzSmdPcGFOTnFVejB1b2N1WW84TTlsMjM4VDY3NTJVWU9CWkppdm9mZkx1TFFvS2otemU4cW81NEJYYW5ZbUZDNnBRNmlPMlF6a29KNjFIbGotNnB1bmc?oc=5"
+      },
+      {
+        "title": "캘리포니아, 8월 축제 시즌 돌입…클래식카부터 핼러윈까지 '풍성'",
+        "reports": 1,
+        "press": [
+          "slist.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "캘리포니아, 8월 축제 시즌 돌입…클래식카부터 핼러윈까지 '풍성'",
+            "press": "slist.kr",
+            "link": "https://www.slist.kr/news/articleView.html?idxno=757269"
+          }
+        ],
+        "link": "https://www.slist.kr/news/articleView.html?idxno=757269"
+      },
+      {
+        "title": "This Futuristic Dome Glamping Resort Near Bryce Canyon Feels Like It’s on Mars—and You Can Stargaze From Your Bed",
+        "reports": 1,
+        "press": [
+          "Travel + Leisure"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "This Futuristic Dome Glamping Resort Near Bryce Canyon Feels Like It’s on Mars—and You Can Stargaze From Your Bed",
+            "press": "Travel + Leisure",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQm5UTXhIQXJ2THNRVlFDRl9DSnE1bjhhRVh5SnJFTnpkQVFvYVdZWldrNnpXR3piXzZIRnlFOWRPeTN5SGlGUWVxakZYZkp1Q2tBc0JDZFVRYmVta253czJXd3lKX0RDWHlGWC1IXzdhM1RyREJ3VG45cEVZOWV3UWJSQzFScWZYZ3ptRXVCLWNzWXdwOEoteHJzQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQm5UTXhIQXJ2THNRVlFDRl9DSnE1bjhhRVh5SnJFTnpkQVFvYVdZWldrNnpXR3piXzZIRnlFOWRPeTN5SGlGUWVxakZYZkp1Q2tBc0JDZFVRYmVta253czJXd3lKX0RDWHlGWC1IXzdhM1RyREJ3VG45cEVZOWV3UWJSQzFScWZYZ3ptRXVCLWNzWXdwOEoteHJzQQ?oc=5"
+      },
+      {
+        "title": "Escape the Heat at Bryce Canyon’s Historic Ruby’s Inn",
+        "reports": 1,
+        "press": [
+          "suindependent.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Escape the Heat at Bryce Canyon’s Historic Ruby’s Inn",
+            "press": "suindependent.com",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcE5ZTHVqaFlqUU1HbnpuRFpBREN2YXdBZEgyX3FmazFTZUdwaTVPRGphbkc1ZHYwbENmWTNmMzhqaDNvN2VsM3ltR0NqQ19xcFlkU1dDa1NWREVuNk9XZTdxYkdTSzNoN1h3QnNfMWVUazVWY1piVS1ybXRaWS1iOUVDc3o?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcE5ZTHVqaFlqUU1HbnpuRFpBREN2YXdBZEgyX3FmazFTZUdwaTVPRGphbkc1ZHYwbENmWTNmMzhqaDNvN2VsM3ltR0NqQ19xcFlkU1dDa1NWREVuNk9XZTdxYkdTSzNoN1h3QnNfMWVUazVWY1piVS1ybXRaWS1iOUVDc3o?oc=5"
+      },
+      {
+        "title": "Patience rewarded! African wildcat hunts at Etosha waterhole",
+        "reports": 1,
+        "press": [
+          "News24"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Patience rewarded! African wildcat hunts at Etosha waterhole",
+            "press": "News24",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbE5ZOHdhVExjNGM0RF9DS01rdWd3SnZGV0o4NTFkMWtCckc3azdaYmRybEJRWlJWekQ5cENFYmlNaHVMakJTZlpHTVJlalVFWVVGS18wa3VXY1IxTWppRzVaYW5lc0ZNa3dpYlU1bUk4RmotYW1OZlBWSkJWclRaOFU1bmR1Wms4RUZNa2wyS2ZwZmhXRWdqUm9oeUw3T1lpWmlraEVNYXdkVldFWjRtdA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbE5ZOHdhVExjNGM0RF9DS01rdWd3SnZGV0o4NTFkMWtCckc3azdaYmRybEJRWlJWekQ5cENFYmlNaHVMakJTZlpHTVJlalVFWVVGS18wa3VXY1IxTWppRzVaYW5lc0ZNa3dpYlU1bUk4RmotYW1OZlBWSkJWclRaOFU1bmR1Wms4RUZNa2wyS2ZwZmhXRWdqUm9oeUw3T1lpWmlraEVNYXdkVldFWjRtdA?oc=5"
+      },
+      {
+        "title": "Thermal drones deployed in Kenya’s Amboseli Park to tackle human-elephant conflict - news",
+        "reports": 1,
+        "press": [
+          "Mongabay"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Thermal drones deployed in Kenya’s Amboseli Park to tackle human-elephant conflict - news",
+            "press": "Mongabay",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLWhlSFMwbW9qNXhwN2ZlS0xBaHVVcHo0blBoc0drSjA1TnNWakJER2pQMm1zTEdhWUt3T0dvZlVIRWVqVk9icWJvdHczd05zd29FTGZkNXVrbXl3OXNzMFRIQWxWTXFmZFZLamhfQTl2T2VSSElXVXRsWnF3b3BucWNCNUlqbzFtR29fdVBWSllnMi1pMEdhYzJVdmh5NU9TYUNTUHNOcWhLRlByS2ctTFRnWHV1aVnSAbwBQVVfeXFMUFF0TkRwcjFScDhhTk8yQWtMVkpIcXV6VHNaRG5MR3JXbTRpZTRYMXhVc3UwUjQ3TjJMUV9DSzRlbFluR1o0MHRQYjFmZWZZTTN0eW1ueTNwM0FTTmtWeHhSMGVmUUx3aXh3RUtGQ2JGVUs0MldrSUg1NzRGMzJ1anFKTzR2Mlhad1lTclZlNXo3S0JsVXV4UHZwQ3FyazctRkE3V2I1aGdPcm1kdEZvLWxXSjNvSHJMeE9GVUw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLWhlSFMwbW9qNXhwN2ZlS0xBaHVVcHo0blBoc0drSjA1TnNWakJER2pQMm1zTEdhWUt3T0dvZlVIRWVqVk9icWJvdHczd05zd29FTGZkNXVrbXl3OXNzMFRIQWxWTXFmZFZLamhfQTl2T2VSSElXVXRsWnF3b3BucWNCNUlqbzFtR29fdVBWSllnMi1pMEdhYzJVdmh5NU9TYUNTUHNOcWhLRlByS2ctTFRnWHV1aVnSAbwBQVVfeXFMUFF0TkRwcjFScDhhTk8yQWtMVkpIcXV6VHNaRG5MR3JXbTRpZTRYMXhVc3UwUjQ3TjJMUV9DSzRlbFluR1o0MHRQYjFmZWZZTTN0eW1ueTNwM0FTTmtWeHhSMGVmUUx3aXh3RUtGQ2JGVUs0MldrSUg1NzRGMzJ1anFKTzR2Mlhad1lTclZlNXo3S0JsVXV4UHZwQ3FyazctRkE3V2I1aGdPcm1kdEZvLWxXSjNvSHJMeE9GVUw?oc=5"
+      },
+      {
+        "title": "KWS Probes Suspected Cyanide Poisoning After 16 Elephants Die in Amboseli",
+        "reports": 1,
+        "press": [
+          "Dawan Africa"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "KWS Probes Suspected Cyanide Poisoning After 16 Elephants Die in Amboseli",
+            "press": "Dawan Africa",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZU5valktMC1oVjlhZWNZYm90aDVuMnFIZzJ3Y1hyYUxMa3NZS29CWEUzZDl1ak8wUGY0V3l1ZnphUFJDczBnR2dWd0U5d3hKa2FjVWlQTDlQcWtaWkJ0M3Job2tzcEJwdVBNS0hKUVJ5cGJTQW5fdmJRN3c0UERGWWVISC0xblJRUDJXdWlwdHI1dFgyWXlMekM1LTM1Q0pTTlZVSGNn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZU5valktMC1oVjlhZWNZYm90aDVuMnFIZzJ3Y1hyYUxMa3NZS29CWEUzZDl1ak8wUGY0V3l1ZnphUFJDczBnR2dWd0U5d3hKa2FjVWlQTDlQcWtaWkJ0M3Job2tzcEJwdVBNS0hKUVJ5cGJTQW5fdmJRN3c0UERGWWVISC0xblJRUDJXdWlwdHI1dFgyWXlMekM1LTM1Q0pTTlZVSGNn?oc=5"
+      },
+      {
+        "title": "Amboseli elephant death toll at 16 as KWS rules out infectious disease, awaits final test results",
+        "reports": 1,
+        "press": [
+          "Citizen Digital"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Amboseli elephant death toll at 16 as KWS rules out infectious disease, awaits final test results",
+            "press": "Citizen Digital",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTnFxZkIwM1NzenVsakQ1LWxpSnhXRG50RjhaR19RUVpzZU94ZmFTUjQtSTczZThuQVdNWDlLY1ZkSlE0VjRVU1ZzSG9OanZMalFsVzRma2M0QnU0SktnOWRhbDdwZGRNa0xZSjBYYlNXU0lMY0ZzZzRYVzhpZWNFb3JwSXZ3Vk9vVkVNVDlSdWw2bG9wRWFKaG9mVEc5dFZmYllHSDdOd2tIZm9tR0VDbURrS2lSZXRPMUVQTmVjREZ3MHQ4NUhQY04xb1VfZURkWUd3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTnFxZkIwM1NzenVsakQ1LWxpSnhXRG50RjhaR19RUVpzZU94ZmFTUjQtSTczZThuQVdNWDlLY1ZkSlE0VjRVU1ZzSG9OanZMalFsVzRma2M0QnU0SktnOWRhbDdwZGRNa0xZSjBYYlNXU0lMY0ZzZzRYVzhpZWNFb3JwSXZ3Vk9vVkVNVDlSdWw2bG9wRWFKaG9mVEc5dFZmYllHSDdOd2tIZm9tR0VDbURrS2lSZXRPMUVQTmVjREZ3MHQ4NUhQY04xb1VfZURkWUd3?oc=5"
+      },
+      {
+        "title": "Caribou born in Jasper breeding facility take first steps into the wild",
+        "reports": 1,
+        "press": [
+          "Rocky Mountain Outlook"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Caribou born in Jasper breeding facility take first steps into the wild",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHNRSUs2VjNPQ21MeEV2UC1TM0JoYWZ5T1pjdFFTaFlsZzZsQlVIckxTVkVBYVdGd243NGJaWTYwS1Nqc2NweHdidS1WQXFxbzd6N0JQOGxHNE01MmpTUHVmZFQzcmJHaGt3Z3ZYbVZZUkFlUDJIYzliTXRUUWRKZXVVdVRXbE5xWnQ0RHpvWERlY3J3UHprNWVXbElBakRBMWphUkFLNHdFQTRMMnhNNWNUaTVLTHRzWlE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHNRSUs2VjNPQ21MeEV2UC1TM0JoYWZ5T1pjdFFTaFlsZzZsQlVIckxTVkVBYVdGd243NGJaWTYwS1Nqc2NweHdidS1WQXFxbzd6N0JQOGxHNE01MmpTUHVmZFQzcmJHaGt3Z3ZYbVZZUkFlUDJIYzliTXRUUWRKZXVVdVRXbE5xWnQ0RHpvWERlY3J3UHprNWVXbElBakRBMWphUkFLNHdFQTRMMnhNNWNUaTVLTHRzWlE?oc=5"
+      },
+      {
+        "title": "Arrest Made After Stolen Boat Runs Out Of Fuel In Everglades National Park",
+        "reports": 1,
+        "press": [
+          "National Enquirer"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Arrest Made After Stolen Boat Runs Out Of Fuel In Everglades National Park",
+            "press": "National Enquirer",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbnphR3pCVG43NXVRNm9rSVJwTDRnaG10Q25OVkl6MkJlSFZodlRIOFJHNmNyUmtEc0VsNkdlSmYyMnlaQkFrNnF3TTVZU1h5SGdJc0FtM3l4cWJKRGlpaUoyTEdKemRZWW5sZlJ4ZzM5UUdwM3g5dWs0NGJSV1QydDBNZDZNZk0zbjFIRTcxS0tPWGp3NGM5R3BBQVQ4aDBCdTJWM3ljQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbnphR3pCVG43NXVRNm9rSVJwTDRnaG10Q25OVkl6MkJlSFZodlRIOFJHNmNyUmtEc0VsNkdlSmYyMnlaQkFrNnF3TTVZU1h5SGdJc0FtM3l4cWJKRGlpaUoyTEdKemRZWW5sZlJ4ZzM5UUdwM3g5dWs0NGJSV1QydDBNZDZNZk0zbjFIRTcxS0tPWGp3NGM5R3BBQVQ4aDBCdTJWM3ljQQ?oc=5"
+      },
+      {
+        "title": "Another person drowns at Sequoia National Park, following teen’s death earlier this summer",
+        "reports": 1,
+        "press": [
+          "New York Post"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Another person drowns at Sequoia National Park, following teen’s death earlier this summer",
+            "press": "New York Post",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYkFINDRSRGYxQTlINjlVUXZJd3Fsb1E2ckJEczZ5X2NmNWdReElwTDN3dVVMNEJXR2V3RVZMTlFwN2c0TGl3V2pTby1ETVRhcDlOVmlhNnk0a3pkb1NxalY0VVlwZ1dXRTVDdE5UMklialQwU2w0TmpDNUtDWDNzdVZNVEJXdTBuMDVQYVFsRU9YZEE1NWgtaGRIV1I1QkE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYkFINDRSRGYxQTlINjlVUXZJd3Fsb1E2ckJEczZ5X2NmNWdReElwTDN3dVVMNEJXR2V3RVZMTlFwN2c0TGl3V2pTby1ETVRhcDlOVmlhNnk0a3pkb1NxalY0VVlwZ1dXRTVDdE5UMklialQwU2w0TmpDNUtDWDNzdVZNVEJXdTBuMDVQYVFsRU9YZEE1NWgtaGRIV1I1QkE?oc=5"
+      },
+      {
+        "title": "Yosemite National Park warning visitors about 'summer branch drop' season",
+        "reports": 1,
+        "press": [
+          "ABC30 Fresno"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Yosemite National Park warning visitors about 'summer branch drop' season",
+            "press": "ABC30 Fresno",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUw5bHd0QzNUOVhzek40WWN6MGN6WEdFSXR4VjVCQ1RlbU9FckFVd2hIanFPaTk5NGZQNG41MS1DbENFYWItSnBOVHR5RDZRQVVhV1h5YzJ2bE1SaEhKVDM4SmRRbkVUV1YyWXFaMWxzU0p5czZocVFSb3o2S3Y2OFJwTElkbmhvZ1ZOellNZ3puN3ZTSktUaE80OGx6WDDSAaQBQVVfeXFMTzkyc1hRajctOTY1SHRFNkV2cDNWWEpPZ3YzSTBDVExuLXFpejZwRUQxV1puUGVpWld6N2VJZGgzU3M0QV9fZl80VXc1R3I5N3puSHc2OW9zbUZ1ck5YRGVWUFpsUXVXSmp0RWExMDZBZExRRGZRSF9SSVNnWk9EWFRGaEN6cTNXWFRzZUFXVXhJT0FIWDN0cEU0bVVaeWhrRDdqNkU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUw5bHd0QzNUOVhzek40WWN6MGN6WEdFSXR4VjVCQ1RlbU9FckFVd2hIanFPaTk5NGZQNG41MS1DbENFYWItSnBOVHR5RDZRQVVhV1h5YzJ2bE1SaEhKVDM4SmRRbkVUV1YyWXFaMWxzU0p5czZocVFSb3o2S3Y2OFJwTElkbmhvZ1ZOellNZ3puN3ZTSktUaE80OGx6WDDSAaQBQVVfeXFMTzkyc1hRajctOTY1SHRFNkV2cDNWWEpPZ3YzSTBDVExuLXFpejZwRUQxV1puUGVpWld6N2VJZGgzU3M0QV9fZl80VXc1R3I5N3puSHc2OW9zbUZ1ck5YRGVWUFpsUXVXSmp0RWExMDZBZExRRGZRSF9SSVNnWk9EWFRGaEN6cTNXWFRzZUFXVXhJT0FIWDN0cEU0bVVaeWhrRDdqNkU?oc=5"
+      },
+      {
+        "title": "Kaziranga national park records highest tourist influx in 2025-26 year",
+        "reports": 1,
+        "press": [
+          "The News Mill"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Kaziranga national park records highest tourist influx in 2025-26 year",
+            "press": "The News Mill",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2F3T0FzWmJpNWlSeG9Fc29TMjVhZm1ZWDVXTUZ3ZWxWTXdhUGZqeXhOaW5nX2dtc2QyZHFRaHpOWFpMWFNIWEJQQmFab2pLTzRia1BlaG56d3dEZ1FFLVJnUlBfbW84TWhSejN6TkRGUXFrb0xkOVl2ZHhmRXJBU3dmNmlESUN4LU1oRmNvTDN3eXFOWUJKd3JabFNKRGlTWHdCa0FB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2F3T0FzWmJpNWlSeG9Fc29TMjVhZm1ZWDVXTUZ3ZWxWTXdhUGZqeXhOaW5nX2dtc2QyZHFRaHpOWFpMWFNIWEJQQmFab2pLTzRia1BlaG56d3dEZ1FFLVJnUlBfbW84TWhSejN6TkRGUXFrb0xkOVl2ZHhmRXJBU3dmNmlESUN4LU1oRmNvTDN3eXFOWUJKd3JabFNKRGlTWHdCa0FB?oc=5"
+      },
+      {
+        "title": "All systems go: The Table Mountain Aerial Cableway reopens this Monday",
+        "reports": 1,
+        "press": [
+          "Time Out Worldwide"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "All systems go: The Table Mountain Aerial Cableway reopens this Monday",
+            "press": "Time Out Worldwide",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkVhQ2FuZjhQeXlWeTdYVmh1dlVwR3ZrMkFyalg0X09zNnZRbGtUM0NsY2VVaEZ0aWkzNERjSGdVQW40c1VUQ0NWVnJQVjhfRms0UVppMEwySklhbkRfRDhRY1MybmpwM29HV29JejE4a01HVER6WTVPTDI3Z1JyZGdzaFhqdzFfVzlvdlNtSjRDUGtjUTlzdXRiMXZvcWl0eVE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkVhQ2FuZjhQeXlWeTdYVmh1dlVwR3ZrMkFyalg0X09zNnZRbGtUM0NsY2VVaEZ0aWkzNERjSGdVQW40c1VUQ0NWVnJQVjhfRms0UVppMEwySklhbkRfRDhRY1MybmpwM29HV29JejE4a01HVER6WTVPTDI3Z1JyZGdzaFhqdzFfVzlvdlNtSjRDUGtjUTlzdXRiMXZvcWl0eVE?oc=5"
+      },
+      {
+        "title": "Second wildfire in two days keeps initial attack crews busy in Yoho National Park",
+        "reports": 1,
+        "press": [
+          "Rocky Mountain Outlook"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Second wildfire in two days keeps initial attack crews busy in Yoho National Park",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM1RSMElTVjBXOEVXUjlNVE1vRTNHVjc5Z2had3BNVzBiTzlCQmEwOUNLWHpxc1pLZnJpVkh3OVVVTGRpMkRxMy1VVlFxM3djQzRLOU9hZXZiaHhMN2ZYMDFvU01fS3luLXE3XzNyajZ6UzZyS0UxbmlVdWtPRzNfcWNFZUIwWGRDUE9FdjhOOXJjaXpQWk05T2d5SWx3NlB0d0M0aGtqd2tZOFFWVDZ1R1dRdG5nTmNsY3lVMHBEMA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM1RSMElTVjBXOEVXUjlNVE1vRTNHVjc5Z2had3BNVzBiTzlCQmEwOUNLWHpxc1pLZnJpVkh3OVVVTGRpMkRxMy1VVlFxM3djQzRLOU9hZXZiaHhMN2ZYMDFvU01fS3luLXE3XzNyajZ6UzZyS0UxbmlVdWtPRzNfcWNFZUIwWGRDUE9FdjhOOXJjaXpQWk05T2d5SWx3NlB0d0M0aGtqd2tZOFFWVDZ1R1dRdG5nTmNsY3lVMHBEMA?oc=5"
+      },
+      {
+        "title": "Wildfire burning over 300 acres and growing in Mount Rainier National Park",
+        "reports": 1,
+        "press": [
+          "KOMO"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Wildfire burning over 300 acres and growing in Mount Rainier National Park",
+            "press": "KOMO",
+            "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNenR5cU1ia3pHUDFHNjlMZ0NBN2RTdUtvOTh0YmtZMlJJRHdmSEhONTBBUURsWGhoMWVqZ1BDeHlvazFzTF82YmVlczA2RHJvZWkxLS1md21qQ1ljaHBxcS1aVlNwZ2N6SkQ2OC1wellCZDNCVHd5QUFqMlgwaDFwSUcxRWdLVmJMc0kzLVo2TlJsUWxIWm9XZzQyTHNfd2NyZW5nZUc5T09NRDVIWTdiU3gzVUszS1Q0S3RIREU1aWxmaWVpdDdJbUZ5SEYyQXZDLUs4UHZlRkI2YjF3SExyaUJJUmw5WE5QZU9PZTlNbjJ2eUo5QmZrTlNtOGpDeVlBUTc1TVY3S2thRFZqMzU4Z2gxUnZlbVlwTEtCZ0RObExHUkxU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNenR5cU1ia3pHUDFHNjlMZ0NBN2RTdUtvOTh0YmtZMlJJRHdmSEhONTBBUURsWGhoMWVqZ1BDeHlvazFzTF82YmVlczA2RHJvZWkxLS1md21qQ1ljaHBxcS1aVlNwZ2N6SkQ2OC1wellCZDNCVHd5QUFqMlgwaDFwSUcxRWdLVmJMc0kzLVo2TlJsUWxIWm9XZzQyTHNfd2NyZW5nZUc5T09NRDVIWTdiU3gzVUszS1Q0S3RIREU1aWxmaWVpdDdJbUZ5SEYyQXZDLUs4UHZlRkI2YjF3SExyaUJJUmw5WE5QZU9PZTlNbjJ2eUo5QmZrTlNtOGpDeVlBUTc1TVY3S2thRFZqMzU4Z2gxUnZlbVlwTEtCZ0RObExHUkxU?oc=5"
+      },
+      {
+        "title": "Mount Rainier closes Sunrise, White River roads to SR 410 due to fire| UPDATE",
+        "reports": 1,
+        "press": [
+          "courierherald.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Mount Rainier closes Sunrise, White River roads to SR 410 due to fire| UPDATE",
+            "press": "courierherald.com",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEYtMjFlWlQ0U0FwX1NjQXhwTUdaVnE1N2xQUnEtWGdhZjkwNUxRczZ0OEZYRlJGQVl4UWpyS21vVEVYbFpXUnJaQXl2Y3d6R0RrNG1sT0lQd19hSUhsNEYxZGEzNXdRck1fUzE4QTdpVHpTUnFnbHY2VnBOM0JSRmNNV2llRjcwX0lzMHB5RmN4YTlhVjBHOGpyS2NBeTBfR0RZVVlkNA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEYtMjFlWlQ0U0FwX1NjQXhwTUdaVnE1N2xQUnEtWGdhZjkwNUxRczZ0OEZYRlJGQVl4UWpyS21vVEVYbFpXUnJaQXl2Y3d6R0RrNG1sT0lQd19hSUhsNEYxZGEzNXdRck1fUzE4QTdpVHpTUnFnbHY2VnBOM0JSRmNNV2llRjcwX0lzMHB5RmN4YTlhVjBHOGpyS2NBeTBfR0RZVVlkNA?oc=5"
+      },
+      {
+        "title": "UPDATE: Banff restaurant blaze 'under control', cause being investigated",
+        "reports": 1,
+        "press": [
+          "Rocky Mountain Outlook"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "UPDATE: Banff restaurant blaze 'under control', cause being investigated",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb05EQzdDd3dGR1BpNGFGTFNBaGdzRHgtM3NObnhjS0VtLTE1R3I4YUtrb3RwTUpMQTlSV3laczZ4Umx2aVluUjRBcUNtYVhQdzFqRkVPMGh2STAwLUVjME80V2VUSk9qUU5XSHJyX3FCNWdhTU1XcDdiZVRFR1hvSHQ0cWV6WVVKZmFxWDZWQWpFZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb05EQzdDd3dGR1BpNGFGTFNBaGdzRHgtM3NObnhjS0VtLTE1R3I4YUtrb3RwTUpMQTlSV3laczZ4Umx2aVluUjRBcUNtYVhQdzFqRkVPMGh2STAwLUVjME80V2VUSk9qUU5XSHJyX3FCNWdhTU1XcDdiZVRFR1hvSHQ0cWV6WVVKZmFxWDZWQWpFZw?oc=5"
+      },
+      {
+        "title": "SEE | ‘My heart becomes free’: ‘The Nanny’ star Fran Drescher’s Kruger safari",
+        "reports": 1,
+        "press": [
+          "News24"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "SEE | ‘My heart becomes free’: ‘The Nanny’ star Fran Drescher’s Kruger safari",
+            "press": "News24",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNUk1d2NXYkJwV3NiSkpLNDRCdkRVYWh6MWEyTVNHWVdLZW9sbVZjN21aTWxuMHQ5OFdHeWdwV0hmVjBDdm4xUThVek5vbnZCbklpQ2VvQ1QyeFVEdjZUb0IyRWpIWlRqVjczLTJ4eGFJOXhVSHd5VG9GLUowS3ZvOE1tQlUtMmVfT0xnV25sLUVnc1JtYzJhSGhzd2dTWjRSbDBLaUF2N3h5ZEhUbmpmMnFqRmNBek5fN18yZEJSNHkwaGhGcmcxVVg0TDI4MlM4Y1hJeDJJYXZ0aG1tMGMw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNUk1d2NXYkJwV3NiSkpLNDRCdkRVYWh6MWEyTVNHWVdLZW9sbVZjN21aTWxuMHQ5OFdHeWdwV0hmVjBDdm4xUThVek5vbnZCbklpQ2VvQ1QyeFVEdjZUb0IyRWpIWlRqVjczLTJ4eGFJOXhVSHd5VG9GLUowS3ZvOE1tQlUtMmVfT0xnV25sLUVnc1JtYzJhSGhzd2dTWjRSbDBLaUF2N3h5ZEhUbmpmMnFqRmNBek5fN18yZEJSNHkwaGhGcmcxVVg0TDI4MlM4Y1hJeDJJYXZ0aG1tMGMw?oc=5"
+      },
+      {
+        "title": "Bulldozers Descend On Big Bend National Park As Trump Keeps Disfiguring America",
+        "reports": 1,
+        "press": [
+          "HuffPost"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Bulldozers Descend On Big Bend National Park As Trump Keeps Disfiguring America",
+            "press": "HuffPost",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1M2eXU5ME5CX1lqM2JITU1UeElhRG9CZXFyTWJQYm94bFYzM3pVU1IwdkctREhfMS1MeF9GYlFmbmdTQVR6eF9xQjFKcWs0bVRmU1NQZ0RRSjJka0lCcUR4blpVR0t3QkQzWFd0WWJCVmU4X0JqVVFXSnZySVk2dThsSFpjUmxfdW5iSDdvamU4d9IBlwFBVV95cUxNcFhxWFp2RmtUc09Pcms5NzVjQzRmV3dlNDB4LWlyU0t3SnpnRGRkVjRiMHNtTTM2R1dTNnRaVlZ6d01QRllCb2VPVzRVY2thb1hTaElmbkprdmVyT2JSaEUxQkttTVlVbVlpdUktOE1NNElfWjB5ZUVlaWN4czVKNkZQMXhuQU5wZ1hXcnpPZWl1LXI5VUtv?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1M2eXU5ME5CX1lqM2JITU1UeElhRG9CZXFyTWJQYm94bFYzM3pVU1IwdkctREhfMS1MeF9GYlFmbmdTQVR6eF9xQjFKcWs0bVRmU1NQZ0RRSjJka0lCcUR4blpVR0t3QkQzWFd0WWJCVmU4X0JqVVFXSnZySVk2dThsSFpjUmxfdW5iSDdvamU4d9IBlwFBVV95cUxNcFhxWFp2RmtUc09Pcms5NzVjQzRmV3dlNDB4LWlyU0t3SnpnRGRkVjRiMHNtTTM2R1dTNnRaVlZ6d01QRllCb2VPVzRVY2thb1hTaElmbkprdmVyT2JSaEUxQkttTVlVbVlpdUktOE1NNElfWjB5ZUVlaWN4czVKNkZQMXhuQU5wZ1hXcnpPZWl1LXI5VUtv?oc=5"
+      },
+      {
+        "title": "Live updates: £3million for business impacted by wildfire as SOME Cairngorms roads finally reopen",
+        "reports": 1,
+        "press": [
+          "Press and Journal"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Live updates: £3million for business impacted by wildfire as SOME Cairngorms roads finally reopen",
+            "press": "Press and Journal",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1pjWGozOXpSRDYxSUdnUEoySmEtT2ZEbHR2b2RDUGJmeU5Va2xEREk3ZmJuWlRKRkVQN2E0RGhNMTRwbHdFN1VBbGNqWEdaV3RqMGlUdjVUNjd6TDRPdWpGNHlPX005WXhvMzliYkJGclhFRkEzQ0hDemlZRWs3b2JVczlDUXhuczVOMHVIRzg0dS1za2RFcjhWVWxMZlczQk0zbTJWSWg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1pjWGozOXpSRDYxSUdnUEoySmEtT2ZEbHR2b2RDUGJmeU5Va2xEREk3ZmJuWlRKRkVQN2E0RGhNMTRwbHdFN1VBbGNqWEdaV3RqMGlUdjVUNjd6TDRPdWpGNHlPX005WXhvMzliYkJGclhFRkEzQ0hDemlZRWs3b2JVczlDUXhuczVOMHVIRzg0dS1za2RFcjhWVWxMZlczQk0zbTJWSWg?oc=5"
+      },
+      {
+        "title": "Glenmore area to reopen after multi-agency assessment of Cairngorms wildfire",
+        "reports": 1,
+        "press": [
+          "Scottish Fire and Rescue Service"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Glenmore area to reopen after multi-agency assessment of Cairngorms wildfire",
+            "press": "Scottish Fire and Rescue Service",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0plQ2tUSFF0SFFzOTE0bjdMUFJMNVgyYXNOUW1XeENuOTRSdTRadmk2dDZubnVYdlM2RjZyeFBaV2gxdU91SldyTHhXd1V1ZEpyYkw4dE02X1AtbjhCaWtTUHU3WTExNzYycVE2c3hxY0Qtd29UbFp2OFJ1Ri1MQzhOelhkbldIQm5oWFhXVnVXeVFyQmFQdEJsRURoZjBybTZEOVNhUGVPY3N6blBTVkhRcmo?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0plQ2tUSFF0SFFzOTE0bjdMUFJMNVgyYXNOUW1XeENuOTRSdTRadmk2dDZubnVYdlM2RjZyeFBaV2gxdU91SldyTHhXd1V1ZEpyYkw4dE02X1AtbjhCaWtTUHU3WTExNzYycVE2c3hxY0Qtd29UbFp2OFJ1Ri1MQzhOelhkbldIQm5oWFhXVnVXeVFyQmFQdEJsRURoZjBybTZEOVNhUGVPY3N6blBTVkhRcmo?oc=5"
+      },
+      {
+        "title": "Part of wildfire cordon around village in Cairngorms lifted",
+        "reports": 1,
+        "press": [
+          "The Independent"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Part of wildfire cordon around village in Cairngorms lifted",
+            "press": "The Independent",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGl4aHdDbEdHYlZXWWZtTnJjNzZWejdtMVhLRkJDZ1psdi1DWENnWkpOTnlDYzNkb3l5U0ZaYnRZcWNDeEwtSUtRNzFjMXY5aFVFbjlPZVFqbndIX0lUVktfWE9wV1MteHREa2hVcEp1VVl4SUFfUjFkUWdFXzVweEJXRDE4eTNITVRUbkpuVXhtMm5VTXA2S0dtSHRxSmFkSXZRSk1GWGQzTXJOdDloUzZR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGl4aHdDbEdHYlZXWWZtTnJjNzZWejdtMVhLRkJDZ1psdi1DWENnWkpOTnlDYzNkb3l5U0ZaYnRZcWNDeEwtSUtRNzFjMXY5aFVFbjlPZVFqbndIX0lUVktfWE9wV1MteHREa2hVcEp1VVl4SUFfUjFkUWdFXzVweEJXRDE4eTNITVRUbkpuVXhtMm5VTXA2S0dtSHRxSmFkSXZRSk1GWGQzTXJOdDloUzZR?oc=5"
+      },
+      {
+        "title": "Tikal and its stone temples above the jungle - ad-hoc-news.de",
+        "reports": 1,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Tikal and its stone temples above the jungle - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkJ2RGJ0TElWZUMyczlBR1dsUUJqYWNEQU5WZXVWRkRLWmFMRXlKNjEyNWhOLTdvSkFyblNrQ2lETlV2YXA4NEJQc0toR3d4ZzhjLWMtQmkyWWlPRnZYLUFaREcwQmh0NWJMR3hNX19tdEZRaERmMk1sUHNBWjNpY0gzeXJmblVhbVQwdWtnQUxWLVhkRFA5ZTdTUGR6MEhTdVE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkJ2RGJ0TElWZUMyczlBR1dsUUJqYWNEQU5WZXVWRkRLWmFMRXlKNjEyNWhOLTdvSkFyblNrQ2lETlV2YXA4NEJQc0toR3d4ZzhjLWMtQmkyWWlPRnZYLUFaREcwQmh0NWJMR3hNX19tdEZRaERmMk1sUHNBWjNpY0gzeXJmblVhbVQwdWtnQUxWLVhkRFA5ZTdTUGR6MEhTdVE?oc=5"
+      }
+    ]
+  }
+}

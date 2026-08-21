@@ -1,0 +1,672 @@
+{
+  "date": "2026-08-08",
+  "dateKo": "2026년 8월 8일 토요일",
+  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "backfilled": true,
+  "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
+  "kr": {
+    "collected": 22,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "트럼프 백악관 연회장 건설 법원이 또 제동…\"대통령은 세입자\"",
+        "reports": 3,
+        "press": [
+          "mt.co.kr",
+          "news.sbs.co.kr",
+          "news1.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "트럼프 백악관 연회장 건설 법원이 또 제동…\"대통령은 세입자\"",
+            "press": "mt.co.kr",
+            "link": "https://www.mt.co.kr/world/2026/08/08/2026080808214451752"
+          },
+          {
+            "title": "\"대통령은 세입자\" 항소법원도 연회장 공사 '불법' 판결…트럼프 격분·...",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008695719&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "\"대통령은 세입자\" 美법원 연회장 판결에 트럼프 격분…대법원 상고(종...",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/world/usa-canada/6252954"
+          }
+        ],
+        "link": "https://www.mt.co.kr/world/2026/08/08/2026080808214451752"
+      },
+      {
+        "title": "괴산, 여름날의 자연 속에서 만나는 고즈넉한 풍경 가볼 만한 곳",
+        "reports": 2,
+        "press": [
+          "joongangenews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "괴산, 여름날의 자연 속에서 만나는 고즈넉한 풍경 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=536799"
+          },
+          {
+            "title": "제천에서 만나는 자연과 역사, 여름에 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=536791"
+          }
+        ],
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=536799"
+      },
+      {
+        "title": "태풍 '돌핀' 영향…남해안 3~4m 높은 파도, 해수욕장 안전 주의 [포토]",
+        "reports": 1,
+        "press": [
+          "newskr.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "태풍 '돌핀' 영향…남해안 3~4m 높은 파도, 해수욕장 안전 주의 [포토]",
+            "press": "newskr.kr",
+            "link": "http://www.newskr.kr/news/articleView.html?idxno=105461"
+          }
+        ],
+        "link": "http://www.newskr.kr/news/articleView.html?idxno=105461"
+      },
+      {
+        "title": "인생의 매서운 바람 맞으셨나요? 울산바위 추천합니다",
+        "reports": 1,
+        "press": [
+          "ohmynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "인생의 매서운 바람 맞으셨나요? 울산바위 추천합니다",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003257358&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          }
+        ],
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003257358&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      },
+      {
+        "title": "24시간 대기, 13시간 구조… 손 대장은 오늘도 절벽에 오른다",
+        "reports": 1,
+        "press": [
+          "hankookilbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "24시간 대기, 13시간 구조… 손 대장은 오늘도 절벽에 오른다",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026080609540001388?did=NA"
+          }
+        ],
+        "link": "https://www.hankookilbo.com/news/article/A2026080609540001388?did=NA"
+      },
+      {
+        "title": "\"강원도 폭우에 '한숨'…더위 피해 전국 피서지 인산인해\"",
+        "reports": 1,
+        "press": [
+          "gokorea.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"강원도 폭우에 '한숨'…더위 피해 전국 피서지 인산인해\"",
+            "press": "gokorea.kr",
+            "link": "https://www.gokorea.kr/news/articleView.html?idxno=874474"
+          }
+        ],
+        "link": "https://www.gokorea.kr/news/articleView.html?idxno=874474"
+      },
+      {
+        "title": "날씨, 종잡을 수가 없네… 동해는 폭우, 서해는 폭염",
+        "reports": 1,
+        "press": [
+          "kmib.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "날씨, 종잡을 수가 없네… 동해는 폭우, 서해는 폭염",
+            "press": "kmib.co.kr",
+            "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000001384&cp=nv"
+          }
+        ],
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000001384&cp=nv"
+      },
+      {
+        "title": "“더위 피하러 갔는데 ‘물폭탄’”…강릉 시간당 81㎜, 피서객 7명 고립",
+        "reports": 1,
+        "press": [
+          "mk.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "“더위 피하러 갔는데 ‘물폭탄’”…강릉 시간당 81㎜, 피서객 7명 고립",
+            "press": "mk.co.kr",
+            "link": "https://www.mk.co.kr/article/12121738"
+          }
+        ],
+        "link": "https://www.mk.co.kr/article/12121738"
+      },
+      {
+        "title": "날씨 양극화…강원·경북 동해안 '폭우', 그 외 지역은 '폭염'",
+        "reports": 1,
+        "press": [
+          "yna.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "날씨 양극화…강원·경북 동해안 '폭우', 그 외 지역은 '폭염'",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260808037200060?input=1195m"
+          }
+        ],
+        "link": "https://www.yna.co.kr/view/AKR20260808037200060?input=1195m"
+      },
+      {
+        "title": "[여행honey] 충주호와 악어봉",
+        "reports": 1,
+        "press": [
+          "yna.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[여행honey] 충주호와 악어봉",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260720015400542?input=1195m"
+          }
+        ],
+        "link": "https://www.yna.co.kr/view/AKR20260720015400542?input=1195m"
+      },
+      {
+        "title": "\"캠핑하고 자연도 배우고\"…소백산 야영장 호평",
+        "reports": 1,
+        "press": [
+          "kyongbuk.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"캠핑하고 자연도 배우고\"…소백산 야영장 호평",
+            "press": "kyongbuk.co.kr",
+            "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4080551"
+          }
+        ],
+        "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4080551"
+      },
+      {
+        "title": "[기후·멸종 콕콕] \"야생동물 불법 거래 늘어나는데 단속 미흡\"",
+        "reports": 1,
+        "press": [
+          "newspenguin.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[기후·멸종 콕콕] \"야생동물 불법 거래 늘어나는데 단속 미흡\"",
+            "press": "newspenguin.com",
+            "link": "https://www.newspenguin.com/news/articleView.html?idxno=22003"
+          }
+        ],
+        "link": "https://www.newspenguin.com/news/articleView.html?idxno=22003"
+      },
+      {
+        "title": "산길 땡볕은 75도 육박…\"한낮엔 산이 더 위험\" 경고",
+        "reports": 1,
+        "press": [
+          "news.sbs.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "산길 땡볕은 75도 육박…\"한낮엔 산이 더 위험\" 경고",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008695729&plink=ORI&cooper=NAVER"
+          }
+        ],
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008695729&plink=ORI&cooper=NAVER"
+      },
+      {
+        "title": "‘폭염 취약 탐방로’ 올라보니…산행 온열질환 ‘비상’",
+        "reports": 1,
+        "press": [
+          "news.kbs.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "‘폭염 취약 탐방로’ 올라보니…산행 온열질환 ‘비상’",
+            "press": "news.kbs.co.kr",
+            "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8631882&ref=A"
+          }
+        ],
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8631882&ref=A"
+      },
+      {
+        "title": "8월 8일 오늘의 안전 상황",
+        "reports": 1,
+        "press": [
+          "fpn119.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "8월 8일 오늘의 안전 상황",
+            "press": "fpn119.co.kr",
+            "link": "http://fpn119.co.kr/254994"
+          }
+        ],
+        "link": "http://fpn119.co.kr/254994"
+      },
+      {
+        "title": "6·25 전장의 신원미상 병사… 美, 800번째 이름 찾아줬다",
+        "reports": 1,
+        "press": [
+          "chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "6·25 전장의 신원미상 병사… 美, 800번째 이름 찾아줬다",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/international/international_general/2026/08/08/PDZHO3JRZZCB5HGKTZL3G6ZPS4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          }
+        ],
+        "link": "https://www.chosun.com/international/international_general/2026/08/08/PDZHO3JRZZCB5HGKTZL3G6ZPS4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      },
+      {
+        "title": "5만 마리 고래가 지나가는 계절…호주 겨울이 특별한 이유",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "5만 마리 고래가 지나가는 계절…호주 겨울이 특별한 이유",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/industry/hotel-tourism/6252138"
+          }
+        ],
+        "link": "https://www.news1.kr/industry/hotel-tourism/6252138"
+      },
+      {
+        "title": "\"대통령은 세입자일 뿐\"…美법원, 트럼프 백악관 연회장 건설에 또 제동",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"대통령은 세입자일 뿐\"…美법원, 트럼프 백악관 연회장 건설에 또 제동",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/world/usa-canada/6252950"
+          }
+        ],
+        "link": "https://www.news1.kr/world/usa-canada/6252950"
+      },
+      {
+        "title": "365개 섬에 숨은 멋·맛! 여수는 상상을 넘어, 섬",
+        "reports": 1,
+        "press": [
+          "khan.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "365개 섬에 숨은 멋·맛! 여수는 상상을 넘어, 섬",
+            "press": "khan.co.kr",
+            "link": "https://www.khan.co.kr/article/202608080730005"
+          }
+        ],
+        "link": "https://www.khan.co.kr/article/202608080730005"
+      }
+    ]
+  },
+  "global": {
+    "collected": 22,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "Fire burning near Mount Rainier National Park",
+        "reports": 2,
+        "press": [
+          "Tacoma News Tribune",
+          "AOL.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Fire burning near Mount Rainier National Park",
+            "press": "Tacoma News Tribune",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkQ3Y4TWRGVEdXTVJIRVVLc0VodmJFWXUxY3RCaXl6TmpqSDJEVzVrbXVDbWJqTG5ybTNfNWhVVzM4ZEd4VF9VR3o2dG9udDlZUVRkLTNHcmZvNWJsWXNScVliczg2aDBVWWNQWmR5eDXSAXBBVV95cUxNSlVsWEdMU2hYYTBVQ2NIVTRERXByR1pwSjZ0NDNHenF6WTgwVGxNRjlnU0xIMEE5X2tHSVFORTZsSGYzNVM5UU1EY1VYckZiSml1cFg4VE5qTGFFREd1QUlBcngzOEhJWncxd2MzMEli?oc=5"
+          },
+          {
+            "title": "Mount Rainier National Park Warns Of Hours-Long Lines As Crowds Renew Calls For Timed Entry Reservations",
+            "press": "AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNmotcVJSOFpPbkQyUmdtRHpGNWtBMFZjNERkUTlXUEJsYlpPbmJoQUJsM2hVX25CQVgyUEMweEFRS0E1LW1KNDE4c1pKRHo4TW40VWVzeDEzWkVTLS14THdrNmdBWnpSQkx3WWMyblVqWmpGd2xPX05jUkhZLXRuQVBYdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkQ3Y4TWRGVEdXTVJIRVVLc0VodmJFWXUxY3RCaXl6TmpqSDJEVzVrbXVDbWJqTG5ybTNfNWhVVzM4ZEd4VF9VR3o2dG9udDlZUVRkLTNHcmZvNWJsWXNScVliczg2aDBVWWNQWmR5eDXSAXBBVV95cUxNSlVsWEdMU2hYYTBVQ2NIVTRERXByR1pwSjZ0NDNHenF6WTgwVGxNRjlnU0xIMEE5X2tHSVFORTZsSGYzNVM5UU1EY1VYckZiSml1cFg4VE5qTGFFREd1QUlBcngzOEhJWncxd2MzMEli?oc=5"
+      },
+      {
+        "title": "A new fire has broken out in the northeast area of Mount Rainier NP",
+        "reports": 2,
+        "press": [
+          "Tacoma News Tribune",
+          "king5.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "A new fire has broken out in the northeast area of Mount Rainier NP",
+            "press": "Tacoma News Tribune",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UTG5RSHVZb2FJcUdpMVRLNzhXTjMzUkQ0dGNyQzlodVlQWndvYks5bWM4SGhuSU9yUnNDZlp2RnZOa29oSjlwcWFmZW5vTXp1cUdlOWdPRUlSckhRUmVsNmRaZkI2ZGdtMmJ5Y1ln0gFuQVVfeXFMUE5IRFJBVWQzblluWHJFeHZVNGprQnN2X1AxTVV2Nmt1NE0yYUpWS2p4Rkc1QldKclpDUnhYMFR5MWxYWFRwMFpwbGpZckVvVnl3bHg4aGZad3F0ODkxYVFTc2N4c1YzQ3dCakJ1X0E?oc=5"
+          },
+          {
+            "title": "Mount Rainier park fire grows",
+            "press": "king5.com",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2V2VGd1ZzR0bHhzRnhIS0JXNURkRjVOU1NMSl9PZ0hWNkViSWd4M1JReFVhamxtZTNnQkZoM29fY0s1STBkY2NwRFRmOUl0Tm1XUktHaWZXZjhIUXNDRDFmYUZyTGgzZUxTVWVlZ3gyNlJUbTNFbERSZm82eEJMazdoa1B6VXJNY0llS1dXZFE3WlNWXzhCS3FrZ0Y0MTAwcjBTbHNHMDNaSFpIR0U5eEFQLW1QOXlrd0E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UTG5RSHVZb2FJcUdpMVRLNzhXTjMzUkQ0dGNyQzlodVlQWndvYks5bWM4SGhuSU9yUnNDZlp2RnZOa29oSjlwcWFmZW5vTXp1cUdlOWdPRUlSckhRUmVsNmRaZkI2ZGdtMmJ5Y1ln0gFuQVVfeXFMUE5IRFJBVWQzblluWHJFeHZVNGprQnN2X1AxTVV2Nmt1NE0yYUpWS2p4Rkc1QldKclpDUnhYMFR5MWxYWFRwMFpwbGpZckVvVnl3bHg4aGZad3F0ODkxYVFTc2N4c1YzQ3dCakJ1X0E?oc=5"
+      },
+      {
+        "title": "\"핼러윈이 벌써?\"…8월, 캘리포니아를 달구는 축제들",
+        "reports": 1,
+        "press": [
+          "ajunews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"핼러윈이 벌써?\"…8월, 캘리포니아를 달구는 축제들",
+            "press": "ajunews.com",
+            "link": "https://www.ajunews.com/view/20260806102907528"
+          }
+        ],
+        "link": "https://www.ajunews.com/view/20260806102907528"
+      },
+      {
+        "title": "[비즈 트래블] 태양과 바다, 예술과 낭만이 숨쉰다…8월의 캘리포니아로...",
+        "reports": 1,
+        "press": [
+          "bizwnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[비즈 트래블] 태양과 바다, 예술과 낭만이 숨쉰다…8월의 캘리포니아로...",
+            "press": "bizwnews.com",
+            "link": "http://www.bizwnews.com/news/articleView.html?idxno=142666"
+          }
+        ],
+        "link": "http://www.bizwnews.com/news/articleView.html?idxno=142666"
+      },
+      {
+        "title": "Doñana Wildfire Emergency: Spain's Record Season Reaches UNESCO Site Nearing Collapse",
+        "reports": 1,
+        "press": [
+          "Tech Times"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Doñana Wildfire Emergency: Spain's Record Season Reaches UNESCO Site Nearing Collapse",
+            "press": "Tech Times",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajhpNnRlTURqdGVJUjloeEtRMXlOaEFiUmpjckVyZ1ZsRjkyYUxWOEhOQ2tuRVRKV0xhZlBCR3pmTkZyV0Y2QnduOGJTN2pfeVd4V2g0U1ZOMVZZRHl6VHlBcUJ2TXhSRm54WW42bW8xUjVCQUNZNGh2bHB2THNUUjZxRGRTV283aEVfWEZjajNwQWFwMW9WU09sZ3pBQ05EVlo3R0R6RUhqcmRxTjFsVEhBbVVqMWRpUk1LLXEwZnlCMzVZd2lvWjlZVHNHN2lNUzFNLQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajhpNnRlTURqdGVJUjloeEtRMXlOaEFiUmpjckVyZ1ZsRjkyYUxWOEhOQ2tuRVRKV0xhZlBCR3pmTkZyV0Y2QnduOGJTN2pfeVd4V2g0U1ZOMVZZRHl6VHlBcUJ2TXhSRm54WW42bW8xUjVCQUNZNGh2bHB2THNUUjZxRGRTV283aEVfWEZjajNwQWFwMW9WU09sZ3pBQ05EVlo3R0R6RUhqcmRxTjFsVEhBbVVqMWRpUk1LLXEwZnlCMzVZd2lvWjlZVHNHN2lNUzFNLQ?oc=5"
+      },
+      {
+        "title": "Two years after the fire, how is Jasper’s tourism economy really doing?",
+        "reports": 1,
+        "press": [
+          "CBC"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Two years after the fire, how is Jasper’s tourism economy really doing?",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQclgyeGtOaU9icDBQU0l0YmhFNzNkM2llTklpOHBTZExZT1FEcnl1ekN2dllCelVPS2h5bG01SmtQdnVKcE9IVXEyMFR0dEIxNnNNQ1RoNTQtbC1vQmhESXhBR09NRV9TVUZCaXlZeUZ4VW9Za2ptNmprWTJzUFZxdGFIb0swVkQ1VkR6QW9rdXZPUQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQclgyeGtOaU9icDBQU0l0YmhFNzNkM2llTklpOHBTZExZT1FEcnl1ekN2dllCelVPS2h5bG01SmtQdnVKcE9IVXEyMFR0dEIxNnNNQ1RoNTQtbC1vQmhESXhBR09NRV9TVUZCaXlZeUZ4VW9Za2ptNmprWTJzUFZxdGFIb0swVkQ1VkR6QW9rdXZPUQ?oc=5"
+      },
+      {
+        "title": "Hikers Come Across Bear and Moose at Jasper National Park Lake",
+        "reports": 1,
+        "press": [
+          "Outdoors with Bear Grylls"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Hikers Come Across Bear and Moose at Jasper National Park Lake",
+            "press": "Outdoors with Bear Grylls",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUXAwXzFOZnl5dkk2elhCMDNYY0cwaXh1Q3JZbzVKT2RDSWdqejA3T2FhcHBxUVQ0MFhpT2pSZ1A1NmlDNXZZQU9rLXIwd3BtWkQ4b1oxUjFlSXQ4YW40RmtCUndxTjhxOHg5SmxIZHNRN3cyODJ5TnRXZzFmdURocUw2NDM4LXA0MkV5VA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUXAwXzFOZnl5dkk2elhCMDNYY0cwaXh1Q3JZbzVKT2RDSWdqejA3T2FhcHBxUVQ0MFhpT2pSZ1A1NmlDNXZZQU9rLXIwd3BtWkQ4b1oxUjFlSXQ4YW40RmtCUndxTjhxOHg5SmxIZHNRN3cyODJ5TnRXZzFmdURocUw2NDM4LXA0MkV5VA?oc=5"
+      },
+      {
+        "title": "Unwritten Rules You Should Know Before Visiting Everglades National Park",
+        "reports": 1,
+        "press": [
+          "islands.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Unwritten Rules You Should Know Before Visiting Everglades National Park",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOam5hQjFaNEt2UFVEa3EyS191bXJYbTYwS1NiQk1jZGYzei0zTlozVzRHOW5nSDlPY0pDMnJsVmpvR2Y0V25SMy1rdlJNMGJrUEVmWWZhTXdvYkM3akRYY3JXZWFBSHJOUU1WYjZtZjB5eW5OS0ZJNGx6MEJDQVJWaXp6LUlsdjlfZVU2LWgzNmt6aHB5TlE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOam5hQjFaNEt2UFVEa3EyS191bXJYbTYwS1NiQk1jZGYzei0zTlozVzRHOW5nSDlPY0pDMnJsVmpvR2Y0V25SMy1rdlJNMGJrUEVmWWZhTXdvYkM3akRYY3JXZWFBSHJOUU1WYjZtZjB5eW5OS0ZJNGx6MEJDQVJWaXp6LUlsdjlfZVU2LWgzNmt6aHB5TlE?oc=5"
+      },
+      {
+        "title": "Zabriskie Point, Death Valley National Park, California 1942",
+        "reports": 1,
+        "press": [
+          "Artnet"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Zabriskie Point, Death Valley National Park, California 1942",
+            "press": "Artnet",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVEMxaTZTY2drWEdZQXU3eWdsMmVrQjBKNVZyR21BdmdWSUVxWjB2VTBlZlVzY3A4Yzh4b0UtdFBSQ0c3MU1fMktqa1J6VjJTb0JvVkpQWEpIV2w4WE1aUGF0bkhCNktwMEJDY1lTTEU2MXczMlR1WWJnZ3ktOGFyR1dKNm1RRE1DOUZYRzZzbGJIMDFPTVA5QWNQd2VGOGwzQ2xkZ2tSNzhCZVlWSWc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVEMxaTZTY2drWEdZQXU3eWdsMmVrQjBKNVZyR21BdmdWSUVxWjB2VTBlZlVzY3A4Yzh4b0UtdFBSQ0c3MU1fMktqa1J6VjJTb0JvVkpQWEpIV2w4WE1aUGF0bkhCNktwMEJDY1lTTEU2MXczMlR1WWJnZ3ktOGFyR1dKNm1RRE1DOUZYRzZzbGJIMDFPTVA5QWNQd2VGOGwzQ2xkZ2tSNzhCZVlWSWc?oc=5"
+      },
+      {
+        "title": "El Niño forces the closure of the Devil’s Throat in Iguazú: preventive measures to protect visitors and infrastructure",
+        "reports": 1,
+        "press": [
+          "Noticias Ambientales"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "El Niño forces the closure of the Devil’s Throat in Iguazú: preventive measures to protect visitors and infrastructure",
+            "press": "Noticias Ambientales",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZlJOOG9XZHhrSGZuMEZYRUctYVplMzBVRkl6a2RCM0wyUERqNXVkanJtN1dEV2Vfbjg3UEhrNENQbjNxbWtodHdqOEYyYkIzVWJoSVJ4R0QtOTZpRzJLMDdrSnRsRjRZQjNRSWdWRDFDYTVwdHNqZXVoZ3F1VFUxemJLVHROaUNHdUZvQk1GYUUyY29TQldYbFlpc0x2Z0NTcXB0WU5Xb1phejNUNmpYa2xZNFpteUZqNUhHMlI3VDA4OS03S3dOc3JieFdwTkdmZ3J1ZFliT293aDZVa0Vkb0ZmMHVjb2NHNlpaT3hod216ZUNoRWhZ0gH8AUFVX3lxTE1JY1dnaTdsQjhfUU9UdTR4OGtWalVZT2taLV9JWVZPbzkxdUpHUnoyd1RjWlFpaklTQm5TRTRiR0E4UC1IdGpCS1ItS2FKb1pwRW5VdHctUlpPUl9EX0R6QVJzNnNVZk5zdHprQmlTRmRaUnVkUzVONHZzQkxwN2NPYnJzTUhmSVBQYWljRDdqbi1reFRsczd3dHJXV2pORGRYSmctODhNUDk4Qy1pZWNMaVNOSVdJM1pXN3pCT1hIaGxac3JkLWdVVVJySy1CMTRLZWE0V1NOd1B6ek9MRzR3WXhhVzNoVmM1b3k5WWdVOXUtclhWSF90RkZaYg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZlJOOG9XZHhrSGZuMEZYRUctYVplMzBVRkl6a2RCM0wyUERqNXVkanJtN1dEV2Vfbjg3UEhrNENQbjNxbWtodHdqOEYyYkIzVWJoSVJ4R0QtOTZpRzJLMDdrSnRsRjRZQjNRSWdWRDFDYTVwdHNqZXVoZ3F1VFUxemJLVHROaUNHdUZvQk1GYUUyY29TQldYbFlpc0x2Z0NTcXB0WU5Xb1phejNUNmpYa2xZNFpteUZqNUhHMlI3VDA4OS03S3dOc3JieFdwTkdmZ3J1ZFliT293aDZVa0Vkb0ZmMHVjb2NHNlpaT3hod216ZUNoRWhZ0gH8AUFVX3lxTE1JY1dnaTdsQjhfUU9UdTR4OGtWalVZT2taLV9JWVZPbzkxdUpHUnoyd1RjWlFpaklTQm5TRTRiR0E4UC1IdGpCS1ItS2FKb1pwRW5VdHctUlpPUl9EX0R6QVJzNnNVZk5zdHprQmlTRmRaUnVkUzVONHZzQkxwN2NPYnJzTUhmSVBQYWljRDdqbi1reFRsczd3dHJXV2pORGRYSmctODhNUDk4Qy1pZWNMaVNOSVdJM1pXN3pCT1hIaGxac3JkLWdVVVJySy1CMTRLZWE0V1NOd1B6ek9MRzR3WXhhVzNoVmM1b3k5WWdVOXUtclhWSF90RkZaYg?oc=5"
+      },
+      {
+        "title": "Reappearance of the Peacock Sighted in Teide National Park",
+        "reports": 1,
+        "press": [
+          "Tenerife Weekly"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Reappearance of the Peacock Sighted in Teide National Park",
+            "press": "Tenerife Weekly",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMU9pRmM2aHB6ajNYMkFITkxGTmV0Slo5T2tmZDhUQmp4WnA4X09OZ0NERHpENVI2TlFxZFZMRFpXcnh1U2I5WGVjMEdEeGNiY29YZVN4WjdxVHJCWm5oTTdqOThnTmp0NGNhM3pFRFVMa3o1WmhOTk05T2JCUGpLMEhVaEpRVndZYTlvb01zcUl3cXo3LVVoUExlOHpNdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMU9pRmM2aHB6ajNYMkFITkxGTmV0Slo5T2tmZDhUQmp4WnA4X09OZ0NERHpENVI2TlFxZFZMRFpXcnh1U2I5WGVjMEdEeGNiY29YZVN4WjdxVHJCWm5oTTdqOThnTmp0NGNhM3pFRFVMa3o1WmhOTk05T2JCUGpLMEhVaEpRVndZYTlvb01zcUl3cXo3LVVoUExlOHpNdw?oc=5"
+      },
+      {
+        "title": "California's Sun-Soaked City West Of Sequoia National Park Has Local Dining And Outdoor Experiences",
+        "reports": 1,
+        "press": [
+          "islands.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "California's Sun-Soaked City West Of Sequoia National Park Has Local Dining And Outdoor Experiences",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTnlkd0FrR0hBRVZ1WGJTeFQ0R2RlYjdXR1k1Z0ZWcTVvby0zaGduRHF0ajluRk5nY0x6Z0dBT0d4U3NXa1JIX0JXZ0xXdUdjczhtdDhUc09peDA0R0pBWVE5blZxbVJZVUNDbTVyR1NWelJDdk51Sk9vMHlzOXp3cVpGTmxRZkVnTXh4VjJnU21UbjJjS19vQU5mQXZ2X2VOQTZadUFvWTdRYU5vX0MtemV3VklCZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTnlkd0FrR0hBRVZ1WGJTeFQ0R2RlYjdXR1k1Z0ZWcTVvby0zaGduRHF0ajluRk5nY0x6Z0dBT0d4U3NXa1JIX0JXZ0xXdUdjczhtdDhUc09peDA0R0pBWVE5blZxbVJZVUNDbTVyR1NWelJDdk51Sk9vMHlzOXp3cVpGTmxRZkVnTXh4VjJnU21UbjJjS19vQU5mQXZ2X2VOQTZadUFvWTdRYU5vX0MtemV3VklCZw?oc=5"
+      },
+      {
+        "title": "Sunrise and White River entrance at Mount Rainier closed due to wildfire",
+        "reports": 1,
+        "press": [
+          "MyNorthwest.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Sunrise and White River entrance at Mount Rainier closed due to wildfire",
+            "press": "MyNorthwest.com",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85TVNDZjJxaUlhcnJ1V09MY2RqUDVOVWxZbEtyMXZNNzIxV2ItcF9Bbm1GeWpYSlRULWt1V0w1aDhoblZBNXZkeW1zazFEcXdGRzB3UHRUeVNYc01QWmZhYVRmX2N2THVfSFdhbQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85TVNDZjJxaUlhcnJ1V09MY2RqUDVOVWxZbEtyMXZNNzIxV2ItcF9Bbm1GeWpYSlRULWt1V0w1aDhoblZBNXZkeW1zazFEcXdGRzB3UHRUeVNYc01QWmZhYVRmX2N2THVfSFdhbQ?oc=5"
+      },
+      {
+        "title": "Beyond Local: Black bears keep finding human food in Banff National Park",
+        "reports": 1,
+        "press": [
+          "The Albertan"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Beyond Local: Black bears keep finding human food in Banff National Park",
+            "press": "The Albertan",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUpUcUxKbmRQRHVtMC1wU3htS1BzY29JR04yUVFnN3ZuMkVfTXhvZ2RYVWt3OGxOZWtVOG44UldOU0lwSDNtVE5ITjRMcl85ejBBci14S2E4dlpqdmRESFI0SmFubW1mMlg2UkhtQ2RYRFU0Vmk3TEhCWkw5N0VFdW42LWtmUnV1UE1tUkl5YlRwWEE5T1FXQ2J6eS1nYl9RMS1BZnBXWjJrd1ph?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUpUcUxKbmRQRHVtMC1wU3htS1BzY29JR04yUVFnN3ZuMkVfTXhvZ2RYVWt3OGxOZWtVOG44UldOU0lwSDNtVE5ITjRMcl85ejBBci14S2E4dlpqdmRESFI0SmFubW1mMlg2UkhtQ2RYRFU0Vmk3TEhCWkw5N0VFdW42LWtmUnV1UE1tUkl5YlRwWEE5T1FXQ2J6eS1nYl9RMS1BZnBXWjJrd1ph?oc=5"
+      },
+      {
+        "title": "Banff National Park’s lakes, peaks and icefields - ad-hoc-news.de",
+        "reports": 1,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Banff National Park’s lakes, peaks and icefields - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMl9rNTlhbTNJcFkwZnpTOXNFV29Cc1BvZXlEWWJTajJKRTRvd0JzVkhCekVKREtIUW41WlJPdWUtRFR1WEh2cFdlVHo5a0NFYzhjcmo0XzVNaDlHNDFSVWpTUnFXRFBxY0Nqb0hxRkltWTNZWXhoUGs5UE9GMEpZWXl0VmNTeGE3TWRZRVVHemVfZl95RGRjU19mRWpERk1YcXdYek1B?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMl9rNTlhbTNJcFkwZnpTOXNFV29Cc1BvZXlEWWJTajJKRTRvd0JzVkhCekVKREtIUW41WlJPdWUtRFR1WEh2cFdlVHo5a0NFYzhjcmo0XzVNaDlHNDFSVWpTUnFXRFBxY0Nqb0hxRkltWTNZWXhoUGs5UE9GMEpZWXl0VmNTeGE3TWRZRVVHemVfZl95RGRjU19mRWpERk1YcXdYek1B?oc=5"
+      },
+      {
+        "title": "Three Hikers Located During Search – Kosciuszko National Park",
+        "reports": 1,
+        "press": [
+          "Sydney Times"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Three Hikers Located During Search – Kosciuszko National Park",
+            "press": "Sydney Times",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHNSVDRTczNmbEZ4NVVuQnlKT1lfVHBoWmQ1ZzVra1VmUk9ydGFSY2t3dlBqdXpjYmp0ZExEMGF1UnpEY3d4UEJsYXh1VGlxNDFaNGN4ay11UXluaEVHbm9tMG9HS01PVnkzNUppaEtuQ2REN2FaYmVYMG9wcEhkd3hOUmloZ2xTWUxXalhwb0NFZzVvT19hVGFTb2hYYWYyTHFsdUh2SmZLTjA1S2c0WA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHNSVDRTczNmbEZ4NVVuQnlKT1lfVHBoWmQ1ZzVra1VmUk9ydGFSY2t3dlBqdXpjYmp0ZExEMGF1UnpEY3d4UEJsYXh1VGlxNDFaNGN4ay11UXluaEVHbm9tMG9HS01PVnkzNUppaEtuQ2REN2FaYmVYMG9wcEhkd3hOUmloZ2xTWUxXalhwb0NFZzVvT19hVGFTb2hYYWYyTHFsdUh2SmZLTjA1S2c0WA?oc=5"
+      },
+      {
+        "title": "Country diary: We’ve had fires here in the Cairngorms before. This one has changed things | Amanda Thomson",
+        "reports": 1,
+        "press": [
+          "The Guardian"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Country diary: We’ve had fires here in the Cairngorms before. This one has changed things | Amanda Thomson",
+            "press": "The Guardian",
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeFlMRUl2MTYtbWZfWG1VRWtIRFptcy03Z1lod09Hb2pPUi1sRzVGam8yV0x3VlpOeTlpdzgxaFZGdDZLNTc1ckVoQjdyRE1xLUc1RkllOXhBelBPT3J5d0FsZnBPYWpwMW9oTlpIVGlWdS00M3BQeXUxWmNVNnEtZUxEVzFzZVVIN3V6YXJndnBNbUN6VHRGaWlieW1OM2dKOEUzTVc5bWdNeExtU1pEcld4a2thVXNJdVBlRnVWYUQ3Z3Vqb2U0TVR4cjFFZzkxak9aVm1RZE1DQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeFlMRUl2MTYtbWZfWG1VRWtIRFptcy03Z1lod09Hb2pPUi1sRzVGam8yV0x3VlpOeTlpdzgxaFZGdDZLNTc1ckVoQjdyRE1xLUc1RkllOXhBelBPT3J5d0FsZnBPYWpwMW9oTlpIVGlWdS00M3BQeXUxWmNVNnEtZUxEVzFzZVVIN3V6YXJndnBNbUN6VHRGaWlieW1OM2dKOEUzTVc5bWdNeExtU1pEcld4a2thVXNJdVBlRnVWYUQ3Z3Vqb2U0TVR4cjFFZzkxak9aVm1RZE1DQQ?oc=5"
+      },
+      {
+        "title": "Scotland Road Trip (Part 4) Inverness, Cairngorms National Park Lake Erie (E1wge3IZLp)",
+        "reports": 1,
+        "press": [
+          "Mshale"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Scotland Road Trip (Part 4) Inverness, Cairngorms National Park Lake Erie (E1wge3IZLp)",
+            "press": "Mshale",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wNUJvWWVmZnZGbUlaSWJialJBNl9fdEY5eDBLUEttVGJqZS1nVXRFMjBNNlN4QWp6bFltT2FwalNBaFY3Vkk2T1JrY2FaWHFrczhGOXlNMmNmMFE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wNUJvWWVmZnZGbUlaSWJialJBNl9fdEY5eDBLUEttVGJqZS1nVXRFMjBNNlN4QWp6bFltT2FwalNBaFY3Vkk2T1JrY2FaWHFrczhGOXlNMmNmMFE?oc=5"
+      },
+      {
+        "title": "Maasai Mara National Reserve on the open savannah - ad-hoc-news.de",
+        "reports": 1,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Maasai Mara National Reserve on the open savannah - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMHU1a1hTOGxHWExHMmdIbHJyd3lCMGJpd1c1aXJycl9Vdk51VkVTajNZWWN0MjJocERYYTVqVmhHaHZ6NW91elVBRFZHem1pSW42Tkl0OS0za1Z5WUtNOS1uY2pBbmMwQjhoM0ZuUGZGcm1GLVdaZ1BjakQwSlZvaEdMTXh1T2szMVdpdVFVdzJpLV9MVm85YWtJM0ZEcHBDWXltb29PemY?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMHU1a1hTOGxHWExHMmdIbHJyd3lCMGJpd1c1aXJycl9Vdk51VkVTajNZWWN0MjJocERYYTVqVmhHaHZ6NW91elVBRFZHem1pSW42Tkl0OS0za1Z5WUtNOS1uY2pBbmMwQjhoM0ZuUGZGcm1GLVdaZ1BjakQwSlZvaEdMTXh1T2szMVdpdVFVdzJpLV9MVm85YWtJM0ZEcHBDWXltb29PemY?oc=5"
+      },
+      {
+        "title": "Taman Negara opens into Malaysia’s great rainforest - ad-hoc-news.de",
+        "reports": 1,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Taman Negara opens into Malaysia’s great rainforest - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYnIydVN1TmtSN1g3ZF9ONDFNaGRhcTVMWnpnOXU0ZDFYanlpMXdCb0c0TGM1amd2Q0d2dGZEaUwzd3lfVmF1ZVBJb2w0eS1vdV8wajNfcGs3dTBnUWcwaFFiU3pzNFhVMkFzNjBEa1VKSk1DSXg5N1duR1RfajFldWRudFVWZk82ZDhvX3R6RzBucWVvSGJmV2JuVUFhaUZLeGVyMjRSd2ppRHM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYnIydVN1TmtSN1g3ZF9ONDFNaGRhcTVMWnpnOXU0ZDFYanlpMXdCb0c0TGM1amd2Q0d2dGZEaUwzd3lfVmF1ZVBJb2w0eS1vdV8wajNfcGs3dTBnUWcwaFFiU3pzNFhVMkFzNjBEa1VKSk1DSXg5N1duR1RfajFldWRudFVWZk82ZDhvX3R6RzBucWVvSGJmV2JuVUFhaUZLeGVyMjRSd2ppRHM?oc=5"
+      }
+    ]
+  }
+}

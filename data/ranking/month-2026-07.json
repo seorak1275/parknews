@@ -1,0 +1,3873 @@
+{
+  "month": "2026-07",
+  "days": 31,
+  "from": "2026-07-01",
+  "to": "2026-07-31",
+  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "backfilled": true,
+  "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
+  "kr": {
+    "rows": [
+      {
+        "title": "백록담 무단출입-한라산 주차장 차박 행위 집중단속",
+        "reports": 35,
+        "press": [
+          "donga.com",
+          "newsjeju.net",
+          "jejumaeil.net",
+          "fnnews.com",
+          "samdailbo.com",
+          "view.asiae.co.kr",
+          "jejudomin.co.kr",
+          "newsis.com",
+          "yna.co.kr",
+          "news.bbsi.co.kr",
+          "jejusori.net",
+          "dkilbo.com",
+          "kyongbuk.co.kr",
+          "news.kbs.co.kr",
+          "m-i.kr",
+          "news.sbs.co.kr",
+          "jejumbc.com",
+          "headlinejeju.co.kr",
+          "gnnews.co.kr",
+          "news1.kr",
+          "tournews21.com",
+          "jeollailbo.com",
+          "ibuan.com",
+          "sjbnews.com",
+          "jmbc.co.kr",
+          "jibs.co.kr",
+          "khan.co.kr",
+          "mediajeju.com",
+          "ikld.kr"
+        ],
+        "outletCount": 29,
+        "articles": [
+          {
+            "title": "백록담 무단출입-한라산 주차장 차박 행위 집중단속",
+            "press": "donga.com",
+            "link": "https://www.donga.com/news/Society/article/all/20260726/134367099/2"
+          },
+          {
+            "title": "백록담 무단출입·한라산 차박 잡는다…한 달간 특별단속",
+            "press": "newsjeju.net",
+            "link": "https://www.newsjeju.net/news/articleView.html?idxno=423689"
+          },
+          {
+            "title": "한라산 무단출입·불법 야영 엄정 대응···한 달간 집중단속",
+            "press": "jejumaeil.net",
+            "link": "https://www.jejumaeil.net/news/articleView.html?idxno=403006"
+          },
+          {
+            "title": "제주도, 한라산 무단출입·차박 단속… 백록담·주차장 야간 순찰 강화",
+            "press": "fnnews.com",
+            "link": "http://www.fnnews.com/news/202607231613027469"
+          },
+          {
+            "title": "스키 타고 용변 보고...한라산 불법 행위 특별단속",
+            "press": "samdailbo.com",
+            "link": "http://www.samdailbo.com/news/articleView.html?idxno=267962"
+          },
+          {
+            "title": "한라산 불법행위 ‘특별단속’…백록담 무단출입·차박 싹 잡는다",
+            "press": "view.asiae.co.kr",
+            "link": "https://view.asiae.co.kr/article/2026072312325919535"
+          },
+          {
+            "title": "한라산 무단출입·불법 야영 엄정 대응",
+            "press": "jejudomin.co.kr",
+            "link": "https://www.jejudomin.co.kr/news/articleView.html?idxno=320815"
+          },
+          {
+            "title": "한라산 무단출입·불법야영 단속…형사처벌 등 엄정 대응",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260723_0003720165"
+          },
+          {
+            "title": "한라산 무단출입·불법 야영 특별단속…한 달간 집중 단속",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260723068900056?input=1195m"
+          },
+          {
+            "title": "한라산 무단출입·불법야영 특별단속…백록담·주차장 집중 순찰",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4096556"
+          }
+        ],
+        "link": "https://www.donga.com/news/Society/article/all/20260726/134367099/2"
+      },
+      {
+        "title": "HD현대1%나눔재단, 중증장애인 생물표본 제작 성과 전시회",
+        "reports": 26,
+        "press": [
+          "webeconomy.co.kr",
+          "segye.com",
+          "fetv.co.kr",
+          "catchnews.kr",
+          "thefirstmedia.net",
+          "finomy.com",
+          "cnbizm.com",
+          "sedaily.com",
+          "weekly.hankooki.com",
+          "m-i.kr",
+          "newspim.com",
+          "newsprime.co.kr",
+          "thepublic.kr",
+          "polinews.co.kr",
+          "econonews.co.kr",
+          "yna.co.kr",
+          "biz.heraldcorp.com",
+          "insightkorea.co.kr",
+          "view.asiae.co.kr",
+          "newsworker.co.kr",
+          "ilyoseoul.co.kr",
+          "popcornnews.net",
+          "pinpointnews.co.kr",
+          "dailian.co.kr",
+          "daily.hankooki.com",
+          "newsis.com"
+        ],
+        "outletCount": 26,
+        "articles": [
+          {
+            "title": "HD현대1%나눔재단, 중증장애인 생물표본 제작 성과 전시회",
+            "press": "webeconomy.co.kr",
+            "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2218994"
+          },
+          {
+            "title": "중증장애인이 만든 생물표본… HD현대1%나눔재단 전시회",
+            "press": "segye.com",
+            "link": "https://www.segye.com/newsView/20260701517365?OutUrl=naver"
+          },
+          {
+            "title": "[포토] HD현대1%나눔재단, 국회서 중증장애인 생물표본 성과전",
+            "press": "fetv.co.kr",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=305582"
+          },
+          {
+            "title": "\"중증장애인 손끝으로 완성\" HD현대1%나눔재단, 국회서 '생물표본전시회...",
+            "press": "catchnews.kr",
+            "link": "https://www.catchnews.kr/news/articleView.html?idxno=125663"
+          },
+          {
+            "title": "HD현대1%나눔재단, 중증장애인 생물표본 전시회 개최…장애인 일자리 모...",
+            "press": "thefirstmedia.net",
+            "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=202776"
+          },
+          {
+            "title": "HD현대1%나눔재단, 중증장애인 제작 생물표본 전시회 진행",
+            "press": "finomy.com",
+            "link": "http://www.finomy.com/news/articleView.html?idxno=256615"
+          },
+          {
+            "title": "HD현대1%나눔재단, 국회서 중증장애인 생물표본 전시회 열어",
+            "press": "cnbizm.com",
+            "link": "https://www.cnbizm.com/news/articleView.html?idxno=307270"
+          },
+          {
+            "title": "HD현대1%나눔재단, 국회 로비서 중증장애인이 만든 생물표본 전시",
+            "press": "sedaily.com",
+            "link": "https://www.sedaily.com/article/20062460?ref=naver"
+          },
+          {
+            "title": "HD현대1%나눔재단, 국회서 중증장애인 제작 생물표본 전시회 열어",
+            "press": "weekly.hankooki.com",
+            "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7172415"
+          },
+          {
+            "title": "HD현대1%나눔재단, 중증장애인이 만든 곤충 표본 국회서 전시",
+            "press": "m-i.kr",
+            "link": "https://www.m-i.kr/news/articleView.html?idxno=1387136"
+          }
+        ],
+        "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2218994"
+      },
+      {
+        "title": "'침수·대피' 폭우 피해 속출…인천·경기 북부 호우특보",
+        "reports": 36,
+        "press": [
+          "news.tf.co.kr",
+          "hankyung.com",
+          "news.bbsi.co.kr",
+          "g-enews.com",
+          "sedaily.com",
+          "newsis.com",
+          "wikitree.co.kr",
+          "news.jtbc.co.kr",
+          "jnilbo.com",
+          "nocutnews.co.kr",
+          "jbnews.com",
+          "newspim.com",
+          "yna.co.kr",
+          "yonhapnewstv.co.kr",
+          "view.asiae.co.kr",
+          "inews365.com",
+          "seoul.co.kr",
+          "pointe.co.kr",
+          "jeonmae.co.kr",
+          "kmib.co.kr",
+          "news1.kr",
+          "dnews.co.kr",
+          "cctimes.kr",
+          "mk.co.kr",
+          "san.chosun.com"
+        ],
+        "outletCount": 25,
+        "articles": [
+          {
+            "title": "'침수·대피' 폭우 피해 속출…인천·경기 북부 호우특보",
+            "press": "news.tf.co.kr",
+            "link": "https://news.tf.co.kr/read/livingculture/2345170.htm"
+          },
+          {
+            "title": "사흘간 이어진 장맛비에 침수 피해 속출",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/2026071928561"
+          },
+          {
+            "title": "전국 장맛비에 침수·낙석·실종 피해 속출…주민 대피 잇따라",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4095735"
+          },
+          {
+            "title": "장맛비에 전국 피해 신고 837건…경북 북부 주민 366명 대피",
+            "press": "g-enews.com",
+            "link": "https://www.g-enews.com/view.php?ud=2026071911480341122aa6f4cdad_1"
+          },
+          {
+            "title": "집중호우로 도로침수 등 피해 속출…95명 대피",
+            "press": "sedaily.com",
+            "link": "https://www.sedaily.com/article/20068982?ref=naver"
+          },
+          {
+            "title": "쏟아진 비에 도로침수 등 피해 속출…95명 대피(종합)",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260718_0003713617"
+          },
+          {
+            "title": "전국 덮친 집중호우에 피해 속출…70대 남성 1명 실종",
+            "press": "wikitree.co.kr",
+            "link": "https://www.wikitree.co.kr/articles/1145697"
+          },
+          {
+            "title": "전국 곳곳 무너지거나 잠기거나…1명 실종 등 피해 잇따라",
+            "press": "news.jtbc.co.kr",
+            "link": "https://news.jtbc.co.kr/article/NB12307496?influxDiv=NAVER"
+          },
+          {
+            "title": "전국 덮친 야속한 장맛비…급류 휩쓸려 1명 실종·피해 속출",
+            "press": "jnilbo.com",
+            "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000048933"
+          },
+          {
+            "title": "주택 잠기고 주민 대피까지…충북 곳곳서 비 피해 잇따라",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6545523?utm_source=naver&utm_medium=article&utm_campaign=20260709104720"
+          }
+        ],
+        "link": "https://news.tf.co.kr/read/livingculture/2345170.htm"
+      },
+      {
+        "title": "가스공사, 멸종위기종 보전 활동…독미나리 이식·상괭이 서식 조사",
+        "reports": 20,
+        "press": [
+          "polinews.co.kr",
+          "gasnews.com",
+          "lawissue.co.kr",
+          "energy-news.co.kr",
+          "daily.hankooki.com",
+          "sisacast.kr",
+          "e-platform.net",
+          "m-i.kr",
+          "sateconomy.co.kr",
+          "energydaily.co.kr",
+          "dgmbc.com",
+          "newscape.co.kr",
+          "srtimes.kr",
+          "newsis.com",
+          "pressian.com",
+          "todayenergy.kr",
+          "e2news.com",
+          "e-science.co.kr",
+          "news.bbsi.co.kr",
+          "news.kbs.co.kr"
+        ],
+        "outletCount": 20,
+        "articles": [
+          {
+            "title": "가스공사, 멸종위기종 보전 활동…독미나리 이식·상괭이 서식 조사",
+            "press": "polinews.co.kr",
+            "link": "https://www.polinews.co.kr/news/articleView.html?idxno=738738"
+          },
+          {
+            "title": "가스공사, 기후위기 대응 멸종위기종 보전 활동 박차",
+            "press": "gasnews.com",
+            "link": "https://www.gasnews.com/news/articleView.html?idxno=126210"
+          },
+          {
+            "title": "한국가스공사, 멸종위기종 보전 활동 추진",
+            "press": "lawissue.co.kr",
+            "link": "http://www.lawissue.co.kr/view.php?ud=202607301934177450f4ab64559d_12"
+          },
+          {
+            "title": "가스공사, 기후위기 대응 멸종위기종 보전 활동 확대",
+            "press": "energy-news.co.kr",
+            "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=227149"
+          },
+          {
+            "title": "가스공사, 곳곳서 멸종위기 동·식물 보전 활동 박차",
+            "press": "daily.hankooki.com",
+            "link": "https://daily.hankooki.com/news/articleView.html?idxno=1391345"
+          },
+          {
+            "title": "한국가스공사, 대구 본사 연못에 멸종위기 '독미나리' 이식…상괭이 서...",
+            "press": "sisacast.kr",
+            "link": "http://www.sisacast.kr/news/articleView.html?idxno=98323"
+          },
+          {
+            "title": "가스공사, 멸종위기종 복원·서식지 보호 확대",
+            "press": "e-platform.net",
+            "link": "http://www.e-platform.net/news/articleView.html?idxno=104258"
+          },
+          {
+            "title": "가스공사, 멸종위기종 독미나리 이식…보전 활동 박차",
+            "press": "m-i.kr",
+            "link": "https://www.m-i.kr/news/articleView.html?idxno=1397387"
+          },
+          {
+            "title": "가스공사, 생물다양성 보전 사업 확대… 독미나리 이식·상괭이 서식지...",
+            "press": "sateconomy.co.kr",
+            "link": "https://sateconomy.co.kr/news/view/1065597876028710"
+          },
+          {
+            "title": "가스공사, 멸종위기종 복원·해양생태 보전 확대…기후위기 대응 생물다...",
+            "press": "energydaily.co.kr",
+            "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=201883"
+          }
+        ],
+        "link": "https://www.polinews.co.kr/news/articleView.html?idxno=738738"
+      },
+      {
+        "title": "철도공단, 환경·철도 결합 충청권 ‘볼런투어’ 운영",
+        "reports": 19,
+        "press": [
+          "amenews.kr",
+          "ccnnews.co.kr",
+          "cstimes.com",
+          "ccdn.co.kr",
+          "sports.hankooki.com",
+          "biz.heraldcorp.com",
+          "mt.co.kr",
+          "pressian.com",
+          "daily.hankooki.com",
+          "beyondpost.co.kr",
+          "cctimes.kr",
+          "mk.co.kr",
+          "paxetv.com",
+          "gukjenews.com",
+          "redaily.co.kr",
+          "nocutnews.co.kr",
+          "ikld.kr",
+          "sedaily.com",
+          "news1.kr"
+        ],
+        "outletCount": 19,
+        "articles": [
+          {
+            "title": "철도공단, 환경·철도 결합 충청권 ‘볼런투어’ 운영",
+            "press": "amenews.kr",
+            "link": "http://amenews.kr/news/view.php?idx=67358"
+          },
+          {
+            "title": "국가철도공단, 자원봉사하고 철도 체험하고… 충청권 '볼런투어'",
+            "press": "ccnnews.co.kr",
+            "link": "http://www.ccnnews.co.kr/news/articleView.html?idxno=411818"
+          },
+          {
+            "title": "국가철도공단, 충청권서 '볼런투어'…환경보호와 철도 체험 동시 진행",
+            "press": "cstimes.com",
+            "link": "https://www.cstimes.com/news/articleView.html?idxno=712751"
+          },
+          {
+            "title": "국가철도공단, 환경과 철도를 잇는 충청권 '볼런투어' 시행",
+            "press": "ccdn.co.kr",
+            "link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1087392"
+          },
+          {
+            "title": "국가철도공단, 환경과 철도 잇는 충청권 '볼런투어' 실시",
+            "press": "sports.hankooki.com",
+            "link": "https://sports.hankooki.com/news/articleView.html?idxno=6936140"
+          },
+          {
+            "title": "국가철도공단, 체험형 사회공헌 충청권 ‘볼런투어’ 개최",
+            "press": "biz.heraldcorp.com",
+            "link": "https://biz.heraldcorp.com/article/10802321?ref=naver"
+          },
+          {
+            "title": "국가철도공단, 대전지역 아동과 충청권 '볼런투어'",
+            "press": "mt.co.kr",
+            "link": "https://www.mt.co.kr/policy/2026/07/08/2026070813302021260"
+          },
+          {
+            "title": "국가철도공단, 환경·철도 체험 결합 '볼런투어' 운영",
+            "press": "pressian.com",
+            "link": "https://www.pressian.com/pages/articles/2026070810344495064?utm_source=naver&utm_medium=search"
+          },
+          {
+            "title": "국가철도공단, 태안·청주서 '볼런투어' 프로그램 개최",
+            "press": "daily.hankooki.com",
+            "link": "https://daily.hankooki.com/news/articleView.html?idxno=1383971"
+          },
+          {
+            "title": "국가철도공단, 충청권 지역아동과 ‘볼런투어’…철도 타고 해안가 플로...",
+            "press": "beyondpost.co.kr",
+            "link": "http://www.beyondpost.co.kr/view.php?ud=20260708133330555be44c0aacd_30"
+          }
+        ],
+        "link": "http://amenews.kr/news/view.php?idx=67358"
+      },
+      {
+        "title": "중부지방 호우 피해신고 828건…인명피해 없어",
+        "reports": 23,
+        "press": [
+          "news1.kr",
+          "chosun.com",
+          "slist.kr",
+          "etoday.co.kr",
+          "ngonews.kr",
+          "kgnews.co.kr",
+          "kjdaily.com",
+          "newspim.com",
+          "dailian.co.kr",
+          "newscj.com",
+          "metroseoul.co.kr",
+          "kmib.co.kr",
+          "sidae.com",
+          "ytn.co.kr",
+          "yonhapnewstv.co.kr",
+          "m-i.kr",
+          "newdaily.co.kr",
+          "viva100.com"
+        ],
+        "outletCount": 18,
+        "articles": [
+          {
+            "title": "중부지방 호우 피해신고 828건…인명피해 없어",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/moi/6232234"
+          },
+          {
+            "title": "전국 호우 피해신고 749건…현재까지 인명피해 없어",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/moi/6231793"
+          },
+          {
+            "title": "주택·도로 침수 등 전국 호우 피해신고 708건…인명피해는 없어",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/moi/6231737"
+          },
+          {
+            "title": "전국 밤사이 물폭탄... 주택·도로 침수 등 피해 540건",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/national/national_general/2026/07/18/MN6BBHYUHBBRJP7ABGDUA2VDMI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          },
+          {
+            "title": "파주·동두천 200㎜ 호우…도로 침수·수목 전도 등 540건 피해",
+            "press": "slist.kr",
+            "link": "https://www.slist.kr/news/articleView.html?idxno=752555"
+          },
+          {
+            "title": "이틀간 수도권·강원 집중호우 피해 540건…주택·도로 침수 잇따라(종...",
+            "press": "etoday.co.kr",
+            "link": "https://www.etoday.co.kr/news/view/2604776"
+          },
+          {
+            "title": "경기도 파주·동두천 200㎜ 호우…\"도로 침수·수목 전도 등 540건 피해\"",
+            "press": "ngonews.kr",
+            "link": "https://www.ngonews.kr/news/articleView.html?idxno=233212"
+          },
+          {
+            "title": "수도권 물폭탄에 도로·주택 침수 잇따라…피해 500건 돌파",
+            "press": "kgnews.co.kr",
+            "link": "https://www.kgnews.co.kr/news/article.html?no=904223"
+          },
+          {
+            "title": "파주·동두천 190㎜ 안팎 폭우…침수·수목 전도 540건",
+            "press": "kjdaily.com",
+            "link": "http://www.kjdaily.com/article.php?aid=1784347008682576208"
+          },
+          {
+            "title": "집중호우로 도로 침수 등 곳곳 피해...동부간선도로는 통행 재개",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260718000050"
+          }
+        ],
+        "link": "https://www.news1.kr/local/moi/6232234"
+      },
+      {
+        "title": "주왕산국립공원, 여름철 폭염 안전관리 대책 강화",
+        "reports": 20,
+        "press": [
+          "dkilbo.com",
+          "kyongbuk.co.kr",
+          "imaeil.com",
+          "breaknews.com",
+          "widedaily.com",
+          "idaegu.co.kr",
+          "tournews21.com",
+          "news.tvchosun.com",
+          "electimes.com",
+          "edaily.co.kr",
+          "ajunews.com",
+          "newsis.com",
+          "segye.com",
+          "ichannela.com",
+          "kjdaily.com",
+          "mt.co.kr",
+          "namdonews.com",
+          "fnnews.com"
+        ],
+        "outletCount": 18,
+        "articles": [
+          {
+            "title": "주왕산국립공원, 여름철 폭염 안전관리 대책 강화",
+            "press": "dkilbo.com",
+            "link": "https://www.dkilbo.com/news/articleView.html?idxno=550009"
+          },
+          {
+            "title": "주왕산국립공원, 폭염 안전관리 강화…취약 탐방로·무더위 쉼터 운영",
+            "press": "kyongbuk.co.kr",
+            "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4079686"
+          },
+          {
+            "title": "폭염 속 주왕산 탐방 안전 강화",
+            "press": "imaeil.com",
+            "link": "https://www.imaeil.com/page/view/2026072910022665561"
+          },
+          {
+            "title": "주왕산국립공원, 폭염 속 탐방객 안전 강화…취약구간 관리·쉼터 운영...",
+            "press": "breaknews.com",
+            "link": "http://www.breaknews.com/1225283"
+          },
+          {
+            "title": "\"한낮 산행 피하세요\"…주왕산, 폭염 취약 탐방로 집중 관리",
+            "press": "widedaily.com",
+            "link": "https://www.widedaily.com/news/articleView.html?idxno=298443"
+          },
+          {
+            "title": "국립공원공단, 여름철 물놀이 안전관리 강화",
+            "press": "idaegu.co.kr",
+            "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=554838"
+          },
+          {
+            "title": "국립공원공단, 여름 휴가철 물놀이 안전관리 강화…8월 31일까지 집중 점...",
+            "press": "tournews21.com",
+            "link": "https://www.tournews21.com/news/articleView.html?idxno=139384"
+          },
+          {
+            "title": "국립공원공단, 휴가철 전국 물놀이 지역 안전관리 강화…\"안전수칙 준수...",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/26/2026072690056.html"
+          },
+          {
+            "title": "국립공원공단, 여름철 물놀이 지역 안전관리 강화",
+            "press": "electimes.com",
+            "link": "https://www.electimes.com/news/articleView.html?idxno=370675"
+          },
+          {
+            "title": "국립공원공단, 전국 물놀이 위험지역 안전 집중 관리",
+            "press": "edaily.co.kr",
+            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01567846645518456"
+          }
+        ],
+        "link": "https://www.dkilbo.com/news/articleView.html?idxno=550009"
+      },
+      {
+        "title": "동아에스티, 제21회 청소년 환경사랑 생명사랑 교실 개최",
+        "reports": 17,
+        "press": [
+          "weeklytrade.co.kr",
+          "newsbrite.net",
+          "fetv.co.kr",
+          "swtvnews.com",
+          "polinews.co.kr",
+          "yna.co.kr",
+          "thetracker.co.kr",
+          "dailysmart.co.kr",
+          "globalepic.co.kr",
+          "kpanews.co.kr",
+          "weekly.hankooki.com",
+          "globale.co.kr",
+          "todayeconomic.com",
+          "medisobizanews.com",
+          "newspost.kr",
+          "kbsm.net",
+          "news.tf.co.kr"
+        ],
+        "outletCount": 17,
+        "articles": [
+          {
+            "title": "동아에스티, 제21회 청소년 환경사랑 생명사랑 교실 개최",
+            "press": "weeklytrade.co.kr",
+            "link": "https://weeklytrade.co.kr/news/view.html?section=1&category=160&item=&no=100821"
+          },
+          {
+            "title": "동아ST, 제21회 청소년 환경사랑 생명사랑 교실 개최",
+            "press": "newsbrite.net",
+            "link": "http://www.newsbrite.net/news/articleView.html?idxno=199476"
+          },
+          {
+            "title": "동아ST, 청소년 환경교육 프로그램 개최",
+            "press": "fetv.co.kr",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=307305"
+          },
+          {
+            "title": "동아에스티, ‘청소년 환경사랑 생명사랑 교실’ 입학식 개최",
+            "press": "swtvnews.com",
+            "link": "https://www.swtvnews.com/news/newsview.php?ncode=1065593651143836"
+          },
+          {
+            "title": "체험형 환경교육↑…동아ST, 청소년 생태 프로그램 운영",
+            "press": "polinews.co.kr",
+            "link": "https://www.polinews.co.kr/news/articleView.html?idxno=738115"
+          },
+          {
+            "title": "[바이오스냅] 동아에스티, 청소년 환경·생명사랑 교실 개최",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260727074900017?input=1195m"
+          },
+          {
+            "title": "동아ST, ‘청소년 환경사랑 생명사랑 교실’ 개최",
+            "press": "thetracker.co.kr",
+            "link": "https://thetracker.co.kr/View.aspx?No=4163564"
+          },
+          {
+            "title": "동아ST, '청소년 환경사랑 생명사랑 교실' 개막…환경·생명 가치 체험...",
+            "press": "dailysmart.co.kr",
+            "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=127430"
+          },
+          {
+            "title": "동아ST, 21년 전통 ‘청소년 환경사랑 생명사랑 교실’ 개최",
+            "press": "globalepic.co.kr",
+            "link": "http://www.globalepic.co.kr/view.php?ud=20260727120457481648439a4874_29"
+          },
+          {
+            "title": "동아ST, 변산반도서 '청소년 환경사랑 생명사랑 교실' 개최",
+            "press": "kpanews.co.kr",
+            "link": "https://www.kpanews.co.kr/news/articleView.html?idxno=539270"
+          }
+        ],
+        "link": "https://weeklytrade.co.kr/news/view.html?section=1&category=160&item=&no=100821"
+      },
+      {
+        "title": "지리산서 멸종위기 1급 ‘무산쇠족제비’ 발견",
+        "reports": 16,
+        "press": [
+          "knnews.co.kr",
+          "khan.co.kr",
+          "ohmynews.com",
+          "enewstoday.co.kr",
+          "kookje.co.kr",
+          "polinews.co.kr",
+          "gnmaeil.com",
+          "cnbnews.com",
+          "gnnews.co.kr",
+          "newspim.com",
+          "idomin.com",
+          "widedaily.com",
+          "ichannela.com",
+          "dandinews.com",
+          "news.tf.co.kr",
+          "news1.kr"
+        ],
+        "outletCount": 16,
+        "articles": [
+          {
+            "title": "지리산서 멸종위기 1급 ‘무산쇠족제비’ 발견",
+            "press": "knnews.co.kr",
+            "link": "http://www.knnews.co.kr/news/articleView.php?idxno=1546484"
+          },
+          {
+            "title": "지리산서 멸종위기 야생동물 1급 ‘무산쇠족제비’ 서식 포착",
+            "press": "khan.co.kr",
+            "link": "https://www.khan.co.kr/article/202607141107001"
+          },
+          {
+            "title": "지리산 백무동서 만난 기적, 멸종위기 Ⅰ급 '무산쇠족제비' 포착",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003251093&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          },
+          {
+            "title": "지리산 함양서 멸종위기 야생동물 '무산쇠족제비' 발견",
+            "press": "enewstoday.co.kr",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2448370"
+          },
+          {
+            "title": "지리산·덕유산서 멸종위기 야생생물 Ⅰ급 ‘무산쇠족제비’ 잇단 포착",
+            "press": "kookje.co.kr",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260714.99099004042"
+          },
+          {
+            "title": "지리산 함양서 멸종위기 Ⅰ급 무산쇠족제비 포착",
+            "press": "polinews.co.kr",
+            "link": "https://www.polinews.co.kr/news/articleView.html?idxno=736909"
+          },
+          {
+            "title": "지리산서 멸종위기Ⅰ급 '무산쇠족제비' 발견",
+            "press": "gnmaeil.com",
+            "link": "http://www.gnmaeil.com/news/articleView.html?idxno=590623"
+          },
+          {
+            "title": "지리산 함양서 멸종위기 야생동물 1급 '무산쇠족제비' 서식 확인",
+            "press": "cnbnews.com",
+            "link": "https://www.cnbnews.com/news/articleView.html?idxno=1007973"
+          },
+          {
+            "title": "지리산서 멸종위기 야생동물 1급 '무산쇠족제비' 포착",
+            "press": "gnnews.co.kr",
+            "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=641052"
+          },
+          {
+            "title": "함양군 공무원, 지리산서 멸종위기 '무산쇠족제비' 발견",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260713001150"
+          }
+        ],
+        "link": "http://www.knnews.co.kr/news/articleView.php?idxno=1546484"
+      },
+      {
+        "title": "북한산 삼천지구 정비·복원사업 진행 상황 점검하는 김성환 장관",
+        "reports": 24,
+        "press": [
+          "newspim.com",
+          "newsis.com",
+          "news1.kr",
+          "cnbnews.com",
+          "dgmbc.com",
+          "idaegu.com",
+          "news.sbs.co.kr",
+          "biz.chosun.com",
+          "yonhapnewstv.co.kr",
+          "gukjenews.com",
+          "dkilbo.com",
+          "yna.co.kr",
+          "tbc.co.kr",
+          "segyebiz.com",
+          "public25.com"
+        ],
+        "outletCount": 15,
+        "articles": [
+          {
+            "title": "북한산 삼천지구 정비·복원사업 진행 상황 점검하는 김성환 장관",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260723000670"
+          },
+          {
+            "title": "북한산 삼천지구 정비·복원사업 현장 찾은 김성환 장관",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260723000673"
+          },
+          {
+            "title": "북한산 삼천지구 정비·복원사업 현장 점검 나선 김성환 장관",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260723000675"
+          },
+          {
+            "title": "김성환 장관, 북한산 삼천지구 정비·복원사업 현장 점검",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260723000668"
+          },
+          {
+            "title": "김성환 장관, 북한산국립공원 삼천지구 정비·복원 사업 진행 상황 점검",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISI20260723_0021374348"
+          },
+          {
+            "title": "윤호중 행안부 장관, 하천 불법시설 정비 현장 점검",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/photos/7999006"
+          },
+          {
+            "title": "윤호중 장관, 계곡 불법시설 정비 현장 점검",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/photos/7999005"
+          },
+          {
+            "title": "휴가철 맞아 계곡 불법시설 정비 현장 점검 나선 윤호중 장관",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/photos/7999007"
+          },
+          {
+            "title": "윤호중 행안부 장관, 팔공산 불법시설 철거 점검···\"여름철 전 무관용...",
+            "press": "cnbnews.com",
+            "link": "https://www.cnbnews.com/news/articleView.html?idxno=1007467"
+          },
+          {
+            "title": "윤호중 행정안전부 장관, 팔공산 기도 터 철거 현장 점검",
+            "press": "dgmbc.com",
+            "link": "https://dgmbc.com/NewsArticle/849905"
+          }
+        ],
+        "link": "https://www.newspim.com/news/view/20260723000670"
+      },
+      {
+        "title": "설악산 두문폭포 인근서 60대 여성 추락…기상 악화 속 구조",
+        "reports": 16,
+        "press": [
+          "idsn.co.kr",
+          "gukjenews.com",
+          "news1.kr",
+          "seoul.co.kr",
+          "munhwa.com",
+          "kwnews.co.kr",
+          "dt.co.kr",
+          "news.sbs.co.kr",
+          "yonhapnewstv.co.kr",
+          "kado.net",
+          "yna.co.kr",
+          "news.kbs.co.kr",
+          "ichannela.com",
+          "fnnews.com"
+        ],
+        "outletCount": 14,
+        "articles": [
+          {
+            "title": "설악산 두문폭포 인근서 60대 여성 추락…기상 악화 속 구조",
+            "press": "idsn.co.kr",
+            "link": "https://idsn.co.kr/news/view/1065576244447597"
+          },
+          {
+            "title": "설악산 두문폭포 인근서 60대 여성 계곡 추락…구조대 병원 이송",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3626904"
+          },
+          {
+            "title": "설악산 추락 60대 7시간 만에 구조…헬기 못 떠 육로 이송(종합)",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6218225"
+          },
+          {
+            "title": "설악산 두문폭포 인근 60대女 15m 추락…“헬기 접근 어려워 들것 이송...",
+            "press": "seoul.co.kr",
+            "link": "https://www.seoul.co.kr/news/society/accident/2026/07/05/20260705500082?wlog_tag3=naver"
+          },
+          {
+            "title": "설악산 두문폭포서 여성 15m 아래 추락…구조 중",
+            "press": "munhwa.com",
+            "link": "https://www.munhwa.com/article/11600365?ref=naver"
+          },
+          {
+            "title": "설악산 두문폭포 인근서 60대 여성 15m 아래로 추락…국립공원공단·119...",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260705501192"
+          },
+          {
+            "title": "설악산 두문폭포 인근 60대 여성 15m 추락…헬기 접근 불가능",
+            "press": "dt.co.kr",
+            "link": "https://www.dt.co.kr/article/12071225?ref=naver"
+          },
+          {
+            "title": "설악산 두문폭포 인근 60대 여성 15m 추락해 골절상",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008642359&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "설악산 두문폭포 인근 60대 여성 15m 추락해 골절",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/AKR20260705173323DO2"
+          },
+          {
+            "title": "설악산 두문폭포 인근서 60대 여성 15ｍ 아래 추락",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2059480"
+          }
+        ],
+        "link": "https://idsn.co.kr/news/view/1065576244447597"
+      },
+      {
+        "title": "행안부, 휴가철 맞아 하천·계곡 불법영업 집중 단속 나선다",
+        "reports": 14,
+        "press": [
+          "idsn.co.kr",
+          "idomin.com",
+          "jndn.com",
+          "news.bbsi.co.kr",
+          "yna.co.kr",
+          "seongjuro.co.kr",
+          "idaegu.co.kr",
+          "gndomin.com",
+          "newsgn.com",
+          "naeil.com",
+          "tournews21.com"
+        ],
+        "outletCount": 11,
+        "articles": [
+          {
+            "title": "행안부, 휴가철 맞아 하천·계곡 불법영업 집중 단속 나선다",
+            "press": "idsn.co.kr",
+            "link": "https://idsn.co.kr/news/view/1065600867189250"
+          },
+          {
+            "title": "국립공원공단, 휴가철 불법·무질서행위 집중 단속",
+            "press": "idomin.com",
+            "link": "https://www.idomin.com/news/articleView.html?idxno=2010045"
+          },
+          {
+            "title": "무등산국립공원동부사무소, 불법·무질서 행위 집중 단속",
+            "press": "jndn.com",
+            "link": "http://www.jndn.com/article.php?aid=1783936113435997011"
+          },
+          {
+            "title": "무등산국립공원동부사무소, 여름철 불법·무질서 행위 집중단속",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4094750"
+          },
+          {
+            "title": "주왕산공원사무소, 휴가철 불법·무질서 행위 집중 단속",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260710118700053?input=1195m"
+          },
+          {
+            "title": "가야산국립공원, 여름철 불법·무질서 행위 집중단속",
+            "press": "seongjuro.co.kr",
+            "link": "https://www.seongjuro.co.kr/news/view.php?idx=60446"
+          },
+          {
+            "title": "가야산국립공원, 여름 성수기 불법행위 집중 단속",
+            "press": "idaegu.co.kr",
+            "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=553256"
+          },
+          {
+            "title": "합천 가야산국립공원사무소, 불법·무질서 행위 집중단속 실시",
+            "press": "gndomin.com",
+            "link": "http://www.gndomin.com/news/articleView.html?idxno=481216"
+          },
+          {
+            "title": "가야산국립공원사무소 여름 성수기 불법·무질서 행위 집중단속 실시",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=560945"
+          },
+          {
+            "title": "무등산국립공원, 여름 성수기 불법행위 집중 단속",
+            "press": "jndn.com",
+            "link": "http://www.jndn.com/article.php?aid=1783415785435673011"
+          }
+        ],
+        "link": "https://idsn.co.kr/news/view/1065600867189250"
+      },
+      {
+        "title": "계룡시, 민선9기 기관·단체 방문 마무리...시민과 함께하는 소통행정 ...",
+        "reports": 13,
+        "press": [
+          "jeonmae.co.kr",
+          "ggilbo.com",
+          "cctimes.kr",
+          "chungnamilbo.co.kr",
+          "ccdailynews.com",
+          "newstnt.com",
+          "gocj.net",
+          "m-i.kr",
+          "goodmorningcc.com",
+          "cc.newdaily.co.kr",
+          "jeollailbo.com"
+        ],
+        "outletCount": 11,
+        "articles": [
+          {
+            "title": "계룡시, 민선9기 기관·단체 방문 마무리...시민과 함께하는 소통행정 ...",
+            "press": "jeonmae.co.kr",
+            "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1276039"
+          },
+          {
+            "title": "이응우 계룡시장, 민선9기 기관·단체 방문 마무리",
+            "press": "ggilbo.com",
+            "link": "https://www.ggilbo.com/news/articleView.html?idxno=1169799"
+          },
+          {
+            "title": "이응우 계룡시장 지역 40개 기관·단체 방문 마무리",
+            "press": "cctimes.kr",
+            "link": "http://www.cctimes.kr/news/articleView.html?idxno=917042"
+          },
+          {
+            "title": "계룡시, 민선9기 40개 기관·단체 소통 행보 마무리",
+            "press": "chungnamilbo.co.kr",
+            "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=899323"
+          },
+          {
+            "title": "40개 기관·단체 누빈 이응우 시장…민선9기 소통행정 시동",
+            "press": "ccdailynews.com",
+            "link": "https://www.ccdailynews.com/news/articleView.html?idxno=2428588"
+          },
+          {
+            "title": "이응우 계룡시장, 40개 기관·단체 방문 마무리… '현장 소통' 본격화",
+            "press": "newstnt.com",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=710614"
+          },
+          {
+            "title": "계룡시, 시민과 함께하는 소통행정 본격 추진",
+            "press": "gocj.net",
+            "link": "http://www.gocj.net/news/articleView.html?idxno=150253"
+          },
+          {
+            "title": "계룡시, 기관·단체 방문 마무리",
+            "press": "jeonmae.co.kr",
+            "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1275345"
+          },
+          {
+            "title": "계룡시, 민선9기 기관·단체 방문 일정 마무리…시민 중심 시정 본격 실...",
+            "press": "m-i.kr",
+            "link": "https://www.m-i.kr/news/articleView.html?idxno=1392352"
+          },
+          {
+            "title": "계룡시, 민선9기 기관·단체 40곳 방문...소통행정 본격 추진",
+            "press": "goodmorningcc.com",
+            "link": "https://www.goodmorningcc.com/news/articleView.html?idxno=449088"
+          }
+        ],
+        "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1276039"
+      },
+      {
+        "title": "전남광주특별시, 첫 통합 내년 국비 확보 비상",
+        "reports": 12,
+        "press": [
+          "namdonews.com",
+          "pointdaily.co.kr",
+          "ziksir.com",
+          "news.dealsitetv.com",
+          "hansbiz.co.kr",
+          "newsis.com",
+          "daily.hankooki.com",
+          "yna.co.kr",
+          "munhwa.com",
+          "jnilbo.com",
+          "news1.kr"
+        ],
+        "outletCount": 11,
+        "articles": [
+          {
+            "title": "전남광주특별시, 첫 통합 내년 국비 확보 비상",
+            "press": "namdonews.com",
+            "link": "https://www.namdonews.com/news/articleView.html?idxno=918469"
+          },
+          {
+            "title": "전남광주특별시, 정부예산 확보 총력전",
+            "press": "pointdaily.co.kr",
+            "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=312821"
+          },
+          {
+            "title": "전남광주통합특별시, 정부예산 확보 '총력'",
+            "press": "ziksir.com",
+            "link": "https://www.ziksir.com/news/articleView.html?idxno=140824"
+          },
+          {
+            "title": "전남광주특별시, 정부예산 확보 총력…영암~광주고속도로 등 국비 건의",
+            "press": "news.dealsitetv.com",
+            "link": "https://news.dealsitetv.com/articles/173602"
+          },
+          {
+            "title": "전남광주특별시, 내년 정부예산 확보 총력",
+            "press": "hansbiz.co.kr",
+            "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=851788"
+          },
+          {
+            "title": "전남광주, 통합 첫 국비 확보 비상(종합)",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260722_0003718900"
+          },
+          {
+            "title": "전남광주통합특별시, 정부예산 확보 총력전",
+            "press": "daily.hankooki.com",
+            "link": "https://daily.hankooki.com/news/articleView.html?idxno=1388195"
+          },
+          {
+            "title": "전남광주특별시, 내년 국비 확보 '총력'…기획처 심의 대응",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260722124200054?input=1195m"
+          },
+          {
+            "title": "전남광주시, 내년 정부예산안 확정 앞두고 국비 확보 총력전",
+            "press": "munhwa.com",
+            "link": "https://www.munhwa.com/article/11604293?ref=naver"
+          },
+          {
+            "title": "전남광주통합특별시, 내년 정부 예산 확보 총력전",
+            "press": "jnilbo.com",
+            "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000051558"
+          }
+        ],
+        "link": "https://www.namdonews.com/news/articleView.html?idxno=918469"
+      },
+      {
+        "title": "계룡산에 새 관광명소 떴다…공주 '갑사마루' 준공, 관광지도 새로 쓴다",
+        "reports": 11,
+        "press": [
+          "tournews21.com",
+          "newsis.com",
+          "ggilbo.com",
+          "dynews.co.kr",
+          "aflnews.co.kr",
+          "newsworker.co.kr",
+          "newstnt.com",
+          "daily.hankooki.com",
+          "m-i.kr",
+          "discoverynews.kr",
+          "chungnamilbo.co.kr"
+        ],
+        "outletCount": 11,
+        "articles": [
+          {
+            "title": "계룡산에 새 관광명소 떴다…공주 '갑사마루' 준공, 관광지도 새로 쓴다",
+            "press": "tournews21.com",
+            "link": "https://www.tournews21.com/news/articleView.html?idxno=139088"
+          },
+          {
+            "title": "계룡산 '갑사마루' 생태 관광지 준공…63억 투입",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260721_0003717415"
+          },
+          {
+            "title": "공주시, 계룡산에 관광시설 '갑사마루' 준공",
+            "press": "ggilbo.com",
+            "link": "https://www.ggilbo.com/news/articleView.html?idxno=1170477"
+          },
+          {
+            "title": "공주시 갑사지구 관광시설 '갑사마루' 준공",
+            "press": "dynews.co.kr",
+            "link": "https://www.dynews.co.kr/news/articleView.html?idxno=858630"
+          },
+          {
+            "title": "공주시 계룡산 갑사지구에 친환경 관광쉼터 '갑사마루' 준공",
+            "press": "aflnews.co.kr",
+            "link": "https://www.aflnews.co.kr/news/articleView.html?idxno=324909"
+          },
+          {
+            "title": "공주시, '갑사마루' 준공... 갑사지구 체류형 관광거점 시동",
+            "press": "newsworker.co.kr",
+            "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=437391"
+          },
+          {
+            "title": "공주시, 갑사지구 관광 명소 '갑사마루' 준공",
+            "press": "newstnt.com",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=711008"
+          },
+          {
+            "title": "[공주소식] 갑사지구 주변지역 관광시설 '갑사마루' 준공 외",
+            "press": "daily.hankooki.com",
+            "link": "https://daily.hankooki.com/news/articleView.html?idxno=1387472"
+          },
+          {
+            "title": "공주시, 계룡산국립공원 갑사지구 관광시설 '갑사마루' 준공",
+            "press": "m-i.kr",
+            "link": "https://www.m-i.kr/news/articleView.html?idxno=1393418"
+          },
+          {
+            "title": "공주시, 계룡산 관광거점 '갑사마루' 준공...체류형 관광 기반 강화",
+            "press": "discoverynews.kr",
+            "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1096566"
+          }
+        ],
+        "link": "https://www.tournews21.com/news/articleView.html?idxno=139088"
+      },
+      {
+        "title": "민형배 시장, 예산처 장관에 핵심 국비사업 건의",
+        "reports": 10,
+        "press": [
+          "jndn.com",
+          "namdonews.com",
+          "newspim.com",
+          "ttlnews.com",
+          "view.asiae.co.kr",
+          "getnews.co.kr",
+          "nocutnews.co.kr",
+          "seoulfn.com",
+          "news1.kr",
+          "enewstoday.co.kr"
+        ],
+        "outletCount": 10,
+        "articles": [
+          {
+            "title": "민형배 시장, 예산처 장관에 핵심 국비사업 건의",
+            "press": "jndn.com",
+            "link": "http://www.jndn.com/article.php?aid=1785057680436674003"
+          },
+          {
+            "title": "민형배 시장, 예산처 장관 만나 국비 확보 시동…AI·자율주행 등 대거...",
+            "press": "namdonews.com",
+            "link": "https://www.namdonews.com/news/articleView.html?idxno=917941"
+          },
+          {
+            "title": "[종합] 민형배 시장, 기획예산처 장관에 '핵심 국고사업 예산 반영' 건의",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20260724000943"
+          },
+          {
+            "title": "민형배 전남광주특별시장, 2027년 국고사업 예산 요청…AI·NPU센터 등 핵...",
+            "press": "ttlnews.com",
+            "link": "http://www.ttlnews.com/news/articleView.html?idxno=3128570"
+          },
+          {
+            "title": "민형배, AI·미래산업 핵심사업 국비 확보 나서",
+            "press": "view.asiae.co.kr",
+            "link": "https://view.asiae.co.kr/article/2026072414455469542"
+          },
+          {
+            "title": "민형배 전남광주특별시장, 기획예산처 장관 만나 국가 AI 핵심사업 국비...",
+            "press": "getnews.co.kr",
+            "link": "https://www.getnews.co.kr/news/articleView.html?idxno=875993"
+          },
+          {
+            "title": "민형배, AI 국비 확보 총력…국가 NPU센터 광주 유치 건의",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6552949?utm_source=naver&utm_medium=article&utm_campaign=20260724023610"
+          },
+          {
+            "title": "민형배 전남광주시장, 기재부에 AI·미래산업 국고사업 반영 요청",
+            "press": "seoulfn.com",
+            "link": "https://www.seoulfn.com/news/articleView.html?idxno=634087"
+          },
+          {
+            "title": "민형배 특별시장, 국가NPU센터·AI데이터센터 국비 확보 총력",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/gwangju-jeonnam/6238105"
+          },
+          {
+            "title": "민형배 특별시장, 박홍근 기획예산처 장관 만나 핵심 국비사업 건의",
+            "press": "enewstoday.co.kr",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2452264"
+          }
+        ],
+        "link": "http://www.jndn.com/article.php?aid=1785057680436674003"
+      },
+      {
+        "title": "주말 설악산 추락·선장 실종 사고 잇따라",
+        "reports": 10,
+        "press": [
+          "news.lghellovision.net",
+          "news.tvchosun.com",
+          "news.sbs.co.kr",
+          "kyeonggi.com",
+          "idsn.co.kr",
+          "chosun.com",
+          "edaily.co.kr",
+          "biz.heraldcorp.com",
+          "yna.co.kr",
+          "ytn.co.kr"
+        ],
+        "outletCount": 10,
+        "articles": [
+          {
+            "title": "주말 설악산 추락·선장 실종 사고 잇따라",
+            "press": "news.lghellovision.net",
+            "link": "http://news.lghellovision.net/news/articleView.html?idxno=547541"
+          },
+          {
+            "title": "설악산서 주말 산악 사고 잇따라…2명 중상",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/06/2026070690082.html"
+          },
+          {
+            "title": "설악산서 등산객 추락사고 잇따라…2명 중상",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008642466&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "설악산서 또 추락…주말 사이 60대 등산객 2명 중상",
+            "press": "kyeonggi.com",
+            "link": "https://www.kyeonggi.com/article/20260705580377"
+          },
+          {
+            "title": "설악산 주말 추락사고 잇따라…등반객 2명 중상",
+            "press": "idsn.co.kr",
+            "link": "https://idsn.co.kr/news/view/1065613329914028"
+          },
+          {
+            "title": "주말 설악산에서 추락사고 잇따라… 등산객 2명 중상",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/national/regional/gangwon/2026/07/05/QE7WNVQBZVAIDHNQMBHI6DUIIY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          },
+          {
+            "title": "주말 설악산 연이은 추락사고…2명 중상",
+            "press": "edaily.co.kr",
+            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02276326645511568"
+          },
+          {
+            "title": "설악산서 등산객 잇단 추락사고…2명 중상",
+            "press": "biz.heraldcorp.com",
+            "link": "https://biz.heraldcorp.com/article/10798566?ref=naver"
+          },
+          {
+            "title": "주말 새 설악산서 등산객 추락사고 잇따라…2명 중상",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260705044000062?input=1195m"
+          },
+          {
+            "title": "강원서 등산객 추락 사고 잇따라...2명 다쳐",
+            "press": "ytn.co.kr",
+            "link": "https://www.ytn.co.kr/_ln/0115_202607051839287564"
+          }
+        ],
+        "link": "http://news.lghellovision.net/news/articleView.html?idxno=547541"
+      },
+      {
+        "title": "내장산국립공원서 멸종위기 야생생물 Ⅱ급 대흥란 개화",
+        "reports": 10,
+        "press": [
+          "jeonmin.co.kr",
+          "sjbnews.com",
+          "newsis.com",
+          "hankookilbo.com",
+          "jeollailbo.com",
+          "mt.co.kr",
+          "kyongbuk.co.kr",
+          "yna.co.kr",
+          "news.bbsi.co.kr"
+        ],
+        "outletCount": 9,
+        "articles": [
+          {
+            "title": "내장산국립공원서 멸종위기 야생생물 Ⅱ급 대흥란 개화",
+            "press": "jeonmin.co.kr",
+            "link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=444278"
+          },
+          {
+            "title": "내장산에 멸종위기 '대흥란'",
+            "press": "sjbnews.com",
+            "link": "https://sjbnews.com/news/news.php?number=883986"
+          },
+          {
+            "title": "멸종위기 '대흥란' 방긋…내장산국립공원에 개화",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260728_0003726760"
+          },
+          {
+            "title": "국립 내장산서 멸종위기 야생생물 '대흥란' 개화",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026072810110000779?did=NA"
+          },
+          {
+            "title": "내장산서 멸종위기 '대흥란' 개화…보전 관리 성과",
+            "press": "jeollailbo.com",
+            "link": "http://www.jeollailbo.com/news/articleView.html?idxno=806527"
+          },
+          {
+            "title": "다도해국립공원서 멸종위기 Ⅱ급 대흥란 개화·서식 확인",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260727_0003725054"
+          },
+          {
+            "title": "다도해해상국립공원, 멸종위기야생생물 '대흥란' 서식 추가 확인",
+            "press": "mt.co.kr",
+            "link": "https://www.mt.co.kr/policy/2026/07/27/2026072714465536223"
+          },
+          {
+            "title": "팔공산 내 멸종위기 야생생물 '대흥란' 개화",
+            "press": "kyongbuk.co.kr",
+            "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4079250"
+          },
+          {
+            "title": "팔공산국립공원서 멸종위기 야생 난초 '대흥란' 개화 확인",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260724114500053?input=1195m"
+          },
+          {
+            "title": "팔공산 멸종위기 Ⅱ급 희귀 난초 '대흥란' 활짝 피어",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4096885"
+          }
+        ],
+        "link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=444278"
+      },
+      {
+        "title": "강원관광재단, 8월엔 태백·양구",
+        "reports": 9,
+        "press": [
+          "starnewskorea.com",
+          "asiatoday.co.kr",
+          "kado.net",
+          "gukjenews.com",
+          "weeklytoday.com",
+          "ajunews.com",
+          "news1.kr",
+          "yna.co.kr",
+          "sisajournal.com"
+        ],
+        "outletCount": 9,
+        "articles": [
+          {
+            "title": "강원관광재단, 8월엔 태백·양구",
+            "press": "starnewskorea.com",
+            "link": "https://www.starnewskorea.com/business-life/2026/07/26/2026072614480568100"
+          },
+          {
+            "title": "강원도, 8월 추천 여행지 태백·양구 선정…고원·호수 피서 매력 '한눈...",
+            "press": "asiatoday.co.kr",
+            "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260726010009241"
+          },
+          {
+            "title": "강원관광재단, 8월 추천 여행지에 태백·양구 선정",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2063082"
+          },
+          {
+            "title": "태백·양구, 8월 강원 추천 여행지 선정…'한강·낙동강 발원지 축제' 등...",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3645662"
+          },
+          {
+            "title": "[위클리오늘] 강원도, 8월 추천 여행지로 태백·양구 선정…여름 피서 ...",
+            "press": "weeklytoday.com",
+            "link": "http://www.weeklytoday.com/news/articleView.html?idxno=787130"
+          },
+          {
+            "title": "강원관광재단, 8월 추천 여행지에 태백·양구...고원축제와 호수·예술로...",
+            "press": "ajunews.com",
+            "link": "https://www.ajunews.com/view/20260724100306221"
+          },
+          {
+            "title": "\"8월 태백·양구에서 시원한 여름 보내세요\"",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6237642"
+          },
+          {
+            "title": "강원도, 8월 추천여행지 태백·양구 선정…무더운 여름 시원하게",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260724035800062?input=1195m"
+          },
+          {
+            "title": "[태백 24] 태백의 여름, 두 강의 시작에서 열린다…'한강·낙동강 발원지...",
+            "press": "sisajournal.com",
+            "link": "https://www.sisajournal.com/news/articleView.html?idxno=380636"
+          }
+        ],
+        "link": "https://www.starnewskorea.com/business-life/2026/07/26/2026072614480568100"
+      },
+      {
+        "title": "기후부, 특별성과 16명 포상…전기차 보급 확대·열에너지 혁신 등",
+        "reports": 9,
+        "press": [
+          "ferrotimes.com",
+          "news.bbsi.co.kr",
+          "ikld.kr",
+          "e-platform.net",
+          "electimes.com",
+          "news.einfomax.co.kr",
+          "edaily.co.kr",
+          "dt.co.kr",
+          "ajunews.com"
+        ],
+        "outletCount": 9,
+        "articles": [
+          {
+            "title": "기후부, 특별성과 16명 포상…전기차 보급 확대·열에너지 혁신 등",
+            "press": "ferrotimes.com",
+            "link": "http://www.ferrotimes.com/news/articleView.html?idxno=48983"
+          },
+          {
+            "title": "기후부, 우수성과 창출 공로자에 특별성과 포상...전기차.열에너지 분야...",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4093359"
+          },
+          {
+            "title": "기후부, 올해 두번째 특별성과 공무원 16명 포상",
+            "press": "ikld.kr",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=337115"
+          },
+          {
+            "title": "기후부, 전기차 보급 확대 등 탄소중립 성과 공무원 16명 포상",
+            "press": "e-platform.net",
+            "link": "http://www.e-platform.net/news/articleView.html?idxno=103593"
+          },
+          {
+            "title": "\"탄소중립 가속화\"…기부후, 우수성과 창출 공로자 포상",
+            "press": "electimes.com",
+            "link": "https://www.electimes.com/news/articleView.html?idxno=369939"
+          },
+          {
+            "title": "기후부, 전기차 보급·홍수대응 우수 공무원 16명 특별성과 포상",
+            "press": "news.einfomax.co.kr",
+            "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423473"
+          },
+          {
+            "title": "전기차 지원·재생열 전환 성과…특별성과 공무원 16명 포상",
+            "press": "edaily.co.kr",
+            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02689606645511896"
+          },
+          {
+            "title": "기후부, 전기차 보급확대 등 4개 우수성과 창출 공로자에 포상",
+            "press": "dt.co.kr",
+            "link": "https://www.dt.co.kr/article/12071198?ref=naver"
+          },
+          {
+            "title": "전기차 보급 확대 등 4개 정책 성과…기후부, 공무원 16명 포상",
+            "press": "ajunews.com",
+            "link": "https://www.ajunews.com/view/20260706084512100"
+          }
+        ],
+        "link": "http://www.ferrotimes.com/news/articleView.html?idxno=48983"
+      },
+      {
+        "title": "국립공원공단 중부지역본부, 청주상공회의소와 공식 업무협약 체결",
+        "reports": 9,
+        "press": [
+          "m-i.kr",
+          "kado.net",
+          "sentv.co.kr",
+          "etoday.co.kr",
+          "hansbiz.co.kr",
+          "sports.donga.com",
+          "zdnet.co.kr",
+          "enewstoday.co.kr"
+        ],
+        "outletCount": 8,
+        "articles": [
+          {
+            "title": "국립공원공단 중부지역본부, 청주상공회의소와 공식 업무협약 체결",
+            "press": "m-i.kr",
+            "link": "https://www.m-i.kr/news/articleView.html?idxno=1391390"
+          },
+          {
+            "title": "한국관광공사·국립공원공단 업무협약",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2060581"
+          },
+          {
+            "title": "한국관광공사-국립공원공단, 지역관광 활성화를 위한 업무협약",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2060416"
+          },
+          {
+            "title": "한국관광공사-국립공원공단, 국립공원 연계 관광 활성화 맞손",
+            "press": "sentv.co.kr",
+            "link": "https://www.sentv.co.kr/article/view/sentv202607090063"
+          },
+          {
+            "title": "한국관광공사·국립공원공단, K트레킹 활성화 위한 업무협약 맺어",
+            "press": "etoday.co.kr",
+            "link": "https://www.etoday.co.kr/news/view/2601976"
+          },
+          {
+            "title": "한국관광공사-국립공원공단, 관광객 유치 위해 맞손",
+            "press": "hansbiz.co.kr",
+            "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=849230"
+          },
+          {
+            "title": "한국관광공사, 국립공원공단과 K트레킹 활성화 업무협약",
+            "press": "sports.donga.com",
+            "link": "https://sports.donga.com/life/article/all/20260709/134264313/1"
+          },
+          {
+            "title": "국립공원공단, 관광공사와 지역관광 활성화 업무협약 체결",
+            "press": "zdnet.co.kr",
+            "link": "https://zdnet.co.kr/view/?no=20260709092036"
+          },
+          {
+            "title": "국립공원공단·관광공사, 외국인 관광객 유치 '맞손'",
+            "press": "enewstoday.co.kr",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2446972"
+          }
+        ],
+        "link": "https://www.m-i.kr/news/articleView.html?idxno=1391390"
+      },
+      {
+        "title": "국민엔 대출규제·공공기관엔 특혜 허용… 공공기관 22곳 사내대출 기준...",
+        "reports": 7,
+        "press": [
+          "m.skyedaily.com",
+          "hidomin.com",
+          "joseilbo.com",
+          "dailyt.co.kr",
+          "sisafocus.co.kr",
+          "intn.co.kr",
+          "updownnews.co.kr"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "국민엔 대출규제·공공기관엔 특혜 허용… 공공기관 22곳 사내대출 기준...",
+            "press": "m.skyedaily.com",
+            "link": "https://m.skyedaily.com/news_view.html?ID=308356"
+          },
+          {
+            "title": "공공기관 22곳 사내대출 기준 위반",
+            "press": "hidomin.com",
+            "link": "https://www.hidomin.com/news/articleView.html?idxno=714232"
+          },
+          {
+            "title": "DSR 비켜간 사내대출 671억...\"공공기관 22곳 사내대출 기준 위반\"",
+            "press": "joseilbo.com",
+            "link": "http://www.joseilbo.com/news/news_read.php?uid=572368&class=32&grp="
+          },
+          {
+            "title": "정부 지침은 휴지조각? 공공기관 22곳, 사내대출 특혜 운영",
+            "press": "dailyt.co.kr",
+            "link": "https://www.dailyt.co.kr/newsView/dlt202607220006"
+          },
+          {
+            "title": "공공기관 22곳, 정부 기준 초과 671억 대출 적발",
+            "press": "sisafocus.co.kr",
+            "link": "http://www.sisafocus.co.kr/news/articleView.html?idxno=362838"
+          },
+          {
+            "title": "송언석 의원, 공공기관 22곳 사내대출 기준 위반 정부 지침 '있으나 마나...",
+            "press": "intn.co.kr",
+            "link": "http://www.intn.co.kr/news/articleView.html?idxno=2052090"
+          },
+          {
+            "title": "송언석 의원, \"공공기관 22곳, 사내 주택대출 정부지침 위반\"…무이자·...",
+            "press": "updownnews.co.kr",
+            "link": "http://www.updownnews.co.kr/news/articleView.html?idxno=318061"
+          }
+        ],
+        "link": "https://m.skyedaily.com/news_view.html?ID=308356"
+      },
+      {
+        "title": "한라산 산악박물관 새 이름 찾는다",
+        "reports": 7,
+        "press": [
+          "kmib.co.kr",
+          "khan.co.kr",
+          "headlinejeju.co.kr",
+          "jejudomin.co.kr",
+          "newsis.com",
+          "yna.co.kr",
+          "jejusori.net"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "한라산 산악박물관 새 이름 찾는다",
+            "press": "kmib.co.kr",
+            "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030131082&code=61121111&cp=nv"
+          },
+          {
+            "title": "“한라산 산악박물관 새 이름 찾아요”···새 명칭 공모",
+            "press": "khan.co.kr",
+            "link": "https://www.khan.co.kr/article/202607191011001"
+          },
+          {
+            "title": "제주산악박물관, 한라산의 가치 담은 새 이름 찾는다",
+            "press": "headlinejeju.co.kr",
+            "link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=596039"
+          },
+          {
+            "title": "한라산국립공원 산악박물관 새 명칭 공모",
+            "press": "jejudomin.co.kr",
+            "link": "https://www.jejudomin.co.kr/news/articleView.html?idxno=320678"
+          },
+          {
+            "title": "한라산국립공원 산악박물관 이름 지어주세요…명칭공모",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260716_0003711826"
+          },
+          {
+            "title": "제주 한라산 산악박물관 새 이름 찾는다…전 국민 공모",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260716060300056?input=1195m"
+          },
+          {
+            "title": "한라산 산악박물관 개편 곧 마무리, 새 명칭 공모",
+            "press": "jejusori.net",
+            "link": "https://www.jejusori.net/news/articleView.html?idxno=504801"
+          }
+        ],
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030131082&code=61121111&cp=nv"
+      },
+      {
+        "title": "강원 원주에 ‘원주태장 하나님의 교회’ 헌당…700여 명 축하 속 성료",
+        "reports": 7,
+        "press": [
+          "kgnews.co.kr",
+          "globalepic.co.kr",
+          "metroseoul.co.kr",
+          "pointdaily.co.kr",
+          "enetnews.co.kr",
+          "m-joongang.com",
+          "discoverynews.kr"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "강원 원주에 ‘원주태장 하나님의 교회’ 헌당…700여 명 축하 속 성료",
+            "press": "kgnews.co.kr",
+            "link": "https://www.kgnews.co.kr/news/article.html?no=903367"
+          },
+          {
+            "title": "하나님의교회, 원주서 '원주태장 하나님의 교회' 헌당식 거행",
+            "press": "globalepic.co.kr",
+            "link": "http://www.globalepic.co.kr/view.php?ud=20260709082009230223fd0362e7_29"
+          },
+          {
+            "title": "하나님의 교회, 원주 태장동 새 성전 헌당",
+            "press": "metroseoul.co.kr",
+            "link": "http://www.metroseoul.co.kr/article/20260709500041"
+          },
+          {
+            "title": "강원도 원주서 '원주태장 하나님의 교회' 헌당식 거행",
+            "press": "pointdaily.co.kr",
+            "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=311221"
+          },
+          {
+            "title": "강원도 원주서 '원주태장 하나님의 교회' 헌당식 진행",
+            "press": "enetnews.co.kr",
+            "link": "https://www.enetnews.co.kr/news/articleView.html?idxno=52197"
+          },
+          {
+            "title": "강원도 '원주태장 하나님의 교회' 헌당",
+            "press": "m-joongang.com",
+            "link": "https://www.m-joongang.com/news/articleView.html?idxno=402758"
+          },
+          {
+            "title": "원주 태장동 하나님의교회 새 성전 준공",
+            "press": "discoverynews.kr",
+            "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1095619"
+          }
+        ],
+        "link": "https://www.kgnews.co.kr/news/article.html?no=903367"
+      },
+      {
+        "title": "여름 신안, 푸른 바다와 섬들이 선사하는 특별한 휴식처, 가볼 만한 곳",
+        "reports": 48,
+        "press": [
+          "joongangenews.com",
+          "stardailynews.co.kr",
+          "topstarnews.net",
+          "cbci.co.kr",
+          "dkilbo.com",
+          "nownews.seoul.co.kr"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "여름 신안, 푸른 바다와 섬들이 선사하는 특별한 휴식처, 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=535299"
+          },
+          {
+            "title": "고흥 여름, 푸른 바다와 우주의 신비를 만나는 가볼 만한 곳",
+            "press": "stardailynews.co.kr",
+            "link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=543332"
+          },
+          {
+            "title": "푸른 바다와 초록빛 자연, 거제에서 만나는 여름날 가볼 만한 곳",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16141590"
+          },
+          {
+            "title": "고흥에서 만나는 여름의 푸른 바다, 활력 넘치는 여행 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=593214"
+          },
+          {
+            "title": "구례 여행, 다채로운 자연 속 여름날의 특별한 추억",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=535267"
+          },
+          {
+            "title": "남해의 푸른 바다와 자연이 어우러진 여름, 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=592540"
+          },
+          {
+            "title": "여름 태안에서 만나는 비경, 고요한 자연 속 가볼 만한 곳들",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16141537"
+          },
+          {
+            "title": "양양의 여름, 푸른 바다와 산이 어우러진 다채로운 즐거움을 찾아",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16141472"
+          },
+          {
+            "title": "여름 부안, 푸른 바다와 고찰이 어우러진 가볼 만한 곳",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16139440"
+          },
+          {
+            "title": "여름의 싱그러움이 가득한 청주, 자연 속에서 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=533416"
+          }
+        ],
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=535299"
+      },
+      {
+        "title": "열대야 없는 고원도시 태백…물과 영화로 화려한 여름 개막",
+        "reports": 8,
+        "press": [
+          "kwnews.co.kr",
+          "pressian.com",
+          "mbceg.co.kr",
+          "enewstoday.co.kr",
+          "kado.net",
+          "yna.co.kr"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "열대야 없는 고원도시 태백…물과 영화로 화려한 여름 개막",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260726500132"
+          },
+          {
+            "title": "열대야 없는 고원도시…태백서 즐기는 발원지 축제와 쿨시네마",
+            "press": "pressian.com",
+            "link": "https://www.pressian.com/pages/articles/2026072411252787882?utm_source=naver&utm_medium=search"
+          },
+          {
+            "title": "태백 대표 여름 축제 오늘과 내일 잇따라 개막",
+            "press": "mbceg.co.kr",
+            "link": "https://www.mbceg.co.kr/post/138537"
+          },
+          {
+            "title": "물과 영화로 식히는 태백의 여름…발원지 축제·쿨시네마 열흘 대장정",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260722500566"
+          },
+          {
+            "title": "태백서 즐기는 시원한 여름…발원지 축제·쿨 시네마 개최",
+            "press": "enewstoday.co.kr",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2451063"
+          },
+          {
+            "title": "열대야 없는 태백, 여름 스포츠·관광특수 개막",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2059243"
+          },
+          {
+            "title": "열대야 없는 태백…여름 축제·피서지로 관광객 맞이 분주",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260702139200062?input=1195m"
+          },
+          {
+            "title": "가장 시원한 도시 ‘태백’ 여름 관광객 맞이 나서",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260702500160"
+          }
+        ],
+        "link": "https://www.kwnews.co.kr/article/20260726500132"
+      },
+      {
+        "title": "송언석 의원 \"공공기관 22곳, 주택대출 기준 위반…1020억원 운영 특혜 ...",
+        "reports": 6,
+        "press": [
+          "pointdaily.co.kr",
+          "ilyoseoul.co.kr",
+          "newsworker.co.kr",
+          "news1.kr",
+          "biz.heraldcorp.com",
+          "chosun.com"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "송언석 의원 \"공공기관 22곳, 주택대출 기준 위반…1020억원 운영 특혜 ...",
+            "press": "pointdaily.co.kr",
+            "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=312769"
+          },
+          {
+            "title": "송언석 의원, 공공기관 22곳 사내대출 정부 지침 위반 지적… 1인당 최대...",
+            "press": "ilyoseoul.co.kr",
+            "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=520146"
+          },
+          {
+            "title": "[뉴스워커_송언석 의원] \"22개 공공기관, 사내 주택대출 정부 지침 위반...",
+            "press": "newsworker.co.kr",
+            "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=437547"
+          },
+          {
+            "title": "주담대 상단 7.5% 넘었는데…공공기관 22곳, 2%대 사내 주담대 운영",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/daegu-gyeongbuk/6235168"
+          },
+          {
+            "title": "공공기관 22곳 ‘사내 주택대출’, 정부지침 위반…송언석 “국민은 대...",
+            "press": "biz.heraldcorp.com",
+            "link": "https://biz.heraldcorp.com/article/10815774?ref=naver"
+          },
+          {
+            "title": "[단독]신보 최대 2.1억원·HUG 2억원 사내대출…공공기관 22곳 정부 지침...",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/economy/economy_general/2026/07/21/AS2FETZTYBENHANP6NJWFGAP5Q/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          }
+        ],
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=312769"
+      },
+      {
+        "title": "남동발전, 국립공원공단과 감사 전문성 높인다",
+        "reports": 6,
+        "press": [
+          "gnnews.co.kr",
+          "newsgn.com",
+          "news1.kr",
+          "newscj.com",
+          "viva100.com",
+          "yna.co.kr"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "남동발전, 국립공원공단과 감사 전문성 높인다",
+            "press": "gnnews.co.kr",
+            "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=641328"
+          },
+          {
+            "title": "한국남동발전-국립공원공단, 감사 전문성 제고 및 내부통제 강화를 위한...",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=562877"
+          },
+          {
+            "title": "국립공원공단·한국남동발전, 감사업무 교류",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6231673"
+          },
+          {
+            "title": "[포토] '한국남동발전-국립공원공단 감사업무 협약식'",
+            "press": "newscj.com",
+            "link": "https://www.newscj.com/news/articleView.html?idxno=3417767"
+          },
+          {
+            "title": "한국남동발전-국립공원공단, 감사 전문성 제고 및 내부통제 강화 위한 ...",
+            "press": "viva100.com",
+            "link": "https://www.viva100.com/article/20260716500812"
+          },
+          {
+            "title": "국립공원공단·한국남동발전, 감사 전문성 강화 '맞손'",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260716170100062?input=1195m"
+          }
+        ],
+        "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=641328"
+      },
+      {
+        "title": "영주 고치령 '통신 사각지대' 없앤다",
+        "reports": 6,
+        "press": [
+          "idaegu.co.kr",
+          "yeongnam.com",
+          "news.tf.co.kr",
+          "imaeil.com",
+          "daily.hankooki.com",
+          "kbsm.net"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "영주 고치령 '통신 사각지대' 없앤다",
+            "press": "idaegu.co.kr",
+            "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=554119"
+          },
+          {
+            "title": "영주 고치령 ‘통신 사각지대’ 없앤다…10월까지 기지국 2곳 설치",
+            "press": "yeongnam.com",
+            "link": "https://www.yeongnam.com/web/view.php?key=20260715024596215"
+          },
+          {
+            "title": "소백산 고치령, 통신 사각지대 벗는다…10월까지 재난안전망 구축",
+            "press": "news.tf.co.kr",
+            "link": "https://news.tf.co.kr/read/national/2343772.htm"
+          },
+          {
+            "title": "영주시, 고치령 통신 사각지대 없앤다…재난안전망 구축 본격 시동",
+            "press": "imaeil.com",
+            "link": "https://www.imaeil.com/page/view/2026071511194266534"
+          },
+          {
+            "title": "영주시, 고치령 통신 사각지대 없앤다…10월까지 기지국 2곳 설치",
+            "press": "daily.hankooki.com",
+            "link": "https://daily.hankooki.com/news/articleView.html?idxno=1386172"
+          },
+          {
+            "title": "영주시, 고치령 이동통신 인프라 구축 나서",
+            "press": "kbsm.net",
+            "link": "https://www.kbsm.net/news/view.php?idx=526842"
+          }
+        ],
+        "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=554119"
+      },
+      {
+        "title": "후박나무 껍질 벗겨 징역 2년…산림청, 불법 수목 훼손 '무관용' 특별단...",
+        "reports": 6,
+        "press": [
+          "youngnong.co.kr",
+          "etnews.com",
+          "segye.com",
+          "hankyung.com",
+          "news1.kr",
+          "paxetv.com"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "후박나무 껍질 벗겨 징역 2년…산림청, 불법 수목 훼손 '무관용' 특별단...",
+            "press": "youngnong.co.kr",
+            "link": "http://www.youngnong.co.kr/news/articleView.html?idxno=60970"
+          },
+          {
+            "title": "산림청, 산림 훼손·불법 임산물 채취 '무관용' 선포",
+            "press": "etnews.com",
+            "link": "https://www.etnews.com/20260713000318"
+          },
+          {
+            "title": "나무 껍질 벗기고 불법 벌채…산림청, 산림 훼손 ‘무관용’ 특별단속",
+            "press": "segye.com",
+            "link": "https://www.segye.com/newsView/20260713514810?OutUrl=naver"
+          },
+          {
+            "title": "산림청, 약용수 불법 채취 엄단",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/202607131951h"
+          },
+          {
+            "title": "산림청, 약용수 불법 채취·산림 훼손 '무관용'…전국 특별단속 강화",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/daejeon-chungnam/6226354"
+          },
+          {
+            "title": "산림청, 산림 훼손·임산물 불법 채취 '무관용' 선포",
+            "press": "paxetv.com",
+            "link": "http://www.paxetv.com/news/articleView.html?idxno=277042"
+          }
+        ],
+        "link": "http://www.youngnong.co.kr/news/articleView.html?idxno=60970"
+      },
+      {
+        "title": "관광공사, 국립공원공단과 '국립공원 활용 관광객 유치·지역관광 활성...",
+        "reports": 6,
+        "press": [
+          "econonews.co.kr",
+          "pinpointnews.co.kr",
+          "kwnews.co.kr",
+          "thepowernews.co.kr",
+          "pointdaily.co.kr",
+          "gukjenews.com"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "관광공사, 국립공원공단과 '국립공원 활용 관광객 유치·지역관광 활성...",
+            "press": "econonews.co.kr",
+            "link": "http://www.econonews.co.kr/news/articleView.html?idxno=441021"
+          },
+          {
+            "title": "관광공사-국립공원공단, K-트레킹 열풍 속 외국인 관광객 유치 촉진 협...",
+            "press": "pinpointnews.co.kr",
+            "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=467001"
+          },
+          {
+            "title": "관광공사-국립공원공단, ‘K-트레킹 관광’ 활성화 맞손",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260709500501"
+          },
+          {
+            "title": "한국관광공사·국립공원공단, 외국인 탐방객 300만명 유치 맞손",
+            "press": "thepowernews.co.kr",
+            "link": "https://www.thepowernews.co.kr/view.php?ud=202607091322191864de3f0aa1be_7"
+          },
+          {
+            "title": "관광공사·국립공원공단, K-트레킹 활성화 위해 맞손",
+            "press": "pointdaily.co.kr",
+            "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=311318"
+          },
+          {
+            "title": "한국관광공사, 국립공원 K-트레킹 관광객 유치 적극 나선다",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3630971"
+          }
+        ],
+        "link": "http://www.econonews.co.kr/news/articleView.html?idxno=441021"
+      },
+      {
+        "title": "태백시 노사민정 한마음 다짐대회",
+        "reports": 7,
+        "press": [
+          "kado.net",
+          "kwnews.co.kr",
+          "news1.kr",
+          "newsis.com",
+          "jeonmae.co.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "태백시 노사민정 한마음 다짐대회",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2060814"
+          },
+          {
+            "title": "[포토뉴스]태백시노사민정협의회·상공회의소, 한마음 화합 다짐대회 개...",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260712500048"
+          },
+          {
+            "title": "태백 노사민정 한마음 다짐대회 11일 개최",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2060402"
+          },
+          {
+            "title": "태백시 노사민정협의회·태백상공회의소, 11일 노사민정 한마음 화합 다...",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260708500420"
+          },
+          {
+            "title": "\"지역경제 위해 다짐\"…태백 노사민정 화합 대회 개최",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6221755"
+          },
+          {
+            "title": "[태백소식]11일 노사민정 한마음 화합 다짐대회 개최 등",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260708_0003700388"
+          },
+          {
+            "title": "태백시, 노사민정 한마음 화합 다짐대회 개최",
+            "press": "jeonmae.co.kr",
+            "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1272634"
+          }
+        ],
+        "link": "https://www.kado.net/news/articleView.html?idxno=2060814"
+      },
+      {
+        "title": "전북경진원, 공공구매 상담회 기업 모집",
+        "reports": 5,
+        "press": [
+          "hansbiz.co.kr",
+          "domin.co.kr",
+          "sjbnews.com",
+          "jeonmin.co.kr",
+          "pressian.com"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "전북경진원, 공공구매 상담회 기업 모집",
+            "press": "hansbiz.co.kr",
+            "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=852893"
+          },
+          {
+            "title": "전북경진원, 공공구매 전시상담회 참여기업 추가 모집",
+            "press": "domin.co.kr",
+            "link": "http://www.domin.co.kr/news/articleView.html?idxno=1563161"
+          },
+          {
+            "title": "전북도와 경진원“공공구매 전시상담회”참여기업 모집",
+            "press": "sjbnews.com",
+            "link": "https://sjbnews.com/news/news.php?number=883087"
+          },
+          {
+            "title": "중소기업 공공판로 뚫는다…경진원, 공공구매 상담회 기업 모집",
+            "press": "jeonmin.co.kr",
+            "link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=443437"
+          },
+          {
+            "title": "전북경진원, '공공구매 전시상담회' 참여 도내 중소기업 50개사 모집",
+            "press": "pressian.com",
+            "link": "https://www.pressian.com/pages/articles/2026071511320431153?utm_source=naver&utm_medium=search"
+          }
+        ],
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=852893"
+      },
+      {
+        "title": "‘생태계 보고 지리산’ 멸종위기 야생생물 Ⅰ·Ⅱ급 서식 잇단 확인",
+        "reports": 5,
+        "press": [
+          "busan.com",
+          "gndomin.com",
+          "news.tvchosun.com",
+          "newsgn.com",
+          "pressian.com"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "‘생태계 보고 지리산’ 멸종위기 야생생물 Ⅰ·Ⅱ급 서식 잇단 확인",
+            "press": "busan.com",
+            "link": "https://www.busan.com/view/busan/view.php?code=2026072615532039922"
+          },
+          {
+            "title": "지리산 함양에서 멸종위기 야생동물 I급 무산쇠족제비 서식 확인",
+            "press": "gndomin.com",
+            "link": "http://www.gndomin.com/news/articleView.html?idxno=481977"
+          },
+          {
+            "title": "경남 함양 지리산에서 멸종위기 1급 무산쇠족제비 발견",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/13/2026071390243.html"
+          },
+          {
+            "title": "지리산서 멸종위기 야생동물 Ⅰ급 무산쇠족제비 서식 확인",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=562052"
+          },
+          {
+            "title": "함양 지라산서 1급 무산쇠족제비 서식 확인",
+            "press": "pressian.com",
+            "link": "https://www.pressian.com/pages/articles/2026071315344687868?utm_source=naver&utm_medium=search"
+          }
+        ],
+        "link": "https://www.busan.com/view/busan/view.php?code=2026072615532039922"
+      },
+      {
+        "title": "이탈리아 산불 현장서 '고양이 방화' 정황…\"꼬리에 인화물질 헝겊\"",
+        "reports": 5,
+        "press": [
+          "asiatoday.co.kr",
+          "hankookilbo.com",
+          "news.tvchosun.com",
+          "news.kbs.co.kr",
+          "kmib.co.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "이탈리아 산불 현장서 '고양이 방화' 정황…\"꼬리에 인화물질 헝겊\"",
+            "press": "asiatoday.co.kr",
+            "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260723010008671"
+          },
+          {
+            "title": "고양이 꼬리에 인화물질 묻혀 산에 풀었나…이탈리아 산불 방화에 '경악...",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026072313450004316?did=NA"
+          },
+          {
+            "title": "이탈리아 산불에 '고양이 방화' 정황…\"꼬리에 인화물질 묻힌 헝겊\"",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/23/2026072390082.html"
+          },
+          {
+            "title": "이탈리아 산불에 ‘고양이 방화’ 정황…“꼬리에 인화 물질 헝겊”",
+            "press": "news.kbs.co.kr",
+            "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8617941&ref=A"
+          },
+          {
+            "title": "“꼬리에 인화물질 헝겊”… 이탈리아 산불 ‘고양이 방화’?",
+            "press": "kmib.co.kr",
+            "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030149264&code=61131611&cp=nv"
+          }
+        ],
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260723010008671"
+      },
+      {
+        "title": "대구 동구·대구문화예술진흥원, 외국인 관광객 편의 증진 맞손",
+        "reports": 5,
+        "press": [
+          "hankookilbo.com",
+          "kbmaeil.com",
+          "kbsm.net",
+          "dongponews.net",
+          "s-journal.co.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "대구 동구·대구문화예술진흥원, 외국인 관광객 편의 증진 맞손",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026071309360005075?did=NA"
+          },
+          {
+            "title": "대구 동구, 외국인 관광객 위한 스마트 관광환경 구축…간편결제·다국...",
+            "press": "kbmaeil.com",
+            "link": "https://www.kbmaeil.com/article/20260712500595"
+          },
+          {
+            "title": "대구 동구-문예진흥원, 스마트 관광환경 구축 협약",
+            "press": "kbsm.net",
+            "link": "https://www.kbsm.net/news/view.php?idx=526401"
+          },
+          {
+            "title": "'국립공원에 외국인 관광객 300만명 유치하자'",
+            "press": "dongponews.net",
+            "link": "https://www.dongponews.net/news/articleView.html?idxno=59194"
+          },
+          {
+            "title": "한국관광공사-국립공원공단, 국립공원 외국인 관광객 300만명 도전",
+            "press": "s-journal.co.kr",
+            "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=42279"
+          }
+        ],
+        "link": "https://www.hankookilbo.com/news/article/A2026071309360005075?did=NA"
+      },
+      {
+        "title": "한국가스공사-국립공원공단, 팔공산 국립공원 연계 사회공헌활동 펼친...",
+        "reports": 5,
+        "press": [
+          "dgmbc.com",
+          "lawissue.co.kr",
+          "shinailbo.co.kr",
+          "breaknews.com",
+          "socialvalue.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "한국가스공사-국립공원공단, 팔공산 국립공원 연계 사회공헌활동 펼친...",
+            "press": "dgmbc.com",
+            "link": "https://dgmbc.com/NewsArticle/850034"
+          },
+          {
+            "title": "한국가스공사, 팔공산 국립공원 연계 사회공헌 추진",
+            "press": "lawissue.co.kr",
+            "link": "http://www.lawissue.co.kr/view.php?ud=202607101512143918f4ab64559d_12"
+          },
+          {
+            "title": "가스공사, 팔공산 국립공원 연계 사회공헌 추진…생태교육·진로체험 지...",
+            "press": "shinailbo.co.kr",
+            "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5039277"
+          },
+          {
+            "title": "한국가스공사, 팔공산 국립공원 연계 친환경 상생 펼친다",
+            "press": "breaknews.com",
+            "link": "http://www.breaknews.com/1220439"
+          },
+          {
+            "title": "한국가스공사, 팔공산 국립공원 연계 사회공헌 추진…청년 진로·취약계...",
+            "press": "socialvalue.kr",
+            "link": "https://www.socialvalue.kr/news/view/1065579535362606"
+          }
+        ],
+        "link": "https://dgmbc.com/NewsArticle/850034"
+      },
+      {
+        "title": "가스공사, 팔공산 국립공원과 손잡고 미래 환경인재 육성",
+        "reports": 5,
+        "press": [
+          "kdpress.co.kr",
+          "energydaily.co.kr",
+          "newsworker.co.kr",
+          "todayenergy.kr",
+          "ikld.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "가스공사, 팔공산 국립공원과 손잡고 미래 환경인재 육성",
+            "press": "kdpress.co.kr",
+            "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=206792"
+          },
+          {
+            "title": "가스공사, 팔공산 국립공원과 ESG 협력 확대… 미래 환경인재 육성",
+            "press": "energydaily.co.kr",
+            "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=201261"
+          },
+          {
+            "title": "[뉴스워커_한국가스공사] 팔공산 국립공원과 손잡고 미래 환경인재 키운...",
+            "press": "newsworker.co.kr",
+            "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=435511"
+          },
+          {
+            "title": "가스공사, 팔공산국립공원과 환경인재 육성 협력",
+            "press": "todayenergy.kr",
+            "link": "https://www.todayenergy.kr/news/articleView.html?idxno=300143"
+          },
+          {
+            "title": "가스공사, 팔공산 국립공원과 함께 '환경인재' 육성",
+            "press": "ikld.kr",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=337330"
+          }
+        ],
+        "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=206792"
+      },
+      {
+        "title": "전통 국악의 정취를 느끼는 남원의 가볼 만한 곳",
+        "reports": 11,
+        "press": [
+          "cbci.co.kr",
+          "joongangenews.com",
+          "topstarnews.net",
+          "stardailynews.co.kr"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "전통 국악의 정취를 느끼는 남원의 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=593634"
+          },
+          {
+            "title": "남원, 자연과 역사 속으로 떠나는 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=529897"
+          },
+          {
+            "title": "여름날 청송에서 자연을 만끽하는 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=529890"
+          },
+          {
+            "title": "합천의 여름, 역사와 자연이 깃든 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=529508"
+          },
+          {
+            "title": "청송의 여름, 신비로운 자연과 지질의 역사를 찾아 떠나는 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=586822"
+          },
+          {
+            "title": "역사와 자연을 품은 섬, 거제에서 만나는 여름날의 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=528753"
+          },
+          {
+            "title": "푸른 여름 속 단양에서 자연을 만끽할 가볼 만한 곳",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=16108412"
+          },
+          {
+            "title": "여름의 청송, 자연이 선사하는 비경 속 가볼 만한 곳",
+            "press": "stardailynews.co.kr",
+            "link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=540614"
+          },
+          {
+            "title": "부안의 여름 정취를 찾아 떠나는 자연 속 여행, 가볼 만한 곳",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=528711"
+          },
+          {
+            "title": "여름날 자연을 만나는 양주의 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=586256"
+          }
+        ],
+        "link": "https://www.cbci.co.kr/news/articleView.html?idxno=593634"
+      },
+      {
+        "title": "이틀간 충청 중심 물폭탄… 1명 실종·758명 대피·시설 피해 453건",
+        "reports": 8,
+        "press": [
+          "hankookilbo.com",
+          "ytn.co.kr",
+          "yonhapnewstv.co.kr",
+          "wowtv.co.kr"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "이틀간 충청 중심 물폭탄… 1명 실종·758명 대피·시설 피해 453건",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026071012480004201?did=NA"
+          },
+          {
+            "title": "호우로 1명 실종· 758명 대피...시설 피해 453건",
+            "press": "ytn.co.kr",
+            "link": "https://www.ytn.co.kr/_ln/0115_202607101340349524"
+          },
+          {
+            "title": "호우로 1명 실종· 대피 758명...시설 피해 453건",
+            "press": "ytn.co.kr",
+            "link": "https://www.ytn.co.kr/_ln/0115_202607100938596200"
+          },
+          {
+            "title": "호우로 1명 실종·7백여 명 대피...시설피해 잇따라",
+            "press": "ytn.co.kr",
+            "link": "https://www.ytn.co.kr/_ln/0103_202607100708257665"
+          },
+          {
+            "title": "실종 1명·시설 피해 453건…이재민도 700명",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/MYH20260710114034wbE"
+          },
+          {
+            "title": "실종 1명·시설 피해 450건…이재민도 700명",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/MYH20260710093803ZDG"
+          },
+          {
+            "title": "시설 피해 450건 넘어…이재민도 700명 발생",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/MYH20260710073938LG4"
+          },
+          {
+            "title": "최대 175㎜ '물폭탄' 강타…1명 실종 등 피해 속출",
+            "press": "wowtv.co.kr",
+            "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607090385&t=NN"
+          }
+        ],
+        "link": "https://www.hankookilbo.com/news/article/A2026071012480004201?did=NA"
+      }
+    ]
+  },
+  "global": {
+    "rows": [
+      {
+        "title": "The untold story in cyanide poisoning of 15 Amboseli elephants",
+        "reports": 18,
+        "press": [
+          "Daily Nation",
+          "People Daily",
+          "Mongabay",
+          "Citizen Digital",
+          "The Eastleigh Voice",
+          "Jacaranda FM",
+          "news.az",
+          "Qazinform",
+          "malindikenya.net",
+          "CBS News",
+          "Ottumwa Courier",
+          "Scottish Fire and Rescue Service",
+          "news.cgtn.com",
+          "facebook.com",
+          "Maine Public"
+        ],
+        "outletCount": 15,
+        "articles": [
+          {
+            "title": "The untold story in cyanide poisoning of 15 Amboseli elephants",
+            "press": "Daily Nation",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOE1aVW5pdENPTk90Y3FvV25BOE5VeThyZ1lnTkNWM2RTQlhZMXp3b2RnSEN2c3h2Q044YXNZRzNuRldVNGh6djNpTjJZZ2lfdW5WbFF6a2NqV3BXVzU2OEczWW5QaUdtcXlmNTRjUW5OTDhoYlp3U2Jvb3FLZ1UtOGs2Y213d3pRUmF2VUhpcEZqTE5mMmpkdENHOWVvNlRwSUpjLWxiU1NhZ3AzQkVPY3IteWVQdw?oc=5"
+          },
+          {
+            "title": "Maraga’s UGM party faults govt over death of 15 elephants in Amboseli",
+            "press": "People Daily",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1loWk5lSkxjanFMTVU1b1BCc0xvcU9WTEV6dEF2ZnpoWjBhbUhYRVJ3YkV4N1dob3NhNmxoemxTWlp3LUpIWHFiQXNzYlFiX3RmUWQ4UUNUTUNqUldkbFRJdFA5UnNmVTdEMTg0NEhXMEVpaDh3SnN3M3NsMEhqT1NzdjVkSWtaRWp6QXRrMmZPOFhhNjVLa21wcFN1S0owWmpj?oc=5"
+          },
+          {
+            "title": "Kenya investigates mysterious deaths of 15 elephants in Amboseli - news",
+            "press": "Mongabay",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUZPNkZLUnZUclR1TDRxbXQwTG0wR0l4WG5wYnJIa0RiNXhmN0JqcEQ4dkZuMGlIZDlyc25QLUYzMHBOdW5Ea25LVnEzRkdFZE9BZ0ZybzRLbXJ2UlBjdHl5YlNIUU9qMzZjV05uTlp5TV9rNHdtbGRKa2k5SzFFNzNUdy1rZ0ZicE1Sd2MtdTAyTFA4alFZdHNHZ2Z2eHdWLWFvak0xT0I?oc=5"
+          },
+          {
+            "title": "Cyanide poisoning killed 15 elephants in Amboseli, KWS confirms",
+            "press": "Citizen Digital",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORV9tUU5IV0hfSE1LUktuYVNuUThUd0dBLVVZYS1zSGVtZFNQVlVpVlJhNEZkWGMtV1U4T0ZqdHBkdUIycmtJRHduZDh1c2VrR1ZhLWhEX0NTZ2xyNHZXd25KcXByZVRHY2VZcktBTWFtOHJPZk4xdnN4aC1Gb2p4TE9yMHR4bWxEeWYycE9vM3NkUzBpSjlEdl9fRUN5MWk2VXp5cg?oc=5"
+          },
+          {
+            "title": "KWS confirms cyanide poisoning behind recent deaths of 15 elephants in Amboseli National Park",
+            "press": "The Eastleigh Voice",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNXVVc1JXZ3ZvX2hPblp5b2lVUlB2T1l0Unp2ZVdndDNtOG1qbExBT2pOckw3ZUxqWWlScFBMQzhEbW5oSGU0bzIzZ2dwSmlIWFNjV1A3QUE1LTF6Y3c4aXRYUGpua2FmTWphckRBOHNVUTFQWmRZT2RRdi1XaXdqQldMX19KZThZUEp2a3NDczV6anFoLUlGM2UxZ1ZCcXZGSWNZdHZlWDlVLWxWQUR5QUY2ZjZ1NUVmYUsyR05fQU5oSXN6WXZvaEJsVEQyR0E?oc=5"
+          },
+          {
+            "title": "Kenya probes death of 15 elephants at Amboseli park",
+            "press": "Jacaranda FM",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR0lZZ0NhQXRnWWtjc0tpbndXeXVScDlKSlJRaVkxSGhyTU9mUUNNd1NrdDNKcjJfYmpjNzVTb0RtNVRMeHRIOUs2Q1ZWTURDUHdZMzZsWTFVQ0gzZGxXMFdHUk1zSFhGYTNrZW83eTZoZkZsSVBzakh4UW9lNU9oaXVYbTk3dmR5X25aQlh0QlpuN3VK?oc=5"
+          },
+          {
+            "title": "Kenya investigates loss of elephants in Amboseli",
+            "press": "news.az",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XOWU2MFEwOXlfbVd1WG14WHI3Z0lnR2FhRHQ5TE5vLXZER253YXRlU1pSREEyQmFwVUppQUVOaWpwX0x0MmdXNy1JbWNtYzAydDhQODNfYzU0YzZkRjZNbTlwc05HaURPMlhZVWs4TGUxdTM1OXFtbA?oc=5"
+          },
+          {
+            "title": "Kenya probes mysterious deaths of 15 elephants near Amboseli",
+            "press": "Qazinform",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY0VEM0YxOWVRSWtRNFdRT1hsdkFBZnkzT2hwby1IbEVVS09RRDA1MHZCc3l2YjhMTUNnVmM2T3hTRXNwMVdSTmJoUElEZHAxeWY5aHZJemVXTmxlMDJLVlZ2aXRIMDhtOGFHbDdSWGlyMFF3a1AzakNGLVpWME5nZGdneU9Fa21TV2NlVnJLUVU1dFFjMTlOdnRn0gGaAUFVX3lxTE9pMGE1SkdGcUxfNWhfQ2lUT2I2R0tzN1I4elFQdE9Bd3NabFo3b0U4VlhwRjdHZ2hsSm1sZ0RSSVdrcEdzNk9zY0liV2pvM1FnM29LSENReUxDc1I2WTZ3a242SzlMaElVa1VnR1FqQ0dFTldlYmx0Rzg2WFZaakw1ZTRicnhDOVNHWl8xSDQtalBEUVQ2Y3BKOWc?oc=5"
+          },
+          {
+            "title": "Mysterious deaths of 14 elephants near Amboseli National Park",
+            "press": "malindikenya.net",
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdUJRQVBTc19TOEN2VFUtTkl6THJvdUY1ZURMMU5rTkVrdmZxTElEcC04N0E2Q2toTW9qcEp5c0JuZkRtcmhmLUZJSGlnMWdfa0JwcjVlZGxIUDdITkp5ZWpfblExYUswYTd1dW92VFRjdWJHcnhDd09raFZSeEFMTWlzNjBpSThIWEw2R2NldThqNzdGdzlJeXZmV2UyZEN4VXh4QndEY3d3Q3RVUm9PNTk0aWxjTGY0MGlGWG9CZENIVWww?oc=5"
+          },
+          {
+            "title": "Amboseli elephants: KWS give preliminary report on mysterious deaths",
+            "press": "People Daily",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0VSWERSWE5EWjZ4dVlqTE1jTGRZbVc4endobkJXcDM5TXZlSmZCWnd2Rk5FN3VOU1hTcWZzRjQ1TTFhQ2c1YkJUdkg1TGRSVnZKSmxCUjlsblAtQW5YX0REOTFLU0FQWUNvR19GdTBmY2hiZHdQRzdWbkp2a0pfVUxIRXlLcXV4VUpVczZOYmppVDZGQUJVX0VIY0tWamRKNEE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOE1aVW5pdENPTk90Y3FvV25BOE5VeThyZ1lnTkNWM2RTQlhZMXp3b2RnSEN2c3h2Q044YXNZRzNuRldVNGh6djNpTjJZZ2lfdW5WbFF6a2NqV3BXVzU2OEczWW5QaUdtcXlmNTRjUW5OTDhoYlp3U2Jvb3FLZ1UtOGs2Y213d3pRUmF2VUhpcEZqTE5mMmpkdENHOWVvNlRwSUpjLWxiU1NhZ3AzQkVPY3IteWVQdw?oc=5"
+      },
+      {
+        "title": "Beyond Local: Female hiker falls to her death on remote peak in Banff National Park",
+        "reports": 17,
+        "press": [
+          "TownAndCountryToday.com",
+          "Western Wheel",
+          "CBC",
+          "Rocky Mountain Outlook",
+          "USA Today",
+          "NBC Montana",
+          "Denver7",
+          "The Coloradoan",
+          "Denver Gazette",
+          "The Denver Post",
+          "KDVR",
+          "SkyHiNews.com",
+          "The Trek",
+          "GearJunkie"
+        ],
+        "outletCount": 14,
+        "articles": [
+          {
+            "title": "Beyond Local: Female hiker falls to her death on remote peak in Banff National Park",
+            "press": "TownAndCountryToday.com",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObzRiLTZlMmtNa0gxYjZ3Y0VkbVAxRUJzNHJGNWducllDNmNGMGNsWTg1bTBtb2x3LU5xQ19Ndi1jMVdmQWlOU2o3TUpuY2pxelFZR0Izb01XU3lMdjZIaExLaXhEcm9kLUdJZWRUOXhTenRHSHFYY3hfTTZtU0lOQWtwSTQ1bG5NWVZxWkx0SmFyNy0xMUdqejJPckFZZW54enpwQlpyVktTcU9iMzhUSlVvVG9ZYWE2RjhvZzVNX3VYRjBFR1E?oc=5"
+          },
+          {
+            "title": "Beyond Local: Hiker dies in fall on Mount Temple in Banff National Park",
+            "press": "Western Wheel",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNkZ2YjNxdXJLWmd2czRhNlpubnAwa0hueWQtMGdFTWw5b1NOdzFwc25wNXZld2NTcENpbmRIUGI4RUtfUWd0NV9xZm0ycEpRcWxxVEctT29NSnluNzYwV1R5QTBMS3ptR3Vyal8zcmlVc1VZbzhUOFdpWVMwbFVkb0IwWW9yWmh5YTRnUXJ3OGR1b2NrcGlTV0YySHN3V3FFX2ROclRVZGlQVU0?oc=5"
+          },
+          {
+            "title": "2nd hiker in a week dies after falling from Banff National Park mountain",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1h4bnBfN0RMRzZ5eHhJb0hnSXdQamNqZVQzWjJoSUdSR3RrMjJ2N3JvODkyeXg0WTdqY0ZLdGFzRlNxMkhoU0ZGSWtMZ0ZSTVFZRlk4SElESzZHNlJxQTc2YUFzOUszU1hrUW5jZmh1eHlLWndqaGNmc3VBU1NzNUx2N2J3Sk0?oc=5"
+          },
+          {
+            "title": "Calgary man dies falling from Mount Temple in Banff National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUUhVeHFKRTA2YmswSGR2TFc1YkRPRmJXYkZUWEUxdl8xYVVObFMxcm5uYUF4cVJlTlZwdG10OFdOT3N6QzVqZFh3ZTdQOUpVdEptV3owWEttRVVWNjVFckJoSUFnTlhQRmVKYjZQRFZoQzJkQzdXbjRNdXZOOWRSZVZ2MWszMTMtVmdpUnQ5TGw?oc=5"
+          },
+          {
+            "title": "Fire danger rises to extreme in Banff National Park",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmlGWE92MlBRTFVLRmE3TTM0NWtNLUUtOHZGWXo2dzRmVjFmczRabk9GUDhoMEQtb0otdnFQSW1ISTJfdlRzdU9ZdmNnN0tOM1NLVWJXQjl3Qkxfc2V3OGdMTi1PQzFWckVyNGk1TGVla2FwS0dlbFhTd0hyT19CeTlDbFY5bjhFNkMxRDA0dGNpSlFVVERj?oc=5"
+          },
+          {
+            "title": "Climber dies on tallest peak in Rocky Mountain National Park",
+            "press": "USA Today",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlBFaUhONGRaSS1raVlqUmZnWFdEc0NfUVY5eUxOQmNxdllSZTBBN0tfQ1Q1LVpzSmdoZm5TZjlJZFB3c0M2OXBsU0pxM2JEaTdmNjd3MkFWSmJpb1FoN0pfbUlPTDR2T3VRWVpBdTlPc0dvdFNrLTl6VEdMNXFxZWcyaTdwcFN2MWFCaTM4RHFuXzJ0R2hYUXR6NHdUeVcxQ0FpNjBvNnQ3bFR5TnpveXJB?oc=5"
+          },
+          {
+            "title": "2 injured climbers hoisted from Mount Siyeh in Glacier National Park",
+            "press": "NBC Montana",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejRac1VaenIwNEc4ZGh0RDlzVTBubzFjaTBuSXFnVXVhcGVjU3NuTkk2RGZrWjZFMnJkRFJrOGRrZG5sOXNkWTEydmR3V25rVVZrdVJ4SDdwOExkMG9JMHBJZlBlOUNRRzBRUlNYVWlwVm1tUjJuZEgyVk4yWUVWUnBBQkhFOTVlUldQdk1sSXJWaW0tVm9kblhQb3pPY3ZWeWhrSQ?oc=5"
+          },
+          {
+            "title": "Climber dies on route up east face of Longs Peak in Rocky Mountain National Park",
+            "press": "Denver7",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLVZpQnJYeEZBX05xQWVubWwzWEZqN1Z0bmh5c3BTSFhCb2hEYThsYktRN2ZiRk1aZzZDOUxSWFhoUjRmbXFOak90ek9iNUtFQ0RfejhHeFlGYUZLMkRGT3RXRFNaenRkV2tLTWVxNDk5VFhKV3piUVFCYnZ6WXNVaXhOOHdiZ0Rtci14cElvSnlHbm9GZHdsRDMwaWFpaTdDMjlhMGp0OTNmUU9GYVA0UVI3cVdDRHVoMkRV?oc=5"
+          },
+          {
+            "title": "Old Fall River Road in Rocky Mountain National Park opens to vehicles",
+            "press": "The Coloradoan",
+            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON2JXVW8zY051aG1Wa0Z5VkxnRTFXcEYzeGZrQVpMNVl4RTlQdTNvV1RoZS1UVkppbVFrTHZabUdHSUZUWWhTVWd2STlhM3FGN0RhRFlLcDZtMlpfbDRZaTM1cC1kc19kbUxsRFBuVnd3V2lEMU53aEx4ZHZKQXo2OWhyUHFuM3pDM09ibDdHTXBidGNfSzBicjZJVHBYbElvek8wMGhaSTNieVM3RGlYbGVuX1psREhJeWVfSGpHbUpkbjBvbzlVRnV4NzI5bEdUTm1MbE5yYw?oc=5"
+          },
+          {
+            "title": "Person found dead on climbing route in Rocky Mountain National Park",
+            "press": "Denver Gazette",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPalJObVdNTFJIUEhrU0gydmV3REtWekEyTkNjeEpwRllBTEdubjdhd1ljcERZSDMxWXhGa0lXXzBiSnJwQkFVWG1DQ2tjN0IyeUNwR0ZIQUlNOVhqOFAyVkFrX0dRWmlveVQ2UlBmT3otTXh0bFNfZUZ0a0dRdDBBR2kza216bnRZbDdpUC1TeHh2U0JoaHF1TEJwYnlEZkhUc1Z5d1hfWTl0Y3N3QWc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObzRiLTZlMmtNa0gxYjZ3Y0VkbVAxRUJzNHJGNWducllDNmNGMGNsWTg1bTBtb2x3LU5xQ19Ndi1jMVdmQWlOU2o3TUpuY2pxelFZR0Izb01XU3lMdjZIaExLaXhEcm9kLUdJZWRUOXhTenRHSHFYY3hfTTZtU0lOQWtwSTQ1bG5NWVZxWkx0SmFyNy0xMUdqejJPckFZZW54enpwQlpyVktTcU9iMzhUSlVvVG9ZYWE2RjhvZzVNX3VYRjBFR1E?oc=5"
+      },
+      {
+        "title": "아프리카 케냐 국립공원서 코끼리 15마리 의문의 떼죽음",
+        "reports": 10,
+        "press": [
+          "news.tvchosun.com",
+          "ppss.kr",
+          "hani.co.kr",
+          "munhwa.com",
+          "tjb.co.kr",
+          "jnilbo.com",
+          "news.sbs.co.kr",
+          "joongang.co.kr",
+          "ikbc.co.kr"
+        ],
+        "outletCount": 9,
+        "articles": [
+          {
+            "title": "아프리카 케냐 국립공원서 코끼리 15마리 의문의 떼죽음",
+            "press": "news.tvchosun.com",
+            "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/30/2026073090217.html"
+          },
+          {
+            "title": "'청산가리' 성분 검출…케냐 코끼리 15마리 집단 폐사",
+            "press": "ppss.kr",
+            "link": "https://www.ppss.kr/news/articleView.html?idxno=303813"
+          },
+          {
+            "title": "케냐 국립공원 코끼리 15마리 떼죽음…독살 여부 조사중",
+            "press": "hani.co.kr",
+            "link": "https://www.hani.co.kr/arti/international/arabafrica/1270724.html"
+          },
+          {
+            "title": "케냐 코끼리 15마리 떼죽음…독극물 오염 토마토 먹었나",
+            "press": "munhwa.com",
+            "link": "https://www.munhwa.com/article/11606173?ref=naver"
+          },
+          {
+            "title": "케냐 코끼리 15마리 집단 폐사…청산가리 오염 토마토 섭취 가능성",
+            "press": "tjb.co.kr",
+            "link": "http://www.tjb.co.kr/sub0301/bodo/view/id/101722"
+          },
+          {
+            "title": "케냐 코끼리 15마리 집단 폐사…'청산가리' 토마토 섭취",
+            "press": "jnilbo.com",
+            "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000053389"
+          },
+          {
+            "title": "케냐 집단폐사 코끼리들이 먹은 토마토에 청산가리?",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008682530&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "케냐 야생동물 서식지서 코끼리 15마리 집단 폐사…조사 착수",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008681680&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "케냐 코끼리 15마리 한 달 새 집단 폐사…오염·독극물 가능성 조사",
+            "press": "joongang.co.kr",
+            "link": "https://www.joongang.co.kr/article/25449235"
+          },
+          {
+            "title": "케냐 야생동물 서식지서 코끼리 15마리 집단 폐사...독성 검출",
+            "press": "ikbc.co.kr",
+            "link": "https://www.ikbc.co.kr/article/view/kbc202607290081"
+          }
+        ],
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/30/2026073090217.html"
+      },
+      {
+        "title": "Couple has 'terrifying' bear encounter on hiking trail near Banff National Park",
+        "reports": 10,
+        "press": [
+          "The Cool Down",
+          "Fox News",
+          "CBC",
+          "Daily Hive",
+          "Global News",
+          "Rocky Mountain Outlook",
+          "Jasper Local"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "Couple has 'terrifying' bear encounter on hiking trail near Banff National Park",
+            "press": "The Cool Down",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNR24yY3ppRFo3Q1lhTUdqdzhzSWtWMElaRnpINDgzUl8yQXRYQXFlSnhvS2Ftdmhna3dzcVZlU24xbndhMWlaOExjc2RBU3pNWk9kZnpIbUt4UnUwYXF6cVRPNHROYzRCXzd3bTJYNG94Wm9ReTJyRTF4OGxvVjdJUTJR?oc=5"
+          },
+          {
+            "title": "Hikers face $25,000 fine after off-leash dog barked at grizzly bear on Banff National Park trail",
+            "press": "Fox News",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ0JqT0VxTGFva19HNzZBbjNfWGZsS20wdGNHOXJPcElNdDZzbjFlb191OW1NRlZwZzFIelN1amd1RzA5VTNUUEt4UVQ5dlZaMC1kdGxsNVVDWEVWWS1MaWdLRGNmbU96Z0RLUTNEaEJKVDBlSWcxSzZZTU16WkZSbnlxZ1hlX1drMnRJQ1FHWFhSN3VMMHBPZkktMTdud1ZWSkw4eHpCQXdIaDlaTkVxVW9kZmFfdnpEbE5wSUZPRQ?oc=5"
+          },
+          {
+            "title": "Parks Canada charges hikers after grizzly bear run-in with off-leash dog in Banff National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaEJsejl5MFkyZU5WRUlfOGhTcFVPRVg3Y29kR1BLblFxZVRLRHlIdXhvQUZ4STBGRlRtOG9JUUI3RWZFLWtFWm00SmotY2ZlOGtOTjcyLWlBc1FoUU5FNnlCdWdIU2wxMndiOHYwWDQwNjVzck9lZmFXWHBBYzNjSW5Ccl91ZHJESThvWi1PcGNsRzg?oc=5"
+          },
+          {
+            "title": "Charges laid in viral video capturing bear following hikers in Banff National Park",
+            "press": "Daily Hive",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53WFE5bUNmM0o3bkRVWnQyeTNWMl9BR0E2UjdUaXFKaHkzeVpqcjBoVWFOdktzY0hkSklnbmlTbXJPdkx3MkxOdVJjcTlId3ZkbFBjVDgzTEVkdlR3STdLMVJaWUdiQQ?oc=5"
+          },
+          {
+            "title": "Charges laid against 2 hikers with off-leash dog followed by grizzly in Banff",
+            "press": "Global News",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QcjNoczFMZkpYTS03cHhjTWxkWGNXcVFKeEJ2Vk5SeHJDeTZfcXJRMk5YcTZuNUhtQ3loSGdmb0dMUVNTVmd1aldoUmFwRzNXNU5tZGd3Z1NrRVRZT21HcjF2b01aUWVScEppMXpVQzUxbDA?oc=5"
+          },
+          {
+            "title": "2 hikers and dog encounter grizzly bear in Banff National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55dU9UODczSHl6cnVSTk51cjlja2VDRTBXeF9uVGpJaVlnbi12NUZIRVM3NG14WlNZZWNNZHNJOEk0U21YY18xNmcwZC1NaU5ZdDdtR0d1cWNwdw?oc=5"
+          },
+          {
+            "title": "Charges laid against hikers with off-leash dog following grizzly bear encounter in Banff National Park",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUDA5bDNaY0xibklKNWF5cGFlNHpVc1hpemx6aThocVFQQXNxc3BHclF3NFNxc1RMLVpaZjcybjBWVG9TLXJrVUcwOTVyRDI5bkhYMnpRQy1COWVUWmU2LTJaWUo1eEN6VDR4YUFuTFBQQ1B5bWN0cXpXakRZYm8yUEhwaFZsWVRzWG5KVjJpU0diVTltZDZpeFZDY041d1pxcm9BckFTTWRkWGsyV19mZmdacVJMaE44WFhRQXJRQ1BIYXBnU2xqTFFZY2RtYm0zYkhXZ3NIcGJZNlE?oc=5"
+          },
+          {
+            "title": "Trail in Jasper National Park temporarily closed after grizzly injures hikers: Parks Canada",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YMEJtMTVPQkt4MGkxUHktLWJLeVpfOWVRMHdvVW9Fcm44ME9FN3JLTV9KMm01QXJSVG1BdjBEQkVLWU1VYVFTanlMdUtjTzcwcVc5Z1FlTUx4alJkSmI3c1hBMHpfcGRzZFpObHh3V1UyRm9wbG9nek5FcU5LYjA?oc=5"
+          },
+          {
+            "title": "Prepared hikers credited with limiting injuries in rare Jasper grizzly encounter",
+            "press": "Jasper Local",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcjFTNUc2S2ZNT2FOQXNNa3B2dFliMmt1SUgxb3JSMGs2WUxQZzRGLW5kb2FuVnF1NVRvcmRONlJJU21ZTmJpdXFCNm5mOW9zMV95c1JzLTY0Mk9VanMxdUstX2VtX1FjTW9yZ2Rqdk5sTDlJRkllZU9qUXN4bk9fSWRWdDdraU1pSWhDS2tQYTN6dFhPN1hrOFRtZkJwM0Nua1Z3UWstVXFta19fdEJrZ2F4NGQ4NVkyX1drNw?oc=5"
+          },
+          {
+            "title": "One injured in grizzly bear attack in Jasper National Park",
+            "press": "Daily Hive",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeE9wWkxGMThRLXFpWHRYUHF0ZDdHb2hUcno0ZzladHN3MXhUc3RPT1VpQS1Hc0tGblVQeWJhUi1ycFljZV9GVlR4LWVzVGtEb0Z1OGtQV1RpMS1FLTZKWmUwWnRseFp4M19DLWFxZEhlQ1d5OEI4TS13SWxZdGpWWjFGakFFTHRjV2c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNR24yY3ppRFo3Q1lhTUdqdzhzSWtWMElaRnpINDgzUl8yQXRYQXFlSnhvS2Ftdmhna3dzcVZlU24xbndhMWlaOExjc2RBU3pNWk9kZnpIbUt4UnUwYXF6cVRPNHROYzRCXzd3bTJYNG94Wm9ReTJyRTF4OGxvVjdJUTJR?oc=5"
+      },
+      {
+        "title": "Missing 83-year-old hiker rescued near Grand Canyon",
+        "reports": 7,
+        "press": [
+          "USA Today",
+          "Fox News",
+          "CBS News",
+          "KLAS 8 News Now",
+          "AZ Family",
+          "National Park Service (.gov)",
+          "Wales Online"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "Missing 83-year-old hiker rescued near Grand Canyon",
+            "press": "USA Today",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTk1NR3I5cElWX3FSUnhCZ3NwamsyZWV2N0htWTRuTUV2a2FYQ0lWMS1FbmlWSWRFMEh0QXVmUG1OOGxYTE5zdWw0U1p6blhPRVhqanNFaFFOMTV4aU9QNFdDLUhCRU9UYWYxNFFVLUlsNWt1cDFjX0pybjhad3dNbXljMkpTY1FkUVVRR0VlNWpQaTFBV1ZhQ0J1cmpBNWd3Y0k4Y2xCODA0OEpyck1kMV9PdmJ6aEk0QmhMMDM2dw?oc=5"
+          },
+          {
+            "title": "Missing Grand Canyon hiker, 83, rescued after getting separated from companion",
+            "press": "Fox News",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd1NCVE1hSERMMTc1OVdBMXhFOVNzWnNlRXN4YUJzb3VmX3d0NThrcDZyT00yaHF5RnR2dU9BYk4zNHRiLWtieTF4MGpDTHVRVzlkUVk4QjBuTU9jVC1IN0hkVnlVR1o4ajlleHJSU3VwLVNXVTVEVEhnYS1GUlBvY1U2OGN1S01zWE5UaNIBkgFBVV95cUxPb05BNEZjd3hTRkdMX0J2RWd4UjQ5Qk1KY3JoQjNLNkl0MFhIS3Jua2tJV2wwMGtOQmdFVl9Gb3RnME0zcWN1TGZnNjlBZzE2NjZjTzZ5Y0Q1LXF2Vk1EWERqaC1LNldvRmJvNDRtT05lVFl3aElxZFR2Y1QxVHZoUG1ydWtLakhCUmVpV0R6c2hSZw?oc=5"
+          },
+          {
+            "title": "83-year-old man who went missing near Grand Canyon rescued after overnight search",
+            "press": "CBS News",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2xjaHVjQ1dncXpaTkdhSUNjM1luN1N3Y2U5MThQRFBQbVNVTElNU2R1UGcyS1Njc2ZCRDM0LV8xS0txR3BVZjN4cHdiUHV6RDFOU0s4aFhVTlBTTTBWUHltYnZJRjRVTVhoOWtwdWthT08wbXZhMlBYVll3UEFuVjVLT1U2ejk0c3FqZjJ2UHQ5RWt6?oc=5"
+          },
+          {
+            "title": "UPDATE: 83-year-old hiker found after going missing at North Rim of Grand Canyon",
+            "press": "KLAS 8 News Now",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNXBpNUd4eXlkd2habkhfdHJMU01HUEhmdnI3R3MwdnZwNWpLREg4bkpDU2FBMmVEWlVqZk93TnVOXzVFa1ZzR1loSUlsazdDbUk2WEdnTlBZdFJ1alVrSUJOOER2N1hhYWszSGx2M2dvNG1nTzk4NTRtS2NsMXllU3h0RFhtb1hsMm9IMTdDVjJuSnNEVzN3OTRRRU3SAaIBQVVfeXFMUC13RmVqbU1ielJyeTUyV1pRSkRKbWFoN1pGbXR0VVdJZ09GTGk4N3kxS00wdmVGSHZTN240Y21Pd3R1V3NXSEUtZGxQSUwwZm5CbVItZ3JpaUUtNnlpRGxKRndpYzc3dS1NbWRiZi1tYldYVWdZUUttOG9lUmlrV3pYUHFST0VkUThnOWZtTWtBMkZUOVVPa3dMSVd4RURZVEJn?oc=5"
+          },
+          {
+            "title": "Utah hiker rescued after day-long search on Grand Canyon’s North Rim",
+            "press": "AZ Family",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYlZTdlcwVXdWRWV1X0VWbEdlX1MwU2NCRVo0eHN2SFFBcVlDNGdab3JKX3BBcHVmaUNCb25GTXd6UXBPUGlFWmZ0djU4WWVqTktfeWM1ZHB4dzhfUmxBNnlzYkVEd2hfMHBkd2ZXT2ZLbUh5clpWako1cFppa2VjQ2dwTXFhS2NvOG5FeGthaG1hZnJ4MnZyN1lJOGlncmR6SWtF0gG3AUFVX3lxTE5GYkxkMjg0SG04RHB2REh4NURsNm9PSHk5cGRobjlHZGl3Q2hyX0JhRFFKTjd6enpGbW1FYl9DUEtPNDR6cUo4dlN4eU1RN3lWX1VnOWlyQ2xkZlRNWXV4cGt1bVYtWjc1a3F2UWk0MzBtdXNBOS1aOUN0b2dfZmo4cVpxeFRSWFV1b3ViSFozaUw5UVJCR1FYTzFwR3hMX1FKckZDQThVcGk1bngwLUhpcWI0UXZFQQ?oc=5"
+          },
+          {
+            "title": "Search underway for missing hiker on Grand Canyon's North Rim",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkItWXd2QnNKeVA3dVFza2xTM2cwOVRlTWx1VHNnbHJIbVBuUUg0bmhfU2xOTnI1MGxLWXFneV9yQXRUbEF5bExsQXUzVEdXU0l6V09hN284YmZqOTN1R3hxT3QxeVRtVGY0TTNINXhjUlNPQ3VSRVUwVDV5OU03NkZzbDVERGNC?oc=5"
+          },
+          {
+            "title": "Major search launched for man missing at popular Eryri lake",
+            "press": "Wales Online",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdERtajYydjlnZ0NST2IxOXRXNjJOUndUdjRBbHVvUXQyQTRPNE9MOFo3UlBkSDZ1UkxBbXZ6T0lyYTVibldfd19Hdlc3aFliLVJjN05ZdDVOcnpzUnN2U29oTmpOQ2lRdDJrOHloYTY1MExqcmpVbDhEWG9zYlYyaTBlanBJV2lPd3dsNHJ5YlF1UdIBlwFBVV95cUxPckF4ZWVya1dDTVU1eE44a1lUNXZUaURzaXJtLWdZQkxYOGRGMllGbjY2WldNVGJzSkFUbExiX1pXNFM0SHNwd0x2N0d0OEJ0c0lHTnFwOG1WWDcyTkk5NDFjY2xOeTFMaTZwWXdsTjM3TENIb3RZclJDbTNhTjBuVkhUX2l0eENnWWFtcjJfT1JRcUd4WFNB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTk1NR3I5cElWX3FSUnhCZ3NwamsyZWV2N0htWTRuTUV2a2FYQ0lWMS1FbmlWSWRFMEh0QXVmUG1OOGxYTE5zdWw0U1p6blhPRVhqanNFaFFOMTV4aU9QNFdDLUhCRU9UYWYxNFFVLUlsNWt1cDFjX0pybjhad3dNbXljMkpTY1FkUVVRR0VlNWpQaTFBV1ZhQ0J1cmpBNWd3Y0k4Y2xCODA0OEpyck1kMV9PdmJ6aEk0QmhMMDM2dw?oc=5"
+      },
+      {
+        "title": "Bear yields to hikers near Obstruction Point in Olympic National Park",
+        "reports": 6,
+        "press": [
+          "Kitsap Sun",
+          "US Forest Service (.gov)",
+          "chronline.com",
+          "king5.com",
+          "Nonstop Local News Montana",
+          "Washington State Standard"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "Bear yields to hikers near Obstruction Point in Olympic National Park",
+            "press": "Kitsap Sun",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa0tSSjFFS2ZFQllINU5hQlpJdjd0cXhObVFzckNDcW1oUlUwdkpiVS1ZMXNvUEs0blQzanNpa2xITWxuZWNobm1QcWN3U0pPZEpzS1VhMXNpMVZvSXQtT2ZJRHpZMkg0eExqUFFOY0JvOU9TRWdxSnFTVkk0bHk0Nl9ycnNteFdXYVB0T3ZxTk1GOXhFNE9JZXhjcno4UDFDYlNsVWJlU0FPbk1SLS1McTQ5Qms5X0c0aUVTOXA4OFdkUjM2ejFudjJDWQ?oc=5"
+          },
+          {
+            "title": "Olympic National Forest - Bear Gulch Fire",
+            "press": "US Forest Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GRE9TaTJFX05fam5WMDg5ZlQ4ZFllc2RBd1JCY3FqdW92aVBlWGc5RjQ0enQ0RXVQZ25jdUxQTndFWGVVRVRhNURFdmp6bm9faWpwM3pUM3NZX212X1V0bkllOTVtYUNDRGRCLVNn?oc=5"
+          },
+          {
+            "title": "Olympic National Park sites reopen after Bear Gulch fire",
+            "press": "chronline.com",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnVKUW12bGM0ZXRfLWJZRUhRSFZfWFY4QURVX3puVXFSa0N6dzZzLXlEZExKY1M2TFJuV2xkS2pfQzFua3VPOGF4MXluU1ZlR2pSdGhNQ0VfTTBCRzlnX0lqUDBoOWxiSlc0TzUyMEpxYVNBTFQ5OVJiakp0dWExcnpia3pKcnREajVoOUROZThISHFuZ0VqNUQ4aVk?oc=5"
+          },
+          {
+            "title": "Olympic National Park to reopen Staircase area July 8 after year-long Bear Gulch Fire closure",
+            "press": "king5.com",
+            "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONEZFMnFJcTNOaUFRelVfOGhfLS0tRk9UelV2RWpXZXlMYUIzRTBBa0cxam1LaS0xM1I4NmlPcWlFbVNjdkdmYkM3b0hleDVaMVRaYy1RdTJ0OEpEdV9WcnctWHpLa2oyTUJzTWo3ekRLVmkxREE0UUx2WThWUVBueUZVbGxCZmM5cFY3REZsRTc2dkRuVm0xWmE4bVQ2bFowOUgxeHZQNjh2MUpzV2ZteU13VldvazhUSGRHbnRIV1R1OW90M3lKXzlFN2N0WXBRcmVrREpjV0lURFFrRGhlTTUtSTBLSWJITGYwUWVSR0ctdmFrNWZtZjFOM204RlBxeHMw?oc=5"
+          },
+          {
+            "title": "Some hotels, trails reopen in Glacier National Park after flooding",
+            "press": "Nonstop Local News Montana",
+            "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSFpyTWpaWGxOLWhDOWR4Wmc4NXJpTnFoRjU5akFtY0NFY01YVW1WTG8tRzh6aUF6RXpVWVZNamFYYWdpeml5amE2Q000LTcwZU1EdzNOX0lvVG5PX25FM2o0blltSmM5cmtqT1prVllnOWhSZDF4dTBUMFk0SF9OdUlpdmotWU8wTTMwUWVZUjBQS1pKOUVvaUlEZ0FZR0hlTG54UllxMkNzSGJoU0MzOUs0OFZxMUdfNy1rUDNBN0dNd3lyWENSZ1lrbnlBZ1NZVVppQ0FXbS1BbWJEallsTXBxaE82SzRtbUdWMjNXSUQ?oc=5"
+          },
+          {
+            "title": "Wildfire near Hoh River in Olympic National Park still burning after rain",
+            "press": "Washington State Standard",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbDJReVRiMzNDMlpiQXBrYXplVzkzOW1JMUhaNjZFdndjOEtRR3prUEk3UHJobktBOVVTWkRkT3lPSVlHR0VwcnpEUUYxeW4zQUM5OHBHNVFNdkRFMGpueFFzWjYwc2VpdjhuQ1VodE5HWldzUW5RNmpZVXhRRDZWbmZhRUhMWjVEXy1yc1M4X2pGMkJDTjBOdHZ1MXhRbUtyd2hPZFNtbW5LWVFWaXFneUxiT2ROaTBGQl9iQU5n?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa0tSSjFFS2ZFQllINU5hQlpJdjd0cXhObVFzckNDcW1oUlUwdkpiVS1ZMXNvUEs0blQzanNpa2xITWxuZWNobm1QcWN3U0pPZEpzS1VhMXNpMVZvSXQtT2ZJRHpZMkg0eExqUFFOY0JvOU9TRWdxSnFTVkk0bHk0Nl9ycnNteFdXYVB0T3ZxTk1GOXhFNE9JZXhjcno4UDFDYlNsVWJlU0FPbk1SLS1McTQ5Qms5X0c0aUVTOXA4OFdkUjM2ejFudjJDWQ?oc=5"
+      },
+      {
+        "title": "‘Get here early’: Crowds form at Mount Rainier National Park as visits boom",
+        "reports": 6,
+        "press": [
+          "chronline.com",
+          "The Seattle Times",
+          "CBC",
+          "CPAC",
+          "ntv.ca",
+          "VOCM"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "‘Get here early’: Crowds form at Mount Rainier National Park as visits boom",
+            "press": "chronline.com",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN243SWlkNExOWkdBZ0V1MGVmQmxIUlZBSGFBc3BHRjlHeUgyeDJxZlZwalNJTmJEejdKNE1QNXhOZGhCRTVZemtKc2huZGlyNFNwckZhMnpkLVNDVlJOVmMtQXdNaTlMckF3WGxfWERvMGhsNnUyWjBlUTRzM0FsazdvNWJUOTFXZUtKMVd6ZWZHQmY1Mjk2NG1aclBaUDVoQl9JN3c3T2NiNVR3R2dDaTBR?oc=5"
+          },
+          {
+            "title": "Mount Rainier sees parking lots fill as early as 7 a.m.",
+            "press": "The Seattle Times",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFVCeC0wNnhMS2cxelNvWERfZmJZSGdCNnFDZXFwLXJXVW1HVjdtMUZmdUx1T2VNY1VjdkVpSW5TTktkeVRPU1RLS0R5ZHNiYWRxNHBTZ2RIbDVBeF9yT0JzZzUySEEydFdsak95Sjg5YnNrQmFySG8teUV0TlpaaUpzRkZ0c2dqUzdmWGIzVHo5eXFkZWNEc2VNcHAzcXVQRkYxOHEzd2dYQ0U?oc=5"
+          },
+          {
+            "title": "Carney visits Gros Morne National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVcXFFTlZDdmI4T1lwMHNIRENybVlJVkhncFc0UUVhUmQ1YW1KOU9uX05jZ1Q1UGRZSlJwelJwVmFabmJ1R3o3V1Fwd2JMX1ZsTWZpT0NVeS1Xdw?oc=5"
+          },
+          {
+            "title": "PM Carney Visits Gros Morne National Park – July 24, 2026",
+            "press": "CPAC",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaFFqalNEY29nTkhmMldldGhwbERYOTNzX0gzYk0tS0x3N2hLWVB6WW5vVXZDSkc4cTNKcG9EVXZETUg0TVk2T2R5TDVFX3pxYjgybWpmS2N6Rk5hS1YwTVYxYlhaaExNWl9TVzJSTC01Vy1kc3JpNzEyTkdsR2lweUluelExSlZFSGNqNURoRnpkZk9zZC0tME9MdHJ5QXZyUFYwV19ta1VILU5nTFFreVJxYm1iRXB0d0hrVDJDZkV1VDRRdG1ud29sRU5wb3JFUlBhSm5FT1c?oc=5"
+          },
+          {
+            "title": "Prime Minister Carney visits Gros Morne National Park",
+            "press": "ntv.ca",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbWl6UGVlQ0ptMUotaTk2cjJudV9JMVBZVkFWV1RZb2tteXJGQkUyUlU2OW1nRW91NXg4ckczVUJjdFdFSFAyVnJPVUlBbjgzVmtZZ1dER2lMVkVZQ1h5THBsWTM3TkhYcDRtV19BUUIxRzd1a0t5QWVEM3IybEh5SmZaaTc?oc=5"
+          },
+          {
+            "title": "Prime Minister Visiting Gros Morne Today",
+            "press": "VOCM",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wU19iMUo3WXZIWUxoQ0NkVTdqVHhlX2ZLcmRaMHBTRlZqaGNNb3pPcU9kMzBQMEFnZm5hSGx2ZTNYUEJrV0xZVjl0dVpUUUkwX3o2YUh3QV9HR0MtM2hSRVdhZmk0RUhYQWM3c2RiMW1JcUV3bFQxYg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN243SWlkNExOWkdBZ0V1MGVmQmxIUlZBSGFBc3BHRjlHeUgyeDJxZlZwalNJTmJEejdKNE1QNXhOZGhCRTVZemtKc2huZGlyNFNwckZhMnpkLVNDVlJOVmMtQXdNaTlMckF3WGxfWERvMGhsNnUyWjBlUTRzM0FsazdvNWJUOTFXZUtKMVd6ZWZHQmY1Mjk2NG1aclBaUDVoQl9JN3c3T2NiNVR3R2dDaTBR?oc=5"
+      },
+      {
+        "title": "Watch: Fisherman narrowly avoids bison encounter in Yellowstone National Park",
+        "reports": 6,
+        "press": [
+          "FOX Weather",
+          "KTLA",
+          "Jackson Hole News&Guide",
+          "CBS News",
+          "The New York Times"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "Watch: Fisherman narrowly avoids bison encounter in Yellowstone National Park",
+            "press": "FOX Weather",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcXdzSjFicGpZNGdfTkR4OEpZbkZaeC12YU11THBaei1zZjIwYXoyZmtweXJXa1JmUkYtRGpiWlRCSzU2VFZwRnRwTndfVG5UVnQ1SGY3b2Z3cVFpX0E3c05WejJndnlDcmtIYm5kNW1JOFF5Njd3S1NRbTZwamt1U08yeS1IRnJGMzJRY0FVVXNlRTJTRGYxOEJjR2lfQdIBowFBVV95cUxORFNZSGFFYXRLYTdPTk5pS1ZRMnhoMUZ4c25mZ1dBUmQzWkplaGx0eEJCWFpkckdzYTQ1di1XTnBXdFZ5UFVYMndtV0RXTFgtVzNzRXJMeWRsYVZkUEVpSzE3eVNjTmE5UXdsNXZVendzdXhDMy1yMFRJUXlxRFducTZNSWNPWlg0VnExcXpVWDl3TFVJbi1jVE9WanhvM3Y0V3J3?oc=5"
+          },
+          {
+            "title": "Bison rams car, causing flat tire in frightening encounter at Yellowstone National Park",
+            "press": "KTLA",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY3l4VTBhMjNvemFpbkpmM2MtQ21TQXNHcjVNUzl4WXg4OHlRVkNEVGFPV3dqMTByUHBFOUhjOVpZanZmY2c0Vl9SY0VqcnFhSlBkQXNYaGNZV2s1NDBwY2lIRlFGNk4tOVlVWnRLNWJfampnQURpR2gxSFhWQm9IeENvcy1LMVk0blJCU0Jta0liVl9uR0xwMEY1V3RfeXZ1SzRkQURsdlZaMTBoZnfSAbMBQVVfeXFMT1ZiYlBBWE9Rc3d6cEFaeHBUUk81REp3N3ItUlJqaDUwTnRTUU1leFdRa1hvMTRiWDUxckFVRlR4aXNZeWhFQVpRLTFac0VxUEdaNEU2VkN3T0RYenlQVlJBZHJ1OVBPcVFVX3pVNUhjeUh5VzdVX3JYa2NiOWtGRHhuU1M5OTU5WjQ3d0NyZy1xYXdZYXQ1OVY3QnhnanVnNVhGbFBZYV9QdXZtNVd2UzRycVE?oc=5"
+          },
+          {
+            "title": "Watch: Bison quietly approaches unaware fisherman in Yellowstone National Park",
+            "press": "FOX Weather",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUcmJMUmNjZmg2VGdBX3A0aENZRzZxT0c1cHg5SkZpMmkyZmxtOE1QN1JpYzcza0xwTzJRTFN3LVg4Y1IyeEtneXIwUDE1RXBISDVZR05Va0xDMTYwd3VVajBNQQ?oc=5"
+          },
+          {
+            "title": "Bison tosses 65-year-old in Yellowstone National Park",
+            "press": "Jackson Hole News&Guide",
+            "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOXVxR1lrWjRkTm5ZMngwRmp2QkF4bWdEZUprZGZGbVJjSlVYTzBXTklUaVoyMTdhajRZSGhienVWWElOQXRKWElUWTZURmRyZWVvRkRqcTEzMjNXMl9aVDJsQ1A4ZExOc3JNbnRmVm9nOXZBQ0ZwYmlYbThoU3hiQ2NRN3cxWGdJNDlZa2tvakEzdXBKMGREX1FpT01hNzUyTmNPd0FpWGMxRGFUbGFPX3JSNWNLc2ticmxQUmtwVjZBYndySHk0d1l3VkVxRl9WT1VtdUM3SnA2OUVsTzFvcnhfU1NYMEJrTklfTmVxXzc?oc=5"
+          },
+          {
+            "title": "Bison tosses man 8 feet in the air at Yellowstone National Park, video shows",
+            "press": "CBS News",
+            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1yclBKOV9SSUVnZ1hiNVNoeUVEUEQ2cXhiRTdPSHR1akl3XzN0Ung5dVE0YlRzeHRzS1R3RV84bnRXS0lsN3dXSHR3VzVMRU1UYjM5NzhodUVHOVBNRVRrVDg5bnN4OEV4RU5GTWdQX1NRelFtR3ZN?oc=5"
+          },
+          {
+            "title": "Bison Attacks Tourist at Yellowstone National Park, Tossing Him Into the Air",
+            "press": "The New York Times",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcjN4UnNNQnp1SEtLU1Vzcmxyd2ozN0ZubkF5RzlRQ2szUGlDbXE5ZDBfOGM5ckI1Mk5pdFRjcE5LaTZyeVpLdks1eXVGdDk2a2RBUFNGNGVTNUJkaFVZY1JjZkVXOTA5LV9xNEJOR3dremJ1bGFMMTg0SW90cEdPdmVn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcXdzSjFicGpZNGdfTkR4OEpZbkZaeC12YU11THBaei1zZjIwYXoyZmtweXJXa1JmUkYtRGpiWlRCSzU2VFZwRnRwTndfVG5UVnQ1SGY3b2Z3cVFpX0E3c05WejJndnlDcmtIYm5kNW1JOFF5Njd3S1NRbTZwamt1U08yeS1IRnJGMzJRY0FVVXNlRTJTRGYxOEJjR2lfQdIBowFBVV95cUxORFNZSGFFYXRLYTdPTk5pS1ZRMnhoMUZ4c25mZ1dBUmQzWkplaGx0eEJCWFpkckdzYTQ1di1XTnBXdFZ5UFVYMndtV0RXTFgtVzNzRXJMeWRsYVZkUEVpSzE3eVNjTmE5UXdsNXZVendzdXhDMy1yMFRJUXlxRFducTZNSWNPWlg0VnExcXpVWDl3TFVJbi1jVE9WanhvM3Y0V3J3?oc=5"
+      },
+      {
+        "title": "Laurel Falls Trail in Great Smoky Mountains National Park not expected to reopen until 2027",
+        "reports": 5,
+        "press": [
+          "WBIR",
+          "Knoxville News Sentinel",
+          "WFXRtv",
+          "National Park Service (.gov)",
+          "WATE 6 On Your Side"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "Laurel Falls Trail in Great Smoky Mountains National Park not expected to reopen until 2027",
+            "press": "WBIR",
+            "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWXpZTUdEQXFqRmswTmVhY3BDNDM5RG13bFNsUjhUZ0YxUEVoNUxXZVRUN3BfcWN0NGFUVUhrNWM4ME1wWlBfeHgwTE5lRkl6OWQ3Mms0cTVCSE1NYmV0WjRlTk1MYVJEbmdMNXRHMXY5MV80R1pVOU5uWFZCRjhYUkVSWUNDODhIZGFlOWJoY183cUxxWXJNMG9USnZXWUNqakVjWVAyb043eHhKeHZ4R0xITVZRTDdIanBRT0JGZlBjczJqb0MtV0hKVDZQS1AtY1RRZmdVTVpiQm0wdk5jdkQtUHBhNk0xaWt2aVRkOHVHRmFZc2FOZi1YWXlQX255c19Sak5tTV9FRmpuVmx4bDJB?oc=5"
+          },
+          {
+            "title": "Great Smoky Mountains National Park supported by a village of partners",
+            "press": "Knoxville News Sentinel",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSWRKODBVSWxrbVA2aUpZSmM4Tkk2NzdtTU96cnF3RlFwRDRfRlpUSG0wU3AweGQ0Smh4Sno1Z2NsZ2JCVEJ2UzBLSVJtemxkMWxrekc5Q0JGUEg2QUdIU09rbzlCTUtCbldsR0hqNzVDeE5jV3FMWWhWbTREUFRFUjJMa3pPUFI5NlB4QV9sOW9GV296QkxKZUlxWTVidW5VUzU2WHlHdFN5eUN4NWVrTnRTaWJINm93YzZ6anBoRFhFVDgtNWxuWFVR?oc=5"
+          },
+          {
+            "title": "Great Smoky Mountains National Park welcomes 30 new US citizens",
+            "press": "WFXRtv",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSWV6NE93QWd0RUlfQUk0RS0yaW1PcHdub3RCSVdRcU05aExyU2c3dVo0VE95THozYU9HV0dDRWwzTDlVMWVDR1p4WFhUdk0zeVlaUlhqMG1Zc0V1VlBENE9iSEtFclZRNXZhd2ZJZWs1MjVPamhqejNhZjlNMkp1THVOTmF3NlF5aVNISS01UGtOV1pJdVRv0gGcAUFVX3lxTFBWRXVUYTAxeVlOSjNPWG9QTnJWYkZFM1Brc3ptQWdyZGZpQVdfR1IxdjdNdDdYWmFLZ2VPczU0NG5vazFCeDhQLTIyYzl4M0ZkRnI3THVCQ3ZTQWtPZE81NF9ITzhlQk5jd2xsa3llWjVkN0k3bk1LY3hMY3MwTWthT3FkdTZ1OTJOQ18xbm1qVVlyZUFsenYtWGQ3ZA?oc=5"
+          },
+          {
+            "title": "Great Smoky Mountains National Park Hosts Naturalization Ceremony Welcoming 30 New U.S. Citizens",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbTdoWlFEV2lORE56YjgwR0FvMkRYaTRyMkVteGRoSEV4Ymc0UjJ6SEE1eTFhOVRxdDExVk13cTVqaDNLbFBCZHVmQzNsY1lpOHdOUW95T0RRYXoxdzByeU51cGRiT3A1V1dmSzBrNUhOSEQwbFhpaDBFUHdTNjlPRWp6NEJKSUU1Y1ZVOC1lMVRtbllMb2pLRUlsbDE4MEFvRlB2czFUQ1p2ZE0zd2pXcEVFc3lsQkJ3WmVlR1FTdDRTeldOV1VvNzFZTXNpa1pE?oc=5"
+          },
+          {
+            "title": "‘Another birth’ Great Smoky Mountains National Park hosts naturalization ceremony",
+            "press": "WATE 6 On Your Side",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb1cxUFptY0lqQmprc0RIaDN0QktmWUtHZzI2dUdNaERHUGtXTjk2VjlUWHZvY1RqOFAwRE9jS3E4VGZ0N2VDUlZKSWh1TERrdEZnd2hRd3dSb1h5QmFId181MmN3RXl3NU5jWnNmWlo4Q1J1X2dnLTNaUG9ZMXhmU2NJUmRBeFN3dlHSAY8BQVVfeXFMTk42VUhqWG1GZHdSMDFwejhDT2ozZTFNSkF2cXRGSERTQlc4dUdqSmxKd1lSMHh3V2I0N2xWcGVPRnJfTnhUczVBOVJoNzBveU9ZOGtWMmJvWmdLMW05b05DNDlpUW0yQTlqMlZzTy1hb0hHMXB6WmpxXzk4Yk5iYURnY3ZTWXlmR1BUemhsVGc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWXpZTUdEQXFqRmswTmVhY3BDNDM5RG13bFNsUjhUZ0YxUEVoNUxXZVRUN3BfcWN0NGFUVUhrNWM4ME1wWlBfeHgwTE5lRkl6OWQ3Mms0cTVCSE1NYmV0WjRlTk1MYVJEbmdMNXRHMXY5MV80R1pVOU5uWFZCRjhYUkVSWUNDODhIZGFlOWJoY183cUxxWXJNMG9USnZXWUNqakVjWVAyb043eHhKeHZ4R0xITVZRTDdIanBRT0JGZlBjczJqb0MtV0hKVDZQS1AtY1RRZmdVTVpiQm0wdk5jdkQtUHBhNk0xaWt2aVRkOHVHRmFZc2FOZi1YWXlQX255c19Sak5tTV9FRmpuVmx4bDJB?oc=5"
+      },
+      {
+        "title": "Missions: rehabilitated ocelot released after being hit by a vehicle in Iguazú National Park",
+        "reports": 5,
+        "press": [
+          "Noticias Ambientales",
+          "SFGATE",
+          "Missoula Current",
+          "The Washington Post",
+          "National Park Service (.gov)"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "Missions: rehabilitated ocelot released after being hit by a vehicle in Iguazú National Park",
+            "press": "Noticias Ambientales",
+            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc3VjbGNfRmg4MXRlQi1rMVZkTUlCV3Z5NC01UUVrdTZKMWd1YzFQd242cWFVOHdoMG14bF9Vd0RqNXZtVEVjay01Z083MnhianlfbjhBY2lEQU41V1hNSmpPRW1TQ2J3NjZQRWUza25YT0xYT3I0NzgyRVYyMlpZYkh0X3EzNVNhdktueWkwdFZuSEp4YnBLQXBZZy0zYVlBQzBwdjZIR0h4ZHBKbzg4TlUwb0NZTjJtUlZITXNkOXRRaEpiWHNVZzdNWW3SAdIBQVVfeXFMT2VVX05CU3pXT3dqZkhsMWFsTTFENlRFNHRTR0hvOWIxSTYyVW55NFY3U2t1ajhDMWRvVkpmVkUyNUNUTHZ1SWZwNFJscVIxeExYV0NDQkVqOUxwajJ4bWczdnVNRjBCX1lYNFBkeTE1ZEtydmFVb29ZTmJCdnJaRGtwQ2pyZ2NCVGJXUDRxQ3F3azlOTTdZMTc1MDFPRDk2MkdtSmdtOGRZSC10VkdjYmxNcjZJcE4xRGk4MGhqTDZKblRSa1RidGlyMFNheS14OFpB?oc=5"
+          },
+          {
+            "title": "Visitor dies after being hit by falling rock at Glacier National Park",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHpTX3hVV3hneDZCbFJSenpZdmhPVDFZQm0zN3F0N3lvZThsaWxIR1dyZXBGZ0JZazhHbVRCTEpsVUV3T1hXYnRBdW9oQk9hWWZZYUxadmZ2MmVRUk1SQXdYcGpBV1dPLUJFRzczRFloYXdGQ0lPSnZtdVFJdWMycnB5R0c4TDBaeFpydlBYSQ?oc=5"
+          },
+          {
+            "title": "Visitor struck by falling rock at Glacier National Park",
+            "press": "Missoula Current",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdFlPcmMtblR0R09BLU1iR2sxcEdGWmlBSjUxQ0VqSUJ3anJWTjZBLTBfbi0zUXFfNTNQMFN2bHZyRl9WcDJrWFhSSG9iZ3hJTzhwLUd0bkQyZGlwcTY4LXZuV2VXbHMwZU5TNUFUcE55QW9KZ25UdnZxcE1LLXNxYzkwS2RpWEhDODdIcw?oc=5"
+          },
+          {
+            "title": "Man recovering after being attacked by bison at Yellowstone National Park",
+            "press": "The Washington Post",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd1ROVk05UlE4OWxzN2JJUkFLdDNscXlNYkNtYkQ5aVMxTmJHSmJjVWxRbGhxQzlKQmdmeHVJc2NHRUs4aldacGQtejM0dl95NkdjbHcteGx6ZE53V0hlQnNGZWljZEtVT2xkSW9nalhJWnB6am41Ym9DRERGZDd1cHlyM1R0VHZFa1ZwSEptOXpXZk51UWVqbjcxdWpSOWRMbDR4XzZQVlgxSUhYNE5La3plS3gzdVJrc0t5Yw?oc=5"
+          },
+          {
+            "title": "Yellowstone visitor injured by bison encounter",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iM1gteExtVU9Zb3dqYzNMRzZGb0tUbFpzaDVvYWNNUUFndjk2YXhBOUJyb0JCTXRuUFd4Vmc4TUd1XzVDRzFVb1FIM1pVV0h1UGo0Z2VEeHA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc3VjbGNfRmg4MXRlQi1rMVZkTUlCV3Z5NC01UUVrdTZKMWd1YzFQd242cWFVOHdoMG14bF9Vd0RqNXZtVEVjay01Z083MnhianlfbjhBY2lEQU41V1hNSmpPRW1TQ2J3NjZQRWUza25YT0xYT3I0NzgyRVYyMlpZYkh0X3EzNVNhdktueWkwdFZuSEp4YnBLQXBZZy0zYVlBQzBwdjZIR0h4ZHBKbzg4TlUwb0NZTjJtUlZITXNkOXRRaEpiWHNVZzdNWW3SAdIBQVVfeXFMT2VVX05CU3pXT3dqZkhsMWFsTTFENlRFNHRTR0hvOWIxSTYyVW55NFY3U2t1ajhDMWRvVkpmVkUyNUNUTHZ1SWZwNFJscVIxeExYV0NDQkVqOUxwajJ4bWczdnVNRjBCX1lYNFBkeTE1ZEtydmFVb29ZTmJCdnJaRGtwQ2pyZ2NCVGJXUDRxQ3F3azlOTTdZMTc1MDFPRDk2MkdtSmdtOGRZSC10VkdjYmxNcjZJcE4xRGk4MGhqTDZKblRSa1RidGlyMFNheS14OFpB?oc=5"
+      },
+      {
+        "title": "Moose a growing concern in Rocky Mountain National Park",
+        "reports": 5,
+        "press": [
+          "The Coloradoan",
+          "Jackson Hole News&Guide",
+          "Whiskey Riff",
+          "The Press",
+          "Estes Park News"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "Moose a growing concern in Rocky Mountain National Park",
+            "press": "The Coloradoan",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNWZyc3BOMFV5bzFVaE5UV2gyWFRlclhZUlBWcWgweXg4ZjhSdG9jMkFPY1QzcjFna1UweS1ldmFJNXljdmxrbEtsT04yQXdjSzZXRzNVWDZ0ZDRnVjF6S0ZjWTh3TG16S1l4QkVTUFpuc1RHZWlNd0ZkX3dSSC1jZzFJRXJnX2tLN0sxSE5XRG5KMVVFd2Uya2Q4MXNKQmpkRTdCU25VN2pTUzY0Q1hrMndHem5sQW9jbHc?oc=5"
+          },
+          {
+            "title": "Moose-Wilson road will be closed for 2 days in Grand Teton National Park",
+            "press": "Jackson Hole News&Guide",
+            "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOTVZvZDJyMFRlLWlhZHc5cDJwYzh6bU9SaG1oclkxNF8tbERJbkFEcmF1eThWLTQzQ0NtOU5DRlVGUkt6Z3dQMVh5anMwR3UzQldwbV9EM3lJWGpySnZOZGUzNmZISllRRHcwdHZzcXdweGtZMExNYTY0VmdIMUpSQVNqRWZNVHVOUHBvbGhtb0h5bDhINmw2T2FWMmlucXg1T08xV28wMXBoRjZCYUVrbVdpeVBGQ1cyUkxnbmNMb0w2MEdZaWFucGJIYzdMY1ZyWEJqaEVmOWZveVNucTVPTXJtN2hQZncwWG03Ukt0MWExV3o0R29UOUUzcDR6bllvNENzS3RoU3BDUQ?oc=5"
+          },
+          {
+            "title": "Young Moose & Elk Square Off In Rocky Mountain National Park",
+            "press": "Whiskey Riff",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0t4Nzl2YnIxRF9NYlRpSXE0dDFDQUo3c01BMC05aUUyeW5FYndoYXg1c1lVRzBGWDRZQWhFU1JnRzV1Q0t6d0F5SDU0VUx5VkhZVEYwZW9qcXVRa0JmTzRZeWZuZUFJWEo3YjZFTVZDUWxkQTNwUnlja1Q2SER4cmJFMVNjbjBDeG9jYWpyamhDVGJyYzUzWUdyMmVqUk0?oc=5"
+          },
+          {
+            "title": "Kahurangi National Park access road reopens for winter",
+            "press": "The Press",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYWNjNjc4M3VoM3ZrTkJCWEV0MnJ4RnRaM3dsU3JFREdSaFh5ZXA4bVd1b1VkNWtaamZVdnkyUUNrX3Jyc2ZKVG1QWDcxaXpsczFOSjdmdlN0TzRsZzlwbFB0OG5uUVRVY2pfTzExelllVE5KZ0FQMU5nZm8zZElwOTZoRVRDOWlVVnFteGlMUVRzS3ZCcmc?oc=5"
+          },
+          {
+            "title": "Incident On Kiener's Route In Rocky Mountain National Park",
+            "press": "Estes Park News",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdmdJTDBaUzdDYU1abWMydXZ6WjBsNmppdENMRlREQWJCZmZka3FJMWRUZWUzVk40MDg5QU1Wb01ULW01b1IyWHVGTHp1S0JzMVF2ZUg1dWVsR3RBVUIxZHNpSXFkbThGZms5NHhQaV8xTjBkc1N3MWZtVWF4X3Q5MjBaU2FzOEdqMXFnenZEdUV6S3M?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNWZyc3BOMFV5bzFVaE5UV2gyWFRlclhZUlBWcWgweXg4ZjhSdG9jMkFPY1QzcjFna1UweS1ldmFJNXljdmxrbEtsT04yQXdjSzZXRzNVWDZ0ZDRnVjF6S0ZjWTh3TG16S1l4QkVTUFpuc1RHZWlNd0ZkX3dSSC1jZzFJRXJnX2tLN0sxSE5XRG5KMVVFd2Uya2Q4MXNKQmpkRTdCU25VN2pTUzY0Q1hrMndHem5sQW9jbHc?oc=5"
+      },
+      {
+        "title": "Grand Canyon National Park seeks public input on rules for historic properties, fire management",
+        "reports": 5,
+        "press": [
+          "Arizona Daily Sun",
+          "williamsnews.com",
+          "Gephardt Daily",
+          "National Park Service (.gov)"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "Grand Canyon National Park seeks public input on rules for historic properties, fire management",
+            "press": "Arizona Daily Sun",
+            "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQVZraEJ4SDZHVExMTHlLeVdZeURvRll1WmNSdWNYVzVjOE1oUm5tbFhrT1BBdWZwVXdQanNGbGExU2RyTVpzWHVCSkdVd25PdEkzNk5ackdvYS1tZjNLZnlpMDVrZjhFNTNaRkNVdHRDWExhTk4tMjRjdXlUUjFPNGhvZ0VKUTROeF9OVElRcm9FQThneE5xc0dIZFc3SDhUUTVvdXp0NEFCMThMeTVESTljN2s2Mkx3Z2Ezdnh1WmtGNzM5dHZwSWNyN2UxTFNDUGVxeFZfTFltYlQ5WnRXb21yM1RSQ3NMY2hQU2pvekRnN0ZZSWRpbDdfS0RzSWxucUdUM1ktVE1hNER4cGk4YmtSZF96UnFxLUE?oc=5"
+          },
+          {
+            "title": "Grand Canyon National Park eases South Rim fire restrictions",
+            "press": "williamsnews.com",
+            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOclJEYkhVUlNLTFlLMHZuWXpGNHRKeGExMGtQbUZHTHE5c29SX2tzUVpmUkNZT2FCcGpYNmhuNHgxMVU0aGVVamcxaWo0bEFSMlVkZnhyUmVxYnBuUzBlY1pjbzlFQ1VvZGFKYmtkOWFONWJKQng0VUNOVko1Mk9IM2wwM2pOd2JwQXNJSWx2Smx4QVZSbTVlRnN6MDdnbHB6UVdIWHRJY1BreWItYVhBcjhIODdJNlRlMWVrRUZDMkl2SkFPS2k0a19keU5Reno1by1mWFZLR3RvamlY?oc=5"
+          },
+          {
+            "title": "Grand Canyon Nat’l Park lifts stage 2 fire restrictions on south rim",
+            "press": "Gephardt Daily",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmIwOW1GZGh2Ny01b1ZOdDV3OXFtNjVmNTVuQXVIbzBDYVFaaXFuSmMyTG9YTERLeHNYR0p1WnlVYnRqaFpKUnNIYklxcHQtbDU5OEw1OWF3NXdIM3Y5d2R1ZjdJQmhSdHVaQjczUldyTGtIbmQ3TXdHdGE3UVVYaEdCN0Jzc1c4U2dqU1hadDE2WEVVaG0xRE1Pd3dnWGpEUFNGV1FleWNVZw?oc=5"
+          },
+          {
+            "title": "Grand Canyon National Park Eases South Rim Fire Restrictions",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOXBvRmlnZEhCQ24yOUZ3ZnlOT1V6SVdGNHpkVEoyYUtoTmZqaDJVdEMwR2VDMzFKUXFydWlNRUpkQ09pamdTajJDVWRZMlNhQmNkUWZtXzIzX2p4NEtHVVhWUi1FQlliVTJibWxVQ19jLVUxZG11SDN0bkdOZkZRZEZSNEl0V2hhOExVU3Q3VEU?oc=5"
+          },
+          {
+            "title": "Grand Canyon National Park responds to Cliff Spring Fire below North Rim",
+            "press": "Arizona Daily Sun",
+            "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPendnZjVkVkRXRFJfSG13R2lWbkk1V3poWloxVGxuUDRMd0kzdzNkMGJFbS1RTGFtWVF1bkJWVnU0TzlsWGFHcmMxNy01TWtPbzM5ZFRvdTltOUhMMEk3OUxEckJlcG9rcUg2Z2ZpSmlHbVBoclNZSmg1UktnOUtuTG55ZDZZZUNCS2hESVhxQ2NIUEZha0FocE1ZSHFaSWJpQ3BJVktfN3NIeHNrWDJQNE5naE56ZktOOHJ4b0J3NWZrc0hIY291U3hFUXl1aVBBdlhLX2pVdklKcURDWjBubUwxSjdsVGdYQzk1NmktcGs5M2l1ZUNnMGlB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQVZraEJ4SDZHVExMTHlLeVdZeURvRll1WmNSdWNYVzVjOE1oUm5tbFhrT1BBdWZwVXdQanNGbGExU2RyTVpzWHVCSkdVd25PdEkzNk5ackdvYS1tZjNLZnlpMDVrZjhFNTNaRkNVdHRDWExhTk4tMjRjdXlUUjFPNGhvZ0VKUTROeF9OVElRcm9FQThneE5xc0dIZFc3SDhUUTVvdXp0NEFCMThMeTVESTljN2s2Mkx3Z2Ezdnh1WmtGNzM5dHZwSWNyN2UxTFNDUGVxeFZfTFltYlQ5WnRXb21yM1RSQ3NMY2hQU2pvekRnN0ZZSWRpbDdfS0RzSWxucUdUM1ktVE1hNER4cGk4YmtSZF96UnFxLUE?oc=5"
+      },
+      {
+        "title": "Wildfire forces evacuations in Scotland’s Cairngorms National Park",
+        "reports": 4,
+        "press": [
+          "The World from PRX",
+          "Mshale",
+          "Mirage News",
+          "SFGATE"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "Wildfire forces evacuations in Scotland’s Cairngorms National Park",
+            "press": "The World from PRX",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQekdQZzBwNENaTDZkZGNkQkhYa0IyYjRWWmVaYW5vSTZlLUJCMUxHSGJSNUNCTGZQTUtxekdyem5jc3hWTVR0ZWxGSVRIYzhYcWZfd1VwZnY0djBKSkptclpLRExaVWJ1dURjNkxqekxqS05aY2s3QjBxRDI0d0Y1VF9FYjVueVdXTHhJRWdKalcyc0VaQVNRUnBsNXZaWEpBZ2NmeHJXdGJwdw?oc=5"
+          },
+          {
+            "title": "Relaxing Walk In The Cairngorms National Park | Scotland | 4K Nature Monaco – Lille (R41CKMMTHF)",
+            "press": "Mshale",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uTnY0WlVRemcyaTN2aHQ5dlNaamJDeTNJaUxLbjBEYUFoQlJGTEJuLWVnOWJwMmxPdzkzQ1RKR01lN0VhWDBmYy1sQnVjM0FLZGtxQ0hOUFJlLVE?oc=5"
+          },
+          {
+            "title": "Investing In Freycinet National Park",
+            "press": "Mirage News",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KQUg0QTBtMjRLTWNCeENxa3J6Z2tXdzlmamw2aVRnSV9fblpRaEtvX1RrQ3UtaXZIVndOMXp4RU40SjRLaWhkaEd6enp3RFRaR2R5VlBTNHJsanREbzZHM2l6bU8yNmctVU9ZZmRNM3VlX1ExNmxIR19QcUk?oc=5"
+          },
+          {
+            "title": "Wildfire forces evacuations in town outside Yosemite National Park",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVzBZZWJaYm1SNXFUczAyYXJ5eXVqUUJBN2hDcUlEM0l5NTl0VFpCS3AtRUdDWmY5MU96dmQwLTEwb1p6d25VZEpnT05oSU1jSTltNVlyUy04cFpTVjdfd3NERzBlU0t4RVNVdXFLSDdJT3RYVnR1NUVja2E3YzNGZm5jM2RmdFU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQekdQZzBwNENaTDZkZGNkQkhYa0IyYjRWWmVaYW5vSTZlLUJCMUxHSGJSNUNCTGZQTUtxekdyem5jc3hWTVR0ZWxGSVRIYzhYcWZfd1VwZnY0djBKSkptclpLRExaVWJ1dURjNkxqekxqS05aY2s3QjBxRDI0d0Y1VF9FYjVueVdXTHhJRWdKalcyc0VaQVNRUnBsNXZaWEpBZ2NmeHJXdGJwdw?oc=5"
+      },
+      {
+        "title": "Person struck by a falling rock at Glacier National Park dies from injuries",
+        "reports": 4,
+        "press": [
+          "KPAX News",
+          "Hungry Horse News",
+          "SFGATE",
+          "Daily Inter Lake"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "Person struck by a falling rock at Glacier National Park dies from injuries",
+            "press": "KPAX News",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTgxWkZKT25wUWFYZFFja2VjVDlUbFB3SWpVWVdFUHE0R1Z6X0VjMHZ3MVJ2c2d4bXVoVWl1NGJTMmlQd0pTOUtYOUFuNGdfc0owV1pQVWhmYjVxNlpGT3huaXBHM1Bhclo2eGVJa2lIbEYyQU9HZnZGalJrQ3lTc2dlSnJoejZ4dTJ2MGJ2WHlQSTA3REJrRklrekYxanVqUHBN?oc=5"
+          },
+          {
+            "title": "Man dies from injuries sustained in Glacier National Park rockfall on Going-to-the-Sun Road",
+            "press": "Hungry Horse News",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMGw0WXhZZUpEVER0QXA3VDNmSE1tV21VT3lacXI2M1JNWXB2d011dU9nSU40WFRxcUw3UVJLMFpOSEtmcXJtMFJVd2xBcTdhYXNFVm1OR3hWS2cyUzZvbkR2Z1YyM1FUVU5jSHljRVctc1gtQjlDZDZtc19hQ2UtaEpsT0YwRmhJUHFSallSWW5WMlozcURQQ1Nxbk00dHpWZVV2bGVLREpFTll0dHRmY0MtYjVZZ1RyQ0NnT0ZuaDJBZlNuaGVSMDVSOWpXT3JlanlN?oc=5"
+          },
+          {
+            "title": "Glacier National Park visitor struck by rockfall while driving iconic road",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYmxETFVzbmZtTWFHZ0dLRnVaTy12eUFwODF2dEZiMUk1UWdvNm9hdXQ3enZvcWhCTmtnNHMyXzZkT2FxdDdkb0FCVDFlOHlkOGRUUzVuMC1ETFpoV1k0cGZKSVFDanJOcHItYzNwVHpwYzZHdE01d2daT2dWMUdweUZWMl9JcUg4aXN1RmxGbjJjLWM?oc=5"
+          },
+          {
+            "title": "Glacier visitor injured after rock crashes through vehicle on Sun Road",
+            "press": "Daily Inter Lake",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdWZpV2QyUFduTjNBN1NVdmQ2OXRVbDROY0xHLWhMUnZNTU1mUFpFbFFGVmZHUTBicDFLN3VMODlYRHVodV95SmFzLUxYOXhhUGN1NW5iMWx3WUtCcmhYYnZsMHREN2R0STBvbVpweUxHdzlSODk1VnVNTGItUjlrSUdTclBER3VmTXdIVmZHQk1DTmJuQzNqclVHMTRWVm90VWxOTmN4YW9CWFg3Ry10VXdkM3RtQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTgxWkZKT25wUWFYZFFja2VjVDlUbFB3SWpVWVdFUHE0R1Z6X0VjMHZ3MVJ2c2d4bXVoVWl1NGJTMmlQd0pTOUtYOUFuNGdfc0owV1pQVWhmYjVxNlpGT3huaXBHM1Bhclo2eGVJa2lIbEYyQU9HZnZGalJrQ3lTc2dlSnJoejZ4dTJ2MGJ2WHlQSTA3REJrRklrekYxanVqUHBN?oc=5"
+      },
+      {
+        "title": "1 killed, 3 injured during rockfall on popular Mount Rainier climbing route",
+        "reports": 4,
+        "press": [
+          "KOMO",
+          "KREM",
+          "The Seattle Times",
+          "FOX 13 Seattle"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "1 killed, 3 injured during rockfall on popular Mount Rainier climbing route",
+            "press": "KOMO",
+            "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTnR2TjV4ZnRjdzlPYl9ERlhZTmJRaS1ZdUxqYUJXLTNnMzFhQVpYZUptdGFLWlZVR28zOHVROFJHT1F2d2laWC03Z0F3X0xmcU9qTzBwY29pVHY5UF9kcWltMmRSSno3cU9qbE12NEI2WXUwY041MDdKemJCMm5RWC1kNWpIX1F1Z1FWcHpoR0RuaUYxS01jM1YyaHIydndqZG9VQXRLVi1PX3VjSm02R0JGV3VOWmZ5WHpMVWxOdDJYOW93SmRPb0phYjhNb2diS1RidXgxTUtyWlpKUTdCRUtiNG52aEJLaHRBWGhVc0V6NzI4enl6ckVtN0ZsS2QzTk5DTmU3NDVienV6S3NweEE0R2FGZTZTdWM3bzdHY1RsVXV4RllCSmd3eTdoa3FsQktPRA?oc=5"
+          },
+          {
+            "title": "Mount Rainier rockfall kills 1, injures 3",
+            "press": "KREM",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX091WWU3RWFXS1ZWUFRZMkgybXI0SHlTQVVFZFFGSWVRTjYtNlEtaUpKVWp5ekpXZmw1SXg3SDhIbWszUmE5ckluTEwyNGQ0VGpXbzdUei1zUURJdE40X3BPbmhEbjdVMHlPREdMdXdTMGI5Wmp2Z2VDWk43M0t5LXJzcWwtU3lwTFVDeGc0eHJKMUxBcWl0OUtCVjYwZUNtUExuNTRVdlFYWlNQbndQZ3JQNUdteDFwM2VjaXhHYkNmSUxzbVltdF9R?oc=5"
+          },
+          {
+            "title": "Mount Rainier climber killed, 3 injured after rockfall",
+            "press": "The Seattle Times",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeWE0UHN4TV9UR2pEeGo4d2JKbnVUUURTSng4UU43ZVAwWnFtZWxBdmRBRXpJdF9Sb0ljd0JWY21Pb1NoUUlJT1I0eWZWTUZETU8weEpYaGw1Y284aXU3QXlLY3NzdTJ5Vm9aRDdjd2laSUc2SGVJbUlzZzM5QTNiM0ttSnZtTTNJOVpTX3VyMU5VVFFETFFUQWxCSmg?oc=5"
+          },
+          {
+            "title": "1 dead, 3 injured after rockfall on WA's Mount Rainier",
+            "press": "FOX 13 Seattle",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XTU1faWdBWGlWSFZ3d3QwZTlOcTNpbWhPck11MFVMRkw4XzZhV0xraHlxZF9HZ0V2NFdndXJMVUdsZ2FXOWdwbFZ2TzlzT0FLWGJrUXpyaVZsS2V2M3V0V1gzWVd1WnVvY1dwOXBmeVF5QnlrdGUzNw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTnR2TjV4ZnRjdzlPYl9ERlhZTmJRaS1ZdUxqYUJXLTNnMzFhQVpYZUptdGFLWlZVR28zOHVROFJHT1F2d2laWC03Z0F3X0xmcU9qTzBwY29pVHY5UF9kcWltMmRSSno3cU9qbE12NEI2WXUwY041MDdKemJCMm5RWC1kNWpIX1F1Z1FWcHpoR0RuaUYxS01jM1YyaHIydndqZG9VQXRLVi1PX3VjSm02R0JGV3VOWmZ5WHpMVWxOdDJYOW93SmRPb0phYjhNb2diS1RidXgxTUtyWlpKUTdCRUtiNG52aEJLaHRBWGhVc0V6NzI4enl6ckVtN0ZsS2QzTk5DTmU3NDVienV6S3NweEE0R2FGZTZTdWM3bzdHY1RsVXV4RllCSmd3eTdoa3FsQktPRA?oc=5"
+      },
+      {
+        "title": "공중으로 ‘붕’…미 옐로스톤 공원서 흥분한 들소 관광객에 돌진 [잇슈...",
+        "reports": 4,
+        "press": [
+          "news.kbs.co.kr",
+          "yonhapnewstv.co.kr",
+          "insight.co.kr",
+          "imnews.imbc.com"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "공중으로 ‘붕’…미 옐로스톤 공원서 흥분한 들소 관광객에 돌진 [잇슈...",
+            "press": "news.kbs.co.kr",
+            "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8609869&ref=A"
+          },
+          {
+            "title": "미국 공원서 수컷 들소 돌진…관광객 2.4m 공중으로 튕겨",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/AKR20260713144730VRG"
+          },
+          {
+            "title": "옐로스톤 국립공원 들소 습격... 관광객 2.4m 공중으로 날아가",
+            "press": "insight.co.kr",
+            "link": "https://www.insight.co.kr/news/562731"
+          },
+          {
+            "title": "[와글와글] 공중에 '붕' 관광객 들이받은 들소",
+            "press": "imnews.imbc.com",
+            "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6836901_37012.html"
+          }
+        ],
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8609869&ref=A"
+      },
+      {
+        "title": "관광객 들이받은 성난 야생 들소…노인 2.4m 공중으로 '붕' 떴다",
+        "reports": 4,
+        "press": [
+          "etnews.com",
+          "donga.com",
+          "hankyung.com",
+          "sportschosun.com"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "관광객 들이받은 성난 야생 들소…노인 2.4m 공중으로 '붕' 떴다",
+            "press": "etnews.com",
+            "link": "https://www.etnews.com/20260713000235"
+          },
+          {
+            "title": "성난 들소, 관광객 들이받아…2.4m 공중으로 튕겼다",
+            "press": "donga.com",
+            "link": "https://www.donga.com/news/Inter/article/all/20260713/134289355/2"
+          },
+          {
+            "title": "美 옐로스톤 캠핑장서 날벼락…들소가 노인 들이받아",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/2026071322937"
+          },
+          {
+            "title": "들소에 받힌 노인 공중으로 '붕'…\"번식기로 예민해\"",
+            "press": "sportschosun.com",
+            "link": "https://www.sportschosun.com/life/2026-07-13/202607130100081170005121"
+          }
+        ],
+        "link": "https://www.etnews.com/20260713000235"
+      },
+      {
+        "title": "Fire ban in effect for Banff, Yoho and Kootenay national parks",
+        "reports": 4,
+        "press": [
+          "Rocky Mountain Outlook",
+          "CTV News",
+          "DiscoverAirdrie"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Fire ban in effect for Banff, Yoho and Kootenay national parks",
+            "press": "Rocky Mountain Outlook",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdExsc0NjZ3FRM0d0Qzlqa0lPNXQ5MXBOazRzdFNRbWxnVGVTZ3JoOXRYVDh5LU1VY3hVN1FXYmtSYlN6RXE0UWtDbUlJUVJnREVQc1M2RnBLcUs0amFaMlBPck1mMEJGVzRLSWdKVV9fQk00T0hCQ25rVXNvcGMtcmsyY0RyaUViTHU3aDBPUlZ4Y0lfX2p5Wmt1VTdTLW9MQ0Z4SQ?oc=5"
+          },
+          {
+            "title": "Fire bans effective immediately for Banff, Yoho and Kootenay National Parks",
+            "press": "CTV News",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1ljNzFWRUNEc1NISFdSM2ZOUmF1NGl2Sk1FN19CYWFPZGNXNEl2a2trUmRTdHhjbTBFYjB0ejU5alBpY0tDUTNFSE8yNmNuTzNTaXBfa0FQVHFBUV9yRWVlOTdLa05GdWRUM295OGs2NE9kY0k1VndsclRyYlY2elVvbnlxRWV1YVFYVDlhNFR2MU1sR2dEZFBsZWpHM3VDWXFHMXAya1lucG00S0RGSnRwOHU?oc=5"
+          },
+          {
+            "title": "Fire bans take effect in Banff, Yoho and Kootenay national parks",
+            "press": "DiscoverAirdrie",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW02WGxjQ0JxNkFIOGpVOHhhcnhGVW96cWxDamsxNG1RdGFDcGdhMEtCYlFhbEl1ZkRTX2NGRmZQVy1yeGFZQUpvX0tnS0J2Y3pGSzgwUndodWJtWlBSWXZURzR2S3lQVzFwY2ZJS0t4ZUlBMlUxTms5OWZNVEZUWTNWYU9RNW9jRndsUUxMcnhFaVBqWjdfOXdOUGdHYkdVQ1E?oc=5"
+          },
+          {
+            "title": "Fire bans issued for Banff, Yoho, Kootenay parks",
+            "press": "CTV News",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWkVpMzZRR1I5aUlrSmltdDg4T1hIOWVlTzNrMmNOTEt3ajRMTDA5NzZUeXRNSXJENmFERFVwQ1BIZ1JIU1dXeFdKeWtrN05pVE4wQjJQRG1faDRhZ3RmdTNZemp0djItTWRzcGhXb09FSkxDcUZoekd0RS1WQmFYZ2tYMkNxMDlScnhKYkhPdWZ4Nm8xQ0FIWTZodFZ6NUJWdEt0VU8zSUdKNjQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdExsc0NjZ3FRM0d0Qzlqa0lPNXQ5MXBOazRzdFNRbWxnVGVTZ3JoOXRYVDh5LU1VY3hVN1FXYmtSYlN6RXE0UWtDbUlJUVJnREVQc1M2RnBLcUs0amFaMlBPck1mMEJGVzRLSWdKVV9fQk00T0hCQ25rVXNvcGMtcmsyY0RyaUViTHU3aDBPUlZ4Y0lfX2p5Wmt1VTdTLW9MQ0Z4SQ?oc=5"
+      },
+      {
+        "title": "Yosemite visitor, 24, dies at popular Merced River swimming hole",
+        "reports": 3,
+        "press": [
+          "SFGATE",
+          "San Francisco Chronicle",
+          "Santa Cruz Sentinel"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Yosemite visitor, 24, dies at popular Merced River swimming hole",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGkzV3hFLUhLVVYxVTZEbmVQOTR4V3ZvT2NYcUYxMGFWbTlvRkR4ZWg2dC1famZXcE52YW15dkxGZWNyTFVPM21GNDVyRnhkN1lGaE05M3p3dExPXzJyVWVZMlFFOEN4QlUzcWZjXzZpOWIwdDhteXdBeDU4Vk5LRGlTZ0tHX2ZMSjRsWktqVWpxTTdHLVM0YUNfdHU?oc=5"
+          },
+          {
+            "title": "Person drowns at popular Yosemite National Park swimming hole, officials say",
+            "press": "San Francisco Chronicle",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEJUN3pwanhsYzcxbUtZRlYtX2lnbXJxWkdPTm5uam9lRVdoRl9ONWVDMVJkbmRoc01jWVVnaEpNNXBsWjRCTzhrVGhuUW9KanZvZDZXelh2MXhjOXNVX0ZLRkdMWkh1bVNOQmp1aEItLUtJVC1VMmtrcm1FS1NLbFgyUng0bjZJWG4wUU8zR2JIcG9nRF9fSnp1cWk?oc=5"
+          },
+          {
+            "title": "Commentary | Travels and travails at Yosemite National Park",
+            "press": "Santa Cruz Sentinel",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQlZoM0ZIMy1NVzZuYVVVaU1MOURDNUw4azBTU0hlN2ozSnJnbVhWOE9ScHB3ZHNUYVZRUVFDNlRfdF84UXpkUGgycnp1TTJmUmRxY2VWTWkxZDdtRXBuTWg1OE8yb1VsaDh0dWdsQUFZYkhSZU5uejR2bEJ1MVI5WWRhVW5jV05OczN3TFNpN2NqV05ta3JFX2RRVlRFQkJERlU1STNn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGkzV3hFLUhLVVYxVTZEbmVQOTR4V3ZvT2NYcUYxMGFWbTlvRkR4ZWg2dC1famZXcE52YW15dkxGZWNyTFVPM21GNDVyRnhkN1lGaE05M3p3dExPXzJyVWVZMlFFOEN4QlUzcWZjXzZpOWIwdDhteXdBeDU4Vk5LRGlTZ0tHX2ZMSjRsWktqVWpxTTdHLVM0YUNfdHU?oc=5"
+      },
+      {
+        "title": "Hiker, 83, found safe after going missing near Grand Canyon National Park",
+        "reports": 3,
+        "press": [
+          "6abc Philadelphia",
+          "Outdoors with Bear Grylls",
+          "AZ Family"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Hiker, 83, found safe after going missing near Grand Canyon National Park",
+            "press": "6abc Philadelphia",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMk4zdHc2NFI3VllGOUlDSkZDUU9yVy1hMjMyb0o1X3lsck82OHJNbHVqNUJSZ0xTT0czUndKQlVVZnFUcER1aEgtcVFweFhuMDRpMkYzOUJyY08zR1ZOVG1sWVhfLWVXaHluYlNIWnQ1TDBfaHpfMTUzNjRZWklOcm1mMUdjWUg1Mnc0ZzBLT09rc05XMG1iNFplSF9ONW8?oc=5"
+          },
+          {
+            "title": "Missing 83-Year-Old Hiker Rescued in Grand Canyon National Park",
+            "press": "Outdoors with Bear Grylls",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1lRU3lBajlLVmFLTXRTSDdiUkI1TE1KeUhRRHFvWEhwYUFWS2xXWXdDZE4xNDR6Qk1ncTcwOG5vb0N5UWZZc0pNUzJHYTdvRU5pYWFxczlBMkRRLUpDU2xFZXZybWUyelNzcEJrSWdlRGxoS3RFWk1DMmlDdk0zUnhNY2MwQ3lTNnhFR3hn?oc=5"
+          },
+          {
+            "title": "Cyanobacteria found in Grand Canyon waterways",
+            "press": "AZ Family",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU3UwMWlJZ09XOWthRkZjYjVZQzZianQwc3RUVzdoSUJ3d1NmV1lkOFlWOWlHVWdQODNuSkhtcW5qa2FZaUdPS3pKUUNmUzNFelEwWXVsekRCZGZxb2ZUM1JrQ2VjR1ZWeDlSdE81YjZha1V4azItWUplYjNheHU5VE5LM1l3NDc3MUNrOGhR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMk4zdHc2NFI3VllGOUlDSkZDUU9yVy1hMjMyb0o1X3lsck82OHJNbHVqNUJSZ0xTT0czUndKQlVVZnFUcER1aEgtcVFweFhuMDRpMkYzOUJyY08zR1ZOVG1sWVhfLWVXaHluYlNIWnQ1TDBfaHpfMTUzNjRZWklOcm1mMUdjWUg1Mnc0ZzBLT09rc05XMG1iNFplSF9ONW8?oc=5"
+      },
+      {
+        "title": "Bear-y season prompts warning for Jasper National Park",
+        "reports": 3,
+        "press": [
+          "CTV News",
+          "The Kathmandu Post",
+          "myRepublica"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Bear-y season prompts warning for Jasper National Park",
+            "press": "CTV News",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXYyVzR5bXZqQk5rSlVKcEF5bVlWbVYtaHN3Wkxwbml0ZUhfMy1oZDloWmcxekpBR3l2cWF4R0JXRHBNWm14cXBUVDA2R044ZzNMdnVSQ2FnbEVlN3BpMWJGSGlEUzl3VGFpU3l0WTRKeEtvTURNVldIRnhRMEMzX0dnWm9MbnBFcjlHX1gxUFFFT0V6VkNZYTdhQQ?oc=5"
+          },
+          {
+            "title": "Jeep safari inside Chitwan National Park suspended for monsoon season",
+            "press": "The Kathmandu Post",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQzlFYk5sQlBkU0VrQnFJVkEwZ2VwdWdhMUtuY2VDckxIWTc3a1BiUGtvcU9KMjFFREJhS1ZtTmFIbi1NNklHUXJYdFU5NVJ2SVVwbVdPSHNiM1ZpcmRiTEdjSG5zUkgtVUZlOTlJMl81RjZZUU5sWVJIVkctWkxycmdOZGVlZktJNHY5QWNDX19oUjNlMmlTSDRhQWpHOHRYUFA1a19JeEpYMXh5NExGLTNVeGRBdw?oc=5"
+          },
+          {
+            "title": "Jungle safari at Chitwan National Park suspended for monsoon",
+            "press": "myRepublica",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc24xajJvSGR3Qmk3Y196NUR5VjNWWnhEWW5YV2dIQXN6b1dvR2dDX0tneG5rQi1DSDhDWlpWRlhwSm5nMGYwUmlFQVFnQ0txMnVxemxtU1FxNmpZcHVyZUdyalBIdFUwM3htczRaMzFfWmhsQzZ4N2lwcTBjd1lSMFdfdUVPZkZZREJ6dnp3NmNWRk1idHVhZk52U1pBSC03SVZiMzhvUmlYLUNBd0NCYzBOam5EVmFCM2RF?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXYyVzR5bXZqQk5rSlVKcEF5bVlWbVYtaHN3Wkxwbml0ZUhfMy1oZDloWmcxekpBR3l2cWF4R0JXRHBNWm14cXBUVDA2R044ZzNMdnVSQ2FnbEVlN3BpMWJGSGlEUzl3VGFpU3l0WTRKeEtvTURNVldIRnhRMEMzX0dnWm9MbnBFcjlHX1gxUFFFT0V6VkNZYTdhQQ?oc=5"
+      },
+      {
+        "title": "'Engulfed in dust': Hiker recounts rockface collapse at popular climbing spot in Banff National Park",
+        "reports": 3,
+        "press": [
+          "Calgary Herald",
+          "Global News",
+          "CBC"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "'Engulfed in dust': Hiker recounts rockface collapse at popular climbing spot in Banff National Park",
+            "press": "Calgary Herald",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcmstWHc5TXhjdFl4TnpHTExrNWJwQVlmQkZZbnNMQ0lsM0ltNG5GUG9lVUFhRE9paVpIbV85ZzJCNVh2ajdSMWFvSEJRZHFMOFpFZGNBTXJjRXBKOFk4akxfZHF5eUZOQzlhelZLTHcxVzVZaFhjM0ZidnZNT3ppWjg4OA?oc=5"
+          },
+          {
+            "title": "Rockslide in Banff National Park closes popular climbing area",
+            "press": "Global News",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOczU4dm9pYUN4QjZteUxTWFZseDk2ZHZOUk0xZUlMWERBRGVSTm42bmFlMU1xQl8ydjRjUWZ2ZklHQ0VFSTRvV1dRWVlNNlVRRDBNMDhuYzhUZzVCSGZ6WWJCUWRYeEZOR2RXaElWdE9ad284UTdGcU5NR3VLYm5yVS11cDBCVGdD?oc=5"
+          },
+          {
+            "title": "Large rockslide closes Rundle Rock climbing area in Banff National Park",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzeFEwQzJLT0p1SFFaUlhJYnk5ZHVFemY4aUtkemtVVnBRaGxILUlEOU5nRTRCNDJab0N3V3ZDRkJ3LUttU002RE5YbXRCVEVNckc0UjVzempPSmU4M1FFR0NQb3ZaMDZQYlJYbHZLcERlT2lvMU9WNmF3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcmstWHc5TXhjdFl4TnpHTExrNWJwQVlmQkZZbnNMQ0lsM0ltNG5GUG9lVUFhRE9paVpIbV85ZzJCNVh2ajdSMWFvSEJRZHFMOFpFZGNBTXJjRXBKOFk4akxfZHF5eUZOQzlhelZLTHcxVzVZaFhjM0ZidnZNT3ppWjg4OA?oc=5"
+      },
+      {
+        "title": "Forget Everglades National Park, Visit Florida's Nature Preserve With Less-Crowded Beaches And Trails",
+        "reports": 4,
+        "press": [
+          "islands.com",
+          "WorldAtlas"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Forget Everglades National Park, Visit Florida's Nature Preserve With Less-Crowded Beaches And Trails",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMUh2OFQ2SnNPUUduN192Y3NrSVlCSG5iV1hhRUV2TG5XM1FqaW5DYjQtLVZOQk9DSUFhZWRtLU1FSy0xeTRQTFBDS1lJYmxxUUtuTUNweWhYYWFDOXRoYWRpSnhjNWtvckhWVjBDUEwwODZhQWVweG9saHc2d3VqdVUycHRFQVBaaDJvN3ZSR00yZjJsTmRXb294ajJhVUxsM2Z1QjI0aWlHV0RtczZZR2c3UDNxaVFHd1JiZUJINXo5TUxJcjEtLUJiMFlLN0lzWklfa1I2M1VvMnlrV0NyZW05d091VHliaUk0?oc=5"
+          },
+          {
+            "title": "Forget The Everglades — Visit Florida's Lesser-Known State Park With Gulf Coast Beauty And Fewer Crowds",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0cwVFJmMWJ4TmJCOGJrMFN5ZXVvdll3bXlkWGtoamhhTW9XNEZ5cFRjQXdrODBodzhYNkphSFFxeXFjQ1hVTElJLXpVS2I2dE0tMk9PbUhsZDN4a1FldV8xZzRtSWNJc3daUWMtRkllaWFqQk82MzJwNVlMRjlUUURhc21vZlYydnBERkw2MXNEMnQ5clZJQmFQZkxKU0dlWjRoVmEtUDFEcDJEYlhxdE5KWGRLYzlxbzh6TWlzTWl4ZVgzTnM0TF96aDhNM1JTVGlUR282RnI?oc=5"
+          },
+          {
+            "title": "Forget The Everglades, Visit Florida's Hidden State Park With Wetland Trails And Wildlife Watching",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUl0aFZwM0l4U2hxVUlPUGFCQ3ZxYlR4dlI0Zm5waDA0a0hZNVZIdS1LQnNiVk82SXFxMVJHY2JpUHloaEN3LVk2S3JGZWoybS1iTWpLTnlLa1lHMk9hMHpnV1RReF9TX1RScjNTdzNrdDRpOWpKMTNkZkVEdGhCbUdjY2dIekdJclVYZ2tEQ1JhYzNrVElqcDBkVG1PLTRLZmJQRUdDMzlnRkZIVHZlVlNLQVh4MWU1Tkg4ZEdPcVlOckM0OEdvOTZYQWgybEZVRHh6MkxYNV9xOEhILW1ydDVn?oc=5"
+          },
+          {
+            "title": "Invasive Species In The Florida Everglades",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHh6TlpzYkhGd2RWbTdWUl9CTVFGTGJzdG9GMURvWkZnOGxmb0NXT0F6R2NTcXQtTVZPZXVWZ1N6RlR4VnhTWWFlblltb3RjejlfZDRsWlRzeG8xUkxQMDFQeGxmUnRfTEloVkh4VXpxelE3bDRCZEJlay01eTV6VHF0WW1pbjQyMXRhRGJ6bVhLUQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMUh2OFQ2SnNPUUduN192Y3NrSVlCSG5iV1hhRUV2TG5XM1FqaW5DYjQtLVZOQk9DSUFhZWRtLU1FSy0xeTRQTFBDS1lJYmxxUUtuTUNweWhYYWFDOXRoYWRpSnhjNWtvckhWVjBDUEwwODZhQWVweG9saHc2d3VqdVUycHRFQVBaaDJvN3ZSR00yZjJsTmRXb294ajJhVUxsM2Z1QjI0aWlHV0RtczZZR2c3UDNxaVFHd1JiZUJINXo5TUxJcjEtLUJiMFlLN0lzWklfa1I2M1VvMnlrV0NyZW05d091VHliaUk0?oc=5"
+      },
+      {
+        "title": "Cairngorms wildfire update – Progress made as firefighting operations continue",
+        "reports": 3,
+        "press": [
+          "Scottish Fire and Rescue Service",
+          "Sky News"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Cairngorms wildfire update – Progress made as firefighting operations continue",
+            "press": "Scottish Fire and Rescue Service",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX3J2V0JVWVhmTXVaRGc2V2U0d2psTWZTYTRUc3RNbndlUWp5Rk9JYllOWVZMQVF2c0RJa0pGU3JtR2VUN3hLUGlSXzJCTGNnRTFjNnJwLUFSd2ZyYWFrVjFLRDNOZ1QtbGdqdllEdGROcDJVVndWQUVScWEzUlhEUV9aNUpIbnA2MWVIMjhXUVBaUGMyOS1ucHUxQ3psZnFPbTFJcVJwci0yc0RGX2cwZmVTNXM?oc=5"
+          },
+          {
+            "title": "Cairngorms National Park wildfire update: Smoke expected across wider areas as firefighting operations continues",
+            "press": "Scottish Fire and Rescue Service",
+            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOUg3ckMtUDc5WF93S0JINUQzd2U5YW8zb05JeEdUNDlJRlJPeG5zUnNrZDJtTENxOTh0QjZsck90eEZSSTkwNXdSdTNLcDJ0enBqSjlyTHNPYzVNN3IwYjBzcG03bW96NGZYMWNMWUV1dEs3SFc2TEtrdXRNeU5WSDY5OUhoc1JqREp5YlhGaTZ0by1xYndsOEtnT25USXpMWTllZE9oUlMyNWxwQ2h3cllJNUhFN0U3NExVMHh0YXItZ1lXX1JtTTBITjVxN1N0SjB4U3BRSWJnemlWdlMzcEhXQQ?oc=5"
+          },
+          {
+            "title": "Firefighters contain wildfire within Cairngorms National Park",
+            "press": "Sky News",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdV9YRUxYU3E5XzVrRWxNeUJFTmRHcXBtTUlpTEt5UndZOG1WaEFJeWhMbmdLRDJjeU5rMFItNXQ4Z2NGdDJuQ010NWdjcFBaTWQwd01ES0NheGVJdzBQc2N3Q0RPZlN1elQ2bmZ4OVd3WmJKOUIxZ1pBNG8tci1tUWFOa2M0aWFjeWhocnJ6QWxtOTVnTlhjUzhZenc1Y3c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX3J2V0JVWVhmTXVaRGc2V2U0d2psTWZTYTRUc3RNbndlUWp5Rk9JYllOWVZMQVF2c0RJa0pGU3JtR2VUN3hLUGlSXzJCTGNnRTFjNnJwLUFSd2ZyYWFrVjFLRDNOZ1QtbGdqdllEdGROcDJVVndWQUVScWEzUlhEUV9aNUpIbnA2MWVIMjhXUVBaUGMyOS1ucHUxQ3psZnFPbTFJcVJwci0yc0RGX2cwZmVTNXM?oc=5"
+      },
+      {
+        "title": "Ottawa gives Gros Morne tourism a $3.7M boost",
+        "reports": 3,
+        "press": [
+          "CBC",
+          "canada.ca"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Ottawa gives Gros Morne tourism a $3.7M boost",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGlxRGRSam9NalFRZTRnSktfWjNMc1ozOWJSb1M0OU9wZ3JHRUVKOFVObnlUdTZXblB0RmJ1YjdTSU5oNEN5UFE5MWhIbVFFRXNfMFpZYWpJbjhwNHM5ZG9jdHVxVXp5YjYwT0FlVkpieHcwRWJkeUxqR0FlUER1ZXliT0JKUkNKM0hSNVlDU1ZPUE82UVRzTWVpUDRWWi01Y19BdWY3RFJERWM?oc=5"
+          },
+          {
+            "title": "$3.7M federal investment will help Gros Morne attract more visitors and extend the tourism season",
+            "press": "canada.ca",
+            "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdFJsLWFtYUdvLU5RaU5Lb0dncHBJZS1STk5mZ00zdzJUR3NJQXp3Wmh3MlM4XzhCWHU1dmtGRnFsTTdLLTFISUJHbXdrb3BJbXVkYXpvazBZNnB3WGFnQ0xVay1idnAxeEExaUdpTHdOSzh5Y0NoNmRLRWZMdHNGUnAycE9ZYzhRWnJnYjRjQXpOcUFfekpCUDZKWlJpUVVnNmxkN053QWFvSHV1c2xTV0Z2a1E1Q3k2ZW1adFhJcFVHelVyOUhPS0hsUENOMHJFN3FzNnVQbnprQ0ktX25kdG8yVHJmU2syOVd4VVRLeE1MekhvM25Cb2VlcFY?oc=5"
+          },
+          {
+            "title": "Federal investment to boost economy in the Gros Morne region",
+            "press": "canada.ca",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUEJJLUktTXJYMUV3V21GTktYWXZxNHBsa0VlV3dpY1FmZkVRMXFXRTF2dkM0VlY0dWlOdl96cjg2SEZaXzF0bDYwOXJQTzFmTlZjLTNhZVU0S1RrNXZGWU51d0pLbGltWjhqYXRLeml4VGJvOWtodGR5VTlIYm1yQXdaVVNYY1Z2bi1XdEJxSkNUOTdvQ1RhWXhrcUpoamJsY0tSQjc5TTcxY3FPUnFiQ0JvUTducllqQ0g0c2tGTGp5bGgyNk53T05fcHUtUQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGlxRGRSam9NalFRZTRnSktfWjNMc1ozOWJSb1M0OU9wZ3JHRUVKOFVObnlUdTZXblB0RmJ1YjdTSU5oNEN5UFE5MWhIbVFFRXNfMFpZYWpJbjhwNHM5ZG9jdHVxVXp5YjYwT0FlVkpieHcwRWJkeUxqR0FlUER1ZXliT0JKUkNKM0hSNVlDU1ZPUE82UVRzTWVpUDRWWi01Y19BdWY3RFJERWM?oc=5"
+      },
+      {
+        "title": "Cairngorms National Park wildfire declared major incident as hundreds of villagers told to evacuate",
+        "reports": 3,
+        "press": [
+          "Sky News",
+          "BBC"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Cairngorms National Park wildfire declared major incident as hundreds of villagers told to evacuate",
+            "press": "Sky News",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzY3ZEt0S3FUTlVJcG96V0ZXaUJEVVpXTDgtQ0ZpVzc5UjJoZ0tMaXJrQTZDRVE4S1BMaXgzUXowcV82ci14ak9UTWFtR0NVZHVTMl9VT0pJMGlQaUFKS2NjZFA1LWVOcmR4YklGSG1LWE9KcU1CY25YV09rTkNSRUpTcUJVdnNtcE5yMjhaYWl0QU54eFYxMk03MGN5SncwNU9vMDBvTjlSUi1vVEN6QXpuMGR5UXRLeXFhYUhveFNhdWx6ZjlF?oc=5"
+          },
+          {
+            "title": "Police declare 'major incident' over Cairngorms wildfire",
+            "press": "BBC",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GbkIyaHlrWFdpWlY0T0ZyUnU2R1ozMm54Sm00dmU4d0JtS2dzU3lyMnQ4S0VFeVZaVHhwNzdQaks4V011QXdmZnJTempjZ0FrWG1Bb05QbGpSNmQ1?oc=5"
+          },
+          {
+            "title": "Helicopters join efforts to waterbomb wildfire within Cairngorms National Park",
+            "press": "Sky News",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2dLNkRkWmh4VHFta3RkU2o3c2hTZnJnakhxZDZFb1JGbEhRUmg4MkVQMWhiNnBsWXJQZ1VGSHhiVzNEWDU1UmkyMTRYb0dpQkgxTlpaaS1jTzZoWEVEOE5uQncyNVRDZGNia2lmWUE1ZzhnVE1jTDRORFNFeDAxdUY3WWs4LUdSei1MY3V2eFVFbmxWdXZuakViNmpvVk4wc1VWNTFMSWEtMGVqTW4yR0JvV20?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzY3ZEt0S3FUTlVJcG96V0ZXaUJEVVpXTDgtQ0ZpVzc5UjJoZ0tMaXJrQTZDRVE4S1BMaXgzUXowcV82ci14ak9UTWFtR0NVZHVTMl9VT0pJMGlQaUFKS2NjZFA1LWVOcmR4YklGSG1LWE9KcU1CY25YV09rTkNSRUpTcUJVdnNtcE5yMjhaYWl0QU54eFYxMk03MGN5SncwNU9vMDBvTjlSUi1vVEN6QXpuMGR5UXRLeXFhYUhveFNhdWx6ZjlF?oc=5"
+      },
+      {
+        "title": "Conservationists got delayed access to court-ordered inspection of Nairobi National Park - news",
+        "reports": 3,
+        "press": [
+          "Mongabay",
+          "standardmedia.co.ke"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Conservationists got delayed access to court-ordered inspection of Nairobi National Park - news",
+            "press": "Mongabay",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLTBSNmJHZVkwcmdtLVRWa2k3UVNaN1l1MFBaQzN5MDRIRmxJa1ItWklpbm9EZlU5bExmRVFSUDUwTzFZM0xTNG5HYlk0SzhrTXV5c2VNQ2p1M1RDWWlLc0MtN0ROR2FPX0hIRnhWVXkwZmRwLW5RWERpTFEyWnA2TW9vb2dhcHlzZGR6V0RNQjV3Z2pEbTJ2dXZNOUEycm9RQ0Z6b3YtRzBfdEx1V2k1d0RLREo1akpXOFRvVVQ4Mm1yYU9wWTJOSw?oc=5"
+          },
+          {
+            "title": "Nairobi National Park hosts court inspection in orphanage relocation dispute",
+            "press": "standardmedia.co.ke",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNjVSQmlSa0VCTjFrR2lQVlYtamlpZlo3OE41c2d0encySEszTnZaTEEzTXZmaHRGdHFaQXV5aHpWWFdCLWg3OFBGOTFEeE1qeWpsTk9POWhYWE1ybUdIcHJqTm85RERZTm1idkN2cE9LdHBfQndOVDBEZFV6UlBoS013ejZ3V3RzODZZc1RxRXdsUjhieGFmWmQ0Z2xxaC1ZWW9jdFUtU0NsUWZmbjJ6VWFuQ1NkUDhZN0Jocm50WjkwQ2h1aUQ4aDlidGlKemVTUXJYNE9SWTY4S3hHM2ZKZw?oc=5"
+          },
+          {
+            "title": "4,642 Kenyans move to court to stop development in Nairobi National Park",
+            "press": "standardmedia.co.ke",
+            "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTG5pV2M2cURLUE10QzFmX3NDdm5wNkJPV090bDBsMy1wMUdMQXNPWEhGS0dWQk5Va3U0QmtvYXBfbFV6TGpSYUlGZGtNOTZXYUVPMElSR0JGZWpJd01aVUFPaVZYNG51ZThBaTdfYTV6T1JSM1puZlA2TmV3anFNZUotQzlyRnRnNEpxeXBSOWlRRDlYRkwzUEJKRWFaWWpMSkpDOWVYWGVHZ2FnZVJESlMzTzdpejBqTjlzYTN5dU5ORmljYlNPMGVqa0phbVV2VXlTNTFCRnB6QQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLTBSNmJHZVkwcmdtLVRWa2k3UVNaN1l1MFBaQzN5MDRIRmxJa1ItWklpbm9EZlU5bExmRVFSUDUwTzFZM0xTNG5HYlk0SzhrTXV5c2VNQ2p1M1RDWWlLc0MtN0ROR2FPX0hIRnhWVXkwZmRwLW5RWERpTFEyWnA2TW9vb2dhcHlzZGR6V0RNQjV3Z2pEbTJ2dXZNOUEycm9RQ0Z6b3YtRzBfdEx1V2k1d0RLREo1akpXOFRvVVQ4Mm1yYU9wWTJOSw?oc=5"
+      },
+      {
+        "title": "Two arrested on suspicion of entering Chitwan National Park for rhino poaching",
+        "reports": 3,
+        "press": [
+          "Khabarhub",
+          "Ratopati"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Two arrested on suspicion of entering Chitwan National Park for rhino poaching",
+            "press": "Khabarhub",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0VXJndTFlNmU5TUJ3ZUp0R1RtWERCOHhZWlA2cEdkVHZ5YjI5REN1VVJrZ1htUmJhd0k5RjU0N3BCa0h1RVpMWHA4VV9VSGtrcjdLOEVhb3g?oc=5"
+          },
+          {
+            "title": "Two Arrested in Chitwan National Park for Alleged Rhino Poaching",
+            "press": "Ratopati",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFpvVW9UQkRQeUpwVE01TmVsM2VMTlhQX1lSSm5IZnJvTDl6MFAxSDFQWF9CLVpPcEhUcmxOZm9RbXFhRHQ3enBzYUE0aFJTQjduenZYbmJLcERsOWlEeDBPeFlVeEpWZ0ZEbFBhX0dCQnQxbktiNGdSYjRGalBsSm8wRVJYeUxJWHZpQlo5eWE1eHpuN2xkTkhGMldOR2ZaZUZzZEREQlRlYzBWQ3U0NDBvRU5PRmx3?oc=5"
+          },
+          {
+            "title": "Chitwan National Park Sees Increase in Tourist Arrivals",
+            "press": "Ratopati",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmNadnFXNy1WSzgxbEFtZFdyaVVjemFzaUQ0alVadEJZZ1hvUTU3UC1jajkxRHZENDhVcGFMaHp6QTE4MkhCa1hZWEw0VTFTS1VtaE9oS09rWkQ1cVA5ekhwUkdPbmpja0ltSVd0QXJLSnVEeEFUTV8xTVBwNkM2NkF5ZU8yMkJaWXppZ2dtVmZsLWlaZXc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0VXJndTFlNmU5TUJ3ZUp0R1RtWERCOHhZWlA2cEdkVHZ5YjI5REN1VVJrZ1htUmJhd0k5RjU0N3BCa0h1RVpMWHA4VV9VSGtrcjdLOEVhb3g?oc=5"
+      },
+      {
+        "title": "Kenya: UGM Demands Independent Probe Into 'Cyanide Poisoning' After Amboseli Elephant Deaths",
+        "reports": 2,
+        "press": [
+          "allAfrica.com",
+          "Parents Africa"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Kenya: UGM Demands Independent Probe Into 'Cyanide Poisoning' After Amboseli Elephant Deaths",
+            "press": "allAfrica.com",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15ZHpUV1FBc2szelplZWhoSHZrOE1lU2NHODFoYUdoWFcyYUxHeVBXWi1maEYwOGpmLVZ0b1JLNUY5ZWVDV0NDNFVQMGtzanVnSEswWmtRUk13UzQ?oc=5"
+          },
+          {
+            "title": "15 Elephant Deaths in Amboseli Linked to Cyanide Poisoning",
+            "press": "Parents Africa",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNazV5cHlEZzFOOF9WelN4OThKdURBSWpNWUltMzFjUjkwdURQS1ZfWnQxeGNEZHRzdGNiQ1ZBQnhsZGhVdzVfcjZULTBaSm5BTWdzaHZHRlZQdmtHUlNlMEU3Y05FRk5uSzNSenR5TVVMOG5YaWdqVGxNQTBnYWNnWDFRbDhEdi1iaHBXeGpn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15ZHpUV1FBc2szelplZWhoSHZrOE1lU2NHODFoYUdoWFcyYUxHeVBXWi1maEYwOGpmLVZ0b1JLNUY5ZWVDV0NDNFVQMGtzanVnSEswWmtRUk13UzQ?oc=5"
+      },
+      {
+        "title": "Assam: NSA invoked against activist who opposed Kaziranga luxury hotel day after he gets bail",
+        "reports": 2,
+        "press": [
+          "Scroll.in",
+          "thehindu.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Assam: NSA invoked against activist who opposed Kaziranga luxury hotel day after he gets bail",
+            "press": "Scroll.in",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaENMcDdQQ2ZTZVlGbURxT3R3OXVhbzVua09RVXZWZ1VFSnBLMUNxcnoyOEFnYVB6X1FSN05vTU1RTW5EQ1ZJenM0WFVnNm1DcWxTVjE5VGRmRGpJeVh5M01hcE5CUzltVDVtczlQekhXdnQyX3lfdnJhQzVMR21vTlJsbXM1ODcxLXQ0VkY1SnE5MEt0YVRTR1d1eFBfb3VZcFU4eTlVckRZUDJBV2d5anFn0gG3AUFVX3lxTE45Skw3V1FLNlZZWk5rWFBhMndPcjV0MWZSLVUwNXgzRGRYSmRBb1JRZVBBOFJMOXRnT25XTEtnRW5wbTZOd3h2TEFaM1A1dVRTbDNZRWc0QWZiZWx1YXFlVUxmcktmU3J1QS1TX294VHloVWZHcXNCSHgxLVVrSkRwMUtnMTBlWC1NYWFCZmJaSW9ub1VvNU5QZ2VfbTBadmxoQ0JZWFNOQzFZUzBDUjNCTW84bkcxbw?oc=5"
+          },
+          {
+            "title": "Assam activist leading protests against Kaziranga luxury hotels detained",
+            "press": "thehindu.com",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ2lhVTlpWV9RaldsQ1BpVDd0MXZZajd1YlhGRFFVSEN3Q1lYNndLRE9vRTY1N01hYTcyVTFIR3ExYUo5RWpURGFIa1I1cFBxdGU4bHN0SjJBNFNBMzlNeEhaQmlCVU5JVlRUWGlVZHpWcVp6cHRfZ2paejBaQnlZeFYxZWtmaXdqVXBOYWlYSVRjOXd2ZDJrOEJ4YVVNdXVKZ3ZtV2pMYUVQNWtJTVhabjc0VG5MU0Q4RGg4SlZBSnYtcFU0bDJqVl9OWE5pSkQyUkJN0gHaAUFVX3lxTFBmN1hsSlVoNHlPcW1zLWNfcFpZa3BoSlc2YXdKOWpVem0yazlTSFVMZi1JYXMxVXZ1Wm5GdzZhN3llSlBhVGF3S1N5d0tIQ1NsbElZNFJ0WWI2WHJhNllzY2JIR1E3RXd2QTVQWXl6WDhKejZhQWwzbGFxSjFZbjBhaklnY3BHUGstVkhGVzJxb2FKZnBoa193cmVGSlJiVXRzeTZjMk0teDlCU0xoZnVJb0FkSlBwbWlnekh5bHAzaGRRN003cnBFUF9aaTZvZjhGYVo2dTlLUC1B?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaENMcDdQQ2ZTZVlGbURxT3R3OXVhbzVua09RVXZWZ1VFSnBLMUNxcnoyOEFnYVB6X1FSN05vTU1RTW5EQ1ZJenM0WFVnNm1DcWxTVjE5VGRmRGpJeVh5M01hcE5CUzltVDVtczlQekhXdnQyX3lfdnJhQzVMR21vTlJsbXM1ODcxLXQ0VkY1SnE5MEt0YVRTR1d1eFBfb3VZcFU4eTlVckRZUDJBV2d5anFn0gG3AUFVX3lxTE45Skw3V1FLNlZZWk5rWFBhMndPcjV0MWZSLVUwNXgzRGRYSmRBb1JRZVBBOFJMOXRnT25XTEtnRW5wbTZOd3h2TEFaM1A1dVRTbDNZRWc0QWZiZWx1YXFlVUxmcktmU3J1QS1TX294VHloVWZHcXNCSHgxLVVrSkRwMUtnMTBlWC1NYWFCZmJaSW9ub1VvNU5QZ2VfbTBadmxoQ0JZWFNOQzFZUzBDUjNCTW84bkcxbw?oc=5"
+      },
+      {
+        "title": "케냐서 코끼리 15마리 집단 폐사…'청산가리 묻은 토마토'가 원인?",
+        "reports": 2,
+        "press": [
+          "view.asiae.co.kr",
+          "news.kbs.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "케냐서 코끼리 15마리 집단 폐사…'청산가리 묻은 토마토'가 원인?",
+            "press": "view.asiae.co.kr",
+            "link": "https://view.asiae.co.kr/article/2026073014022130611"
+          },
+          {
+            "title": "[뉴스의 2면] 코끼리 14마리 집단 폐사…원인은 오리무중",
+            "press": "news.kbs.co.kr",
+            "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8623253&ref=A"
+          }
+        ],
+        "link": "https://view.asiae.co.kr/article/2026073014022130611"
+      },
+      {
+        "title": "케냐 국립공원서 코끼리 14마리 집단 폐사…“원인불명”",
+        "reports": 2,
+        "press": [
+          "etnews.com",
+          "gukjenews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "케냐 국립공원서 코끼리 14마리 집단 폐사…“원인불명”",
+            "press": "etnews.com",
+            "link": "https://www.etnews.com/20260729000400"
+          },
+          {
+            "title": "케냐 국립공원서 코끼리 집단 폐사···'원인불명'",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3649299"
+          }
+        ],
+        "link": "https://www.etnews.com/20260729000400"
+      },
+      {
+        "title": "New life jacket loaner system launched in Grand Teton National Park",
+        "reports": 2,
+        "press": [
+          "East Idaho News",
+          "WyoFile"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "New life jacket loaner system launched in Grand Teton National Park",
+            "press": "East Idaho News",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTjQ2VlEwTmRMYWdyQU41WDl1ZFNBaFdEeEl3eUlJcDRuakZpcXlPaWhSckhsTG5zMlAtSERkRVNrNUZiZXF3N0ZTRkp0ZjVmdmFaMV9ZVUxKSWhTLUNjMTRpRUk2M2V0dmhLRDZtVENuZTdvR0hIZFFEZjNXSnFUNXljNHFhM0M1Ri1ERy1FTUlYOFJ5eTkxUElyX0poeUg1YXM4cVlxNkJzUQ?oc=5"
+          },
+          {
+            "title": "Grand Teton National Park employees unionize",
+            "press": "WyoFile",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NRVFfbTBMdEFndHZveHFWMldUeENwamFVWXE4bGdrOHBwRVFTVnoyaWhpX2p2dlJ0Q05HYlh0MWRZUzgzUHIxcmNXd1FxSFEyYlpjUndxUzRPYUNLa29mTGVaYVo4U3RrTldlZEhGZmNWZk0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTjQ2VlEwTmRMYWdyQU41WDl1ZFNBaFdEeEl3eUlJcDRuakZpcXlPaWhSckhsTG5zMlAtSERkRVNrNUZiZXF3N0ZTRkp0ZjVmdmFaMV9ZVUxKSWhTLUNjMTRpRUk2M2V0dmhLRDZtVENuZTdvR0hIZFFEZjNXSnFUNXljNHFhM0M1Ri1ERy1FTUlYOFJ5eTkxUElyX0poeUg1YXM4cVlxNkJzUQ?oc=5"
+      },
+      {
+        "title": "15 elephants suspected to have died after eating pesticide-sprayed tomatoes near Kenya's Amboseli Nationa",
+        "reports": 2,
+        "press": [
+          "The Times of India",
+          "Malay Mail"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "15 elephants suspected to have died after eating pesticide-sprayed tomatoes near Kenya's Amboseli Nationa",
+            "press": "The Times of India",
+            "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORVRtZWQzaDBSaDE2UWNxSFJSMTlPTTh3RjlfRm0tYTQ2WnJGdTZjLTZfbGU5bDV3UXdxTEpPQlhNUVA2Z2dLWXFjVFFpRnhtSzVlRjd1eDlBRWxPd1lweFdBRDNHQ2RUTFBGWDVONnU2ZkRPTjUzdlFsUVV4VzQ2LTdXdFZXMDhnY3M4X18welBXa3BKVXp5VVJBVGhIeWhwd0hwYU95ZWdaM0t3eE5pS0VEX05EVHJhZ3dNNTZUeWJYX3NXUHZOTUpldDNsSDBCYW1XcmJaZHdPV2JWMzh2WTRLdHBqZVYyd0Z5NW9jMVl0WVRzRHRpYVJoREZlUnY4Uy1FNXpZZDdfcWZVSUxtTWsxU0JVbWtFMG56R9IBogJBVV95cUxQSlJGN3g2UDRxalNJUExSM19NTlpoSnJPcFUtV1pVZmdDZ2dEdWZfOFdXNjFuNlhacFBmZFM5V0pna0RXTWR2ZGh3dnBCY3Nrcm1Qd0FOT3ItSnVwVFpPLWtGT1JnaUN2V3JYYXRkVzJxWkZHeDBoc1o3YXFWR2Q0S0k0NXF1eUJabldxV3JYcll6SjAtaDROdllMVkVGdkJaM1FzRU13Tm1qM1k2bmtHa1FiTEpqamhObWVwME1Zd2lZT2JNVDB2WG1DY3ZlQkI5MHFKcVZ1QV90MTBxanMxdm9YUlBtYWJTNmczdERXMVBKLXk0eS0tRTZBX1cyNWFpMnY0N0JGdGZFSURhUmpvS3E4UXkxeVFRTzVTWnQ0NWx3UQ?oc=5"
+          },
+          {
+            "title": "Toxic substance suspected after 15 elephants die in Kenya’s Amboseli park",
+            "press": "Malay Mail",
+            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUzZ4RTVlclhkUloyNGJ2Vi15dmdCand0eWNfYlRRWDAxRFZOTTE1d01ZckRzbWgtOEt1V3diTEJZdVBxSzlJdzVzQndWYVlicUVrU3R1UVo0ZWMtTkhSS3dHZlhWb3QwbnpEal9GSDRvc3pzZi10N3c0VThrenE5OTNlTDJEZjIwN1BOTGJJZU5YVk5Pa0pRTHQ0MUdkVFZXLTBid3drQzZ3YVNSSkNPcjlZN2ZuWVZhM2U4cGVzNFdCV3liQ3fSAcsBQVVfeXFMT2k5bHhRUzczbmtHSG02MzlzS0ZLM0NiZDlwckZ6NnUySm9Fcnl0V3dHTExCTDFqMGl3bTVLUXAtdFNKNWZORjR0NGU0NGxjY1IxZFUwVGxOVG82YU1qZ0E4dklpYVBRS0FnVVB2X1dnQkhLVXdOb3dzMU15N0RHVkp6MGNnSnF6VEJCb19fRC1vSzVHYW5Wb045eXl3eF9FX3htLTduTGpCYTl2TVl5bDB5RVh1SE1vSlRJZlZycW5NQndEZktOeFZGZnM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORVRtZWQzaDBSaDE2UWNxSFJSMTlPTTh3RjlfRm0tYTQ2WnJGdTZjLTZfbGU5bDV3UXdxTEpPQlhNUVA2Z2dLWXFjVFFpRnhtSzVlRjd1eDlBRWxPd1lweFdBRDNHQ2RUTFBGWDVONnU2ZkRPTjUzdlFsUVV4VzQ2LTdXdFZXMDhnY3M4X18welBXa3BKVXp5VVJBVGhIeWhwd0hwYU95ZWdaM0t3eE5pS0VEX05EVHJhZ3dNNTZUeWJYX3NXUHZOTUpldDNsSDBCYW1XcmJaZHdPV2JWMzh2WTRLdHBqZVYyd0Z5NW9jMVl0WVRzRHRpYVJoREZlUnY4Uy1FNXpZZDdfcWZVSUxtTWsxU0JVbWtFMG56R9IBogJBVV95cUxQSlJGN3g2UDRxalNJUExSM19NTlpoSnJPcFUtV1pVZmdDZ2dEdWZfOFdXNjFuNlhacFBmZFM5V0pna0RXTWR2ZGh3dnBCY3Nrcm1Qd0FOT3ItSnVwVFpPLWtGT1JnaUN2V3JYYXRkVzJxWkZHeDBoc1o3YXFWR2Q0S0k0NXF1eUJabldxV3JYcll6SjAtaDROdllMVkVGdkJaM1FzRU13Tm1qM1k2bmtHa1FiTEpqamhObWVwME1Zd2lZT2JNVDB2WG1DY3ZlQkI5MHFKcVZ1QV90MTBxanMxdm9YUlBtYWJTNmczdERXMVBKLXk0eS0tRTZBX1cyNWFpMnY0N0JGdGZFSURhUmpvS3E4UXkxeVFRTzVTWnQ0NWx3UQ?oc=5"
+      },
+      {
+        "title": "Death Valley National Park To Begin $69.5 Million Infrastructure Project This Fall",
+        "reports": 2,
+        "press": [
+          "Unofficial Networks",
+          "National Park Service (.gov)"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Death Valley National Park To Begin $69.5 Million Infrastructure Project This Fall",
+            "press": "Unofficial Networks",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWV9acGxtT3V3VXA3bWVpd3ZKOFU4LUpoTXF2ZUdCaUlKWkxKVm56dURTUU5Tem1OMmtTSUJIbWZkSzVIWXF4NHc2YXQ3YnQ2a1BQay1KcDU3amJENVBYT084a1hmWjR1Z2JSaFNMNnBHQjhSN1UyeWo2UVkzWnV1dThsNTQzMUtTM051QnNyNFFqQUFZcHgzUFY2N192LXRuaWN4SW5SeVN6d2lRdDE5ZjBodGh0T21KM2xqN1U3YUpjZw?oc=5"
+          },
+          {
+            "title": "GAOA project 2026 - Death Valley National Park (U.S. National Park Service)",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsNndtTnVBRXAzdHIzalp3dnVfT01wUTNVdXR1RFpUMU5zR2ZkZlZaUU5vam03RW9qT0NTbVNkMUFlWUZqb0tnZ2NFdHZZdm9DTDV0WHdhQ09sNFJhLTNtQzRUX2tjMTJI?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWV9acGxtT3V3VXA3bWVpd3ZKOFU4LUpoTXF2ZUdCaUlKWkxKVm56dURTUU5Tem1OMmtTSUJIbWZkSzVIWXF4NHc2YXQ3YnQ2a1BQay1KcDU3amJENVBYT084a1hmWjR1Z2JSaFNMNnBHQjhSN1UyeWo2UVkzWnV1dThsNTQzMUtTM051QnNyNFFqQUFZcHgzUFY2N192LXRuaWN4SW5SeVN6d2lRdDE5ZjBodGh0T21KM2xqN1U3YUpjZw?oc=5"
+      },
+      {
+        "title": "I'm going to hike in Sarek",
+        "reports": 2,
+        "press": [
+          "Buttondown",
+          "SFGATE"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "I'm going to hike in Sarek",
+            "press": "Buttondown",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bV9SeHZONGxyZnVha2ZjZUZvZk9ubU1YUk53dWROUlQta2VOajR0MERKNXh0V1NZdDZGYmt1bVp4Ml92cHdtYUpaOUV3RjJSTFJSbDNaOTlkUmczaHQ3UDR6UnNLLUZZRlBEakNxTm9DcmdlcHVCUQ?oc=5"
+          },
+          {
+            "title": "The Olympic National Park hike that took me to the quietest place in America",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGhlWk1vV0VPUWRpaEQyb1g3aWoyR1d4MnFlQVVzV3draElySjdndl9IS3dUd1BmcTluOEVXRGhZYTZDNGdHZXRnYVluYXE5OWNHNS14MG5hMDBXeFFJS2Vsb2hObC13SC16eGUzY2FTWThRTFVodWU3LVdNX2lydnlEVjM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bV9SeHZONGxyZnVha2ZjZUZvZk9ubU1YUk53dWROUlQta2VOajR0MERKNXh0V1NZdDZGYmt1bVp4Ml92cHdtYUpaOUV3RjJSTFJSbDNaOTlkUmczaHQ3UDR6UnNLLUZZRlBEakNxTm9DcmdlcHVCUQ?oc=5"
+      },
+      {
+        "title": "여행으로 읽는 미국",
+        "reports": 2,
+        "press": [
+          "kyosu.net",
+          "tournews21.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "여행으로 읽는 미국",
+            "press": "kyosu.net",
+            "link": "https://www.kyosu.net/news/articleView.html?idxno=208264"
+          },
+          {
+            "title": "\"미국 여행, 앞으로 10년이 황금기\"…미국관광청, 월드컵부터 LA올림픽까...",
+            "press": "tournews21.com",
+            "link": "https://www.tournews21.com/news/articleView.html?idxno=139114"
+          }
+        ],
+        "link": "https://www.kyosu.net/news/articleView.html?idxno=208264"
+      },
+      {
+        "title": "$69.5M Death Valley water, wastewater upgrade aims to cut outages, boil advisories",
+        "reports": 2,
+        "press": [
+          "FOX5 Vegas",
+          "KSNV"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "$69.5M Death Valley water, wastewater upgrade aims to cut outages, boil advisories",
+            "press": "FOX5 Vegas",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORDlWZU90Q2xvRVZhbkZMbnZTY2lQdU1oVXp3MlRFd3BYNDFnOUZ1al9ITzFkVDUwOGVaeHFBZEljX3ZfaU9XeG9USDFTV19MTnJGcGRtVlFDdGxGc1BVR0dSZWplcjdWdEZRczFva1lrbWQ0eHNacW5ua0FsSzVHY0VFMGpOczZhSUZIX19pMk0wLUctMWNLeC04NEZBX2lUNjZIV0tfaHR0RmlVZUxzYU1BVdIBxwFBVV95cUxNSFo1VEdBLU5teGoyRlZraERwejZJSUFVT2lPR2o5V293amhVaXBUdlRuNW9tNVJNamRQa3JnUnZvaDNOeVF2dkJoaWZXNzFsQkJFSDFXaFVQR0VrTFRFaEdXLWc4Nm5oSlRSYkZkbHVOYndBYnN3elpNV3NzVHVMZGJDSy1saXRXeXVrdHdiTmZzbkFxZWZLeXZSNTV0Y3FYS29IMEViUTBhd3Nld0Z1WnFJMVZIajIxTjhUVGFJaDE5eFhMNUh3?oc=5"
+          },
+          {
+            "title": "$70M infrastructure project to upgrade Death Valley water, sewer systems",
+            "press": "KSNV",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb19EelZDNGJGUTVzck4wSWgwb0JaZjNYSFZkMWQ2ZGZhSkV1UmVRLTNObTNySlFLQ29zWTFDZFRqNy1rXzdWdXdfTy1hR2h1b3Q1VEUzRTE3V2Z5c3RGOXBaQ05CdU13MXU2MjZLdGEyRk9Cd096bmNCTlJGOUxuSU1oLTQ3SmZtenZnbktRaW9McDhRS0ZtdDFfZkdiTHF2a2NvMVpCR0M3bHZXNDVJSlVleWc3YjM5a1kwaDhOTQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORDlWZU90Q2xvRVZhbkZMbnZTY2lQdU1oVXp3MlRFd3BYNDFnOUZ1al9ITzFkVDUwOGVaeHFBZEljX3ZfaU9XeG9USDFTV19MTnJGcGRtVlFDdGxGc1BVR0dSZWplcjdWdEZRczFva1lrbWQ0eHNacW5ua0FsSzVHY0VFMGpOczZhSUZIX19pMk0wLUctMWNLeC04NEZBX2lUNjZIV0tfaHR0RmlVZUxzYU1BVdIBxwFBVV95cUxNSFo1VEdBLU5teGoyRlZraERwejZJSUFVT2lPR2o5V293amhVaXBUdlRuNW9tNVJNamRQa3JnUnZvaDNOeVF2dkJoaWZXNzFsQkJFSDFXaFVQR0VrTFRFaEdXLWc4Nm5oSlRSYkZkbHVOYndBYnN3elpNV3NzVHVMZGJDSy1saXRXeXVrdHdiTmZzbkFxZWZLeXZSNTV0Y3FYS29IMEViUTBhd3Nld0Z1WnFJMVZIajIxTjhUVGFJaDE5eFhMNUh3?oc=5"
+      },
+      {
+        "title": "CDT Sobo Pt 1: Flooding & Closures in Glacier National Park",
+        "reports": 2,
+        "press": [
+          "The Trek",
+          "Flathead Beacon"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "CDT Sobo Pt 1: Flooding & Closures in Glacier National Park",
+            "press": "The Trek",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVmdlR182dVA3QUdlZTJ0VHJudEtRR0k0TTN4b0lwemJobGRCSXpjUmx1TGF1WGtOb1NsMkI2NVo5T3pONkVMYmxOeHBhbEU1TnctUVNMVVVEOUx0Z3ZCaklsRnhEbFBNd1Y5N1JUcEN1WXpzdWFpaFZLeDJybFVocDNQQ0xRUkdaOEo1ZWZkdWY0bEdoSU4ybTNmUFpueHhoa0Nz?oc=5"
+          },
+          {
+            "title": "Glacier National Park Begins Reopening Following Flooding",
+            "press": "Flathead Beacon",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONEtqTHlFMllIT1h1NUhpdDNlRkhNZG4tWTlHTzBTS2xzVXptRmcyZWRvMnZjSG1pb2lBOVM3RXdIOTk5LUtDNUhSNDNlVkpsZDJjRnRLQmNEVUNjdFptX201S2VZUE54MjFURzhFcVJEbkNoZnpzcWVacXBWWk43OUJMNkxNaG1fRE11ODFOU2tGZ1Z3YlA3VXZkbTM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVmdlR182dVA3QUdlZTJ0VHJudEtRR0k0TTN4b0lwemJobGRCSXpjUmx1TGF1WGtOb1NsMkI2NVo5T3pONkVMYmxOeHBhbEU1TnctUVNMVVVEOUx0Z3ZCaklsRnhEbFBNd1Y5N1JUcEN1WXpzdWFpaFZLeDJybFVocDNQQ0xRUkdaOEo1ZWZkdWY0bEdoSU4ybTNmUFpueHhoa0Nz?oc=5"
+      },
+      {
+        "title": "Marriott adds new brand to Outdoor Collection with hotel near Joshua Tree",
+        "reports": 2,
+        "press": [
+          "Hotel Dive",
+          "The Points Guy"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Marriott adds new brand to Outdoor Collection with hotel near Joshua Tree",
+            "press": "Hotel Dive",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaU5TUGQ2YmowNFY5WC1xRnpCR210MXR5R2pmb0JHcUt5RzdlZTdFRWp2YVk4M3o4OVpxalc3RG92YWVQT1ZFeER3b1FZamo4OXFwTVMzWTdCQTN5anhpcHQwNjBDOUtlNlo2TkFaemhtV3MyRnUwdWRIOV9la0d1UXR5eHhxQ29lVnZyc19MQXlwUlRL?oc=5"
+          },
+          {
+            "title": "RESET hotel in Joshua Tree now bookable with Marriott points",
+            "press": "The Points Guy",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTlhVGZuUnZ2R19yT2phSzZhQWhvUkxZQmpCUm9Ib0VCbEJnWE1mb08zblUzNlNndTdhZUhIQ0dGTDR5YlhYSm9oTzE0NUV0dUhuaEJIVkV4OFB3U3IwaV81dmtpc0c2UXNLMGZQS0ZWYVZ0WFdxcFRQRFJMRmpqZS1tUlNfWDlfRk1CT1N3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaU5TUGQ2YmowNFY5WC1xRnpCR210MXR5R2pmb0JHcUt5RzdlZTdFRWp2YVk4M3o4OVpxalc3RG92YWVQT1ZFeER3b1FZamo4OXFwTVMzWTdCQTN5anhpcHQwNjBDOUtlNlo2TkFaemhtV3MyRnUwdWRIOV9la0d1UXR5eHhxQ29lVnZyc19MQXlwUlRL?oc=5"
+      }
+    ]
+  }
+}

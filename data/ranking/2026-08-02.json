@@ -1,0 +1,671 @@
+{
+  "date": "2026-08-02",
+  "dateKo": "2026년 8월 2일 일요일",
+  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "backfilled": true,
+  "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
+  "kr": {
+    "collected": 32,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "해수부 8월의 수산물에 '새우·장어류' 선정",
+        "reports": 5,
+        "press": [
+          "public25.com",
+          "nocutnews.co.kr",
+          "busan.com",
+          "yna.co.kr",
+          "mt.co.kr"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "해수부 8월의 수산물에 '새우·장어류' 선정",
+            "press": "public25.com",
+            "link": "https://www.public25.com/news/articleView.html?idxno=51932"
+          },
+          {
+            "title": "8월의 수산물 '새우·장어류'…어촌여행지 '둔장·봉암봉돌마을'",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6556937?utm_source=naver&utm_medium=article&utm_campaign=20260802113856"
+          },
+          {
+            "title": "8월의 수산물에 새우·장어류…어촌여행지는 통영 봉암몽돌마을·신안 ...",
+            "press": "busan.com",
+            "link": "https://www.busan.com/view/busan/view.php?code=2026080211023546449"
+          },
+          {
+            "title": "해수부, 8월의 수산물로 '새우·장어류' 선정",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260731124100051?input=1195m"
+          },
+          {
+            "title": "8월 수산물로 새우·장어류 선정…어촌여행지 신안 둔장마을·통영 봉암...",
+            "press": "mt.co.kr",
+            "link": "https://www.mt.co.kr/economy/2026/08/02/2026080112325115937"
+          }
+        ],
+        "link": "https://www.public25.com/news/articleView.html?idxno=51932"
+      },
+      {
+        "title": "해수부, 8월 이달의 어촌 여행지...전남 신안 둔장마을, 경남 통영 봉암...",
+        "reports": 3,
+        "press": [
+          "news.bbsi.co.kr",
+          "news1.kr",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "해수부, 8월 이달의 어촌 여행지...전남 신안 둔장마을, 경남 통영 봉암...",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4098350"
+          },
+          {
+            "title": "8월 어촌 여행지에 '신안 둔장마을·통영 봉암몽돌마을' 선정",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/economy/idustry-trade/6245721"
+          },
+          {
+            "title": "신안 둔장서 바다 위 산책, 통영 봉암서 몽돌 피서[8월 어촌 여행지]",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20260802_0003732824"
+          }
+        ],
+        "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4098350"
+      },
+      {
+        "title": "고성군, 민선 9기 공약·주요 현안 141건 추진상황 점검",
+        "reports": 2,
+        "press": [
+          "jeonmae.co.kr",
+          "kwnews.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "고성군, 민선 9기 공약·주요 현안 141건 추진상황 점검",
+            "press": "jeonmae.co.kr",
+            "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1280106"
+          },
+          {
+            "title": "고성 민선 9기 공약 실행계획 점검",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260802500686"
+          }
+        ],
+        "link": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1280106"
+      },
+      {
+        "title": "무주군 물놀이 현장 안전 점검",
+        "reports": 2,
+        "press": [
+          "sjbnews.com",
+          "jeollailbo.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "무주군 물놀이 현장 안전 점검",
+            "press": "sjbnews.com",
+            "link": "https://sjbnews.com/news/news.php?number=884236"
+          },
+          {
+            "title": "무주군, 물놀이 관리지역 현장 안전점검…여름철 사고 예방 총력",
+            "press": "jeollailbo.com",
+            "link": "http://www.jeollailbo.com/news/articleView.html?idxno=806981"
+          }
+        ],
+        "link": "https://sjbnews.com/news/news.php?number=884236"
+      },
+      {
+        "title": "붉게 물든 ‘녹색 무덤’ 충남 태안 남면 해송 숲 ‘집단 고사’…생태...",
+        "reports": 2,
+        "press": [
+          "breaknews.com",
+          "bzeronews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "붉게 물든 ‘녹색 무덤’ 충남 태안 남면 해송 숲 ‘집단 고사’…생태...",
+            "press": "breaknews.com",
+            "link": "http://www.breaknews.com/1226108"
+          },
+          {
+            "title": "[탐사보도-소나무재선충병③] 태안 남면 소나무 숲 '녹색 무덤'으로…소...",
+            "press": "bzeronews.com",
+            "link": "https://www.bzeronews.com/news/articleView.html?idxno=820797"
+          }
+        ],
+        "link": "http://www.breaknews.com/1226108"
+      },
+      {
+        "title": "조개 캐고 몽돌해변 걷고…8월 떠나기 좋은 어촌 여행지",
+        "reports": 1,
+        "press": [
+          "segye.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "조개 캐고 몽돌해변 걷고…8월 떠나기 좋은 어촌 여행지",
+            "press": "segye.com",
+            "link": "https://www.segye.com/newsView/20260802512107?OutUrl=naver"
+          }
+        ],
+        "link": "https://www.segye.com/newsView/20260802512107?OutUrl=naver"
+      },
+      {
+        "title": "통영, 푸른 바다와 섬들이 선사하는 휴식의 가볼 만한 곳",
+        "reports": 1,
+        "press": [
+          "cbci.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "통영, 푸른 바다와 섬들이 선사하는 휴식의 가볼 만한 곳",
+            "press": "cbci.co.kr",
+            "link": "https://www.cbci.co.kr/news/articleView.html?idxno=593649"
+          }
+        ],
+        "link": "https://www.cbci.co.kr/news/articleView.html?idxno=593649"
+      },
+      {
+        "title": "8월에 꼭 가봐야 할 '보석 같은 어촌 마을' 2곳",
+        "reports": 1,
+        "press": [
+          "newstnt.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "8월에 꼭 가봐야 할 '보석 같은 어촌 마을' 2곳",
+            "press": "newstnt.com",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=712525"
+          }
+        ],
+        "link": "https://www.newstnt.com/news/articleView.html?idxno=712525"
+      },
+      {
+        "title": "‘먹잘알’ 해수부가 8월에 꼭 먹으라며 추천한 수산물은?",
+        "reports": 1,
+        "press": [
+          "munhwa.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "‘먹잘알’ 해수부가 8월에 꼭 먹으라며 추천한 수산물은?",
+            "press": "munhwa.com",
+            "link": "https://www.munhwa.com/article/11606610?ref=naver"
+          }
+        ],
+        "link": "https://www.munhwa.com/article/11606610?ref=naver"
+      },
+      {
+        "title": "새우·장어 맛보고 섬·등대로 떠난다…8월 해양수산 추천지 한눈에",
+        "reports": 1,
+        "press": [
+          "dailian.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "새우·장어 맛보고 섬·등대로 떠난다…8월 해양수산 추천지 한눈에",
+            "press": "dailian.co.kr",
+            "link": "https://www.dailian.co.kr/news/view/1673408/?sc=Naver"
+          }
+        ],
+        "link": "https://www.dailian.co.kr/news/view/1673408/?sc=Naver"
+      },
+      {
+        "title": "여름휴가 떠난다면… 여수에서 가볼 만한 여행지 4곳",
+        "reports": 1,
+        "press": [
+          "econovill.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "여름휴가 떠난다면… 여수에서 가볼 만한 여행지 4곳",
+            "press": "econovill.com",
+            "link": "https://www.econovill.com/news/articleView.html?idxno=746560"
+          }
+        ],
+        "link": "https://www.econovill.com/news/articleView.html?idxno=746560"
+      },
+      {
+        "title": "인제 하천서 물에 빠진 60대 남성 사망⋯익수 사고 속출",
+        "reports": 1,
+        "press": [
+          "kwnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "인제 하천서 물에 빠진 60대 남성 사망⋯익수 사고 속출",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/article/20260802501332"
+          }
+        ],
+        "link": "https://www.kwnews.co.kr/article/20260802501332"
+      },
+      {
+        "title": "\"여름은 바다지\"…'극성수기' 강원 동해안에 71만명 '풍덩'(종합)",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"여름은 바다지\"…'극성수기' 강원 동해안에 71만명 '풍덩'(종합)",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/6246633"
+          }
+        ],
+        "link": "https://www.news1.kr/local/kangwon/6246633"
+      },
+      {
+        "title": "서울이 홍콩·런던 제쳤다…“혼자 여행 최고” 글로벌 MZ 꼽은 매력",
+        "reports": 1,
+        "press": [
+          "joongang.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "서울이 홍콩·런던 제쳤다…“혼자 여행 최고” 글로벌 MZ 꼽은 매력",
+            "press": "joongang.co.kr",
+            "link": "https://www.joongang.co.kr/article/25450125"
+          }
+        ],
+        "link": "https://www.joongang.co.kr/article/25450125"
+      },
+      {
+        "title": "놀면서 배우는 여름방학, 아이와 함께 떠나는 무료 체험 교육 현장 ②",
+        "reports": 1,
+        "press": [
+          "woman.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "놀면서 배우는 여름방학, 아이와 함께 떠나는 무료 체험 교육 현장 ②",
+            "press": "woman.chosun.com",
+            "link": "http://woman.chosun.com/news/articleView.html?idxno=126354"
+          }
+        ],
+        "link": "http://woman.chosun.com/news/articleView.html?idxno=126354"
+      },
+      {
+        "title": "소백산국립공원북부사무소, 남천야영장 8~10월 탐방프로그램 운영",
+        "reports": 1,
+        "press": [
+          "jbnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "소백산국립공원북부사무소, 남천야영장 8~10월 탐방프로그램 운영",
+            "press": "jbnews.com",
+            "link": "https://www.jbnews.com/news/articleView.html?idxno=1508728"
+          }
+        ],
+        "link": "https://www.jbnews.com/news/articleView.html?idxno=1508728"
+      },
+      {
+        "title": "소백산국립공원 '남천 숲속 여행, 마음에 쉼표' 자연 치유 탐방프로그램...",
+        "reports": 1,
+        "press": [
+          "inews365.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "소백산국립공원 '남천 숲속 여행, 마음에 쉼표' 자연 치유 탐방프로그램...",
+            "press": "inews365.com",
+            "link": "https://www.inews365.com/news/article.html?no=930179"
+          }
+        ],
+        "link": "https://www.inews365.com/news/article.html?no=930179"
+      },
+      {
+        "title": "'팔공산 모노레일' 추진…국립공원 첫 사례 도전",
+        "reports": 1,
+        "press": [
+          "tbc.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "'팔공산 모노레일' 추진…국립공원 첫 사례 도전",
+            "press": "tbc.co.kr",
+            "link": "https://www.tbc.co.kr/news/view?pno=20260722102226AE02716&id=209195"
+          }
+        ],
+        "link": "https://www.tbc.co.kr/news/view?pno=20260722102226AE02716&id=209195"
+      },
+      {
+        "title": "2026년 08월 첫째 주 생태계 관련 정책 CHECK! [정책브리핑, 네이처]",
+        "reports": 1,
+        "press": [
+          "sisunnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "2026년 08월 첫째 주 생태계 관련 정책 CHECK! [정책브리핑, 네이처]",
+            "press": "sisunnews.co.kr",
+            "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243463"
+          }
+        ],
+        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=243463"
+      },
+      {
+        "title": "통신 끊긴 산악사고… 충북 소방·경찰, 국가지점번호 단서 삼아 조난자...",
+        "reports": 1,
+        "press": [
+          "jbnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "통신 끊긴 산악사고… 충북 소방·경찰, 국가지점번호 단서 삼아 조난자...",
+            "press": "jbnews.com",
+            "link": "https://www.jbnews.com/news/articleView.html?idxno=1508740"
+          }
+        ],
+        "link": "https://www.jbnews.com/news/articleView.html?idxno=1508740"
+      },
+      {
+        "title": "티앤씨재단 장학생 25명, 태국서 '기후공감' 여정",
+        "reports": 1,
+        "press": [
+          "businesskorea.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "티앤씨재단 장학생 25명, 태국서 '기후공감' 여정",
+            "press": "businesskorea.co.kr",
+            "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=273976"
+          }
+        ],
+        "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=273976"
+      },
+      {
+        "title": "伊 나폴리 인근 규모 4.7 강진 발생… 40년 만에 最强",
+        "reports": 1,
+        "press": [
+          "biz.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "伊 나폴리 인근 규모 4.7 강진 발생… 40년 만에 最强",
+            "press": "biz.chosun.com",
+            "link": "https://biz.chosun.com/international/international_general/2026/08/02/5STRBYBPVFFSTOV3A4MPCIGFRE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+          }
+        ],
+        "link": "https://biz.chosun.com/international/international_general/2026/08/02/5STRBYBPVFFSTOV3A4MPCIGFRE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      },
+      {
+        "title": "이과수 폭포 '악마의 목구멍' 40일간 폐쇄…홍수 대비 예방 조치",
+        "reports": 1,
+        "press": [
+          "yna.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "이과수 폭포 '악마의 목구멍' 40일간 폐쇄…홍수 대비 예방 조치",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260802001900009?input=1195m"
+          }
+        ],
+        "link": "https://www.yna.co.kr/view/AKR20260802001900009?input=1195m"
+      }
+    ]
+  },
+  "global": {
+    "collected": 15,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "Forget Jasper National Park, Visit Canada's Lesser-Known Park With Unique Wildlife, Beaches, And Historic Sites",
+        "reports": 2,
+        "press": [
+          "islands.com",
+          "CBC"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Forget Jasper National Park, Visit Canada's Lesser-Known Park With Unique Wildlife, Beaches, And Historic Sites",
+            "press": "islands.com",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1kzUjhwRW5FWkFIVWlxTDI0T0FaaWwtTFRRd0s3X0lpSVdHY0wzQS1Ld1RiZFo0WlI4QlVseFI5OGcyWlVrc3NYOURGR1UyalVvLUtKTDZJeWUtaWlIUUpBSDFhX1hxekRiVC15NkE0a2pFaG9nNlNlRmhMSkIwZVNCS3JVcHdSSTB3VlA4MUpKT0FmOHNoOFhaUG10OTUwSzV2UExRanZ4aHF6XzhSR3Fjbjc5dWg4VTZJV1p6V1JsYy1tMzM0d0FCUUpSY1BDLTZJdTZ2TDNyWVgyazdJ?oc=5"
+          },
+          {
+            "title": "What’s open in Jasper National Park?",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GZWxHNDJQRFJ6cmlSQlZFM3UtVUx6bkhMUnBDQ2syNXdFTkdLTDBXckxQeG5BbXRNTE1WaWFaU3RMamlzc19lbGNJcTBleUJCOVhxclFpX3BsZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1kzUjhwRW5FWkFIVWlxTDI0T0FaaWwtTFRRd0s3X0lpSVdHY0wzQS1Ld1RiZFo0WlI4QlVseFI5OGcyWlVrc3NYOURGR1UyalVvLUtKTDZJeWUtaWlIUUpBSDFhX1hxekRiVC15NkE0a2pFaG9nNlNlRmhMSkIwZVNCS3JVcHdSSTB3VlA4MUpKT0FmOHNoOFhaUG10OTUwSzV2UExRanZ4aHF6XzhSR3Fjbjc5dWg4VTZJV1p6V1JsYy1tMzM0d0FCUUpSY1BDLTZJdTZ2TDNyWVgyazdJ?oc=5"
+      },
+      {
+        "title": "伊 나폴리 인근 규모 4.7 강진 발생… 40년 만에 最强",
+        "reports": 1,
+        "press": [
+          "biz.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "伊 나폴리 인근 규모 4.7 강진 발생… 40년 만에 最强",
+            "press": "biz.chosun.com",
+            "link": "https://biz.chosun.com/international/international_general/2026/08/02/5STRBYBPVFFSTOV3A4MPCIGFRE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+          }
+        ],
+        "link": "https://biz.chosun.com/international/international_general/2026/08/02/5STRBYBPVFFSTOV3A4MPCIGFRE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      },
+      {
+        "title": "이과수 폭포 '악마의 목구멍' 40일간 폐쇄…홍수 대비 예방 조치",
+        "reports": 1,
+        "press": [
+          "yna.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "이과수 폭포 '악마의 목구멍' 40일간 폐쇄…홍수 대비 예방 조치",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20260802001900009?input=1195m"
+          }
+        ],
+        "link": "https://www.yna.co.kr/view/AKR20260802001900009?input=1195m"
+      },
+      {
+        "title": "Etosha: Let’s Not Redraw Boundaries Without Good Reason - The Namibian -",
+        "reports": 1,
+        "press": [
+          "The Namibian -"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Etosha: Let’s Not Redraw Boundaries Without Good Reason - The Namibian -",
+            "press": "The Namibian -",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUE0YXdkOHZOdndyNFhVdHlUUnZiV3dnZV9JRWR2TGxSZmhud0swWUE0M0lqMTJpOHFQbU1MV2hIbmEycDBJeXhfNzVCQzJiMFBFYmY1TTVGbVRTS1pQRkt0RG96SGMxN3ROdXg2Zk5mTW1wWVN6cDdWYXpwUnVDb2J3amd4NDNpeHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUE0YXdkOHZOdndyNFhVdHlUUnZiV3dnZV9JRWR2TGxSZmhud0swWUE0M0lqMTJpOHFQbU1MV2hIbmEycDBJeXhfNzVCQzJiMFBFYmY1TTVGbVRTS1pQRkt0RG96SGMxN3ROdXg2Zk5mTW1wWVN6cDdWYXpwUnVDb2J3amd4NDNpeHc?oc=5"
+      },
+      {
+        "title": "Two years after Jasper went up in flames, what attractions have reopened?",
+        "reports": 1,
+        "press": [
+          "CBC"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Two years after Jasper went up in flames, what attractions have reopened?",
+            "press": "CBC",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTG9XLWduSEJ1NjlJaDVJNF8xUmx0TDhuUG5hZmNiVjVwR2xBSkNHVW5YN0RfcWE0ZlVncl9GVG9EMV9GU3dIYW1FZnJ5R1JTZGpKRjdxQW8yTzliYW9WNmtaWHpHemNyWUZ6LXdmNkhndTVrRU9nSVhUNWxoZDNNc2FLbUp2TnR5YmVlTkVnbVNaMk9YX3lLdHc4UHM0WEY3MFNOQUlR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTG9XLWduSEJ1NjlJaDVJNF8xUmx0TDhuUG5hZmNiVjVwR2xBSkNHVW5YN0RfcWE0ZlVncl9GVG9EMV9GU3dIYW1FZnJ5R1JTZGpKRjdxQW8yTzliYW9WNmtaWHpHemNyWUZ6LXdmNkhndTVrRU9nSVhUNWxoZDNNc2FLbUp2TnR5YmVlTkVnbVNaMk9YX3lLdHc4UHM0WEY3MFNOQUlR?oc=5"
+      },
+      {
+        "title": "Access to Devil's Throat in Iguazú Park to be closed for 40 days due to river rise caused by El Niño",
+        "reports": 1,
+        "press": [
+          "Noticias Ambientales"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Access to Devil's Throat in Iguazú Park to be closed for 40 days due to river rise caused by El Niño",
+            "press": "Noticias Ambientales",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY3hZYm5TMEhwak81NUphMENXX0huUGlvclpwTXBnZnNFdklDQnJQZmxoWjZmOUlWOWY1cnJRd1JyQ0JvelBzSDhlSWdTMm5qNkpmbzJoUEYxeDB1TEs3Y1pndlRjRTFybXlLTnR4TWxIRWpHNWsyTk1lV3U0SDM2c3JqZUlhajJ6elRUMDM5ckVCNGFHX0RFdzAyTHhsTHVwM3dlSGVCOUowUFBta0tlR1dnZWVnbHhreF9aWGV3b0ZidmNtZUU5VzRiM0hhY2Y1U1kwc01LVkpIWDVBeTEzTA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY3hZYm5TMEhwak81NUphMENXX0huUGlvclpwTXBnZnNFdklDQnJQZmxoWjZmOUlWOWY1cnJRd1JyQ0JvelBzSDhlSWdTMm5qNkpmbzJoUEYxeDB1TEs3Y1pndlRjRTFybXlLTnR4TWxIRWpHNWsyTk1lV3U0SDM2c3JqZUlhajJ6elRUMDM5ckVCNGFHX0RFdzAyTHhsTHVwM3dlSGVCOUowUFBta0tlR1dnZWVnbHhreF9aWGV3b0ZidmNtZUU5VzRiM0hhY2Y1U1kwc01LVkpIWDVBeTEzTA?oc=5"
+      },
+      {
+        "title": "Expect delays as fiber-optic work continues through Zion National Park, Springdale",
+        "reports": 1,
+        "press": [
+          "St. George News"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Expect delays as fiber-optic work continues through Zion National Park, Springdale",
+            "press": "St. George News",
+            "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWTEzblJndWtuZmk1UWo4b3NIcU0wbnNoNE5SVnIyZGNXMHZEbFlTeFRERmJfdUxQalhUaTlnR3liaF9haXE4WVlmM0d5aTBYU3dQODg1UWFIaUlPTXY2VnJiMktkUE1HMGJQcXRESzV0Rkx1NlF4RmVEMl9USnlEZzA3WHlDcGRlbDBrWk5Ldl9RNGZuelI4bnBNUmY3U3RFMTZreHNsRERzMW9PWkZvM094WnhTdlRsTTljbTJNSXU4dVdtbHZ2ekNyMko3eUF0bmJVbmdsd2JXeGRyM2hnTzR6UGlZSU9mNC1XcTBCQUdmNEdSVFgzZg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWTEzblJndWtuZmk1UWo4b3NIcU0wbnNoNE5SVnIyZGNXMHZEbFlTeFRERmJfdUxQalhUaTlnR3liaF9haXE4WVlmM0d5aTBYU3dQODg1UWFIaUlPTXY2VnJiMktkUE1HMGJQcXRESzV0Rkx1NlF4RmVEMl9USnlEZzA3WHlDcGRlbDBrWk5Ldl9RNGZuelI4bnBNUmY3U3RFMTZreHNsRERzMW9PWkZvM094WnhTdlRsTTljbTJNSXU4dVdtbHZ2ekNyMko3eUF0bmJVbmdsd2JXeGRyM2hnTzR6UGlZSU9mNC1XcTBCQUdmNEdSVFgzZg?oc=5"
+      },
+      {
+        "title": "Table Mountain fire prompts precautionary evacuations",
+        "reports": 1,
+        "press": [
+          "Time Out Worldwide"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Table Mountain fire prompts precautionary evacuations",
+            "press": "Time Out Worldwide",
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeVViWGxaUnFDWnNlZHhzWlhQMkZ1T0xZazRkRFZDMEM2T056c2tuTnJyZ2RXWllxOFRMZGpyM3pTdHh4akgzNTVyQzhjcGNuQUhlV1kzbDRKYlBYNi04RDkyMFlERDVzSEdEQk5HSVlpT2RjSXVVSm9pbV9RMVVsUnhNd3kyN2l6c0VSZmZJRXBCOXVCWkZrVlNEbGtnU083RUduSWY5V1ZjUEZ1dEdtWEt6WWtpR3JIeGdfbW5SZUF2UndMeEM0SFI4NnJNSkQtcmdkT1NuNHI?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeVViWGxaUnFDWnNlZHhzWlhQMkZ1T0xZazRkRFZDMEM2T056c2tuTnJyZ2RXWllxOFRMZGpyM3pTdHh4akgzNTVyQzhjcGNuQUhlV1kzbDRKYlBYNi04RDkyMFlERDVzSEdEQk5HSVlpT2RjSXVVSm9pbV9RMVVsUnhNd3kyN2l6c0VSZmZJRXBCOXVCWkZrVlNEbGtnU083RUduSWY5V1ZjUEZ1dEdtWEt6WWtpR3JIeGdfbW5SZUF2UndMeEM0SFI4NnJNSkQtcmdkT1NuNHI?oc=5"
+      },
+      {
+        "title": "Fire breaks out at Table Mountain National Park",
+        "reports": 1,
+        "press": [
+          "SABC News"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Fire breaks out at Table Mountain National Park",
+            "press": "SABC News",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQTlxM0hrSTl0WXRUeDhvOXdsNGsyUEFQQ1BiVmxYUno1NlpFVHNqOG9ZVTExb1pJMTJaMy16UmVDdnZRZGVndWxXaGZuS2I2Q21JYjRyMzF3SkxjRERaTnNmdkdrU2x4cGFkSUttNFNhVWtrbzFMMFFJb2tBbXVITEhPcnpnbU1IdUE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQTlxM0hrSTl0WXRUeDhvOXdsNGsyUEFQQ1BiVmxYUno1NlpFVHNqOG9ZVTExb1pJMTJaMy16UmVDdnZRZGVndWxXaGZuS2I2Q21JYjRyMzF3SkxjRERaTnNmdkdrU2x4cGFkSUttNFNhVWtrbzFMMFFJb2tBbXVITEhPcnpnbU1IdUE?oc=5"
+      },
+      {
+        "title": "UPDATE | Tafelberg Road closed as firefighters battle Table Mountain blaze",
+        "reports": 1,
+        "press": [
+          "News24"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "UPDATE | Tafelberg Road closed as firefighters battle Table Mountain blaze",
+            "press": "News24",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcllFd1dXOEx3c3hXT1dzOUstNDNMTEU2dXBER2lIQlhuZnN3X3RWdTBoQjlwTS14ZC1hRmhTU3VhTnpVTmNJZktfM0JrYjNjU1VxQWo5VlpuN1pLYkp2NER5M09MR2pkTXgyV2wtU05hU2xHeWdjeGxFaGhUa0N3blVWYnJDb196U1pvUjRlY0pMS25LS0dXUjBnS0U0TlhfYk12QkpmdUhBQkVLNzN3bXN5ZDg0MTRJVFNJ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcllFd1dXOEx3c3hXT1dzOUstNDNMTEU2dXBER2lIQlhuZnN3X3RWdTBoQjlwTS14ZC1hRmhTU3VhTnpVTmNJZktfM0JrYjNjU1VxQWo5VlpuN1pLYkp2NER5M09MR2pkTXgyV2wtU05hU2xHeWdjeGxFaGhUa0N3blVWYnJDb196U1pvUjRlY0pMS25LS0dXUjBnS0U0TlhfYk12QkpmdUhBQkVLNzN3bXN5ZDg0MTRJVFNJ?oc=5"
+      },
+      {
+        "title": "Dog owners visiting Eryri urged to keep their pets under control",
+        "reports": 1,
+        "press": [
+          "Denbighshire Free Press"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Dog owners visiting Eryri urged to keep their pets under control",
+            "press": "Denbighshire Free Press",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON1N0NUp4WXcxemdZS0xkRzlPTFdQbXpTMEFGTFhrSHIyTUdTOWNfVFJJdkU4eHFkMGJ4bV9la09zMlM1d3BieU5XdGYxUzl1RTVHTkFKMXYyT0pER21yOVdDblZkS3ZBV2JsbGRpdU9NOFBKbFB5cjNDcDF5Z1Vab3lIaW11bkU5eTk5QzlhNGVOM2FUV2phcGRIaDNpNUwtSzUweS1BNA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON1N0NUp4WXcxemdZS0xkRzlPTFdQbXpTMEFGTFhrSHIyTUdTOWNfVFJJdkU4eHFkMGJ4bV9la09zMlM1d3BieU5XdGYxUzl1RTVHTkFKMXYyT0pER21yOVdDblZkS3ZBV2JsbGRpdU9NOFBKbFB5cjNDcDF5Z1Vab3lIaW11bkU5eTk5QzlhNGVOM2FUV2phcGRIaDNpNUwtSzUweS1BNA?oc=5"
+      },
+      {
+        "title": "Tsavo West’s hidden gem: Kipalo Hills Lodge",
+        "reports": 1,
+        "press": [
+          "AOL.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Tsavo West’s hidden gem: Kipalo Hills Lodge",
+            "press": "AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFUHBzZU80a09vUDJxbzh1ekZSMDRhTHloelk0Qm8zb3JQMGlraDI0am1uOEhBaDQycU1IaEpLbEE2V0xlUW9JbVVLVWZwLVI5LWowQUUxWjdNUV9yMnNaaWFNWWJBcVFpT0ljVTdzbFFTaFRNVnpUNTkwSVk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFUHBzZU80a09vUDJxbzh1ekZSMDRhTHloelk0Qm8zb3JQMGlraDI0am1uOEhBaDQycU1IaEpLbEE2V0xlUW9JbVVLVWZwLVI5LWowQUUxWjdNUV9yMnNaaWFNWWJBcVFpT0ljVTdzbFFTaFRNVnpUNTkwSVk?oc=5"
+      },
+      {
+        "title": "Poo, parking and poor pitching - the Lake District's summer battles",
+        "reports": 1,
+        "press": [
+          "BBC"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Poo, parking and poor pitching - the Lake District's summer battles",
+            "press": "BBC",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TWjF6a1U2cEdiUnRPb1BXVGY5eHN2N01CQXVSZTJsX1liTUxlNHRIWkF4VFNOcUhpT1FkTnFkbkZObTc2ckxjSVlsQ1U1M2laNVljLW05Q0tiN0FC?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TWjF6a1U2cEdiUnRPb1BXVGY5eHN2N01CQXVSZTJsX1liTUxlNHRIWkF4VFNOcUhpT1FkTnFkbkZObTc2ckxjSVlsQ1U1M2laNVljLW05Q0tiN0FC?oc=5"
+      },
+      {
+        "title": "Fines handed out and abandoned barbecue found in Lake District",
+        "reports": 1,
+        "press": [
+          "Cumbria Crack"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Fines handed out and abandoned barbecue found in Lake District",
+            "press": "Cumbria Crack",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDMtTWZhUjVaTGROSVRsRmV2YUNteHlYOHZfLUh1R0JGTjNhVGpibDhWZ3VTRVJZbnZUTnBIVkhQdmEzMXk1RnVsVzRCQldZOEJ5Mmstc3lRUF9MaXhLQUFUT0toREo1dUhiNWNRN0c0dkRCUjFtUlExMmh1eU9kX0FyOWdxNjB2a1cxTDNpRDFCU0QxTUd6dzU4ZF9BZXRi?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDMtTWZhUjVaTGROSVRsRmV2YUNteHlYOHZfLUh1R0JGTjNhVGpibDhWZ3VTRVJZbnZUTnBIVkhQdmEzMXk1RnVsVzRCQldZOEJ5Mmstc3lRUF9MaXhLQUFUT0toREo1dUhiNWNRN0c0dkRCUjFtUlExMmh1eU9kX0FyOWdxNjB2a1cxTDNpRDFCU0QxTUd6dzU4ZF9BZXRi?oc=5"
+      }
+    ]
+  }
+}
