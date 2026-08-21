@@ -24,6 +24,7 @@
  *                        이 값이 없어도 외부인은 수집을 호출할 수 없다.
  *
  *  --------- 조회
+ *    GET /api/ranking-archive?period=today          오늘 (저장 없이 즉석 집계 · CDN 30분 캐시)
  *    GET /api/ranking-archive?period=day            어제 하루
  *    GET /api/ranking-archive?period=week           최근 7일
  *    GET /api/ranking-archive?period=month          최근 30일
@@ -537,6 +538,42 @@ export default async function handler(req, res) {
     const idx = (await ghRead(INDEX_PATH).catch(() => null))?.data;
     res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=1800');
     return res.status(200).json(idx || { dates: [] });
+  }
+
+  /* ---------- 오늘 순위 — 저장·커밋 없이 즉석 집계, CDN 30분 캐시 ----------
+     크론 보관본은 어제까지라 "지금 뜨는 사안"은 다음 날 아침에야 보였다.
+     오늘은 순위가 계속 변하므로 보관하지 않고, 조회 때 그 자리에서 모은다.
+     첫 방문자만 몇 초 기다리고 이후 30분간은 CDN이 즉시 답한다. */
+  if (req.query.period === 'today') {
+    try {
+      const deadline = Date.now() + 25000;   // 한 세트만 수집 — 42초 예산보다 여유
+      const { articles, failed, queries } = await collectArticles(today, setKey, deadline);
+      if (failed === queries) {
+        return res.status(502).json({
+          error: '뉴스 수집이 전부 실패했습니다. 잠시 후 다시 시도해 주세요.',
+        });
+      }
+      const rows = groupByIssue(asEntries(articles)).slice(0, TOP_RESULT);
+      res.setHeader('Cache-Control', 's-maxage=1800, stale-while-revalidate=86400');
+      return res.status(200).json({
+        period: 'today',
+        periodKo: '오늘',
+        set: setKey,
+        setKo: SETS[setKey].label,
+        from: today,
+        to: today,
+        have: 1,
+        want: 1,
+        unit: 'day',
+        totalReports: rows.reduce((s, r) => s + r.reports, 0),
+        rows,
+        note: `${korean(today)} 0시부터 지금까지 보도 기준 · 약 30분마다 갱신`,
+        generatedAt: new Date().toISOString(),
+      });
+    } catch (e) {
+      console.error(e);
+      return res.status(502).json({ error: String(e.message || e) });
+    }
   }
 
   /* ---------- 조회 모드 ---------- */

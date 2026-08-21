@@ -38,9 +38,11 @@ window.Ranking = (() => {
     },
   };
 
+  /* '일간(어제)'은 '오늘'로 바꿨다 — 어제는 주간에 어차피 포함되고,
+     사람들이 궁금한 건 "지금 오늘 뭐가 뜨나"다 (서버 즉석 집계 · 30분 캐시) */
   const PERIODS = {
     live:  '실시간',
-    day:   '일간',
+    today: '오늘',
     week:  '주간',
     month: '월간',
     year:  '연간',
@@ -59,7 +61,8 @@ window.Ranking = (() => {
   })();
   const state = {
     tab: saved.tab === 'global' ? 'global' : 'kr',
-    period: Object.prototype.hasOwnProperty.call(PERIODS, saved.period) ? saved.period : 'live',
+    period: saved.period === 'day' ? 'today'   // 옛 저장값 이관
+      : Object.prototype.hasOwnProperty.call(PERIODS, saved.period) ? saved.period : 'live',
     park: '', sector: '', cache: {}, loading: false,
   };
   const remember = () => {
@@ -137,7 +140,7 @@ window.Ranking = (() => {
         time: '',
         others: (x.articles || []).slice(1, 4),
       })),
-      note: `${esc(data.from)} ~ ${esc(data.to)} 보도 합산${partial}`,
+      note: data.note ? esc(data.note) : `${esc(data.from)} ~ ${esc(data.to)} 보도 합산${partial}`,
     };
   }
 

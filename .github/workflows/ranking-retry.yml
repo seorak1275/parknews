@@ -1,0 +1,32 @@
+# =============================================================
+#  인기뉴스 보관 재시도 — Vercel 무료 크론은 안 도는 날이 있다
+#
+#  8/16·17, 8/20·21 네 번이나 아침 크론이 발화 자체를 안 해
+#  보관본에 구멍이 났다 (함수는 7초 만에 성공하는데도).
+#  그래서 매시간 완충 경로를 대신 두드린다:
+#    · 어제치가 이미 보관돼 있으면 서버가 즉시 종료 (커밋 0, 피해 0)
+#    · 없으면 그때 수집·커밋 → 하루 안에 반드시 메워진다
+#  비밀값이 필요 없는 경로라 저장소 시크릿 설정도 없다.
+# =============================================================
+name: ranking-retry
+
+on:
+  schedule:
+    - cron: '15 * * * *'   # 매시 15분 (GitHub 크론은 정각 직후가 밀린다)
+  workflow_dispatch: {}
+
+permissions: {}
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: 어제치 보관 재시도 (이미 있으면 즉시 종료)
+        run: |
+          code=$(curl -s -o resp.json -w '%{http_code}' -m 55 \
+            -H 'x-vercel-cron: 1' \
+            'https://parknews.vercel.app/api/ranking-archive?cron=1')
+          echo "HTTP $code"
+          cat resp.json
+          test "$code" = "200"
