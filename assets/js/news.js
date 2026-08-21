@@ -230,7 +230,10 @@ window.NewsService = (() => {
       .map((it) => ({ it, s: scoreItem(region, it, cores, words) }))
       .filter(({ it, s }) => {
         if (s <= 0) return false;
-        const k = it.title.replace(/\s+/g, '').slice(0, 30);   // 중복 기사 제거
+        /* 중복 제거에 언론사를 포함한다 — 같은 제목을 여러 언론사가 실은 것이
+           바로 '인기'의 신호라, 제목만으로 지우면 인기순이 설 자리가 없다.
+           (화면의 최신순 목록은 표시 단계에서 제목 기준으로 다시 걸러 준다) */
+        const k = `${it.title.replace(/\s+/g, '').slice(0, 30)}|${it.press}`;
         if (seen.has(k)) return false;
         seen.add(k);
         return true;
@@ -388,7 +391,7 @@ window.NewsService = (() => {
    * 기사 배열 → 사안별 묶음 (열기 순 정렬)
    * heat = 보도 언론사 수 + (최근 12시간 내면 +1.5)
    */
-  function groupIssues(items) {
+  function groupIssues(items, minSim = 0.5) {
     const seen = new Set();
     const arts = [];
     for (const n of items) {
@@ -403,7 +406,7 @@ window.NewsService = (() => {
       const tk = gTokens(a.title);
       const ky = gKeys(a.title);
       const g = groups.find((x) => {
-        if (gSim(x.tk, tk) < 0.5) return false;
+        if (gSim(x.tk, tk) < minSim) return false;
         if (ky.size && x.ky.size && ![...ky].some((k) => x.ky.has(k))) return false;
         return true;
       });
@@ -438,7 +441,10 @@ window.NewsService = (() => {
     const recent = items.filter(inWin);
     const rest = items.filter((n) => !inWin(n));
 
-    const out = groupIssues(recent)
+    /* 공원 하나 분량(20~30건)은 언론사마다 표현이 달라 기본 문턱(0.5)으로는
+       같은 사안이 잘 안 묶인다. 0.4가 과묶음 없이 가장 잘 잡았다(2026-08-21 실측
+       — 0.3은 북한산 분묘 이장이 독립운동 묶음에 합쳐지는 등 사고가 남). */
+    const out = groupIssues(recent, 0.4)
       .sort((a, b) => b.outletCount - a.outletCount || b.newest - a.newest)
       .map((g) => {
         const lead = g.arts.reduce(

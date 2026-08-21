@@ -784,9 +784,22 @@
       $('#news-sort').querySelectorAll('button').forEach((b) =>
         b.classList.toggle('on', b.dataset.mode === sortMode));
 
+      /* 최신순 — 목록에는 같은 제목의 전재 기사(다른 언론사)를 하나만.
+         원본 배열에는 남겨 둔다: 인기순의 언론사 수 재료다. */
+      const latest = () => {
+        const seen = new Set(); const out = [];
+        for (const n of items) {
+          const k = n.title.replace(/\s+/g, '').slice(0, 30);
+          if (seen.has(k)) continue;
+          seen.add(k);
+          out.push(n);
+          if (out.length >= CONFIG.NEWS_COUNT) break;
+        }
+        return out;
+      };
       const show = sortMode === 'hot'
         ? NewsService.hotList(items, 30, CONFIG.NEWS_COUNT)
-        : items.slice(0, CONFIG.NEWS_COUNT);
+        : latest();
 
       $('#filter-note').innerHTML = !items.length
         ? `수집 <b>${raw}</b>건 모두 국립공원과 무관해 제외했습니다.`
