@@ -213,7 +213,7 @@ window.Stats = (() => {
 
       dayHtml = `
       <section class="st-sec">
-        <h3 class="st-h">최근 일일 수집 <span>인기뉴스 보관본 · ’26.8.9.부터 매일 아침</span></h3>
+        <h3 class="st-h">최근 일일 수집 <span>인기뉴스 보관본 · 매일 아침 수집(8/8 이전은 아카이브 사후 집계)</span></h3>
         ${n.daily.map((d) => bar(md(d.date), d.kr + d.global, maxDaily, '건', 'org')).join('')}
         <p class="st-note">${esc(n.from)} ~ ${esc(n.to)} · ${n.have}일치 · 하루 평균 ${nf(avg)}건${lagNote}
           — 위 아카이브와 달리 <b>순위용 상위 사안만</b> 담아 건수가 적습니다</p>
