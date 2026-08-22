@@ -332,6 +332,21 @@ async function ghRead(path) {
   return { sha: j.sha, data: JSON.parse(Buffer.from(j.content, 'base64').toString('utf-8')) };
 }
 
+/* 조회는 자기 배포의 정적 파일을 먼저 읽는다 — 보관본은 저장소에 커밋되는
+   순간 재배포되어 정적으로도 서빙되므로 내용이 같고, CDN이라 GitHub API
+   (주간 콜드 11초 실측)보다 훨씬 빠르다. 방금 커밋돼 재배포 전인 파일만
+   정적에 없을 수 있어 그때는 GitHub로 폴백한다. */
+async function readSnap(path) {
+  const base = process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}` : 'https://parknews.vercel.app';
+  try {
+    const r = await fetch(`${base}/${path}`, { headers: { 'User-Agent': UA } });
+    if (r.ok) return { data: await r.json() };
+    /* 404 포함 — 정적에 없다고 저장소에 없다는 보장은 없다. GitHub로 확인 */
+  } catch { /* 정적 실패 — GitHub 폴백 */ }
+  return ghRead(path);
+}
+
 async function ghWrite(path, data, message) {
   if (!GH.ok()) throw new Error('GITHUB_TOKEN / GITHUB_REPO 미설정');
   const prev = await ghRead(path).catch(() => null);
@@ -614,11 +629,11 @@ export default async function handler(req, res) {
       /* 최근 12개월 집계본 — 일간 365개를 읽지 않는다 */
       const thisMonth = to.slice(0, 7);
       const months = Array.from({ length: 12 }, (_, i) => addMonths(thisMonth, -i));
-      snapshots = (await Promise.all(months.map((m) => readOr(ghRead(monthPath(m)))))).filter(Boolean);
+      snapshots = (await Promise.all(months.map((m) => readOr(readSnap(monthPath(m)))))).filter(Boolean);
       from = snapshots.length ? snapshots[snapshots.length - 1].from : '';
     } else {
       const dates = Array.from({ length: period.days }, (_, i) => addDays(to, -i));
-      snapshots = (await Promise.all(dates.map((d) => readOr(ghRead(dayPath(d)))))).filter(Boolean);
+      snapshots = (await Promise.all(dates.map((d) => readOr(readSnap(dayPath(d)))))).filter(Boolean);
       from = snapshots.length ? snapshots[snapshots.length - 1].date : '';
     }
 
