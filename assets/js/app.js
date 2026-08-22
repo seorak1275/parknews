@@ -1060,7 +1060,12 @@
         if (state.active?.id === id) return;
         let p = Explorer.parkById(id);
         if (!p) { try { await Explorer.allParks(); p = Explorer.parkById(id); } catch { /* 무시 */ } }
-        if (p) select(p, false);
+        if (p) {
+          if (!REGIONS_KR.some((r) => r.id === p.id)) {
+            try { await Explorer.setScope('global'); } catch { /* 무시 */ }
+          }
+          select(p, false);
+        }
         return;
       }
       /* 해시가 없으면 선택 해제 상태로 */
@@ -1164,7 +1169,15 @@
       if (!p) {                       // 해외 공원이면 데이터를 불러와 다시 찾는다
         try { await Explorer.allParks(); p = Explorer.parkById(id); } catch { /* 무시 */ }
       }
-      if (p) select(p);
+      if (p) {
+        /* 해외 공원 링크면 해외 탭으로 먼저 전환한다 — 국내 화면인 채로 열면
+           해외 마커·클러스터 레이어가 없어서 사이드바만 열리고
+           지도는 한국에 머문 것처럼 보인다 (2026-08-22 제보) */
+        if (!REGIONS_KR.some((r) => r.id === p.id)) {
+          try { await Explorer.setScope('global'); } catch { /* 무시 */ }
+        }
+        select(p);
+      }
     }
   })();
 })();
