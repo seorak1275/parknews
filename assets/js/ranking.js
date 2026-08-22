@@ -158,6 +158,7 @@ window.Ranking = (() => {
       .map((c) => ({
         date: c[ix['게시일자']],
         park: c[ix['공원명']],
+        basis: c[ix['공원판정근거']],
         title: c[ix['뉴스제목']],
         press: c[ix['뉴스매체']],
         link: c[ix['url']],
@@ -170,7 +171,10 @@ window.Ranking = (() => {
     const days = period === 'week' ? 7 : 30;
     const cut = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
     const mine = arts
-      .filter((a) => a.date >= cut && (a.park === parkName || a.title.includes(parkName)))
+      /* 제목에 공원명이 있거나, 공원 태그가 '제목' 판정인 기사만 —
+         요약에만 스치듯 언급된 기사(APEC 회담 등)가 공원 순위를 오염시킨다 */
+      .filter((a) => a.date >= cut
+        && (a.title.includes(parkName) || (a.park === parkName && a.basis === '제목')))
       .sort((a, b) => (a.date < b.date ? 1 : -1));           // 최신부터 — 묶음 대표가 최신이 되게
     if (!mine.length) throw new Error('증분에 해당 공원 기사 없음');
 
