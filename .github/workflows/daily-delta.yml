@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name  "parknews-bot"
           git config user.email "noreply@github.com"
-          git add data/dataset
+          git add data/dataset data/search
           if git diff --cached --quiet; then
             echo "달라진 게 없습니다."
             exit 0

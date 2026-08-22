@@ -116,6 +116,50 @@ def build_global(cutoff):
     return rows
 
 
+def merge_search(search_rows):
+    """새 기사를 검색 색인(data/search/<연도>.json)에 합친다 — 검색 페이지도 매일 최신화.
+    전체 재생성(주 1회)이 어차피 다시 만들므로, 여기서는 url·(날짜,제목) 기준으로
+    없는 것만 앞에 끼워 넣는다."""
+    sdir = os.path.join(REPO, "data", "search")
+    idx_path = os.path.join(sdir, "index.json")
+    if not os.path.exists(idx_path):
+        print("검색 색인 없음 — 합치기 생략")
+        return
+    idx = json.load(io.open(idx_path, encoding="utf-8"))
+    by_year = {}
+    for r in search_rows:
+        by_year.setdefault(r["year"], []).append(r)
+
+    total_added = 0
+    for y, rows_y in by_year.items():
+        p = os.path.join(sdir, f"{y}.json")
+        shard = json.load(io.open(p, encoding="utf-8")) if os.path.exists(p) else []
+        known_url = {row[8] for row in shard}
+        known_td = {(row[0], row[6]) for row in shard}
+        added = []
+        for r in rows_y:
+            if r["url"] in known_url or (r["md"], r["title"]) in known_td:
+                continue
+            added.append([r["md"], r["park"], r["sec"], r["sub"], r["conf"], r["near"],
+                          r["title"], r["press"], r["url"]])
+        if not added:
+            continue
+        shard = sorted(shard + added, key=lambda row: row[0], reverse=True)
+        io.open(p, "w", encoding="utf-8").write(
+            json.dumps(shard, ensure_ascii=False, separators=(",", ":")))
+        for m in idx.get("years", []):
+            if m.get("year") == y:
+                m["count"] = len(shard)
+                m["sizeKB"] = round(os.path.getsize(p) / 1024)
+        total_added += len(added)
+
+    if total_added:
+        idx["total"] = sum(m["count"] for m in idx.get("years", []))
+        idx["generatedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S+09:00")
+        io.open(idx_path, "w", encoding="utf-8").write(json.dumps(idx, ensure_ascii=False, indent=1))
+    print(f"검색 색인 합치기: 새 기사 {total_added}건")
+
+
 def update_index(entries):
     """자료받기 목록에 증분 항목들을 넣거나 갱신"""
     idx_path = os.path.join(DST, "index.json")
@@ -146,7 +190,8 @@ def main():
     print(f"원시 {len(raw):,}건")
 
     cutoff = (date.today() - timedelta(days=DAYS)).isoformat()
-    seen, rows = set(), []
+    CONF_N = {"상": 3, "중": 2, "하": 1}
+    seen, rows, search_rows = set(), [], []
     for a in raw:
         title = bna.clean(a.get("title"))
         desc = bna.clean(a.get("description"))
@@ -172,7 +217,16 @@ def main():
             park = next((n for n, _ in bna.PARKS if n in desc), "")
             basis = "요약" if park else ""
         press = re.sub(r"^https?://(www\.)?", "", link).split("/")[0]
-        sec, _sc, _margin = bna.sector_of(text)
+        sec, sc, margin = bna.sector_of(text)
+        search_rows.append({
+            "year": day[:4], "md": day[5:],
+            "park": park or "(전체·공통)",
+            "sec": sec or "",
+            "sub": bna.subsector_of(sec, text) or "",
+            "conf": CONF_N.get(bna.confidence(sc, margin), 0),
+            "near": 1 if ("국립공원" in title or "공원공단" in title) else 0,
+            "title": title, "press": press or "미상", "url": link,
+        })
         rows.append({
             "게시일자": day,
             "공원명": park or "(전체·공통)",
@@ -231,6 +285,9 @@ def main():
     # 목록 갱신 — 내려받기 화면(data.html)이 이 목록을 읽는다
     update_index(entries)
     print("index.json 갱신")
+
+    # 검색 페이지(search.html)도 매일 최신화
+    merge_search(search_rows)
     return 0
 
 

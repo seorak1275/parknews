@@ -34,6 +34,8 @@
        기사 <b>본문은 담지 않았고</b> 제목·요약·매체·링크만 있습니다 (언론사 저작물).</p>
     <p><b>CSV 파일은 눌러서 바로 엑셀로 열립니다.</b>
        용량이 큰 것만 ZIP 으로 묶여 있으니 압축을 풀고 쓰십시오.</p>
+    <p>‘최신 30일’ 증분은 <b>매일 아침</b>, 전체판은 <b>매주 일요일</b> 새로 만듭니다.
+       증분과 전체판은 컬럼이 같아 이어 붙여 쓸 수 있습니다.</p>
   </div>
 
   <div class="ds-list" id="ds-list">
@@ -60,7 +62,8 @@
     box.innerHTML = files.map((i) => `
       <a class="ds-row" href="data/dataset/${encodeURIComponent(i.file)}" download>
         <div class="ds-main">
-          <b>${esc(i.name.replace(/\.csv$/, ''))}</b>
+          <b>${esc(i.name.replace(/\.csv$/, ''))}${
+            i.file.includes('최신30일') ? ' <span class="ds-badge">매일 갱신</span>' : ''}</b>
           ${i.desc ? `<em>${esc(i.desc)}</em>` : ''}
         </div>
         <span class="ds-rows">${i.rows.toLocaleString()}행</span>

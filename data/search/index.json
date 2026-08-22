@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-17T16:42:57+09:00",
- "total": 57884,
+ "generatedAt": "2026-08-22T14:24:18+09:00",
+ "total": 57853,
  "fields": [
   "date",
   "park",
@@ -21,72 +21,72 @@
  "years": [
   {
    "year": "2026",
-   "count": 11885,
-   "sizeKB": 2436
+   "count": 12055,
+   "sizeKB": 2470
   },
   {
    "year": "2025",
-   "count": 12876,
-   "sizeKB": 2612
+   "count": 12794,
+   "sizeKB": 2596
   },
   {
    "year": "2024",
-   "count": 7552,
-   "sizeKB": 1535
+   "count": 7514,
+   "sizeKB": 1527
   },
   {
    "year": "2023",
-   "count": 5820,
-   "sizeKB": 1183
+   "count": 5808,
+   "sizeKB": 1181
   },
   {
    "year": "2022",
-   "count": 3373,
-   "sizeKB": 680
+   "count": 3342,
+   "sizeKB": 673
   },
   {
    "year": "2021",
-   "count": 3122,
-   "sizeKB": 628
+   "count": 3114,
+   "sizeKB": 627
   },
   {
    "year": "2020",
-   "count": 2581,
-   "sizeKB": 523
+   "count": 2579,
+   "sizeKB": 522
   },
   {
    "year": "2019",
-   "count": 2171,
-   "sizeKB": 438
+   "count": 2165,
+   "sizeKB": 436
   },
   {
    "year": "2018",
-   "count": 1464,
+   "count": 1460,
    "sizeKB": 294
   },
   {
    "year": "2017",
-   "count": 1286,
+   "count": 1285,
    "sizeKB": 255
   },
   {
    "year": "2016",
-   "count": 1432,
-   "sizeKB": 286
+   "count": 1430,
+   "sizeKB": 285
   },
   {
    "year": "2015",
-   "count": 1196,
-   "sizeKB": 236
+   "count": 1195,
+   "sizeKB": 235
   },
   {
    "year": "2014",
-   "count": 989,
-   "sizeKB": 196
+   "count": 979,
+   "sizeKB": 194
   },
   {
    "year": "2013",
-   "count": 499,
+   "count": 495,
    "sizeKB": 96
   },
   {
@@ -215,8 +215,8 @@
   "내장산",
   "계룡산",
   "주왕산",
-  "(전체·공통)",
   "경주",
+  "(전체·공통)",
   "덕유산",
   "소백산",
   "태안해안",

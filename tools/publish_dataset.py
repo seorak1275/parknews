@@ -46,7 +46,11 @@ def main():
     os.makedirs(DST, exist_ok=True)
 
     # 이전 판은 지운다 — 최신본만 싣는다 (저장소가 계속 불어나지 않게)
+    # 단, '최신30일' 증분(매일 아침 build_daily_delta.py 가 갱신)은 남긴다 —
+    # 지우면 다음 아침까지 공원별·대륙별 순위와 증분 내려받기가 끊긴다.
     for f in os.listdir(DST):
+        if "최신30일" in f:
+            continue
         os.remove(os.path.join(DST, f))
 
     # 원본 폴더에 옛 이름의 파일이 남아 있으면 새 파일과 함께 올라가 목록이 겹친다.
@@ -66,6 +70,17 @@ def main():
     PLAIN_LIMIT = 2 * 1024 * 1024        # 2MB 이하는 압축하지 않는다
 
     items = []
+
+    # 남겨둔 '최신30일' 증분을 목록 맨 위에 유지한다 (매일 아침 갱신됨)
+    for f in sorted(os.listdir(DST)):
+        if "최신30일" not in f or not f.endswith(".csv"):
+            continue
+        raw = open(os.path.join(DST, f), "rb").read()
+        items.append({"file": f, "name": f,
+                      "desc": "최신 30일 뉴스 (매일 아침 갱신 · 전체판은 주 1회 재생성)",
+                      "rows": raw.count(b"\n") - 1, "size": len(raw), "rawSize": len(raw),
+                      "gz": True, "packed": False})
+
     for f in sorted(os.listdir(SRC)):
         p = os.path.join(SRC, f)
         if not os.path.isfile(p) or f in skip:

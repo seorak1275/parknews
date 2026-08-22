@@ -31,8 +31,20 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATASET = os.path.join(ROOT, "data", "dataset")
 RANKING = os.path.join(ROOT, "data", "ranking")
 
-KR_ZIP = "국립공원공단_국립공원뉴스정보_20260817.zip"
-GLOBAL_ZIP = "국립공원공단_해외국립공원뉴스정보_20260817.zip"
+import glob as _glob
+
+
+def _newest(pattern):
+    """전체판은 주 1회 재생성되며 날짜가 바뀐다 — 항상 최신 zip을 잡는다"""
+    hits = sorted(_glob.glob(os.path.join(os.path.dirname(os.path.dirname(
+        os.path.abspath(__file__))), "data", "dataset", pattern)))
+    if not hits:
+        raise SystemExit(f"없음: {pattern}")
+    return os.path.basename(hits[-1])
+
+
+KR_ZIP = _newest("국립공원공단_국립공원뉴스정보_2*.zip")
+GLOBAL_ZIP = _newest("국립공원공단_해외국립공원뉴스정보_2*.zip")
 
 TOP_PER_DAY = 80          # 서버와 동일 (40→80: 단독 보도까지 보관해야 공원별 순위가 선다)
 MAX_ARTICLES = 10         # 묶음당 보관할 기사 수 (파일 크기 관리)
