@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-22T14:24:18+09:00",
- "total": 57853,
+ "generatedAt": "2026-08-22T19:25:25+09:00",
+ "total": 57833,
  "fields": [
   "date",
   "park",
@@ -21,32 +21,32 @@
  "years": [
   {
    "year": "2026",
-   "count": 12055,
+   "count": 12051,
    "sizeKB": 2470
   },
   {
    "year": "2025",
-   "count": 12794,
-   "sizeKB": 2596
+   "count": 12788,
+   "sizeKB": 2595
   },
   {
    "year": "2024",
-   "count": 7514,
-   "sizeKB": 1527
+   "count": 7507,
+   "sizeKB": 1526
   },
   {
    "year": "2023",
-   "count": 5808,
-   "sizeKB": 1181
+   "count": 5806,
+   "sizeKB": 1180
   },
   {
    "year": "2022",
    "count": 3342,
-   "sizeKB": 673
+   "sizeKB": 674
   },
   {
    "year": "2021",
-   "count": 3114,
+   "count": 3115,
    "sizeKB": 627
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "year": "2019",
-   "count": 2165,
+   "count": 2164,
    "sizeKB": 436
   },
   {
@@ -71,7 +71,7 @@
   },
   {
    "year": "2016",
-   "count": 1430,
+   "count": 1429,
    "sizeKB": 285
   },
   {
