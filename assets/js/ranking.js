@@ -63,8 +63,11 @@ window.Ranking = (() => {
     tab: saved.tab === 'global' ? 'global' : 'kr',
     period: saved.period === 'day' ? 'today'   // 옛 저장값 이관
       : Object.prototype.hasOwnProperty.call(PERIODS, saved.period) ? saved.period : 'live',
-    park: '', sector: '', cache: {}, loading: false,
+    park: '', sector: '', continent: '', cache: {}, loading: false,
   };
+
+  /* 국외 탭의 대륙 필터 — 제목에서 공원을 찾아낸 기사만 대륙을 안다 */
+  const CONTINENTS = ['아시아', '유럽', '북아메리카', '남아메리카', '아프리카', '오세아니아'];
   const remember = () => {
     try { localStorage.setItem('parknews-rank', JSON.stringify({ tab: state.tab, period: state.period })); }
     catch { /* 무시 */ }
@@ -375,18 +378,22 @@ window.Ranking = (() => {
       b.classList.toggle('is-on', b.dataset.period === state.period);
     });
 
-    /* 분야 고르기 — 구조대는 '구조활동'만 따로 보고 싶을 때가 많다.
-       분류 사전이 한글 낱말뿐이라 국외(영문 제목)에서는 숨긴다. */
+    /* 국내 = 분야 고르기 (구조대는 '구조활동'만 따로 보고 싶을 때가 많다),
+       국외 = 대륙 고르기 (분류 사전이 한글 낱말뿐이라 분야는 영문 제목에 무의미) */
     const sbox = $('#rk-sectors');
     if (sbox) {
-      sbox.hidden = state.tab !== 'kr';
-      if (!sbox.hidden) {
-        sbox.innerHTML = `
+      sbox.hidden = false;
+      sbox.innerHTML = state.tab === 'kr'
+        ? `
         <button class="rk-sec-btn${state.sector ? '' : ' is-on'}" data-sector="">전체 분야</button>
         ${SECTORS.map((s) => `
           <button class="rk-sec-btn${state.sector === s.key ? ' is-on' : ''}"
-            style="--c:${s.color}" data-sector="${s.key}">${esc(s.name)}</button>`).join('')}`;
-      }
+            style="--c:${s.color}" data-sector="${s.key}">${esc(s.name)}</button>`).join('')}`
+        : `
+        <button class="rk-sec-btn${state.continent ? '' : ' is-on'}" data-continent="">전체 대륙</button>
+        ${CONTINENTS.map((c) => `
+          <button class="rk-sec-btn${state.continent === c ? ' is-on' : ''}"
+            style="--c:#60a5fa" data-continent="${c}">${esc(c)}</button>`).join('')}`;
     }
 
     /* 공원 선택은 국내에서만 의미가 있다 */
@@ -420,22 +427,32 @@ window.Ranking = (() => {
       const { note } = await fetchRank(state.tab, state.period);
       if (state.loading !== token) return;         // 그 사이 다른 탭을 눌렀으면 버림
 
-      const rows = state.sector ? all.filter((r) => r.sector?.key === state.sector) : all;
+      const filterOn = state.tab === 'kr' ? state.sector : state.continent;
+      const rows = state.tab === 'kr'
+        ? (state.sector ? all.filter((r) => r.sector?.key === state.sector) : all)
+        : (state.continent ? all.filter((r) => r.park?.continentKo === state.continent) : all);
       if (!rows.length) {
-        const sn = SECTORS.find((s) => s.key === state.sector)?.name;
+        const fn = state.tab === 'kr'
+          ? SECTORS.find((s) => s.key === state.sector)?.name : state.continent;
         body.innerHTML = `<div class="rk-state">${
-          state.sector ? `이 기간에 <b>${esc(sn)}</b> 분야로 분류된 사안이 없습니다.` : '집계할 기사를 찾지 못했습니다.'
-        }${state.sector ? '' : ' <button class="rk-retry" type="button">다시 시도</button>'}</div>`;
+          filterOn
+            ? (state.tab === 'kr'
+              ? `이 기간에 <b>${esc(fn)}</b> 분야로 분류된 사안이 없습니다.`
+              : `이 기간에 <b>${esc(fn)}</b> 공원으로 위치가 파악된 사안이 없습니다.`)
+            : '집계할 기사를 찾지 못했습니다.'
+        }${filterOn ? '' : ' <button class="rk-retry" type="button">다시 시도</button>'}</div>`;
         body.querySelector('.rk-retry')?.addEventListener('click', () => render());
         return;
       }
       const max = Math.max(...rows.map((r) => r.outletCount)) || 1;
-      const secName = SECTORS.find((s) => s.key === state.sector)?.name;
+      const filterName = state.tab === 'kr'
+        ? SECTORS.find((s) => s.key === state.sector)?.name : state.continent;
       body.innerHTML = `
         <p class="rk-note">
           <span class="rk-note__l">같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다</span>
-          <span class="rk-note__r">${label}${secName ? ` · ${esc(secName)}` : ''} · 상위 ${rows.length}건${
-            state.sector ? ` / 전체 ${all.length}건` : ''} · ${note}</span>
+          <span class="rk-note__r">${label}${filterName ? ` · ${esc(filterName)}` : ''} · 상위 ${rows.length}건${
+            filterOn ? ` / 전체 ${all.length}건` : ''}${
+            state.tab === 'global' && state.continent ? ' · 제목에서 공원이 파악된 기사만' : ''} · ${note}</span>
         </p>
         <ol class="rk-list">${rows.map((r, i) => rowHtml(r, i, max)).join('')}</ol>`;
       renderTrends(rows.slice(0, 8));
@@ -509,7 +526,7 @@ window.Ranking = (() => {
       window.ParkMap.select(p);
     });
 
-    $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; remember(); render(); });
+    $('#rk-tab-kr')?.addEventListener('click', () => { state.tab = 'kr'; state.continent = ''; remember(); render(); });
     $('#rk-tab-global')?.addEventListener('click', () => { state.tab = 'global'; state.park = ''; state.sector = ''; remember(); render(); });
     $('#rk-parks')?.addEventListener('click', (e) => {
       const b = e.target.closest('.rk-park');
@@ -520,7 +537,8 @@ window.Ranking = (() => {
     $('#rk-sectors')?.addEventListener('click', (e) => {
       const b = e.target.closest('.rk-sec-btn');
       if (!b) return;
-      state.sector = b.dataset.sector || '';
+      if (b.dataset.continent !== undefined) state.continent = b.dataset.continent || '';
+      else state.sector = b.dataset.sector || '';
       render();
     });
     $('#rk-periods')?.addEventListener('click', (e) => {

@@ -1,0 +1,45 @@
+# 자료받기 '최신 30일 증분' 매일 갱신
+#
+# 전체판 재생성(dataset.yml)은 회당 ~35MB를 커밋해서 매일 돌리면
+# 저장소가 감당 못 한다. 매일 바뀌는 건 작은 증분 CSV 하나(~350KB)면 된다.
+# 전체판은 주 1회, 이 증분은 매일 — 자료받기가 늘 어제 기사까지 담는다.
+name: daily-delta
+
+on:
+  schedule:
+    - cron: '30 20 * * *'      # 매일 05:30 KST (아침 크론 수집과 겹치지 않게)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-delta
+  cancel-in-progress: false
+
+jobs:
+  delta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 최신 30일 증분 생성
+        run: python tools/build_daily_delta.py
+
+      - name: 커밋
+        run: |
+          git config user.name  "parknews-bot"
+          git config user.email "noreply@github.com"
+          git add data/dataset
+          if git diff --cached --quiet; then
+            echo "달라진 게 없습니다."
+            exit 0
+          fi
+          git commit -m "자료받기 최신 30일 증분 갱신 (daily-delta.yml)"
+          git pull --rebase origin main
+          git push
