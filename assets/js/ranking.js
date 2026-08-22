@@ -117,8 +117,11 @@ window.Ranking = (() => {
   }
 
   /** 일·주·월·연: 매일 쌓아둔 보관본을 합산해 받아온다 */
-  async function fetchArchive(which, period) {
-    const r = await fetch(`/api/ranking-archive?period=${period}&set=${which}`);
+  async function fetchArchive(which, period, parkName = '') {
+    /* 공원 필터는 서버에 맡긴다 — 상위 30건으로 자르기 전에 걸러야
+       공원별 순위가 제대로 선다 (합친 뒤 거르면 한두 건만 남는다) */
+    const pq = parkName ? `&park=${encodeURIComponent(parkName)}` : '';
+    const r = await fetch(`/api/ranking-archive?period=${period}&set=${which}${pq}`);
     const data = await r.json().catch(() => ({}));
 
     if (!r.ok) {
@@ -144,6 +147,7 @@ window.Ranking = (() => {
         others: (x.articles || []).slice(1, 4),
       })),
       note: data.note ? esc(data.note) : `${esc(data.from)} ~ ${esc(data.to)} 보도 합산${partial}`,
+      parkFiltered: data.park || '',
     };
   }
 
@@ -223,13 +227,17 @@ window.Ranking = (() => {
     const hit = state.cache[ck];
     if (hit && Date.now() - hit.at < TTL) return hit.res;
 
-    const raw = period === 'live' ? await fetchLive(which) : await fetchArchive(which, period);
-
-    /* 보관본은 공원별로 나눠 저장하지 않으므로 받아온 뒤 걸러 낸다 */
     const park = which === 'kr' && state.park
       ? KR_PARKS.find((p) => p.id === state.park) : null;
-    const rows = park && period !== 'live'
-      ? raw.rows.filter((r) => r.title.includes(park.name))
+    const raw = period === 'live'
+      ? await fetchLive(which)
+      : await fetchArchive(which, period, park ? park.name : '');
+
+    /* 서버가 걸러줬으면(park 응답 확인) 그대로 쓰고,
+       옛 캐시 응답(park 없음)에만 예비로 제목·묶인 기사 기준 필터 */
+    const rows = park && period !== 'live' && !raw.parkFiltered
+      ? raw.rows.filter((r) => r.title.includes(park.name)
+          || (r.others || []).some((o) => o.title?.includes(park.name)))
       : raw.rows;
 
     const withParks = await attachParks(rows);

@@ -361,13 +361,22 @@ const loadDay = (date) => ghRead(dayPath(date)).then((h) => h?.data || null).cat
 const TOP_PER_DAY = 40;     // 하루치에 보관할 상위 사안 수
 const TOP_RESULT = 30;      // 조회 시 돌려줄 상위 사안 수
 
-/** 여러 날/달의 순위표를 하나로 합친다 */
-function mergeRankings(snapshots, setKey) {
+/** 묶음이 이 공원 것인가 — 대표 제목뿐 아니라 묶인 기사 제목까지 본다.
+    (대표 제목에 공원명이 없어도 후속 보도에 있으면 그 공원 사안이다) */
+const rowHasPark = (r, park) => !park
+  || String(r.title || '').includes(park)
+  || (r.articles || []).some((a) => String(a.title || '').includes(park));
+
+/** 여러 날/달의 순위표를 하나로 합친다.
+    park 를 주면 상위 30건으로 자르기 **전에** 걸러서 다시 순위를 매긴다 —
+    합친 뒤에 거르면 전국 상위 30건 중 그 공원 것 한두 건만 남는다(2026-08-22 캡처). */
+function mergeRankings(snapshots, setKey, park = '') {
   const entries = [];
   for (const snap of snapshots) {
     const rows = snap?.[setKey]?.rows;
     if (!Array.isArray(rows)) continue;
     for (const r of rows) {
+      if (!rowHasPark(r, park)) continue;
       entries.push({
         title: r.title,
         reports: r.reports || 1,
@@ -553,9 +562,13 @@ export default async function handler(req, res) {
           error: '뉴스 수집이 전부 실패했습니다. 잠시 후 다시 시도해 주세요.',
         });
       }
-      const rows = groupByIssue(asEntries(articles)).slice(0, TOP_RESULT);
+      const parkQToday = setKey === 'kr' ? String(req.query.park || '').trim().slice(0, 30) : '';
+      const rows = groupByIssue(asEntries(articles))
+        .filter((r) => rowHasPark(r, parkQToday))
+        .slice(0, TOP_RESULT);
       res.setHeader('Cache-Control', 's-maxage=1800, stale-while-revalidate=86400');
       return res.status(200).json({
+        park: parkQToday || undefined,
         period: 'today',
         periodKo: '오늘',
         set: setKey,
@@ -627,10 +640,12 @@ export default async function handler(req, res) {
       });
     }
 
-    const rows = mergeRankings(snapshots, setKey).slice(0, TOP_RESULT);
+    const parkQ = setKey === 'kr' ? String(req.query.park || '').trim().slice(0, 30) : '';
+    const rows = mergeRankings(snapshots, setKey, parkQ).slice(0, TOP_RESULT);
 
     res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
     return res.status(200).json({
+      park: parkQ || undefined,
       period: periodKey,
       periodKo: period.label,
       set: setKey,
