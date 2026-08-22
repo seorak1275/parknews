@@ -117,6 +117,85 @@ window.Ranking = (() => {
   }
 
   /** 일·주·월·연: 매일 쌓아둔 보관본을 합산해 받아온다 */
+  /* ==========================================================
+   *  공원별 주간·월간 — '최신 30일 증분' CSV(매일 갱신)로 직접 집계
+   *
+   *  보관본(일간 상위 80묶음)에는 조용한 공원의 단독 보도가 빠질 수 있어
+   *  공원 필터가 굶는다. 증분 CSV에는 공원명 컬럼까지 있는 기사 원장이
+   *  통째로 있으므로(약 350KB · CDN) 이걸 한 번 받아 브라우저에서 묶는다.
+   *  → 공원을 바꿔도 다시 안 받는다. 분야 필터처럼 즉시 뜬다.
+   * ======================================================== */
+  const DELTA_URL = 'data/dataset/%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EA%B3%B5%EB%8B%A8_%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EB%89%B4%EC%8A%A4%EC%A0%95%EB%B3%B4_%EC%B5%9C%EC%8B%A030%EC%9D%BC.csv';
+  let deltaCache = null;
+
+  function parseCsv(text) {
+    const s = text.replace(/^﻿/, '');
+    const rows = [];
+    let cur = [''], q = false;
+    for (let i = 0; i < s.length; i++) {
+      const c = s[i];
+      if (q) {
+        if (c === '"') {
+          if (s[i + 1] === '"') { cur[cur.length - 1] += '"'; i++; } else q = false;
+        } else cur[cur.length - 1] += c;
+      } else if (c === '"') q = true;
+      else if (c === ',') cur.push('');
+      else if (c === '\n') { rows.push(cur); cur = ['']; }
+      else if (c !== '\r') cur[cur.length - 1] += c;
+    }
+    if (cur.length > 1 || cur[0]) rows.push(cur);
+    return rows;
+  }
+
+  async function loadDelta() {
+    if (deltaCache) return deltaCache;
+    const r = await fetch(DELTA_URL);
+    if (!r.ok) throw new Error(`증분 CSV 없음 (${r.status})`);
+    const rows = parseCsv(await r.text());
+    const ix = Object.fromEntries(rows[0].map((k, i) => [k, i]));
+    deltaCache = rows.slice(1)
+      .filter((c) => c.length >= rows[0].length)
+      .map((c) => ({
+        date: c[ix['게시일자']],
+        park: c[ix['공원명']],
+        title: c[ix['뉴스제목']],
+        press: c[ix['뉴스매체']],
+        link: c[ix['url']],
+      }));
+    return deltaCache;
+  }
+
+  async function parkRank(period, parkName) {
+    const arts = await loadDelta();
+    const days = period === 'week' ? 7 : 30;
+    const cut = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+    const mine = arts
+      .filter((a) => a.date >= cut && (a.park === parkName || a.title.includes(parkName)))
+      .sort((a, b) => (a.date < b.date ? 1 : -1));           // 최신부터 — 묶음 대표가 최신이 되게
+    if (!mine.length) throw new Error('증분에 해당 공원 기사 없음');
+
+    const groups = window.NewsService.groupIssues(
+      mine.map((a) => ({ title: a.title, press: a.press, link: a.link, date: `${a.date}T12:00:00+09:00` })), 0.4);
+    const rows = groups
+      .sort((x, y) => y.outletCount - x.outletCount || y.newest - x.newest)
+      .slice(0, 30)
+      .map((g) => ({
+        title: g.lead.title,
+        link: g.lead.link,
+        press: g.outlets,
+        outletCount: g.outletCount,
+        reports: g.arts.length,
+        time: '',
+        others: g.arts.slice(1, 4),
+      }));
+    const dates = mine.map((a) => a.date);
+    return {
+      rows,
+      note: `${esc(dates[dates.length - 1])} ~ ${esc(dates[0])} · 공원 태그 수집분 ${mine.length}건 기준(매일 아침 갱신)`,
+      parkFiltered: parkName,
+    };
+  }
+
   async function fetchArchive(which, period, parkName = '') {
     /* 공원 필터는 서버에 맡긴다 — 상위 30건으로 자르기 전에 걸러야
        공원별 순위가 제대로 선다 (합친 뒤 거르면 한두 건만 남는다) */
@@ -229,9 +308,14 @@ window.Ranking = (() => {
 
     const park = which === 'kr' && state.park
       ? KR_PARKS.find((p) => p.id === state.park) : null;
+    /* 공원+주간·월간은 증분 CSV로 브라우저에서 직접 집계(풍부·즉시),
+       실패하면 서버 필터로 폴백. 나머지는 서버 조회. */
     const raw = period === 'live'
       ? await fetchLive(which)
-      : await fetchArchive(which, period, park ? park.name : '');
+      : (park && (period === 'week' || period === 'month'))
+        ? await parkRank(period, park.name)
+            .catch(() => fetchArchive(which, period, park.name))
+        : await fetchArchive(which, period, park ? park.name : '');
 
     /* 서버가 걸러줬으면(park 응답 확인) 그대로 쓰고,
        옛 캐시 응답(park 없음)에만 예비로 제목·묶인 기사 기준 필터 */

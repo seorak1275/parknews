@@ -1,7 +1,7 @@
 {
   "date": "2026-07-23",
   "dateKo": "2026년 7월 23일 목요일",
-  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "generatedAt": "2026-08-22T02:25:18.515577Z",
   "backfilled": true,
   "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
   "kr": {
@@ -812,6 +812,214 @@
           }
         ],
         "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=201669"
+      },
+      {
+        "title": "7월 23일 오늘의 안전 상황",
+        "reports": 1,
+        "press": [
+          "fpn119.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "7월 23일 오늘의 안전 상황",
+            "press": "fpn119.co.kr",
+            "link": "http://fpn119.co.kr/254236"
+          }
+        ],
+        "link": "http://fpn119.co.kr/254236"
+      },
+      {
+        "title": "최상위 포식자 늑대 돌아오자… 숲과 습지가 숨 쉬기 시작했다",
+        "reports": 1,
+        "press": [
+          "hankookilbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "최상위 포식자 늑대 돌아오자… 숲과 습지가 숨 쉬기 시작했다",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026072102190005096?did=NA"
+          }
+        ],
+        "link": "https://www.hankookilbo.com/news/article/A2026072102190005096?did=NA"
+      },
+      {
+        "title": "산불 방화범 수법에 경악…이탈리아 발칵 뒤집어졌다",
+        "reports": 1,
+        "press": [
+          "hankyung.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "산불 방화범 수법에 경악…이탈리아 발칵 뒤집어졌다",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/2026072329807"
+          }
+        ],
+        "link": "https://www.hankyung.com/article/2026072329807"
+      },
+      {
+        "title": "이탈리아 덮친 산불, 배후에 '고양이 방화범' 있었다",
+        "reports": 1,
+        "press": [
+          "hankyung.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "이탈리아 덮친 산불, 배후에 '고양이 방화범' 있었다",
+            "press": "hankyung.com",
+            "link": "https://www.hankyung.com/article/2026072326797"
+          }
+        ],
+        "link": "https://www.hankyung.com/article/2026072326797"
+      },
+      {
+        "title": "'고양이 꼬리에 인화물질'…伊남부 산불 방화범 충격적 수법",
+        "reports": 1,
+        "press": [
+          "news1.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "'고양이 꼬리에 인화물질'…伊남부 산불 방화범 충격적 수법",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/world/europe/6236486"
+          }
+        ],
+        "link": "https://www.news1.kr/world/europe/6236486"
+      },
+      {
+        "title": "“고양이 꼬리 이용해 산불 확산”…이탈리아서 드러난 충격 방화 정황",
+        "reports": 1,
+        "press": [
+          "nongmin.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "“고양이 꼬리 이용해 산불 확산”…이탈리아서 드러난 충격 방화 정황",
+            "press": "nongmin.com",
+            "link": "https://www.nongmin.com/article/20260723500126"
+          }
+        ],
+        "link": "https://www.nongmin.com/article/20260723500126"
+      },
+      {
+        "title": "“고양이 꼬리에 인화성 헝겊”…이탈리아 산불 방화, 고양이 풀었나",
+        "reports": 1,
+        "press": [
+          "etnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "“고양이 꼬리에 인화성 헝겊”…이탈리아 산불 방화, 고양이 풀었나",
+            "press": "etnews.com",
+            "link": "https://www.etnews.com/20260723000152"
+          }
+        ],
+        "link": "https://www.etnews.com/20260723000152"
+      },
+      {
+        "title": "\"고양이 꼬리에 인화물질 적신 헝겊\"…이탈리아 산불 수사 착수",
+        "reports": 1,
+        "press": [
+          "yonhapnewstv.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"고양이 꼬리에 인화물질 적신 헝겊\"…이탈리아 산불 수사 착수",
+            "press": "yonhapnewstv.co.kr",
+            "link": "http://www.yonhapnewstv.co.kr/news/AKR20260723095132T5v"
+          }
+        ],
+        "link": "http://www.yonhapnewstv.co.kr/news/AKR20260723095132T5v"
+      },
+      {
+        "title": "'고양이 꼬리에 무슨 짓을'...산불 방화 수법에 '경악'",
+        "reports": 1,
+        "press": [
+          "wowtv.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "'고양이 꼬리에 무슨 짓을'...산불 방화 수법에 '경악'",
+            "press": "wowtv.co.kr",
+            "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607230255&t=NN"
+          }
+        ],
+        "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607230255&t=NN"
+      },
+      {
+        "title": "“고양이가 그랬어요”…이탈리아 산불 확산에 ‘고양이 꼬리’ 이용",
+        "reports": 1,
+        "press": [
+          "kookje.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "“고양이가 그랬어요”…이탈리아 산불 확산에 ‘고양이 꼬리’ 이용",
+            "press": "kookje.co.kr",
+            "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20260723.99099006820"
+          }
+        ],
+        "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20260723.99099006820"
+      },
+      {
+        "title": "이탈리아 남부 산불 방화범이 고양이라니…누가 꼬리에 이런 짓을",
+        "reports": 1,
+        "press": [
+          "mk.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "이탈리아 남부 산불 방화범이 고양이라니…누가 꼬리에 이런 짓을",
+            "press": "mk.co.kr",
+            "link": "https://www.mk.co.kr/article/12105079"
+          }
+        ],
+        "link": "https://www.mk.co.kr/article/12105079"
+      },
+      {
+        "title": "[글로벌 ‘AI+X’ 스타트업 (35)] ‘파노 AI(Pano AI)’, 산불 대응의 골...",
+        "reports": 1,
+        "press": [
+          "news2day.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[글로벌 ‘AI+X’ 스타트업 (35)] ‘파노 AI(Pano AI)’, 산불 대응의 골...",
+            "press": "news2day.co.kr",
+            "link": "https://www.news2day.co.kr/article/20260722500244"
+          }
+        ],
+        "link": "https://www.news2day.co.kr/article/20260722500244"
+      },
+      {
+        "title": "입가에 주황 물든 원숭이…75년 만에 콩고서 '깜짝 등장'",
+        "reports": 1,
+        "press": [
+          "peoplewatch.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "입가에 주황 물든 원숭이…75년 만에 콩고서 '깜짝 등장'",
+            "press": "peoplewatch.co.kr",
+            "link": "https://www.peoplewatch.co.kr/article/view/ppw202607230001"
+          }
+        ],
+        "link": "https://www.peoplewatch.co.kr/article/view/ppw202607230001"
       }
     ]
   },

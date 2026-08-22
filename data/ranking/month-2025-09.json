@@ -3,7 +3,7 @@
   "days": 30,
   "from": "2025-09-01",
   "to": "2025-09-30",
-  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "generatedAt": "2026-08-22T02:25:18.515577Z",
   "backfilled": true,
   "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
   "kr": {
@@ -1973,6 +1973,1081 @@
           }
         ],
         "link": "https://www.munhwa.com/article/11531212?ref=naver"
+      },
+      {
+        "title": "안도걸, 26년도 정부 예산안…광주 동남을 주요사업 1543억 반영",
+        "reports": 4,
+        "press": [
+          "lawissue.co.kr",
+          "newsworker.co.kr",
+          "kmib.co.kr",
+          "jndn.com"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "안도걸, 26년도 정부 예산안…광주 동남을 주요사업 1543억 반영",
+            "press": "lawissue.co.kr",
+            "link": "http://www.lawissue.co.kr/view.php?ud=20250903235943978292eef753eb_12"
+          },
+          {
+            "title": "안도걸 의원, '26년도 정부 예산안'... \"광주 동남을 주요사업 1,543억원...",
+            "press": "newsworker.co.kr",
+            "link": "http://www.newsworker.co.kr/news/articleView.html?idxno=393253"
+          },
+          {
+            "title": "안도걸 “지역구 현안사업비 1543억원, 정부 예산안 반영”",
+            "press": "kmib.co.kr",
+            "link": "https://www.kmib.co.kr/article/view.asp?arcid=0028635169&code=61121111&cp=nv"
+          },
+          {
+            "title": "안도걸 의원 “내년 예산안 지역 주요사업 1543억 반영”",
+            "press": "jndn.com",
+            "link": "http://www.jndn.com/article.php?aid=1756801550416768114"
+          }
+        ],
+        "link": "http://www.lawissue.co.kr/view.php?ud=20250903235943978292eef753eb_12"
+      },
+      {
+        "title": "[환경포커스] 내년 환경부 예산 역대 최대 15조 9,160억 편성",
+        "reports": 4,
+        "press": [
+          "ikld.kr",
+          "energy-news.co.kr",
+          "view.asiae.co.kr",
+          "idaegu.co.kr"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "[환경포커스] 내년 환경부 예산 역대 최대 15조 9,160억 편성",
+            "press": "ikld.kr",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=319480"
+          },
+          {
+            "title": "환경부, 내년 15조9160억원 예산 편성…전기차 전환지원금 신설",
+            "press": "energy-news.co.kr",
+            "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=217275"
+          },
+          {
+            "title": "환경부, 내년 예산안 15.9조원…전기차 전환지원금 1775억원 신규 편성",
+            "press": "view.asiae.co.kr",
+            "link": "https://view.asiae.co.kr/article/2025090211244387312"
+          },
+          {
+            "title": "환경부, 팔공산 국립공원에 160억…3배↑",
+            "press": "idaegu.co.kr",
+            "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=522107"
+          }
+        ],
+        "link": "http://www.ikld.kr/news/articleView.html?idxno=319480"
+      },
+      {
+        "title": "신성범 의원, 양천·덕천강 국가하천 승격 건의",
+        "reports": 4,
+        "press": [
+          "gnmaeil.com",
+          "newsfreezone.co.kr",
+          "newsis.com",
+          "newsgn.com"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "신성범 의원, 양천·덕천강 국가하천 승격 건의",
+            "press": "gnmaeil.com",
+            "link": "http://www.gnmaeil.com/news/articleView.html?idxno=570399"
+          },
+          {
+            "title": "신성범 의원, 환경부 장관에 '양천강·덕천강' 국가하천 승격 건의",
+            "press": "newsfreezone.co.kr",
+            "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=644494"
+          },
+          {
+            "title": "환경부 간 국힘 신성범, 양천·덕천강 국가하천 승격 건의",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250902_0003312180"
+          },
+          {
+            "title": "신성범의원, 환경부 찾아 양천강·덕천강 국가하천 승격 건의",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=501631"
+          }
+        ],
+        "link": "http://www.gnmaeil.com/news/articleView.html?idxno=570399"
+      },
+      {
+        "title": "대산해수청, 옹도해양문화공간 관계기관 합동 안전점검",
+        "reports": 5,
+        "press": [
+          "joongdo.co.kr",
+          "chungnamilbo.co.kr",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "대산해수청, 옹도해양문화공간 관계기관 합동 안전점검",
+            "press": "joongdo.co.kr",
+            "link": "https://www.joongdo.co.kr/web/view.php?key=20250926010010653"
+          },
+          {
+            "title": "대산해수청, 옹도해양문화공간 관계기관 합동 안전점검 실시",
+            "press": "chungnamilbo.co.kr",
+            "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=851619"
+          },
+          {
+            "title": "국립공원공단, 국토안전관리원과 소백산 교량 9개소 합동 안전점검 실시",
+            "press": "chungnamilbo.co.kr",
+            "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=851454"
+          },
+          {
+            "title": "국립공원공단, 국토안전관리원 합동 안전점검 소백산 교량 9개소 점검",
+            "press": "chungnamilbo.co.kr",
+            "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=851281"
+          },
+          {
+            "title": "\"APEC 안전 확보\" 국립공원공단·국토안전관리원 합동 점검",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250908_0003320020"
+          }
+        ],
+        "link": "https://www.joongdo.co.kr/web/view.php?key=20250926010010653"
+      },
+      {
+        "title": "경북의사회, 회원·가족 등반대회 개최",
+        "reports": 3,
+        "press": [
+          "rapportian.com",
+          "bokuennews.com",
+          "bosa.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "경북의사회, 회원·가족 등반대회 개최",
+            "press": "rapportian.com",
+            "link": "https://www.rapportian.com/news/articleView.html?idxno=226942"
+          },
+          {
+            "title": "경북의사회, 제23회 회원 및 가족 등반대회 성황리 개최",
+            "press": "bokuennews.com",
+            "link": "http://www.bokuennews.com/news/article.html?no=266778"
+          },
+          {
+            "title": "경북의사회, 팔공산서 제23회 회원·가족 등반대회 성료",
+            "press": "bosa.co.kr",
+            "link": "http://www.bosa.co.kr/news/articleView.html?idxno=2258962"
+          }
+        ],
+        "link": "https://www.rapportian.com/news/articleView.html?idxno=226942"
+      },
+      {
+        "title": "오대산국립공원, 새로운 숲길 나옹선사 수행길 개방",
+        "reports": 3,
+        "press": [
+          "newsis.com",
+          "kado.net",
+          "enewstoday.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "오대산국립공원, 새로운 숲길 나옹선사 수행길 개방",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250929_0003349053"
+          },
+          {
+            "title": "오대산국립공원, 내달 '선재길 나옹선사 수행길' 신규 개방",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2008224"
+          },
+          {
+            "title": "천년 숲길 열다…오대산국립공원, 내달 '선재길 나옹선사 수행길' 신규...",
+            "press": "enewstoday.co.kr",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2335488"
+          }
+        ],
+        "link": "https://www.newsis.com/view/NISX20250929_0003349053"
+      },
+      {
+        "title": "제천시 덕산면, 유래비 건립 제막 행사 개최",
+        "reports": 3,
+        "press": [
+          "dynews.co.kr",
+          "cctimes.kr",
+          "ggilbo.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "제천시 덕산면, 유래비 건립 제막 행사 개최",
+            "press": "dynews.co.kr",
+            "link": "http://www.dynews.co.kr/news/articleView.html?idxno=822206"
+          },
+          {
+            "title": "제천시 덕산면, 유래비 건립 제막식 개최",
+            "press": "cctimes.kr",
+            "link": "http://www.cctimes.kr/news/articleView.html?idxno=868504"
+          },
+          {
+            "title": "제천 덕산면, 유래비 건립 제막식 개최",
+            "press": "ggilbo.com",
+            "link": "https://www.ggilbo.com/news/articleView.html?idxno=1116035"
+          }
+        ],
+        "link": "http://www.dynews.co.kr/news/articleView.html?idxno=822206"
+      },
+      {
+        "title": "대구 시립 3개 박물관, 추석 연휴 6일간 체험·전시 풍성",
+        "reports": 3,
+        "press": [
+          "kbsm.net",
+          "weekly.cnbnews.com",
+          "dkilbo.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "대구 시립 3개 박물관, 추석 연휴 6일간 체험·전시 풍성",
+            "press": "kbsm.net",
+            "link": "https://www.kbsm.net/news/view.php?idx=491867"
+          },
+          {
+            "title": "대구문화예술진흥원 ‘대구 시립 3개 박물관, 추석 연휴 문화행사 개최...",
+            "press": "weekly.cnbnews.com",
+            "link": "https://weekly.cnbnews.com/news/article.html?no=191660"
+          },
+          {
+            "title": "대구 시립 3개 박물관, 추석 연휴 문화행사 개최",
+            "press": "dkilbo.com",
+            "link": "https://www.dkilbo.com/news/articleView.html?idxno=516066"
+          }
+        ],
+        "link": "https://www.kbsm.net/news/view.php?idx=491867"
+      },
+      {
+        "title": "오대산국립공원 디지털 안내시설 설치 운용",
+        "reports": 3,
+        "press": [
+          "kado.net",
+          "popcornnews.net",
+          "koit.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "오대산국립공원 디지털 안내시설 설치 운용",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2007980"
+          },
+          {
+            "title": "포스코DX, 월정사에 디지털 안내시설 설치…국립공원 디지털 전환 지원",
+            "press": "popcornnews.net",
+            "link": "http://www.popcornnews.net/news/articleView.html?idxno=96000"
+          },
+          {
+            "title": "포스코DX, 국립공원 디지털 전환 지원",
+            "press": "koit.co.kr",
+            "link": "https://www.koit.co.kr/news/articleView.html?idxno=202478"
+          }
+        ],
+        "link": "https://www.kado.net/news/articleView.html?idxno=2007980"
+      },
+      {
+        "title": "월악산국립공원 '넷제로 캠핑 페스티벌' 친환경 실천",
+        "reports": 3,
+        "press": [
+          "asiatoday.co.kr",
+          "newspim.com",
+          "khan.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "월악산국립공원 '넷제로 캠핑 페스티벌' 친환경 실천",
+            "press": "asiatoday.co.kr",
+            "link": "https://www.asiatoday.co.kr/view.php?key=20250928010014829"
+          },
+          {
+            "title": "'넷제로 캠핑 페스티벌' 월악산 닷돈재 야영장서 내달 3~4일 개최",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20250926000334"
+          },
+          {
+            "title": "친환경 캠핑 히어로를 찾습니다",
+            "press": "khan.co.kr",
+            "link": "https://www.khan.co.kr/article/202509080914001"
+          }
+        ],
+        "link": "https://www.asiatoday.co.kr/view.php?key=20250928010014829"
+      },
+      {
+        "title": "한려해상국립공원, 덕신야영장 '달빛영화관' 운영",
+        "reports": 3,
+        "press": [
+          "gnnews.co.kr",
+          "newsgn.com",
+          "idomin.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "한려해상국립공원, 덕신야영장 '달빛영화관' 운영",
+            "press": "gnnews.co.kr",
+            "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=619703"
+          },
+          {
+            "title": "달빛 아래에서 펼쳐지는 특별한 이벤트,한려해상국립공원, 덕신야영장 ...",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=505766"
+          },
+          {
+            "title": "한려해상국립공원 덕신야영장서 27일 '달빛영화관' 연다",
+            "press": "idomin.com",
+            "link": "https://www.idomin.com/news/articleView.html?idxno=946728"
+          }
+        ],
+        "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=619703"
+      },
+      {
+        "title": "한화호텔앤드리조트 '안토', \"북한산과 함께 서울만의 힐링 명소 될 것...",
+        "reports": 3,
+        "press": [
+          "efnews.co.kr",
+          "stnsports.co.kr",
+          "etoday.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "한화호텔앤드리조트 '안토', \"북한산과 함께 서울만의 힐링 명소 될 것...",
+            "press": "efnews.co.kr",
+            "link": "http://www.efnews.co.kr/news/articleView.html?idxno=123565"
+          },
+          {
+            "title": "\"힐링+스포츠 ESG\"…한화호텔앤드리조트, 북한산 '안토'로 프리미엄 리...",
+            "press": "stnsports.co.kr",
+            "link": "https://www.stnsports.co.kr/news/articleView.html?idxno=303736"
+          },
+          {
+            "title": "김동선의 안토 “북한산과 함께 서울 대표 힐링 명소로 거듭날 것”",
+            "press": "etoday.co.kr",
+            "link": "https://www.etoday.co.kr/news/view/2509535"
+          }
+        ],
+        "link": "http://www.efnews.co.kr/news/articleView.html?idxno=123565"
+      },
+      {
+        "title": "광주 등산로 야자매트서 미세 플라스틱 섬유 다량 검출",
+        "reports": 3,
+        "press": [
+          "nocutnews.co.kr",
+          "gjdream.com",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "광주 등산로 야자매트서 미세 플라스틱 섬유 다량 검출",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6405078?utm_source=naver&utm_medium=article&utm_campaign=20250924111440"
+          },
+          {
+            "title": "광주 둘레길 야자매트서 미세플라스틱 다량 검출",
+            "press": "gjdream.com",
+            "link": "http://www.gjdream.com/news/articleView.html?idxno=662089"
+          },
+          {
+            "title": "'친환경인줄로만' 광주 산책로 야자매트서 플라스틱 다량 발견",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250924_0003341447"
+          }
+        ],
+        "link": "https://www.nocutnews.co.kr/news/6405078?utm_source=naver&utm_medium=article&utm_campaign=20250924111440"
+      },
+      {
+        "title": "‘등반신고제’ 확대시행에 산악계 반발…“사실상 허가제”",
+        "reports": 3,
+        "press": [
+          "joongang.co.kr",
+          "sportsworldi.com",
+          "naeil.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "‘등반신고제’ 확대시행에 산악계 반발…“사실상 허가제”",
+            "press": "joongang.co.kr",
+            "link": "https://www.joongang.co.kr/article/25369191"
+          },
+          {
+            "title": "국립공원공단 ‘등반신고제’ 확대, 산악계 반발… “100년 산악문화 훼...",
+            "press": "sportsworldi.com",
+            "link": "https://www.sportsworldi.com/newsView/20250918511730"
+          },
+          {
+            "title": "국립공원공단 ‘등반신고제’ 확대에 산악계 반발… “알피니즘 정신 훼...",
+            "press": "naeil.com",
+            "link": "https://www.naeil.com/news/read/561760?ref=naver"
+          }
+        ],
+        "link": "https://www.joongang.co.kr/article/25369191"
+      },
+      {
+        "title": "국립공원공단, '대한민국 새단장' 주간 맞아 플로깅 활동 진행",
+        "reports": 3,
+        "press": [
+          "s-journal.co.kr",
+          "ikld.kr",
+          "bosa.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "국립공원공단, '대한민국 새단장' 주간 맞아 플로깅 활동 진행",
+            "press": "s-journal.co.kr",
+            "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=33847"
+          },
+          {
+            "title": "국립공원공단, 바닷가 국립공원 플로깅 행사 진행",
+            "press": "ikld.kr",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=320752"
+          },
+          {
+            "title": "국립공원 바닷가 플로킹 활동 실시",
+            "press": "bosa.co.kr",
+            "link": "http://www.bosa.co.kr/news/articleView.html?idxno=2258185"
+          }
+        ],
+        "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=33847"
+      },
+      {
+        "title": "소백산 제2연화봉에 40년 묵은 군사 철조망 사라졌다",
+        "reports": 3,
+        "press": [
+          "daejonilbo.com",
+          "news1.kr",
+          "yna.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "소백산 제2연화봉에 40년 묵은 군사 철조망 사라졌다",
+            "press": "daejonilbo.com",
+            "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2228269"
+          },
+          {
+            "title": "소백산 연화봉 40년 군사 철조망 철거…식생복원 첫삽",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/sejong-chungbuk/5917283"
+          },
+          {
+            "title": "[단양소식] 소백산 제2연화봉 식생복원 행사",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20250918140500064?input=1195m"
+          }
+        ],
+        "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2228269"
+      },
+      {
+        "title": "세계자연유산인데…신안 갯벌 해양쓰레기 '몸살'",
+        "reports": 3,
+        "press": [
+          "goodnews1.com",
+          "news.sbs.co.kr",
+          "jnilbo.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "세계자연유산인데…신안 갯벌 해양쓰레기 '몸살'",
+            "press": "goodnews1.com",
+            "link": "https://www.goodnews1.com/news/articleView.html?idxno=451647"
+          },
+          {
+            "title": "세계자연유산 신안 앞바다 해양쓰레기 '몸살'…\"국가 망신\"",
+            "press": "news.sbs.co.kr",
+            "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008260729&plink=ORI&cooper=NAVER"
+          },
+          {
+            "title": "세계유산 신안 앞바다, 해양쓰레기 몸살…\"국가 망신\"",
+            "press": "jnilbo.com",
+            "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000005617"
+          }
+        ],
+        "link": "https://www.goodnews1.com/news/articleView.html?idxno=451647"
+      },
+      {
+        "title": "경주국립공원, 비지정 문화유산 디지털 분석",
+        "reports": 3,
+        "press": [
+          "ksmnews.co.kr",
+          "gukjenews.com",
+          "dkilbo.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "경주국립공원, 비지정 문화유산 디지털 분석",
+            "press": "ksmnews.co.kr",
+            "link": "https://www.ksmnews.co.kr/news/view.php?idx=563778"
+          },
+          {
+            "title": "경주국립공원, 디지털 문화유산 조사로 불상 조성 시기·특징 규명",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3377806"
+          },
+          {
+            "title": "경주국립공원 , 디지털 기술을 활용 비지정 문화유산의 가치 분석",
+            "press": "dkilbo.com",
+            "link": "https://www.dkilbo.com/news/articleView.html?idxno=514051"
+          }
+        ],
+        "link": "https://www.ksmnews.co.kr/news/view.php?idx=563778"
+      },
+      {
+        "title": "설악산서 실종된 60대, 이틀 만에 숨진 채 발견…무슨 일?",
+        "reports": 3,
+        "press": [
+          "mbn.mk.co.kr",
+          "news.mt.co.kr",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "설악산서 실종된 60대, 이틀 만에 숨진 채 발견…무슨 일?",
+            "press": "mbn.mk.co.kr",
+            "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5141549"
+          },
+          {
+            "title": "설악산 공룡능선에서 실종된 60대 등산객…절벽서 숨진 채 발견",
+            "press": "news.mt.co.kr",
+            "link": "http://news.mt.co.kr/mtview.php?no=2025091616315149590"
+          },
+          {
+            "title": "설악산국립공원서 실종된 60대 등산객 숨진 채 발견",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250916_0003331395"
+          }
+        ],
+        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5141549"
+      },
+      {
+        "title": "기후변화 징후, 국립공원 생물상 변화로 확인",
+        "reports": 3,
+        "press": [
+          "ikld.kr",
+          "energydaily.co.kr",
+          "etnews.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "기후변화 징후, 국립공원 생물상 변화로 확인",
+            "press": "ikld.kr",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=320267"
+          },
+          {
+            "title": "기후변화 징후, 국립공원 생물상 변화로 확인됐다",
+            "press": "energydaily.co.kr",
+            "link": "http://www.energydaily.co.kr/news/articleView.html?idxno=159899"
+          },
+          {
+            "title": "“기후변화에 개구리 산란 앞당겨져”…국립공원 생물상 변화로 확인",
+            "press": "etnews.com",
+            "link": "https://www.etnews.com/20250914000034"
+          }
+        ],
+        "link": "http://www.ikld.kr/news/articleView.html?idxno=320267"
+      },
+      {
+        "title": "속초시 '설악산 책방' 20~21일 개최",
+        "reports": 3,
+        "press": [
+          "newspim.com",
+          "kwnews.co.kr",
+          "sportsseoul.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "속초시 '설악산 책방' 20~21일 개최",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20250914000081"
+          },
+          {
+            "title": "속초문화관광재단, 문화예술교육 프로그램 ‘설악산 책방’ 개최",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/page/view/2025091408581609097"
+          },
+          {
+            "title": "속초문화관광재단, 설악산 배경 ‘설악산 책방’ 개최",
+            "press": "sportsseoul.com",
+            "link": "https://www.sportsseoul.com/news/read/1545772?ref=naver"
+          }
+        ],
+        "link": "https://www.newspim.com/news/view/20250914000081"
+      },
+      {
+        "title": "부산 금정산, 첫 도심형 국립공원 될까",
+        "reports": 3,
+        "press": [
+          "segye.com",
+          "donga.com",
+          "etoday.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "부산 금정산, 첫 도심형 국립공원 될까",
+            "press": "segye.com",
+            "link": "https://www.segye.com/newsView/20250911515450?OutUrl=naver"
+          },
+          {
+            "title": "부산 금정산, 국립공원 지정 내달 결정",
+            "press": "donga.com",
+            "link": "https://www.donga.com/news/Society/article/all/20250911/132370915/2"
+          },
+          {
+            "title": "금정산, '도심형 국립공원' 눈앞에",
+            "press": "etoday.co.kr",
+            "link": "https://www.etoday.co.kr/news/view/2505392"
+          }
+        ],
+        "link": "https://www.segye.com/newsView/20250911515450?OutUrl=naver"
+      },
+      {
+        "title": "“광주 무등산 평촌마을에서 반딧불이와 생태체험하자”",
+        "reports": 3,
+        "press": [
+          "nongmin.com",
+          "news.tf.co.kr",
+          "viva100.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "“광주 무등산 평촌마을에서 반딧불이와 생태체험하자”",
+            "press": "nongmin.com",
+            "link": "https://www.nongmin.com/article/20250909500426"
+          },
+          {
+            "title": "광주 북구, 무등산 평촌마을서 '반딧불이 생태체험' 운영",
+            "press": "news.tf.co.kr",
+            "link": "https://news.tf.co.kr/read/national/2241947.htm"
+          },
+          {
+            "title": "광주 북구, 평촌마을서 ‘반딧불이 생태체험’ 개최",
+            "press": "viva100.com",
+            "link": "https://www.viva100.com/article/20250909500464"
+          }
+        ],
+        "link": "https://www.nongmin.com/article/20250909500426"
+      },
+      {
+        "title": "원주시, 9월 안전점검의 날 맞이 산행 안전사고 예방 캠페인 전개",
+        "reports": 3,
+        "press": [
+          "shinailbo.co.kr",
+          "weeklytoday.com",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "원주시, 9월 안전점검의 날 맞이 산행 안전사고 예방 캠페인 전개",
+            "press": "shinailbo.co.kr",
+            "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2111604"
+          },
+          {
+            "title": "[위클리오늘] 원주시, 9월 안전점검의 날 맞이 산행 안전사고 예방 캠페...",
+            "press": "weeklytoday.com",
+            "link": "http://www.weeklytoday.com/news/articleView.html?idxno=722485"
+          },
+          {
+            "title": "원주시, 구룡사서 산행 안전사고 예방 캠페인 전개",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250905_0003316805"
+          }
+        ],
+        "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2111604"
+      },
+      {
+        "title": "대구행복진흥원, 청소년 20명과 함께 백두대간에서 제1차 연합 탐험활동...",
+        "reports": 3,
+        "press": [
+          "gukjenews.com",
+          "news.bbsi.co.kr",
+          "inews24.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "대구행복진흥원, 청소년 20명과 함께 백두대간에서 제1차 연합 탐험활동...",
+            "press": "gukjenews.com",
+            "link": "https://www.gukjenews.com/news/articleView.html?idxno=3369304"
+          },
+          {
+            "title": "대구행복진흥원, 청소년 20명과 백두대간 연합 탐험활동",
+            "press": "news.bbsi.co.kr",
+            "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4045424"
+          },
+          {
+            "title": "대구행복진흥원, 청소년 백두대간 연합 탐험활동 실시",
+            "press": "inews24.com",
+            "link": "http://www.inews24.com/view/1882627"
+          }
+        ],
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3369304"
+      },
+      {
+        "title": "가야산국립공원, 성수기 무료 셔틀버스 운행",
+        "reports": 3,
+        "press": [
+          "idaegu.co.kr",
+          "newsgn.com",
+          "seongjuro.co.kr"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "가야산국립공원, 성수기 무료 셔틀버스 운행",
+            "press": "idaegu.co.kr",
+            "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=522128"
+          },
+          {
+            "title": "가야산국립공원, 성수기 주말무료 셔틀버스 운영",
+            "press": "newsgn.com",
+            "link": "https://www.newsgn.com/news/articleView.html?idxno=501392"
+          },
+          {
+            "title": "가야산공원, 성수기 주말 무료 셔틀버스 운영",
+            "press": "seongjuro.co.kr",
+            "link": "http://www.seongjuro.co.kr/news/view.php?idx=58118"
+          }
+        ],
+        "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=522128"
+      },
+      {
+        "title": "대낮 무등산에서 음주운전하다 가로수 '쾅'...30대 입건",
+        "reports": 3,
+        "press": [
+          "ikbc.co.kr",
+          "namdonews.com",
+          "newsis.com"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "대낮 무등산에서 음주운전하다 가로수 '쾅'...30대 입건",
+            "press": "ikbc.co.kr",
+            "link": "https://www.ikbc.co.kr/article/view/kbc202509030043"
+          },
+          {
+            "title": "광주 무등산서 낮술 음주운전…가로수 들이받은 30대 입건",
+            "press": "namdonews.com",
+            "link": "http://www.namdonews.com/news/articleView.html?idxno=831755"
+          },
+          {
+            "title": "낮술 음주운전 도중 가로수 들이받은 30대 적발",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250903_0003313857"
+          }
+        ],
+        "link": "https://www.ikbc.co.kr/article/view/kbc202509030043"
+      },
+      {
+        "title": "[포토뉴스] 2025 오대산 전나무 숲길 맨발 힐링 트래킹",
+        "reports": 3,
+        "press": [
+          "kwnews.co.kr",
+          "news1.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "[포토뉴스] 2025 오대산 전나무 숲길 맨발 힐링 트래킹",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/page/view/2025092015055858683"
+          },
+          {
+            "title": "맨발의 자유로 천년 전나무 숲길을 … ‘2025 오대산 맨발 힐링 트레킹...",
+            "press": "kwnews.co.kr",
+            "link": "https://www.kwnews.co.kr/page/view/2025092001060172114"
+          },
+          {
+            "title": "\"맨발로 오대산 전나무 숲길 걸어요\"",
+            "press": "news1.kr",
+            "link": "https://www.news1.kr/local/kangwon/5916098"
+          }
+        ],
+        "link": "https://www.kwnews.co.kr/page/view/2025092015055858683"
+      },
+      {
+        "title": "정읍소방서, 가을철 구조대원 산악구조훈련",
+        "reports": 2,
+        "press": [
+          "domin.co.kr",
+          "sjbnews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "정읍소방서, 가을철 구조대원 산악구조훈련",
+            "press": "domin.co.kr",
+            "link": "http://www.domin.co.kr/news/articleView.html?idxno=1530829"
+          },
+          {
+            "title": "정읍소방서, 가을철 강도 높은 구조 대원 산악 구조 훈련",
+            "press": "sjbnews.com",
+            "link": "http://sjbnews.com/news/news.php?number=861183"
+          }
+        ],
+        "link": "http://www.domin.co.kr/news/articleView.html?idxno=1530829"
+      },
+      {
+        "title": "정읍, 단풍·구절초로 빛나는 가을… 체류형 관광지 도약",
+        "reports": 2,
+        "press": [
+          "newscj.com",
+          "sjbnews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "정읍, 단풍·구절초로 빛나는 가을… 체류형 관광지 도약",
+            "press": "newscj.com",
+            "link": "https://www.newscj.com/news/articleView.html?idxno=3323404"
+          },
+          {
+            "title": "단풍과 구절초, 두 가지 색으로 물든 가을을 걷다",
+            "press": "sjbnews.com",
+            "link": "http://sjbnews.com/news/news.php?number=861023"
+          }
+        ],
+        "link": "https://www.newscj.com/news/articleView.html?idxno=3323404"
+      },
+      {
+        "title": "고창군노인복지관, '행복나눔 힐링데이'",
+        "reports": 2,
+        "press": [
+          "ibulgyo.com",
+          "hyunbulnews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "고창군노인복지관, '행복나눔 힐링데이'",
+            "press": "ibulgyo.com",
+            "link": "http://www.ibulgyo.com/news/articleView.html?idxno=431097"
+          },
+          {
+            "title": "고창군노인복지관, 행복나눔 힐링데이 개최",
+            "press": "hyunbulnews.com",
+            "link": "https://www.hyunbulnews.com/news/articleView.html?idxno=421244"
+          }
+        ],
+        "link": "http://www.ibulgyo.com/news/articleView.html?idxno=431097"
+      },
+      {
+        "title": "여수해경·고흥군 합동 해안방제훈련[영상]",
+        "reports": 2,
+        "press": [
+          "nocutnews.co.kr",
+          "newscj.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "여수해경·고흥군 합동 해안방제훈련[영상]",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6405997?utm_source=naver&utm_medium=article&utm_campaign=20250925035255"
+          },
+          {
+            "title": "여수해경, 고흥군 합동 해안방제훈련 실시",
+            "press": "newscj.com",
+            "link": "https://www.newscj.com/news/articleView.html?idxno=3321812"
+          }
+        ],
+        "link": "https://www.nocutnews.co.kr/news/6405997?utm_source=naver&utm_medium=article&utm_campaign=20250925035255"
+      },
+      {
+        "title": "[위클리오늘] 양주시, 2025년 장흥면 우이령길 행복걷기 대회 성황리 개...",
+        "reports": 2,
+        "press": [
+          "weeklytoday.com",
+          "dailian.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "[위클리오늘] 양주시, 2025년 장흥면 우이령길 행복걷기 대회 성황리 개...",
+            "press": "weeklytoday.com",
+            "link": "http://www.weeklytoday.com/news/articleView.html?idxno=727325"
+          },
+          {
+            "title": "양주시, 2025년 장흥면 우이령길 행복걷기 대회 성황리 개최",
+            "press": "dailian.co.kr",
+            "link": "https://www.dailian.co.kr/news/view/1553259/?sc=Naver"
+          }
+        ],
+        "link": "http://www.weeklytoday.com/news/articleView.html?idxno=727325"
+      },
+      {
+        "title": "오대산국립공원 지정 50주년 기념 학술포럼 열려",
+        "reports": 2,
+        "press": [
+          "kado.net",
+          "newspim.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "오대산국립공원 지정 50주년 기념 학술포럼 열려",
+            "press": "kado.net",
+            "link": "https://www.kado.net/news/articleView.html?idxno=2007144"
+          },
+          {
+            "title": "오대산국립공원, 국립공원 지정 50주년 기념 학술포럼 개최",
+            "press": "newspim.com",
+            "link": "https://www.newspim.com/news/view/20250922000915"
+          }
+        ],
+        "link": "https://www.kado.net/news/articleView.html?idxno=2007144"
+      },
+      {
+        "title": "한화, 300억 저비용 인수로 프리미엄 리조트 경쟁 돌입",
+        "reports": 2,
+        "press": [
+          "newsway.co.kr",
+          "dailysmart.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "한화, 300억 저비용 인수로 프리미엄 리조트 경쟁 돌입",
+            "press": "newsway.co.kr",
+            "link": "https://www.newsway.co.kr/news/view?ud=2025092315560530866"
+          },
+          {
+            "title": "\"저비용 인수 가치 극대화\"...한화, '안토'로 하이엔드 리조트 정조준",
+            "press": "dailysmart.co.kr",
+            "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=113686"
+          }
+        ],
+        "link": "https://www.newsway.co.kr/news/view?ud=2025092315560530866"
+      },
+      {
+        "title": "정읍 달하다리, 정읍9경 중 6곳 벽화 조성…LED조명 보강",
+        "reports": 2,
+        "press": [
+          "newsis.com",
+          "jeollailbo.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "정읍 달하다리, 정읍9경 중 6곳 벽화 조성…LED조명 보강",
+            "press": "newsis.com",
+            "link": "https://www.newsis.com/view/NISX20250922_0003339228"
+          },
+          {
+            "title": "정읍 달하다리, 벽화·조명 입고 '시민 품으로'",
+            "press": "jeollailbo.com",
+            "link": "http://www.jeollailbo.com/news/articleView.html?idxno=779141"
+          }
+        ],
+        "link": "https://www.newsis.com/view/NISX20250922_0003339228"
+      },
+      {
+        "title": "주왕산 깃대종 둥근잎꿩의비름 개화…'자연의 회복력 상징'",
+        "reports": 2,
+        "press": [
+          "imaeil.com",
+          "dkilbo.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "주왕산 깃대종 둥근잎꿩의비름 개화…'자연의 회복력 상징'",
+            "press": "imaeil.com",
+            "link": "https://www.imaeil.com/page/view/2025092217074063779"
+          },
+          {
+            "title": "산불 이겨낸 인내의 꽃, 주왕산 깃대종 둥근잎꿩의비름 개화",
+            "press": "dkilbo.com",
+            "link": "https://www.dkilbo.com/news/articleView.html?idxno=514714"
+          }
+        ],
+        "link": "https://www.imaeil.com/page/view/2025092217074063779"
+      },
+      {
+        "title": "완도 날씨 온화, 푸른 바다와 숲이 어우러진 휴식",
+        "reports": 2,
+        "press": [
+          "topstarnews.net",
+          "joongangenews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "완도 날씨 온화, 푸른 바다와 숲이 어우러진 휴식",
+            "press": "topstarnews.net",
+            "link": "https://www.topstarnews.net/news/articleView.html?idxno=15814252"
+          },
+          {
+            "title": "완도 가볼 만한 곳, 푸른 바다와 역사가 어우러진 섬 여행",
+            "press": "joongangenews.com",
+            "link": "https://www.joongangenews.com/news/articleView.html?idxno=446766"
+          }
+        ],
+        "link": "https://www.topstarnews.net/news/articleView.html?idxno=15814252"
+      },
+      {
+        "title": "청송 주왕산 깃대종 '둥근잎꿩의비름' 개화",
+        "reports": 2,
+        "press": [
+          "kbmaeil.com",
+          "kyongbuk.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "청송 주왕산 깃대종 '둥근잎꿩의비름' 개화",
+            "press": "kbmaeil.com",
+            "link": "https://www.kbmaeil.com/article/20250921500259"
+          },
+          {
+            "title": "주왕산 깃대종 '둥근잎꿩의비름', 산불 피해 딛고 피어난 회복의 꽃",
+            "press": "kyongbuk.co.kr",
+            "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4052464"
+          }
+        ],
+        "link": "https://www.kbmaeil.com/article/20250921500259"
+      },
+      {
+        "title": "무등산국립공원, '안전사고 연구 워크숍' 개최",
+        "reports": 2,
+        "press": [
+          "namdonews.com",
+          "jndn.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "무등산국립공원, '안전사고 연구 워크숍' 개최",
+            "press": "namdonews.com",
+            "link": "https://www.namdonews.com/news/articleView.html?idxno=833703"
+          },
+          {
+            "title": "국립공원 안전사고 연구 워크숍 성황",
+            "press": "jndn.com",
+            "link": "http://www.jndn.com/article.php?aid=1758188081417984011"
+          }
+        ],
+        "link": "https://www.namdonews.com/news/articleView.html?idxno=833703"
       }
     ]
   },
@@ -2899,6 +3974,646 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtVnNZSVJwZEpNWk9SX1FnTEU1Z2ZpTGNfalhmZ0tnQnV4ZGJ5S21Qd1ExTnYwVTNHRFR5bWNjNTFZckM2dTZWU2ZRWWxaQnhROURvbVI0M3BJYnJBYzVBQjdhM1ZjU2dkNzI4dFRzbGlsaHVYblYtdFdwakg?oc=5"
+      },
+      {
+        "title": "인간이 떠난 자리에 야생이 돌아온다…'리와일딩 선언'",
+        "reports": 1,
+        "press": [
+          "nocutnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "인간이 떠난 자리에 야생이 돌아온다…'리와일딩 선언'",
+            "press": "nocutnews.co.kr",
+            "link": "https://www.nocutnews.co.kr/news/6407047?utm_source=naver&utm_medium=article&utm_campaign=20250928110741"
+          }
+        ],
+        "link": "https://www.nocutnews.co.kr/news/6407047?utm_source=naver&utm_medium=article&utm_campaign=20250928110741"
+      },
+      {
+        "title": "자전거로 달린 5646㎞… “고난은 비전 되고 신앙은 깊어졌다”",
+        "reports": 1,
+        "press": [
+          "kmib.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "자전거로 달린 5646㎞… “고난은 비전 되고 신앙은 깊어졌다”",
+            "press": "kmib.co.kr",
+            "link": "https://www.kmib.co.kr/article/view.asp?arcid=1758598100&code=23111111&cp=nv"
+          }
+        ],
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1758598100&code=23111111&cp=nv"
+      },
+      {
+        "title": "[잠깐 이 저자] 생태계 살리려면 자연에서 손을 떼라",
+        "reports": 1,
+        "press": [
+          "chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[잠깐 이 저자] 생태계 살리려면 자연에서 손을 떼라",
+            "press": "chosun.com",
+            "link": "https://www.chosun.com/culture-life/book/2025/09/27/YJKHQPB5WJAOTMQ2SLVBXCJ6GY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+          }
+        ],
+        "link": "https://www.chosun.com/culture-life/book/2025/09/27/YJKHQPB5WJAOTMQ2SLVBXCJ6GY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+      },
+      {
+        "title": "Infernal nightmare rages on at Etosha as safety concerns raised over tourists",
+        "reports": 1,
+        "press": [
+          "Informanté"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Infernal nightmare rages on at Etosha as safety concerns raised over tourists",
+            "press": "Informanté",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOblFUTmZXcGpUeE0zWXNUS2VpUHZsSzhfY0pPUk9tVkctREtIU24tSHE1TkwzbFFfRVVwVmJ0eFFtWkw0amllV0kxdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOblFUTmZXcGpUeE0zWXNUS2VpUHZsSzhfY0pPUk9tVkctREtIU24tSHE1TkwzbFFfRVVwVmJ0eFFtWkw0amllV0kxdw?oc=5"
+      },
+      {
+        "title": "Etosha fire blamed on environment ministry being unprepared - The Namibian -",
+        "reports": 1,
+        "press": [
+          "The Namibian -"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Etosha fire blamed on environment ministry being unprepared - The Namibian -",
+            "press": "The Namibian -",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQWVDNTIxVnN0cE5zS1hhMTIxMnFsOVJSamhLWUM3Tk1NTW9XZU9pNW5MNUNnRjM4YUFMTU9LMFZfRklOS2RqaGlYOHJzMWQwUl81RFc1SzJXNUJiejFqVWlDSGlNbVQyU29pY0ZXVTEtN0tKM0pRM1ByXzhmOW83UDVVdk5NMjRmUmluOV9ENy0tQQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQWVDNTIxVnN0cE5zS1hhMTIxMnFsOVJSamhLWUM3Tk1NTW9XZU9pNW5MNUNnRjM4YUFMTU9LMFZfRklOS2RqaGlYOHJzMWQwUl81RFc1SzJXNUJiejFqVWlDSGlNbVQyU29pY0ZXVTEtN0tKM0pRM1ByXzhmOW83UDVVdk5NMjRmUmluOV9ENy0tQQ?oc=5"
+      },
+      {
+        "title": "Blue-green algae warning at Eryri's Llyn Tegid",
+        "reports": 1,
+        "press": [
+          "BBC"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Blue-green algae warning at Eryri's Llyn Tegid",
+            "press": "BBC",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGeFlUeDEzb2lpaGlraGFGNmNKRlFHamoxYTN1bHBBS3ZQZHRWbW1qeGM2STdpb284ZUgwNlJGZTJqOEpPUy1YdGttbktVazZUeEs0S0FLMjZFcEg2?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGeFlUeDEzb2lpaGlraGFGNmNKRlFHamoxYTN1bHBBS3ZQZHRWbW1qeGM2STdpb284ZUgwNlJGZTJqOEpPUy1YdGttbktVazZUeEs0S0FLMjZFcEg2?oc=5"
+      },
+      {
+        "title": "은평구의회, 다음 달 튀르키예로 공무국외출장",
+        "reports": 1,
+        "press": [
+          "news.lghellovision.net"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "은평구의회, 다음 달 튀르키예로 공무국외출장",
+            "press": "news.lghellovision.net",
+            "link": "http://news.lghellovision.net/news/articleView.html?idxno=521251"
+          }
+        ],
+        "link": "http://news.lghellovision.net/news/articleView.html?idxno=521251"
+      },
+      {
+        "title": "돌아오라! 야생이여! [.txt]",
+        "reports": 1,
+        "press": [
+          "hani.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "돌아오라! 야생이여! [.txt]",
+            "press": "hani.co.kr",
+            "link": "https://www.hani.co.kr/arti/culture/book/1220831.html"
+          }
+        ],
+        "link": "https://www.hani.co.kr/arti/culture/book/1220831.html"
+      },
+      {
+        "title": "ETOSHA FIRE RAGES ON",
+        "reports": 1,
+        "press": [
+          "Informanté"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "ETOSHA FIRE RAGES ON",
+            "press": "Informanté",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBES3Y5V3dGQ0FybEZNVy1ZdW5DMkpEeHNJOVRDQ0Rkc01IczZQOFBjMzJDMWNOczVRYWU3dzV0MjQ1ckJPTm9iNFRrdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBES3Y5V3dGQ0FybEZNVy1ZdW5DMkpEeHNJOVRDQ0Rkc01IczZQOFBjMzJDMWNOczVRYWU3dzV0MjQ1ckJPTm9iNFRrdw?oc=5"
+      },
+      {
+        "title": "Spain’s Doñana National Park Offers A Glimpse Into Europe’s Wild Past",
+        "reports": 1,
+        "press": [
+          "Forbes"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Spain’s Doñana National Park Offers A Glimpse Into Europe’s Wild Past",
+            "press": "Forbes",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbHVQVHpCSjhEaURtWFIybDF1dlJienFDblNhZ1VTeFdudFpBU05SRjFvRkFPc0pIc2N5RkZDeUlIMU5Ea0lyMk5fTXlfWlBKRFJ4OVl5eDNpd21fNXNibWhKZTVUVFd1X204MVNjU01HeFY3ZVNOdnd2LUI4NkxWZU9scjNhR1NTM3dJbE12aldscWUyREJHd1ZzN3NXQXZqUEJJbGZhRms4VlBlcDJwdEtxQ29zLVRrem03Mw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbHVQVHpCSjhEaURtWFIybDF1dlJienFDblNhZ1VTeFdudFpBU05SRjFvRkFPc0pIc2N5RkZDeUlIMU5Ea0lyMk5fTXlfWlBKRFJ4OVl5eDNpd21fNXNibWhKZTVUVFd1X204MVNjU01HeFY3ZVNOdnd2LUI4NkxWZU9scjNhR1NTM3dJbE12aldscWUyREJHd1ZzN3NXQXZqUEJJbGZhRms4VlBlcDJwdEtxQ29zLVRrem03Mw?oc=5"
+      },
+      {
+        "title": "Last chance for truly seeing Crater Lake",
+        "reports": 1,
+        "press": [
+          "heraldandnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Last chance for truly seeing Crater Lake",
+            "press": "heraldandnews.com",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX3Z2ODJVd3Z3TzFSbjVMQmhLaEN2N0MxR25aamY4N2IyVkhYQ0tqR0Y4Wk1oQ3I5cTRSZnU2R0IwbGZGZ3F2VVNqdUNWYnd5N1lndUhhNnk1aWkzYlQxdVZHVWZMY0tzOVIxNFVBcTRXM29LNHF6UjBsalpYWnphaEJBbFVyU1BsMXVJWVRHM3UzeWtMZnNxUlV5Z2VjelEzb3JIZG5uSmpobUZicEdkTHl4OF9wUkxXQVNnQW1BdVUwZW8?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX3Z2ODJVd3Z3TzFSbjVMQmhLaEN2N0MxR25aamY4N2IyVkhYQ0tqR0Y4Wk1oQ3I5cTRSZnU2R0IwbGZGZ3F2VVNqdUNWYnd5N1lndUhhNnk1aWkzYlQxdVZHVWZMY0tzOVIxNFVBcTRXM29LNHF6UjBsalpYWnphaEJBbFVyU1BsMXVJWVRHM3UzeWtMZnNxUlV5Z2VjelEzb3JIZG5uSmpobUZicEdkTHl4OF9wUkxXQVNnQW1BdVUwZW8?oc=5"
+      },
+      {
+        "title": "Earth from Space: Northeast Greenland National Park",
+        "reports": 1,
+        "press": [
+          "European Space Agency"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Earth from Space: Northeast Greenland National Park",
+            "press": "European Space Agency",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaVkyQU5ZY3A1aVJZbnRlVUFXcGs0ZFZDWUNrVjZvT0ZzWTU1cUNkYUcza3BFNm5yemFTSXc4YkM3QXZGOG5zVnZMRkc5UDVndENyS2Ntd0hUQXdBdFdXTUY4X24zQVpKQlVtU1hfbDNIM2JHQW9kLXV0X2RNQU83OWp5anlXV3BWRWd3d09tVXZWRWFkOHBjX2U0dUxZQlpwaVE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaVkyQU5ZY3A1aVJZbnRlVUFXcGs0ZFZDWUNrVjZvT0ZzWTU1cUNkYUcza3BFNm5yemFTSXc4YkM3QXZGOG5zVnZMRkc5UDVndENyS2Ntd0hUQXdBdFdXTUY4X24zQVpKQlVtU1hfbDNIM2JHQW9kLXV0X2RNQU83OWp5anlXV3BWRWd3d09tVXZWRWFkOHBjX2U0dUxZQlpwaVE?oc=5"
+      },
+      {
+        "title": "Frustration mounts as iconic Taman Negara canopy walkway remains closed",
+        "reports": 1,
+        "press": [
+          "NST Online"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Frustration mounts as iconic Taman Negara canopy walkway remains closed",
+            "press": "NST Online",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLXR6a1BERW5VdThvalZfbl9pNUR1Qy1Demt4NmtuNmx2UTAwcnh0QlZSRE9OT2tMaVc4VE9BZzZTNVQ1WWZ4ZnliNkpDMXNNak5YcEJoYWZBMkRTWmYxT1QtdU1jQkxISWkxSWxQVXc2WGJuQ2lwQlhuSjJrQUplRV9KaEFPUTk4bl9pOVM1YWtYMFBrdGpGeHprc1ZzYkRUb1VkcFJQUTNPWHBjY1NfYXNzcWo0YXJsaFo3R1BB0gHDAUFVX3lxTFB6SEVEcTVJMEpiUzhOTGt3VU41S1gtZnhVT2pRYTRLN0tsV0JkV3EydVRfV21KbTB5WEQzalhJd2xqS0VORlVfd0lhSGFlY0wybzhTV0RfNmZnQWliY2xma2l1NWFQb1lrVkVLd0MxRUxEUG5MLUxwUktzX2U5NmJUVXRuajVCbVdTTlMzdjNoNHlETkdsTkI3Y1laSEs4XzcwU2ZDT2RidkpNSEV5WDZUck1BMkp2YWRrRGdZVGRhWHdkZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLXR6a1BERW5VdThvalZfbl9pNUR1Qy1Demt4NmtuNmx2UTAwcnh0QlZSRE9OT2tMaVc4VE9BZzZTNVQ1WWZ4ZnliNkpDMXNNak5YcEJoYWZBMkRTWmYxT1QtdU1jQkxISWkxSWxQVXc2WGJuQ2lwQlhuSjJrQUplRV9KaEFPUTk4bl9pOVM1YWtYMFBrdGpGeHprc1ZzYkRUb1VkcFJQUTNPWHBjY1NfYXNzcWo0YXJsaFo3R1BB0gHDAUFVX3lxTFB6SEVEcTVJMEpiUzhOTGt3VU41S1gtZnhVT2pRYTRLN0tsV0JkV3EydVRfV21KbTB5WEQzalhJd2xqS0VORlVfd0lhSGFlY0wybzhTV0RfNmZnQWliY2xma2l1NWFQb1lrVkVLd0MxRUxEUG5MLUxwUktzX2U5NmJUVXRuajVCbVdTTlMzdjNoNHlETkdsTkI3Y1laSEs4XzcwU2ZDT2RidkpNSEV5WDZUck1BMkp2YWRrRGdZVGRhWHdkZw?oc=5"
+      },
+      {
+        "title": "Assemblyman steps in to mediate Taman Negara canopy walk dispute",
+        "reports": 1,
+        "press": [
+          "NST Online"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Assemblyman steps in to mediate Taman Negara canopy walk dispute",
+            "press": "NST Online",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1NJY3MwN1drTTl3YURaSEVZeHN0SUZxVzBENXlITjNobHBTVUpoZHY5MlJPamF2Z0hTZFZqNTc0NWxoY2lMVHNhdVZGU0UzVnUwVVVhVTVtRHB5ZURLZUp5NDJ3QUg2bHBvT0xvM0tNaVV2ZUdCMkdTTURDM1ljVjZ0X1gtOWZMRWxMRGRvVmRmWHBmeUpJU2hvX1dOWWlwSXZISWwxbjBmUDU2bndYcNIBtgFBVV95cUxPSVVNVk05d2ctWXhoTExtSG5fSy1KLTdDaWhCQVpLMGZuMGhHelFwY0NqYlNnWkduZmNzNDRoc1g5WEx6U3lxWmtmYWZQeThVQTFDUGlja2V4cDU3M3dqNC00d0pkc1hadGlYYmUtUUdObkJ6aXJ6aUUyZi1idFZfdi1uOXFLQ2lETERiSGJjaUVubDF3TXdnc2RSTnZXOTF4ZVpNNm1CWWhmOTVXS09tM0lRS0M3dw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1NJY3MwN1drTTl3YURaSEVZeHN0SUZxVzBENXlITjNobHBTVUpoZHY5MlJPamF2Z0hTZFZqNTc0NWxoY2lMVHNhdVZGU0UzVnUwVVVhVTVtRHB5ZURLZUp5NDJ3QUg2bHBvT0xvM0tNaVV2ZUdCMkdTTURDM1ljVjZ0X1gtOWZMRWxMRGRvVmRmWHBmeUpJU2hvX1dOWWlwSXZISWwxbjBmUDU2bndYcNIBtgFBVV95cUxPSVVNVk05d2ctWXhoTExtSG5fSy1KLTdDaWhCQVpLMGZuMGhHelFwY0NqYlNnWkduZmNzNDRoc1g5WEx6U3lxWmtmYWZQeThVQTFDUGlja2V4cDU3M3dqNC00d0pkc1hadGlYYmUtUUdObkJ6aXJ6aUUyZi1idFZfdi1uOXFLQ2lETERiSGJjaUVubDF3TXdnc2RSTnZXOTF4ZVpNNm1CWWhmOTVXS09tM0lRS0M3dw?oc=5"
+      },
+      {
+        "title": "문예살롱, 카리브해 크루즈 여행 주관",
+        "reports": 1,
+        "press": [
+          "okfashion.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "문예살롱, 카리브해 크루즈 여행 주관",
+            "press": "okfashion.co.kr",
+            "link": "http://okfashion.co.kr/detail.php?number=62791&thread=62r12"
+          }
+        ],
+        "link": "http://okfashion.co.kr/detail.php?number=62791&thread=62r12"
+      },
+      {
+        "title": "느리지만 깊이, 걷는 여행 #2",
+        "reports": 1,
+        "press": [
+          "woman.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "느리지만 깊이, 걷는 여행 #2",
+            "press": "woman.chosun.com",
+            "link": "http://woman.chosun.com/news/articleView.html?idxno=123174"
+          }
+        ],
+        "link": "http://woman.chosun.com/news/articleView.html?idxno=123174"
+      },
+      {
+        "title": "관광산업, 전자·조선산업 처럼 대접받을 길 이제야 열렸다",
+        "reports": 1,
+        "press": [
+          "biz.heraldcorp.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "관광산업, 전자·조선산업 처럼 대접받을 길 이제야 열렸다",
+            "press": "biz.heraldcorp.com",
+            "link": "https://biz.heraldcorp.com/article/10583752?ref=naver"
+          }
+        ],
+        "link": "https://biz.heraldcorp.com/article/10583752?ref=naver"
+      },
+      {
+        "title": "재야생화, 자연의 ‘예측 불가능성’을 받아들이라[책과 삶]",
+        "reports": 1,
+        "press": [
+          "khan.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "재야생화, 자연의 ‘예측 불가능성’을 받아들이라[책과 삶]",
+            "press": "khan.co.kr",
+            "link": "https://www.khan.co.kr/article/202509252013005"
+          }
+        ],
+        "link": "https://www.khan.co.kr/article/202509252013005"
+      },
+      {
+        "title": "Etosha wildfire destroys 1 000 hectares, suspected poaching fire sparks park emergency - The Namibian -",
+        "reports": 1,
+        "press": [
+          "The Namibian -"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Etosha wildfire destroys 1 000 hectares, suspected poaching fire sparks park emergency - The Namibian -",
+            "press": "The Namibian -",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDM2eTBNMzBIR0JmM0NwOVRpR1Q5NHBwdHZzLXpwUm1GOXJtYWhUejRoTDRFSWZYU1IwMFZGdlVXSTNOX3lJd3o2endfVjBYc3Q5R1UwTkZRYktpdnZtMlc1cS1GdmtRYk5QakIxZy00b3ozLXpPTEtMYWpKNC05MExlWExmelFJaUs3LTBTRl9iam5WZV9ybkMxdmNmSGVPTmFhZEtBTnB6SlVfbHlkYTBhRVg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVDM2eTBNMzBIR0JmM0NwOVRpR1Q5NHBwdHZzLXpwUm1GOXJtYWhUejRoTDRFSWZYU1IwMFZGdlVXSTNOX3lJd3o2endfVjBYc3Q5R1UwTkZRYktpdnZtMlc1cS1GdmtRYk5QakIxZy00b3ozLXpPTEtMYWpKNC05MExlWExmelFJaUs3LTBTRl9iam5WZV9ybkMxdmNmSGVPTmFhZEtBTnB6SlVfbHlkYTBhRVg?oc=5"
+      },
+      {
+        "title": "Iguaçu Falls and Surroundings Are Even Wilder on the Argentine Side",
+        "reports": 1,
+        "press": [
+          "Folha de S.Paulo"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Iguaçu Falls and Surroundings Are Even Wilder on the Argentine Side",
+            "press": "Folha de S.Paulo",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHp3V3liR1JwY0UyUGs1U0YtLTUzR0o4UlFvejk2YUNTVXlHel9hTDhrVFNLc2JrQ3JrTGh1UnhzNWlxQnVMWU42STZ3ZTVqeGFMc3V2U2d6VzhWd2RDRXZySWNXXzJKbUtGZVlmZ0FMVmNfeU1rZ0pJZmt1Zng3MDdHVnhIRWIyc2ZsVWxxRkZ3T2s3SDJRYWNubnhBM19SSktlRmkzdkMwOEU4VnhFTkg3eHdBWkNwRFBrYnZQWmt0MnRObmdyMjVsQ1R2dlRr0gHWAUFVX3lxTE5CT3ZrMTFuMXNKWGdQWnlrRndaZmE4QlotYXpCa1RGbXo0emxTSXVwS0hiSXVqUnZyQmJZNDdYN0tfNkkwYTV6R2VZOEVqaVZ5b3pyN2VRWEZOT1N2N3plUWdnUVY1cUhyTHM2ckFXR3c5N1JyWkFyRU9nWFNfQXpvZXZ2ZDVwUEZYc0hGRERVTUhLSk41WDV3TUVaanVRQllla3liank0T1JTd19lQ09fNUZjWU5QVERRQ1FlYkNaY1F4NkVnQ25GNm8zWGstNWhGeEtycUE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHp3V3liR1JwY0UyUGs1U0YtLTUzR0o4UlFvejk2YUNTVXlHel9hTDhrVFNLc2JrQ3JrTGh1UnhzNWlxQnVMWU42STZ3ZTVqeGFMc3V2U2d6VzhWd2RDRXZySWNXXzJKbUtGZVlmZ0FMVmNfeU1rZ0pJZmt1Zng3MDdHVnhIRWIyc2ZsVWxxRkZ3T2s3SDJRYWNubnhBM19SSktlRmkzdkMwOEU4VnhFTkg3eHdBWkNwRFBrYnZQWmt0MnRObmdyMjVsQ1R2dlRr0gHWAUFVX3lxTE5CT3ZrMTFuMXNKWGdQWnlrRndaZmE4QlotYXpCa1RGbXo0emxTSXVwS0hiSXVqUnZyQmJZNDdYN0tfNkkwYTV6R2VZOEVqaVZ5b3pyN2VRWEZOT1N2N3plUWdnUVY1cUhyTHM2ckFXR3c5N1JyWkFyRU9nWFNfQXpvZXZ2ZDVwUEZYc0hGRERVTUhLSk41WDV3TUVaanVRQllla3liank0T1JTd19lQ09fNUZjWU5QVERRQ1FlYkNaY1F4NkVnQ25GNm8zWGstNWhGeEtycUE?oc=5"
+      },
+      {
+        "title": "GEAR NEWS: Climbing Morocco's Jebel Toubkal in summer and winter - hiking the Toubkal Circuit",
+        "reports": 1,
+        "press": [
+          "UKHillwalking"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "GEAR NEWS: Climbing Morocco's Jebel Toubkal in summer and winter - hiking the Toubkal Circuit",
+            "press": "UKHillwalking",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelhuN2NnRDRsWHU0dk95XzFra29tbDI2T0dnX2VIM2ZtcnFDXzhTMHhzRlZaU0U1TjZReEU4ektSemFqZkZkX1VnZ2JZWExObkZFVTE0MVVyT2trRmJEM1ppTnhHcWROTVVEdmNHbUpsRWVyWUNudGJtaGRLWE11cUVJMXBrX0lzMXVYUTBaWU90Q0ROSl9VVjh4R0lFXzEzbVVtaUFLalBjOFRMRlo2VzUzbGxrdlZRVks1OWNSQmhoUEVMY1MwbVJmQmhrR2JOeHc0cjNFeVhxRTFMbzM0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelhuN2NnRDRsWHU0dk95XzFra29tbDI2T0dnX2VIM2ZtcnFDXzhTMHhzRlZaU0U1TjZReEU4ektSemFqZkZkX1VnZ2JZWExObkZFVTE0MVVyT2trRmJEM1ppTnhHcWROTVVEdmNHbUpsRWVyWUNudGJtaGRLWE11cUVJMXBrX0lzMXVYUTBaWU90Q0ROSl9VVjh4R0lFXzEzbVVtaUFLalBjOFRMRlo2VzUzbGxrdlZRVks1OWNSQmhoUEVMY1MwbVJmQmhrR2JOeHc0cjNFeVhxRTFMbzM0?oc=5"
+      },
+      {
+        "title": "리와일딩, 자연에 결정권 넘겨주기 [유레카]",
+        "reports": 1,
+        "press": [
+          "hani.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "리와일딩, 자연에 결정권 넘겨주기 [유레카]",
+            "press": "hani.co.kr",
+            "link": "https://www.hani.co.kr/arti/opinion/column/1220526.html"
+          }
+        ],
+        "link": "https://www.hani.co.kr/arti/opinion/column/1220526.html"
+      },
+      {
+        "title": "Etosha Heights Private Reserve - An Eco-Tourism and Conservation Success Story",
+        "reports": 1,
+        "press": [
+          "Atta Travel."
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Etosha Heights Private Reserve - An Eco-Tourism and Conservation Success Story",
+            "press": "Atta Travel.",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTVNRC1YVmR0ZFlJaTlWamRKUEwxUU5ZazgxY1R1MGI2YnJ5Y3lfRGtWMjhFUDBlQnVYRzZmbHg2bnY3OWcxVmhmeG40c3FveU5NOUd6aU5oQklxb1pNcFRNanZvUVVMLUNKTlE0b0gwWHJiOTQ4VlpfX3JmUGcyN0hzR2JjSUN1ejFqeU5Qd1pjcUplWGlNOS1laTBUZGNac1JyUzVWV21HTzJUSTFWSWNB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTVNRC1YVmR0ZFlJaTlWamRKUEwxUU5ZazgxY1R1MGI2YnJ5Y3lfRGtWMjhFUDBlQnVYRzZmbHg2bnY3OWcxVmhmeG40c3FveU5NOUd6aU5oQklxb1pNcFRNanZvUVVMLUNKTlE0b0gwWHJiOTQ4VlpfX3JmUGcyN0hzR2JjSUN1ejFqeU5Qd1pjcUplWGlNOS1laTBUZGNac1JyUzVWV21HTzJUSTFWSWNB?oc=5"
+      },
+      {
+        "title": "Ocean robots in the Arctic: Studies in Northeast Greenland",
+        "reports": 1,
+        "press": [
+          "Oceanographic Magazine"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Ocean robots in the Arctic: Studies in Northeast Greenland",
+            "press": "Oceanographic Magazine",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNXIxcDFpVFZZY0hrS0ZWSDZIbmQ1c1RHM2JnYUhNR0VHWW9EdVdGdzcyU2kyMXJfY0p0alBGRmJCbGxfT1JGM0plaEpHbjdoeGNiZW1Od0ZRYzh2UUxUbDVWMFAxOUNUOWpjamZnSmdPZjVvcGxrUFctSzdJNjhIU2tOT1J1czlzNWI1MXhLanlFUzJKNURNa2s0YWViNlV2UmVj?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNXIxcDFpVFZZY0hrS0ZWSDZIbmQ1c1RHM2JnYUhNR0VHWW9EdVdGdzcyU2kyMXJfY0p0alBGRmJCbGxfT1JGM0plaEpHbjdoeGNiZW1Od0ZRYzh2UUxUbDVWMFAxOUNUOWpjamZnSmdPZjVvcGxrUFctSzdJNjhIU2tOT1J1czlzNWI1MXhLanlFUzJKNURNa2s0YWViNlV2UmVj?oc=5"
+      },
+      {
+        "title": "[여행소식] 미국 자이언 국립공원, '레드 에메랄드 어워드' 수상",
+        "reports": 1,
+        "press": [
+          "yna.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[여행소식] 미국 자이언 국립공원, '레드 에메랄드 어워드' 수상",
+            "press": "yna.co.kr",
+            "link": "https://www.yna.co.kr/view/AKR20250923127300542?input=1195m"
+          }
+        ],
+        "link": "https://www.yna.co.kr/view/AKR20250923127300542?input=1195m"
+      },
+      {
+        "title": "[그럭저럭 어른 행세] 호기심 많은 나에게 딱 맞는 여행 메이트가 생겼...",
+        "reports": 1,
+        "press": [
+          "ohmynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[그럭저럭 어른 행세] 호기심 많은 나에게 딱 맞는 여행 메이트가 생겼...",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003167717&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          }
+        ],
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003167717&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      },
+      {
+        "title": "매년 수백만 명 찾는 '유타 자이언 국립공원' 지속가능한 관광 모델 선...",
+        "reports": 1,
+        "press": [
+          "tournews21.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "매년 수백만 명 찾는 '유타 자이언 국립공원' 지속가능한 관광 모델 선...",
+            "press": "tournews21.com",
+            "link": "https://www.tournews21.com/news/articleView.html?idxno=116332"
+          }
+        ],
+        "link": "https://www.tournews21.com/news/articleView.html?idxno=116332"
+      },
+      {
+        "title": "천국과 지옥 공존하는 두 얼굴의 국립공원 [아이슬란드 싱벨리어 국립공...",
+        "reports": 1,
+        "press": [
+          "san.chosun.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "천국과 지옥 공존하는 두 얼굴의 국립공원 [아이슬란드 싱벨리어 국립공...",
+            "press": "san.chosun.com",
+            "link": "http://san.chosun.com/news/articleView.html?idxno=25058"
+          }
+        ],
+        "link": "http://san.chosun.com/news/articleView.html?idxno=25058"
+      },
+      {
+        "title": "Photography In The National Parks: Favorite Spots At Mount Rainier’s Sunrise Area",
+        "reports": 1,
+        "press": [
+          "National Parks Traveler"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Photography In The National Parks: Favorite Spots At Mount Rainier’s Sunrise Area",
+            "press": "National Parks Traveler",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkxpalhSMjZuMjFReG9qSlRaeXZaZ0czSVpzdUVjM1oxUEN0VmNaRmxLRzE4VGU3SVhITGE3djhtV203SkowT25mazRWaDg2d1lmRGVKZmd1NGEyeXlxbncyQXlCTHhXVEZsd3ZINUxpVjQ5TjJ6T28zNjlHdUJEdWxhWmV5dlpsY1Zld1pRWUNMZVU4dGEzWGd1ZjRUNDV5eFBxWDhwenlQTlE1WWVaSGNuNE41UQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkxpalhSMjZuMjFReG9qSlRaeXZaZ0czSVpzdUVjM1oxUEN0VmNaRmxLRzE4VGU3SVhITGE3djhtV203SkowT25mazRWaDg2d1lmRGVKZmd1NGEyeXlxbncyQXlCTHhXVEZsd3ZINUxpVjQ5TjJ6T28zNjlHdUJEdWxhWmV5dlpsY1Zld1pRWUNMZVU4dGEzWGd1ZjRUNDV5eFBxWDhwenlQTlE1WWVaSGNuNE41UQ?oc=5"
+      },
+      {
+        "title": "선진국 국립공원엔 절대 금지된 것, 왜 설악산에 설치하려 할까",
+        "reports": 1,
+        "press": [
+          "ohmynews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "선진국 국립공원엔 절대 금지된 것, 왜 설악산에 설치하려 할까",
+            "press": "ohmynews.com",
+            "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003167341&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+          }
+        ],
+        "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003167341&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+      },
+      {
+        "title": "금시세(금값) 22일 1.01%↑",
+        "reports": 1,
+        "press": [
+          "bntnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "금시세(금값) 22일 1.01%↑",
+            "press": "bntnews.co.kr",
+            "link": "https://www.bntnews.co.kr/article/view/bnt202509220071"
+          }
+        ],
+        "link": "https://www.bntnews.co.kr/article/view/bnt202509220071"
+      },
+      {
+        "title": "전년 동기 대비 예약률 250% 증가한 여행 상품의 인기 비결 살펴보니",
+        "reports": 1,
+        "press": [
+          "mk.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "전년 동기 대비 예약률 250% 증가한 여행 상품의 인기 비결 살펴보니",
+            "press": "mk.co.kr",
+            "link": "https://www.mk.co.kr/article/11425613"
+          }
+        ],
+        "link": "https://www.mk.co.kr/article/11425613"
+      },
+      {
+        "title": "[Today is] 멸종 위기에 놓인 코뿔소를 위한 날···유일한 천적은 '인간...",
+        "reports": 1,
+        "press": [
+          "todaykorea.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[Today is] 멸종 위기에 놓인 코뿔소를 위한 날···유일한 천적은 '인간...",
+            "press": "todaykorea.co.kr",
+            "link": "http://www.todaykorea.co.kr/news/articleView.html?idxno=334722"
+          }
+        ],
+        "link": "http://www.todaykorea.co.kr/news/articleView.html?idxno=334722"
+      },
+      {
+        "title": "[오늘의 세계] 벨기에, 여름 내 잘자라 '나무들이 작품으로'",
+        "reports": 1,
+        "press": [
+          "obsnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[오늘의 세계] 벨기에, 여름 내 잘자라 '나무들이 작품으로'",
+            "press": "obsnews.co.kr",
+            "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1498223"
+          }
+        ],
+        "link": "https://www.obsnews.co.kr/news/articleView.html?idxno=1498223"
+      },
+      {
+        "title": "Here's when you can visit Crater Lake National Park in Oregon for free in September",
+        "reports": 1,
+        "press": [
+          "Statesman Journal"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Here's when you can visit Crater Lake National Park in Oregon for free in September",
+            "press": "Statesman Journal",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcGVMVFNrOUNPVHpHWEFZaHFnR1JFLXdKMW8tQnBiWE16Q0doMElzTXFjc0FnRk8xMlViQ3FuNnJfVGJESXZsdEZiZFpRY2ZVUTlRZVZwa1l1RTBsY1BmZXVySWoxbC04NkNSblNGNEFrT2NFTFJIb2Q5Y01qNTZIUUtNY18zbmJtNnhuNFA5cjNvMUw3bEZVaXZsX09PdGN3Z3VMVHBnSnVyRXlOOFJsNzRXdlN2cldCTVhWekM3OWFibFRvcVdpSFNEUHo5M0E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcGVMVFNrOUNPVHpHWEFZaHFnR1JFLXdKMW8tQnBiWE16Q0doMElzTXFjc0FnRk8xMlViQ3FuNnJfVGJESXZsdEZiZFpRY2ZVUTlRZVZwa1l1RTBsY1BmZXVySWoxbC04NkNSblNGNEFrT2NFTFJIb2Q5Y01qNTZIUUtNY18zbmJtNnhuNFA5cjNvMUw3bEZVaXZsX09PdGN3Z3VMVHBnSnVyRXlOOFJsNzRXdlN2cldCTVhWekM3OWFibFRvcVdpSFNEUHo5M0E?oc=5"
+      },
+      {
+        "title": "INTPA - Is Nairobi National Park under threat from a new railway?",
+        "reports": 1,
+        "press": [
+          "ec.europa.eu"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "INTPA - Is Nairobi National Park under threat from a new railway?",
+            "press": "ec.europa.eu",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zMzFtdDd5eWlndjBQUkNkcXJLNmlrbE5pT0lBSmwwVVZMTjNUQUNNcUE1RUEtVHNUQkotcTVpSUNyTTI1clFPWmhnNk1wOTZSRDlORF83NWtHTnI5Tk9HT01oc1lZdGpqY2c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zMzFtdDd5eWlndjBQUkNkcXJLNmlrbE5pT0lBSmwwVVZMTjNUQUNNcUE1RUEtVHNUQkotcTVpSUNyTTI1clFPWmhnNk1wOTZSRDlORF83NWtHTnI5Tk9HT01oc1lZdGpqY2c?oc=5"
+      },
+      {
+        "title": "CONFIRMED: Cars to face restricted visiting time in Teide National Park",
+        "reports": 1,
+        "press": [
+          "Canarian Weekly"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "CONFIRMED: Cars to face restricted visiting time in Teide National Park",
+            "press": "Canarian Weekly",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcW1rY0pHcjAzZm1LeG1vRzA4RmJacXRJLUZuV1lHTjhpMzZjMGVMckZQbllOR3JRVU9ueDFncmxBYjdDRGJucUFYSWx2QmZGRGpieEVVc1c3NVpaaVN2dVJlWURxV053a3RETUJsOWszZ3IxQ09mUmd4Zm9kaTcweTdDNGtEREVEMGxIdjBHWTdfWV9BQjJMYWVHWGM5OEhmREwtZEVjbE1abk0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcW1rY0pHcjAzZm1LeG1vRzA4RmJacXRJLUZuV1lHTjhpMzZjMGVMckZQbllOR3JRVU9ueDFncmxBYjdDRGJucUFYSWx2QmZGRGpieEVVc1c3NVpaaVN2dVJlWURxV053a3RETUJsOWszZ3IxQ09mUmd4Zm9kaTcweTdDNGtEREVEMGxIdjBHWTdfWV9BQjJMYWVHWGM5OEhmREwtZEVjbE1abk0?oc=5"
+      },
+      {
+        "title": "Kilimanjaro Ice Shrinks: EU diplomats highlight urgent protection needs",
+        "reports": 1,
+        "press": [
+          "thecitizen.co.tz"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Kilimanjaro Ice Shrinks: EU diplomats highlight urgent protection needs",
+            "press": "thecitizen.co.tz",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR1oyZEJwa0o3WEJKN3o2Q0pJcmk2M1d6Tmc5aWQ5OGM2Vm9IWXVnMlE3NTUycmQwTnNPby1EUno4eG4zekpIYjFER1pMX0s1Uld2WkZycUpGTFZhQ25ScmpUWV9pSVltNkV6bk9sekxuaTEwX2Z0VlRYVE4zTkIxYlduLUFUNkU1ZHB0WUR3QlZRaXg2clV3MzlNZnE5QUJpUzBLcFNZZVpZQkMydGFqZlozZkZmeDFzanhXakJjcFdRTGxoNUhkT1Zn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR1oyZEJwa0o3WEJKN3o2Q0pJcmk2M1d6Tmc5aWQ5OGM2Vm9IWXVnMlE3NTUycmQwTnNPby1EUno4eG4zekpIYjFER1pMX0s1Uld2WkZycUpGTFZhQ25ScmpUWV9pSVltNkV6bk9sekxuaTEwX2Z0VlRYVE4zTkIxYlduLUFUNkU1ZHB0WUR3QlZRaXg2clV3MzlNZnE5QUJpUzBLcFNZZVpZQkMydGFqZlozZkZmeDFzanhXakJjcFdRTGxoNUhkT1Zn?oc=5"
+      },
+      {
+        "title": "Your Bryce Canyon Country Adventures Start at These Luxe Glampgrounds",
+        "reports": 1,
+        "press": [
+          "Matador Network"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Your Bryce Canyon Country Adventures Start at These Luxe Glampgrounds",
+            "press": "Matador Network",
+            "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XNkt0OUNfQXlobHlPb0lkc1dSdTY5N2xMamlVSjNZWUZEcWJYLUh6dm53aWNrTHNFRDdRVi0xNzAwTEp2SVhkdUlTd1plcDc1Nl9COGU0dW1NRzMzTEtIRS11MjN2MEdRSXQ1OFlycHhUNl9B?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XNkt0OUNfQXlobHlPb0lkc1dSdTY5N2xMamlVSjNZWUZEcWJYLUh6dm53aWNrTHNFRDdRVi0xNzAwTEp2SVhkdUlTd1plcDc1Nl9COGU0dW1NRzMzTEtIRS11MjN2MEdRSXQ1OFlycHhUNl9B?oc=5"
+      },
+      {
+        "title": "Remnants of Tropical Storm Mario Closed Roads in Death Valley National Park",
+        "reports": 1,
+        "press": [
+          "National Park Service (.gov)"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Remnants of Tropical Storm Mario Closed Roads in Death Valley National Park",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sSWxWMW5VbGVTdmY2b0Z4ZjNlcHRsOVpWdVFGeUJYcmt2VUtpS1RZb291YmViS0dkWWgwc0d3LVJubXhzR2hZV0N0SjRKVkFhcnctcTVHd0EtU3NOT053QzI4YUxtai1jNDNJ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sSWxWMW5VbGVTdmY2b0Z4ZjNlcHRsOVpWdVFGeUJYcmt2VUtpS1RZb291YmViS0dkWWgwc0d3LVJubXhzR2hZV0N0SjRKVkFhcnctcTVHd0EtU3NOT053QzI4YUxtai1jNDNJ?oc=5"
       }
     ]
   }

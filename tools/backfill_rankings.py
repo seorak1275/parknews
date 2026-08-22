@@ -34,7 +34,7 @@ RANKING = os.path.join(ROOT, "data", "ranking")
 KR_ZIP = "국립공원공단_국립공원뉴스정보_20260817.zip"
 GLOBAL_ZIP = "국립공원공단_해외국립공원뉴스정보_20260817.zip"
 
-TOP_PER_DAY = 40          # 서버와 동일
+TOP_PER_DAY = 80          # 서버와 동일 (40→80: 단독 보도까지 보관해야 공원별 순위가 선다)
 MAX_ARTICLES = 10         # 묶음당 보관할 기사 수 (파일 크기 관리)
 
 MONTH_FROM, MONTH_TO = "2025-09", "2026-07"   # 연간 12개월 창 (2026-08은 RSS분 존재)

@@ -1,7 +1,7 @@
 {
   "date": "2026-07-30",
   "dateKo": "2026년 7월 30일 목요일",
-  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "generatedAt": "2026-08-22T02:25:18.515577Z",
   "backfilled": true,
   "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
   "kr": {
@@ -767,6 +767,118 @@
           }
         ],
         "link": "http://www.fnnews.com/news/202607301523309430"
+      },
+      {
+        "title": "평일·주말 변칙 영업 뿌리뽑는다…하천·계곡 8월 특별단속",
+        "reports": 1,
+        "press": [
+          "edaily.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "평일·주말 변칙 영업 뿌리뽑는다…하천·계곡 8월 특별단속",
+            "press": "edaily.co.kr",
+            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05047926645519768"
+          }
+        ],
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05047926645519768"
+      },
+      {
+        "title": "피서철 다시 고개드는 하천·계곡 불법·영업 점유…정부 특별단속 카드...",
+        "reports": 1,
+        "press": [
+          "public25.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "피서철 다시 고개드는 하천·계곡 불법·영업 점유…정부 특별단속 카드...",
+            "press": "public25.com",
+            "link": "https://www.public25.com/news/articleView.html?idxno=51782"
+          }
+        ],
+        "link": "https://www.public25.com/news/articleView.html?idxno=51782"
+      },
+      {
+        "title": "멸종위기종 '닻무늬길앞잡이' 인공증식에 성공",
+        "reports": 1,
+        "press": [
+          "womentimes.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "멸종위기종 '닻무늬길앞잡이' 인공증식에 성공",
+            "press": "womentimes.co.kr",
+            "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=104849"
+          }
+        ],
+        "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=104849"
+      },
+      {
+        "title": "트립빌리지, 부산 출발 해외 여행 상품 '카자흐스탄 4박 6일 패키지’ 출...",
+        "reports": 1,
+        "press": [
+          "beyondpost.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "트립빌리지, 부산 출발 해외 여행 상품 '카자흐스탄 4박 6일 패키지’ 출...",
+            "press": "beyondpost.co.kr",
+            "link": "http://www.beyondpost.co.kr/view.php?ud=2026072918143074089aeda69934_30"
+          }
+        ],
+        "link": "http://www.beyondpost.co.kr/view.php?ud=2026072918143074089aeda69934_30"
+      },
+      {
+        "title": "동보항공, 크루즈 BtoB 사업의 '게임 체인저'로 부상한 이유",
+        "reports": 1,
+        "press": [
+          "ttlnews.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "동보항공, 크루즈 BtoB 사업의 '게임 체인저'로 부상한 이유",
+            "press": "ttlnews.com",
+            "link": "http://www.ttlnews.com/news/articleView.html?idxno=3129819"
+          }
+        ],
+        "link": "http://www.ttlnews.com/news/articleView.html?idxno=3129819"
+      },
+      {
+        "title": "[팜투어] 왕실 휴양지 '태국 후아힌'의 재발견… 역사적 유산과 럭셔리...",
+        "reports": 1,
+        "press": [
+          "discoverynews.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[팜투어] 왕실 휴양지 '태국 후아힌'의 재발견… 역사적 유산과 럭셔리...",
+            "press": "discoverynews.kr",
+            "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1097448"
+          }
+        ],
+        "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1097448"
+      },
+      {
+        "title": "[건축명가 리포트] [한미글로벌] SMR·데이터센터 '배팅'…글로벌 체질...",
+        "reports": 1,
+        "press": [
+          "dealsite.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[건축명가 리포트] [한미글로벌] SMR·데이터센터 '배팅'…글로벌 체질...",
+            "press": "dealsite.co.kr",
+            "link": "https://dealsite.co.kr/articles/166095"
+          }
+        ],
+        "link": "https://dealsite.co.kr/articles/166095"
       }
     ]
   },

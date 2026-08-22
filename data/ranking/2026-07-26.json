@@ -1,7 +1,7 @@
 {
   "date": "2026-07-26",
   "dateKo": "2026년 7월 26일 일요일",
-  "generatedAt": "2026-08-21T07:52:42.399428Z",
+  "generatedAt": "2026-08-22T02:25:18.515577Z",
   "backfilled": true,
   "source": "아카이브(네이버 검색 수집분) 사후 집계 — 표본이 달라 언론사 수가 실제보다 적을 수 있음",
   "kr": {
@@ -713,6 +713,102 @@
           }
         ],
         "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260727.22004007589"
+      },
+      {
+        "title": "인천대, KUSF 프로그램 선정·미세플라스틱 연구 규명·싱가포르 탐방 성...",
+        "reports": 1,
+        "press": [
+          "cstimes.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "인천대, KUSF 프로그램 선정·미세플라스틱 연구 규명·싱가포르 탐방 성...",
+            "press": "cstimes.com",
+            "link": "https://www.cstimes.com/news/articleView.html?idxno=714665"
+          }
+        ],
+        "link": "https://www.cstimes.com/news/articleView.html?idxno=714665"
+      },
+      {
+        "title": "[썰물밀물] 부평구 첫 깃대종 쇠백로 선정에 담긴 뜻",
+        "reports": 1,
+        "press": [
+          "incheonilbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[썰물밀물] 부평구 첫 깃대종 쇠백로 선정에 담긴 뜻",
+            "press": "incheonilbo.com",
+            "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1328090"
+          }
+        ],
+        "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1328090"
+      },
+      {
+        "title": "물놀이 전 준비운동·안전용품 착용…여름철 물놀이 사고 예방",
+        "reports": 1,
+        "press": [
+          "news.tf.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "물놀이 전 준비운동·안전용품 착용…여름철 물놀이 사고 예방",
+            "press": "news.tf.co.kr",
+            "link": "https://news.tf.co.kr/read/economy/2347044.htm"
+          }
+        ],
+        "link": "https://news.tf.co.kr/read/economy/2347044.htm"
+      },
+      {
+        "title": "박완수 경남지사 \"주요 사업 내년 국비 적극반영\" 강조",
+        "reports": 1,
+        "press": [
+          "gnnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "박완수 경남지사 \"주요 사업 내년 국비 적극반영\" 강조",
+            "press": "gnnews.co.kr",
+            "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=641835"
+          }
+        ],
+        "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=641835"
+      },
+      {
+        "title": "제13대 도의원 44명 의정 각오 담긴 소식지",
+        "reports": 1,
+        "press": [
+          "jjn.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "제13대 도의원 44명 의정 각오 담긴 소식지",
+            "press": "jjn.co.kr",
+            "link": "http://www.jjn.co.kr/news/articleView.html?idxno=1047500"
+          }
+        ],
+        "link": "http://www.jjn.co.kr/news/articleView.html?idxno=1047500"
+      },
+      {
+        "title": "계속되는 역사 전쟁… 트럼프 \"박물관 앞에 '부정확' 표지판 걸어라\"",
+        "reports": 1,
+        "press": [
+          "hankookilbo.com"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "계속되는 역사 전쟁… 트럼프 \"박물관 앞에 '부정확' 표지판 걸어라\"",
+            "press": "hankookilbo.com",
+            "link": "https://www.hankookilbo.com/news/article/A2026072611490002610?did=NA"
+          }
+        ],
+        "link": "https://www.hankookilbo.com/news/article/A2026072611490002610?did=NA"
       }
     ]
   },
