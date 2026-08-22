@@ -26,14 +26,107 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 import build_news_archive as bna
+import build_global_news as bgn
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DST = os.path.join(REPO, "data", "dataset")
 FILE = "국립공원공단_국립공원뉴스정보_최신30일.csv"
+GL_FILE = "국립공원공단_해외국립공원뉴스정보_최신30일.csv"
 DAYS = 30
 
 KR_H = ["게시일자", "공원명", "소재지", "분야_자동분류", "세부분류_자동분류",
         "뉴스제목", "뉴스매체", "url", "공원판정근거", "분류방법"]
+GL_H = ["게시일자", "공원명", "영문공원명", "국가", "대륙", "기사언어",
+        "분야_자동분류", "뉴스제목", "뉴스매체", "url", "분류방법"]
+
+
+def build_global(cutoff):
+    """해외판 최근 30일 — 국외 대륙별 순위의 재료 (국내판과 같은 이유·같은 리듬)"""
+    data = json.load(io.open(os.path.join(REPO, "assets", "data", "parks-global.json"),
+                             encoding="utf-8"))
+    parks = [p for p in data["parks"] if p.get("curated")]
+    rows, seen = [], set()
+
+    def add(p, title, desc, press, link, lang, table):
+        k = re.sub(r"\W", "", title)[:40]
+        if k in seen:
+            return
+        seen.add(k)
+        rows.append({
+            "게시일자": "", "공원명": p.get("nameLocal") or p["name"],
+            "영문공원명": p.get("nameEn") or p["name"],
+            "국가": p.get("countryKo") or "미상", "대륙": p.get("continentKo") or "미상",
+            "기사언어": lang,
+            "분야_자동분류": bgn.sector_of(f"{title} {desc}", table) or "기타",
+            "뉴스제목": title, "뉴스매체": press or "미상", "url": link,
+            "분류방법": "규칙기반 자동분류(제목·요약 낱말 대조)",
+        })
+        return rows[-1]
+
+    # (1) 한국 언론 (네이버, 1쪽씩)
+    ko_parks = [p for p in parks if p.get("nameLocal") and p["nameLocal"] != p.get("nameEn")]
+    kq = {}
+    for p in ko_parks:
+        q = p["nameLocal"]
+        if "국립공원" not in q:
+            q += " 국립공원"
+        kq[q] = p
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for q, items in ex.map(bgn.naver, [(q, 1) for q in kq]):
+            p = kq[q]
+            short = re.sub(r"\s*국립공원\s*$", "", p["nameLocal"]).strip()
+            for a in items:
+                t, d = bgn.clean(a.get("title")), bgn.clean(a.get("description"))
+                link = a.get("originallink") or a.get("link") or ""
+                if not t or not link or any(w in t for w in bgn.NOISE):
+                    continue
+                if short and short not in f"{t} {d}":
+                    continue
+                day = bgn.kst(a.get("pubDate", ""))
+                if not day or day < cutoff:
+                    continue
+                r = add(p, t, d, re.sub(r"^https?://(www\.)?", "", link).split("/")[0],
+                        link, "한국어", bgn.SECTORS_KO)
+                if r:
+                    r["게시일자"] = day
+
+    # (2) 현지 영문 (구글 뉴스 RSS)
+    eq = {}
+    for p in parks:
+        n = p.get("nameEn") or p["name"]
+        eq[n if "ational" in n else f"{n} national park"] = p
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for q, items in ex.map(bgn.google, list(eq)):
+            p = eq[q]
+            base = re.sub(r"(?i)\s*national\s*park.*$", "", p.get("nameEn") or p["name"]).strip()
+            for a in items:
+                t = a.get("title", "")
+                if not t or not a.get("link"):
+                    continue
+                if base and base.lower() not in t.lower():
+                    continue
+                day = bgn.kst(a.get("pubDate", ""))
+                if not day or day < cutoff:
+                    continue
+                r = add(p, t, "", a.get("press", ""), a["link"], "영어", bgn.SECTORS_EN)
+                if r:
+                    r["게시일자"] = day
+
+    rows.sort(key=lambda r: r["게시일자"], reverse=True)
+    return rows
+
+
+def update_index(entries):
+    """자료받기 목록에 증분 항목들을 넣거나 갱신"""
+    idx_path = os.path.join(DST, "index.json")
+    idx = json.load(io.open(idx_path, encoding="utf-8"))
+    items = idx.get("items", [])
+    for e in entries:
+        items = [i for i in items if i.get("file") != e["file"]]
+        items.insert(0, e)
+    idx["items"] = items
+    idx["generatedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S+09:00")
+    io.open(idx_path, "w", encoding="utf-8").write(json.dumps(idx, ensure_ascii=False, indent=1))
 
 
 def main():
@@ -100,6 +193,7 @@ def main():
         print(f"너무 적어({len(rows)}건) 갱신하지 않습니다 — 기존 파일 유지")
         return 0
 
+    entries = []
     path = os.path.join(DST, FILE)
     with io.open(path, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=KR_H)
@@ -107,21 +201,35 @@ def main():
         w.writerows(rows)
     size = os.path.getsize(path)
     print(f"✓ {FILE}  {len(rows):,}행  {size / 1024:.0f}KB")
-
-    # 목록 갱신 — 내려받기 화면(data.html)이 이 목록을 읽는다
-    idx_path = os.path.join(DST, "index.json")
-    idx = json.load(io.open(idx_path, encoding="utf-8"))
-    entry = {
+    entries.append({
         "file": FILE, "name": FILE,
         "desc": f"최신 {DAYS}일 뉴스 (매일 아침 갱신 · 전체판은 주 1회 재생성)",
         "rows": len(rows), "size": size, "rawSize": size,
         "gz": True, "packed": False,
-    }
-    items = [i for i in idx.get("items", []) if i.get("file") != FILE]
-    items.insert(0, entry)      # 맨 위 — 가장 자주 찾는 최신분
-    idx["items"] = items
-    idx["generatedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S+09:00")
-    io.open(idx_path, "w", encoding="utf-8").write(json.dumps(idx, ensure_ascii=False, indent=1))
+    })
+
+    # ── 해외판 — 국외 대륙별 순위의 재료
+    gl = build_global(cutoff)
+    print(f"해외 최근 {DAYS}일 선별 {len(gl):,}건")
+    if len(gl) >= 30:
+        gp = os.path.join(DST, GL_FILE)
+        with io.open(gp, "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=GL_H)
+            w.writeheader()
+            w.writerows(gl)
+        gsize = os.path.getsize(gp)
+        print(f"✓ {GL_FILE}  {len(gl):,}행  {gsize / 1024:.0f}KB")
+        entries.append({
+            "file": GL_FILE, "name": GL_FILE,
+            "desc": f"해외 최신 {DAYS}일 뉴스 (매일 아침 갱신 · 대륙·국가 태그 포함)",
+            "rows": len(gl), "size": gsize, "rawSize": gsize,
+            "gz": True, "packed": False,
+        })
+    else:
+        print(f"해외분이 너무 적어({len(gl)}건) 갱신하지 않습니다 — 기존 파일 유지")
+
+    # 목록 갱신 — 내려받기 화면(data.html)이 이 목록을 읽는다
+    update_index(entries)
     print("index.json 갱신")
     return 0
 

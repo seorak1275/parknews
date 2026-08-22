@@ -166,6 +166,63 @@ window.Ranking = (() => {
     return deltaCache;
   }
 
+  /* 국외 대륙별 주간·월간 — 해외 증분 CSV(대륙 태그 포함, 매일 갱신)로 집계.
+     보관본 상위 묶음에는 대륙별 재료가 얇아 필터가 굶는다(2026-08-22 실측 0건). */
+  const GLOBAL_DELTA_URL = 'data/dataset/%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EA%B3%B5%EB%8B%A8_%ED%95%B4%EC%99%B8%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EB%89%B4%EC%8A%A4%EC%A0%95%EB%B3%B4_%EC%B5%9C%EC%8B%A030%EC%9D%BC.csv';
+  let globalDeltaCache = null;
+
+  async function loadGlobalDelta() {
+    if (globalDeltaCache) return globalDeltaCache;
+    const r = await fetch(GLOBAL_DELTA_URL);
+    if (!r.ok) throw new Error(`해외 증분 CSV 없음 (${r.status})`);
+    const rows = parseCsv(await r.text());
+    const ix = Object.fromEntries(rows[0].map((k, i) => [k, i]));
+    globalDeltaCache = rows.slice(1)
+      .filter((c) => c.length >= rows[0].length)
+      .map((c) => ({
+        date: c[ix['게시일자']],
+        continent: c[ix['대륙']],
+        title: c[ix['뉴스제목']],
+        press: c[ix['뉴스매체']],
+        link: c[ix['url']],
+      }));
+    return globalDeltaCache;
+  }
+
+  function rowsFromGroups(groups) {
+    return groups
+      .sort((x, y) => y.outletCount - x.outletCount || y.newest - x.newest)
+      .slice(0, 30)
+      .map((g) => ({
+        title: g.lead.title,
+        link: g.lead.link,
+        press: g.outlets,
+        outletCount: g.outletCount,
+        reports: g.arts.length,
+        time: '',
+        others: g.arts.slice(1, 4),
+      }));
+  }
+
+  async function continentRank(period, continent) {
+    const arts = await loadGlobalDelta();
+    const days = period === 'week' ? 7 : 30;
+    const cut = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+    const mine = arts
+      .filter((a) => a.date >= cut && a.continent === continent)
+      .sort((a, b) => (a.date < b.date ? 1 : -1));
+    if (!mine.length) throw new Error('해외 증분에 해당 대륙 기사 없음');
+
+    const groups = window.NewsService.groupIssues(
+      mine.map((a) => ({ title: a.title, press: a.press, link: a.link, date: `${a.date}T12:00:00+09:00` })), 0.4);
+    const dates = mine.map((a) => a.date);
+    return {
+      rows: rowsFromGroups(groups),
+      note: `${esc(dates[dates.length - 1])} ~ ${esc(dates[0])} · 대륙 태그 수집분 ${mine.length}건 기준(매일 아침 갱신)`,
+      continentFiltered: continent,
+    };
+  }
+
   async function parkRank(period, parkName) {
     const arts = await loadDelta();
     const days = period === 'week' ? 7 : 30;
@@ -180,21 +237,9 @@ window.Ranking = (() => {
 
     const groups = window.NewsService.groupIssues(
       mine.map((a) => ({ title: a.title, press: a.press, link: a.link, date: `${a.date}T12:00:00+09:00` })), 0.4);
-    const rows = groups
-      .sort((x, y) => y.outletCount - x.outletCount || y.newest - x.newest)
-      .slice(0, 30)
-      .map((g) => ({
-        title: g.lead.title,
-        link: g.lead.link,
-        press: g.outlets,
-        outletCount: g.outletCount,
-        reports: g.arts.length,
-        time: '',
-        others: g.arts.slice(1, 4),
-      }));
     const dates = mine.map((a) => a.date);
     return {
-      rows,
+      rows: rowsFromGroups(groups),
       note: `${esc(dates[dates.length - 1])} ~ ${esc(dates[0])} · 공원 태그 수집분 ${mine.length}건 기준(매일 아침 갱신)`,
       parkFiltered: parkName,
     };
@@ -306,20 +351,24 @@ window.Ranking = (() => {
   }
 
   async function fetchRank(which, period) {
-    const ck = `${which}|${period}|${state.park || '-'}`;
+    const ck = `${which}|${period}|${state.park || '-'}|${state.continent || '-'}`;
     const hit = state.cache[ck];
     if (hit && Date.now() - hit.at < TTL) return hit.res;
 
     const park = which === 'kr' && state.park
       ? KR_PARKS.find((p) => p.id === state.park) : null;
-    /* 공원+주간·월간은 증분 CSV로 브라우저에서 직접 집계(풍부·즉시),
-       실패하면 서버 필터로 폴백. 나머지는 서버 조회. */
+    const continent = which === 'global' ? state.continent : '';
+    /* 공원(국내)·대륙(국외)+주간·월간은 증분 CSV로 브라우저에서 직접
+       집계(풍부·즉시), 실패하면 서버 조회로 폴백. 나머지는 서버 조회. */
     const raw = period === 'live'
       ? await fetchLive(which)
       : (park && (period === 'week' || period === 'month'))
         ? await parkRank(period, park.name)
             .catch(() => fetchArchive(which, period, park.name))
-        : await fetchArchive(which, period, park ? park.name : '');
+        : (continent && (period === 'week' || period === 'month'))
+          ? await continentRank(period, continent)
+              .catch(() => fetchArchive(which, period))
+          : await fetchArchive(which, period, park ? park.name : '');
 
     /* 서버가 걸러줬으면(park 응답 확인) 그대로 쓰고,
        옛 캐시 응답(park 없음)에만 예비로 제목·묶인 기사 기준 필터 */
@@ -519,24 +568,33 @@ window.Ranking = (() => {
     state.loading = token;
 
     try {
-      const all = (await fetchRank(state.tab, state.period)).rows;
-      const { note } = await fetchRank(state.tab, state.period);
+      const res = await fetchRank(state.tab, state.period);
+      const all = res.rows;
+      const note = res.note;
       if (state.loading !== token) return;         // 그 사이 다른 탭을 눌렀으면 버림
 
       const filterOn = state.tab === 'kr' ? state.sector : state.continent;
+      /* 대륙은 증분 CSV 집계가 이미 걸러서 온다(continentFiltered) —
+         그때는 다시 거르지 않는다 (재필터하면 공원 매칭 안 된 기사가 다 빠진다) */
       const rows = state.tab === 'kr'
         ? (state.sector ? all.filter((r) => r.sector?.key === state.sector) : all)
-        : (state.continent ? all.filter((r) => r.park?.continentKo === state.continent) : all);
+        : (state.continent && !res.continentFiltered
+          ? all.filter((r) => r.park?.continentKo === state.continent) : all);
       if (!rows.length) {
         const fn = state.tab === 'kr'
           ? SECTORS.find((s) => s.key === state.sector)?.name : state.continent;
+        const parkSel = state.tab === 'kr' && state.park
+          ? KR_PARKS.find((p) => p.id === state.park)?.name : '';
+        const quiet = filterOn || parkSel;      // 필터 때문에 빈 것 — 재시도가 소용없다
         body.innerHTML = `<div class="rk-state">${
           filterOn
             ? (state.tab === 'kr'
               ? `이 기간에 <b>${esc(fn)}</b> 분야로 분류된 사안이 없습니다.`
-              : `이 기간에 <b>${esc(fn)}</b> 공원으로 위치가 파악된 사안이 없습니다.`)
-            : '집계할 기사를 찾지 못했습니다.'
-        }${filterOn ? '' : ' <button class="rk-retry" type="button">다시 시도</button>'}</div>`;
+              : `이 기간에 <b>${esc(fn)}</b> 대륙 기사가 없습니다.`)
+            : parkSel
+              ? `이 기간에 <b>${esc(parkSel)}</b> 관련 보도가 없습니다.`
+              : '집계할 기사를 찾지 못했습니다.'
+        }${quiet ? '' : ' <button class="rk-retry" type="button">다시 시도</button>'}</div>`;
         body.querySelector('.rk-retry')?.addEventListener('click', () => render());
         return;
       }
@@ -547,8 +605,9 @@ window.Ranking = (() => {
         <p class="rk-note">
           <span class="rk-note__l">같은 사안을 보도한 <b>언론사 수</b>로 순위를 매깁니다 · 조회수가 아닙니다</span>
           <span class="rk-note__r">${label}${filterName ? ` · ${esc(filterName)}` : ''} · 상위 ${rows.length}건${
-            filterOn ? ` / 전체 ${all.length}건` : ''}${
-            state.tab === 'global' && state.continent ? ' · 제목에서 공원이 파악된 기사만' : ''} · ${note}</span>
+            filterOn && !res.continentFiltered ? ` / 전체 ${all.length}건` : ''}${
+            state.tab === 'global' && state.continent && !res.continentFiltered
+              ? ' · 제목에서 공원이 파악된 기사만' : ''} · ${note}</span>
         </p>
         <ol class="rk-list">${rows.map((r, i) => rowHtml(r, i, max)).join('')}</ol>`;
       renderTrends(rows.slice(0, 8));
