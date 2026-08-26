@@ -43,10 +43,25 @@ RISK_TYPES = [
     ("조난·고립",      "구조활동"),
     ("실종·수색",      "구조활동"),
     ("심정지·응급질환", "구조활동"),
-    ("벌쏘임·동물피해", "구조활동"),
+    ("벌쏘임·뱀",      "구조활동"),
 ]
 RISK_SET = {name for name, _ in RISK_TYPES}
 SECTORS = {"재난안전", "구조활동"}
+
+# 원본 세부분류 '벌쏘임·동물피해'는 멧돼지 ASF 방역·개물림 같은 기사가 절반
+# 넘게 섞여 있다(2026-08-26 실측: 42건 중 벌·뱀 14건). 캘린더에는 탐방객
+# 위험인 벌·뱀 기사만 추려 '벌쏘임·뱀'으로 담는다.
+RENAME = {"벌쏘임·동물피해": "벌쏘임·뱀"}
+
+BEE_WORDS = ("벌쏘임", "말벌", "벌떼", "땅벌", "벌에 쏘", "벌 쏘", "쏘임", "쏘여")
+
+def bee_snake(title):
+    if any(k in title for k in BEE_WORDS):
+        return True
+    if "독사" in title or "살모사" in title:
+        return True
+    # '뱀사골'(지리산 지명)은 뱀이 아니다
+    return "뱀" in title.replace("뱀사골", "")
 
 
 def find_source():
@@ -81,7 +96,10 @@ def main():
             continue
         date, park, sector, sub = x[0], x[1], x[3], x[4]
         title, press, url = x[5], x[6], x[7]
+        sub = RENAME.get(sub, sub)
         if sector not in SECTORS or sub not in RISK_SET:
+            continue
+        if sub == "벌쏘임·뱀" and not bee_snake(title):
             continue
         if len(date) < 7 or not date[:4].isdigit() or not date[5:7].isdigit():
             continue
