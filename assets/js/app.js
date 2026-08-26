@@ -656,7 +656,7 @@
    *  6. 사이드바
    * ======================================================== */
   const openSidebar = () => { $('#sidebar').classList.add('is-open'); $('#sb-toggle').classList.add('is-open'); };
-  const closeSidebar = () => { $('#sidebar').classList.remove('is-open'); $('#sb-toggle').classList.remove('is-open'); TrendChart.destroy(); };
+  const closeSidebar = () => { $('#sidebar').classList.remove('is-open'); $('#sb-toggle').classList.remove('is-open'); TrendChart.destroy(); SafetyCal.destroy(); };
 
   /* X·ESC 로 닫는 것은 '이 공원 그만 보기' — 선택 표시와 주소(#p=…)도 함께 지운다.
      주소를 남겨두면 새로고침하거나 링크를 복사할 때 닫았던 공원이 되살아난다. */
@@ -746,6 +746,20 @@
         <p class="axis-note">네이버 데이터랩 실측값 · 기간 내 최댓값을 100으로 환산한 상대 지수입니다.</p>
       </section>
 
+      <!-- 시기별 안전 프로필 — 아카이브 사전 집계(safety-calendar.json).
+           보도량 기준이라 카드에 그 단서를 함께 적는다. 국내 공원에만 있다. -->
+      ${region.cat === 'kr' ? `
+      <section class="sb-card" id="safety-park" hidden>
+        <div class="sb-h-row">
+          <h3 class="sb-h">시기별 안전 프로필 · 1990~</h3>
+          <span class="badge" id="sp-badge"></span>
+        </div>
+        <div id="sp-top"></div>
+        <div class="chart-wrap chart-wrap--tall"><canvas id="sp-canvas"></canvas></div>
+        <div id="sp-example"></div>
+        <p class="axis-note">언론 보도량 집계 — 실제 사고 통계가 아닙니다.</p>
+      </section>` : ''}
+
       <section class="sb-card">
         <h3 class="sb-h">헤드라인 키워드</h3>
         <div id="kw-body" class="kw-body"><p class="muted sm">기사 분석 중…</p></div>
@@ -770,6 +784,13 @@
     TrendChart.render($('#trend-canvas'), region, $('#trend-badge'))
       .then((r) => { if (r?.real) $('#trend-card').hidden = false; })
       .catch(() => { /* 실측이 없으면 카드를 숨긴 채로 둔다 */ });
+
+    /* 시기별 안전 프로필 — 집계 파일이 없으면 카드째로 숨긴 채 둔다 */
+    if (region.cat === 'kr') {
+      SafetyCal.renderPark(region)
+        .then((ok) => { if (ok) $('#safety-park').hidden = false; })
+        .catch(() => { /* 조용히 숨김 유지 */ });
+    }
 
     /* 정렬: 인기순(기본) = 최근 30일 기사를 사안별로 묶어 보도 언론사 수 순.
        조용한 공원은 전부 1건짜리 묶음이라 자연스럽게 최신순처럼 동작한다. */

@@ -585,7 +585,119 @@ body.map-light .dokdo i{background:#334155;box-shadow:none}
 
 /* 차트 */
 .chart-wrap{height:168px;position:relative}
+.chart-wrap--tall{height:196px}   /* 안전 프로필 — 하단 범례 자리 */
 .axis-note{font-size:10.5px;color:var(--ink-4);margin-top:8px}
+
+/* =============================================================
+ *  안전 캘린더 — 전국 카드(지도) + 공원 프로필(사이드바)
+ *  아카이브 사전 집계(safety.js) · 언론 보도량 기준
+ * ========================================================== */
+.safetybox{
+  position:fixed;right:14px;bottom:14px;z-index:18;
+  width:288px;border-radius:var(--r-lg);padding:12px 14px 10px;
+  transition:opacity .3s var(--ease);
+}
+.safetybox.is-min{width:auto;padding:0;border-radius:999px}
+/* 사이드바가 열리면 그 뒤로 숨는다 — 겹쳐 보이지 않게 */
+.sidebar.is-open ~ .safetybox{opacity:0;pointer-events:none}
+
+.sf-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.sf-head b{font-size:13px;color:#fff}
+.sf-sub{font-size:10px;color:var(--ink-4);flex:1}
+.sf-min{width:24px;height:24px}
+.sf-pill{
+  display:flex;align-items:center;gap:7px;white-space:nowrap;
+  padding:9px 15px;font-size:11.5px;color:var(--ink-2);cursor:pointer;
+}
+.sf-pill b{color:#ffd28a;font-size:11.5px}
+.sf-pill:hover{color:#fff}
+
+.sf-row{
+  display:flex;align-items:center;gap:9px;padding:6px 0;
+  border-top:1px solid rgba(255,255,255,.06);
+}
+.sf-row:first-of-type{border-top:0}
+.sf-dot{width:8px;height:8px;border-radius:50%;background:var(--c);flex:none;box-shadow:0 0 8px var(--c)}
+.sf-main{flex:1;min-width:0}
+.sf-name{font-size:12px;color:var(--ink-1,#fff);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.sf-x{font-size:10px;font-weight:600;color:#ffd28a;background:rgba(251,146,60,.14);
+  border:1px solid rgba(251,146,60,.3);padding:1px 6px;border-radius:999px}
+.sf-tr{font-style:normal;font-size:9.5px;padding:1px 5px;border-radius:999px;cursor:default}
+.sf-tr--up{color:#fda4af;background:rgba(244,63,94,.14);border:1px solid rgba(244,63,94,.3)}
+.sf-tr--down{color:#86efac;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.28)}
+.sf-parks{font-size:10.5px;color:var(--ink-4);margin-top:1px}
+.sf-n{font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums;flex:none}
+.sf-ex{font-size:10px;color:var(--kr);opacity:.85;flex:none;width:24px;text-align:right}
+.sf-ex:hover{opacity:1;text-decoration:underline}
+.sf-ex--none{visibility:hidden}
+.sf-note{font-size:9.5px;color:var(--ink-4);margin-top:8px;line-height:1.5}
+
+/* 이번 달 ↔ 연간 토글 */
+.sf-seg{
+  font-size:10px;padding:3px 8px;border-radius:999px;color:var(--ink-3);
+  border:1px solid var(--stroke);background:transparent;cursor:pointer;transition:color .2s
+}
+.sf-seg:hover{color:#fff}
+.sf-seg.is-on{color:#7ff0ff;background:rgba(34,211,238,.12);border-color:rgba(34,211,238,.3)}
+
+/* 연간 뷰 — 열두 달 한눈에 */
+.safetybox.is-year{width:320px}
+.sf-ywrap{max-height:min(46vh,420px);overflow-y:auto;overscroll-behavior:contain}
+.sf-ywrap::-webkit-scrollbar{width:5px}
+.sf-yrow{
+  display:flex;align-items:flex-start;gap:8px;padding:5px 4px;
+  border-top:1px solid rgba(255,255,255,.05);border-radius:8px;
+}
+.sf-yrow:first-child{border-top:0}
+.sf-yrow.is-now{background:rgba(34,211,238,.08);border-top-color:transparent}
+.sf-yrow.is-now .sf-ym{color:#7ff0ff}
+.sf-ym{flex:none;width:30px;font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums;padding-top:2px}
+.sf-ychips{display:flex;flex-wrap:wrap;gap:4px}
+.sf-ychip{
+  font-size:10px;padding:2px 7px;border-radius:999px;color:#fff;cursor:default;
+  background:color-mix(in srgb,var(--c) 16%,transparent);
+  border:1px solid color-mix(in srgb,var(--c) 42%,transparent);
+}
+.sf-yquiet{font-size:10px;color:var(--ink-4);padding-top:2px}
+.sf-ychip{cursor:pointer;font-family:inherit;transition:filter .15s}
+.sf-ychip:hover{filter:brightness(1.35)}
+.sf-row{cursor:pointer;border-radius:8px;transition:background .15s;margin:0 -4px;padding-left:4px;padding-right:4px}
+.sf-row:hover{background:rgba(255,255,255,.05)}
+
+/* 유형 상세 — 연중 분포·집중 시기·주의 공원·사례 */
+.sf-dhead{display:flex;align-items:center;gap:7px;margin-bottom:10px;flex-wrap:wrap}
+.sf-dhead b{font-size:13px;color:#fff}
+.sf-dtotal{font-size:10.5px;color:var(--ink-4)}
+.sf-bars{display:flex;align-items:flex-end;gap:3px;height:74px;margin:4px 0 2px}
+.sf-bcol{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:3px;cursor:default}
+.sf-bcol i{display:block;width:100%;border-radius:3px 3px 1px 1px;background:var(--c);opacity:.38;transition:opacity .15s}
+.sf-bcol.is-peak i{opacity:.85}
+.sf-bcol.is-now i{opacity:1;box-shadow:0 0 8px var(--c)}
+.sf-bcol:hover i{opacity:1}
+.sf-bcol em{font-style:normal;font-size:8.5px;color:var(--ink-4);line-height:1}
+.sf-bcol.is-now em{color:#7ff0ff;font-weight:700}
+.sf-dline{font-size:11px;color:var(--ink-2);line-height:1.6;margin-top:6px}
+.sf-dline b{color:#ffd28a}
+
+/* 공원 프로필 (사이드바 카드) */
+.sp-now{font-size:11.5px;color:var(--ink-2);display:flex;align-items:center;gap:6px;
+  flex-wrap:wrap;margin-bottom:10px}
+.sp-now b{color:#ffd28a;font-size:11px}
+.sp-chip{
+  font-size:10.5px;padding:2px 8px;border-radius:999px;color:#fff;
+  background:color-mix(in srgb,var(--c) 18%,transparent);
+  border:1px solid color-mix(in srgb,var(--c) 45%,transparent);
+}
+.sp-ex{display:block;margin-top:9px;padding:8px 10px;border-radius:10px;
+  background:rgba(255,255,255,.045);border:1px solid var(--stroke);transition:background .2s}
+.sp-ex:hover{background:rgba(255,255,255,.08)}
+.sp-ex__tag{display:block;font-size:9.5px;color:var(--ink-4);margin-bottom:2px}
+.sp-ex__t{display:block;font-size:11.5px;color:var(--ink-2);line-height:1.45}
+
+@media (max-width:860px){
+  /* 모바일 — 티커 위, 화면을 덜 가리게 (JS 도 접힌 채로 시작시킨다) */
+  .safetybox{right:max(10px,env(safe-area-inset-right));bottom:64px;width:min(288px,calc(100vw - 20px))}
+}
 
 /* 키워드 바 */
 .kw-body{display:flex;flex-direction:column;gap:7px}
