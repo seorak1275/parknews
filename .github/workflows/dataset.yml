@@ -55,6 +55,12 @@ jobs:
       - name: 내려받기용으로 싣기
         run: python tools/publish_dataset.py _dataset
 
+      # 안전 캘린더는 방금 실은 통합본 zip을 다시 집계한다.
+      # 실패해도 데이터셋 커밋은 살린다 — 캘린더만 지난 주 것으로 남는다.
+      - name: 안전 캘린더 집계
+        continue-on-error: true
+        run: python tools/build_safety_calendar.py
+
       - name: 커밋
         run: |
           git config user.name  "parknews-bot"
