@@ -1,9 +1,9 @@
 {
   "month": "2026-09",
-  "days": 19,
+  "days": 20,
   "from": "2026-09-01",
-  "to": "2026-09-19",
-  "generatedAt": "2026-09-19T17:59:17.651Z",
+  "to": "2026-09-20",
+  "generatedAt": "2026-09-20T16:02:01.010Z",
   "kr": {
     "rows": [
       {
@@ -81,7 +81,7 @@
       },
       {
         "title": "한라산 관음사 탐방로 24일부터 재개방…예약 21일부터",
-        "reports": 16,
+        "reports": 19,
         "press": [
           "뉴시스",
           "ilganjeju.com",
@@ -98,9 +98,12 @@
           "제주의소리",
           "아시아경제",
           "서프라이즈뉴스",
+          "국민일보",
+          "제주매일",
+          "삼다일보",
           "제주뉴스"
         ],
-        "outletCount": 16,
+        "outletCount": 19,
         "articles": [
           {
             "title": "한라산 관음사 탐방로 24일부터 재개방…예약 21일부터",
@@ -1110,6 +1113,40 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpN1pJRmJoTno1OTVmSUEwRERFMHF1Y3Z1V0FoUF91RHpwemhUa21MOXVkcFA1YngxLS1VY08tMmxuSC1QWmNNdFJuNExiWnEtbXA2c3RiTTh4UdIBWkFVX3lxTFBpN1pJRmJoTno1OTVmSUEwRERFMHF1Y3Z1V0FoUF91RHpwemhUa21MOXVkcFA1YngxLS1VY08tMmxuSC1QWmNNdFJuNExiWnEtbXA2c3RiTTh4UQ?oc=5"
       },
       {
+        "title": "계룡산국립공원·대전유성소방, 가을철 안전산행 캠페인",
+        "reports": 4,
+        "press": [
+          "로컬투데이",
+          "중도일보",
+          "매일일보",
+          "모빅경제"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "계룡산국립공원·대전유성소방, 가을철 안전산행 캠페인",
+            "press": "로컬투데이",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tM0RERFRrRlJjYTBibV9UTHF5R0wtakQ3SHNUOVJMV002dUV0cEFwLXlreEE0R1l1NlItd0VjSzZid2RGUHhVS3RlNmUtRmNDVGNYTk5IbFlCdFVXeTFoaGpzTGVmS0JDOUVJZnJkb0M?oc=5"
+          },
+          {
+            "title": "계룡산국립공원사무소·대전유성소방 합동 가을철 안전산행 캠페인",
+            "press": "중도일보",
+            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhU3gzRTQ1VUd2aENiUWRjUFlOYVB3eWdMX3VCNXc3bUxQbmVrQ0xqOFl4YlhNVXBKX2I4c3FkWThFbnFEWHZLUnNwVUVUemlpTGFrdHIzUnNCUzJrSE1ka25LblY?oc=5"
+          },
+          {
+            "title": "계룡산국립공원사무소·대전유성소방, 추석·가을철 안전산행 합동 캠페인",
+            "press": "매일일보",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44SUhISE52SzVDbUZ2eVVRcEFVTllGU1lnNXMzUVYxT2l4ODdKdHR3My1raTBNdjdxT1NlRTlMT0VqcW80aXFCMk9XSkpwaERRcnBFeDkyOXZLNmpYSXc4V1N1SVZNOGda0gFoQVVfeXFMTjhJSEhITnZLNUNtRnZ5VVFwQVVOWUZTWWc1czNRVjFPaXg4N0p0dHczLWtpME12N3FPU2VFOUxPRWpxbzRpcUIyT1dKSnBoRFFycEV4OTI5dks2alhJdzhXU3VJVk04Z1o?oc=5"
+          },
+          {
+            "title": "계룡산국립공원사무소·대전유성소방 합동 가을철 안전산행 캠페인 실시",
+            "press": "모빅경제",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmamhCUW5sSHA5Q3RqeWRYQVhCaDh3c0czNWN1T0ZqZDBoZk1BVU9DVE5LN3NzMUlmNktZSy1iLXVkWFJ0U3VSXzRmUmdtZXM2bDRVSzBvcWlHZ0V0enp3TWFTSEswdm4zd2JVckt1WUU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tM0RERFRrRlJjYTBibV9UTHF5R0wtakQ3SHNUOVJMV002dUV0cEFwLXlreEE0R1l1NlItd0VjSzZid2RGUHhVS3RlNmUtRmNDVGNYTk5IbFlCdFVXeTFoaGpzTGVmS0JDOUVJZnJkb0M?oc=5"
+      },
+      {
         "title": "부산관광공사, 대구문화예술진흥원·국립공원공단과 영남권 관광 활성화 협약",
         "reports": 3,
         "press": [
@@ -2062,28 +2099,6 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iX2dFcXY1M2lsRHJDcVp6aXNEZmdnaUQ1b2JkTGlXSUVPU0Y3elA2OEVTXzlncXNacGV1Z0plUW1MQ0NFQnU5dGxsV1hiV0NJRHBsWFhEU2hWVUJYU0t2blBKRW1FUkEybW9adUF0Zw?oc=5"
       },
       {
-        "title": "계룡산국립공원·대전유성소방, 가을철 안전산행 캠페인",
-        "reports": 2,
-        "press": [
-          "로컬투데이",
-          "중도일보"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "계룡산국립공원·대전유성소방, 가을철 안전산행 캠페인",
-            "press": "로컬투데이",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tM0RERFRrRlJjYTBibV9UTHF5R0wtakQ3SHNUOVJMV002dUV0cEFwLXlreEE0R1l1NlItd0VjSzZid2RGUHhVS3RlNmUtRmNDVGNYTk5IbFlCdFVXeTFoaGpzTGVmS0JDOUVJZnJkb0M?oc=5"
-          },
-          {
-            "title": "계룡산국립공원사무소·대전유성소방 합동 가을철 안전산행 캠페인",
-            "press": "중도일보",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhU3gzRTQ1VUd2aENiUWRjUFlOYVB3eWdMX3VCNXc3bUxQbmVrQ0xqOFl4YlhNVXBKX2I4c3FkWThFbnFEWHZLUnNwVUVUemlpTGFrdHIzUnNCUzJrSE1ka25LblY?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tM0RERFRrRlJjYTBibV9UTHF5R0wtakQ3SHNUOVJMV002dUV0cEFwLXlreEE0R1l1NlItd0VjSzZid2RGUHhVS3RlNmUtRmNDVGNYTk5IbFlCdFVXeTFoaGpzTGVmS0JDOUVJZnJkb0M?oc=5"
-      },
-      {
         "title": "국립공원 불법탐방로 사고 57건 중 16건 사망…사망사고 비율 정규 탐방로의 3.7배",
         "reports": 2,
         "press": [
@@ -2194,6 +2209,28 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UdnIwT0VTYjdpQWZlcDNoOUYxSnh4UnR3X0RzOHdhNjlYbVNZNm4yUWNaU1JoRUhTM2l5MmtYXzNZRG1vbE5oTkw2T08zU2ZDeFRvSXJma1BhVUJYUUtrcjV3?oc=5"
       },
       {
+        "title": "공주소방서, 가을 산행 안전수칙 ’산악사고 예방' 당부 나서",
+        "reports": 2,
+        "press": [
+          "충남일보",
+          "namdonews.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "공주소방서, 가을 산행 안전수칙 ’산악사고 예방' 당부 나서",
+            "press": "충남일보",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40MEJwR1I5TjlGMVB4eGstaGt1cWNyY1ZuNWY5SlJ1b3hYeW5rVUJmNDA1QVI3Rmk1WXN5SENQbkFtLWsza1IxS0J1enZxSmdIWGowY3pVWldLTWw2RF9QYm9YYjk2OS0wV2F5TDVXSHJZSEk?oc=5"
+          },
+          {
+            "title": "가을 행락철 국립공원 산악사고 대응",
+            "press": "namdonews.com",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KZVBFaUdIR0d4VXVTYzg0UlJnMjFreGRJdDFDN0M4SjN3UnBnQ0RYSGxHM2Y0STFyTm1kUE10T1NoVHFnNUNHU3pKRFdqMWgtY3JiSHQ0MWtILWY4MlpCdXZSQ2JGWUtETzUtN2xTN3TSAXBBVV95cUxOSmVQRWlHSEdHeFV1U2M4NFJSZzIxa3hkSXQxQzdDOEozd1JwZ0NEWEhsRzNmNEkxck5tZFBNdE9TaFRxZzVDR1N6SkRXajFoLWNyYkh0NDFrSC1mODJaQnV2UkNiRllLRE81LTdsUzd0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40MEJwR1I5TjlGMVB4eGstaGt1cWNyY1ZuNWY5SlJ1b3hYeW5rVUJmNDA1QVI3Rmk1WXN5SENQbkFtLWsza1IxS0J1enZxSmdIWGowY3pVWldLTWw2RF9QYm9YYjk2OS0wV2F5TDVXSHJZSEk?oc=5"
+      },
+      {
         "title": "팔공산국립공원, 보훈영웅 29명 대상 치유 프로그램",
         "reports": 2,
         "press": [
@@ -2214,6 +2251,28 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0dWRNem96VHdBSUstX192WGpVSl9iSENQZzBnal9TQUZ2ODBrbFp4RmtPRlNFU1Zob2xJaGktYnc2Sm5fVmJTc0JjcVBYOUtWbE1seGtjTHk2R0tfYldBcdIBeEFVX3lxTE8tWG9FaGd1LW1aS3k2TTNxdFJ0Vng4eFZucEtaY3BKSlF6dm5GcXBRdk1HVW1MWnpQVmNNcXZOY0p6Y2d6WmxPY1ppY19lTUEtY094dEhYUDVseHB2VHZkN3pLLVVQQno3b19Ocnk3WXF6VllkdGlvOQ?oc=5"
+      },
+      {
+        "title": "\"멸종위기 상괭이 보전 힘 모은다\"…한려해상국립공원, 국제협력 '강화'",
+        "reports": 2,
+        "press": [
+          "뉴시스",
+          "gnnews.co.kr"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "\"멸종위기 상괭이 보전 힘 모은다\"…한려해상국립공원, 국제협력 '강화'",
+            "press": "뉴시스",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qS01Fc1FoWUNfVHlYbDFnRF80cFlvZF9oUkVRUm9LSlljcWhJRGhiTGdYXzc3aWZ4bk5BeWgzX2c5TGVQNXQzMEd6U3o3OG1CZWxkcnFTNzZUYmNRalJ1SmNITXREYnhheFFZWGtHcEZhREZZZW52WdIBeEFVX3lxTE1qS01Fc1FoWUNfVHlYbDFnRF80cFlvZF9oUkVRUm9LSlljcWhJRGhiTGdYXzc3aWZ4bk5BeWgzX2c5TGVQNXQzMEd6U3o3OG1CZWxkcnFTNzZUYmNRalJ1SmNITXREYnhheFFZWGtHcEZhREZZZW52WQ?oc=5"
+          },
+          {
+            "title": "한려해상국립공원,​​​​​​​ 남해안 상괭이 보전 국제협력 방안 모색",
+            "press": "gnnews.co.kr",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WLTk5aUc5WE52RG1VLVFJSlJETFZucnJUQlctc0hPSE16ZUNfQ3dOY21HdEJsbkY4cjljbjhiYXE5aHNISHk0cVoyN0JidTBZWUlqQWxUb01zYVVFdHd3WVI4YTlzdGN6VEQw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qS01Fc1FoWUNfVHlYbDFnRF80cFlvZF9oUkVRUm9LSlljcWhJRGhiTGdYXzc3aWZ4bk5BeWgzX2c5TGVQNXQzMEd6U3o3OG1CZWxkcnFTNzZUYmNRalJ1SmNITXREYnhheFFZWGtHcEZhREZZZW52WdIBeEFVX3lxTE1qS01Fc1FoWUNfVHlYbDFnRF80cFlvZF9oUkVRUm9LSlljcWhJRGhiTGdYXzc3aWZ4bk5BeWgzX2c5TGVQNXQzMEd6U3o3OG1CZWxkcnFTNzZUYmNRalJ1SmNITXREYnhheFFZWGtHcEZhREZZZW52WQ?oc=5"
       },
       {
         "title": "괴산 사로잡은 국립공원 사진전… 17일 청주 상륙!",
@@ -2358,6 +2417,27 @@
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOHBtSUstejd5STRnYm5CcjVIQll2MDM4YzJoR2Q1N09OaHJtOVZfcDNHeGJ6Y2l3d2xISnFYVDRlaHBrdU1McVdXaU9EbnBfSzlGN3VoQVY1c0FfWkNaY29mSGJpaUJYdVlZU1dpS1lXcVhCcVBmbFRyVlFESEtBMDV5SXlRaTJIVDVWZGczdUczMHlwcFJtRU5mMXhJekpiU2hzWnVkNlE2emFJUzlRM04zM1k2cE5vM3dIWHRjVzJkRGlhVmpFRVI0bG1iSG43WGMtTlNOd04?oc=5"
       },
       {
+        "title": "[경일춘추]산·바다·역사가 살아 숨쉬는 한려해상국립공원",
+        "reports": 2,
+        "press": [
+          "gnnews.co.kr"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[경일춘추]산·바다·역사가 살아 숨쉬는 한려해상국립공원",
+            "press": "gnnews.co.kr",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZVB3SXotdm9UbnpZWmRQRXZGcmtqM21TRVZpX3UyZWV5OXdvSE5VTkdGcm5BczBCemduYVIwZXdrQS1idGRuYURvZmkwMFMyTUdhcUVmdmZFWDFjYjBmd2ZhQWI3Z1R3czJ3?oc=5"
+          },
+          {
+            "title": "[경일춘추] 한려해상국립공원, 한려수도 300리",
+            "press": "gnnews.co.kr",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5ajNYOUU2V2gzMFFIM2IySVlxeDFLTzJQdW5OcTBQb3BhaVRhSWdiRUdXcHNuWFFhcHgxV3lSOEhIYTgtbzNwVXk5U2E2TGdNMm5fOXBpNkFSZmRrUGhMTkJLdFN3c284QzVJ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZVB3SXotdm9UbnpZWmRQRXZGcmtqM21TRVZpX3UyZWV5OXdvSE5VTkdGcm5BczBCemduYVIwZXdrQS1idGRuYURvZmkwMFMyTUdhcUVmdmZFWDFjYjBmd2ZhQWI3Z1R3czJ3?oc=5"
+      },
+      {
         "title": "쑤언투이 국립공원은 관광 명소로 인정받았습니다.",
         "reports": 2,
         "press": [
@@ -2393,54 +2473,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uOUpnUFFsbkMteElpdHAxdHl6VTViYVhPNzIwQ1JNSW8taHVhaTNOYVVvUEZuakxCSFpmVzQtSUlBZUVhbnM1SDBEMA?oc=5"
-      },
-      {
-        "title": "\"5만 평 억새가 9월부터 은빛으로 번져간다는데\"... 자연휴양림까지 품은 도립공원",
-        "reports": 1,
-        "press": [
-          "아던트뉴스"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "\"5만 평 억새가 9월부터 은빛으로 번져간다는데\"... 자연휴양림까지 품은 도립공원",
-            "press": "아던트뉴스",
-            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00elk1MS1uNmdsUVhSTTA2SXZOVTFSTjRYRWRIdmlxalN4T1VpWW9ESkdfa3FjNVQwbXFyMnB3TkVGZ2MtRVo2TWNjajc3NmtRR3ZoVmdDUWM1NFZodXJ2Z0JXZ2JpYllOME1kRlhNZ9IBc0FVX3lxTE5sZEhKX3VpSjA4TVdOUGFwT29wWi1BczlTSHpHdXBlbnExZVV5d29ldWZ0SVIzS2Zob0xfR09UQ3pCN0w5NzlsUUZaRzgwV3dnaFh5MW85aTgxVXBwQmZvUUdqZFk4c3NuNms0dkNUaVAzVzg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00elk1MS1uNmdsUVhSTTA2SXZOVTFSTjRYRWRIdmlxalN4T1VpWW9ESkdfa3FjNVQwbXFyMnB3TkVGZ2MtRVo2TWNjajc3NmtRR3ZoVmdDUWM1NFZodXJ2Z0JXZ2JpYllOME1kRlhNZ9IBc0FVX3lxTE5sZEhKX3VpSjA4TVdOUGFwT29wWi1BczlTSHpHdXBlbnExZVV5d29ldWZ0SVIzS2Zob0xfR09UQ3pCN0w5NzlsUUZaRzgwV3dnaFh5MW85aTgxVXBwQmZvUUdqZFk4c3NuNms0dkNUaVAzVzg?oc=5"
-      },
-      {
-        "title": "주왕산국립공원 절골계곡 ‘첨벙’ 트레킹 운영기간 연장",
-        "reports": 1,
-        "press": [
-          "csynews.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "주왕산국립공원 절골계곡 ‘첨벙’ 트레킹 운영기간 연장",
-            "press": "csynews.com",
-            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8td2VJVzdlZGdwWTg5c1cwUHNyRDk0OWFOcFY3WlRPZTZGN1owbDI1RE41Nkk2R21UMWJWdDBMX09XaHdoNzFFa2doemxRamtSVmFQTXRUaFRIeUlma2psWW1XUUs1eU9CMmlOSUNha2lkZnczTV9rUFpmQXFzUQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8td2VJVzdlZGdwWTg5c1cwUHNyRDk0OWFOcFY3WlRPZTZGN1owbDI1RE41Nkk2R21UMWJWdDBMX09XaHdoNzFFa2doemxRamtSVmFQTXRUaFRIeUlma2psWW1XUUs1eU9CMmlOSUNha2lkZnczTV9rUFpmQXFzUQ?oc=5"
-      },
-      {
-        "title": "국립공원공단, ‘생태관광인증사무국추진단’ 공식 출범",
-        "reports": 1,
-        "press": [
-          "환경과조경"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "국립공원공단, ‘생태관광인증사무국추진단’ 공식 출범",
-            "press": "환경과조경",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxc09qZnV2R0l3VDdTWVJxX1EweExfNTR6aGF6QUk4NkhPbjRSNmN1cjU5dnJ6aW1NYklVUllPVFhqRVdFdnFrSmlUTHloekZKUUdyLXdHZnpKMTY1amc?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxc09qZnV2R0l3VDdTWVJxX1EweExfNTR6aGF6QUk4NkhPbjRSNmN1cjU5dnJ6aW1NYklVUllPVFhqRVdFdnFrSmlUTHloekZKUUdyLXdHZnpKMTY1amc?oc=5"
       }
     ]
   },
@@ -2598,7 +2630,7 @@
       },
       {
         "title": "'Dome Fire' burning in Yosemite National Park explodes in size",
-        "reports": 12,
+        "reports": 13,
         "press": [
           "ABC30 Fresno",
           "kmph.com",
@@ -2839,7 +2871,7 @@
       },
       {
         "title": "Black Bear Euthanized at Grand Teton National Park, Officials Say",
-        "reports": 8,
+        "reports": 9,
         "press": [
           "The New York Times",
           "Idaho News 6",
@@ -2848,9 +2880,10 @@
           "KTLA",
           "NonStop Local KHQ",
           "Jackson Hole News&Guide",
-          "Scripps News"
+          "Scripps News",
+          "TheTravel"
         ],
-        "outletCount": 8,
+        "outletCount": 9,
         "articles": [
           {
             "title": "Black Bear Euthanized at Grand Teton National Park, Officials Say",
@@ -2988,6 +3021,52 @@
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU3NscXpoRVlKbXUxN0RyeGN1c0lVcFllT2cwVDk3RWxIeF9TZy1JSzB0MkE1UV9wSEN2QUllcEI4T0ZZdXhlZnNjZHhIc21jUzg3RGJDSkVaVnoyYUhmUXRfOTN4MDdQSG5CQ01uTk01bU8zUWxUUzhIVGJ4VGI0S0lnZjF2YmRQOERnZXFGWWNDY19XVDV3OUk5SERzbXhhZzlpb09QTDNqYWg0azlwM2RfNkdLaERla2MzV1VScjNVbjBwSmNF?oc=5"
       },
       {
+        "title": "Fire closes backcountry campground in Death Valley National Park",
+        "reports": 6,
+        "press": [
+          "8newsnow.com",
+          "Sierra Wave",
+          "Yahoo",
+          "Pahrump Valley Times",
+          "AOL.com",
+          "yahoo.com"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "Fire closes backcountry campground in Death Valley National Park",
+            "press": "8newsnow.com",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3AwTGcwRE5EZ0UyWDJwQ3loeS1acUFjOXpzeFdQSjlVX2FBZTFBcXpCbDVWM3lhaFBMakNiZ0YzM3Z4UU5sNWlYam4zb3pWdXhieHBvdmVvSW1Rbmk3M1VGUkQwdXd0WFZLNl9IcmRLNDdrZUEtbWk4cDhqeDNtNzdEVGU0aVdaamhsZ0JuRjhQOUk0Qlk0ZDZVZzRSV2JHdG9TMEFZSEZaQdIBrwFBVV95cUxOd2ljT2d2elg5ZkNZR2t1VDlOSktkcDFISUJXZkxuZUM5elhETUxqbUhoXzJlek5SYlF5cm1XUVppZlRiTE9aeE02bXh2QUltTzVvRUxpOVdJa1c4WERHSU0zbFBacThoT2xjZmg4NHBwMmQ1N3lYX0JjeG56Xy1ZM05ueTI0ZTd1a3RZV0xQR1hmb2djUi1YTU1YcldINUE5Nl96MzgxYUt4UFljajVj?oc=5"
+          },
+          {
+            "title": "Backcountry Campground in Death Valley National Park Closed Due to Fire",
+            "press": "Sierra Wave",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHAxaGVnUUMwc1V1UXVpby1hYkdKV05qMXpST1RkYWJ0ODhiUTNzbHlwd2E5LThCS2lvSDhvakY3bWhPQklLUXVQbUpfTGlLN3RudGhLcGdWbnlQNjU1bGwwWDFOdkladk9iLUZsRTZ5SmtMeVdhdW5UdEhwTi1YT3BSRnJ0SEowSjJQZmtSaWxOdlBlUmtUbUwyWQ?oc=5"
+          },
+          {
+            "title": "Fire closes backcountry campground in Death Valley National Park",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWN3dzdCdkdlUE1WN01fc1VjTG5TajBGZnpIeU9qRnBoMmdBZkRSbEZaYkpWUTZyMjJMRmtoU29VZ0RTSXAyMTVVM3k0TDJ6NzZWNHF5ZmJhaVFVMGZjM2V4RmlsaU5TcEZMM2Vvbk9vYnYxNUpUUzhpR014TmNxNnd0cWllNDNMUUxsZkxhTEJjbVBNbzFrbGNRMEFQU1h3Y0RqR1pYMA?oc=5"
+          },
+          {
+            "title": "Tractor-trailer catches fire in Death Valley",
+            "press": "Pahrump Valley Times",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdWRJN0lkeDRkMXdKczZIdUJBZ1VXelRoNm0zbHVseFZPejhuNk0xV183T21qT2FZeUF4b3NlR29xUVdVWmFOMGNob0wtV2F5UFdGQjFFbi12SUpYbTl4RzAwN1Rmd3hiTWIwNmZpZHFXVU5hQ1lmLThKbWJOczdtYmJSZw?oc=5"
+          },
+          {
+            "title": "Fire closes backcountry campground in Death Valley National Park",
+            "press": "AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS3c5YVVaSWRJd0VPWlMtYTcxVFNPOElLRGRaaFQyQ3NOWGFoWmd2V0lmblhvLTczaUgtMXlpOEc3bkFRa05aTmhZMFFJWWk3X1hJZFJpSU1IWF80a0hib3FjZFNsWml6X1hvWDFVdDcyYjBEbEkySGJjcmZIOUJ2dEhfc3dERlRxXzB4cg?oc=5"
+          },
+          {
+            "title": "Fire Closes Remote Hot Springs Campground at Death Valley National Park",
+            "press": "yahoo.com",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHBwc0trVklXV3EzaTFISmJRajgxVlJ4MFFheE1acDhveXItaklFazdzQXB1YjF0RDQwSzJVTWxKTmdmc2c1d1g1bmpaZVpfb1VfVmhBTEh2ekgtb3dtTldVcUZYTVpsTGdmLWpjSHpjT3Zic1JTanZDZE9uSDYza1ZwUWZhNG0wNm52R1BlcG9uT3dNQzdnSW13?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3AwTGcwRE5EZ0UyWDJwQ3loeS1acUFjOXpzeFdQSjlVX2FBZTFBcXpCbDVWM3lhaFBMakNiZ0YzM3Z4UU5sNWlYam4zb3pWdXhieHBvdmVvSW1Rbmk3M1VGUkQwdXd0WFZLNl9IcmRLNDdrZUEtbWk4cDhqeDNtNzdEVGU0aVdaamhsZ0JuRjhQOUk0Qlk0ZDZVZzRSV2JHdG9TMEFZSEZaQdIBrwFBVV95cUxOd2ljT2d2elg5ZkNZR2t1VDlOSktkcDFISUJXZkxuZUM5elhETUxqbUhoXzJlek5SYlF5cm1XUVppZlRiTE9aeE02bXh2QUltTzVvRUxpOVdJa1c4WERHSU0zbFBacThoT2xjZmg4NHBwMmQ1N3lYX0JjeG56Xy1ZM05ueTI0ZTd1a3RZV0xQR1hmb2djUi1YTU1YcldINUE5Nl96MzgxYUt4UFljajVj?oc=5"
+      },
+      {
         "title": "PA House partners with National Park Service and Flight 93 Memorial on new exhibit for 25th anniversary of 9/11",
         "reports": 6,
         "press": [
@@ -3117,46 +3196,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaThxVjdybkw3UXE5bllOTE5nY1pOd3lvY3A4ZkZMbFNsUW9xQ3Vic3hPZ3l2NjZvR2NqQm16a1JWTXlQNXhBWUZwZ0hmWEpGNWtxemFFcFM3alN0SDhCMWRwOVJrd2UtZVJhb0R5VTJtUGFyd3pWZWxxbjJXRDBCNGRTUHhraHM1Z3ZV?oc=5"
-      },
-      {
-        "title": "Fire closes backcountry campground in Death Valley National Park",
-        "reports": 5,
-        "press": [
-          "8newsnow.com",
-          "Sierra Wave",
-          "Yahoo",
-          "Pahrump Valley Times",
-          "AOL.com"
-        ],
-        "outletCount": 5,
-        "articles": [
-          {
-            "title": "Fire closes backcountry campground in Death Valley National Park",
-            "press": "8newsnow.com",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3AwTGcwRE5EZ0UyWDJwQ3loeS1acUFjOXpzeFdQSjlVX2FBZTFBcXpCbDVWM3lhaFBMakNiZ0YzM3Z4UU5sNWlYam4zb3pWdXhieHBvdmVvSW1Rbmk3M1VGUkQwdXd0WFZLNl9IcmRLNDdrZUEtbWk4cDhqeDNtNzdEVGU0aVdaamhsZ0JuRjhQOUk0Qlk0ZDZVZzRSV2JHdG9TMEFZSEZaQdIBrwFBVV95cUxOd2ljT2d2elg5ZkNZR2t1VDlOSktkcDFISUJXZkxuZUM5elhETUxqbUhoXzJlek5SYlF5cm1XUVppZlRiTE9aeE02bXh2QUltTzVvRUxpOVdJa1c4WERHSU0zbFBacThoT2xjZmg4NHBwMmQ1N3lYX0JjeG56Xy1ZM05ueTI0ZTd1a3RZV0xQR1hmb2djUi1YTU1YcldINUE5Nl96MzgxYUt4UFljajVj?oc=5"
-          },
-          {
-            "title": "Backcountry Campground in Death Valley National Park Closed Due to Fire",
-            "press": "Sierra Wave",
-            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHAxaGVnUUMwc1V1UXVpby1hYkdKV05qMXpST1RkYWJ0ODhiUTNzbHlwd2E5LThCS2lvSDhvakY3bWhPQklLUXVQbUpfTGlLN3RudGhLcGdWbnlQNjU1bGwwWDFOdkladk9iLUZsRTZ5SmtMeVdhdW5UdEhwTi1YT3BSRnJ0SEowSjJQZmtSaWxOdlBlUmtUbUwyWQ?oc=5"
-          },
-          {
-            "title": "Fire closes backcountry campground in Death Valley National Park",
-            "press": "Yahoo",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWN3dzdCdkdlUE1WN01fc1VjTG5TajBGZnpIeU9qRnBoMmdBZkRSbEZaYkpWUTZyMjJMRmtoU29VZ0RTSXAyMTVVM3k0TDJ6NzZWNHF5ZmJhaVFVMGZjM2V4RmlsaU5TcEZMM2Vvbk9vYnYxNUpUUzhpR014TmNxNnd0cWllNDNMUUxsZkxhTEJjbVBNbzFrbGNRMEFQU1h3Y0RqR1pYMA?oc=5"
-          },
-          {
-            "title": "Tractor-trailer catches fire in Death Valley",
-            "press": "Pahrump Valley Times",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdWRJN0lkeDRkMXdKczZIdUJBZ1VXelRoNm0zbHVseFZPejhuNk0xV183T21qT2FZeUF4b3NlR29xUVdVWmFOMGNob0wtV2F5UFdGQjFFbi12SUpYbTl4RzAwN1Rmd3hiTWIwNmZpZHFXVU5hQ1lmLThKbWJOczdtYmJSZw?oc=5"
-          },
-          {
-            "title": "Fire closes backcountry campground in Death Valley National Park",
-            "press": "AOL.com",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS3c5YVVaSWRJd0VPWlMtYTcxVFNPOElLRGRaaFQyQ3NOWGFoWmd2V0lmblhvLTczaUgtMXlpOEc3bkFRa05aTmhZMFFJWWk3X1hJZFJpSU1IWF80a0hib3FjZFNsWml6X1hvWDFVdDcyYjBEbEkySGJjcmZIOUJ2dEhfc3dERlRxXzB4cg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3AwTGcwRE5EZ0UyWDJwQ3loeS1acUFjOXpzeFdQSjlVX2FBZTFBcXpCbDVWM3lhaFBMakNiZ0YzM3Z4UU5sNWlYam4zb3pWdXhieHBvdmVvSW1Rbmk3M1VGUkQwdXd0WFZLNl9IcmRLNDdrZUEtbWk4cDhqeDNtNzdEVGU0aVdaamhsZ0JuRjhQOUk0Qlk0ZDZVZzRSV2JHdG9TMEFZSEZaQdIBrwFBVV95cUxOd2ljT2d2elg5ZkNZR2t1VDlOSktkcDFISUJXZkxuZUM5elhETUxqbUhoXzJlek5SYlF5cm1XUVppZlRiTE9aeE02bXh2QUltTzVvRUxpOVdJa1c4WERHSU0zbFBacThoT2xjZmg4NHBwMmQ1N3lYX0JjeG56Xy1ZM05ueTI0ZTd1a3RZV0xQR1hmb2djUi1YTU1YcldINUE5Nl96MzgxYUt4UFljajVj?oc=5"
       },
       {
         "title": "Iran ranks 10th with 30 UNESCO World Heritage sites",
@@ -3982,6 +4021,34 @@
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM1FzUEtka2wxdW15RUpPZ09iOHNoZ3k1Tjh3MkN0ZFNQa2RCclZKb2JJNzFGekJZTmVuR0VGeHlWT1JWZkw5TEpkMHRqeGJSc2trakVGeDZCYlkwSVVvZGZkVF82MWV3cVBCZEswS3Z6RUs3eFJsMlJGSXFKOGRRcGd0VkFnWXUtZ013bWhSSm1XZklSVndr?oc=5"
       },
       {
+        "title": "Angels Landing closed due to ongoing search and rescue at Zion National Park",
+        "reports": 3,
+        "press": [
+          "yahoo.com",
+          "ABC4 Utah",
+          "FOX 13 News Utah"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Angels Landing closed due to ongoing search and rescue at Zion National Park",
+            "press": "yahoo.com",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNUVSWnVkNDBISEdGTmRxQVNWbnE3aEVVQ09FVmdndENiRG1QQlZMQTBabEhSTTVpdVlGdUZsQjZRb2dHS2ZoUmk0RXRUdENYQUVEWXdtdFMyTzlGd2V5bTZVYXduR0lZa0RfMmNzbE5hU0NGbExMdFZ4MVJ1SlFiZEpPRnNvdUJHbzU3U3dOWVFRMjhOS2ZYNEkycDFodw?oc=5"
+          },
+          {
+            "title": "Angels Landing closed due to ongoing search and rescue at Zion National Park",
+            "press": "ABC4 Utah",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm55UHlLNEp4cEtiY25XX2lQSUpnMjNlTTNrN20tcnlROHpiejVpLVMyS2lrTENRUVB6VmdwenAxY1I1T1p0Y0w3dS1uclRYV0tHTzF1YTJIR29YRWxiQU1YcExGVWowaU1sOTJXQmpKWnI4cmZtZWtJcjhCSWh0NlFuaTVNREktRHhDYWYxV2lTZ0p6RkHSAZsBQVVfeXFMTlBPT0NpUXhNdEp2Tl9iZlNDQ3g5dE1jMzk4bnZYWFNqSWYtOGVqNGdQOUp1UHczUVFSbV9zeGJsTTBiOG5xaW1XVXVuUGJTOExfWXBwMVNpdFozS1BVMjcyb0t2M3k1a1FqLVpUTU00TkpMUVRhenFSX2N3YWhNX3N2UEZJRTU4Q3ljZmtBQ2FvZ0FTMFduS3l4YzQ?oc=5"
+          },
+          {
+            "title": "Angels Landing trail inside Zion National Park closed for search and rescue operation",
+            "press": "FOX 13 News Utah",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNk0tNTBicFV2WkNZUUpzSHpQQWtGT0l0Y3BPSnhHal92bVpBaWJILTFlUlVoaUhDTXlpRmJiTEZ3MjRFMFgwZWpkNEVaNVZPSU5pY0UzY1VYRDNmS3pkbGl2NnMxU0E5TW5FaTcyX0RTbi0teWhPc2FVdi1Wak5PVlRIblFQczlFYVp0Vm1PSldRSmNPR0VXSzlPeVpvVjB1dEctM1YtUnluMS1iVEdfT09aVlNjQUpyYkcyYV83UlBMcEl2QkhyNE5nMlVoXzFLcHZBVHhVQkJQbFZfQ1hYNg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNUVSWnVkNDBISEdGTmRxQVNWbnE3aEVVQ09FVmdndENiRG1QQlZMQTBabEhSTTVpdVlGdUZsQjZRb2dHS2ZoUmk0RXRUdENYQUVEWXdtdFMyTzlGd2V5bTZVYXduR0lZa0RfMmNzbE5hU0NGbExMdFZ4MVJ1SlFiZEpPRnNvdUJHbzU3U3dOWVFRMjhOS2ZYNEkycDFodw?oc=5"
+      },
+      {
         "title": "Kayakers find partial human skull in Cuyahoga Valley National Park",
         "reports": 3,
         "press": [
@@ -4345,6 +4412,33 @@
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWNpMGpnVkNHZzZmdVdZQThrM2VfTWtJbWF5eE5VaWVlRi0xNjhOZmlUUldHMXZrR2lkbXpNSTJwX0REc3pocTk3b0VHT1pXLTRjRnVKNk1LQ1RHUEc3TFZYbl9JQm16V0JIcGFOQ3lKdzdIcUYwRFdsNE8wdWxTUWIwdmcwNnB4WlhudjI0YlVDUU5oVnkyNjZhUG5yc01wb0JCTWJpQ3RqSC1ESmdMOXN6UmdEdmFxeTdINnRTZTdldEs5MWUwcHg2bXRKVHMtT1Zoanpn?oc=5"
       },
       {
+        "title": "Grand Canyon cuts water access near Bright Angel Trail week after flooding",
+        "reports": 3,
+        "press": [
+          "ABC4 Utah",
+          "FOX 10 Phoenix"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Grand Canyon cuts water access near Bright Angel Trail week after flooding",
+            "press": "ABC4 Utah",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CTmYzUFU5RnlUNVA3ZnJjQV9nY2I1M2sydG52LXotMG94TnR5NlVNUHh3QVZ3VU1BRUIxWHVpY2JEOUc3RXVjbjY3ZEs4QlV4N0FqRlRUY3VST0hxX0RlX3hBT3VMVGNfWmpWTEVjM2tkN2tkamfSAXtBVV95cUxQdGRzM0xwaVNwbFNIZ0RYUHdNajh4dWlhQnphM2pOaUhkT3cwTUt1STB5Yk9uQUp6NDdzUW9tUGZfdWJkSkNtaXpKS0NTenlzV1kzUkRVSUFDOUk4ZGlVX3hWVDBrcjl5OVhOeWtmMWF6MEEwWDJaOEg0R2c?oc=5"
+          },
+          {
+            "title": "Grand Canyon shuts off water along Bright Angel Trail after fatal flash floods",
+            "press": "FOX 10 Phoenix",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM0VTdkZmblFna2oycUlTSVZiVXQyWWhLZWxMVDJhQVpUYVNzR09pcW53WFNab0MtNXM1dnFncDY1T05vWjBKSTF5ZlJLd29Ob1RySFUtSUtzZVVOcHB0WFFTZkI5Q2pSOHpHZ1ZydGRTdjY2dkU2UVlfS3g3NDRuSGNoQ0ZhaVZQdkFydVB0LV9pTDVSLWxJT250YjNoRTB3RVhpWnhla1pFazlxUl9oaTdB?oc=5"
+          },
+          {
+            "title": "Grand Canyon National Park updates water restoration progress",
+            "press": "ABC4 Utah",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oRmhKODBzS24wYmdPVEtObGJSdDRyX2hHWDU2dXFJSXlEaE9Zemx1SXJVcUg0RXRIdnU1eERteHlTMkI3NnhmcU5vRWYzSTVXLWQ4VkIxVGs1QjBWTmF2bzAzNTE1QTFYczY0ZGNYVWJuQ2htRV9aZHI3TG1oVlXSAYQBQVVfeXFMTzRHcWgzc0JXcy1xeC10ZV9FLTBpcUdFZlBOS3RvekJvUlYzLUk2aEJ1UklpNzZNLW5QRzN3NlIxM29nTVlZS3RYbXFKN3FmdzkwWVlUTVctOS01VGFTSGxaYlNMeHlpMVhCY3VMT0RtZERSVWE5U3NZNUNVdDVDNG83aXAz?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CTmYzUFU5RnlUNVA3ZnJjQV9nY2I1M2sydG52LXotMG94TnR5NlVNUHh3QVZ3VU1BRUIxWHVpY2JEOUc3RXVjbjY3ZEs4QlV4N0FqRlRUY3VST0hxX0RlX3hBT3VMVGNfWmpWTEVjM2tkN2tkamfSAXtBVV95cUxQdGRzM0xwaVNwbFNIZ0RYUHdNajh4dWlhQnphM2pOaUhkT3cwTUt1STB5Yk9uQUp6NDdzUW9tUGZfdWJkSkNtaXpKS0NTenlzV1kzUkRVSUFDOUk4ZGlVX3hWVDBrcjl5OVhOeWtmMWF6MEEwWDJaOEg0R2c?oc=5"
+      },
+      {
         "title": "Man Found Alive Over 50 Miles Away One Week After He Was Last Seen Near National Park",
         "reports": 2,
         "press": [
@@ -4453,28 +4547,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc2o4VzR5SmF6ZUNxODNwTS1vVy1OWkJxZkctNTlQZzcwdjBJdTVZekxrYkQwSnBhOW0xSGgxdEpOOGp3dWdldjlWeWpJVU0wSDFrY25JTnc4dDlpZlFMTHExenl2bDVqa0tHbXNtUkw0cFFsQjE0Z1ZDak42UHd0TmhSMWdlUzV5SHZxQjhDLUNaekxFaWJtSS1YTXJfVHJFNVZ5Qg?oc=5"
-      },
-      {
-        "title": "Grand Canyon cuts water access near Bright Angel Trail week after flooding",
-        "reports": 2,
-        "press": [
-          "ABC4 Utah",
-          "FOX 10 Phoenix"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Grand Canyon cuts water access near Bright Angel Trail week after flooding",
-            "press": "ABC4 Utah",
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CTmYzUFU5RnlUNVA3ZnJjQV9nY2I1M2sydG52LXotMG94TnR5NlVNUHh3QVZ3VU1BRUIxWHVpY2JEOUc3RXVjbjY3ZEs4QlV4N0FqRlRUY3VST0hxX0RlX3hBT3VMVGNfWmpWTEVjM2tkN2tkamfSAXtBVV95cUxQdGRzM0xwaVNwbFNIZ0RYUHdNajh4dWlhQnphM2pOaUhkT3cwTUt1STB5Yk9uQUp6NDdzUW9tUGZfdWJkSkNtaXpKS0NTenlzV1kzUkRVSUFDOUk4ZGlVX3hWVDBrcjl5OVhOeWtmMWF6MEEwWDJaOEg0R2c?oc=5"
-          },
-          {
-            "title": "Grand Canyon shuts off water along Bright Angel Trail after fatal flash floods",
-            "press": "FOX 10 Phoenix",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM0VTdkZmblFna2oycUlTSVZiVXQyWWhLZWxMVDJhQVpUYVNzR09pcW53WFNab0MtNXM1dnFncDY1T05vWjBKSTF5ZlJLd29Ob1RySFUtSUtzZVVOcHB0WFFTZkI5Q2pSOHpHZ1ZydGRTdjY2dkU2UVlfS3g3NDRuSGNoQ0ZhaVZQdkFydVB0LV9pTDVSLWxJT250YjNoRTB3RVhpWnhla1pFazlxUl9oaTdB?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CTmYzUFU5RnlUNVA3ZnJjQV9nY2I1M2sydG52LXotMG94TnR5NlVNUHh3QVZ3VU1BRUIxWHVpY2JEOUc3RXVjbjY3ZEs4QlV4N0FqRlRUY3VST0hxX0RlX3hBT3VMVGNfWmpWTEVjM2tkN2tkamfSAXtBVV95cUxQdGRzM0xwaVNwbFNIZ0RYUHdNajh4dWlhQnphM2pOaUhkT3cwTUt1STB5Yk9uQUp6NDdzUW9tUGZfdWJkSkNtaXpKS0NTenlzV1kzUkRVSUFDOUk4ZGlVX3hWVDBrcjl5OVhOeWtmMWF6MEEwWDJaOEg0R2c?oc=5"
       },
       {
         "title": "Grand Canyon faces long road to recovery as National Park Service unveils plan after deadly flooding",
@@ -4959,28 +5031,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeWpBR2tfS3lJMmdxOHh2ajMzUVo3OEVYRXhvblBUNHZzblZISnRrMHNrM3YyOVBOQ0dydGdOMlcyUHhIa0dvVXdMdnk5WTJockhnd0dXSDVNRl9XcmdxUTlrVkgyN1QtOTI1X3laZDlmaTlxVlNsa2dGc0VMQVVtakg2RTdzQnBrUmZYQ1VBejcyUzdGTl9oMWJ0Sk43djl3eFhseUlMZFdfRm5kX0VaTjJrN3o2eWpXWkkweWdTeUw?oc=5"
-      },
-      {
-        "title": "Soares Complete Journey, Visit All 63 National Parks",
-        "reports": 2,
-        "press": [
-          "ourherald.com",
-          "Business Insider"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Soares Complete Journey, Visit All 63 National Parks",
-            "press": "ourherald.com",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTnd5ZUlIR3dONlAxZ0h4R180SWpITXc1TjZsd2N5aXh0a3N4S2F4NXNrdjBJQjh4a2JNcnBCWFl3WnN2U2RtVFJxaC0yNTBoZk4xZzVVNnAwem5aN29DNDBDUnRvN0kzcVpWTzhBLU1DZzVTWVBjcjRkVHFnMFducTdVWjd4UU1pMDlzLXJtOGo?oc=5"
-          },
-          {
-            "title": "I've been to all 63 major US national parks. These are the 6 I always tell people to visit in the fall.",
-            "press": "Business Insider",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeFozblZldUhqU2RpclRwLURoLW11dWVPczZVdUNPQTlmclgtRHlfRllMSHJsdFFfZUcxSmJzdE84REJXTzZIaU9IVHdUejlTcy0zU0dnNHhQTXhKWnBVdXdCWlk0Z0d5Z240ZEMyeGZzZEx2NWVJR0l2aVVCZzFHdEVRZ2U1eGVHTEZlcFlaaG85bnQzQjIxY3B3?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTnd5ZUlIR3dONlAxZ0h4R180SWpITXc1TjZsd2N5aXh0a3N4S2F4NXNrdjBJQjh4a2JNcnBCWFl3WnN2U2RtVFJxaC0yNTBoZk4xZzVVNnAwem5aN29DNDBDUnRvN0kzcVpWTzhBLU1DZzVTWVBjcjRkVHFnMFducTdVWjd4UU1pMDlzLXJtOGo?oc=5"
       }
     ]
   }
