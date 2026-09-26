@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-25T23:28:40+09:00",
- "total": 58570,
+ "generatedAt": "2026-09-26T21:51:55+09:00",
+ "total": 58085,
  "fields": [
   "date",
   "park",
@@ -21,62 +21,62 @@
  "years": [
   {
    "year": "2026",
-   "count": 13663,
-   "sizeKB": 2805
+   "count": 13482,
+   "sizeKB": 2767
   },
   {
    "year": "2025",
-   "count": 12503,
-   "sizeKB": 2540
+   "count": 12368,
+   "sizeKB": 2514
   },
   {
    "year": "2024",
-   "count": 7272,
-   "sizeKB": 1479
+   "count": 7223,
+   "sizeKB": 1469
   },
   {
    "year": "2023",
-   "count": 5719,
-   "sizeKB": 1163
+   "count": 5693,
+   "sizeKB": 1158
   },
   {
    "year": "2022",
-   "count": 3270,
-   "sizeKB": 659
+   "count": 3248,
+   "sizeKB": 654
   },
   {
    "year": "2021",
-   "count": 3060,
-   "sizeKB": 616
+   "count": 3042,
+   "sizeKB": 613
   },
   {
    "year": "2020",
-   "count": 2544,
-   "sizeKB": 515
+   "count": 2525,
+   "sizeKB": 511
   },
   {
    "year": "2019",
-   "count": 2109,
-   "sizeKB": 425
+   "count": 2089,
+   "sizeKB": 421
   },
   {
    "year": "2018",
-   "count": 1450,
-   "sizeKB": 292
+   "count": 1448,
+   "sizeKB": 291
   },
   {
    "year": "2017",
-   "count": 1284,
+   "count": 1282,
    "sizeKB": 254
   },
   {
    "year": "2016",
-   "count": 1422,
-   "sizeKB": 284
+   "count": 1418,
+   "sizeKB": 283
   },
   {
    "year": "2015",
-   "count": 1174,
+   "count": 1170,
    "sizeKB": 231
   },
   {
@@ -91,8 +91,8 @@
   },
   {
    "year": "2012",
-   "count": 326,
-   "sizeKB": 64
+   "count": 324,
+   "sizeKB": 63
   },
   {
    "year": "2011",
@@ -106,7 +106,7 @@
   },
   {
    "year": "2009",
-   "count": 192,
+   "count": 191,
    "sizeKB": 37
   },
   {
@@ -228,8 +228,8 @@
   "다도해해상",
   "변산반도",
   "가야산",
-  "금정산",
   "치악산",
+  "금정산",
   "태백산"
  ],
  "sectors": [
