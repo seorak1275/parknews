@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-02T23:58:57+09:00",
- "total": 58542,
+ "generatedAt": "2026-10-03T22:02:46+09:00",
+ "total": 58162,
  "fields": [
   "date",
   "park",
@@ -21,47 +21,47 @@
  "years": [
   {
    "year": "2026",
-   "count": 13939,
-   "sizeKB": 2860
+   "count": 13776,
+   "sizeKB": 2827
   },
   {
    "year": "2025",
-   "count": 12368,
-   "sizeKB": 2514
+   "count": 12289,
+   "sizeKB": 2498
   },
   {
    "year": "2024",
-   "count": 7223,
-   "sizeKB": 1469
+   "count": 7175,
+   "sizeKB": 1459
   },
   {
    "year": "2023",
-   "count": 5693,
-   "sizeKB": 1158
+   "count": 5670,
+   "sizeKB": 1153
   },
   {
    "year": "2022",
-   "count": 3248,
-   "sizeKB": 654
+   "count": 3218,
+   "sizeKB": 648
   },
   {
    "year": "2021",
-   "count": 3042,
-   "sizeKB": 613
+   "count": 3033,
+   "sizeKB": 611
   },
   {
    "year": "2020",
-   "count": 2525,
+   "count": 2522,
    "sizeKB": 511
   },
   {
    "year": "2019",
-   "count": 2089,
-   "sizeKB": 421
+   "count": 2075,
+   "sizeKB": 419
   },
   {
    "year": "2018",
-   "count": 1448,
+   "count": 1447,
    "sizeKB": 291
   },
   {
@@ -71,13 +71,13 @@
   },
   {
    "year": "2016",
-   "count": 1418,
-   "sizeKB": 283
+   "count": 1414,
+   "sizeKB": 282
   },
   {
    "year": "2015",
-   "count": 1170,
-   "sizeKB": 231
+   "count": 1167,
+   "sizeKB": 230
   },
   {
    "year": "2014",
@@ -86,12 +86,12 @@
   },
   {
    "year": "2013",
-   "count": 493,
+   "count": 492,
    "sizeKB": 95
   },
   {
    "year": "2012",
-   "count": 324,
+   "count": 322,
    "sizeKB": 63
   },
   {
@@ -219,17 +219,17 @@
   "주왕산",
   "덕유산",
   "소백산",
-  "월악산",
   "태안해안",
+  "월악산",
   "무등산",
   "팔공산",
   "오대산",
-  "월출산",
   "다도해해상",
+  "월출산",
   "변산반도",
   "가야산",
-  "치악산",
   "금정산",
+  "치악산",
   "태백산"
  ],
  "sectors": [
