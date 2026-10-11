@@ -1,14 +1,14 @@
 {
   "month": "2026-10",
-  "days": 10,
+  "days": 11,
   "from": "2026-10-01",
-  "to": "2026-10-10",
-  "generatedAt": "2026-10-10T18:32:38.007Z",
+  "to": "2026-10-11",
+  "generatedAt": "2026-10-11T15:37:31.059Z",
   "kr": {
     "rows": [
       {
         "title": "풀무원, 지리산국립공원 직원·자원활동가 초청 교류 행사",
-        "reports": 18,
+        "reports": 20,
         "press": [
           "매일경제 마켓",
           "지디넷코리아",
@@ -27,9 +27,11 @@
           "미래경제",
           "천지일보",
           "뉴스탭",
-          "푸드투데이"
+          "푸드투데이",
+          "디스커버리뉴스(DISCOVERYNEWS)",
+          "스포츠서울"
         ],
-        "outletCount": 18,
+        "outletCount": 20,
         "articles": [
           {
             "title": "풀무원, 지리산국립공원 직원·자원활동가 초청 교류 행사",
@@ -842,6 +844,28 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdEJrdUdRQkhXZ09hRkU4NVVIQjVjdTVDOFF6TEpJWXFUZWdIZ3R5UVQzWlo0RUV5MllxQk9qQ0VPeG1nYmVXQ0dycnlNd0F3bThxc0VtOEZXMXUybVYtcW1tOFdmdkV0TTg1ZXBNbjEwa3VjSlpkMnlxQUVPZmx3eFlQVXh3TXAwNGVOQ0tB?oc=5"
+      },
+      {
+        "title": "\"국립공원 조난사고 구조 78％는 '비법정 탐방로'서 발생\"",
+        "reports": 2,
+        "press": [
+          "연합뉴스",
+          "연합뉴스 한민족센터"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "\"국립공원 조난사고 구조 78％는 '비법정 탐방로'서 발생\"",
+            "press": "연합뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tUUxyREp0RmwxOV9jbHVHSEFrOE9WVmFSaEd0WWdFT0hZRXNqT0RxVVVSSGlNQ3F4S2tLM0FFeXB3Q0dibkVOUWNCNms1bXh3cmdQdEd3Z1gwaWhvZmpUZNIBYEFVX3lxTE5tUUxyREp0RmwxOV9jbHVHSEFrOE9WVmFSaEd0WWdFT0hZRXNqT0RxVVVSSGlNQ3F4S2tLM0FFeXB3Q0dibkVOUWNCNms1bXh3cmdQdEd3Z1gwaWhvZmpUZA?oc=5"
+          },
+          {
+            "title": "\"국립공원 조난사고 구조 78％는 '비법정 탐방로'서 발생\"",
+            "press": "연합뉴스 한민족센터",
+            "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94TE5kUkNZZDVtakNheXc0bWhyYXowZ28tMTlZODhiRUJVTWNnZXRkZFRwM2hxV0I0LU95UFdjQ08xaEliSzRKN2JoMnB6MXREQzJ2ZkhTNTFEVkdJUGlSaUVZbmNjRnBTU2JMVTVSRHZlaXlh?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tUUxyREp0RmwxOV9jbHVHSEFrOE9WVmFSaEd0WWdFT0hZRXNqT0RxVVVSSGlNQ3F4S2tLM0FFeXB3Q0dibkVOUWNCNms1bXh3cmdQdEd3Z1gwaWhvZmpUZNIBYEFVX3lxTE5tUUxyREp0RmwxOV9jbHVHSEFrOE9WVmFSaEd0WWdFT0hZRXNqT0RxVVVSSGlNQ3F4S2tLM0FFeXB3Q0dibkVOUWNCNms1bXh3cmdQdEd3Z1gwaWhvZmpUZA?oc=5"
       },
       {
         "title": "국립공원 산불 3건 중 2건 CCTV 놓쳤다…100대는 ‘내용연수 초과’",
@@ -1734,22 +1758,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQU9OTFlKUm11TzFmYk14MERTWWM1STc0ZmlabjJpcTB6eHZrNFFvTUduOEl6R0h3RUFzWGRZRFpTaGl2QTJkei1PUHN0VEthRl9ER1Y5VDJjRENkbUYyWFF1R1FKWWl3RUczWkNKUUcyNDk1a1ZvRkNfb19RQmI3TndKWldsdjBGSmV1R051bWRIMjNLQU85NVc4Q1VlbnlhWlR6MDg4X1dRNkxsNHNJOHdlb0FONHR0NndfUkoyaHliUQ?oc=5"
-      },
-      {
-        "title": "울산 도심 산책로에서 멸종위기 야생생물 '하늘다람쥐' 2마리 발견",
-        "reports": 1,
-        "press": [
-          "fnnews.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "울산 도심 산책로에서 멸종위기 야생생물 '하늘다람쥐' 2마리 발견",
-            "press": "fnnews.com",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md3lmVWpnSnRfTUQtOEJRVE9PdVlzd0JwRlVmOWkyU1JkZVl3Q01XNjVpYldZdnFWVUcxaUdXMHdoOXMzdnlWdWhQWUZwdGVjM0Z5SXNXXzlhZw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md3lmVWpnSnRfTUQtOEJRVE9PdVlzd0JwRlVmOWkyU1JkZVl3Q01XNjVpYldZdnFWVUcxaUdXMHdoOXMzdnlWdWhQWUZwdGVjM0Z5SXNXXzlhZw?oc=5"
       }
     ]
   },
@@ -2030,6 +2038,63 @@
         "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQYkhobVZIZ0dZLTM5NF9BZEN0RGxqVkZxX0xmVFA4T2FfUGt2STJRUHJwMVJhcGNrZ0dTUmxFTUk0N1VtWmJiWG9pRjdNYTRKZHNCTFV6Z3lDM1BuNGxNWmdBeHAwazFXWkpKb0VuSURQUDhXYWhLRWczN2pwbC1TZ3Q3UkJ4dEYyZjZsSmRLcnR5cXBfNGliTzZMdmxuR3YwVTJjeWY1Y2VmVDRJS0VzTjZvQU1HQ0dIUDZkcHhSOWR1ZkFydzBGTWl0VnRfN1h4RGhpWG1WZ2lHQVltSE45VFpzVlJWRS0wM3l4MHVTUi0xNXRIMWZ3ZGw1QlFhZHRzSUdSRGhWM2QwOUZsWEg4?oc=5"
       },
       {
+        "title": "Chiricahua poised to become Arizona’s fourth national park",
+        "reports": 8,
+        "press": [
+          "Arizona Daily Star",
+          "AZPM News",
+          "KOLD",
+          "azcentral.com and The Arizona Republic",
+          "tucson.com",
+          "Center for Western Priorities",
+          "EarthSky"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "Chiricahua poised to become Arizona’s fourth national park",
+            "press": "Arizona Daily Star",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+          },
+          {
+            "title": "Arizona is one step closer to getting its fourth national park",
+            "press": "AZPM News",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObkhoanQ3cXFzejNVQlFGME9BNTRackk4d19od3dJelNfZ3JyNlNvcEJ4MVVsd1BSLWJJM2xsYkc1Ykx4RkJHMXBIdzJkWjdzcnh2aGFFb0U5eFA2T0pGZWktQTJOWFRNOG91SV9fRnVWanZaQVV4c3g5ZnlBR2NJTTdzMlAtRC1sQW5aS1NQaDJBeFFObFhpc1VR?oc=5"
+          },
+          {
+            "title": "Arizona lawmakers help get Chiricahua closer to national park designation",
+            "press": "KOLD",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdi1NdEs0aFdVSGhoZnkyUmVhakk1UEtzNV9wUTk5eklKdGtPTWtwS3RUNTV3Xzd6SkZkcWRXbzlnNS04NnJ3ZTZLbHlXbmUxRm9KY3BPLVZhd3BOM3RrdmdMV2ViYWtUdWgwcHJQZFdEWG81U0d5UDJBZzloaGtndE8ySTJVQXJ0bGJTNWhUbm1mZnM0dXlqZUM4TV9NMldsWlVMLXVB?oc=5"
+          },
+          {
+            "title": "Congress passes bill to make Chiricahua Arizona's 4th national park",
+            "press": "azcentral.com and The Arizona Republic",
+            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcmRRQjBZREYyWWJ0cHl2LW9LaE5BSEcwV2U0OWxoQWx1UWFuM0p0VGh2V250N0VJUDlyTExyLTk2M2lJNXRlUFNLRno1MEQ4NTloc1dtU3J2MklubUttZnFxMVNQOUpVdUVtWHVxTjF0VzFlLTBYY3g0bGVYcGlMM3VWdC1QRExuSVJBakxVaEpOUUZ6dUVYdEt5NnZkaEloemwxempTWjMwQ0pBSk5ZcHVRYU9XQ1Y3OFZLb3J1WkljZ0dlVGs1NWpfSlA?oc=5"
+          },
+          {
+            "title": "Chiricahua poised to become Arizona’s fourth national park",
+            "press": "tucson.com",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+          },
+          {
+            "title": "Chiricahua positioned to become Arizona’s newest national park",
+            "press": "Center for Western Priorities",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUXFqLVJuNi1TR1A1anpXakM2Z2duaW1QYWxpZnltWW81aF9oMkMwMzRRSmtRYWx3cHhpV1E0YU1vUV9xSGhubWZBNmRMdHFHSWZ2T0pVMXhsYWUtTG1icERGeVJTRmlSeXFNWTNVNndnYkQ1OVUyaDJON2xWbW1NWGhlb0JsTExIZDFTNlVtbGpGNlpsc01Ua0M1Z3RaS1FLbUE?oc=5"
+          },
+          {
+            "title": "Chiricahua poised to become Arizona’s fourth national park",
+            "press": "Arizona Daily Star",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+          },
+          {
+            "title": "Arizona’s Chiricahua poised to become 64th US National Park",
+            "press": "EarthSky",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1veUd5dk9tQnNoeWRzTWgxbnNLY0FKMjByLVRhTkQ3NUtUVk1tSG5JZVZVTTNEQ0ZPNnVDZW1QdXhodjFtM0NTNmkxbExYY1M3SGZvWkhTc1F2cTU5eFg4b0tteWhJUFFxM0E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+      },
+      {
         "title": "Zion National Park highway reopening after major rockfall closes route for 9 days",
         "reports": 8,
         "press": [
@@ -2086,55 +2151,50 @@
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOelNVRXZ2dWlpNUNTZnZGQ2c1ckUtUjRNWVpEd2w3VmJfZlJDMlU0Qy00bEU5clcyMlV5cXJDZmhCMlVuRFdqaVdOS0YzOGRoOUttYk9ibTNPNV94QWFEdkZxS1hodlVDLWtxcnc3ZXdsQWZRVGRmWDI5STJBWFphb0hDQWE1MEJJcGpRSWdMeVZBOURFS3l6S3BQYUM5ejNoQnlLQjFwZXhTTVZKakY5cFNWVGlFcjkySlk3ekU3WG_SAcYBQVVfeXFMT1pBc1o0WU0xcXZqR0F0SUxmckl6SGNjX0xKbVVvRjBEWVNqYlo3c1FzdlNCQjlsUU12SWFMTnZ4ZEgzMG4yM0RudG92R0FKUDFocXc1UkV1dW9IN2doMC1ScmNub0JtbHVUcXg0SDFxTDVQZ0E0bzh4SFFzbmoxdTNBSXp0WFdDUDA2SEJFbVEtNEVHeHJiT3A5Y1c3aXRTUDlQSlVncEpDRlQya1l1VldCSG84OUFicU1yRUROYUlicFE5dEtB?oc=5"
       },
       {
-        "title": "Chiricahua poised to become Arizona’s fourth national park",
-        "reports": 7,
+        "title": "Contractor Who Appeared on HGTV Dead at 52 After Hiking Accident in California National Park",
+        "reports": 6,
         "press": [
-          "Arizona Daily Star",
-          "AZPM News",
-          "KOLD",
-          "azcentral.com and The Arizona Republic",
-          "tucson.com",
-          "Center for Western Priorities"
+          "People.com",
+          "IMDb",
+          "TV Insider",
+          "Yahoo",
+          "Los Angeles Times",
+          "Lodinews.com"
         ],
         "outletCount": 6,
         "articles": [
           {
-            "title": "Chiricahua poised to become Arizona’s fourth national park",
-            "press": "Arizona Daily Star",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+            "title": "Contractor Who Appeared on HGTV Dead at 52 After Hiking Accident in California National Park",
+            "press": "People.com",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHlVdi01bWI1bVpseHhjTUtEdGEzQlNwXzJhNW5WUXpZdFFxVTg4NC1DU0oyRWVUN24tNmhFcldfWnpEd0tjc2dkV3V0ZWg3RjFjYmNxVWE5bjYzTHBMbkp1eEZ2dzRZZktlZkVjUnZiVlpENi15cF9LT2tfak15SklNNC03em5Lb3J5V2RVd3FnZG15ekdkVXVyZHllQTA3RmVIS1hYeG5Wdw?oc=5"
           },
           {
-            "title": "Arizona is one step closer to getting its fourth national park",
-            "press": "AZPM News",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObkhoanQ3cXFzejNVQlFGME9BNTRackk4d19od3dJelNfZ3JyNlNvcEJ4MVVsd1BSLWJJM2xsYkc1Ykx4RkJHMXBIdzJkWjdzcnh2aGFFb0U5eFA2T0pGZWktQTJOWFRNOG91SV9fRnVWanZaQVV4c3g5ZnlBR2NJTTdzMlAtRC1sQW5aS1NQaDJBeFFObFhpc1VR?oc=5"
+            "title": "HGTV Contractor Found Dead After Hiking in California National Park",
+            "press": "IMDb",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYXoyRXNXWUpMRTJVdFNlLWo0VkFJN2V5dVNOc2dSeTF4TTY5ODg0a3B6MnBxSXUxZndUeHBVT1ptaUlDTE0wZnVmOTJSTmtjYXRmclZHOEFyV2JDSzdpU1JIRzNPS0hRVFE?oc=5"
           },
           {
-            "title": "Arizona lawmakers help get Chiricahua closer to national park designation",
-            "press": "KOLD",
-            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdi1NdEs0aFdVSGhoZnkyUmVhakk1UEtzNV9wUTk5eklKdGtPTWtwS3RUNTV3Xzd6SkZkcWRXbzlnNS04NnJ3ZTZLbHlXbmUxRm9KY3BPLVZhd3BOM3RrdmdMV2ViYWtUdWgwcHJQZFdEWG81U0d5UDJBZzloaGtndE8ySTJVQXJ0bGJTNWhUbm1mZnM0dXlqZUM4TV9NMldsWlVMLXVB?oc=5"
+            "title": "HGTV Contractor Found Dead After Hiking in California National Park",
+            "press": "TV Insider",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZDJ0WGFZcTh2a3N1cFR4MDBuWTU5MEpmd3hOUWVMenY3Zk1LNGZKcFotUnpMTm9VRm9HWlNjVzY5SUowR29oc0E2Ql9zcWNKOUNNMVYwSkVRZmlURk5QeWtvaE5TV2YyUFZ0dTZ0OFVWejI5UFNfZ3RpS3JiajMxbzZMZnkxbmlRRmlPdQ?oc=5"
           },
           {
-            "title": "Congress passes bill to make Chiricahua Arizona's 4th national park",
-            "press": "azcentral.com and The Arizona Republic",
-            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcmRRQjBZREYyWWJ0cHl2LW9LaE5BSEcwV2U0OWxoQWx1UWFuM0p0VGh2V250N0VJUDlyTExyLTk2M2lJNXRlUFNLRno1MEQ4NTloc1dtU3J2MklubUttZnFxMVNQOUpVdUVtWHVxTjF0VzFlLTBYY3g0bGVYcGlMM3VWdC1QRExuSVJBakxVaEpOUUZ6dUVYdEt5NnZkaEloemwxempTWjMwQ0pBSk5ZcHVRYU9XQ1Y3OFZLb3J1WkljZ0dlVGs1NWpfSlA?oc=5"
+            "title": "HGTV Contractor Found Dead in California National Park After Mount Whitney Hiking Trip",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSDMzT3M3a19CWFBlSWNRWXVvQlQza21GMmNJV0ZMMzNieVp4WDE2bjBFYS05eW13STdGX1NFV0dFWXlJZWFWUU01cVR3WllUTDE0TFViejloRktwNW41cGp5bkhxOTdCSmNyV2djUzRrTTJnNEpkMmJfUFhjSDJzT3NxMm5WOXZYQXlqOExzb0x6c093enIzdDgzNDBDLTRWTFU3SU5MZjVKelk?oc=5"
           },
           {
-            "title": "Chiricahua poised to become Arizona’s fourth national park",
-            "press": "tucson.com",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+            "title": "Fresno contractor who appeared on HGTV dies while hiking in Sequoia National Park",
+            "press": "Los Angeles Times",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdmRlVDZFblB6bU1OeGFJRUtJalY5Vk1abUdNMFE1SERZSjBHQy1MYlFhMXZaNkcwWnc5UE5iS2t4WDF1cnA4VlhaRHpYa3pmWVF4OVBWWFdPbGxNQnYwMXgzOWtraUFfZm1TU3hCeWtOT2xsaTRYN1R4X1N0NUlpbWFSaU5PQVlvZzF5ZlJNNzBKSmhDTXNfMFFMcHJrRzFGQkg4aHc4UVZ4d1FJZktUem9BQ3RtXy1IWjRfMXFRYjJXMy1sZThoUHRzcEk2dw?oc=5"
           },
           {
-            "title": "Chiricahua positioned to become Arizona’s newest national park",
-            "press": "Center for Western Priorities",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUXFqLVJuNi1TR1A1anpXakM2Z2duaW1QYWxpZnltWW81aF9oMkMwMzRRSmtRYWx3cHhpV1E0YU1vUV9xSGhubWZBNmRMdHFHSWZ2T0pVMXhsYWUtTG1icERGeVJTRmlSeXFNWTNVNndnYkQ1OVUyaDJON2xWbW1NWGhlb0JsTExIZDFTNlVtbGpGNlpsc01Ua0M1Z3RaS1FLbUE?oc=5"
-          },
-          {
-            "title": "Chiricahua poised to become Arizona’s fourth national park",
-            "press": "Arizona Daily Star",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+            "title": "Fresno contractor who appeared on HGTV dies while hiking in Sequoia National Park",
+            "press": "Lodinews.com",
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbnJ2ZmwwNVhJeS16NGk4dU9LbloxS19jNzNfYloxdk9TUWV4a1lMSmJiWFBFZ0E4TTI2X1dUMDBoajVGem1sdUtERnZXdm00UjNVaU1CYzl6VlJLOGVScDZDZV9YNzVwYkZ5cm0yX2VISmdUR3NtY2JWVHhUak1RbENucFduQW1rQmdWNThVNklzZw?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnRQbU1vRUJsbElQZU91N1AzTDRPazlfQjB0OXFKM29mYzFhX0NqdWdoenVtcXhmV3A1Rm44S18wQmJzMjM2ajVFMGhzUlMwWjExSV9kSERmWE90SGVpNVZfbHlUZTBrc1BVMkNpaXZ2TWdkQ29Ha0hmUlczeHhDS29oM3N0Tmctel9FUFVoaFVfejgxLXc?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHlVdi01bWI1bVpseHhjTUtEdGEzQlNwXzJhNW5WUXpZdFFxVTg4NC1DU0oyRWVUN24tNmhFcldfWnpEd0tjc2dkV3V0ZWg3RjFjYmNxVWE5bjYzTHBMbkp1eEZ2dzRZZktlZkVjUnZiVlpENi15cF9LT2tfak15SklNNC03em5Lb3J5V2RVd3FnZG15ekdkVXVyZHllQTA3RmVIS1hYeG5Wdw?oc=5"
       },
       {
         "title": "Baseball in a national park? We found 7 ball fields at Grand Teton and Yellowstone.",
@@ -2182,46 +2242,6 @@
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFBkbEtyYkNXSEFXY3ZUVkRRNWZvUHUyUnRZOWhRR3ktTGhzbHVRZWNBX3Bva3Zxa01CN3JObDdYcFczLVFfZ0gwUXo2LUt5Vk94WTlxUGRrQ3UwX0RfeDJwa01KRmtlX001VkxJOXZZSVFvQ0pmbkRaOTlwRDFaWHM0NTZhbzJCUmVkV05xQk0tanhyUS0yR1BxUElLMkNBeTJvMQ?oc=5"
       },
       {
-        "title": "Contractor Who Appeared on HGTV Dead at 52 After Hiking Accident in California National Park",
-        "reports": 5,
-        "press": [
-          "People.com",
-          "IMDb",
-          "TV Insider",
-          "Yahoo",
-          "Los Angeles Times"
-        ],
-        "outletCount": 5,
-        "articles": [
-          {
-            "title": "Contractor Who Appeared on HGTV Dead at 52 After Hiking Accident in California National Park",
-            "press": "People.com",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHlVdi01bWI1bVpseHhjTUtEdGEzQlNwXzJhNW5WUXpZdFFxVTg4NC1DU0oyRWVUN24tNmhFcldfWnpEd0tjc2dkV3V0ZWg3RjFjYmNxVWE5bjYzTHBMbkp1eEZ2dzRZZktlZkVjUnZiVlpENi15cF9LT2tfak15SklNNC03em5Lb3J5V2RVd3FnZG15ekdkVXVyZHllQTA3RmVIS1hYeG5Wdw?oc=5"
-          },
-          {
-            "title": "HGTV Contractor Found Dead After Hiking in California National Park",
-            "press": "IMDb",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYXoyRXNXWUpMRTJVdFNlLWo0VkFJN2V5dVNOc2dSeTF4TTY5ODg0a3B6MnBxSXUxZndUeHBVT1ptaUlDTE0wZnVmOTJSTmtjYXRmclZHOEFyV2JDSzdpU1JIRzNPS0hRVFE?oc=5"
-          },
-          {
-            "title": "HGTV Contractor Found Dead After Hiking in California National Park",
-            "press": "TV Insider",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZDJ0WGFZcTh2a3N1cFR4MDBuWTU5MEpmd3hOUWVMenY3Zk1LNGZKcFotUnpMTm9VRm9HWlNjVzY5SUowR29oc0E2Ql9zcWNKOUNNMVYwSkVRZmlURk5QeWtvaE5TV2YyUFZ0dTZ0OFVWejI5UFNfZ3RpS3JiajMxbzZMZnkxbmlRRmlPdQ?oc=5"
-          },
-          {
-            "title": "HGTV Contractor Found Dead in California National Park After Mount Whitney Hiking Trip",
-            "press": "Yahoo",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSDMzT3M3a19CWFBlSWNRWXVvQlQza21GMmNJV0ZMMzNieVp4WDE2bjBFYS05eW13STdGX1NFV0dFWXlJZWFWUU01cVR3WllUTDE0TFViejloRktwNW41cGp5bkhxOTdCSmNyV2djUzRrTTJnNEpkMmJfUFhjSDJzT3NxMm5WOXZYQXlqOExzb0x6c093enIzdDgzNDBDLTRWTFU3SU5MZjVKelk?oc=5"
-          },
-          {
-            "title": "Fresno contractor who appeared on HGTV dies while hiking in Sequoia National Park",
-            "press": "Los Angeles Times",
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdmRlVDZFblB6bU1OeGFJRUtJalY5Vk1abUdNMFE1SERZSjBHQy1MYlFhMXZaNkcwWnc5UE5iS2t4WDF1cnA4VlhaRHpYa3pmWVF4OVBWWFdPbGxNQnYwMXgzOWtraUFfZm1TU3hCeWtOT2xsaTRYN1R4X1N0NUlpbWFSaU5PQVlvZzF5ZlJNNzBKSmhDTXNfMFFMcHJrRzFGQkg4aHc4UVZ4d1FJZktUem9BQ3RtXy1IWjRfMXFRYjJXMy1sZThoUHRzcEk2dw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHlVdi01bWI1bVpseHhjTUtEdGEzQlNwXzJhNW5WUXpZdFFxVTg4NC1DU0oyRWVUN24tNmhFcldfWnpEd0tjc2dkV3V0ZWg3RjFjYmNxVWE5bjYzTHBMbkp1eEZ2dzRZZktlZkVjUnZiVlpENi15cF9LT2tfak15SklNNC03em5Lb3J5V2RVd3FnZG15ekdkVXVyZHllQTA3RmVIS1hYeG5Wdw?oc=5"
-      },
-      {
         "title": "Active Kīlauea forces 'immediate' trail closures at Hawai'i Volcanoes National Park",
         "reports": 5,
         "press": [
@@ -2260,6 +2280,45 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRU50dEIwTG42SGFXWlNqeGV1LVdjUHlweG04elZGU3p6MWFEaUR1OGZNS21wOHFRcjRJX0cwY3l5ZkIzeldhcVRpUE5xeXB1WVo4YWVRMFdrSXFyZDlsbGJDZlltSndtSzl2elpacXVoaVVWeF9Hd2psSzhQRklTV01waklsN29WLTM0NzM5R3VROFF3?oc=5"
+      },
+      {
+        "title": "The countries with the most UNESCO World Heritage sites",
+        "reports": 5,
+        "press": [
+          "qz.com",
+          "The Times of India",
+          "eKathimerini.com",
+          "The National Tribune"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "The countries with the most UNESCO World Heritage sites",
+            "press": "qz.com",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vMjZ6UGRidnRVeFpjbnM0Y3d0ZkN4WE1rZzJYYXoweW5ETHpYYkIycXNld0J4R1d6Y0d0aUNncmRwb0JCWlZWd0FybUliemdNZ19GaEZiNlo4bm1JWmx0c25RRzNyQTg?oc=5"
+          },
+          {
+            "title": "World heritage sites UNESCO lists as in danger",
+            "press": "qz.com",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KYXlVNElWd29QdFZBN3JQZnMzNEdmTTF4eE5uaXhPSVFuRVd4NnA0bDBBQ0RaMmYyeFpOV1laY2ZHNEUzeWRIN18zUFZzdzBxRmIxTWF2ZEZHa0tmQUtlNkNB?oc=5"
+          },
+          {
+            "title": "In 1993, Matera’s once-shunned cave districts became a UNESCO World Heritage site; restored stone homes n",
+            "press": "The Times of India",
+            "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOU1RLRnltSXBLOHdWdEJQRUx5SXJHeFpaRGV4UWhiRmZOWVotSVktVW54cW9ZSUNkamVQcHpaSG5vT0x3WjNXVzBYTmwxOHMzQlJmWUstbHdxQy1RY1MyRzlTS0hjUlhNcTMybnd3SXNuZkpOcXgwMUphaVh6Ni1BSnVKSzJueXZiT1FYX3JITjYxVktVSmFUdzdCY2IwUmZYUms4NzZqcWtIazJvRVU3c0otazhfWmxaQjU0ZkxxNXVMMlJNNzFiNjVSV1luSEIxVWVUYWV6U2RocHZfem1SWkRndkxWU214a0ptcEVURzZUaHNUeHJTd21tR3E4OHhabEZpcmNXTDYzQjBjUVc0cHE0WFg4RDRfUUdWUHRjYkw1dk9RdFZMaWFOQUc4UkxoVFV5d2xSbjRWVG9wZ25jQTVFRW7SAcoCQVVfeXFMTnJMUi1uaXFqNVJtb1lvS2NMbTBQZlVMNnB5U2xkcHN2UVgxb0pUZlVCU3lJM2ZBNWNOVnZQeW9ISm10VFdrMVdha25HNjZRU08zQVkzMWZyMzktZlVDd08xSHVZczAydTMyUlJtY2QwVXVmR0hQNmZaS3lLTVpna3QxWl9wMWthanlUQ0hmT0tLaGlwUzRuMXBJUzE4SXFrMEdDXzFKMXl6cEkyOE04TEF1WkRrbUVzZG1IZFFnZ0ZuLTYtYWtOMGZReUE4bU1oZHJGaHNvMHdscUQzc1VVdW1Ya1dpQjZpelA1MmpvNUNiMGlZTW10UnVLSWRFdlA0d2RuSE56S0pVSmhKUTN2U1dYVDkzYVF4ZlJvMThwZEVOU256RExtZzZvMmVteU9tdTg4MWFJRFU5MkhLaW5fUFpscTd6b200cXh3?oc=5"
+          },
+          {
+            "title": "Mt Olympus officially designated a UNESCO World Heritage site",
+            "press": "eKathimerini.com",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ2dod3hEZEI5NUVPckRHX1pSbktJU2c0c3VuaDdrRE5LVTdCZ1pYaXd1dUo1SVc3anJGNldZZ1hyTDVYU21ZNm1wa2pHbDg1MGJMVnNDamc3T0xiSUtyWDBHdmlwcDA5RWF5MlRQLXhMaERKaW9jMWU1U0tkQmJmeENYVHB2dGh6Wk1FX05uS1IzaGN1anp0Y3R1MS0tUUJiTVhjOFQ0NmRDTjl6N3gyVG1FLWhNbm8?oc=5"
+          },
+          {
+            "title": "Potential World Heritage Sites Announced",
+            "press": "The National Tribune",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0UwaHNiSm1tRGtLVVJvc016ZTFyQTdFVmRiM29hdmt2clZBRk5EWFBuUTVlVkJ2dGJ6UFgydExMSTNZUExwMm1fTDBreHZXRDEwc1psUFBobFAwOHpPVW9VNExrRy1NeDhXTXBwR1NERy1POEJ5REVBY3o3NUp2eDVn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vMjZ6UGRidnRVeFpjbnM0Y3d0ZkN4WE1rZzJYYXoweW5ETHpYYkIycXNld0J4R1d6Y0d0aUNncmRwb0JCWlZWd0FybUliemdNZ19GaEZiNlo4bm1JWmx0c25RRzNyQTg?oc=5"
       },
       {
         "title": "Trump administration considers scaling back border project in Texas' Big Bend National Park",
@@ -2402,6 +2461,34 @@
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc2hBZ29WUkQ1bHhmVksxMzRIZllWNkVqcUo4T3dXemtMMUVXR0h1bDJxTkZMeGNxQ2pXdGhac1h1ZFNQczdObFNKdGR3NW9KOWlEUXA5TFNCVVY0ZVhsUWhqcDU5VDI5OGRkcVJGQVAtOFpXandDOWRaSVZEX2V0N29VTHNfTktKTkNTcy00S1RlSk1SWTMzTzlR?oc=5"
       },
       {
+        "title": "Glacier National Park to close section of Going-to-the-Sun Road Friday",
+        "reports": 3,
+        "press": [
+          "NBC Montana",
+          "Flathead Beacon",
+          "SnowBrains"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Glacier National Park to close section of Going-to-the-Sun Road Friday",
+            "press": "NBC Montana",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0lBUk1nX2I0UGEydUdPaXlGaWJXY2dsMlpVRmx0SW5OWjdyTDNPTThFMEVPRFkzN0lQcVhvNGRVbkNlYW1INDJHVEJIRm9HQXh4R0haXzNYdFJ6V0xteklIQUVWVS1CSWc0VE1sNGZEMGVlWjg0UW42ZzN3Um9wa3V4UGNNX0NnenpzV3dNWWVWSHBTZlpuVTJ6X0pTSWR1U3BUR3g3TQ?oc=5"
+          },
+          {
+            "title": "Glacier National Park to Close Going-to-the-Sun Road Ahead of Winter Weather",
+            "press": "Flathead Beacon",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdjZMTmJuVlc2X2JWTUVvNTZyOGxkUlVCajRPZk9tN2pvaVdnSVg1bWdwZ0FpRlhDSWU0QWpJQUtYSmpwbGM2ZFhOYmJOV2lycmdCM1gzdHgtX3l6Nzl5Skd2bFNVdGxHaEs5b2EzR1dqSzBzbWlKcXZmdllGbGM3WFd2aVhCU3dMd1Z4bDJ1dGNfemhXU0E1cnVrT19FX1RSelY1SEpSaV9jV3hrOEhidi14a2t2QQ?oc=5"
+          },
+          {
+            "title": "Going-to-the-Sun Road in Glacier National Park, MT, is Temporarily Closed",
+            "press": "SnowBrains",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkNRWGZ2bVBVb2FIU3JEcnZFYXAteUpEMUpGSktNdF9iUnFTcmpTTXlnbVc0YjlTR3FFSTZCNzRVb2s3aFVSQVNjY19aZExuWHZaS0UwVEFja3YwamQwa3ZnUDJmdmt2VmZTLWRWZklia1VjWWNXVzcyUEZsLUdwLUw2dXJTVDF1SVprTkZwV0x1d3NpSGNF?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0lBUk1nX2I0UGEydUdPaXlGaWJXY2dsMlpVRmx0SW5OWjdyTDNPTThFMEVPRFkzN0lQcVhvNGRVbkNlYW1INDJHVEJIRm9HQXh4R0haXzNYdFJ6V0xteklIQUVWVS1CSWc0VE1sNGZEMGVlWjg0UW42ZzN3Um9wa3V4UGNNX0NnenpzV3dNWWVWSHBTZlpuVTJ6X0pTSWR1U3BUR3g3TQ?oc=5"
+      },
+      {
         "title": "Grand Canyon National Park's New $100 Visitor Charge Forces Tourism Company To Act Against U.S. Government",
         "reports": 3,
         "press": [
@@ -2456,6 +2543,33 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFhxRXMtT1VaU29kcHlXYXpoejNNSHVMUEItTkxzZGdqWkpkVTdYWmJwT1lZSEIwaFRNd0NPdk5TcnZWSnBZT0RJUC1XX2dmUElvLTQ4bG9UY0RCLUpmTFFxTURSZ0ZqTlY1VkJyZDg1MGZpRGlYWDBqQW1jRnprc0paQi1hV3J6blFOaWl0dFRWM21pOHFFbmtHblpocWtyWjVEZU9aRXo4cWFHUVRpSkFuRWJZQdIBygFBVV95cUxOcFVyT3Z1NnFsb29DbkNDZ1BycjhJM0VGeFRLRmp3S3dudmhrcGdjRDBNTl9YNXBhZHB1VmFQRkE5YWM5NDJ6eHNxZnluMFVHUTZzT3F3UGY3NnpCckZHRjNwbGtlT3hYSDBGQk81YjVYc2RfWTFTOU1qajY4Z0NfdzVMUXZ1WEJPUTA5cWJEcVlyRWhPbldDbVVpWURZb0t4RnA0dEJnenQ4TURQMEZZZ2pxRGRVZGRGSXgxdXFKOE82YWkxQXE1cWlR?oc=5"
+      },
+      {
+        "title": "Rocky Mountain National Park closes Old Fall River Road on 6 October - ad-hoc-news.de",
+        "reports": 3,
+        "press": [
+          "ad-hoc-news.de",
+          "The Coloradoan"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Rocky Mountain National Park closes Old Fall River Road on 6 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY093QThYdERpQVFKMTRreFdobkUzRnF4VTNkT2FBU1lPSkFDeHdZcEpCYk41dzJpeVhiU1dYT2RFLVhCUS1aOWc4QjkyNHEtMWhuNFdSakFIRms0LURHVW5faEI1ajlQNXlPWVZjZ3JoVm42MFEtVG9IVUlXbUNpeXY4ZWhnT3g2b3laMkhMajVjSVZVQWYtd2JmS0VjM2RYZTlINFctLXY3YXBWNERWQUxjQjdPMnpmdHM2R1Y0RkZuZw?oc=5"
+          },
+          {
+            "title": "Mount Rainier National Park closes Grove lot until 31 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR1hDTkR2ekFDQW5lc2U0SVp0ejZWWmhpRVVrR2lhM09Ob0tGX2NnbFVqTTA0c3NFaTYtWGxwdmt2V3M4c1dGRmlEd0VqLVVRQklCSnFXOWVtQ0hFQUpYU0pIQjZwZlhIalVwUGkyNzFqcVdZbklVUGNySVhOalJlNnBSLXh5S2k1WWFOY2xLaXFYa3JvNm4yZk9sYzJJNV9SNTdLbmN3aHoyX1E1NFNHTjI5T2JoZ3Fx?oc=5"
+          },
+          {
+            "title": "Rocky Mountain National Park sets Old Fall River Road closing date",
+            "press": "The Coloradoan",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjdRcTdsUGtmLW1ZZmRXWFBEOWIzRkJhTnc4dU8zbXNBSko2NmpOcGt3U2xfQXAyaWptWlhKODhDQ3RPR05wcVdMT1VFMDZpUmh1OFZJeUpJOFU5OEtmT01sV0xaRDU5aUQ2d1g1am04aGtxekZfWlFHdXdSMTVHVk5iN0hCOEhYeF9QUTR0N21NOUNBMzZaSm9FUktZVHFLU3o3YUp5dktFcXNxSno5MWVOVUx0NGZCU25PbGVtYTR1TkZtdDRNM0xyb3dfVks1T3R6Vy1fYlZrVjB2WE04?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY093QThYdERpQVFKMTRreFdobkUzRnF4VTNkT2FBU1lPSkFDeHdZcEpCYk41dzJpeVhiU1dYT2RFLVhCUS1aOWc4QjkyNHEtMWhuNFdSakFIRms0LURHVW5faEI1ajlQNXlPWVZjZ3JoVm42MFEtVG9IVUlXbUNpeXY4ZWhnT3g2b3laMkhMajVjSVZVQWYtd2JmS0VjM2RYZTlINFctLXY3YXBWNERWQUxjQjdPMnpmdHM2R1Y0RkZuZw?oc=5"
       },
       {
         "title": "Opinion: America needs to invest in its National Park System",
@@ -2771,28 +2885,6 @@
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93cUtPYWlSbmN5S0dxRkpjbWx0T3VjTGxPdnF4d1d2bFpRNXQyVk9pdHBoWVVPdmFrTE11ZUFfNnR4QzE3NDRsUEkwWk5DbjI0dVZGdlZtdS1OR05od1NpTVd4M2JyeVBOeXRDV21yRGhLNVcz?oc=5"
       },
       {
-        "title": "Glacier National Park to close section of Going-to-the-Sun Road Friday",
-        "reports": 2,
-        "press": [
-          "NBC Montana",
-          "Flathead Beacon"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Glacier National Park to close section of Going-to-the-Sun Road Friday",
-            "press": "NBC Montana",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0lBUk1nX2I0UGEydUdPaXlGaWJXY2dsMlpVRmx0SW5OWjdyTDNPTThFMEVPRFkzN0lQcVhvNGRVbkNlYW1INDJHVEJIRm9HQXh4R0haXzNYdFJ6V0xteklIQUVWVS1CSWc0VE1sNGZEMGVlWjg0UW42ZzN3Um9wa3V4UGNNX0NnenpzV3dNWWVWSHBTZlpuVTJ6X0pTSWR1U3BUR3g3TQ?oc=5"
-          },
-          {
-            "title": "Glacier National Park to Close Going-to-the-Sun Road Ahead of Winter Weather",
-            "press": "Flathead Beacon",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdjZMTmJuVlc2X2JWTUVvNTZyOGxkUlVCajRPZk9tN2pvaVdnSVg1bWdwZ0FpRlhDSWU0QWpJQUtYSmpwbGM2ZFhOYmJOV2lycmdCM1gzdHgtX3l6Nzl5Skd2bFNVdGxHaEs5b2EzR1dqSzBzbWlKcXZmdllGbGM3WFd2aVhCU3dMd1Z4bDJ1dGNfemhXU0E1cnVrT19FX1RSelY1SEpSaV9jV3hrOEhidi14a2t2QQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0lBUk1nX2I0UGEydUdPaXlGaWJXY2dsMlpVRmx0SW5OWjdyTDNPTThFMEVPRFkzN0lQcVhvNGRVbkNlYW1INDJHVEJIRm9HQXh4R0haXzNYdFJ6V0xteklIQUVWVS1CSWc0VE1sNGZEMGVlWjg0UW42ZzN3Um9wa3V4UGNNX0NnenpzV3dNWWVWSHBTZlpuVTJ6X0pTSWR1U3BUR3g3TQ?oc=5"
-      },
-      {
         "title": "We Asked Park Rangers the Best National Park to Visit in October—One Kept Coming Up",
         "reports": 2,
         "press": [
@@ -2837,28 +2929,6 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZFpQejdWQW42WXN5VzA1b21WN2NFdWF2XzNMcmhITDNGVjMtbnluUHVZbDBnTVFOWjM4ZjVVc1k3TVdXUlNGNGJuTGFZcTNFbzE3N3BMUWZZT1hLb3VTTndCSTVHTXZzajFrQ1hLSzlza1dKRjRvTmJoc09sVmNrWU91bExoWllBbzNmZ0hmQ3R5d3hrTUE?oc=5"
       },
       {
-        "title": "Rocky Mountain National Park sets Old Fall River Road closing date",
-        "reports": 2,
-        "press": [
-          "The Coloradoan",
-          "SkyHiNews.com"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Rocky Mountain National Park sets Old Fall River Road closing date",
-            "press": "The Coloradoan",
-            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjdRcTdsUGtmLW1ZZmRXWFBEOWIzRkJhTnc4dU8zbXNBSko2NmpOcGt3U2xfQXAyaWptWlhKODhDQ3RPR05wcVdMT1VFMDZpUmh1OFZJeUpJOFU5OEtmT01sV0xaRDU5aUQ2d1g1am04aGtxekZfWlFHdXdSMTVHVk5iN0hCOEhYeF9QUTR0N21NOUNBMzZaSm9FUktZVHFLU3o3YUp5dktFcXNxSno5MWVOVUx0NGZCU25PbGVtYTR1TkZtdDRNM0xyb3dfVks1T3R6Vy1fYlZrVjB2WE04?oc=5"
-          },
-          {
-            "title": "Old Fall River Road to close for seasonal vehicle use and maintenance at Rocky Mountain National Park",
-            "press": "SkyHiNews.com",
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ3hDX3dPNHJQN0U2S1ZmcElrLTZEZjJNSTJsV1d3Ym1HY3JvYjBScjFYcms5R0hVSVR2ZzdDcTdxZ2piSnBEUEJEazByVGw2MHFteW04Sk1zVlR4VExLN0t1d2FSMVh5UVBPWGt3UXFLR3dETVpLcXhLbnNvaDNaMDlYNGJaRmNJTGFBc2VQaVprYUQ4QTdCaFFfTE5zeGhxZjJPV1RNaW84OUthV2lJWnNMcmFEVkZpdkF1cEtXUDJ1ejIxZFNNWjRZSGVXdw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjdRcTdsUGtmLW1ZZmRXWFBEOWIzRkJhTnc4dU8zbXNBSko2NmpOcGt3U2xfQXAyaWptWlhKODhDQ3RPR05wcVdMT1VFMDZpUmh1OFZJeUpJOFU5OEtmT01sV0xaRDU5aUQ2d1g1am04aGtxekZfWlFHdXdSMTVHVk5iN0hCOEhYeF9QUTR0N21NOUNBMzZaSm9FUktZVHFLU3o3YUp5dktFcXNxSno5MWVOVUx0NGZCU25PbGVtYTR1TkZtdDRNM0xyb3dfVks1T3R6Vy1fYlZrVjB2WE04?oc=5"
-      },
-      {
         "title": "Controversial proposal for 3,000-foot tram revived outside Glacier National Park",
         "reports": 2,
         "press": [
@@ -2879,28 +2949,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTdGaC1LekRPWjRsUkVQYU9yTm1BbWIwNEVGeXpOZFFkbnI5OUNjMVg2RENCQXRqYW5jOUx6VFhHc2J5WWdTV0dyS0t6R01vWHVkbkNna1BjbTRjQUNsd1hmTjhKWUx6NWZGRThEc2tGODNQendnM2RxanY4eE5tOTc4NDcta2FBcVlLM1VfbGJzSkptUTdJ?oc=5"
-      },
-      {
-        "title": "In 1993, Matera’s once-shunned cave districts became a UNESCO World Heritage site; restored stone homes n",
-        "reports": 2,
-        "press": [
-          "The Times of India",
-          "eKathimerini.com"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "In 1993, Matera’s once-shunned cave districts became a UNESCO World Heritage site; restored stone homes n",
-            "press": "The Times of India",
-            "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOU1RLRnltSXBLOHdWdEJQRUx5SXJHeFpaRGV4UWhiRmZOWVotSVktVW54cW9ZSUNkamVQcHpaSG5vT0x3WjNXVzBYTmwxOHMzQlJmWUstbHdxQy1RY1MyRzlTS0hjUlhNcTMybnd3SXNuZkpOcXgwMUphaVh6Ni1BSnVKSzJueXZiT1FYX3JITjYxVktVSmFUdzdCY2IwUmZYUms4NzZqcWtIazJvRVU3c0otazhfWmxaQjU0ZkxxNXVMMlJNNzFiNjVSV1luSEIxVWVUYWV6U2RocHZfem1SWkRndkxWU214a0ptcEVURzZUaHNUeHJTd21tR3E4OHhabEZpcmNXTDYzQjBjUVc0cHE0WFg4RDRfUUdWUHRjYkw1dk9RdFZMaWFOQUc4UkxoVFV5d2xSbjRWVG9wZ25jQTVFRW7SAcoCQVVfeXFMTnJMUi1uaXFqNVJtb1lvS2NMbTBQZlVMNnB5U2xkcHN2UVgxb0pUZlVCU3lJM2ZBNWNOVnZQeW9ISm10VFdrMVdha25HNjZRU08zQVkzMWZyMzktZlVDd08xSHVZczAydTMyUlJtY2QwVXVmR0hQNmZaS3lLTVpna3QxWl9wMWthanlUQ0hmT0tLaGlwUzRuMXBJUzE4SXFrMEdDXzFKMXl6cEkyOE04TEF1WkRrbUVzZG1IZFFnZ0ZuLTYtYWtOMGZReUE4bU1oZHJGaHNvMHdscUQzc1VVdW1Ya1dpQjZpelA1MmpvNUNiMGlZTW10UnVLSWRFdlA0d2RuSE56S0pVSmhKUTN2U1dYVDkzYVF4ZlJvMThwZEVOU256RExtZzZvMmVteU9tdTg4MWFJRFU5MkhLaW5fUFpscTd6b200cXh3?oc=5"
-          },
-          {
-            "title": "Mt Olympus officially designated a UNESCO World Heritage site",
-            "press": "eKathimerini.com",
-            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ2dod3hEZEI5NUVPckRHX1pSbktJU2c0c3VuaDdrRE5LVTdCZ1pYaXd1dUo1SVc3anJGNldZZ1hyTDVYU21ZNm1wa2pHbDg1MGJMVnNDamc3T0xiSUtyWDBHdmlwcDA5RWF5MlRQLXhMaERKaW9jMWU1U0tkQmJmeENYVHB2dGh6Wk1FX05uS1IzaGN1anp0Y3R1MS0tUUJiTVhjOFQ0NmRDTjl6N3gyVG1FLWhNbm8?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOU1RLRnltSXBLOHdWdEJQRUx5SXJHeFpaRGV4UWhiRmZOWVotSVktVW54cW9ZSUNkamVQcHpaSG5vT0x3WjNXVzBYTmwxOHMzQlJmWUstbHdxQy1RY1MyRzlTS0hjUlhNcTMybnd3SXNuZkpOcXgwMUphaVh6Ni1BSnVKSzJueXZiT1FYX3JITjYxVktVSmFUdzdCY2IwUmZYUms4NzZqcWtIazJvRVU3c0otazhfWmxaQjU0ZkxxNXVMMlJNNzFiNjVSV1luSEIxVWVUYWV6U2RocHZfem1SWkRndkxWU214a0ptcEVURzZUaHNUeHJTd21tR3E4OHhabEZpcmNXTDYzQjBjUVc0cHE0WFg4RDRfUUdWUHRjYkw1dk9RdFZMaWFOQUc4UkxoVFV5d2xSbjRWVG9wZ25jQTVFRW7SAcoCQVVfeXFMTnJMUi1uaXFqNVJtb1lvS2NMbTBQZlVMNnB5U2xkcHN2UVgxb0pUZlVCU3lJM2ZBNWNOVnZQeW9ISm10VFdrMVdha25HNjZRU08zQVkzMWZyMzktZlVDd08xSHVZczAydTMyUlJtY2QwVXVmR0hQNmZaS3lLTVpna3QxWl9wMWthanlUQ0hmT0tLaGlwUzRuMXBJUzE4SXFrMEdDXzFKMXl6cEkyOE04TEF1WkRrbUVzZG1IZFFnZ0ZuLTYtYWtOMGZReUE4bU1oZHJGaHNvMHdscUQzc1VVdW1Ya1dpQjZpelA1MmpvNUNiMGlZTW10UnVLSWRFdlA0d2RuSE56S0pVSmhKUTN2U1dYVDkzYVF4ZlJvMThwZEVOU256RExtZzZvMmVteU9tdTg4MWFJRFU5MkhLaW5fUFpscTd6b200cXh3?oc=5"
       },
       {
         "title": "Shenandoah National Park: ‘Several weeks’ from peak fall color",
@@ -2945,28 +2993,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSkpyLWE1WTlhT2ZNZ2NpTEpiT3BEcEEyaXByaERlemlDZlJGaWY5ekRrYXNCWnk5TzBuOHFpZXZWcmxxdmVsWkIxU3Jhb0dIN3dYNTBIYU94ZElicm5raFduRkZ6cFA0b3BOVmFSZDZhcHhZZXNFZWlPR0poa3QtVQ?oc=5"
-      },
-      {
-        "title": "Iran, UNESCO discuss stronger intl. cooperation to protect World Heritage sites",
-        "reports": 2,
-        "press": [
-          "tehrantimes.com",
-          "The National Tribune"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Iran, UNESCO discuss stronger intl. cooperation to protect World Heritage sites",
-            "press": "tehrantimes.com",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcE5NQW9YdnYzVDRiVWJSRG1iemYzMUhlNEplYlRTOV85UHpKc0R6QUplZ2hjZXlwUF9QcmNTemxKTlRDWmRUVUxMZWNPQW5IbDF6cUg1UUt1QTdzRkw3Z1B0VUZDMjQ3V05LWjR5UE54R0RGWUVsdFprdlgwZ0pidV9BWHdkWjVlbFBtTUtDcHFlSE9SbU1BODhLbHBUQ2VZbmVHRA?oc=5"
-          },
-          {
-            "title": "Potential World Heritage Sites Announced",
-            "press": "The National Tribune",
-            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0UwaHNiSm1tRGtLVVJvc016ZTFyQTdFVmRiM29hdmt2clZBRk5EWFBuUTVlVkJ2dGJ6UFgydExMSTNZUExwMm1fTDBreHZXRDEwc1psUFBobFAwOHpPVW9VNExrRy1NeDhXTXBwR1NERy1POEJ5REVBY3o3NUp2eDVn?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcE5NQW9YdnYzVDRiVWJSRG1iemYzMUhlNEplYlRTOV85UHpKc0R6QUplZ2hjZXlwUF9QcmNTemxKTlRDWmRUVUxMZWNPQW5IbDF6cUg1UUt1QTdzRkw3Z1B0VUZDMjQ3V05LWjR5UE54R0RGWUVsdFprdlgwZ0pidV9BWHdkWjVlbFBtTUtDcHFlSE9SbU1BODhLbHBUQ2VZbmVHRA?oc=5"
       },
       {
         "title": "In 1993, Bob Hope sold his 2,308-acre Jordan Ranch to the National Park Service for $16.7 million; it became federal parkland and lifted the park to about 20,400 acres",
@@ -3123,6 +3149,83 @@
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUGJQRElqalZXeDFoU0RmRnpTRW9FYVJjX01SelFHbGlYYWJiYnZpbnVobEdyU0xTemhNNXV0YTdWSnBaUGlVOERLOVFLaC1wTGhNRDdBM25IRnBNclVrSGhiektoQjRFUXB2bEFSV1NfWTRPbmFTUlRac0UwSVEtRGZqazM?oc=5"
       },
       {
+        "title": "Recovery open day supports Tongariro National Park on 16 October - ad-hoc-news.de",
+        "reports": 11,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Recovery open day supports Tongariro National Park on 16 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVd4SkxHLTdHVkFVQzhhdkltaERZLXEtaC00MUc5YXdaUF8wSVJmdDNnRU5sREpKUE9Ydi11WjV4WV9GR2lZWVB2UTJScnM3NkZNaTkxR1hhRzUxbDZfTGZVa3JLWTlXdkFheWs1UGR6M0FsSVM2aE56MENic1VQM1hwTkN6Mzd3a0ZuZk9SR0NsSC1YT1ZzNjRfSVk5NFdKM05selZXcWR4QW9oeVNZN0NBWUdYQUJrZC00eA?oc=5"
+          },
+          {
+            "title": "Yellowstone National Park reports 868,450 visits on 6 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN2ZlWU9LNEJ3ZC1oY3Rob1dtNUtzQ3pfUG5hUVUtMkJNYVhYYWw3c01NcTNwMVVXRF9VOFpISEZCM3dVT0N2UDNzUWYybFg1QmY4WE9HT21PWUtvX3E0UHFFaVU4bDlPNzN3dm5ubEdjS2NfbnZ1eG8xMDljb194MDNLejNVLV81cGJUWGJQdFJkSGdaYWdqNVB4c0NrRE9YZUdHbWN4RGQtZ3UtS2lEN0tEa1NrMWN2?oc=5"
+          },
+          {
+            "title": "Arches National Park adds trail wheelchairs on 8 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSDVMaEJ2NjFkSFRaWXF4WEluLVI1b1c4U1R1NDRaZDdEMjJYOG9MMG8zbGd4emg4OE10dEoyaUg0dDZydDRJeE15RGhPaFdBdThoSkpIZVBYTDZLLTFVNUlGR2M5OFF4MzJlTzBPSW1FdmJaREVPanpTTHVaTDEtSjdfSkJHWmhmODNHVlNlb28wQjVRNFQzaDYwS2R0bFRXLUFZSHZGUW8xaGpodkZnS3pn?oc=5"
+          },
+          {
+            "title": "Yosemite National Park reopens road on 10 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSGh1NGhSUUY2Uk5WcDN3WkNrMGcySFZoVXpWZ2FEM3NsOFUyRml5QVRkbUdDWGNRdXc5d3V2R2dkZURuMmRzVDZzWTlmY19SNlBoTk42OUhRYlNpT1JNYXJkamx4cnBXRWFVTGl0ZE1NSFl5SEJYQUI5cDJrc1JrVm5femY2Q1hqMGoyNFhTVm1qNjNYQ3NxbXhNWFJWcGlFcllIc1d6eUM?oc=5"
+          },
+          {
+            "title": "Glacier National Park closes alpine road on 9 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3FSVnNCYWFTZGhEVHJQWjA3Yy10el94MVNheXMwWm5LckNPV2lqVWxQdEh0SEpTaEppQ2NZMVpWUHpZbXl5TS1LYnh6Wm1sTE40ZlJjOE9QVk44ZndHdERueDVhZGdpSm9rc05nUjJRcFVjY3FaRVhTaXV6aHdxTUpVWjRRVUxWbHpGTndQU21QQWJOMXVFMC1hNDlEcUFUemVkTl9JZEdCbEZlZkE?oc=5"
+          },
+          {
+            "title": "Denali National Park extends road access through 15 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdXBHR092T0V3c21LYkV2eTBpZFBfUFhzbXp3S3BtdVgtOVY1YVlnc09yUXlXcGtsOXphYXI4cnpKSmNDWmVjY3Q1TnZ3dVp2T2MzZFRMWXNMaUIzQnM4Q2tDam80M25TaTlnZmFCWW9PUlRwUW1POEstMEVqVXVJNmhXMVNZeGpzSnJKWHhsYWtkM1NQQkpiOGNSRHlxUERaektkX3NDdENDcDBLbzUxYjJsUTdwZw?oc=5"
+          },
+          {
+            "title": "Zion National Park reopens highway on 9 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRmtLendBTU4tLWQ2Mmd4ZldPVkZudjFZUTNRYTdLUEV1UkVnVGxIMERzNVlNYmw3UVJtdXFvekdYRU45SmRmNjhET1Zja2Fla1dJNkxPVXUxZkw0MFlyOVlxa1JRVGRzcnpvci1Bd0RTa2s5bzQ0bEhNSjMwLTlfNHExN2c0Nmo3TThZN0FYbDB4SEhSMlpzYWdLcldQcFU3M0pZck93?oc=5"
+          },
+          {
+            "title": "White Sands National Park hosts National Fossil Day on 14 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQem44a2ZnMG1VSU5fWThBVk1lLXpkNlc0cTZsZGx1a3Mtc3FuWU5seXRZMEh5aTJxMWpDTE1IMHRPaFlyQjctZjZTWHMyNzJTcGtNM1MyeTY1MnhlbnZvdDc1ajZuZHB0Y01sOTI1SjVDcnR4N01sRXl3YTJtcVJxOVdzZE1mRUNTTEtKZ1hTNzZnV1BFamRxcEFONDdORF8zX3dpQm9BRzgwZGRteWUyazdQZXVsZThUb3lGajhn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLVd4SkxHLTdHVkFVQzhhdkltaERZLXEtaC00MUc5YXdaUF8wSVJmdDNnRU5sREpKUE9Ydi11WjV4WV9GR2lZWVB2UTJScnM3NkZNaTkxR1hhRzUxbDZfTGZVa3JLWTlXdkFheWs1UGR6M0FsSVM2aE56MENic1VQM1hwTkN6Mzd3a0ZuZk9SR0NsSC1YT1ZzNjRfSVk5NFdKM05selZXcWR4QW9oeVNZN0NBWUdYQUJrZC00eA?oc=5"
+      },
+      {
+        "title": "10 East Coast state parks for fall color without the national park crowds",
+        "reports": 3,
+        "press": [
+          "Yahoo Creators"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "10 East Coast state parks for fall color without the national park crowds",
+            "press": "Yahoo Creators",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
+          },
+          {
+            "title": "10 East Coast state parks for fall color without the national park crowds",
+            "press": "Yahoo Creators",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
+          },
+          {
+            "title": "10 East Coast state parks for fall color without the national park crowds",
+            "press": "Yahoo Creators",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
+      },
+      {
         "title": "Redwood National Park hosts Hike and Bike Day on 3 October",
         "reports": 2,
         "press": [
@@ -3142,27 +3245,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkthVWtNcXBnRV9yQkpwOGY5czFyVV9iUkxSbl9SYlZVRjdFRkFUc1h2WXdjcWRoQThOTS1fZjZpeUNGNk1RMzUycG9taGlkMmJzcGVjSlBFODFWTW1VbW5QZ3pnQXJTV2hLXzFOc1gtb3dPdEV5djJVTlZ1RVBxWl9lRlBIUFlGZjhobU1NU1VmdnUzWnZ0S29rRl9QcWRxTnZrbi1OQ2xDeDdIRlptMXRnOHk?oc=5"
-      },
-      {
-        "title": "10 East Coast state parks for fall color without the national park crowds",
-        "reports": 2,
-        "press": [
-          "Yahoo Creators"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "10 East Coast state parks for fall color without the national park crowds",
-            "press": "Yahoo Creators",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
-          },
-          {
-            "title": "10 East Coast state parks for fall color without the national park crowds",
-            "press": "Yahoo Creators",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0NPZjdpZFhvZkpBVE50OEhJd0k5MjNxWHkyOUxrdGtzcndaQzI5RE96Uy02NjZvUVRwV29EU09CR2d3N1VOUFJCOEJZVHJ6eS1POEUtRTNxNXR4X3NIamk5Um41b1Zud2RCUVpHT3JqQ2ZoT1Z4bVMxeTNhSmlKRjRSMnJBNnVwQ2ZRS3YzdE1fTkE4TzRTc29wNFJTU2VOdmtNT1FzYzFuWGdtR2xaUlNudTBTalh5Z1JPSWliYlZ5RGtDZzJWN0VqTQ?oc=5"
       },
       {
         "title": "'Major rock fall' forces closure of SR-9 through Zion National Park",
@@ -3228,6 +3310,27 @@
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmNrbXNTNzFBa0c5MktSQjEwUEQzMjQzcDJRYUZZLXNkX0dkZlFha3Q1VlByWlFWa3dnV3JiaXVmZ0tPUEdvWDNqekNzc01YWmhISjZZdEVZY0FWUWstUG9UYnFJR0pGZDc1a0VtdjUxeEwxMkhiUk9TNFd1czhWU0NEbm0wRUtHN3ZOQ0JLZGI?oc=5"
       },
       {
+        "title": "The National Parks Where Fall Is The Only Quiet Season",
+        "reports": 2,
+        "press": [
+          "WorldAtlas"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The National Parks Where Fall Is The Only Quiet Season",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWFiVTlqc1JMUG8xalV0dkV0ZnJtd0hXTmt5UFJvNTctNmNOSmExWk5uTUpzd2VGTzhfVFlDellueFVMMGtaeHBCQU1jZUZOVFl4OWFUd3BNaFg1aG1DeHY3Mjg1YTEzRjdITFRiWVJaM0VXUm5OQ3E3dHhuUEE5eFNJUGNxT3ZXZm9sWnFlODhBaGxvWERkNWgzX1dQSjRaeXJJ?oc=5"
+          },
+          {
+            "title": "The National Parks Where The Wildlife Is Most Active In Fall",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVFZhWlVzdkxFTjRrMU5WY0hiZnFlVVZsWFNtdTZNM2FHalA3R3VpdGl3TWVITnFMRFZLbzJzbHNrZ0xJZGFEc0RJdDMwNWxyLTVLNkFxU25DanlsYlRXTWFwYzZ3b0ZuVlpac1o2R21NcVJtYlZfdzlHbE1VM0JmVzg2R05XZWllLVBFbncyQkdsaGVDS1R0b1BKZDNLRktuNGZFQ3ZOVkY1WlE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWFiVTlqc1JMUG8xalV0dkV0ZnJtd0hXTmt5UFJvNTctNmNOSmExWk5uTUpzd2VGTzhfVFlDellueFVMMGtaeHBCQU1jZUZOVFl4OWFUd3BNaFg1aG1DeHY3Mjg1YTEzRjdITFRiWVJaM0VXUm5OQ3E3dHhuUEE5eFNJUGNxT3ZXZm9sWnFlODhBaGxvWERkNWgzX1dQSjRaeXJJ?oc=5"
+      },
+      {
         "title": "Contributing to conservation: Can your holiday support the cause?",
         "reports": 2,
         "press": [
@@ -3289,6 +3392,27 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSlZKNW1XelNzNkRJRk03a1h3SWpINzlxSVFsSkFteFpzbXluendjSlI3UHNwdndmSGc3NmpsdUQ5U2dsajJkUDh6M1YyTk40NE5MbTFDcV9JVFZJeGhERUpNR3lYbXJUamNValNMeEdIM1J3NFU2cW1odXhBUTduTXJqRTAtVXBmcW0zUXQzcVFhbE9sbDFIamRHUEt6V1AxVHRvdXQ2cm9Vd3N3UG52NTlDMmFaVlpwYmJxcFI1cUlmRVc4U04ySg?oc=5"
+      },
+      {
+        "title": "Day 1- Ozette Triangle- Olympic National Park",
+        "reports": 2,
+        "press": [
+          "The Trek"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Day 1- Ozette Triangle- Olympic National Park",
+            "press": "The Trek",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45S2hFOXVBb0dkRlVKRGFVSWNJWWlqNG9nUmVKQTItc2xpR1F1Y3QzQ3lNRDU4VVRlMHYySlFTNUNsNmpYNll5ODdyWFRhMzBzdHVYTTFDNXBUWXdmWTNFbmtKa1hMTlE1eWljV0VseV8?oc=5"
+          },
+          {
+            "title": "Day 2 | Ozette Triangle | Olympic National Park | This Letter Brought Tears To My Eyes",
+            "press": "The Trek",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGVySk9TeXhIbGdHd2hteEVTZkJIMy1ERHVDR3NlRXFDUThqeEdpMGc1WE45NFduSlpJSE1KVlQtRXFuMGcwbVhuZi1TbW1JUHA4ejh0YTVtdE9Ic1RsbUgzbkxoZFRoWHpkb29OZzloNEZkWFFFQlhyMXlsMG9fN2pLd0ZaaHoyR01NWGlIVUxTQndVaDVSMzNTbElya2VNUHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45S2hFOXVBb0dkRlVKRGFVSWNJWWlqNG9nUmVKQTItc2xpR1F1Y3QzQ3lNRDU4VVRlMHYySlFTNUNsNmpYNll5ODdyWFRhMzBzdHVYTTFDNXBUWXdmWTNFbmtKa1hMTlE1eWljV0VseV8?oc=5"
       },
       {
         "title": "South Africa’s newest national park is in the Eastern Cape",
@@ -3678,38 +3802,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUDBNa3pTaU5heVZoSkVUWl85U0VIVkVNSGR2TjdvbWtTZ3Mxc1huZGx2b2ducHhMeGQ0cGctODVlbjBFSHZ1TVgtcHZIWm5DRUljUGRyWFNLSUtzNUV4VVBVTUM4eVVkQUhtZzlDTE50ZmY5Rlh1dzZIZnZEMm5qcHVIdXdyRUo1b1dFSV9odUZIV1UxeVdHcDlHblNmMUpuVzE0aXJGU2UyTHVXUWhaLTRnNXI2TWNqZ19ZMGhjZm9zdU45NU9z?oc=5"
-      },
-      {
-        "title": "National Park Service working to recover rare Torrey pines damaged in fire",
-        "reports": 1,
-        "press": [
-          "WBUR"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "National Park Service working to recover rare Torrey pines damaged in fire",
-            "press": "WBUR",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aS1YxT3VmdXFZTHRPM1d5V3VWQVduQjZzU0RBODlkMmg2d0IyWU1XNURDUnVlX0RyY3Y4MUNvNmRXUUFHMTZvYjZfUnc3QUo3ZkJFbGsxU2VwbVB4dDZQR3ZEbkFWQ1BfSEExSEdPVlE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aS1YxT3VmdXFZTHRPM1d5V3VWQVduQjZzU0RBODlkMmg2d0IyWU1XNURDUnVlX0RyY3Y4MUNvNmRXUUFHMTZvYjZfUnc3QUo3ZkJFbGsxU2VwbVB4dDZQR3ZEbkFWQ1BfSEExSEdPVlE?oc=5"
-      },
-      {
-        "title": "Chiricahua National Monument one signature away from becoming Arizona’s 4th national park",
-        "reports": 1,
-        "press": [
-          "KTAR News 92.3 FM"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Chiricahua National Monument one signature away from becoming Arizona’s 4th national park",
-            "press": "KTAR News 92.3 FM",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDJrakM2NUVvT1c2YTlEQnNpVkRTa2RjOFRjeE9pd093WUlWdGhDYWpjRmNwNnFjai1ONzg3UDEyRk12dW44Yk1jcHcyZTdaUzdibzBvLTFNT3Vja3Noanh4THg5VXRRc1JCTVVuWkRTUFZVUzRYSDNvc1NONGY2LWlRVHJMR1Y4dTNIV1lIdXM?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDJrakM2NUVvT1c2YTlEQnNpVkRTa2RjOFRjeE9pd093WUlWdGhDYWpjRmNwNnFjai1ONzg3UDEyRk12dW44Yk1jcHcyZTdaUzdibzBvLTFNT3Vja3Noanh4THg5VXRRc1JCTVVuWkRTUFZVUzRYSDNvc1NONGY2LWlRVHJMR1Y4dTNIV1lIdXM?oc=5"
       }
     ]
   }
