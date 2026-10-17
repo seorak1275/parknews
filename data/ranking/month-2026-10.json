@@ -1,9 +1,9 @@
 {
   "month": "2026-10",
-  "days": 16,
+  "days": 17,
   "from": "2026-10-01",
-  "to": "2026-10-16",
-  "generatedAt": "2026-10-16T16:35:08.850Z",
+  "to": "2026-10-17",
+  "generatedAt": "2026-10-17T15:29:52.874Z",
   "kr": {
     "rows": [
       {
@@ -327,7 +327,7 @@
       },
       {
         "title": "체력에 맞는 탐방로 선택이 우선… 국립공원 가을 안전산행 종합 안내",
-        "reports": 8,
+        "reports": 10,
         "press": [
           "서울Pn",
           "정책브리핑",
@@ -335,9 +335,11 @@
           "디스커버리뉴스(DISCOVERYNEWS)",
           "BBS불교방송",
           "인디포커스",
-          "한국방송뉴스"
+          "한국방송뉴스",
+          "자유방송",
+          "국민뉴스"
         ],
-        "outletCount": 7,
+        "outletCount": 9,
         "articles": [
           {
             "title": "체력에 맞는 탐방로 선택이 우선… 국립공원 가을 안전산행 종합 안내",
@@ -579,6 +581,52 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51RVF1OWRoSXdwM3RNcUpGV29NaHhHellxbmhLSmhwelg5V3czSkRCVTlPV1NsM0JYbzkzNGxkbER2aFhVUFJYZG0xWFpzTXhRZHRpdlZfaWtNd2hUeGJN?oc=5"
       },
       {
+        "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
+        "reports": 6,
+        "press": [
+          "프레스뉴스",
+          "한국시사경제",
+          "호남타임즈",
+          "선데이뉴스신문",
+          "더코리아",
+          "투데이광주전남"
+        ],
+        "outletCount": 6,
+        "articles": [
+          {
+            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
+            "press": "프레스뉴스",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pYXFVSi14Q1I0aktKQ1BZNEZZTFBkbEladWxyN0tqQ0FYakF2d1ZiMnh2aEVhM2pUUlFmLTRteGljS0NSY1gzRVpJbGVfd2NuVFJhMEdVdFFqNFZ0eWlSaTNtOVRPLTRIeHVXTEpmYTM?oc=5"
+          },
+          {
+            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
+            "press": "한국시사경제",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BTGlmbnVWUS1DVlBiWjRicU00cDA3T2x2UVlXNjJhTWdsSFBWMUw0SG9RdVFzYy1rWlFYU280RUtUdTJBQzZYZjRLWU9TQVpqejI1Wmt5QVp6TlhINThjcFZsZUIybjZjSWc?oc=5"
+          },
+          {
+            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
+            "press": "호남타임즈",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pVHM4WUROM3NCQkpvQVVkZVlkcVptWGQ4RVRBbTJnYWo1a1Fnbl9VVnNCM3RaTm1OZzJfcFZaN2ZrTy1GYWhOSnhsRnRJcGxlbnpmLThYRVFxZVJlV0s1RkFSbkMxZENCSmhONmtR?oc=5"
+          },
+          {
+            "title": "화순군문화관광재단·무등산국립공원 업무협약…체류형 관광상품 개발",
+            "press": "선데이뉴스신문",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJWjZES1VZa19RWTlmdTl4STZuVXUtc1hVYW1aM09LdzVteERsNUhDazR4V21hZXUzN2xRQkZZSUJOVHFCaVBCT0RWNTJid3dtZEpxazFINFRKT0U4?oc=5"
+          },
+          {
+            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결 > 뉴스",
+            "press": "더코리아",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9saEtkVXN5RHZkZ0Uzai1WVEpRaTQxVG1pZHE3RnBnWFVDVjlaMUtDQWc3Ylkzckg2bWJVWlBzUmNXS0ZRUjNSNWNuX2V2eC1kZmI2SEVHUE9ZRlVtckRjSDFua3UxcnYxOXNNaF9iX1c?oc=5"
+          },
+          {
+            "title": "무등산동부사무소-화순문화관광재단, '체류형 관광 활성화' 맞손",
+            "press": "투데이광주전남",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tTkRCWWVwMDEwMFhPRVhhZmU4dEpIbHRFMGF4M1ZhZ050TUVIenpYd0JkdUh0S2h4S09Xbm1TUFBXZEtvQlNTeFdnUndON1BsRDlrNTdmdVpMM1RNUFRielZWM3F4R2JJYXN4MUgtVTE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pYXFVSi14Q1I0aktKQ1BZNEZZTFBkbEladWxyN0tqQ0FYakF2d1ZiMnh2aEVhM2pUUlFmLTRteGljS0NSY1gzRVpJbGVfd2NuVFJhMEdVdFFqNFZ0eWlSaTNtOVRPLTRIeHVXTEpmYTM?oc=5"
+      },
+      {
         "title": "\"금정산국립공원 본사무소는 금정구로\"…이준호 시의원 유치 촉구",
         "reports": 5,
         "press": [
@@ -816,40 +864,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iRjZrNzRyWnJwQVRENkhKb0JuSXJLNXZqZVhJZmhrMzNnaXA2Z0ZlNlFwZERTdzNtZ0plMThSWjFUTDRmME85enVtYjhyN2paY1FWdXhtV1BsRWfSAWBBVV95cUxPd2JLaGFOdGNQY0M1WVNvNF8tODNKXzVWWkg3MWp0MlZMSFBNY2x3N2ZVVjNid1RaSUlnR0RWeXdrQ1hQOVF6WDNMVU82VEtjZ3p4VXFDZm1XaUZ0bzB6ZVo?oc=5"
-      },
-      {
-        "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
-        "reports": 4,
-        "press": [
-          "프레스뉴스",
-          "한국시사경제",
-          "호남타임즈",
-          "선데이뉴스신문"
-        ],
-        "outletCount": 4,
-        "articles": [
-          {
-            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
-            "press": "프레스뉴스",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pYXFVSi14Q1I0aktKQ1BZNEZZTFBkbEladWxyN0tqQ0FYakF2d1ZiMnh2aEVhM2pUUlFmLTRteGljS0NSY1gzRVpJbGVfd2NuVFJhMEdVdFFqNFZ0eWlSaTNtOVRPLTRIeHVXTEpmYTM?oc=5"
-          },
-          {
-            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
-            "press": "한국시사경제",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BTGlmbnVWUS1DVlBiWjRicU00cDA3T2x2UVlXNjJhTWdsSFBWMUw0SG9RdVFzYy1rWlFYU280RUtUdTJBQzZYZjRLWU9TQVpqejI1Wmt5QVp6TlhINThjcFZsZUIybjZjSWc?oc=5"
-          },
-          {
-            "title": "(재)화순군문화관광재단-무등산국립공원 동부사무소, ‘체류형 관광 활성화’ 업무협약 체결",
-            "press": "호남타임즈",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pVHM4WUROM3NCQkpvQVVkZVlkcVptWGQ4RVRBbTJnYWo1a1Fnbl9VVnNCM3RaTm1OZzJfcFZaN2ZrTy1GYWhOSnhsRnRJcGxlbnpmLThYRVFxZVJlV0s1RkFSbkMxZENCSmhONmtR?oc=5"
-          },
-          {
-            "title": "화순군문화관광재단·무등산국립공원 업무협약…체류형 관광상품 개발",
-            "press": "선데이뉴스신문",
-            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJWjZES1VZa19RWTlmdTl4STZuVXUtc1hVYW1aM09LdzVteERsNUhDazR4V21hZXUzN2xRQkZZSUJOVHFCaVBCT0RWNTJid3dtZEpxazFINFRKT0U4?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pYXFVSi14Q1I0aktKQ1BZNEZZTFBkbEladWxyN0tqQ0FYakF2d1ZiMnh2aEVhM2pUUlFmLTRteGljS0NSY1gzRVpJbGVfd2NuVFJhMEdVdFFqNFZ0eWlSaTNtOVRPLTRIeHVXTEpmYTM?oc=5"
       },
       {
         "title": "인제 국가유산 한계산성 탐방로 개통식",
@@ -1721,6 +1735,28 @@
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmTWQxZFhPSlc2b0NYdno2YjM0bVZQelA5ZWNMN2NpZFZ5RC11LUNIbUo3a1pJRTU2S09VSHFpbXdkMGJjbUwwbWtFWkJDUWlIWmxUZ0plYmlnRklsdWhaR1V1b3p2Zw?oc=5"
       },
       {
+        "title": "월악산국립공원, 닷돈재야영장서 청렴·안전 캠페인 실시",
+        "reports": 2,
+        "press": [
+          "뉴스21 통신",
+          "문경시민신문"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "월악산국립공원, 닷돈재야영장서 청렴·안전 캠페인 실시",
+            "press": "뉴스21 통신",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LR21sNWR0SklOZGR3Q2FWZTlnWDREWGNvRkprZlg3Y2QwM21HSkc2MFhVZ1lRWHpGM2loaTg0QmFxQUZ2Q0pPTlFadlI2VHAyS0w4aHhn?oc=5"
+          },
+          {
+            "title": "월악산국립공원, 한국가스안전공사와 함께 '청렴·안전 캠페인' 실시",
+            "press": "문경시민신문",
+            "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uWm81dFl3TGZ1LXBoMHBueTEwNHd6ZWZhckMxT0FTOVphd1dqNVF5cDVsLVZRQ0c4TVlvdkxSWkpjVkVEN19RX2RxeTlicjZfdlFDbVd6S3UtVEt4QS15aW0wbE1xWHpOcmh6R3BaY3FYalJrYWtieXN6UQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LR21sNWR0SklOZGR3Q2FWZTlnWDREWGNvRkprZlg3Y2QwM21HSkc2MFhVZ1lRWHpGM2loaTg0QmFxQUZ2Q0pPTlFadlI2VHAyS0w4aHhn?oc=5"
+      },
+      {
         "title": "국립공원 산불 3건 중 2건 CCTV 놓쳤다…100대는 ‘내용연수 초과’",
         "reports": 2,
         "press": [
@@ -2239,22 +2275,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PX09QQVIweHloZEJLYzY2OXFyVjRXYUVMMWVURGtaZGZwNUVWUExKYnpQRDdVSFpOUTZESzBhUHZ2cFlsNncwZ3FncXI2eTl3azhPZGlSMXlaVF9ISC1vTTlKUG5KZw?oc=5"
-      },
-      {
-        "title": "\"반려견과 국립공원 가자\" 했는데… 이용률 1%도 안 돼 존폐 기로",
-        "reports": 1,
-        "press": [
-          "한국일보"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "\"반려견과 국립공원 가자\" 했는데… 이용률 1%도 안 돼 존폐 기로",
-            "press": "한국일보",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yVzVwbzRqYkRwLTlOOWZSdGZRQTE1Z1hqTHpBUm5FTVd3TnhCdzRDRExWeG5NTklqMkVQOU5vd3FxZlhfMHJueHVrYU1OUG5pdVh2RnVCdXBSYVp3d0ZNXzZkNUlOY01rNEhUWVNn0gFzQVVfeXFMT0Jsbkh0Q0lSeFhoQlJoeU5BNVlNa3NHYTE2dkxVYjlzSURvRllYdDE2cHhqWTdmdEdJbnhadUQ5Sm1Fa1hsZjVIdHdFdmx3bVptczBVa2pfN1diWnhzbEFzRGJmWksteFc5ZDVwbjFIQWdwZw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yVzVwbzRqYkRwLTlOOWZSdGZRQTE1Z1hqTHpBUm5FTVd3TnhCdzRDRExWeG5NTklqMkVQOU5vd3FxZlhfMHJueHVrYU1OUG5pdVh2RnVCdXBSYVp3d0ZNXzZkNUlOY01rNEhUWVNn0gFzQVVfeXFMT0Jsbkh0Q0lSeFhoQlJoeU5BNVlNa3NHYTE2dkxVYjlzSURvRllYdDE2cHhqWTdmdEdJbnhadUQ5Sm1Fa1hsZjVIdHdFdmx3bVptczBVa2pfN1diWnhzbEFzRGJmWksteFc5ZDVwbjFIQWdwZw?oc=5"
       }
     ]
   },
@@ -2262,7 +2282,7 @@
     "rows": [
       {
         "title": "Man missing in Great Smoky Mountains National Park found dead after days long search, family confirms",
-        "reports": 55,
+        "reports": 56,
         "press": [
           "WTAP",
           "WVLT",
@@ -2577,6 +2597,65 @@
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZlA1RE9SUG81MFhaa0JVTU5BNHNJanU2WnFMMDBDcTlBaVZuV3hORzB5alVndU0tT3RaTFFMZTlKQ1dKNGFKMmoyN0Y0V2o5QTZ5aFdNV204Y25JcTRCT29YVmhoS3NnS2VnWUoyVzBuRTltX2VpLTdxMndPb1NCanMwVlJUWXFlRWdFMEJaUE9Hcjd4MEJFWFpkT3RWN1hreVUwZUhHdHVqUmoxN3dzcDlBcGV4Q016anFQaXBpYjVHZG5ITDBlaGlpNkVXb3BB?oc=5"
       },
       {
+        "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
+        "reports": 10,
+        "press": [
+          "AP News",
+          "Breaking News, Latest News and Videos",
+          "DW.com",
+          "Oskaloosa Herald",
+          "www.livingstonenterprise.net",
+          "The Independent",
+          "Inquirer.net",
+          "guardonline.com",
+          "Watching the world evolve and transform"
+        ],
+        "outletCount": 9,
+        "articles": [
+          {
+            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
+            "press": "AP News",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmFScHl6ODM2d3d2b0liYk5pTGxEZ29nZTdncEpNODBGcVZTbzB4emdsQ3VIUmhGYUdMbWl1cDFsQkp0eHVkUXcwWm5VMER5UElIaHl4UXRCQ1RHN19KWDhaUU00eTZBaUQwZ1VXcmxGcTM2RmR1dW5GQ0ZZcVJTeTJOUUdKUjM4Sm82NVdFd0x4eFgtelBKWWNZLXBHS2NJTWV5VVRuR3M?oc=5"
+          },
+          {
+            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4 - ABC News",
+            "press": "Breaking News, Latest News and Videos",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUdvM21OSVo0N2oydHUwZ3UyQ1BjbDRiZmkyVWlhVFl1emZtRDNFeHFpSU5jSmlfSVRJZWlIVEI1NDhtb3NtSkNWdHZxZjhVMVNpTXVrVVVVeHRkelBJOURLYUx1S0IzZGpCTGtrZjNKM0NQMFFuaDB0bVNFeUFWcVl5VGdOYXpJTG9tclZpUjJfcnU1alpLaHVWTHRWVno4MmlIN0N1RzhCWnpucUxlQVlFazBnQnFjNU5DcFhtWnFyUdIBxwFBVV95cUxOaFhoT2Q1RWpWVkI1bWRpeWZYSmh3Y1R3NTlWQ1dGbi1mbDJKOF9Hd3Z6Q1MwNHZGNnoySkl3Y3BpQkdGT1ZUYkV4aUJveUJSUWRGMi1pR0NzaUNuYjZMX3pSOXZoVkhOTkl3LXkybjBYa2FYMUJLcDRVcmFCM3Q4djVOSXpnZnQzSUtLYzZiNUJiTmZta0lzQ2NjeVAxZXNWZExXRGgxWU12QTRSRlo3ZGtqQVVTTzR6QlVTM1RxVXd6MERGbG5B?oc=5"
+          },
+          {
+            "title": "Four firefighters killed battling blazes in Indonesia's Mount Bromo national park",
+            "press": "DW.com",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUVxUWhsZFo0RHoxRWtNbnZaVUxuWllfMDkxLU1MVmVDblpOWnVMM1lzMGFKN3BLeF9MT0ZVMmo5RzM3TG50c2ZDSnJCOThPRFEzT2hfb3Uyd19uU2xVNjZJY1RkVE9wZDR4cW5keGgwVnhWUk9jajBaZGU2ejhUQmVlN24weDE0My1BbzJ6NmJ0S1ZvZXhWTU1SZTF1YzdpU2ItcdIBpAFBVV95cUxPY19CU2FKUjdkR2lUQ0tIOUFxRURVZTRXUWNtalVqTmdGUDJDZGlqWFVxeENOSmRFZmVjQ0Uycm4yMjhSdFlOSXhRbXo4QVBHNGMtSTJYc3IyYzRQMG9xcGh1X3FqOHFtc3FwM0NqZld0RkdMTE40VUpFTlhPZnA2blVSU1Z1d3lSYy1WSVpKZ0l4WjhXTlJwMDI0d1N0Q1dFNjZCMw?oc=5"
+          },
+          {
+            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
+            "press": "Oskaloosa Herald",
+            "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeTdsR3JuMVEzMFVGSDBWTWEyRmthcmtyTE50ekt1VUlqcmd4NzJ3T3hTS2RrcjFnY1lQbnJTLXhpUDdrRlJLeS01bnlFWkpmRVdQOTNWTElZa1NDY21yRmhEZGNaWEpaZTVQWGxHVlFKLUN1R0VUaDZmQTdENGJxcm85UVI0d3pWT09QaE5IVWtDTWNNeW1OR09CdFdZU2lnYkVfblJ6MnVyZ1d1MUlvdnBqX3hDNVhyLXltUVNlcmh2dEU1dGFwOG1IMmNreG5aUHZKNW5sOTh2UUpHcnpGWWxmWTNUN2JWT2p5Ukg3aEE0YlEtNks1eW8xOGRGRmxiZXV5TUtnNnlmcGxCdDJqWTFUbE94alU?oc=5"
+          },
+          {
+            "title": "Wildfire traps firefighters and volunteers in Indonesia national park, killing 4",
+            "press": "www.livingstonenterprise.net",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVVVmVXA1RktJV1RCeXpTN0RYbFZlX01kTUc2SUJFeXlIS2pOaElxYlh2czVmeDRIVDE0MGJsZ1FqbG9qNWZ2b3FHMTdnX3ZGaWtoa0F1QVFkdmNWNTBOOENzN1NRQWR6RXBBZmVYOHNraDRSZl9HOTdNVVR2MmJybGVPQkVIWVhlcklkY3BUd280THJpVzJTWnZPQkVjZGY3dDVnMkd0dExLS3RfSC1oR2h4cXhVLXhRbmNsbnk3dWs2d3hXYmJqbDFR?oc=5"
+          },
+          {
+            "title": "Four killed as wildfire traps firefighters in Indonesian national park",
+            "press": "The Independent",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONy1TMWZaOXM1eFJXbkZydzVsclZoOWFoakRLUVVrOTBKMEpaX1JRNENTM2ZsLXMtekVfRHQ2YTh0NEtUdGZ2NG9pUHR2eXk4QVZXM2hoZVRVbVB3bmt4TUF5NWZ4RnJLeFJxU0dTdWdleFRqWHdBVjRhcndsVFliczMxZWZIN1pHWDRGOTIzVmw3RVRxeEw1Y2xRcnhjWXY0S1cya0xnYXp3UQ?oc=5"
+          },
+          {
+            "title": "Four killed fighting wildfires in Indonesian national park",
+            "press": "Inquirer.net",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdy1iX2JidFJjZDNGZERyYkF5TVpVNHAwamVzMVdxN3p5MUVSWnVKX1JQajZUZW5YVzVuTUdJQUFuSDc1Yk95RElFckdfVmJVYVBzTjF3akRITndleTdYc3dmMVA1WW5aX2lwX1l5ZVl6ZDVRLUFNazBGWFE0aDVUMFBtNENuNkU5M2NEYkJkODgxeWNNdUs5UmZOb2F3a1d20gGmAUFVX3lxTE1McFRZWFB4NC1JT3NiX0dFMWpLZXdiU0hLa1NkSTl1T042WC0yYUtTY1hsNkwzWG9FYXhrYlZhQkdILV94bV9CNzFpRnRoektHMUFUMlRpVzlmcTJQS3F4TURJcGhGZkZtSnlqaEdwdXY3UXFwX2NScWVJTnNNUTN0aWxEYkJRdFhPVHZIR0JtdUttdXZoNzQ3c2pGNFhBT0c1NEh6b0E?oc=5"
+          },
+          {
+            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
+            "press": "guardonline.com",
+            "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQc01HaXdaVTZKdEJ6YWY1bTNweS12TGoyYWM5WGRfT0VSMkJCNkVCcHVoeHpfVHpzTnBWUDA2U1cwd1k3a09FOGhqbUU1NXRtV3ZnYnRVMmVHTWNDc1FqalNaMHZycVA4N245YnZjdklMdDVsR2dXTDFsVUNBSGdUOFYwR0dYb2Z4WlE4NlBWNmtlZzZ1RGZ6bDlmbXVpNHZOSDVzeVgzQzA1M1FSMVJtbHRockpneEc1MEpzWVpWQ1I3SkpKVFQteTMxOXBDWWhFdl9GakJmTnExY21pZ05pcVF3eDktendTUk5rTjM0eTdJYUhPczNqVlliN2liR1A3ZmdBQ1hGUjI0a0ZyaENZ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmFScHl6ODM2d3d2b0liYk5pTGxEZ29nZTdncEpNODBGcVZTbzB4emdsQ3VIUmhGYUdMbWl1cDFsQkp0eHVkUXcwWm5VMER5UElIaHl4UXRCQ1RHN19KWDhaUU00eTZBaUQwZ1VXcmxGcTM2RmR1dW5GQ0ZZcVJTeTJOUUdKUjM4Sm82NVdFd0x4eFgtelBKWWNZLXBHS2NJTWV5VVRuR3M?oc=5"
+      },
+      {
         "title": "Human remains found in backcountry area of Shenandoah National Park",
         "reports": 9,
         "press": [
@@ -2636,64 +2715,6 @@
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWo2S1h1cjk0UTVtdl9BUEtSVjBHNlpUbEU0cVowY1g4OWtwNmd6WWlkb1cyMDJCTGtPdE85ZVZpUWV5ZFdYenIyLS1KSXZCSGhWYmlKMzdJd3BVMmxWV0lNME5GWEs2M2xuV3o0amN0UVM0Nk54SG5tYjBtdk1ndV8wMmJnRUtESVctSk5uMVVnOWpCX3p2SnJB0gGuAUFVX3lxTFBId1JJS2w3STBnUmw4VmdyeDNLQ09MS3oxbHBwRHR6dFdkN1JkTnZyVWFDMWtLbXZPY0RKUXJFMXFzZFFLanEtOE01dTFQSlozbnctYWhDV3JJYUFtajE0dVNRTVBIUzNrSHBySTV3cndqTVRVdllnQWZjeEdjWUppY1BHNmFsMm1nVUgyM202RFl6YkExNUl2Xzk2TFRHbUwtQ2VPeDY2VXp6dmxmdw?oc=5"
       },
       {
-        "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
-        "reports": 8,
-        "press": [
-          "AP News",
-          "Breaking News, Latest News and Videos",
-          "DW.com",
-          "Oskaloosa Herald",
-          "www.livingstonenterprise.net",
-          "The Independent",
-          "Inquirer.net",
-          "guardonline.com"
-        ],
-        "outletCount": 8,
-        "articles": [
-          {
-            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
-            "press": "AP News",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmFScHl6ODM2d3d2b0liYk5pTGxEZ29nZTdncEpNODBGcVZTbzB4emdsQ3VIUmhGYUdMbWl1cDFsQkp0eHVkUXcwWm5VMER5UElIaHl4UXRCQ1RHN19KWDhaUU00eTZBaUQwZ1VXcmxGcTM2RmR1dW5GQ0ZZcVJTeTJOUUdKUjM4Sm82NVdFd0x4eFgtelBKWWNZLXBHS2NJTWV5VVRuR3M?oc=5"
-          },
-          {
-            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4 - ABC News",
-            "press": "Breaking News, Latest News and Videos",
-            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUdvM21OSVo0N2oydHUwZ3UyQ1BjbDRiZmkyVWlhVFl1emZtRDNFeHFpSU5jSmlfSVRJZWlIVEI1NDhtb3NtSkNWdHZxZjhVMVNpTXVrVVVVeHRkelBJOURLYUx1S0IzZGpCTGtrZjNKM0NQMFFuaDB0bVNFeUFWcVl5VGdOYXpJTG9tclZpUjJfcnU1alpLaHVWTHRWVno4MmlIN0N1RzhCWnpucUxlQVlFazBnQnFjNU5DcFhtWnFyUdIBxwFBVV95cUxOaFhoT2Q1RWpWVkI1bWRpeWZYSmh3Y1R3NTlWQ1dGbi1mbDJKOF9Hd3Z6Q1MwNHZGNnoySkl3Y3BpQkdGT1ZUYkV4aUJveUJSUWRGMi1pR0NzaUNuYjZMX3pSOXZoVkhOTkl3LXkybjBYa2FYMUJLcDRVcmFCM3Q4djVOSXpnZnQzSUtLYzZiNUJiTmZta0lzQ2NjeVAxZXNWZExXRGgxWU12QTRSRlo3ZGtqQVVTTzR6QlVTM1RxVXd6MERGbG5B?oc=5"
-          },
-          {
-            "title": "Four firefighters killed battling blazes in Indonesia's Mount Bromo national park",
-            "press": "DW.com",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUVxUWhsZFo0RHoxRWtNbnZaVUxuWllfMDkxLU1MVmVDblpOWnVMM1lzMGFKN3BLeF9MT0ZVMmo5RzM3TG50c2ZDSnJCOThPRFEzT2hfb3Uyd19uU2xVNjZJY1RkVE9wZDR4cW5keGgwVnhWUk9jajBaZGU2ejhUQmVlN24weDE0My1BbzJ6NmJ0S1ZvZXhWTU1SZTF1YzdpU2ItcdIBpAFBVV95cUxPY19CU2FKUjdkR2lUQ0tIOUFxRURVZTRXUWNtalVqTmdGUDJDZGlqWFVxeENOSmRFZmVjQ0Uycm4yMjhSdFlOSXhRbXo4QVBHNGMtSTJYc3IyYzRQMG9xcGh1X3FqOHFtc3FwM0NqZld0RkdMTE40VUpFTlhPZnA2blVSU1Z1d3lSYy1WSVpKZ0l4WjhXTlJwMDI0d1N0Q1dFNjZCMw?oc=5"
-          },
-          {
-            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
-            "press": "Oskaloosa Herald",
-            "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeTdsR3JuMVEzMFVGSDBWTWEyRmthcmtyTE50ekt1VUlqcmd4NzJ3T3hTS2RrcjFnY1lQbnJTLXhpUDdrRlJLeS01bnlFWkpmRVdQOTNWTElZa1NDY21yRmhEZGNaWEpaZTVQWGxHVlFKLUN1R0VUaDZmQTdENGJxcm85UVI0d3pWT09QaE5IVWtDTWNNeW1OR09CdFdZU2lnYkVfblJ6MnVyZ1d1MUlvdnBqX3hDNVhyLXltUVNlcmh2dEU1dGFwOG1IMmNreG5aUHZKNW5sOTh2UUpHcnpGWWxmWTNUN2JWT2p5Ukg3aEE0YlEtNks1eW8xOGRGRmxiZXV5TUtnNnlmcGxCdDJqWTFUbE94alU?oc=5"
-          },
-          {
-            "title": "Wildfire traps firefighters and volunteers in Indonesia national park, killing 4",
-            "press": "www.livingstonenterprise.net",
-            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVVVmVXA1RktJV1RCeXpTN0RYbFZlX01kTUc2SUJFeXlIS2pOaElxYlh2czVmeDRIVDE0MGJsZ1FqbG9qNWZ2b3FHMTdnX3ZGaWtoa0F1QVFkdmNWNTBOOENzN1NRQWR6RXBBZmVYOHNraDRSZl9HOTdNVVR2MmJybGVPQkVIWVhlcklkY3BUd280THJpVzJTWnZPQkVjZGY3dDVnMkd0dExLS3RfSC1oR2h4cXhVLXhRbmNsbnk3dWs2d3hXYmJqbDFR?oc=5"
-          },
-          {
-            "title": "Four killed as wildfire traps firefighters in Indonesian national park",
-            "press": "The Independent",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONy1TMWZaOXM1eFJXbkZydzVsclZoOWFoakRLUVVrOTBKMEpaX1JRNENTM2ZsLXMtekVfRHQ2YTh0NEtUdGZ2NG9pUHR2eXk4QVZXM2hoZVRVbVB3bmt4TUF5NWZ4RnJLeFJxU0dTdWdleFRqWHdBVjRhcndsVFliczMxZWZIN1pHWDRGOTIzVmw3RVRxeEw1Y2xRcnhjWXY0S1cya0xnYXp3UQ?oc=5"
-          },
-          {
-            "title": "Four killed fighting wildfires in Indonesian national park",
-            "press": "Inquirer.net",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdy1iX2JidFJjZDNGZERyYkF5TVpVNHAwamVzMVdxN3p5MUVSWnVKX1JQajZUZW5YVzVuTUdJQUFuSDc1Yk95RElFckdfVmJVYVBzTjF3akRITndleTdYc3dmMVA1WW5aX2lwX1l5ZVl6ZDVRLUFNazBGWFE0aDVUMFBtNENuNkU5M2NEYkJkODgxeWNNdUs5UmZOb2F3a1d20gGmAUFVX3lxTE1McFRZWFB4NC1JT3NiX0dFMWpLZXdiU0hLa1NkSTl1T042WC0yYUtTY1hsNkwzWG9FYXhrYlZhQkdILV94bV9CNzFpRnRoektHMUFUMlRpVzlmcTJQS3F4TURJcGhGZkZtSnlqaEdwdXY3UXFwX2NScWVJTnNNUTN0aWxEYkJRdFhPVHZIR0JtdUttdXZoNzQ3c2pGNFhBT0c1NEh6b0E?oc=5"
-          },
-          {
-            "title": "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
-            "press": "guardonline.com",
-            "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQc01HaXdaVTZKdEJ6YWY1bTNweS12TGoyYWM5WGRfT0VSMkJCNkVCcHVoeHpfVHpzTnBWUDA2U1cwd1k3a09FOGhqbUU1NXRtV3ZnYnRVMmVHTWNDc1FqalNaMHZycVA4N245YnZjdklMdDVsR2dXTDFsVUNBSGdUOFYwR0dYb2Z4WlE4NlBWNmtlZzZ1RGZ6bDlmbXVpNHZOSDVzeVgzQzA1M1FSMVJtbHRockpneEc1MEpzWVpWQ1I3SkpKVFQteTMxOXBDWWhFdl9GakJmTnExY21pZ05pcVF3eDktendTUk5rTjM0eTdJYUhPczNqVlliN2liR1A3ZmdBQ1hGUjI0a0ZyaENZ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmFScHl6ODM2d3d2b0liYk5pTGxEZ29nZTdncEpNODBGcVZTbzB4emdsQ3VIUmhGYUdMbWl1cDFsQkp0eHVkUXcwWm5VMER5UElIaHl4UXRCQ1RHN19KWDhaUU00eTZBaUQwZ1VXcmxGcTM2RmR1dW5GQ0ZZcVJTeTJOUUdKUjM4Sm82NVdFd0x4eFgtelBKWWNZLXBHS2NJTWV5VVRuR3M?oc=5"
-      },
-      {
         "title": "Missing dog Luna, lost in Yellowstone National Park, found after 1 month - ABC News",
         "reports": 8,
         "press": [
@@ -2750,6 +2771,64 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXlRaEF1dU9OUjFlV2g4aE1teWlwQ0VPaUhVcWxMeVgzZVJHT3BQLWtNUHRsNS1laHdYdkdycXhsRTh5dVVVeDlLUGZHMVM1c3VtU3RsbjRUeUhweldDa2JQUjl6WmNRM01TV1FPcXM2eWZnVWZqd0RsVXZlcnlqaW10WXEwV2JEY3NjYUxKSDNpSHdYc3QtSHBGcWlLc1BhWjJDR0hn0gGrAUFVX3lxTE5kZkxIY1VLakNYZjZDRFJob3drM3RNaDl3TkhnME5CSVFVR0h6OVpDWUdYbXhYSGdWNnJLdFlDLWxDN25YZ2NPTjJMYnNweDRwdnlzNVNqNTdySnkxMnNJazgwWkJEbl9UdlU2OFdmakdRNjdTT2pGdGYyZllmTUJHWk9XSk5VYmJ0WUZVTHZyb1JlLVZIOHBUdXI0bVA1anN0MzFHS1d1Ujcxcw?oc=5"
+      },
+      {
+        "title": "Trump funding cuts halt repairs, critical work at national parks",
+        "reports": 8,
+        "press": [
+          "Roanoke Times",
+          "The Daily Progress",
+          "Channel 3000",
+          "Journal Times",
+          "Opelika-Auburn News",
+          "Lynchburg News and Advance",
+          "Sioux City Journal",
+          "azcentral.com and The Arizona Republic"
+        ],
+        "outletCount": 8,
+        "articles": [
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "Roanoke Times",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG96RzhmYm5fX3ppRXV0NHhzb21DeldrcVEwN1VFMDVvUmJSbG5qY251SklXLTd0Q2UxQWhMa1ktRmJ6dk5xaUpDR015TnNseG0wMnVBWmVNa3hqb1FCRG1YcTJ5SExEUllhaWJ0OUhOWTlsVTR3bGRJVEFSeTJNSEVRODZLMEVEbXFoNzcxYVc?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "The Daily Progress",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEpEZWtUcUpWbC1SeDJvbmdTelZHdnRCZTR4N2xLLWxlUUJTemV3S2E1NVhxbERwZDIwNXFQZ0JKck1FRHNMSjU3dzBmbTlyd0FPbEN2dkhMVVp4Q29IMlpRdm9sTnBKRUtGNGhiWnZXdXMwd0JXNlpZYzVRdWNBMktPbWxQeVZMc1hocnRyRDFkU0lxdW9SQg?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "Channel 3000",
+            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTHRMb0tOdGVjVVhvMmtuYndBc3FiU0lnZmVSZm5mb21vN0R4emVtU0tUMkMtempaYUFkei1PdGJUWUw2SWppUmczTTQ1U01qNmZqUkhFdnFvMHdKTHRid3hBbGN4ZnlVWkM4VVBHWWVqdVhyVUxEYTJlY2Zudl9lR19CZlpSMnA1MVB2R1o5WDZUSHNEV3pjYl9OZWxrWW5kVDNuS25Obll5ZlF1QVBFTHE3anJYaE9icFdZd3RQTWJLTnUwSnpoYVZSQjdtcHhuZmJhVUlRa1BLVVJTQnJUY09YdXB1cVVFWWZtc1JNUjVfWjVBSV80?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "Journal Times",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHFGd0o2ZXRRNzc0VU15NW55c0hTN0tuVFd5YllwT0wtS0pORzFCdnZBaDJVU3o2VllXRERNYjktaFA3Uzk0ZU9fTHdtQ2tucmRpamp6VjAwYmRIcDZ6QkdVbkpOMUxrTnpuX3k2RkVuU0ZPTWFzT2k3aDRkM1NQMHVuNHBiTkpIQTVWRi1kd0t3VXRldmZJ?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks - Opelika-Auburn News",
+            "press": "Opelika-Auburn News",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX2MtdnRjRkJtZ1JiZ1hOR2ZTQjVodG1hcVV0TjF6UTMtNFBWR1o2VEMxbHduLVRzYS1oNUNCeldXQW96clg0MTVlR2NOa3FhdzNITW8tNXB0MHBIdmVINDZSVU90RHV0dW1jOUpSUzI3MUZ3NzlpeVlZZVNhMUU4M2VHeFlkLXdXbGtGdjVn?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "Lynchburg News and Advance",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUg2ZGF3eW16VS1zZVAxR09OR0d5OFA2WUNBNVc1WHhLdEVBcXlkVzBXWmxnLWQ5QTRIZ3FpbTBCdUNySE5HQjdXcGR6azB2T2JobWY2Sm5fWWFUeFJMdGtscWp6S2Qzc18yeEZSeUtsMFNlbmFzdERfTjdkQ1NLUmdZOG9uVmVUYUZnMzE5MnhUXzhzeWc?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "Sioux City Journal",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN2hRX1dZS2dpRmE2TUNFTlByancyYzl2RDBOeXBFemx3dGFpd0kxV1VmVGEwTm9qMVBQM0REZWpMOWNGVHg2OE5KZHBXaGltWjRHRUoyLUh0RTl5U3Fmb0hMN3pwQ1IzRXNkZHN5eU9EaDZ4c2NOUHlwaEdUOWR6UFVnUkx3ZDFUUVlZeWQyVGhEd21SMFZWNWRadk8?oc=5"
+          },
+          {
+            "title": "Trump funding cuts halt repairs, critical work at national parks",
+            "press": "azcentral.com and The Arizona Republic",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcE1PcnJDeFEwRmdZdnd2VHdzRXNNNmZXd1RkZVdtUnZnaHFLcXhJcXJvMl9GRGE5dXJXUEpvd0ZjX2g2OHFfa2NRdVZZcXpqOVZBMWFxX3BNOC11MGdQc3FJSmpLbzhFLVJMODdKbmYtWHVaSk9qN3VRUWxGZmdhaE9TRDZHb3c1LVJRa2xXS2M2ZXpLSEpzbXZ6QWlIY0J2bHFMZEt6eEVyY1BRa242aVVXdUZ2VGxIVmpuSTBDNmoxb0JEU01QREJhajRZanVuQ0FzLQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG96RzhmYm5fX3ppRXV0NHhzb21DeldrcVEwN1VFMDVvUmJSbG5qY251SklXLTd0Q2UxQWhMa1ktRmJ6dk5xaUpDR015TnNseG0wMnVBWmVNa3hqb1FCRG1YcTJ5SExEUllhaWJ0OUhOWTlsVTR3bGRJVEFSeTJNSEVRODZLMEVEbXFoNzcxYVc?oc=5"
       },
       {
         "title": "Chiricahua poised to become Arizona’s fourth national park",
@@ -3149,8 +3228,42 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQnpqSmhOWEc1cnd0OW1NaUl0RWo2bWpMbTZoRk1Cb3Q1eEhBTUIxSHJCNk1FcE9hWWYyRTBzU0g4RzN0RTBFSEppUEZfOGFENlpRRmRBZDZxOXNHcVh3emNKOGdvZ2RnTWlnakE3X2lGcW5pQndDenNTdWxZampHZWxRSnJYQ1NmR2NkV3J3bGlGOEl3dUHSAZsBQVVfeXFMTUZteVhielRlYVZZNUFPN3lFdy1ZMG1ZalkyQ2tfRE9yMGdQTy13cC04bDQwNE4yZ3ZsZW50YXg4dmhoNDFLNUFCOFFQdTRRMDRMU2dSLU1nVmdYWVBXQ2RnZnZ4WHJhZkVPNXEzWWJiTE9SS1FsNWsxbzJqV19fVEpua0lTcFExdHIzbzY2YjJtUkIzQmNlNE5VVUk?oc=5"
       },
       {
-        "title": "For the first time in recorded history, Yellowstone National Park had more visitors in September than in August",
+        "title": "New U.S. Government Rule Will Allow Hunters to Lure Bears with Donuts and Shoot Them in Alaska National Parks",
         "reports": 4,
+        "press": [
+          "People.com",
+          "AOL.com",
+          "Travel Alaska",
+          "WorldAtlas"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "New U.S. Government Rule Will Allow Hunters to Lure Bears with Donuts and Shoot Them in Alaska National Parks",
+            "press": "People.com",
+            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN3ZWaEkzU25kT1A1eUg4MjVfZUhHVDE3b2M5UWZLcVhqUkhPaC1YcHNqUTQ1X2Yza0FKOU11SU1NOHhRZ0FZVW90aC1vUjdMcVJ3bjZvU2s5YmFRc3VreFVsUERkMmVNY3RpblpIQjVpZFBDdFoxUGRBQ0lPejlJUEUwX2hWemJhZ2JSV1Rub2kyY0xrZ0NkeklwVDY2djA1OEJSd1dwNWpkUEFjSVNndk5tWUROdF9KekJuTklmSzBtQklMcWU0bEY5ZzJaMlJk?oc=5"
+          },
+          {
+            "title": "New U.S. Government Rule Will Allow Hunters to Lure Bears with Donuts and Shoot Them in Alaska’s National Parks",
+            "press": "AOL.com",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcC1VSHM1STJRaXdZM09odWJDNnFacEpGZ1ZPQmdHUk5rcTJud0tZcFBPZzhHS2w5MzBDNkgtWEFYYXdKQmtzUG5tbFBwQ1RLdldXOGQxTE9kVUJwNnNFams4c3hETXJFZHRIWFRVV0xzVmltZ2t4RU9yMEloWjJJLQ?oc=5"
+          },
+          {
+            "title": "Visiting Alaska's National Parks in Winter",
+            "press": "Travel Alaska",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZFpQejdWQW42WXN5VzA1b21WN2NFdWF2XzNMcmhITDNGVjMtbnluUHVZbDBnTVFOWjM4ZjVVc1k3TVdXUlNGNGJuTGFZcTNFbzE3N3BMUWZZT1hLb3VTTndCSTVHTXZzajFrQ1hLSzlza1dKRjRvTmJoc09sVmNrWU91bExoWllBbzNmZ0hmQ3R5d3hrTUE?oc=5"
+          },
+          {
+            "title": "The National Parks Worth Visiting In October",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdjBPdGFvX3BmMXhTZldVNlctVlhPSFdIVEdUa3JaUzQxVlBXY2tBMnhPUm91NWpwUXczemJheFV2MjhxYThjZHJQWWxzTjNsdDdSVWk1Uy1INE84WF83d3lVdVVYQ0gtRVZla3o2Rnk4S3hhN2JoZm1xQXNPVFdjQjEyNWsxLW9QTDlaWmJ6VDZDWVlLREE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN3ZWaEkzU25kT1A1eUg4MjVfZUhHVDE3b2M5UWZLcVhqUkhPaC1YcHNqUTQ1X2Yza0FKOU11SU1NOHhRZ0FZVW90aC1vUjdMcVJ3bjZvU2s5YmFRc3VreFVsUERkMmVNY3RpblpIQjVpZFBDdFoxUGRBQ0lPejlJUEUwX2hWemJhZ2JSV1Rub2kyY0xrZ0NkeklwVDY2djA1OEJSd1dwNWpkUEFjSVNndk5tWUROdF9KekJuTklmSzBtQklMcWU0bEY5ZzJaMlJk?oc=5"
+      },
+      {
+        "title": "For the first time in recorded history, Yellowstone National Park had more visitors in September than in August",
+        "reports": 5,
         "press": [
           "Yahoo Creators",
           "Bozeman Daily Chronicle",
@@ -3172,6 +3285,11 @@
             "title": "Yellowstone National Park sees increase in September visitors",
             "press": "wyomingnewsnow.tv",
             "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN1VFdUw3Wl9nMXBScTVycGVJaDYyX0hhb1pRbkplcm5RQVNuSXhFNEowRHlUa3FpWERJV1Ytd0JfSXFwZXE0SjMyeURLcnYxQ3VzNDJhNDFMcXNKYnFjbkJWUm1ESmZ5a00teGxuZlZBcElYejV1RGhnWUFvUkhMbkpZVExmeERxWFhRblQ1dHNkRjNfcnBvVzdmX2dFS1BnTE1Xei1IdnppV3NKcEVaY3IzTW91VkY5VVBWdEhrNy1iZkI3Tnd4R1N5Z0lXbnJfZmNYTHY0X1ZjRGRyVHM0?oc=5"
+          },
+          {
+            "title": "For the first time in recorded history, Yellowstone National Park had more visitors in September than in August",
+            "press": "Yahoo Creators",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN3ZrNFkzVFJRVndrQzVoNnVpODYwUDBiWFVOV2JabGVZTEd0TGZiT0txVzY4YWM3bzd1LW9JQWRnUVQ1R2NfYjhqelFad2FtQkRvdGFUVEkwa0pPT1MycjRfSm9iUEQtSm9jUGVOY1puNmUtdEUwbElpUGVRSFJNTTBWSy1hSENWV1E?oc=5"
           },
           {
             "title": "For the first time in recorded history, Yellowstone National Park had more visitors in September than in August",
@@ -3462,6 +3580,34 @@
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10Wm9rZy1JcHZwU2xoYk9SQzhoZDloaEJ2QWpHbG1jV09jT2FlaHF0aHlKUFhZX1VuajFKX2VPT2NTSzEtNGtvZDgxMlNoVUhQRXhuVkRrWTVZWS1kaTQtS3lSR2pYSWhMck1XcWtlOFJGalM4YXZtTzJCXzI?oc=5"
       },
       {
+        "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
+        "reports": 3,
+        "press": [
+          "Alaska Beacon",
+          "News From The States",
+          "Alaska's News Source"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
+            "press": "Alaska Beacon",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVh6YXZWRFVNNWZRaER1c1p4SWl5azEtbEJmY19RMkJ4WkxDWjc5OGFmZ0RYd0VMWVMwc0w2SlBSSUUyaHgzb3dZNjRUZHBrVmY4blVxTElTbWdPWDdJUE4wN1lmbVNiNk1pWXFXSm92Y2JId3ZWU0lsclJkOVdORzZ1S2JXdWZ2dXd1ejBRVGVxeG8tb1V2U3lmeHVvVTZTekJrMXVMT0o5NndOWXp2T0x3?oc=5"
+          },
+          {
+            "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
+            "press": "News From The States",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHBBRXVBNVZidlh3Z0pmeUtXVTdlZGRIMlBYVTNKMlk3R0F3N3RCRnFpNE5rS0ZKbnZkZUFsTVFVaDFBeENEY1R1d2g0ODViaHVlbjFwcG9FOVZBaS12R2IzTC1KZUVUWkpIcEpjZ1dXYU12Q19yYjZnTV9FVW1pUkM1V1h1ckhBNnI4NHRINUVhMEZSTEYtRjZKbklHcFhTX09mS1Q3ZWwySDRUTHJkUDczM0I?oc=5"
+          },
+          {
+            "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
+            "press": "Alaska's News Source",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTC0wYl8xM2pwQm81bEEzdjluQ1hETmllQ0tUUU1yZU5aVVBXMGFTNGYzbGljTGh5WmJkbnpnblEyaHlzMXZ5UmdfUlFkSjROZVBLUXRRY1lXMUprV3gxVkdGQzBBdTBGeVo3aGU1amhVbkswaFYxajRFaGplV2JCV0ZXR3llWExXZXI4N2JyMXdPTkQ2b0Q3eVh4NmpFRGhKVk9pSVZQV0ZYaHdPYUk0MG5lNGJHTExaNEHSAc4BQVVfeXFMUG5DZ1llWXdiSUF5TGc1eHJLa3BUcmY3MTRscW1mY1pLTlVPM0tSMWpJQUZmQXNUTmgtbF9BZHhfS3BNdGNqWlZnamoyQlpLT3dfYktSTnZLcFRhWVFzUW1LT1hsdHY5eVF2RTB1Umx5emwxd3dWVkZxSWZ5di12NmVUYlgxckJrQVVhbGlhNG1TaG9Fb3UtZjFoZkNuSkFMVVF0QWNvSDNINk9ZOU02eWludTVHT182WTRxTEVCSUQ4am9sSk0zZDNpY1M1a1E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVh6YXZWRFVNNWZRaER1c1p4SWl5azEtbEJmY19RMkJ4WkxDWjc5OGFmZ0RYd0VMWVMwc0w2SlBSSUUyaHgzb3dZNjRUZHBrVmY4blVxTElTbWdPWDdJUE4wN1lmbVNiNk1pWXFXSm92Y2JId3ZWU0lsclJkOVdORzZ1S2JXdWZ2dXd1ejBRVGVxeG8tb1V2U3lmeHVvVTZTekJrMXVMT0o5NndOWXp2T0x3?oc=5"
+      },
+      {
         "title": "Grand Canyon National Park's New $100 Visitor Charge Forces Tourism Company To Act Against U.S. Government",
         "reports": 3,
         "press": [
@@ -3575,7 +3721,7 @@
       },
       {
         "title": "10 East Coast state parks for fall color without the national park crowds",
-        "reports": 9,
+        "reports": 10,
         "press": [
           "Yahoo Creators",
           "WorldAtlas"
@@ -3705,6 +3851,33 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWHJDd2J0azVQX0FVV0lsLWRmWWRrb1d2VHBLcXA5YjhUQmRZZllKWmljVGxqS3huaDhzSDVYUmlCUVg2clNaUTNFbWNvQnRkVzhwUGlVTG9UbWF5VlhRNGdkVEVBdnBrZHhiRkd4V2J4WF9vOVZrelpuSGtlR0RUT082bmZIWW9iSFRPaFlmNnJ4TFUzODgtX3ZZMG5fbTU5YUE?oc=5"
+      },
+      {
+        "title": "Trimble named Yellowstone National Park acting superintendent",
+        "reports": 3,
+        "press": [
+          "Billings Gazette",
+          "NBC Montana"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Trimble named Yellowstone National Park acting superintendent",
+            "press": "Billings Gazette",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFd1SkNhRVFYZUw2VGdpd1E1aVhLbGVtMTdSZ21vYmdOWFdwNm8ydkJSdUVXR1lnTjNqMEJXdDlsZDBqa1QwS3BmSzFQMjN5Z3k2ZkhSSDl6dDFnQW5aZW1vTDB5VXdjX2pFLWhweEVWaW5nOUYzTHBKR1Y2dWpOaF92RTZhdW1kVTF5eXdqbmpkajczTXB2c3Z1SmdIdUtxOENHMFk0S0NKWEpR?oc=5"
+          },
+          {
+            "title": "Yellowstone National Park announces new acting superintendent, deputy superintendent",
+            "press": "NBC Montana",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUmtYb0FERnJ5WUFBc3JyUW1xSjhLM3FVVUNnVE9xVXFsZWxaeUpwTEhwVE9RUTJZdkhBSFlEaFhwaTBnM0dRcWhaTkx6X3Qxajl3TEhJVHNPbnMySEhQTlBsaHczSWlfaFhlY0t6VGdjZUs0aEk3SmxXcEltSHBEZ2FBY0F1X3ZWZGw5ZVVXcGNLYktaX2s5VXQxUFh1eU5oaGREdlRlek5YWHljSGdZTlBodEJ2YWdO?oc=5"
+          },
+          {
+            "title": "Yellowstone National Park announces new acting superintendent, deputy superintendent",
+            "press": "NBC Montana",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUmtYb0FERnJ5WUFBc3JyUW1xSjhLM3FVVUNnVE9xVXFsZWxaeUpwTEhwVE9RUTJZdkhBSFlEaFhwaTBnM0dRcWhaTkx6X3Qxajl3TEhJVHNPbnMySEhQTlBsaHczSWlfaFhlY0t6VGdjZUs0aEk3SmxXcEltSHBEZ2FBY0F1X3ZWZGw5ZVVXcGNLYktaX2s5VXQxUFh1eU5oaGREdlRlek5YWHljSGdZTlBodEJ2YWdO?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFd1SkNhRVFYZUw2VGdpd1E1aVhLbGVtMTdSZ21vYmdOWFdwNm8ydkJSdUVXR1lnTjNqMEJXdDlsZDBqa1QwS3BmSzFQMjN5Z3k2ZkhSSDl6dDFnQW5aZW1vTDB5VXdjX2pFLWhweEVWaW5nOUYzTHBKR1Y2dWpOaF92RTZhdW1kVTF5eXdqbmpkajczTXB2c3Z1SmdIdUtxOENHMFk0S0NKWEpR?oc=5"
       },
       {
         "title": "2 accused of illegally harvesting ginseng in Great Smoky Mountains National Park",
@@ -4059,28 +4232,6 @@
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdXRjdlF3U1pYdXZTakhlc2JTVmNlNGRVNWJxYmwtRTJYQmo0cnNHVWJkT1FwaVNsMWdfSTVfVW5DbXpiWGstanB2VUNkUnF5ekJJWkE3eFh6Z3lBRkRHLW9KMXRFaTFkZTFZSWlCVWI0dTNrUDBId29WQmZ6ZHJXQk5tTjZhR3FTWFY5THdjQWtBemVINW42ZXZwRnJ6UWJsR1VvTFZNNkQ3OVZWc0YyTEEwR24xSTRlNEpWc0w2QQ?oc=5"
       },
       {
-        "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
-        "reports": 2,
-        "press": [
-          "Alaska Beacon",
-          "News From The States"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
-            "press": "Alaska Beacon",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVh6YXZWRFVNNWZRaER1c1p4SWl5azEtbEJmY19RMkJ4WkxDWjc5OGFmZ0RYd0VMWVMwc0w2SlBSSUUyaHgzb3dZNjRUZHBrVmY4blVxTElTbWdPWDdJUE4wN1lmbVNiNk1pWXFXSm92Y2JId3ZWU0lsclJkOVdORzZ1S2JXdWZ2dXd1ejBRVGVxeG8tb1V2U3lmeHVvVTZTekJrMXVMT0o5NndOWXp2T0x3?oc=5"
-          },
-          {
-            "title": "Trump administration expands vehicle access to Alaska’s Denali National Park",
-            "press": "News From The States",
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHBBRXVBNVZidlh3Z0pmeUtXVTdlZGRIMlBYVTNKMlk3R0F3N3RCRnFpNE5rS0ZKbnZkZUFsTVFVaDFBeENEY1R1d2g0ODViaHVlbjFwcG9FOVZBaS12R2IzTC1KZUVUWkpIcEpjZ1dXYU12Q19yYjZnTV9FVW1pUkM1V1h1ckhBNnI4NHRINUVhMEZSTEYtRjZKbklHcFhTX09mS1Q3ZWwySDRUTHJkUDczM0I?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVh6YXZWRFVNNWZRaER1c1p4SWl5azEtbEJmY19RMkJ4WkxDWjc5OGFmZ0RYd0VMWVMwc0w2SlBSSUUyaHgzb3dZNjRUZHBrVmY4blVxTElTbWdPWDdJUE4wN1lmbVNiNk1pWXFXSm92Y2JId3ZWU0lsclJkOVdORzZ1S2JXdWZ2dXd1ejBRVGVxeG8tb1V2U3lmeHVvVTZTekJrMXVMT0o5NndOWXp2T0x3?oc=5"
-      },
-      {
         "title": "2 snowshoe hares in Glacier National Park test positive for tularemia",
         "reports": 2,
         "press": [
@@ -4103,48 +4254,48 @@
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmVRTlBRUXlTTzlfUUFJRkVwMmF3YnRYUXNnQTExZDVDUUU5Mnl4OTdQY0xfdUQ0TTNBS2ZZdElpOEhRV01pSi05dlAzRFZhM3R1dFB1MHdZM3ViMFJVanZ2WGhWVEtRbGRhck5wTWRlOWJrVENlSXVDZHROcjVzMG50d2ItWThGWkNNZGVBMVFYVTFxZ0lXZ1ppaENjS202a0doVXJB?oc=5"
       },
       {
-        "title": "We Asked Park Rangers the Best National Park to Visit in October—One Kept Coming Up",
+        "title": "Today in History: October 1, Yosemite National Park Established",
         "reports": 2,
         "press": [
-          "parade.com",
-          "WorldAtlas"
+          "WKTV",
+          "Sierra Sun Times"
         ],
         "outletCount": 2,
         "articles": [
           {
-            "title": "We Asked Park Rangers the Best National Park to Visit in October—One Kept Coming Up",
-            "press": "parade.com",
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnRqc1dWbEZmVkl0UlBUa29TQWQtSDlqWjl2S3l4UGVOR3hoM0pFQU5yMzlYd2RITFMwRXBGenlaanRqVW5PMmVzN3pDMUpKTnpJbVR1VmFDRDFxQml0YktTSUhla2Rmc083NmJ0b2FBaXBUZ01IRFVISW9BbkZid0NyeERQZFR5dGQxZnh1Q2hZZVpsUWxwdDFuMzR6b215emxqek9UWXhTNEhQR1E?oc=5"
+            "title": "Today in History: October 1, Yosemite National Park Established",
+            "press": "WKTV",
+            "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZE53VXUwSVEzUGJlNmp2N1pSUTg5YnhESi1rR1l0ajNCOXl1azJDTnVBeFNJbmJPaG9kdUhRM0swM3BjdGRjaTdMcWxwY3EwVzk2cE82OEJ5TXNQbFpfNnFhdERjVFByMmVuOWRWa05hUUtNejZoS1puN3dzS1p1RklEd3Jxc0UzS2w1eERLUjVzWXd2WmVEbU1OM1lKSUZBRzlJeU5hQUs3WFBlYklyeGROaVJmNmFyY2pnUS1EWDMtUnBVTXk4eExrT1l3a19lUGVvLWlmZ0NyQ2lvU2c?oc=5"
           },
           {
-            "title": "The National Parks Worth Visiting In October",
-            "press": "WorldAtlas",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdjBPdGFvX3BmMXhTZldVNlctVlhPSFdIVEdUa3JaUzQxVlBXY2tBMnhPUm91NWpwUXczemJheFV2MjhxYThjZHJQWWxzTjNsdDdSVWk1Uy1INE84WF83d3lVdVVYQ0gtRVZla3o2Rnk4S3hhN2JoZm1xQXNPVFdjQjEyNWsxLW9QTDlaWmJ6VDZDWVlLREE?oc=5"
+            "title": "Prescribed Fire in the Grant Grove area of Kings Canyon National Park Begins Today, Saturday, October 17",
+            "press": "Sierra Sun Times",
+            "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbWl5MlhnbmdVVmJJYVVQTEU0b3dtWXNWcVRWaF9FOTUwTWRwTE5YX3hya3pTN040bldHN21sUXhXbGt3bkt4VkNvYUloTEdxQ1VvTlhuMXVReC1ZcS1wRklBRGJHWExLdVVMQkN4dHJMSUpuRXE0Rm01eEFLSWI0TnE0LWpkTnAzYnlWaEdyZVpTdXo2bF9Qb3F4T2prVG90LUlDS0ZUOE9GUHBlZzBQcHU3RTB0dGRkNnRkTHMwRXdTSjRmWWc3VEZvYnFvVVVsOE85NC1XWENNX3Y3YUxhQ2NMdHd0VzcxR19keWVTMG5XT3VZVG56ZGlvTjFCTEtvSXY0?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnRqc1dWbEZmVkl0UlBUa29TQWQtSDlqWjl2S3l4UGVOR3hoM0pFQU5yMzlYd2RITFMwRXBGenlaanRqVW5PMmVzN3pDMUpKTnpJbVR1VmFDRDFxQml0YktTSUhla2Rmc083NmJ0b2FBaXBUZ01IRFVISW9BbkZid0NyeERQZFR5dGQxZnh1Q2hZZVpsUWxwdDFuMzR6b215emxqek9UWXhTNEhQR1E?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZE53VXUwSVEzUGJlNmp2N1pSUTg5YnhESi1rR1l0ajNCOXl1azJDTnVBeFNJbmJPaG9kdUhRM0swM3BjdGRjaTdMcWxwY3EwVzk2cE82OEJ5TXNQbFpfNnFhdERjVFByMmVuOWRWa05hUUtNejZoS1puN3dzS1p1RklEd3Jxc0UzS2w1eERLUjVzWXd2WmVEbU1OM1lKSUZBRzlJeU5hQUs3WFBlYklyeGROaVJmNmFyY2pnUS1EWDMtUnBVTXk4eExrT1l3a19lUGVvLWlmZ0NyQ2lvU2c?oc=5"
       },
       {
-        "title": "Visiting Alaska's National Parks in Winter",
+        "title": "Chiricahua National Monument one signature away from becoming Arizona’s 4th national park",
         "reports": 2,
         "press": [
-          "Travel Alaska",
-          "SFGATE"
+          "KTAR News 92.3 FM",
+          "AZ Family"
         ],
         "outletCount": 2,
         "articles": [
           {
-            "title": "Visiting Alaska's National Parks in Winter",
-            "press": "Travel Alaska",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZFpQejdWQW42WXN5VzA1b21WN2NFdWF2XzNMcmhITDNGVjMtbnluUHVZbDBnTVFOWjM4ZjVVc1k3TVdXUlNGNGJuTGFZcTNFbzE3N3BMUWZZT1hLb3VTTndCSTVHTXZzajFrQ1hLSzlza1dKRjRvTmJoc09sVmNrWU91bExoWllBbzNmZ0hmQ3R5d3hrTUE?oc=5"
+            "title": "Chiricahua National Monument one signature away from becoming Arizona’s 4th national park",
+            "press": "KTAR News 92.3 FM",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDJrakM2NUVvT1c2YTlEQnNpVkRTa2RjOFRjeE9pd093WUlWdGhDYWpjRmNwNnFjai1ONzg3UDEyRk12dW44Yk1jcHcyZTdaUzdibzBvLTFNT3Vja3Noanh4THg5VXRRc1JCTVVuWkRTUFZVUzRYSDNvc1NONGY2LWlRVHJMR1Y4dTNIV1lIdXM?oc=5"
           },
           {
-            "title": "Winter is coming, and Crater Lake National Park is in trouble",
-            "press": "SFGATE",
-            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZkdqR3RYeVZDZ2d1cEcxb0txdkNPdEJCeUE3TGNJUS03bnl3aVRHclFISk1PMFZYR0JwV2VBWEhPRGh5S3RIbE5IcURxSGJjMExKZzRIbEdINHVkOXdXbGhTX1pLQUg3S3JFbXZVWTFtZkt6Q2xNVWwxelBiZVVhV0dSM1RodDlUVzJ2RjBWazZubU1RMndB?oc=5"
+            "title": "One signature away: Chiricahua’s national park push reaches Trump",
+            "press": "AZ Family",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaFRxU2VicnZnQXVuRFVFRDFrcmlwRGRpcVFmcTVTRTJ1UDBFbFd6VWhzb0U2YUVvYXdUOW55dzhBN3dUTnlGUG9NN3BXc1R6TnlLeTV3N1Z1MHhSQnk0ZW5OWkpFVk13VVhqZVNSWEg5M1BfLUlBZGF5NEdFenFNa3NIY0VZUTAtTUU5emxMdHU5NXhsQlpGUjNnelJ2MHNqU1hway00clBsQQ?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZFpQejdWQW42WXN5VzA1b21WN2NFdWF2XzNMcmhITDNGVjMtbnluUHVZbDBnTVFOWjM4ZjVVc1k3TVdXUlNGNGJuTGFZcTNFbzE3N3BMUWZZT1hLb3VTTndCSTVHTXZzajFrQ1hLSzlza1dKRjRvTmJoc09sVmNrWU91bExoWllBbzNmZ0hmQ3R5d3hrTUE?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDJrakM2NUVvT1c2YTlEQnNpVkRTa2RjOFRjeE9pd093WUlWdGhDYWpjRmNwNnFjai1ONzg3UDEyRk12dW44Yk1jcHcyZTdaUzdibzBvLTFNT3Vja3Noanh4THg5VXRRc1JCTVVuWkRTUFZVUzRYSDNvc1NONGY2LWlRVHJMR1Y4dTNIV1lIdXM?oc=5"
       },
       {
         "title": "Controversial proposal for 3,000-foot tram revived outside Glacier National Park",
@@ -4301,6 +4452,28 @@
         "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0VJZTJsN2ZkMV80b3NzRUVEb2V2VXFnMHluMzRpMkE3S0k5S1R1RDFxSU1DRGxCOE05NnE3SVRlNExiTS1qbGpoOWxYWVRYOXpReVBDOVBfZURMcHppYlY4WFhjem5PbTVnQ2NUNV9FbWRTQjJNWUxRYkxUWUtCcXdYM01pV2R0b2Q4ZDl0cGoyWUhscGpsay1tZWd1Wng5SEpNTkFKX19iMDdTNmMxZFJIZEloVGhPakg3ZXA0aFQzZEotRXpQSzdiekdYbV96a205NDkweTJrLW1veVc3a2lYMEtCQnhsWnA3LThueGRzZDZGcWFtS1RmbjA3aXhQcHBWRDdwQUFWTU5pVEVtM3h4bmtFenZSWmpBMGRhcUlkcWhqdFEyOC15cw?oc=5"
       },
       {
+        "title": "Summer crowds give way to fall vistas at Yosemite National Park.",
+        "reports": 2,
+        "press": [
+          "The Lufkin Daily News",
+          "myMotherLode.com"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Summer crowds give way to fall vistas at Yosemite National Park.",
+            "press": "The Lufkin Daily News",
+            "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObE5Wdk1VUzhuQ3ZJczdoc2ZDMEpfODE2dmRNNjhYYmgweXR1NXZuQk5BazdBQ0pad1hRc180WElkOW9SRndQa0xuYU00REJUNTVrN3JTcWNBMkJ3bTdUQ1dfNWtiYmx6cFBFemUxaWlXcUF6QmFnUEtjbERad1pMQ01mNy0wVVBrdlRsY1dVMnFmZ3BGeTh5MU53VXRsdU9kclN2eVFSSzVBN2tEV29QSlBZNmZNd2ZEOE16Y3VxTmJNVU9YZ3M4QjBHNmxXMTR1MnpMSTlRMzFxcUlGTmRHN0k1WUhEc0s5eXdMdHlSaWNNM3c?oc=5"
+          },
+          {
+            "title": "Seasonal Changes At Yosemite National Park",
+            "press": "myMotherLode.com",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS1RTODh6a0x1c083X2FQXzVFLWZ0bGxUZGZTSlo0NHAyX3Z3Zk1aUEdOWlJzcGEyLTVSd3dBd0c0Q0hCNUsxdWhoLW5EUEMtU0kxS0Q0NzZteGxHRjJTczVfNEZ1enNnZGtKNXloQjN3X0kzbjBLQkNpR0cwMUdHLVRHS1FGOFhDRkxrbWNNZU1WRnJPakhB0gGcAUFVX3lxTE5MYWc2ZHNRR2FobTJjN1JZLWVMR1BwR09OdlNaQ2Ixb3BLWU9vMl9NaEJnb05wREhPUGlEY25UQVdrSlBoU3lKRzEwdVJDVnh4anNKSV9SWTVBUWNEM05OM0laeE4yMEp6c2lGVFF0eWxWaHFucXgtSUtqd2p1QUh1YmZRU0VOeEM5Vi10WkxKSUItdnBnakk1ai1oYg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObE5Wdk1VUzhuQ3ZJczdoc2ZDMEpfODE2dmRNNjhYYmgweXR1NXZuQk5BazdBQ0pad1hRc180WElkOW9SRndQa0xuYU00REJUNTVrN3JTcWNBMkJ3bTdUQ1dfNWtiYmx6cFBFemUxaWlXcUF6QmFnUEtjbERad1pMQ01mNy0wVVBrdlRsY1dVMnFmZ3BGeTh5MU53VXRsdU9kclN2eVFSSzVBN2tEV29QSlBZNmZNd2ZEOE16Y3VxTmJNVU9YZ3M4QjBHNmxXMTR1MnpMSTlRMzFxcUlGTmRHN0k1WUhEc0s5eXdMdHlSaWNNM3c?oc=5"
+      },
+      {
         "title": "National Park Service prescribing burns to reduce the risk of forest fires in the future",
         "reports": 2,
         "press": [
@@ -4433,28 +4606,6 @@
         "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT2J3anpBUWRTMzRkcmtPNFh4TTlTWG10bXJEVXZYOTNPQXAwdENFXzVxejNtbWk0NFdXZF9MR2l0eUx2UEEzOUdPSWZXaFlXMm8yRnpGbHFuWk5PODVyd29RU0k4TTVaczB6b1RHc2xIaUNVOHphMkRqU243NmkxR3k5cEhjVFl5ZVdrNnRKRHNvSEJKeTJ4ZVJhVnNIdEx5NWF3NEhYRTNDRWxVbC1OZTRQaUNkUUhVQTZUZGNGSlNENGpCb0llZXNzanZTalJjYWZnSVZMR0Jha1VBOVpsMXE2TjdpZw?oc=5"
       },
       {
-        "title": "Trimble named Yellowstone National Park acting superintendent",
-        "reports": 2,
-        "press": [
-          "Billings Gazette",
-          "NBC Montana"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "Trimble named Yellowstone National Park acting superintendent",
-            "press": "Billings Gazette",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFd1SkNhRVFYZUw2VGdpd1E1aVhLbGVtMTdSZ21vYmdOWFdwNm8ydkJSdUVXR1lnTjNqMEJXdDlsZDBqa1QwS3BmSzFQMjN5Z3k2ZkhSSDl6dDFnQW5aZW1vTDB5VXdjX2pFLWhweEVWaW5nOUYzTHBKR1Y2dWpOaF92RTZhdW1kVTF5eXdqbmpkajczTXB2c3Z1SmdIdUtxOENHMFk0S0NKWEpR?oc=5"
-          },
-          {
-            "title": "Yellowstone National Park announces new acting superintendent, deputy superintendent",
-            "press": "NBC Montana",
-            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUmtYb0FERnJ5WUFBc3JyUW1xSjhLM3FVVUNnVE9xVXFsZWxaeUpwTEhwVE9RUTJZdkhBSFlEaFhwaTBnM0dRcWhaTkx6X3Qxajl3TEhJVHNPbnMySEhQTlBsaHczSWlfaFhlY0t6VGdjZUs0aEk3SmxXcEltSHBEZ2FBY0F1X3ZWZGw5ZVVXcGNLYktaX2s5VXQxUFh1eU5oaGREdlRlek5YWHljSGdZTlBodEJ2YWdO?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFd1SkNhRVFYZUw2VGdpd1E1aVhLbGVtMTdSZ21vYmdOWFdwNm8ydkJSdUVXR1lnTjNqMEJXdDlsZDBqa1QwS3BmSzFQMjN5Z3k2ZkhSSDl6dDFnQW5aZW1vTDB5VXdjX2pFLWhweEVWaW5nOUYzTHBKR1Y2dWpOaF92RTZhdW1kVTF5eXdqbmpkajczTXB2c3Z1SmdIdUtxOENHMFk0S0NKWEpR?oc=5"
-      },
-      {
         "title": "Bison chases child at Yellowstone National Park",
         "reports": 2,
         "press": [
@@ -4475,6 +4626,50 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQWIzWGFlaWk0TmllQ0RBazJ4Q082Vmg1YnVuZHBnWk9kU292NWEwOWpOWHhfM2tNa3dCTm1WbkRHQXk0anpQLWkwWHdia3ZrV3VDTkNKWlRzZFc3UWlXM2FHdWhnbnF5RC1NLTB2RDV5RjZlUTFXc2plMWJUQW5zS21B0gGHAUFVX3lxTFA2Mk4zMTlzNXp4V0xIa0xqZHVhVzZmUmNJRlRocjFOenhHQVlsTVRiN2FRWlc5UkJoWkdqYzNUTFhrNmJwY3pDV0lmLV9MWGt2dmJTaFI2V0kxUFlCRTdFbTZmZXc3MlRVLUpGUVJJNHlCM3g4NGhIaW84QlVsd0luaTJacHV2MA?oc=5"
+      },
+      {
+        "title": "Luna, a small 10-year-old Jack Russell Terrier/Chihuahua mix, survived for nearly five weeks on her own after she was lost in Yellowstone National Park. She was rescued and reunited on Wednesday with one of her owners.",
+        "reports": 2,
+        "press": [
+          "Facebook",
+          "Los Angeles Times"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Luna, a small 10-year-old Jack Russell Terrier/Chihuahua mix, survived for nearly five weeks on her own after she was lost in Yellowstone National Park. She was rescued and reunited on Wednesday with one of her owners.",
+            "press": "Facebook",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOGlDbWt6d0JSRTE2N19EbjN0QW1MRVgwcks1YUJ6LV94NFkyVHBJckdCSXduQ1dPR0MzV0lxSFVFUHI4YXdYMFJzcHBRdnpwNTJSMTY1Szk5VmlVS3k1RGVybDR2WHRQUWVHbV9iMVFPcmNVbEhMRDdwclBSMlJDaHdoY0lldUpQTFdoWUtNZ191WS1vOTZZVElsYTFGVlVMbWFOckFxVFcxZ1drcy1rR0Q4YklsR0xfUnFkSXk0S25Cc0QyTkN1QjI2b0JibFYzSGg4?oc=5"
+          },
+          {
+            "title": "Luna, a 10-year-old Jack Russell, just survived a month loose in Yellowstone National Park",
+            "press": "Los Angeles Times",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWlFQWEs4VlpycXoyaUZzcXZfOEZ4QmxLa3NVT0dsYmxPOGFrOFc2ZnhfMXhWMm56djdHN002ak9XSFNwbjhtTmd0S1VtSXRpSDFkZ3JKcHlqNHBzZTRMWkFEeklTMkpGNGdDMV94Q1FxWWN1TURvazRJd3p0dXUyaUR1cGtHc0xCTVRlZHI2ZjBaYmdTYk5NclVJTnlWVEkyMEJwdU90VlZWZS00S0NIUC1NSV9EcHI5Y1dJ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOGlDbWt6d0JSRTE2N19EbjN0QW1MRVgwcks1YUJ6LV94NFkyVHBJckdCSXduQ1dPR0MzV0lxSFVFUHI4YXdYMFJzcHBRdnpwNTJSMTY1Szk5VmlVS3k1RGVybDR2WHRQUWVHbV9iMVFPcmNVbEhMRDdwclBSMlJDaHdoY0lldUpQTFdoWUtNZ191WS1vOTZZVElsYTFGVlVMbWFOckFxVFcxZ1drcy1rR0Q4YklsR0xfUnFkSXk0S25Cc0QyTkN1QjI2b0JibFYzSGg4?oc=5"
+      },
+      {
+        "title": "Two more cases of rare zoonotic disease detected in Glacier National Park",
+        "reports": 2,
+        "press": [
+          "Hagadone News Network",
+          "Flathead Beacon"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Two more cases of rare zoonotic disease detected in Glacier National Park",
+            "press": "Hagadone News Network",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbV9tRVBTaXlobF9iUXZJeEJVSXJ0TzYwS3B6NEpDdFU5aWFBb2JxTHBaTm1qczBsRV8xNV8yekMzQjZPRFpidXppY0lIdGxMdUhsVC1oTUR3R0FxSEd6RTBPQlFOaHA4Yy1TNU5ydUNaUURDTzJlaHViTXlGNXp3Wnk1MndoQ1owRjhPTGcxMEk0dElIdUpBYTNuaFhEUmNHVTg2Tk5NTGpNMXlaMlVTYkt2aWhVWmM?oc=5"
+          },
+          {
+            "title": "Glacier National Park Officials Confirm Two New Cases of Tularemia",
+            "press": "Flathead Beacon",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVmhfUC1CeEkxc0lUMHZUZ2lWbFB4U0RUUWR4b2ZKNE1scV9vU28zMjNUajJiVnlyYldQeTNsZDdVbFVQNExrYnY2NnpYSE1sT3JyeTVEaHZKMUV2eXlram0tZjF4U01fNWdhRVJyZ29pOEFxRE55dUdieFJZeWdRZF9TbUlEZFB1V0ppZmtlYXFESXpGLVNhWnF0OHczam43Q2RaY0lxSUE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbV9tRVBTaXlobF9iUXZJeEJVSXJ0TzYwS3B6NEpDdFU5aWFBb2JxTHBaTm1qczBsRV8xNV8yekMzQjZPRFpidXppY0lIdGxMdUhsVC1oTUR3R0FxSEd6RTBPQlFOaHA4Yy1TNU5ydUNaUURDTzJlaHViTXlGNXp3Wnk1MndoQ1owRjhPTGcxMEk0dElIdUpBYTNuaFhEUmNHVTg2Tk5NTGpNMXlaMlVTYkt2aWhVWmM?oc=5"
       },
       {
         "title": "Recovery open day supports Tongariro National Park on 16 October - ad-hoc-news.de",
@@ -4610,111 +4805,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMmE2anBPRURXSEVGR2xmbU9fRy1IT09OX2tsTlFqV0FJVGdpYllmTHZ3VDA5YmVnWl9MeDllc2hwYU9JeFFid1NfbmZQdFQzc25OLWoyTTFaMXZvRVR2a29Qc0RpMDNQTjA4cHh1WmgwSEQzRjdieUcyallUY1drT0dsbVA2dXItZ1RKV3JDTUdNdlRIQjRkakU5Um9GdlJrdzdwTXhuTmRsd29hVks1Q2ZRNmJkRzRnbFZUeVVrcWU5VWxwUExEajZycjlfVmhNZUdr?oc=5"
-      },
-      {
-        "title": "Croatian national parks become much cheaper for autumn",
-        "reports": 2,
-        "press": [
-          "Croatia Week"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Croatian national parks become much cheaper for autumn",
-            "press": "Croatia Week",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmNrbXNTNzFBa0c5MktSQjEwUEQzMjQzcDJRYUZZLXNkX0dkZlFha3Q1VlByWlFWa3dnV3JiaXVmZ0tPUEdvWDNqekNzc01YWmhISjZZdEVZY0FWUWstUG9UYnFJR0pGZDc1a0VtdjUxeEwxMkhiUk9TNFd1czhWU0NEbm0wRUtHN3ZOQ0JLZGI?oc=5"
-          },
-          {
-            "title": "Croatian national parks become much cheaper for autumn",
-            "press": "Croatia Week",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmNrbXNTNzFBa0c5MktSQjEwUEQzMjQzcDJRYUZZLXNkX0dkZlFha3Q1VlByWlFWa3dnV3JiaXVmZ0tPUEdvWDNqekNzc01YWmhISjZZdEVZY0FWUWstUG9UYnFJR0pGZDc1a0VtdjUxeEwxMkhiUk9TNFd1czhWU0NEbm0wRUtHN3ZOQ0JLZGI?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmNrbXNTNzFBa0c5MktSQjEwUEQzMjQzcDJRYUZZLXNkX0dkZlFha3Q1VlByWlFWa3dnV3JiaXVmZ0tPUEdvWDNqekNzc01YWmhISjZZdEVZY0FWUWstUG9UYnFJR0pGZDc1a0VtdjUxeEwxMkhiUk9TNFd1czhWU0NEbm0wRUtHN3ZOQ0JLZGI?oc=5"
-      },
-      {
-        "title": "The National Parks Where Fall Is The Only Quiet Season",
-        "reports": 2,
-        "press": [
-          "WorldAtlas"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "The National Parks Where Fall Is The Only Quiet Season",
-            "press": "WorldAtlas",
-            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWFiVTlqc1JMUG8xalV0dkV0ZnJtd0hXTmt5UFJvNTctNmNOSmExWk5uTUpzd2VGTzhfVFlDellueFVMMGtaeHBCQU1jZUZOVFl4OWFUd3BNaFg1aG1DeHY3Mjg1YTEzRjdITFRiWVJaM0VXUm5OQ3E3dHhuUEE5eFNJUGNxT3ZXZm9sWnFlODhBaGxvWERkNWgzX1dQSjRaeXJJ?oc=5"
-          },
-          {
-            "title": "The National Parks Where The Wildlife Is Most Active In Fall",
-            "press": "WorldAtlas",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVFZhWlVzdkxFTjRrMU5WY0hiZnFlVVZsWFNtdTZNM2FHalA3R3VpdGl3TWVITnFMRFZLbzJzbHNrZ0xJZGFEc0RJdDMwNWxyLTVLNkFxU25DanlsYlRXTWFwYzZ3b0ZuVlpac1o2R21NcVJtYlZfdzlHbE1VM0JmVzg2R05XZWllLVBFbncyQkdsaGVDS1R0b1BKZDNLRktuNGZFQ3ZOVkY1WlE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWFiVTlqc1JMUG8xalV0dkV0ZnJtd0hXTmt5UFJvNTctNmNOSmExWk5uTUpzd2VGTzhfVFlDellueFVMMGtaeHBCQU1jZUZOVFl4OWFUd3BNaFg1aG1DeHY3Mjg1YTEzRjdITFRiWVJaM0VXUm5OQ3E3dHhuUEE5eFNJUGNxT3ZXZm9sWnFlODhBaGxvWERkNWgzX1dQSjRaeXJJ?oc=5"
-      },
-      {
-        "title": "Contributing to conservation: Can your holiday support the cause?",
-        "reports": 2,
-        "press": [
-          "SAPeople"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Contributing to conservation: Can your holiday support the cause?",
-            "press": "SAPeople",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOGJuZ1NpUERKRG9PMmJLQXVnZXNOODlqbGJ0YWotaFlyeXBwdXhMQm04UEdCWHVmMHo1U3YwMWsyUkV1blFjRlM5LWc0SW1oaF9hUzA4Wk5fdGpJWkxWTXJLYWJDdG4wZzJCeXNsVk8yQjZuTldoN2pBbVRwYzQyTFZJRXBCMzctYzdkMEMyRTY4Y2ZuS3FyTjRnQjYzRE0?oc=5"
-          },
-          {
-            "title": "Contributing to conservation: Can your holiday support the cause?",
-            "press": "SAPeople",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOGJuZ1NpUERKRG9PMmJLQXVnZXNOODlqbGJ0YWotaFlyeXBwdXhMQm04UEdCWHVmMHo1U3YwMWsyUkV1blFjRlM5LWc0SW1oaF9hUzA4Wk5fdGpJWkxWTXJLYWJDdG4wZzJCeXNsVk8yQjZuTldoN2pBbVRwYzQyTFZJRXBCMzctYzdkMEMyRTY4Y2ZuS3FyTjRnQjYzRE0?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOGJuZ1NpUERKRG9PMmJLQXVnZXNOODlqbGJ0YWotaFlyeXBwdXhMQm04UEdCWHVmMHo1U3YwMWsyUkV1blFjRlM5LWc0SW1oaF9hUzA4Wk5fdGpJWkxWTXJLYWJDdG4wZzJCeXNsVk8yQjZuTldoN2pBbVRwYzQyTFZJRXBCMzctYzdkMEMyRTY4Y2ZuS3FyTjRnQjYzRE0?oc=5"
-      },
-      {
-        "title": "What travelers should know about visits to national parks in 2026",
-        "reports": 2,
-        "press": [
-          "ABC7 Los Angeles"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "What travelers should know about visits to national parks in 2026",
-            "press": "ABC7 Los Angeles",
-            "link": "https://news.google.com/rss/articles/CBMiohNBVV95cUxPVElqdmVpZF95Y09tT1p3YnMwWkl5a05kLW9iSXZEdUhHZTgxcnZIQkxNNEtCOTdEOW1IUndQd1B3YTBzMEZxUFRBV1NlOEgwbjZTMTE1dmRFVnBjel9TeEJ3UDRnWWVoRVZiV0tJLVFIS3pxUWZPWEszS0U5S3d0NEhXclJLTVZwaWpXUGpLbnZFbTlhUWI0VkU0UjEwTUdOMDNOUW9iOG5udU44dTljMnVGZFU5RGpRMGNGaGhrWTd1Mkc1Yk9VTzc0UjJPRnlkVk9mSkRzTEpmRlQ4d1pvZ1FIc3JlU21QMDVYdC03Z3RONldhVTVORTFveDZway1vbE50dkVGc1N6X2Zvekt0bjlsRWxDYVM1RE4wM3M1MDk5SVBNcUpsV0haVHVRZDFEMWJrUmwwQk4zeVI3UG1ldjd5Z3g5YUluX3ZhSlltb3VOSnl6TnUyRDVqeDhWN0FFUThEX1Q4eHVTR1JkTG5kajJ0OUl5T3BvOU41UmdmN2tzY3IxSnJocTlJWE5Rb294ci1JS0lEVkpuY0xKOVY5X1EzdUYzVkJLbTZjZEVHZG5TNTlFeVFieVBMY3k2c0tGcG1WdmJHWktSNHVIVW94SzlILWliWExLdFFwWnFRcVJzM1VlVFo4MWNTb0tiREhwQTU1eG8td1k2b3dYMXBlMy1NM2NtSFRHUEVNZy1FclJHRG5uOFdWdVZESjNMVmZ4ZGg2NEIwV09ZTzVjTEF5V3UtZkhLOUw3Q24xYk42Zkd0MFVyV1Z6eGJtRlFzZER1cFBCVVNxZUlxdEhDekFiYU9IbHB4R1ZkVktQNVItWEh2RmlBQmpQSV9oaGNpUGVOLW9aLW9lUlVDTFdQREJEczhvY2lBZ2pWNU9vVmV0WU5rQTE4Tm5FOEZ4UjFrV2hTQ3NRY0FMdnU3cVU4bmdFOGVFRzBTc05HZGpGTGdhempSRkZWZXI3UWp5R0xBT21pR1Q3aXpSRkFUQ2tnMmltb3MwdWNHaVRBMS1ITzBXU3dSelV5YWVrNkh5S3VabERieUJiZ0VIYmZlZ3BZbXdGczNweklqWlg2RkMxb293ZlUwZ3lnS3B2UGpmMlVqVEhOUG42ZnNONVFoWHY1NXY3a2l6V2FPM1I4SEhYbUFtdmxvSHlnM1RaODFFakJNM0MxZmJiX3dmV0xzRXpRV1lhaGpfTzJlUmlIcmo1TjZrQkF5eUlDUURudEZ0VTFmbFl1bkxseWZ2T1pkOEFaYnJmd3pHS1pkRjdGZ0NKZjRPbWVBaG5sQ3Y1dWcyUFkxSlVBelV3QWpjRms5VGNrZzRVckowT01DcnNQbGJtd1JGV0pQNkxHUG1fczZ2SkVjeFIzVGc1dWx1UHdSZllvck5JdXNlWEpzSXNzY2p2UzBObEVUWjZYdmVDZTFPM2tBQzN0OEJ0bC1ycFRfMGFJaHRPanR3aFBqbVZ1TjFJUXYxeFpQSUZ2X0RRdjdUeXpPT0UxQjg2aDZfY0RNUndwdm56dHFWVGl3a2ozaHBKY3M0RUtidXJqRS0zZDlEUWpaME9OTDFQSnB5RkEwLUNkT0g5RGNKaExNN3kxZ3dPLW1uNkNQMEtzNG4wbXk5QlJOanZKOEJ6cXVzaTBRSXplNGxxNDdQdmhqWklZWjZYWERkOXBqdWR6NThmUUpMdlBDTjRaTE93M2pCVHhRazBGdjJFVjFUc0I4LURUX1drM2tNMEY4Y1ZhRXpaemhtTWgzdWgxQTU1bUxmU1JscnpQREhHcHhfdnM5ZVhyUzNFanE2Z3lrd0Y3b2s1d3dQUmFMSmk2blhfYlotOHpLd0pySmsxOEdIbkNzTHZUTE9GVndjYlZjblFmN2JneDc5b1Y3bkpJY09Ia0FiVEZheUFIMGNTdVdqNFBjTTYxaE1uQ1ozc0l5bS13RlVHcWxiRGp0ekVwNHVOWVJGa2MzQzBsOFczamtSYS0zY3RCb3NrZzZsQVZzcU5IMWdHZXEzSEVlbld4UE5pRnljRlc3ZHF3VzFaS0MxR3BLV21QNGIwQ2tKM1RmN0FNNVpXVzRDYktZbExNMFBEYXdDNkFkcXRYU3FPWHlRNjY3VUszRC1Ub3RxSnQzLWNLMTZrNHRHVzFQMUE0MXo4UzRHcnZPWWp6cHBhN0MtN0NsOFJ6M25iREFMZkZibWZKZ0s5TlFOdTFNNklTN0dIWmVuZHhXdHJtMnpJY1hNeDFLcUFhLWVDbnZTM21lbWNtaTl2VzI4dWtfZ0o3eXhpV2JqanBZc2VkNHR5bXdoN2Q5cFhlMzIwYWFpbG9YV2o4eWdrakJld3BSUk9kUS1yRDBVby0tSXNydWdmcjVoOURBNzRUVWdiR3A1VUxfcG5aQkpzLWhhejlZZTRFU1IxTGpaNG9KOVAzUkwtYTFMcFYzU1VWWjYtbEdQQi1tZ0xsWEpKYkMydmF1dDJFTFlVUlJTeTdmbVctZU02dF8tYlR5MU4tVXlWOF9tTUNfcTB3cF9iM042cENmekJ2bVJZcnR1MUNvVU5HckRPSjhTbjF2NHdjdXJvNFBLTG5HZGpoM1RnUGliblltYWFrbGgyUVg4bDltMFliYVhxWlNXSllvZ09lQ2x4OTZXRjFEMGxiZ0RPMDBjc3lycGxJczVtMkNYX2dDVnpkVnF5T0JOcTBlQWFTcTk3X05uRFU5cXllWGZGNkxXNndlbms3NGFlRkhoZnJxY2lWWDRGOFoxSzNPRnpXWTdNSWs3R3hZYUc4UExaeEVXNndxLXM0SjZZdGthb0dyQU9mLTJkb3Z0RnhfSThBaFZ0SjBMS3pMTHdxc25WNWFMYWxpbncxWU5vN3BORmdCN1VRT0xtNnJJdEFvLWZ4ZG1mbkM3QlU1SnFKQWt6QTA0U3NfRXZFSVU1VURDeEhGQVdPQWJxeDVDOGw4NGs2LTZKYUd1UTdNaGdhNFJwOU03MTdYRGJXTmpvUWhMUVRQVTE0RjB4MFNTOU9GUEZfelU2aU00NUkwd0lPeVh1ZUlxY1c3OUJfQUNNdkRVTy05eVhMUlJiNW15YmFPSzdFVnY3N003dEZPM2dDSWtaTmhVT0RkbzhLTzJrSjRkeVo1YWlQZzFQSkhJYmFydVcyTkNxSTZyT0gxMDYyaXFLN3Z2Y0htUmlFSGFQTjZ5VUIyclJCSzhSRUM5T0FaTkZrTUVIdERGZF9MR0wwcDJrY3BiVHI5VFN6SWVvYm5CZ3VmT0NxWHNvZ2NZZnRHeGJDcWVTZ1lxRC1nUkpxYl9RT01Ka1dLUGhTTmfSAZMBQVVfeXFMT1V6SjA0ZmIwa2RoQVF2Tlp5UTlFN1k2aHhXOFRoNUQ0aGFhRzJjLU9HZkk0T1RfeVQwNU1BZGc4Q0h6QkxleHRYTm1IS1pOZXN5SHRwSnVERjhjNDlqMklMdlZVS0RKckpSQzFTcTJGVVhnNk9JUEdtNzQ2ZHpzRVl0ZmdxY2JsbEE5ZGxORzBqUUVJ?oc=5"
-          },
-          {
-            "title": "What travelers should know about visits to national parks in 2026",
-            "press": "ABC7 Los Angeles",
-            "link": "https://news.google.com/rss/articles/CBMi_AlBVV95cUxPY0I3NmxfRFZVNVNsRTBGcTdPb1FFUTRKRlJvbEFrRHpTV2pSRU5yYnlTRTBCOWt0X2RlZ1JoLUIxd09oLTN5YmtoYlFIbWNuUW1iNkpIeHFkRHFPLV9iXzN1VWVPZzB1UUtqd0V1RkFUY3lrR2ZlbDhEQkoxS0kwaXZtdG1uemxBcFpOMERuSWR0ZnNvQmNpRFl4aVNBdVZTZmpXZnZMcmtaUVJrYVlpTUJTbUxJV1lHNHJBTHJUZUl5TnVnd1kxS2Y1VE1BWV80cUU5LUhhdkZialNnU0t4YXhlOUhpc29HTlROZ1d2ZzRmaFNyRnV1M2RRRWw1Y3pkbmtFSE14dlFXcGRCZk12VlBuZG5qd21fZVZmdVEwM3lCeUVyR0pGUXFoWFduaDVQV2lrVVgxUVdZckRvamtBc3loZHRUeERLQ0VKa1VYcnFrVk41R1JHQWVQcExsN0lPMldvZm00aEt3Q09LSF80U3U0QXk4WlpOdndKVUNHcVlXRTJTZFE5WFdRRmFwVW9PSWthbWV1V3FWa2pTbnlIMXhGZWsxU3lLeXVNU0lvZU9tZEJjY1k2RGNhZHhrRkw0T3Y2amVPYVdPd1ZDTExIaDNIaGlFZXp6NDhuTURXOWZQZF9lZkV5bEdqblBrTTVZZEc2dHBteFRRZXZFWVRBT3RVODFqTEhJOVpFLUZwbU9takl6OWpvUmljUWlLYnNockhrMi1rcjhqOVlVZW85NkZzUElGQV9VQmhwWGJKb2NQQkZoNFNmN25OaHQyWUF2cE80ZEYwZ1Q5Z3U5R3ZjMG1IUF9LcjZ0QXU2QTY5WC0zeklrX0tCOHJ1Uy15YXFPNEotb09UQVhMb1dwWjB5eFFuRTRvNVM2QzBNWDZhLV91LWlFSWdKS3V1VDhlS1pRWkVKNnBNa3l1bG1UTTZCOVhMYnlfdTJVWV8xVFZRTGU0QmJEalM5UUVMNHpOTzNVQlhQbXlHT21SNEFFdEZmSTN4MVN2OFM3cGtRelh4ZTlFU2tsTXdMdWdsQUtTdXNkNVNQVkc4VUJtRzI1b3NyWWxpTy1fbjI5TlVKZmtxVUQzUFR3LTFwMlBvTE8wWmhVTnZ1VWVVTmNZV19ORXJuQXdxSF9WTklPdTdCWWZ2b2lscnh6Wl82Z183bHFYdVNVM241RldHeG0xZXdGU3NISkUwSmdueG9LTWF4ak1fdjY2cFFMYWNkbU1zWHJ2cS1fSmRuaHdnUUE2UlRGOTk1WGt5QlVidjlsLUM3Q1R5LXFLNXZScUVJWUkzXzlkcHFYSW53VVNwbm9BelhCdk5BY09BZXZoOFI2bUlQWC1sWVpLdTU3UjhhdUVMNmlJdjFPWEtnSmdmZ0h4eG0xOFJvSHYxRXprMDFXTk9ZQWdPWnBPVUlfeWpYRWpiYWJBMzhGUDJvc20tOElfZU1UTXBZckJzamw4MGJvZ0ltcHdITUM3QWpTM2thMDV1X0lwR1R3bUprVnRLUEpaZlJZUDk2QnNQRTlfOEhzVXVMdlJBdFFzN01xOUgzNE83NXFhU2JMSXV1bm9ybWhYanh6d1B4eUk5OW1sLU9NbHJhMlZmVlFNVFplS1d0VVdPeHc2ejRBVWtndTZ5eE5kWlk1T2hMRjhOb2V6VHk5Q0hMWWNMNTNOSUVSVzU0WWt1TlFES0d3a2dkdzFwc090U25n0gGTAUFVX3lxTE9VekowNGZiMGtkaEFRdk5aeVE5RTdZNmh4VzhUaDVENGhhYUcyYy1PR2ZJNE9UX3lUMDVNQWRnOENIekJMZXh0WE5tSEtaTmVzeUh0cEp1REY4YzQ5ajJJTHZWVUtESnJKUkMxU3EyRlVYZzZPSVBHbTc0NmR6c0VZdGZncWNibGxBOWRsTkcwalFFSQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiohNBVV95cUxPVElqdmVpZF95Y09tT1p3YnMwWkl5a05kLW9iSXZEdUhHZTgxcnZIQkxNNEtCOTdEOW1IUndQd1B3YTBzMEZxUFRBV1NlOEgwbjZTMTE1dmRFVnBjel9TeEJ3UDRnWWVoRVZiV0tJLVFIS3pxUWZPWEszS0U5S3d0NEhXclJLTVZwaWpXUGpLbnZFbTlhUWI0VkU0UjEwTUdOMDNOUW9iOG5udU44dTljMnVGZFU5RGpRMGNGaGhrWTd1Mkc1Yk9VTzc0UjJPRnlkVk9mSkRzTEpmRlQ4d1pvZ1FIc3JlU21QMDVYdC03Z3RONldhVTVORTFveDZway1vbE50dkVGc1N6X2Zvekt0bjlsRWxDYVM1RE4wM3M1MDk5SVBNcUpsV0haVHVRZDFEMWJrUmwwQk4zeVI3UG1ldjd5Z3g5YUluX3ZhSlltb3VOSnl6TnUyRDVqeDhWN0FFUThEX1Q4eHVTR1JkTG5kajJ0OUl5T3BvOU41UmdmN2tzY3IxSnJocTlJWE5Rb294ci1JS0lEVkpuY0xKOVY5X1EzdUYzVkJLbTZjZEVHZG5TNTlFeVFieVBMY3k2c0tGcG1WdmJHWktSNHVIVW94SzlILWliWExLdFFwWnFRcVJzM1VlVFo4MWNTb0tiREhwQTU1eG8td1k2b3dYMXBlMy1NM2NtSFRHUEVNZy1FclJHRG5uOFdWdVZESjNMVmZ4ZGg2NEIwV09ZTzVjTEF5V3UtZkhLOUw3Q24xYk42Zkd0MFVyV1Z6eGJtRlFzZER1cFBCVVNxZUlxdEhDekFiYU9IbHB4R1ZkVktQNVItWEh2RmlBQmpQSV9oaGNpUGVOLW9aLW9lUlVDTFdQREJEczhvY2lBZ2pWNU9vVmV0WU5rQTE4Tm5FOEZ4UjFrV2hTQ3NRY0FMdnU3cVU4bmdFOGVFRzBTc05HZGpGTGdhempSRkZWZXI3UWp5R0xBT21pR1Q3aXpSRkFUQ2tnMmltb3MwdWNHaVRBMS1ITzBXU3dSelV5YWVrNkh5S3VabERieUJiZ0VIYmZlZ3BZbXdGczNweklqWlg2RkMxb293ZlUwZ3lnS3B2UGpmMlVqVEhOUG42ZnNONVFoWHY1NXY3a2l6V2FPM1I4SEhYbUFtdmxvSHlnM1RaODFFakJNM0MxZmJiX3dmV0xzRXpRV1lhaGpfTzJlUmlIcmo1TjZrQkF5eUlDUURudEZ0VTFmbFl1bkxseWZ2T1pkOEFaYnJmd3pHS1pkRjdGZ0NKZjRPbWVBaG5sQ3Y1dWcyUFkxSlVBelV3QWpjRms5VGNrZzRVckowT01DcnNQbGJtd1JGV0pQNkxHUG1fczZ2SkVjeFIzVGc1dWx1UHdSZllvck5JdXNlWEpzSXNzY2p2UzBObEVUWjZYdmVDZTFPM2tBQzN0OEJ0bC1ycFRfMGFJaHRPanR3aFBqbVZ1TjFJUXYxeFpQSUZ2X0RRdjdUeXpPT0UxQjg2aDZfY0RNUndwdm56dHFWVGl3a2ozaHBKY3M0RUtidXJqRS0zZDlEUWpaME9OTDFQSnB5RkEwLUNkT0g5RGNKaExNN3kxZ3dPLW1uNkNQMEtzNG4wbXk5QlJOanZKOEJ6cXVzaTBRSXplNGxxNDdQdmhqWklZWjZYWERkOXBqdWR6NThmUUpMdlBDTjRaTE93M2pCVHhRazBGdjJFVjFUc0I4LURUX1drM2tNMEY4Y1ZhRXpaemhtTWgzdWgxQTU1bUxmU1JscnpQREhHcHhfdnM5ZVhyUzNFanE2Z3lrd0Y3b2s1d3dQUmFMSmk2blhfYlotOHpLd0pySmsxOEdIbkNzTHZUTE9GVndjYlZjblFmN2JneDc5b1Y3bkpJY09Ia0FiVEZheUFIMGNTdVdqNFBjTTYxaE1uQ1ozc0l5bS13RlVHcWxiRGp0ekVwNHVOWVJGa2MzQzBsOFczamtSYS0zY3RCb3NrZzZsQVZzcU5IMWdHZXEzSEVlbld4UE5pRnljRlc3ZHF3VzFaS0MxR3BLV21QNGIwQ2tKM1RmN0FNNVpXVzRDYktZbExNMFBEYXdDNkFkcXRYU3FPWHlRNjY3VUszRC1Ub3RxSnQzLWNLMTZrNHRHVzFQMUE0MXo4UzRHcnZPWWp6cHBhN0MtN0NsOFJ6M25iREFMZkZibWZKZ0s5TlFOdTFNNklTN0dIWmVuZHhXdHJtMnpJY1hNeDFLcUFhLWVDbnZTM21lbWNtaTl2VzI4dWtfZ0o3eXhpV2JqanBZc2VkNHR5bXdoN2Q5cFhlMzIwYWFpbG9YV2o4eWdrakJld3BSUk9kUS1yRDBVby0tSXNydWdmcjVoOURBNzRUVWdiR3A1VUxfcG5aQkpzLWhhejlZZTRFU1IxTGpaNG9KOVAzUkwtYTFMcFYzU1VWWjYtbEdQQi1tZ0xsWEpKYkMydmF1dDJFTFlVUlJTeTdmbVctZU02dF8tYlR5MU4tVXlWOF9tTUNfcTB3cF9iM042cENmekJ2bVJZcnR1MUNvVU5HckRPSjhTbjF2NHdjdXJvNFBLTG5HZGpoM1RnUGliblltYWFrbGgyUVg4bDltMFliYVhxWlNXSllvZ09lQ2x4OTZXRjFEMGxiZ0RPMDBjc3lycGxJczVtMkNYX2dDVnpkVnF5T0JOcTBlQWFTcTk3X05uRFU5cXllWGZGNkxXNndlbms3NGFlRkhoZnJxY2lWWDRGOFoxSzNPRnpXWTdNSWs3R3hZYUc4UExaeEVXNndxLXM0SjZZdGthb0dyQU9mLTJkb3Z0RnhfSThBaFZ0SjBMS3pMTHdxc25WNWFMYWxpbncxWU5vN3BORmdCN1VRT0xtNnJJdEFvLWZ4ZG1mbkM3QlU1SnFKQWt6QTA0U3NfRXZFSVU1VURDeEhGQVdPQWJxeDVDOGw4NGs2LTZKYUd1UTdNaGdhNFJwOU03MTdYRGJXTmpvUWhMUVRQVTE0RjB4MFNTOU9GUEZfelU2aU00NUkwd0lPeVh1ZUlxY1c3OUJfQUNNdkRVTy05eVhMUlJiNW15YmFPSzdFVnY3N003dEZPM2dDSWtaTmhVT0RkbzhLTzJrSjRkeVo1YWlQZzFQSkhJYmFydVcyTkNxSTZyT0gxMDYyaXFLN3Z2Y0htUmlFSGFQTjZ5VUIyclJCSzhSRUM5T0FaTkZrTUVIdERGZF9MR0wwcDJrY3BiVHI5VFN6SWVvYm5CZ3VmT0NxWHNvZ2NZZnRHeGJDcWVTZ1lxRC1nUkpxYl9RT01Ka1dLUGhTTmfSAZMBQVVfeXFMT1V6SjA0ZmIwa2RoQVF2Tlp5UTlFN1k2aHhXOFRoNUQ0aGFhRzJjLU9HZkk0T1RfeVQwNU1BZGc4Q0h6QkxleHRYTm1IS1pOZXN5SHRwSnVERjhjNDlqMklMdlZVS0RKckpSQzFTcTJGVVhnNk9JUEdtNzQ2ZHpzRVl0ZmdxY2JsbEE5ZGxORzBqUUVJ?oc=5"
-      },
-      {
-        "title": "News National Park Trust Honors Robert G. Stanton with 2026 American Park Experience (APEX) Award",
-        "reports": 2,
-        "press": [
-          "Outdoor Sportswire"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "News National Park Trust Honors Robert G. Stanton with 2026 American Park Experience (APEX) Award",
-            "press": "Outdoor Sportswire",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSlZKNW1XelNzNkRJRk03a1h3SWpINzlxSVFsSkFteFpzbXluendjSlI3UHNwdndmSGc3NmpsdUQ5U2dsajJkUDh6M1YyTk40NE5MbTFDcV9JVFZJeGhERUpNR3lYbXJUamNValNMeEdIM1J3NFU2cW1odXhBUTduTXJqRTAtVXBmcW0zUXQzcVFhbE9sbDFIamRHUEt6V1AxVHRvdXQ2cm9Vd3N3UG52NTlDMmFaVlpwYmJxcFI1cUlmRVc4U04ySg?oc=5"
-          },
-          {
-            "title": "News National Park Trust Honors Robert G. Stanton with 2026 American Park Experience (APEX) Award",
-            "press": "Outdoor Sportswire",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSlZKNW1XelNzNkRJRk03a1h3SWpINzlxSVFsSkFteFpzbXluendjSlI3UHNwdndmSGc3NmpsdUQ5U2dsajJkUDh6M1YyTk40NE5MbTFDcV9JVFZJeGhERUpNR3lYbXJUamNValNMeEdIM1J3NFU2cW1odXhBUTduTXJqRTAtVXBmcW0zUXQzcVFhbE9sbDFIamRHUEt6V1AxVHRvdXQ2cm9Vd3N3UG52NTlDMmFaVlpwYmJxcFI1cUlmRVc4U04ySg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSlZKNW1XelNzNkRJRk03a1h3SWpINzlxSVFsSkFteFpzbXluendjSlI3UHNwdndmSGc3NmpsdUQ5U2dsajJkUDh6M1YyTk40NE5MbTFDcV9JVFZJeGhERUpNR3lYbXJUamNValNMeEdIM1J3NFU2cW1odXhBUTduTXJqRTAtVXBmcW0zUXQzcVFhbE9sbDFIamRHUEt6V1AxVHRvdXQ2cm9Vd3N3UG52NTlDMmFaVlpwYmJxcFI1cUlmRVc4U04ySg?oc=5"
       }
     ]
   }
