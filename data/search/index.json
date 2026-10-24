@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-23T23:23:58+09:00",
- "total": 58737,
+ "generatedAt": "2026-10-24T21:29:34+09:00",
+ "total": 58210,
  "fields": [
   "date",
   "park",
@@ -21,62 +21,62 @@
  "years": [
   {
    "year": "2026",
-   "count": 14773,
-   "sizeKB": 3030
+   "count": 14593,
+   "sizeKB": 2992
   },
   {
    "year": "2025",
-   "count": 12125,
-   "sizeKB": 2466
+   "count": 11993,
+   "sizeKB": 2440
   },
   {
    "year": "2024",
-   "count": 7084,
-   "sizeKB": 1440
+   "count": 7051,
+   "sizeKB": 1434
   },
   {
    "year": "2023",
-   "count": 5642,
-   "sizeKB": 1147
+   "count": 5591,
+   "sizeKB": 1137
   },
   {
    "year": "2022",
-   "count": 3193,
-   "sizeKB": 643
+   "count": 3176,
+   "sizeKB": 640
   },
   {
    "year": "2021",
-   "count": 3009,
-   "sizeKB": 606
+   "count": 2999,
+   "sizeKB": 604
   },
   {
    "year": "2020",
-   "count": 2503,
-   "sizeKB": 507
+   "count": 2484,
+   "sizeKB": 503
   },
   {
    "year": "2019",
-   "count": 2036,
-   "sizeKB": 411
+   "count": 1979,
+   "sizeKB": 400
   },
   {
    "year": "2018",
-   "count": 1445,
-   "sizeKB": 291
+   "count": 1442,
+   "sizeKB": 290
   },
   {
    "year": "2017",
-   "count": 1273,
+   "count": 1272,
    "sizeKB": 252
   },
   {
    "year": "2016",
-   "count": 1404,
-   "sizeKB": 280
+   "count": 1400,
+   "sizeKB": 279
   },
   {
    "year": "2015",
-   "count": 1162,
+   "count": 1161,
    "sizeKB": 229
   },
   {
@@ -101,13 +101,13 @@
   },
   {
    "year": "2010",
-   "count": 279,
-   "sizeKB": 54
+   "count": 268,
+   "sizeKB": 51
   },
   {
    "year": "2009",
-   "count": 191,
-   "sizeKB": 37
+   "count": 183,
+   "sizeKB": 35
   },
   {
    "year": "2008",
