@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-24T21:29:34+09:00",
- "total": 58210,
+ "generatedAt": "2026-10-24T22:42:00+09:00",
+ "total": 58213,
  "fields": [
   "date",
   "park",
@@ -21,7 +21,7 @@
  "years": [
   {
    "year": "2026",
-   "count": 14593,
+   "count": 14596,
    "sizeKB": 2992
   },
   {
