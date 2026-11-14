@@ -1,14 +1,14 @@
 {
   "month": "2026-11",
-  "days": 13,
+  "days": 14,
   "from": "2026-11-01",
-  "to": "2026-11-13",
-  "generatedAt": "2026-11-13T16:16:31.849Z",
+  "to": "2026-11-14",
+  "generatedAt": "2026-11-14T17:01:58.522Z",
   "kr": {
     "rows": [
       {
         "title": "“가을철 산불 예방 총력”…국립공원공단, 탐방로 148개 구간 통제",
-        "reports": 54,
+        "reports": 57,
         "press": [
           "전기신문",
           "KBS 뉴스",
@@ -55,9 +55,12 @@
           "경주포커스",
           "진주뉴스",
           "여행레저신문",
-          "http://www.reporternside.com/"
+          "http://www.reporternside.com/",
+          "OMATE 시니어",
+          "청송군민신문",
+          "한겨레"
         ],
-        "outletCount": 46,
+        "outletCount": 49,
         "articles": [
           {
             "title": "“가을철 산불 예방 총력”…국립공원공단, 탐방로 148개 구간 통제",
@@ -673,6 +676,40 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vcmF6ekN3X2c5clctaUtrMmR2djF3cEdyLVpVWmFmOUJhaDQtcFUyU01najZnbEpCMlJuMkRLU0RUWE1aSTROcGhEa0Jha3A1VlBkb3d0d3ZMV0MyRlFNMXZRVGY?oc=5"
       },
       {
+        "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
+        "reports": 4,
+        "press": [
+          "국제뉴스",
+          "춘천MBC",
+          "경북신문",
+          "청송군민신문"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
+            "press": "국제뉴스",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
+          },
+          {
+            "title": "강원도, 가을철 국립공원 산불예방 캠페인 진행 ::::: 기사",
+            "press": "춘천MBC",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93a241Zjd4akNwc2pMRjVTLUtEQUlxYUMtS0M1UDR5SjVaVlpBemV0SEd1TTRaTDhtR01FUDA5SWlVZWt3ZTdaS2I5WlI?oc=5"
+          },
+          {
+            "title": "주왕산국립공원, 합동 산불예방 캠페인 실시",
+            "press": "경북신문",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Pd3M1NHpqWnBIdFJvLU42SHhsLWttNHQ5cHMtWWtpcnJINS1walg5bzFqblJiOEt5N3FCRWtQVEpWR21jenRYaGNMTEh4Uk1kNl9vQnkzTlA?oc=5"
+          },
+          {
+            "title": "주왕산국립공원, 관계기관 합동 가을철 산불예방 캠페인 운영",
+            "press": "청송군민신문",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEZzBRVnVyMWFrcXVRNndFaWlPRF9mazJqTTM0V0d1UXFrVl9JRTViTmxndS04SGFjV2gyc1prZzc0SDdMVVZQcnlEQkowdHBmSUdJTWpvd2lWWWJiSjY1MzEtUXRPUTZrZDNrbV9XX0RaTUE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
+      },
+      {
         "title": "치악산 국립공원, 산불 예방 캠페인 전개",
         "reports": 4,
         "press": [
@@ -1157,28 +1194,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94dUNqczBZWU0wMlpqdlNzVjJVbEd4TXVNaDVUenpsVjNPNVpjMVIzb1NPNTNjbE1RVFBWelNWb2EwOHlQaUpLSGJxMmRrM3lCUTUwYnpMRlJzcmhfeXkwTXNIbTNfX2k1RWc?oc=5"
-      },
-      {
-        "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
-        "reports": 2,
-        "press": [
-          "국제뉴스",
-          "춘천MBC"
-        ],
-        "outletCount": 2,
-        "articles": [
-          {
-            "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
-            "press": "국제뉴스",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
-          },
-          {
-            "title": "강원도, 가을철 국립공원 산불예방 캠페인 진행 ::::: 기사",
-            "press": "춘천MBC",
-            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93a241Zjd4akNwc2pMRjVTLUtEQUlxYUMtS0M1UDR5SjVaVlpBemV0SEd1TTRaTDhtR01FUDA5SWlVZWt3ZTdaS2I5WlI?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
       },
       {
         "title": "월악산국립공원 지원 청년기업, 단양 관광기념품 공모전 '대상' 쾌거",
@@ -1697,6 +1712,32 @@
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajI0cWpqUDFZQUQ4STZ0UkJtYm1tU1ZvTkNsV1ZpQlJHdWcxRjVDMFpXaVo3SmhWNnpGekk4SUdGWWs2RkNtbWZLX091T1NiUDIzNHRuNzZCbmc5TkZNcFRKTkZISzdiNGxocWZvMkRtTkUyX2RwZW80RmlIdXhQTjVzYVJvTEZJZ0JVNVFCX0lJV3FjTkVoaEtXSm90c21taEhxQXJwZUV3ZHM?oc=5"
       },
       {
+        "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
+        "reports": 3,
+        "press": [
+          "브런치"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
+            "press": "브런치",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
+          },
+          {
+            "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
+            "press": "브런치",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
+          },
+          {
+            "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
+            "press": "브런치",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
+      },
+      {
         "title": "계룡산 등산 중 머리 부상 40대, 소방 헬기로 구조",
         "reports": 2,
         "press": [
@@ -1823,27 +1864,6 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBM00xanJNNTd2U3BmRl91NjYyWFA0SnJzQk5HdkJ1T1VfSEw1OFJnRm5raTZTYzhseDlySGpJWDBNS0VaZ00zUTEyRXlFUHJDcUt6UG1DYmVrQWhLT2RkUUQ1cG5uZzVxZ2xn?oc=5"
       },
       {
-        "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
-        "reports": 2,
-        "press": [
-          "브런치"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
-            "press": "브런치",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
-          },
-          {
-            "title": "속리산국립공원 차종별 주차비와 탐방로 통제 시각",
-            "press": "브런치",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTk1qZWtNbkUyUlJOQTExalVsWW1hdXFsdWFsWDBaMVdCenY1Rm9fV3ZoWkdHdl9TbWExbWhSQnpoTUNKWU9lWDZmZURSOUU?oc=5"
-      },
-      {
         "title": "계룡산서 등산객 넘어져 머리 다쳐…헬기 이송",
         "reports": 2,
         "press": [
@@ -1863,6 +1883,27 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zaUlEbW5vUEdQZkwwNkQxY2R6ajd2QzFBMW1MYXJYVnJHTGViMGNkLWFxanlwaTZGanJhLWdfVElfdVcydWhvc2h5SGxhWU14blFfLTBkRW53ZnFLQXJidy1UdENueEU?oc=5"
+      },
+      {
+        "title": "[NT 특집] 2025~2026 한국관광 100선 - 53 내장산국립공원",
+        "reports": 2,
+        "press": [
+          "뉴스트래블"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "[NT 특집] 2025~2026 한국관광 100선 - 53 내장산국립공원",
+            "press": "뉴스트래블",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kelpSbHczdWdxYWtwaHlvVzBMQ2puamFRQkFkR1gtMHVsWHU2dUlQRUl2MmE4UHl4WEhkMjc3dzJPeVpIUUNVWGZrMENEb1pMbXl5QW9hYXZ4QV9seERFTlBSZFR5dw?oc=5"
+          },
+          {
+            "title": "[NT 특집] 2025~2026 한국관광 100선 - 54 덕유산국립공원",
+            "press": "뉴스트래블",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvT05tZjJsSFV1bkFWLUl6RU0zRnBXdkhTOUxkNE5Najk1MUNiZVFmS3E4UHVnUWdjc1J2YWNqYTY2WFU2SVhGSzc5OXNlWVA5ZVdjLTZycm1CQTJSZnNDbnhqbVNGZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kelpSbHczdWdxYWtwaHlvVzBMQ2puamFRQkFkR1gtMHVsWHU2dUlQRUl2MmE4UHl4WEhkMjc3dzJPeVpIUUNVWGZrMENEb1pMbXl5QW9hYXZ4QV9seERFTlBSZFR5dw?oc=5"
       },
       {
         "title": "“가을산불 막자”…드론 띄우고 국립공원 탐방로 148곳 한달간 통제",
@@ -2151,22 +2192,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyclpXeXlwcjNXT3d4WGpjdzhEbHpDczdDN0hYZF83d0duUUI4ckRfVmFMSVByclRPQXlNTXpFMGd3d2RBMHVnNUhacjJIbDhRNTQ3UkpoZFEtckRLamtxTHkySS11NW5WQVY00gFUQVVfeXFMTi1lOFlJelg3WV9RNUkyNUpUUUNISXJ3VUE0RW5MbGhqQ2x4QWVvVHpqaHl0ejR3cW5LMHJoOGJzcFh5ZEZzZW1JdnF0VHBRMTlmTmgy?oc=5"
-      },
-      {
-        "title": "태백산 산양, 국립공원 지정 10년 만에 10배로…60여마리 서식",
-        "reports": 1,
-        "press": [
-          "강원일보"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "태백산 산양, 국립공원 지정 10년 만에 10배로…60여마리 서식",
-            "press": "강원일보",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCOG81T3Voc0t6WmhtQ19CMW84N0dxSW11bUxMcEF1enlhUTdKcU5zR0J6S0xqU013bFY5Z2RHbC1kaEVTSnFqcFpzTmVwYnFTNG1Uak5nS3B0Vjg?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCOG81T3Voc0t6WmhtQ19CMW84N0dxSW11bUxMcEF1enlhUTdKcU5zR0J6S0xqU013bFY5Z2RHbC1kaEVTSnFqcFpzTmVwYnFTNG1Uak5nS3B0Vjg?oc=5"
       }
     ]
   },
@@ -2299,6 +2324,58 @@
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaHk1TmRUZkxYMVZEQlYtcUFvcVE2WHF1WjlIRDdrRFdGazI0RkZ3Y1BYM2tTczNwN0dWeEMwX2FqTE9MRlh4SmNVV2JXUVk3bnAtT2M4RU9HUnV5R1NsT3RnNkFGSXFuUjZpVTBGXzVNajZPdmpsTFdCWGpSaXdwTmhmNEMzcTFHaWlaZjYtaXlhZXhVWVdtd2lReDYyRFJjZWd1UDM4UHl3M0wtbXpxc1J3NjZZdW1XXzlMcmdXOWowZkNwS3VVUEtDeXROSlpNNTdoUQ?oc=5"
       },
       {
+        "title": "Trail Ridge Road in Colorado's Rocky Mountain National Park closed for season due to snow, ice",
+        "reports": 7,
+        "press": [
+          "CBS News",
+          "The Coloradoan",
+          "SkyHiNews.com",
+          "The Denver Post",
+          "Denver Gazette",
+          "Daily Camera",
+          "Estes Park News"
+        ],
+        "outletCount": 7,
+        "articles": [
+          {
+            "title": "Trail Ridge Road in Colorado's Rocky Mountain National Park closed for season due to snow, ice",
+            "press": "CBS News",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlVHSlExWG40OGtqYjBQYzRCenp0YnpmdGFyd0RLWDVHTjFNdUU0MF94WEowcFI3bV9TN1RicWk4ZGdWalItYmJYMVBsV0xubWYzZVZ6VzFVWHpxX0hTNXNPeGdrYnJfVEhlbjA5ZG81NDdQeG9Ldm1OTERkajlEb0p3c092YVFUaDR0WFp1NlgzZmJnWEt3VXFXYVNuZjVTaGtjSXFFUnA0MDRfVVpjVXZyUGtrQ2Zr?oc=5"
+          },
+          {
+            "title": "Rocky Mountain National Park closing Trail Ridge Road for winter",
+            "press": "The Coloradoan",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVWRoTUVQRjI3Tm56Sm1ITk1aZmRoemtwcTdDUm1VcHlrNTIwTFFBLWEtdGIwVDl2dlZlbEphTkNsalF0Y2NFTVJ6TnhxTUIyNC1CQ19vZmxYbm9nSGlkSlBDVDN6bzVJZGpSTjBjdWI2VmtyTHFfTUV0YkUzREVOTFJaaGFKdEh1REdtaGNUUkVoMkk3blphOUo0d192ZU1RVU9VdDRieTBWdkR6b2JEME5qbUpjWHZ3UlBWN0xXTVJFdmhuRlRPOERiaGtBeFdETE1WQnFvWVhjY0F0Q2tkNg?oc=5"
+          },
+          {
+            "title": "Trail Ridge Road closes for winter in Rocky Mountain National Park",
+            "press": "SkyHiNews.com",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc1FfMGFUQktTSk44RHQxZDdnRWo5Tms1VG5fcWFleEVLelgxS3BnMzYtRTcyT0NKY3lWN2FSXzh3dkpkWFRHM1liRl9RUTRKTDBHS1NMdlV4cUhTS0J5Z0RySUs5aW1kN2xFT3ZaLThaVE40NEx6ZHM0dGtMNHBNMGhLeTR4Qk5kQ3RZN2I5M3Q0UHFLYmp3bGV2bXA4NEE?oc=5"
+          },
+          {
+            "title": "Trail Ridge Road through Rocky Mountain National Park closes for season",
+            "press": "The Denver Post",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcDFRV0Y3eG5hQnE2QkNDTDdUelhSV0ZiTHlSVnhmMDBtQkJvUExYVUxpZk43YlZIbGJVRVpXXzZaZTN1RzFEZ1FIRXR0eDZ4azRTTjRNQUV4TGJYbTAzQkg4cUVkS3NwRmQ3ejIyelFFUnhUYUlHQVJ3YUt1cllpaVFjSGtCbURDWXotWXBJdDhsYVZSSDJEUUh4MXFGUTdm?oc=5"
+          },
+          {
+            "title": "Trail Ridge Road set to be closed for several months in Colorado",
+            "press": "Denver Gazette",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObVVIcVhJTlRvUk54MmFWbGcxQTBEaERMSGlGVUxxa3AxTUJoUks0ZXBuRGszcEVIS2Q1TGNmbk13RkRQNGZHZlBBMFI3V3E0d3ZRcGUxZ0phSkx6T0hfYkNKOFJnWVVyeG03WlUyRWFrakpURWlRUldqSjNfc25YV0tiR3I4QV8xbEZ5eWJDRzZmSHExM0RqSTlzNEJoUGpPdkJTQldaVnRRODBDZDJudXBMdERjMGEzcDROZk5ja0w?oc=5"
+          },
+          {
+            "title": "Trail Ridge Road through Rocky Mountain National Park closes for season",
+            "press": "Daily Camera",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQVE2THJzODhJVHdCMUI2MFlZUVlWLWFISWdnU083ZXh5ZVQ1Q1ZuZEJVTi1ZR1FBeWRNSnBpQUFtTWlRXzFiNWJmREYzbDAwUTJGYm03R0JERERPa2tpUFZUS0JERTJiejlZWGNSaG1aLXZHSUZXSDM4RTVOdjFJTXotVHpqTWVXWmp2OFU3Qk5hSGxQN1VwZzNRYVB4V19LRXc?oc=5"
+          },
+          {
+            "title": "Trail Ridge Road Closes to Through Travel for Winter",
+            "press": "Estes Park News",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTJfYVFPeFdjVzU3Tkkwc19hbEgzaXJtM005ckJwMjdBcjF4TG9IQksyUTlNZ0lyWGl4akVuU3VLdlc0dkEydXNsd2VjMlhxMHMtTlY5QWYzRlEzMU1VQWNRb3ZKemQyRlVBYm1OdmFQSzFlZm1PQWJUQnpNVk96RmdXc1BObXFPMTVkbHZvR0o4ZEk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlVHSlExWG40OGtqYjBQYzRCenp0YnpmdGFyd0RLWDVHTjFNdUU0MF94WEowcFI3bV9TN1RicWk4ZGdWalItYmJYMVBsV0xubWYzZVZ6VzFVWHpxX0hTNXNPeGdrYnJfVEhlbjA5ZG81NDdQeG9Ldm1OTERkajlEb0p3c092YVFUaDR0WFp1NlgzZmJnWEt3VXFXYVNuZjVTaGtjSXFFUnA0MDRfVVpjVXZyUGtrQ2Zr?oc=5"
+      },
+      {
         "title": "Anthrax Outbreak Kills at Least 30 Hippos at Africa’s Oldest National Park",
         "reports": 6,
         "press": [
@@ -2424,6 +2501,40 @@
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSXdYSDZNb0xzZ3VjS3Rta29nb3NKYXItTTNxanNKeFlkc2Q1T2wwRllUWTl5anBEVl9xZnNrc19yTkJ4NGNKZmFVWmtNTktRZXF1bGRwVXM5bjZlbXYtTWl4M211dmljQXVoeFZGTm1JdEREU3NwLVdvMWllUkMtRUJIZzlYQjB1QzdhSVpWWlI?oc=5"
       },
       {
+        "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
+        "reports": 4,
+        "press": [
+          "Yahoo",
+          "ABC27",
+          "Gettysburg Connection",
+          "National Park Foundation"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOanhHekJ1OGVlSlNVTGNzMmlIbWUzUXg1Y1JTLXJWSU9pLUVTVlBwNkZtb0o4VkMycW1fOFFaTUktZ3YzTlpPbTUwMWV6bFZCekUzdXBwQzRTZENFWEF1WG5LSGp3dVNKekYyUEhQWW93bjk2dFRQTjMyZUg1Z3luUktWNmZaYUlnQzZveUwwb21XWG1h?oc=5"
+          },
+          {
+            "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
+            "press": "ABC27",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS2RxbnZTOHFva3NQYjV2TjQyTmRITFl2TVBFZ2xWNEdqZ2pFeGlwZTNsYWNrOTBBU281RWl1MFlMRDIzaHZkR1ZiRDYwNTdVUkU2SEw2VF9TUFd2ZWZOUzBCdHk4TXFLakJYcDBadEVLMWI3MWctMTVwUHlQcWxmMEJmM2x3eUZqQlEycTg5U0dSVC13bGVocGczVjhWQjFLV3U5Xy1UeFJLYTRodjZVOVJ4NGZaSVNkOTRadU9fQ05lY2xSQkVZ0gHMAUFVX3lxTE9SYm55Wk5ubGtpWlhwbTNtS1pibXFHZThuRmNvSVVMTHpyN1J4ZHRkbVhBTFFFZW1vUnZmQk5Dei1Kam1VNHp0Xy1MWGxkQ0ZVTHh2dkg5MWZvVFlYNG9hd0YyR0gwNHhfSGdieDNCeF8wZTZwc1UwZHV4aGVHMVNaWnRZZFAyMVFSQVNtRm56a2xTbTM2TEZrRmRfa0Q2azZ0Vi0yWEZCRkUwU2xVN2hzLW1US3l2dEprUFR3ZDR6STVUMVZmV3RKM3Z2Tw?oc=5"
+          },
+          {
+            "title": "National Park Service seeks comments on 10- to 15-year trail expansion at Gettysburg and Eisenhower parks",
+            "press": "Gettysburg Connection",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbVdHamR4M3VURDYteDdpWWdpQjJTWVRXS1VITUhTQ2VmZ1dZSEw1Yy1IRlFjM2dPdWEtYjZwLTB5dG93NDFCM2JwZXhPVW1sd2dvNlF5ZmYxTkZGT2xMLUJQenJxRFZmT2RMdmdqclFvNmpaVjI0dktoUkZ6MkZfYVhHZWQ1U3hUcnZlTjhiVDNLNU5BRTlIbjRJeVFhWXNwQ0Rwb3ZXZWprVUxkaFQ4b2xvcUdha2tHZDFHU2J4QkYtVjh6ZjVLMU9aYVQyYk1RSlA4?oc=5"
+          },
+          {
+            "title": "A New Mission on the Trail",
+            "press": "National Park Foundation",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90eUJweUpTNGo1WDl3VEZfVDZpVzBkalVTcURkLVMwMF9kTTlSaWZUT2JQdENtc3J6U2tweXB0N1lvZmtnQkMwakJtZWtLQl9mSno0SG1TRjV0WllXcGlwd1NxSFdoSENramc0ZElMb3A5UQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOanhHekJ1OGVlSlNVTGNzMmlIbWUzUXg1Y1JTLXJWSU9pLUVTVlBwNkZtb0o4VkMycW1fOFFaTUktZ3YzTlpPbTUwMWV6bFZCekUzdXBwQzRTZENFWEF1WG5LSGp3dVNKekYyUEhQWW93bjk2dFRQTjMyZUg1Z3luUktWNmZaYUlnQzZveUwwb21XWG1h?oc=5"
+      },
+      {
         "title": "Video An introduction to Arizona's Chiricahua National Park - ABC News",
         "reports": 4,
         "press": [
@@ -2456,6 +2567,40 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE14cjQtMFBSSDdOdVhkakNMYXJfNzlpMG1qYVV4Q0dtNWZLc1ZQalZsZDB4eEpPNkN3VGxZVVpiQk9wdXZQOEk3b09mVUI?oc=5"
+      },
+      {
+        "title": "Petroglyph National Monument among others selected in program to connect military and families to national parks",
+        "reports": 4,
+        "press": [
+          "Yahoo",
+          "KRQE",
+          "PR Newswire",
+          "96.3 KKOB"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "Petroglyph National Monument among others selected in program to connect military and families to national parks",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkhMX3JuT0xFUmVXckhFMExsdWNLWUJJczNtYy1wa3l3ZlRXblJNV3ZXT0Y0bWxwNzBRaVliM3doSENPZjFwOE15djQ5WGdqZFBUZDExdDdoWVQ1Z29wUnFzU3dCem9ocExCMFZpSEpvQ2dfbF9jakJ2V3MyYmR2QUlHZ05XdU1iVnF5OGs0WlhFMzFHT3pJRi1ROA?oc=5"
+          },
+          {
+            "title": "Petroglyph National Monument among others selected in program to connect military and families to national parks",
+            "press": "KRQE",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSGNIdlJrTS00eVRqYzY5ZU1aUkhNTnhfcmJLcDZkSHJFX09KencxdWJsZlFyM0lLV2xQQ3MyYnRMYmVfYTZ0N1NvM2gyYldHWWU0OTJJdXBJcTBSNFpzMXNHbEhHdU1FSjR5VEhhUklsV2g2WmlOdVRVWDc4SnBrTndlQ19CenhOYWl6X2lrUy02bHNZVjE5MnBneWd0OTdqdGpaRlpHNnpSbEg5d3ZVaF9yeUZrb0lVV0ZGbWppbWJ4Tk14WEY2QWxzeFhnT3o1anVYM01uM0ZDeFZRT0JxdnZIRGtzdml6eTVJYktB0gHzAUFVX3lxTE42TVBHRUVDb3FIWHpYdVpVUElEYV9RTkNaaDBhRWtQMDZIR1R0UEtrSXpKalgwN0lCVTNjNWhCTVUxaElGT05Jd3JSYzlwbkNTNGhoNW5TUmU2ZG9kM05HUEN4NEc2M3FKbGJoQUVONFdGODhFWXFzMTJCUHRoSTg3VEdzdmxjQ2EwNkhQSkJobTlLV3JoWnBxTXQ1VUlxOXZObE0zb2djUlNLTmY4MFd5MExubURXNTloN2hweFNyWlplWUxkWmxWSzAwQlhMdmlGbWQ4MXlaTWFoYTVwM0lWem9DUXNoQ28tLXBRR1k3UmxSWQ?oc=5"
+          },
+          {
+            "title": "National Park Foundation Launches New Program to Connect Military Members, Veterans, and Their Families to National Parks",
+            "press": "PR Newswire",
+            "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNYXM2WllPSjRtZ3hzNEVBa3NuVm5oZVdFYkxhSEk2YWVzeUV6eDBPejhyUzlLZVBjOTlhUkhNSlB0NUlpRDdNVzJLYVFEZ3FyWnh1dDJtU1R2bGtWNkF0U2JiX1BYVElxTGpGcnNPUmVpZXlxb2R4N3Q0RjIwRDlGLWNqRmtxeThzaGhMeTZTRFIzMU1pNFpVekRzdUNPSTQwV2FYZU96XzQySFRkQWZrbi1xaDhyU3V6eG9DQWJ6MU1yTzZRZGV6MW93dmRwbU96ZFFiOVRycW1RamFCOUFDa194TTd6ZTJpS3pVWGx4VnpGVDdnbnpYNG9fM090RG1qN3lFckR3?oc=5"
+          },
+          {
+            "title": "National Parks advocate for retired military and their families",
+            "press": "96.3 KKOB",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTERWNlc2RzhGT3RBNURhV3U1bFEwNWVfeG0yaUh4ZW9LNVZXZjhnQ1gyMGF5RDdnVm93cVkyekdxb0o2MV9Ka244U3hCRjJxa0xFT0ctZnpRUW5HcUVqQ0h5YzY3VVF2ck9LTndwMUdJYWlYQ1ByLVdjNUpCWUVLdWh2b0dwWVF6NDZaRDF2bWpDQ1ZsakxIaklDcUQ4dEVkREl6X3U1aEY?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkhMX3JuT0xFUmVXckhFMExsdWNLWUJJczNtYy1wa3l3ZlRXblJNV3ZXT0Y0bWxwNzBRaVliM3doSENPZjFwOE15djQ5WGdqZFBUZDExdDdoWVQ1Z29wUnFzU3dCem9ocExCMFZpSEpvQ2dfbF9jakJ2V3MyYmR2QUlHZ05XdU1iVnF5OGs0WlhFMzFHT3pJRi1ROA?oc=5"
       },
       {
         "title": "Trump officials weigh major overhaul of National Park Service, Fish and Wildlife",
@@ -2542,34 +2687,6 @@
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBbm56SnAwZ1h0VU9PZS1sc19VQUVsaFBIdXg4b2h1Zmx6N3lXMTVSWG9uWFBRNWNrYVA5UDNad1BrZ2RyZmx5MXZrZWpRdkdyaGhmOVBJYlBPVEk4d2pob0VjOThwQXlKTVRHUnRaVmVPdFNwQVgyX0x3?oc=5"
       },
       {
-        "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
-        "reports": 3,
-        "press": [
-          "Yahoo",
-          "ABC27",
-          "Gettysburg Connection"
-        ],
-        "outletCount": 3,
-        "articles": [
-          {
-            "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
-            "press": "Yahoo",
-            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOanhHekJ1OGVlSlNVTGNzMmlIbWUzUXg1Y1JTLXJWSU9pLUVTVlBwNkZtb0o4VkMycW1fOFFaTUktZ3YzTlpPbTUwMWV6bFZCekUzdXBwQzRTZENFWEF1WG5LSGp3dVNKekYyUEhQWW93bjk2dFRQTjMyZUg1Z3luUktWNmZaYUlnQzZveUwwb21XWG1h?oc=5"
-          },
-          {
-            "title": "National Park Service seeking feedback on trail expansion at Gettysburg National Military Park",
-            "press": "ABC27",
-            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS2RxbnZTOHFva3NQYjV2TjQyTmRITFl2TVBFZ2xWNEdqZ2pFeGlwZTNsYWNrOTBBU281RWl1MFlMRDIzaHZkR1ZiRDYwNTdVUkU2SEw2VF9TUFd2ZWZOUzBCdHk4TXFLakJYcDBadEVLMWI3MWctMTVwUHlQcWxmMEJmM2x3eUZqQlEycTg5U0dSVC13bGVocGczVjhWQjFLV3U5Xy1UeFJLYTRodjZVOVJ4NGZaSVNkOTRadU9fQ05lY2xSQkVZ0gHMAUFVX3lxTE9SYm55Wk5ubGtpWlhwbTNtS1pibXFHZThuRmNvSVVMTHpyN1J4ZHRkbVhBTFFFZW1vUnZmQk5Dei1Kam1VNHp0Xy1MWGxkQ0ZVTHh2dkg5MWZvVFlYNG9hd0YyR0gwNHhfSGdieDNCeF8wZTZwc1UwZHV4aGVHMVNaWnRZZFAyMVFSQVNtRm56a2xTbTM2TEZrRmRfa0Q2azZ0Vi0yWEZCRkUwU2xVN2hzLW1US3l2dEprUFR3ZDR6STVUMVZmV3RKM3Z2Tw?oc=5"
-          },
-          {
-            "title": "National Park Service seeks comments on 10- to 15-year trail expansion at Gettysburg and Eisenhower parks",
-            "press": "Gettysburg Connection",
-            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbVdHamR4M3VURDYteDdpWWdpQjJTWVRXS1VITUhTQ2VmZ1dZSEw1Yy1IRlFjM2dPdWEtYjZwLTB5dG93NDFCM2JwZXhPVW1sd2dvNlF5ZmYxTkZGT2xMLUJQenJxRFZmT2RMdmdqclFvNmpaVjI0dktoUkZ6MkZfYVhHZWQ1U3hUcnZlTjhiVDNLNU5BRTlIbjRJeVFhWXNwQ0Rwb3ZXZWprVUxkaFQ4b2xvcUdha2tHZDFHU2J4QkYtVjh6ZjVLMU9aYVQyYk1RSlA4?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOanhHekJ1OGVlSlNVTGNzMmlIbWUzUXg1Y1JTLXJWSU9pLUVTVlBwNkZtb0o4VkMycW1fOFFaTUktZ3YzTlpPbTUwMWV6bFZCekUzdXBwQzRTZENFWEF1WG5LSGp3dVNKekYyUEhQWW93bjk2dFRQTjMyZUg1Z3luUktWNmZaYUlnQzZveUwwb21XWG1h?oc=5"
-      },
-      {
         "title": "Two roads close in Great Smoky Mountains National Park due to high winds, downed trees",
         "reports": 3,
         "press": [
@@ -2626,8 +2743,36 @@
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNWVCR0JiQzZOei1WbTdSVFNCbzM2emlVSEROalFQZ1JqV3ZJOGVEM1NNOW42OVczOTFVQVI0TUtRR3U4YXpVRXdqQ2tMaWI1SnQzZEpTdWNzWTFvZDRydUpZMGNiYnlZaW5NMG85SWU4X0haWHgyWkFENzY2SXlEVlJOM3BQZkxfRk5KNFN2SmdOSkMxNkVKYXhVVmw5MEdRZVNIWWFmTFMwUlRGdDBveUxXMWxRUQ?oc=5"
       },
       {
-        "title": "Mgahinga National Park features in Kisoro festival on 19 November - ad-hoc-news.de",
-        "reports": 17,
+        "title": "This is America's newest national park gateway town. Is it ready?",
+        "reports": 3,
+        "press": [
+          "SFGATE",
+          "Yahoo",
+          "My Modern Met"
+        ],
+        "outletCount": 3,
+        "articles": [
+          {
+            "title": "This is America's newest national park gateway town. Is it ready?",
+            "press": "SFGATE",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ3h6eGVQYzJzY0UzMDBtRloxbHU2bVp6R0pmeWRnVHlZTmcwYktIbV85cUtJdFpjU2xrSzZwNTNNenN0RWJycGhMREVxeEZKTWh3dXYzTVVLZ3pQM29tOTI0d2ZENTZJZ3NZNDA3X0I3UVotX1FnaW0zSXVkdUlMWGZOamJvM1VaSW9qM1ZzQ1VCck0zSFZETw?oc=5"
+          },
+          {
+            "title": "Is America's Newest National Park Gateway Town Ready for More Visitors?",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObXJjem9tYk16S3dxZUE0UGtRdHNybzkzMENsb0JVNnpWM09RWlNOYldmQzJIYWFsZERrWGRMVDYxOVJfcFhQYlpRRHdmcmhjNFRlTFlJUTlabFA2dy13MlR1azZxSVQ1WXQ0cUM1Y09OclhRdDNhNnhsUERIem1FRzBXN1o5S2F0VTNLM0VBVQ?oc=5"
+          },
+          {
+            "title": "This Dramatic Arizona Destination Is Now America’s Newest National Park",
+            "press": "My Modern Met",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1maFE2M1FSMi1jRm15eEhIbTRUbjdlTmw5WTB0S0E0aHE2Mmt1VUo5Q29FWHVuS2ozSElSaDQzMC0zVE1mVmtXeW9rZmd4MXBBakRsbnI5RmpoQVFzMEE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ3h6eGVQYzJzY0UzMDBtRloxbHU2bVp6R0pmeWRnVHlZTmcwYktIbV85cUtJdFpjU2xrSzZwNTNNenN0RWJycGhMREVxeEZKTWh3dXYzTVVLZ3pQM29tOTI0d2ZENTZJZ3NZNDA3X0I3UVotX1FnaW0zSXVkdUlMWGZOamJvM1VaSW9qM1ZzQ1VCck0zSFZETw?oc=5"
+      },
+      {
+        "title": "NPS launches Canyonlands National Park sheep study on 4 November - ad-hoc-news.de",
+        "reports": 32,
         "press": [
           "ad-hoc-news.de",
           "CBS News"
@@ -2635,47 +2780,47 @@
         "outletCount": 2,
         "articles": [
           {
-            "title": "Mgahinga National Park features in Kisoro festival on 19 November - ad-hoc-news.de",
+            "title": "NPS launches Canyonlands National Park sheep study on 4 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2k1MUFyNXNZVWNrSE9WVjQycjVBbGFwcldxR2lfckEyUk9YTVV5czdpS252Rk80MW80Q2N2S21tdFZ5TUJsbGNTQlEtdE8tbjE1a1JaX1cxX09uQV9CT05ra0VEaXExREw0bU1TVHlRd1JnRHRJSWRpcDZRYV9Ud2F2TVI3RDJqWVhabFFjWWRUQzJDQTFpVUJkaDZHNV9INHhESmV2Wkt6ZUE4ZDNDcENHaGlsM3JpaEtkN3RR?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPME15dGFoNXpJcmdqS0ZJNmJ1WWR6UkVodTlHbTlucU54RzBrcnN0VEhlTkNWejJhNE4tWGNMSnZiWmNNTlVRcjVXSmgxZWt0SEtqM1pQYk81dExiM29OYzR5Y3F0S2ZxM1lDcEJ6MUtRYmlsekMxaDl0NHhJcmt2TGdiWXU2UFRiZVA3TTZ3aGUzaEdPclJOQVFES0djUUpyOWlST1haSVZHcF9CaVhtTFJrdHRBdFFuSE52bA?oc=5"
           },
           {
-            "title": "Banff National Park hosts Christmas lights from 12 November - ad-hoc-news.de",
+            "title": "Talampaya National Park adopts EarthRanger on 16 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjI5VEFKR0RkWlN0RVRreVZ0ZF9UaGV1MWlVLWNMZ2xlVFNCR2pKWjlqcGgzX0Q2TE9rcmJxeHREeUhzMjZjZUNkOHV2QkgwV3V2YVg0Z2ExTm9EMmJ3LVduYktGaHNQUEtGVDVPZ3MwUTZjWmVEZ1pKYTYwUTlvU3pTamlPUUU1WW9FYmRZSTFjck5JeTdtVnVGVEVSQ1lYMDZRMHE1NFV1X01oMWxxTV9IZHlVUQ?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZE50d1JOOUZXeC00RUItOFFlNXd3U1hST0ZEZlotYllCYnZSM1VqTS1tLW13TlRRWkFmdFBIS1FLVTJ5THJPTVA4bjVldlJmcnJnd3FIWjl5Y2xpNFdkYTFsMDczOGI0dEgyUVI1RlduWWZraDl5T3JJS0pianE1a0JpYWdGTHpZWVFLQlAxSXV3bVl1Y05HT2hXejB6WkdsNFBlNHhEZllMYU9nLWxLZnU4WQ?oc=5"
           },
           {
-            "title": "Yala National Park reopens campsites from 1 November - ad-hoc-news.de",
+            "title": "Jiuzhai Valley National Park begins seasonal rest on 16 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRmRrZG9JZ3gxM1NpWVE3dzYwbXB2anVNUEhWZWplOVg3M1REMUlPU3BHbjNzUVNGa3pXd09OdmhKMHFVNEtxckRveU1qU3F2NkJQc291MmpiY0dWMHpaMmNQYno3VDQxVlc0dnlvMUxvamh1MWlYbU5hNlVjd2NreHJkdG14LXI3ZDlSMzk2TS0xeHhaM1NCN3N6SG0wM2xFZWE1aVJCeENwS1ps?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN1l0NWFIZUlnZ1UyOFJHNEU0MkpvVkFMSDA1aTJXY2FZcmR6Q2Q1TGw0cEFuLVNwQnJ6VmF2NjFzdlFYTXBrTHNNeTRmZ2RVQ0kxUUo0ajM4cjZITm8wR2k0TkVRaktrcVpNQVAzb0lacnh5MS1BWkNvMElfQ2NteFJmNjF6aXF2SHFHdEJQOUVPMTk3QlR0TUJBY1U3UE1sMnJYb25XckNld01yMlI3bTRIbjBYTi1jM1V4NA?oc=5"
           },
           {
-            "title": "Redwood National Park closes parkway on 7 November 2026 - ad-hoc-news.de",
+            "title": "Everglades National Park hosts GLADESgiving from 21 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZmJzQWR1bzRsZk9WbXEyZWhzb1g2eDNCNlkzU0xiRlZubXYwZGFmRzRsaFNDcXNqV003TDVweFgxTDVLaXJ1Q3NtdUdNR3JDNzJvUVFtc2VJb3dEVURuYm45LUl1czZVSVZlQ1pMRjlTZWk5MENsaTZPR2RKZDhCeWlNUXZUOXZTN01tYXhNMW1xTU1PWDJTV2hWTVpxakppSFJFMndnVXMtVUZiZFRYTg?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZkgyMDFjTEwxQzZJSEFQdkdjRVdxR2gxNzZxQlFmX0liS3dpdl9LcVZCZlVTY3ozMkNFVWh0N3kxbGlPVkthOU9NLV9pU1JDX3VVakhGZlBhdzh0U0p6ZnRydkQtZ05CWS0xcmt5ZXJjY0hWZjlQWEFHWUpIWkQ1ZHoxay0wOGRUdWx2dEdOc3ZlTE1PcXVRbkVhVzNLa2tjcDRQX0puUmpnUUJicXd1SjBRYlpldzQ?oc=5"
           },
           {
-            "title": "Calanques National Park announces visitor house on 4 October - ad-hoc-news.de",
+            "title": "Grand Canyon National Park hosts Heritage Day on 19 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNkJ4TjUtaHpEa05wNklsakwtRU9tMDRxOTZIMldSLThvYTFJdjUtN09acEpJTjZVYUgxM3ZzbXpnTkJaaldFVEJ0LW5XVXhUR0ZJcXZYN3dieWRuT0JZVTJrT1p3ZE1yYWk4c3B0MWdhdUUxb21aRG5IVDhUMVRjOG1GalQ1dm1WdVBzX3ZzZXJwaldURU1qRldrcFhnZ0Q5bFFERE91bzlvaTJPTjhiQmJMS2JCeXM?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREpYeXVqcUFsOXl2NXFxTU81S2NyRl96S0diSG9vRV83YXNOQ3phYzU5Rm42WTZmbFVIekNaeFN5VWFoT1kza05pQ19zREE0OE9lUm5mdEJJRFNUdUhkUUFLalVTSXNVZEZFc21IZDR4aDdDTTlCaTFxdklaNzg4Z2lwOFhEeVlpakUxVjVkRVdaN0FwQkpKSTRXTDBZaXcxLWgySHpENnBHVEM5RTFQeFZLUWZWTkk?oc=5"
           },
           {
-            "title": "Great Smoky Mountains National Park closes roads on 9 November - ad-hoc-news.de",
+            "title": "Jasper National Park enters Christmas in Jasper on 13 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMnZnYnd0bDJmb3F6Rjhqd2d2eHNCcl9LOWF6Y1lkb05pbHZKalZnV0ZBbUNjNm5JRFBVa1VBWXlmcUtjSFFxOEE4U08yby1TUkNLMWZJOFJpcktXVTFNc3huY194LWhBaTQ1Wmo3T1N4enpNZF90dWdsd3E3U0NNNF9CNzRwYjhlYzRzbWJtV1R3anBlcEpORTEwV25hdWVrZUpPQjZyem1sR25vVFV0ZmVPRkoxYkVpTmc?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTHRUZzIyTlJiZGJjbV9fQlFtQmRTTi05RFBIZHBxN01YcDRTWTJTaXZGS3pGZXFKNWM5NWQwOUt3T2lWLWl5bEtWN290Vk5OVlh3OG4wNk5SMGdoNjJpMWh1UzIzMllpUzdlRHZyZGljOVJ2dTZxTzFvSGUxTkRuSEVOYTFkQThjRkJ5ZEFaOHBlMTJCS2hqUF9FZEVUTm00S2RxQ0FTU3hERzc2R0RBUDdJSjVJM2RTY0E?oc=5"
           },
           {
-            "title": "Sequoia National Park hosts Forest Feature from 1 to 30 November - ad-hoc-news.de",
+            "title": "Kenting National Park hosts archaeology event on 15 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDBHR2Vmck5Qd09hUzd1NVZvaVpkTDdBLU1zMUs0X0E0WHNSUE52ZTExN2VmcFFfRm1mUHVXemVUZVZUbEJqbUFzbjlnRk9xV0pJMEdFdEVmdVlaSlFwYkg5bzJCUTIzSDVwNXBQQ2Q3QndCbXdENzJuVFRtWV9FY3ptbDlOU3FTQ18tZm1hbjdUNTMzUm83dEVLdDBVR2paTS00b2RlSWFFbVY0RFJBMmRTTmlOTXVhdFd1dw?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZnF4WThQelJFN19fNmlvR1A5UEdIaGJzdzZSUUx5TkpIVHRGZHdkS25BUk9pM01LUGhidml1ZDVpQ3FGRDhFY19iMzNCYU94QUFGZUI0NE1Bcm1Db1ZOYXotSEpsSExWNmpHQV9XbVVLQTRsNjN1a25SYkFxM0pLTjJWWjJCY29hRW1sVm9rMUZuNTdKV2dmelcyclZDWHE5dEEzWnd6SUVRRkFzQmZmbXpvdWZuT3M?oc=5"
           },
           {
-            "title": "Kenting National Park hosts a night-sky event on 7 November - ad-hoc-news.de",
+            "title": "Snowdonia National Park changes parking on 2 November - ad-hoc-news.de",
             "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdTJnZ2trUVhOdEhwakptWEtBS012dTBkR1h1SU5INlhlSVZDUXhVWHhNUDUwdFU1Qk5NbnNzTkxvc1ZCdEc0eEU0VWQxM2loNHE5VzlzcFVsNWpvd2x4NHhodWpPcUY2MGlXYlplOExGaS0yWDhJeTZPaDhrVC1FSi14V1BXS19uYmR2aDE2RURoVzZpWFJtMXpCX2JvMGxIVTJ1a0pDdkY4Y2RrcDBxY2ZJUlNJQQ?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWFJrUlJwaXZSaC1NSmEwMEJlUC1PSms3QThsdy1GY05VRlUteTY5alJaSzlZcTh3VHdmZloxSUdpYVZsWjNzczExY0xZM1RGRk9xd3BOek12NTFnSC1HVlpiTU9FY1ZzVG81RXdHWjNOTHNwYjc1dXdGeG5sU1RLbU15UVhmN1ozcHgxRmpOdTFaQUlkOXROT1dCUHplMkN5WUVobG5PaXhVVE5PQ1E?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2k1MUFyNXNZVWNrSE9WVjQycjVBbGFwcldxR2lfckEyUk9YTVV5czdpS252Rk80MW80Q2N2S21tdFZ5TUJsbGNTQlEtdE8tbjE1a1JaX1cxX09uQV9CT05ra0VEaXExREw0bU1TVHlRd1JnRHRJSWRpcDZRYV9Ud2F2TVI3RDJqWVhabFFjWWRUQzJDQTFpVUJkaDZHNV9INHhESmV2Wkt6ZUE4ZDNDcENHaGlsM3JpaEtkN3RR?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPME15dGFoNXpJcmdqS0ZJNmJ1WWR6UkVodTlHbTlucU54RzBrcnN0VEhlTkNWejJhNE4tWGNMSnZiWmNNTlVRcjVXSmgxZWt0SEtqM1pQYk81dExiM29OYzR5Y3F0S2ZxM1lDcEJ6MUtRYmlsekMxaDl0NHhJcmt2TGdiWXU2UFRiZVA3TTZ3aGUzaEdPclJOQVFES0djUUpyOWlST1haSVZHcF9CaVhtTFJrdHRBdFFuSE52bA?oc=5"
       },
       {
         "title": "Busy days remain at Great Smoky Mountains National Park, so avoid these dates",
@@ -3165,6 +3310,28 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRy1YblZEaTRhZzYtQTZhLVY0Sjd0eHdkS0FfTTJzeHUzRmNMN2lzeGNYTHpuM1JMRWtRYUhkTDVGT2JUcHBzeTdIR29kelZiWE9LYUpDamN1VUZsZi1Bb3RyNC1xVl80eGYyMWxwWDAtR0RKMWFmWDk5aUVIU1FuNjZqcUJSSVVVYmIxLTBtM0JsTWcwTzFHcXJyNWlxeGxkXzZTa0FWcThaVXJiVi1F?oc=5"
       },
       {
+        "title": "What’s free to visit in Table Mountain National Park?",
+        "reports": 2,
+        "press": [
+          "The South African",
+          "Whiskey Riff"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "What’s free to visit in Table Mountain National Park?",
+            "press": "The South African",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjVQb2gwR0JROGpJN1dVY2JHUzlWbG9tQkNkRXlPOTRYd0lvY1o5S1ZXUjlUZDhSZUgyRVZOOXJzaHhzb1hESzVla0hYemE2UEwwZnNOZ1pxaTZpLUlkVEtkZkNsMUlZUzExeUFZOHpmVzlWZ1Q2bHVmbjVzRkxLUmxkS2QxckNGSl9Ga0c2aldCbU5NTjZyOEJjUl9MWWhjaU1qU3FFNmdfWVJaU3pMYjFkQkJwa3ZadjJGZ3g3Zw?oc=5"
+          },
+          {
+            "title": "Colorado Wildlife Photographer Dives Behind Picnic Table To Avoid Charging Bull Elk In Rocky Mountain National Park",
+            "press": "Whiskey Riff",
+            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRmFkMmkxclpsRmFkUC1mSVBZYnEzSmNmSHRfU0w5eFE4cF9xYm5GY3JFWS1ZUUc5VUxiay1VUF9MVE11QWFSempsX1hnSjdhaVRPTlZNMzFvQlJUcWFvTE9tT3dvZTlBVFZTZHdMUWFTWmVTc3AzTHNuLTU0UG16NG5uRGZuRHRGd1JWMnVXTndlQ0lTLS1yZ2hhc1RucG1kMFpmaWRwclNHa19kaHMyLUIzZ0o4NlJCM3ZjbDRMV0NVOU8xX2dhRFZ2QUZFSzFVVVZjU2U0akJ3aDV0cWl3UklBTXFldFQ3OXVsZEN3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjVQb2gwR0JROGpJN1dVY2JHUzlWbG9tQkNkRXlPOTRYd0lvY1o5S1ZXUjlUZDhSZUgyRVZOOXJzaHhzb1hESzVla0hYemE2UEwwZnNOZ1pxaTZpLUlkVEtkZkNsMUlZUzExeUFZOHpmVzlWZ1Q2bHVmbjVzRkxLUmxkS2QxckNGSl9Ga0c2aldCbU5NTjZyOEJjUl9MWWhjaU1qU3FFNmdfWVJaU3pMYjFkQkJwa3ZadjJGZ3g3Zw?oc=5"
+      },
+      {
         "title": "Endangered weasel once thought to be extinct is spotted in South Dakota’s Badlands National Park",
         "reports": 2,
         "press": [
@@ -3207,6 +3374,28 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZnRsenNYSU14eHFmR0VjY2Y0SDVTRjJWUHpnN01EYzIxdERHNVNrRkJ0VWxUZ3B2dkZjTjdFYWJnYTJTLTdxUmEtZmZUUEJBOWxQdmJFTDd2TjU3TXV5NjllNWJ6RDJtZVY0bEVpTlc0MHVlcmhhcmhqUkNsMDZJcWJ6R2dCdDhXR1AybUlTZHlsSmtDZkZ1bFY2Uzh6Z1ItamVMRV9oVTQzdVZxNHFkYnZtYVE4WVd4ZkN3MjRmc1JKelJ0V1VTZQ?oc=5"
+      },
+      {
+        "title": "Giveaway: Win An Xbox Copy Of Ranger’s Path: National Park Simulator",
+        "reports": 2,
+        "press": [
+          "Bleeding Cool News",
+          "Movies Games and Tech"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Giveaway: Win An Xbox Copy Of Ranger’s Path: National Park Simulator",
+            "press": "Bleeding Cool News",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZUlFdHVjakEybFY0YjhwV2hnd2NGTEpBVEtCdmhxcndEOEVhSjJHeFFSZnBHc2xYRUhGTHpIUWl1XzVqTFNKVmYwZWRWaU1pd1FwVlVnSTVVQlNxcHF6cjNpTFlPWGJmQ3NtNHpvTkhaakRVWkQzdTJNSjc2bW5BOXRsXzI1bjNPU0d5MXc5ODJRVUJiMWhLTHdoWlRrUQ?oc=5"
+          },
+          {
+            "title": "Review: Ranger’s Path: National Park Simulator",
+            "press": "Movies Games and Tech",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN1pvUzZoZDhCdWVYcHpaamdWbVpxT0JoWE8wdUIyZjlxdXh1cmN0S250WEY3bGRfN2gyOFRBZTU5ajdxajlQbmliYldrYy1fWmlhcGdxRDAycnJyckVCV0Z3ZUwxSDFLd21yclJBR29OLVN4aklqWDFld2dKN1VLQmd6WjR3MUw5TFFkbko0cw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZUlFdHVjakEybFY0YjhwV2hnd2NGTEpBVEtCdmhxcndEOEVhSjJHeFFSZnBHc2xYRUhGTHpIUWl1XzVqTFNKVmYwZWRWaU1pd1FwVlVnSTVVQlNxcHF6cjNpTFlPWGJmQ3NtNHpvTkhaakRVWkQzdTJNSjc2bW5BOXRsXzI1bjNPU0d5MXc5ODJRVUJiMWhLTHdoWlRrUQ?oc=5"
       },
       {
         "title": "National Park College Joining UA System",
@@ -3407,6 +3596,76 @@
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3VnQ0x5UTkzZlBreWROV2dObWVPWUlJS3dpUXZpZHU3S2Y3akNnLV9sN29FMWpTYnMxZ1NGcUZjYUI2UUVrRHRJUXZieTdhWEd1Tk1ubkFjVFVIV3p6U1VVeGRNX09lUTh5WURibjhMQUdNd2FCWTFDQ2RiSmJwWkJYWjdQQXBvSFdqbzdjdU5MVzhLOVpIbDA1NFkwb3c?oc=5"
       },
       {
+        "title": "This Remote National Park Was Named the 2026 Dark Sky Place of the Year",
+        "reports": 2,
+        "press": [
+          "Outside Magazine",
+          "KNSI"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "This Remote National Park Was Named the 2026 Dark Sky Place of the Year",
+            "press": "Outside Magazine",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR1pYQ1k4enVZVVFzR3FhU2U1WjQ0ZDdMVHNIVTBWQ1Q5bHlHUkRaeHdqUm1sdmVSWUxzTkRQVno2TGdldGhzdU9FX2xkeTVUWUVLMXQ1WDF3RDA3R05PYnR2OFJaWkk1YTZWeDlxZDFkY05KaVNPcWptbEJlaUpEUnBJaXRlaXpkV2tmSmVmaFB0bE4yUy1Na3cwTXItcEgyUXRZNktqSWhEOFVtRl9SYjM3dWhBYl94?oc=5"
+          },
+          {
+            "title": "Voyageurs National Park Named Dark Sky Place of the Year",
+            "press": "KNSI",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSmgzYlJCUkxhM0Q1UVdBVWZ3TXRBajlBYzZBSC1FUXctVkdseG1JdnBTZzhVZlU0WjkwQnlqc2p2S2p6SkpmNGpxTFJydkVYMEFLZzZ0ZlJHYldPWUs4R092QmJXRnFOSmswbXN6d0xYTzB1Sjhac2hNQzhJQTRvd0RTTkczcjVhMzc1N1d2b0dKeTJZ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR1pYQ1k4enVZVVFzR3FhU2U1WjQ0ZDdMVHNIVTBWQ1Q5bHlHUkRaeHdqUm1sdmVSWUxzTkRQVno2TGdldGhzdU9FX2xkeTVUWUVLMXQ1WDF3RDA3R05PYnR2OFJaWkk1YTZWeDlxZDFkY05KaVNPcWptbEJlaUpEUnBJaXRlaXpkV2tmSmVmaFB0bE4yUy1Na3cwTXItcEgyUXRZNktqSWhEOFVtRl9SYjM3dWhBYl94?oc=5"
+      },
+      {
+        "title": "New River Gorge National Park and Preserve hosts trail volunteer recruitment event",
+        "reports": 2,
+        "press": [
+          "WVVA",
+          "Yahoo"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "New River Gorge National Park and Preserve hosts trail volunteer recruitment event",
+            "press": "WVVA",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTG4tNHFmM0x6NWdmRV80VzdrODIyUnZjV1E1V0dqQXZ4V0VaZTZ0UWNpZFN2bG1YTjliMy1KS0FBdm43aDhKTG9DN1gxR2N6b0dtYmliNlpHV0g4bG5pVzlfd3U5OGRxQWFYaGtkVGtSMjdiZGVPNGZWSW1wQ3UtcGlBd3ZsQU9FR1ZpRFFyMjc3dTlaQVZNQ25MODhxbzk2VlJfR0dWWVRWcUZJOWZIStIBxAFBVV95cUxQQ0EtQTQxTFhqZlB3eEFwbldsalhGTEpxS21BVS1lZnFwWG11TVZzV2pON0tkb2hCbkR5U0dDYUY3NEZHQUplY0xmYzZLTHh1TkJQSkpIWDF5czhaNzVwR1BBcWpNaDdZMXVlS0dmcVFqaW1fN0lsV05ja2RLXzc5TEEtajIwMnZ5a1JscXB3RjFxWU1tQ29SSzNGU2NHTDBxaXJ6UXMwazJDUUlxU3RGdTV6bGNaLThsbnFiQk1TWFpZWTVx?oc=5"
+          },
+          {
+            "title": "Volunteers needed for trail maintenance at New River Gorge National Park and Preserve",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcjcyZVg2c0txRk1mQnFIaElqQzltNkQ5b3pHU2VmOVJOTWc2OW1XVklNVDVlQXljTldPUUp6bUZtSmVnYjRYM2JnRGVzZjFfY3R2eS1sLWNVaTMzeEV4Q042N1FnVUlaYndmdUFKMjhVSzVlZEg2a0l6RDFQY0JpUUNyR3JONkpRWDRQN0c5cllFUlU0VUw0?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTG4tNHFmM0x6NWdmRV80VzdrODIyUnZjV1E1V0dqQXZ4V0VaZTZ0UWNpZFN2bG1YTjliMy1KS0FBdm43aDhKTG9DN1gxR2N6b0dtYmliNlpHV0g4bG5pVzlfd3U5OGRxQWFYaGtkVGtSMjdiZGVPNGZWSW1wQ3UtcGlBd3ZsQU9FR1ZpRFFyMjc3dTlaQVZNQ25MODhxbzk2VlJfR0dWWVRWcUZJOWZIStIBxAFBVV95cUxQQ0EtQTQxTFhqZlB3eEFwbldsalhGTEpxS21BVS1lZnFwWG11TVZzV2pON0tkb2hCbkR5U0dDYUY3NEZHQUplY0xmYzZLTHh1TkJQSkpIWDF5czhaNzVwR1BBcWpNaDdZMXVlS0dmcVFqaW1fN0lsV05ja2RLXzc5TEEtajIwMnZ5a1JscXB3RjFxWU1tQ29SSzNGU2NHTDBxaXJ6UXMwazJDUUlxU3RGdTV6bGNaLThsbnFiQk1TWFpZWTVx?oc=5"
+      },
+      {
+        "title": "Corcovado National Park keeps Sirena closed on 31 October - ad-hoc-news.de",
+        "reports": 3,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Corcovado National Park keeps Sirena closed on 31 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXQ5UFc0VjJSSDV4TDhyZ1BRTy1CUDlWNWJ1aktXUV9lRGpXdkVhb2pjYWpRVU9md28wQTVXSnVLT3JiNElkalI2REptYjFwWkNKa2tnNUczU09BUDZYUUVUUndCSnVBT1VMLUFvMExMZV91ZlhVZUNzWVVzV1U5LTBaU1JYUVQyM05WNXRmemJVclNLdmRMUTcwd1NLUlBNWnl5TURpZ09hQnBkNmhWUmVfRQ?oc=5"
+          },
+          {
+            "title": "National Park of Peninsular Malaysia closes canopy walk on 28 October - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONHZkUVRuS3ZhRWpEMkUwZW4waE5mdjIwQl95ZnBjbXlVZF9kSVVtdkw0U2N0V1VjWlNCaDJUWXh0cjhEbzJHeDBLRGNPZHRaLXhERm9GdnVYU3hLZ0E2Rkt2cU16d3F4Z080QnY4RkZCcWhhRWpaNS11U2ZEU1RidzZQdG0wNmdza0VQYjZtNlhhTUgzcTY4Z0JXcFk1V3BOUWFsaXFqcUFKakZfX3lib1lkRWJCTEMzRldiOWE5RkdTbkU?oc=5"
+          },
+          {
+            "title": "Cozumel Reefs National Park keeps four sites closed until 30 November - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMTBReHhZREJfV2hJdnVpYS1JQTZQUWFBLXpVUmtTRDVQYlhqQ1ZFYmNJV0dpSElaVUtoVktldVBDRUdIQ2lkUHhkNmxqMVAxWVYtdjBjSG1CVjBYUV8yM05tZTdvdjN2YTExRVFnZ095dnBQVmJPSDdVaGRNS1VZamdUd09VUzNZYWY0RkNEOWJKcXVUN1RwaE5sai1VMWd4aEhoUWZJcXJxdW5tX29la1NwX1V4XzY3NGItODBGSnhkN1E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXQ5UFc0VjJSSDV4TDhyZ1BRTy1CUDlWNWJ1aktXUV9lRGpXdkVhb2pjYWpRVU9md28wQTVXSnVLT3JiNElkalI2REptYjFwWkNKa2tnNUczU09BUDZYUUVUUndCSnVBT1VMLUFvMExMZV91ZlhVZUNzWVVzV1U5LTBaU1JYUVQyM05WNXRmemJVclNLdmRMUTcwd1NLUlBNWnl5TURpZ09hQnBkNmhWUmVfRQ?oc=5"
+      },
+      {
         "title": "Wild boar family and roe deer caught on camera at Buiratau National Park",
         "reports": 3,
         "press": [
@@ -3431,27 +3690,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeFhMUExKN0Jnb0VsbXVlUEV1SENlNFJhSUluVjZzTHlrakw0OFpyaDdEY3F0UGZSX1I4bGhGMjZraFJZeU9faWFZVFo0MHBEdmVzeUZHVEtuWmJ4WTBoN25fMmtsaUNFb2RyZ2VmcHpvdHFBdXEtNDBFUGh1dC1sQkhxNUZBWVd3bGd1dmpnOWV5X0V0U2JTMVJaQ1lxTEhqRml6TGxEaExqd9IBqgFBVV95cUxPNWY2X1FwNkpWV0g0UDNCNGRUcm9CRW1DZkljVVNnaHRDd3ZLb1BLZWRzY0k0b2lZTklvX0R4TDdiVk41RE5Od3FfZFBvZXhjUk1PUE1hVTU4MXpiQ1phdDRIejhyVmpERS1jRWtFd2FOckZfWklRQXdhOGsyMXN5a0dMblgyTjd0cTRDeHIydm9pT2ZNeC04eVdvLUF4TUZKSlVzaTN2YkZHUQ?oc=5"
-      },
-      {
-        "title": "Corcovado National Park keeps Sirena closed on 31 October - ad-hoc-news.de",
-        "reports": 2,
-        "press": [
-          "ad-hoc-news.de"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Corcovado National Park keeps Sirena closed on 31 October - ad-hoc-news.de",
-            "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXQ5UFc0VjJSSDV4TDhyZ1BRTy1CUDlWNWJ1aktXUV9lRGpXdkVhb2pjYWpRVU9md28wQTVXSnVLT3JiNElkalI2REptYjFwWkNKa2tnNUczU09BUDZYUUVUUndCSnVBT1VMLUFvMExMZV91ZlhVZUNzWVVzV1U5LTBaU1JYUVQyM05WNXRmemJVclNLdmRMUTcwd1NLUlBNWnl5TURpZ09hQnBkNmhWUmVfRQ?oc=5"
-          },
-          {
-            "title": "National Park of Peninsular Malaysia closes canopy walk on 28 October - ad-hoc-news.de",
-            "press": "ad-hoc-news.de",
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONHZkUVRuS3ZhRWpEMkUwZW4waE5mdjIwQl95ZnBjbXlVZF9kSVVtdkw0U2N0V1VjWlNCaDJUWXh0cjhEbzJHeDBLRGNPZHRaLXhERm9GdnVYU3hLZ0E2Rkt2cU16d3F4Z080QnY4RkZCcWhhRWpaNS11U2ZEU1RidzZQdG0wNmdza0VQYjZtNlhhTUgzcTY4Z0JXcFk1V3BOUWFsaXFqcUFKakZfX3lib1lkRWJCTEMzRldiOWE5RkdTbkU?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXQ5UFc0VjJSSDV4TDhyZ1BRTy1CUDlWNWJ1aktXUV9lRGpXdkVhb2pjYWpRVU9md28wQTVXSnVLT3JiNElkalI2REptYjFwWkNKa2tnNUczU09BUDZYUUVUUndCSnVBT1VMLUFvMExMZV91ZlhVZUNzWVVzV1U5LTBaU1JYUVQyM05WNXRmemJVclNLdmRMUTcwd1NLUlBNWnl5TURpZ09hQnBkNmhWUmVfRQ?oc=5"
       },
       {
         "title": "Vietnam Wild Live Season 2: Top 5 animals viewers most want to learn about in Cat Tien National Park",
@@ -3536,6 +3774,27 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRXVIZGRYN3g0UVBrRy1IM2RlekIxaVh2bHl3TExmOEV5TGtDSk9wU3JMM2FPUm5IRERqWWlMTmpQa0VyNTVWbXdvS18tZS13WS1ubXZESWJ6SHUtSnVIdlVYeUc3UUVoRDNPVWliSEVhMmRFZDZ4Xy1OYzVFNkdXMDNZQUN5V2ZMVGduU2NWYVV3MjViUlJBUVlR?oc=5"
+      },
+      {
+        "title": "Between Middlesbrough And Lancaster Is A Village Inside A National Park With Historic Charm, Beer, And Hiking",
+        "reports": 2,
+        "press": [
+          "https://www.islands.com/"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Between Middlesbrough And Lancaster Is A Village Inside A National Park With Historic Charm, Beer, And Hiking",
+            "press": "https://www.islands.com/",
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZTVLanFDNnhSdmdlYnAtRG9oZkozdkV0OEd3SFZXbjYyWFg2ekFaNXVScVIyZ0QwaXNaVXVQbENFRzdBams5UDNMaUJmR2pVWWVJdXB1MGNIb19xLXdtYkJ1NnlMQUZlT1c1ekdBcUgtWWZiMGdpOFFOSDdQUVU5SkZjZG9majA1eXMyQ0NjMXhHYlNUUjR1TXZCRGZWSGhjX1hoWjIxdzVCcVpwSEd5dXJVTUlROFdhS09kbF9paTl3WEktd2MyNUQwaEllZk8tSmRuUERHVTRRS2Z3YzFpenBn?oc=5"
+          },
+          {
+            "title": "Between Middlesbrough And Bridlington Is A Cozy Village Inside A National Park With Scenic Trails And Waterfalls",
+            "press": "https://www.islands.com/",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTVZqMUExNHhuSVRFUzhqV1dWZWtFLWZPdURjMGNpcFdkU3Z6dmpHbktfUGNWOTNPa1ZydFQ2RUdyN1lSUENIRnowN3FRX3kxQWJ5MmNHVGs4UmJpallrU1ZTdzBUeG9YTFV5MGpVeDZESE5tTW5teWVUcVpFbXZVaW00TmFQX0JldlZnMmV4bjJOcWVqX2FhS21xd3pHcUFKTkJzTTBzY19rdXo1UmRpWXlzUDZIakN5c2IyZjUyTXk0ZThhckNiWmp4eTlWVnprNHJN?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZTVLanFDNnhSdmdlYnAtRG9oZkozdkV0OEd3SFZXbjYyWFg2ekFaNXVScVIyZ0QwaXNaVXVQbENFRzdBams5UDNMaUJmR2pVWWVJdXB1MGNIb19xLXdtYkJ1NnlMQUZlT1c1ekdBcUgtWWZiMGdpOFFOSDdQUVU5SkZjZG9majA1eXMyQ0NjMXhHYlNUUjR1TXZCRGZWSGhjX1hoWjIxdzVCcVpwSEd5dXJVTUlROFdhS09kbF9paTl3WEktd2MyNUQwaEllZk8tSmRuUERHVTRRS2Z3YzFpenBn?oc=5"
       },
       {
         "title": "Veterans Day 2026 freebies: Free meals, haircuts, national parks, and more",
@@ -3729,22 +3988,6 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWV9ZS2ZEdjU0bVZhSWtIa3RfcmtNcTFINDNncDFRSXk2N0JmcTN4S1lhTHhaQ3RXU0hydno5UHc1emU2WVp0UlBFVUE5NHFlN1hpU0N1SkFkYlUwXzdCVGw1Sl9JM3hDMTFaYW5UR3RiVnVzODVDT1RtZW8yelJTMXZNaXVHdUNKWW5ndHI4cmoweHpyV2prRjUyNnVlN3N1OXBlNGFhRl9jbnJVd0gwcDJoelFUcm1MaXgxTGZMYmNNUnJ1TnQtbElvYjA?oc=5"
       },
       {
-        "title": "What’s free to visit in Table Mountain National Park?",
-        "reports": 1,
-        "press": [
-          "The South African"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "What’s free to visit in Table Mountain National Park?",
-            "press": "The South African",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjVQb2gwR0JROGpJN1dVY2JHUzlWbG9tQkNkRXlPOTRYd0lvY1o5S1ZXUjlUZDhSZUgyRVZOOXJzaHhzb1hESzVla0hYemE2UEwwZnNOZ1pxaTZpLUlkVEtkZkNsMUlZUzExeUFZOHpmVzlWZ1Q2bHVmbjVzRkxLUmxkS2QxckNGSl9Ga0c2aldCbU5NTjZyOEJjUl9MWWhjaU1qU3FFNmdfWVJaU3pMYjFkQkJwa3ZadjJGZ3g3Zw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMjVQb2gwR0JROGpJN1dVY2JHUzlWbG9tQkNkRXlPOTRYd0lvY1o5S1ZXUjlUZDhSZUgyRVZOOXJzaHhzb1hESzVla0hYemE2UEwwZnNOZ1pxaTZpLUlkVEtkZkNsMUlZUzExeUFZOHpmVzlWZ1Q2bHVmbjVzRkxLUmxkS2QxckNGSl9Ga0c2aldCbU5NTjZyOEJjUl9MWWhjaU1qU3FFNmdfWVJaU3pMYjFkQkJwa3ZadjJGZ3g3Zw?oc=5"
-      },
-      {
         "title": "More E-Bikes on National Park Trails Is a Bad Idea - Public Employees for Environmental Responsibility",
         "reports": 1,
         "press": [
@@ -3841,22 +4084,6 @@
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbDFZX1h4bjBJQ2c0XzBVWUpraThNMlFuQzBWYnRJYjNYbEEwaTV6bGI5Y1g2NHBGODhPRVJOakpwM0praG0tU0RJeHNQejlpQlYyX1AxdFlseVRGOWZzVzdzWU5oaUczNlNaMFFJQ01aeTlULUxCZ18zd252MTJ1eGgzRDVWalNEWlNEVkw1eEF6b1RTQVdKNWRTQlFjMXBJOW9qYzBjTHA?oc=5"
       },
       {
-        "title": "Giveaway: Win An Xbox Copy Of Ranger’s Path: National Park Simulator",
-        "reports": 1,
-        "press": [
-          "Bleeding Cool News"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Giveaway: Win An Xbox Copy Of Ranger’s Path: National Park Simulator",
-            "press": "Bleeding Cool News",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZUlFdHVjakEybFY0YjhwV2hnd2NGTEpBVEtCdmhxcndEOEVhSjJHeFFSZnBHc2xYRUhGTHpIUWl1XzVqTFNKVmYwZWRWaU1pd1FwVlVnSTVVQlNxcHF6cjNpTFlPWGJmQ3NtNHpvTkhaakRVWkQzdTJNSjc2bW5BOXRsXzI1bjNPU0d5MXc5ODJRVUJiMWhLTHdoWlRrUQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZUlFdHVjakEybFY0YjhwV2hnd2NGTEpBVEtCdmhxcndEOEVhSjJHeFFSZnBHc2xYRUhGTHpIUWl1XzVqTFNKVmYwZWRWaU1pd1FwVlVnSTVVQlNxcHF6cjNpTFlPWGJmQ3NtNHpvTkhaakRVWkQzdTJNSjc2bW5BOXRsXzI1bjNPU0d5MXc5ODJRVUJiMWhLTHdoWlRrUQ?oc=5"
-      },
-      {
         "title": "Fertő-Hanság National Park Visitor Center Set for Major Upgrade",
         "reports": 1,
         "press": [
@@ -3919,102 +4146,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMkhCUGhEdTVodmdKRUtMQl81dElVS1I3TEhXTDJTV3BHYm00WDY1UDJjTWt0eDNpNmtPaEd3VGlfVlBGazJ3Z1EzQnVueGhJT0ZoYURQYm9FYWlUOHZMRUVvdm5KWDFXbC1tU3VBREVxV01VSFdlSy1hbmdLT2p0OHNmclZaMElmNGpkSjYwTEs2dk5FWDRyVngxamFBYXJUOEV2MEoxTFd0dGl3YjdVOEE1bXliLTJwVmthbEpzVWJxR0pJU1ZpZ1REQ3lRRFdFWWRCbUFMbGgtV2lNMTFEakV0MjFmSW55RnlmTXNmQnl6QQ?oc=5"
-      },
-      {
-        "title": "Deer cull to close Point Pelee National Park for 12 days",
-        "reports": 1,
-        "press": [
-          "CBC"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Deer cull to close Point Pelee National Park for 12 days",
-            "press": "CBC",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcjVJNGstSWtlcnlHRVZWajl2Z05ORjg2bnM2QWk5UmJUbVhaR2ZtYm9tc3QzX2ZGblJGWGVqYWNhemxnY2tQMXJyWWpKVzEtdU5qeDBBRENhZ1ROSTJlLVoxREhYUWxrZGprVnlxYXFDM25JWXZLNG0wSzRycEpWemxYcFZnMjhwZXZ3U0E4ai1ZYUZROVdHcA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcjVJNGstSWtlcnlHRVZWajl2Z05ORjg2bnM2QWk5UmJUbVhaR2ZtYm9tc3QzX2ZGblJGWGVqYWNhemxnY2tQMXJyWWpKVzEtdU5qeDBBRENhZ1ROSTJlLVoxREhYUWxrZGprVnlxYXFDM25JWXZLNG0wSzRycEpWemxYcFZnMjhwZXZ3U0E4ai1ZYUZROVdHcA?oc=5"
-      },
-      {
-        "title": "California's Historic State Park Just Outside Of Los Angeles Has Scenic Trails Covered In Vibrant Flowers",
-        "reports": 1,
-        "press": [
-          "AOL.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "California's Historic State Park Just Outside Of Los Angeles Has Scenic Trails Covered In Vibrant Flowers",
-            "press": "AOL.com",
-            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPODNaeUVQb2Y0S2ZIOVVLeEtnWk5xVXE4WWNoeW9ZR1hEYWFHMWdKRzF0czY4WlpwSlZRSjNUYktvSXRhVFptUklEU3dvNk1LZjZRTEtsNFJnY0FGNlVwQVZyQjZSUTFXeFpySEliX0VZb2Jjamp1LUFjWlpSWXd3ekZlcGcwamc?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPODNaeUVQb2Y0S2ZIOVVLeEtnWk5xVXE4WWNoeW9ZR1hEYWFHMWdKRzF0czY4WlpwSlZRSjNUYktvSXRhVFptUklEU3dvNk1LZjZRTEtsNFJnY0FGNlVwQVZyQjZSUTFXeFpySEliX0VZb2Jjamp1LUFjWlpSWXd3ekZlcGcwamc?oc=5"
-      },
-      {
-        "title": "EXCLUSIVE: Canada Goose Documents Wildlife Patrol Efforts in China’s Sanjiangyuan",
-        "reports": 1,
-        "press": [
-          "Yahoo"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "EXCLUSIVE: Canada Goose Documents Wildlife Patrol Efforts in China’s Sanjiangyuan",
-            "press": "Yahoo",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmxPYXR5eElhNnY1NGNpTGMtQ1o3NWktMkhSdEVZTEw4RE1WZGIzMmxPSUpvbDBHRmhJbmtoY0NNQTBFeFpvMzM4a252Y0tNUUx5ejhzaG5CVW5XTHVMQXFVS3VKX0g1b3lnOWN3Mmg1SkJsVkRJMmtEaFNBOG45dU1EUHg4ZUR6TkFhWlhKaXgzVGdzWXlMNEpUVGFZb2M?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmxPYXR5eElhNnY1NGNpTGMtQ1o3NWktMkhSdEVZTEw4RE1WZGIzMmxPSUpvbDBHRmhJbmtoY0NNQTBFeFpvMzM4a252Y0tNUUx5ejhzaG5CVW5XTHVMQXFVS3VKX0g1b3lnOWN3Mmg1SkJsVkRJMmtEaFNBOG45dU1EUHg4ZUR6TkFhWlhKaXgzVGdzWXlMNEpUVGFZb2M?oc=5"
-      },
-      {
-        "title": "TANAPA wins two regional conservation awards",
-        "reports": 1,
-        "press": [
-          "Daily News"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "TANAPA wins two regional conservation awards",
-            "press": "Daily News",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCcHY0ZlFtWlhZMVNldnhqdkpKOGY4dHBaRmhSeTlpUW9mcDdHUTZvNVFSNm9MdU8yaVdJX0x1LWtSZjBDZk02OHlkUFpZZGthYUpHc1ZIMG9mWjdlTi1abGE1TmFVODNXWGpBR1Q3MGNJNUh6SUZKcA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCcHY0ZlFtWlhZMVNldnhqdkpKOGY4dHBaRmhSeTlpUW9mcDdHUTZvNVFSNm9MdU8yaVdJX0x1LWtSZjBDZk02OHlkUFpZZGthYUpHc1ZIMG9mWjdlTi1abGE1TmFVODNXWGpBR1Q3MGNJNUh6SUZKcA?oc=5"
-      },
-      {
-        "title": "Jeju Province, Korea National Park Service Jointly Crack Down on Illegal Activities at Hallasan During Fall Foliage Season",
-        "reports": 1,
-        "press": [
-          "아시아경제"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Jeju Province, Korea National Park Service Jointly Crack Down on Illegal Activities at Hallasan During Fall Foliage Season",
-            "press": "아시아경제",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NZ1Z1RjRjbVZTMkIyckpVSEhzdEhLR3lMc1NKU0pTbVBDNWIzOHdmZUtDRUtTdTNhT0tVODVBQnhGaVdLWXNDc3JnRnAwLXd6cjhqcVhodWdOVVNjUkdnRGFIZF93S2hqUjU4aA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NZ1Z1RjRjbVZTMkIyckpVSEhzdEhLR3lMc1NKU0pTbVBDNWIzOHdmZUtDRUtTdTNhT0tVODVBQnhGaVdLWXNDc3JnRnAwLXd6cjhqcVhodWdOVVNjUkdnRGFIZF93S2hqUjU4aA?oc=5"
-      },
-      {
-        "title": "Jasper National Park Road Restrictions Affect Highway 93 and 93A",
-        "reports": 1,
-        "press": [
-          "Rus Tourism News"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Jasper National Park Road Restrictions Affect Highway 93 and 93A",
-            "press": "Rus Tourism News",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTmxqazFSTkR1X3MtUXhTSHd6dDAtZ28tN3NTSlc2TkJCdS1sVGItQnJRb3JaQUJuWEVkTHNMY1AyUU93dWJ2bFZnTzdtXzZiTWI4MzZUWDlPaWpWcWxJZ1ZDalVFNmpITjQ1dDBRODdEdXVyZUpsSHM2dUptQlNQUElYNHZ2S2FreG8zcDRzSHlvSGRBMlFRNW10WEJHRGhSVUxTSDl4Q0JyOTQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTmxqazFSTkR1X3MtUXhTSHd6dDAtZ28tN3NTSlc2TkJCdS1sVGItQnJRb3JaQUJuWEVkTHNMY1AyUU93dWJ2bFZnTzdtXzZiTWI4MzZUWDlPaWpWcWxJZ1ZDalVFNmpITjQ1dDBRODdEdXVyZUpsSHM2dUptQlNQUElYNHZ2S2FreG8zcDRzSHlvSGRBMlFRNW10WEJHRGhSVUxTSDl4Q0JyOTQ?oc=5"
       }
     ]
   }
