@@ -1,0 +1,604 @@
+{
+  "date": "2026-11-15",
+  "dateKo": "2026년 11월 15일 일요일",
+  "generatedAt": "2026-11-15T17:04:27.920Z",
+  "kr": {
+    "collected": 23,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
+        "reports": 8,
+        "press": [
+          "대한민국 정책브리핑",
+          "전기신문",
+          "BBS불교방송",
+          "뉴시스",
+          "인디포커스",
+          "서울Pn",
+          "노컷뉴스",
+          "뉴스파이어"
+        ],
+        "outletCount": 8,
+        "articles": [
+          {
+            "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
+            "press": "대한민국 정책브리핑",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZlVNZGtONUh3Vy0zSlpwaUtXdUwtbGhYVHJHcWVlQjQ4RGx5LW5DczZDTmVqNjJ2ZjE5ZXpubVdCckUwZ01ESFRhWm83S0ptOENNd2Jvd3gzQlRudUlQV2kyVm1BeHN4bDVtUXdHSzNDUjdDOXp6RkMwYko3SlRKSG9DZWpWZXl0ay1MajI0bU0xZnc5?oc=5"
+          },
+          {
+            "title": "국립공원공단, 대설·한파 대비 안전관리 강화…자연재난 대책 기간 운영",
+            "press": "전기신문",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uSVl6ZUNKZW9RUjVObkxhNU1XTmxMdnYwNVBFb25rTUNZQUdxTHhJSFJJRUlzLUFSMEtJSTNpUHZZZWFtckdWcl9zODdTM0RUWEFUejZrMTZ0czVndzNoeVNWeTNrU3VqY2g5TtIBcEFVX3lxTE5vUUNjOVRJQnBodFBQMlN0ZnQ3LUh1SHNjM2xmZHptTEN5dDVLRDRSeUJLVDNnOTBVdGQxTWowNjNTZFBwV1REdEtTVVFrWHdLdUdlTGpqUk9BQ21UT2hJbHFVeHFIb1BPV3Izalp0NFo?oc=5"
+          },
+          {
+            "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
+            "press": "BBS불교방송",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tR3FBNW81T0NPckNNbk9sREdodUVSSHZrNENNRWlsaXZxdElReHdLUW1IWmFJN2hESXh2dXktVHRoeEJIS3VKZnRsUjhDTVgtN1MxNXRYU0ZaVmRWRzdrMzU2TUg4TmtRbjlz?oc=5"
+          },
+          {
+            "title": "국립공원公, 겨울철 대설·한파 대비 안전관리 강화",
+            "press": "뉴시스",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SY1FLeDFiVW16N1owUzhDbGgtb0JKa3ZHR250YmlCLTZ0UzNUOFVDVFVTZDFmYnBlZ2EyVzFtT2hFWUxsS0lWdnF1Z1Z3M1B2aVh4SWlhNF9ZVDhLLXJnY9IBeEFVX3lxTE9SMVBiZmxRTW5VcFVDOGV5dFpQVEVSclp2NTMwbjc3X3NUcHl2ZlBmM0hPWUNkY2hONlFpQ2IteWFSWjExZ2w4a1U5dGZYeklMMHk4WjlHOEw0eEM3RFhGVGdac2o1WTJpd1VtaFhONGZENnpmS0E3Zg?oc=5"
+          },
+          {
+            "title": "국립공원공단, 겨울철 자연재난 대책기간 운영... 탐방객 안전 지킨다",
+            "press": "인디포커스",
+            "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBMQm1wX21sdHRleWxaT2VLbUVCOWMxVnJQdldxanpJYmlWTDlicXoyRnJqaTlfZEFndWJiVEtHN0NOUkE?oc=5"
+          },
+          {
+            "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
+            "press": "서울Pn",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XTFRjRWVmbkp3OTVGeFQzYmlUMEJaMWVqVmVwT2hiUTZXVU42U1kyZTJ5d2lZeXpZNm9UdlhoQ1hCVXcyXzVLcmMxSFBpSzZpV1ZEb0ljdngyOU5hWEVKckJn?oc=5"
+          },
+          {
+            "title": "국립공원공단, 겨울철 대설·한파 대비 탐방로 안전관리 강화",
+            "press": "노컷뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VcGhKd1ExNkgzWUVEVXZ6QlB1TGdVaFB2ODhTTl9sS3V4UVJzclB2WVc4eEQ0YlJ4Y0hOb0pLLUtXNVdQbV9ZeVA5SE1HcmktNHc?oc=5"
+          },
+          {
+            "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
+            "press": "뉴스파이어",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMTFZpdHhIRi1NS0Zra1hxVV81VE80WU12Rk1QaEF6UFY2SXphVlBDVEJCcENrTnZoLS10UHpyVTJ4NFJSSUpWTm05d2JEbkJib2kyLVBISU5EVlVmWWplMk8yaG9iVGhRSUt0cDJZSQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZlVNZGtONUh3Vy0zSlpwaUtXdUwtbGhYVHJHcWVlQjQ4RGx5LW5DczZDTmVqNjJ2ZjE5ZXpubVdCckUwZ01ESFRhWm83S0ptOENNd2Jvd3gzQlRudUlQV2kyVm1BeHN4bDVtUXdHSzNDUjdDOXp6RkMwYko3SlRKSG9DZWpWZXl0ay1MajI0bU0xZnc5?oc=5"
+      },
+      {
+        "title": "겨울철 국립공원 안전관리 강화…위험지역 69곳 집중관리 - 머니투데이",
+        "reports": 4,
+        "press": [
+          "머니투데이",
+          "뉴스1",
+          "이데일리",
+          "아주경제"
+        ],
+        "outletCount": 4,
+        "articles": [
+          {
+            "title": "겨울철 국립공원 안전관리 강화…위험지역 69곳 집중관리 - 머니투데이",
+            "press": "머니투데이",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54RE95UDUyQklFUmVvYmh6czNIVEc5NUhOU0dvV09nV2MtOWY5TXVhWUlXVUNMUDR0b1llN3ppQTFEakhPdDlHMTY0cjAwbTNpYTdzdUxldTBrQlJpQ0JfWGgyTWgxcEc5YWhv0gFwQVVfeXFMUEg2TDdaeTZ5RDdSYVlEcVJvR1hsSWJSUjR0M2xSaTBVX0t3VE5NeXFRdHhaY3dhYUQ3WFJsSll3aTd5TjJGWGxuaHl0SEtmSmtDYVpmX3N1REFaXzNvN2J0OTVMYlExblJ0RE1pckdSXw?oc=5"
+          },
+          {
+            "title": "국립공원 겨울철 안전관리 강화…고립·결빙 위험 69곳 집중관리",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1laGlycTl6eWNJOExtSmtOSjJ2Y1Yzd3ZkSnRmeVFaeFR5YUhqazdKVUNmMG83LXU1SzExSWN4VWhPdTdlNkEtOGhuRmFqMUF0ZGctZTZOQV9xUUhCd2xRNzdR?oc=5"
+          },
+          {
+            "title": "국립공원공단, 고립·결빙 위험지역 69곳 중점 관리",
+            "press": "이데일리",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYkhLMzVreXJkQjlkOF8wQnhldWF0cXdsWlFoMTN0RHNYUUpvdmRYZlBhUkhqVDNHZzA4Y1VaM2dmOTNKejBJN2tHdDRNVFFWcVd5eUpTTG1SeV9iX2tROXdvRE4tR0FMMkFHSWJiSkk1bFVNcWEtWXRGYW1ZQzJ1bA?oc=5"
+          },
+          {
+            "title": "겨울철 국립공원 안전관리 강화…고립·결빙 위험지역 69곳 집중 관리",
+            "press": "아주경제",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NQVAycUVndkk0N1pERUsxdWc3T2dXckh3dkpwYVhlenJOckdzbExNVEE5NzhPTEtIR01wb3Y1VFNPRnJnSWpMVGdpLXFwLTU1bmpBS1owRUdjUdIBWEFVX3lxTFBIdG95MlJyanJIV19XUXBvOHh6d01aalUyMFhzTGtxUE15LU5VaDB4MDRXTzRYb1NQTHlhVmtFMUZWVFgxTTFXbW1ZVGxySnlGYk50XzNUQ2Q?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54RE95UDUyQklFUmVvYmh6czNIVEc5NUhOU0dvV09nV2MtOWY5TXVhWUlXVUNMUDR0b1llN3ppQTFEakhPdDlHMTY0cjAwbTNpYTdzdUxldTBrQlJpQ0JfWGgyTWgxcEc5YWhv0gFwQVVfeXFMUEg2TDdaeTZ5RDdSYVlEcVJvR1hsSWJSUjR0M2xSaTBVX0t3VE5NeXFRdHhaY3dhYUQ3WFJsSll3aTd5TjJGWGxuaHl0SEtmSmtDYVpmX3N1REFaXzNvN2J0OTVMYlExblJ0RE1pckdSXw?oc=5"
+      },
+      {
+        "title": "국립공원이 어린이 직업체험 교실로",
+        "reports": 1,
+        "press": [
+          "환경일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "국립공원이 어린이 직업체험 교실로",
+            "press": "환경일보",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TLWlkbDhxbkpPZkIySFNyTXNXYU1oUU5UckhOTzFwNFIzcFd5M3VhYXFVTU04WnU3MGdUQjEzOXh5d2Nqd21IQVhiVUthckNQaFN4aFBJdUhyUjlCWHVfUlpKNnhwd2RK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TLWlkbDhxbkpPZkIySFNyTXNXYU1oUU5UckhOTzFwNFIzcFd5M3VhYXFVTU04WnU3MGdUQjEzOXh5d2Nqd21IQVhiVUthckNQaFN4aFBJdUhyUjlCWHVfUlpKNnhwd2RK?oc=5"
+      },
+      {
+        "title": "단속에 되레 역정까지...무등산 불법·무질서행위 '단속'",
+        "reports": 1,
+        "press": [
+          "KBC광주방송"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "단속에 되레 역정까지...무등산 불법·무질서행위 '단속'",
+            "press": "KBC광주방송",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JYks3eG5tWjdNcFQzeXpNRG1ScjF6OFlSVUFLdXoxLTRGWFlJN01IaC1PLXFtdzVyclR3Szk1eDFLMUVNQ2ZPTVRXd3YtU25Jc0h4dkp5T2RnTlZ3NDktSQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JYks3eG5tWjdNcFQzeXpNRG1ScjF6OFlSVUFLdXoxLTRGWFlJN01IaC1PLXFtdzVyclR3Szk1eDFLMUVNQ2ZPTVRXd3YtU25Jc0h4dkp5T2RnTlZ3NDktSQ?oc=5"
+      },
+      {
+        "title": "AI가 산불 위험 감지, 산불 확산 막았다...주왕산국립공원, 민가 쓰레기 소각화재 선제대응",
+        "reports": 1,
+        "press": [
+          "안동인터넷뉴스"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "AI가 산불 위험 감지, 산불 확산 막았다...주왕산국립공원, 민가 쓰레기 소각화재 선제대응",
+            "press": "안동인터넷뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UeTFhQk5nUnZzYU9OYmwzN0NPblplRUNfTW1UWk9ZSDBhczBuMlBxSlkyZFRNUmpiNElXNko4ejYxQlpyc0FPR081VjZIVE42S1RYeURBbDBTdDJyeGdPRlFLUnVtejRpUGc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UeTFhQk5nUnZzYU9OYmwzN0NPblplRUNfTW1UWk9ZSDBhczBuMlBxSlkyZFRNUmpiNElXNko4ejYxQlpyc0FPR081VjZIVE42S1RYeURBbDBTdDJyeGdPRlFLUnVtejRpUGc?oc=5"
+      },
+      {
+        "title": "\"산행 중 폭설…왔던 길로 돌아서 하산 또는 대피소 이동\"",
+        "reports": 1,
+        "press": [
+          "더팩트"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"산행 중 폭설…왔던 길로 돌아서 하산 또는 대피소 이동\"",
+            "press": "더팩트",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PYTA4ei1qWVFKaXdFX0lqUXNHUVVmejc0bkxhM0pOelc0R2Z6alNweFhmYW95NVNTNWJJVGdCVFlsMW5OelNGWmlPNXhsbTU1OG51R3JVang1UdIBVEFVX3lxTE1LdTk5NWp3Z1U1eG1OQ3pzaEFydFM2aGFVNG5jbTdQRjRJRVFGVWNGYVVhQmNFcldoRFBxTUJabVQwSUxLMDVHTGJaWFZmOXdBSUxJSw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PYTA4ei1qWVFKaXdFX0lqUXNHUVVmejc0bkxhM0pOelc0R2Z6alNweFhmYW95NVNTNWJJVGdCVFlsMW5OelNGWmlPNXhsbTU1OG51R3JVang1UdIBVEFVX3lxTE1LdTk5NWp3Z1U1eG1OQ3pzaEFydFM2aGFVNG5jbTdQRjRJRVFGVWNGYVVhQmNFcldoRFBxTUJabVQwSUxLMDVHTGJaWFZmOXdBSUxJSw?oc=5"
+      },
+      {
+        "title": "주왕산국립공원 인근 민가에서 발생한 화재, AI 감시로 조기 진화 성공",
+        "reports": 1,
+        "press": [
+          "대경일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "주왕산국립공원 인근 민가에서 발생한 화재, AI 감시로 조기 진화 성공",
+            "press": "대경일보",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDN1ZOeVlOeG1oTWRROENwRG5UVlZaeV81UVhWUzBsZTl3eE01R19hZERhUGJzQnNlZU1pUFg1ODBaSjAxSUNYQ21SZUdvZ3pRUTJqUVhrVHpJb0F1WWk0b0ZmTHNrSngw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDN1ZOeVlOeG1oTWRROENwRG5UVlZaeV81UVhWUzBsZTl3eE01R19hZERhUGJzQnNlZU1pUFg1ODBaSjAxSUNYQ21SZUdvZ3pRUTJqUVhrVHpJb0F1WWk0b0ZmTHNrSngw?oc=5"
+      },
+      {
+        "title": "\"가을 끝자락 만끽\"…휴일 강원 4대 국립공원 1만7500여명 북적",
+        "reports": 1,
+        "press": [
+          "뉴스1"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "\"가을 끝자락 만끽\"…휴일 강원 4대 국립공원 1만7500여명 북적",
+            "press": "뉴스1",
+            "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01X0lTNjVqQkVjemZkLVMtMUU1QkEtYUlnQm1LMHBSLUlZb0dhMWV5MTAwT2VmeHR1eENCYnkwZF9NN0t5d1pzU1l4SkZLSGQzQnVqdg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01X0lTNjVqQkVjemZkLVMtMUU1QkEtYUlnQm1LMHBSLUlZb0dhMWV5MTAwT2VmeHR1eENCYnkwZF9NN0t5d1pzU1l4SkZLSGQzQnVqdg?oc=5"
+      },
+      {
+        "title": "우민하 국립공원은 생태관광 개발을 위해 1,318헥타르가 넘는 산림지를 임대하고 있습니다.",
+        "reports": 1,
+        "press": [
+          "Vietnam.vn"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "우민하 국립공원은 생태관광 개발을 위해 1,318헥타르가 넘는 산림지를 임대하고 있습니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTWxtRmxCTmlyZ0FsT3gzYi1kanFiTVI4T3pXeVFNdDY0MVpKOTBxa01SODRkMFc5a1kza1lmWkhsSWNOWnJhbzFTTHEtZnNUc2wxd3ZWaDM4N1BORVJ1OG9oUk9NTDNFREJXWDZWdXpSZ2RLaUk4MGxjd3JET3BrMVVHd2Z4M3NwUzVnSTQ5bzc1dE1lRUY4X3NzS3RPNGtrUXVGSmJIU3ZTU0xyUmhLaE4wT1UwYVZDVlVn?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTWxtRmxCTmlyZ0FsT3gzYi1kanFiTVI4T3pXeVFNdDY0MVpKOTBxa01SODRkMFc5a1kza1lmWkhsSWNOWnJhbzFTTHEtZnNUc2wxd3ZWaDM4N1BORVJ1OG9oUk9NTDNFREJXWDZWdXpSZ2RLaUk4MGxjd3JET3BrMVVHd2Z4M3NwUzVnSTQ5bzc1dE1lRUY4X3NzS3RPNGtrUXVGSmJIU3ZTU0xyUmhLaE4wT1UwYVZDVlVn?oc=5"
+      },
+      {
+        "title": "겨울산, 탐방 전 확인부터…안전이 최우선",
+        "reports": 1,
+        "press": [
+          "어반톡"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "겨울산, 탐방 전 확인부터…안전이 최우선",
+            "press": "어반톡",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vdE5oWHl1bWtLa3d3OUdpd0dydVFlOTRwWUl5bXNka054V3F5QmNzZklQVDFMQWxxZkVWODBtemdWMXJSM2V3U2FRQ3BvMWxFVGtmcXB3?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vdE5oWHl1bWtLa3d3OUdpd0dydVFlOTRwWUl5bXNka054V3F5QmNzZklQVDFMQWxxZkVWODBtemdWMXJSM2V3U2FRQ3BvMWxFVGtmcXB3?oc=5"
+      },
+      {
+        "title": "우민하 국립공원은 관광 목적으로 삼림 환경을 29년간 임대하고 있습니다.",
+        "reports": 1,
+        "press": [
+          "Vietnam.vn"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "우민하 국립공원은 관광 목적으로 삼림 환경을 29년간 임대하고 있습니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdWhSSnpqd2tBeVpxN0pCZ1VfUDFQYmRtbl9PM3BDb1NSUENZMHQyMlFkZTB1RklLUVNPb1g5Mnk1MVZ3YllBcmhRUTRnZjA2Nk10aEFzWXExMFZlMDFxU0JqUVBpXzg1Q2l3eExGUFdOU3NWXy0tVGJnaldjVGFOUl9fNTdfelF5VGxkZkF0VDZCRjR1STNCekh1M3c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdWhSSnpqd2tBeVpxN0pCZ1VfUDFQYmRtbl9PM3BDb1NSUENZMHQyMlFkZTB1RklLUVNPb1g5Mnk1MVZ3YllBcmhRUTRnZjA2Nk10aEFzWXExMFZlMDFxU0JqUVBpXzg1Q2l3eExGUFdOU3NWXy0tVGJnaldjVGFOUl9fNTdfelF5VGxkZkF0VDZCRjR1STNCekh1M3c?oc=5"
+      },
+      {
+        "title": "전남광주 곳곳서 멸종위기종 서식 확인",
+        "reports": 1,
+        "press": [
+          "남도일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "전남광주 곳곳서 멸종위기종 서식 확인",
+            "press": "남도일보",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwS2JaRXlTQjlTSk5ORUpOVTZRNG4zU2tQcUxSdXZNV28tVE1wRjdMdDlsNUVJUjB1N1VDbU9wdFVLUG5EZ0M2eERmVEdhN21UQVJfODc0V3hiZjk0TUl1NXdFUW1janhNb1RaX9IBcEFVX3lxTFBTVVg2RFBVTzNUWUxLMGFCTzE5bFZWQ1habGFOX2FJTTVlSDEzNHNzdTFaQmhyVGtEWFFHcE50YTJRQmlUTVFuSHE5Mml0V25WYVgxbkVlX2pPa0Fkc0pGWWc3WHQzSFNBaHZySjV2cFc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwS2JaRXlTQjlTSk5ORUpOVTZRNG4zU2tQcUxSdXZNV28tVE1wRjdMdDlsNUVJUjB1N1VDbU9wdFVLUG5EZ0M2eERmVEdhN21UQVJfODc0V3hiZjk0TUl1NXdFUW1janhNb1RaX9IBcEFVX3lxTFBTVVg2RFBVTzNUWUxLMGFCTzE5bFZWQ1habGFOX2FJTTVlSDEzNHNzdTFaQmhyVGtEWFFHcE50YTJRQmlUTVFuSHE5Mml0V25WYVgxbkVlX2pPa0Fkc0pGWWc3WHQzSFNBaHZySjV2cFc?oc=5"
+      },
+      {
+        "title": "윤호중 행안부장관, 영덕소방서·주왕산국립공원 방문",
+        "reports": 1,
+        "press": [
+          "세명일보"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "윤호중 행안부장관, 영덕소방서·주왕산국립공원 방문",
+            "press": "세명일보",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iTU9uOVZHZUdjM29yN3pIYkRBUG1ZNEhyYWExQXUzeGhWX19zYm41TTE0a0JHRmplQ3BabXd6ZE5hR0F1UG1IcjdQX1djTGNQMHhGU0FJZUlacTd0aVlCc0phbVBDUGxWRHZDTHZvQWs?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iTU9uOVZHZUdjM29yN3pIYkRBUG1ZNEhyYWExQXUzeGhWX19zYm41TTE0a0JHRmplQ3BabXd6ZE5hR0F1UG1IcjdQX1djTGNQMHhGU0FJZUlacTd0aVlCc0phbVBDUGxWRHZDTHZvQWs?oc=5"
+      }
+    ]
+  },
+  "global": {
+    "collected": 22,
+    "failedQueries": 0,
+    "rows": [
+      {
+        "title": "Yala National Park reopens overnight stays on 1 November - ad-hoc-news.de",
+        "reports": 4,
+        "press": [
+          "ad-hoc-news.de"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Yala National Park reopens overnight stays on 1 November - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkNDWTlOQjRSdURIb1Fxb1hzdjhIT0xKZWZaMFVVdTNhQWRXeUhjY2FMQTNQY1RZdkRQRHdzSC1SQ21GVlJkbHJmWDhCaFZSN21VWGFaSER3d0MtWWFpQkM4WVZBMDNnR1hkMDgzNzVfb3hDeE84WDlLSmtYalVHZHY0S043MW9ENFd3QUY2MDQxMml3NklLSnpxVG03QkVFZjNLVlVQZ2loNkU3WlNqdEtR?oc=5"
+          },
+          {
+            "title": "Denali National Park and Preserve opens bookings on 1 December - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLXR1TVQ3SENHOTRacUJPX2dUTjFMRjQ5NUZreFhXNWs1QW9XSW5wNGVWNjJGWmVkY3BSVHY3NV9QMllIYmlEOGh5bW54SkVwQXBwYXc2REZnTWFaSjYtVzFqMDdYTld5TnlwbXkxcExmUkVUWDZnSzZZZFlTZlF5OHN3LV9XQWI4a2QzWTNmbExHZnZGZjNKNk83SHJ5T2VkMmxSOHRpMkhDaHdCSDhGRWh1QVZrLXphS3c?oc=5"
+          },
+          {
+            "title": "Zion National Park ends canyon shuttles on 29 November - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcFdRRFd1akpaY1FzRXI3MERPcEoyZ28yNXpDS1NwVV9oXzRrNl9YTTFCS0I4UEY2ZjVrSEVvMF9SaWVsaGJXTkJlV25OeVNQdTdZcEhxaGkySHJpdzlWZDJQV2JQVnZZZFZHbUNBUkhjM081eEF5d1lnRWN3M01NXzFLaWJ0U1VqRWtMNEVnYW5SdV9KLXIxWk91OGZZRng5blo5VXB4SHJzVG5RdUl3?oc=5"
+          },
+          {
+            "title": "Triglav National Park hosts Kopac event on 25 November - ad-hoc-news.de",
+            "press": "ad-hoc-news.de",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmpiS3NoRHdLNGQ1dDYyS054a0FCTDBmaFJ6OVRLX3JmbFJfU1JzRlV4d09WemR1d0M2Wi0xX2R6QnVFcS1zZ3BJZkw4OC1FMkVxcTRUTEtmQmFFcWJ3LXkyOFRualZ5V24wS2NLbVNNVmptYlYybHRUczRDejJsWHkzamxZbWliVV9LU192R2hHb1piVlpCalN5ekMyRnBINVFDaGFpbWZ3end6WURV?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkNDWTlOQjRSdURIb1Fxb1hzdjhIT0xKZWZaMFVVdTNhQWRXeUhjY2FMQTNQY1RZdkRQRHdzSC1SQ21GVlJkbHJmWDhCaFZSN21VWGFaSER3d0MtWWFpQkM4WVZBMDNnR1hkMDgzNzVfb3hDeE84WDlLSmtYalVHZHY0S043MW9ENFd3QUY2MDQxMml3NklLSnpxVG03QkVFZjNLVlVQZ2loNkU3WlNqdEtR?oc=5"
+      },
+      {
+        "title": "Between Seattle And Olympic National Park Is A Washington City With Fresh Seafood, Trails, And Local Shops",
+        "reports": 1,
+        "press": [
+          "https://www.islands.com/"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Between Seattle And Olympic National Park Is A Washington City With Fresh Seafood, Trails, And Local Shops",
+            "press": "https://www.islands.com/",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLXJId0NXRS1yQll4cE13dWJNRTdyWVhTeHlBR3dxWnVsN2pRZm4ybEdHajFMd1JLdzNBX19leXM3M0JkTjlQN1VVN2ZVVXNWcDI0SnpMcWFnUWNYXzJUd1B0OHdJX19Ecnc0eU1PaFg3N2w1UjI1cHJaOVZtbmpaRG1JYjFpRGtBRE1JbF9UbjV2c3JXRHoyQzBkN1Juc0FuMGJ4Q3ZXQjhlbk1GV0d6ZE9xaTlNOWNDYUkwam4tOA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLXJId0NXRS1yQll4cE13dWJNRTdyWVhTeHlBR3dxWnVsN2pRZm4ybEdHajFMd1JLdzNBX19leXM3M0JkTjlQN1VVN2ZVVXNWcDI0SnpMcWFnUWNYXzJUd1B0OHdJX19Ecnc0eU1PaFg3N2w1UjI1cHJaOVZtbmpaRG1JYjFpRGtBRE1JbF9UbjV2c3JXRHoyQzBkN1Juc0FuMGJ4Q3ZXQjhlbk1GV0d6ZE9xaTlNOWNDYUkwam4tOA?oc=5"
+      },
+      {
+        "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
+        "reports": 1,
+        "press": [
+          "The New York Times"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
+            "press": "The New York Times",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjJhTWdYQ0hFN0VPVk0xaTZvSVZkb2R4Zlp1WHZOVDROSGZucnRiazB1M0ZmUnh0Z0R0Ylo5dmxVQXdIMFNlT1o4Q0hlMUdkQ2FGMXdDWHdybjA1bGRCUjFiQWpGNDJTb1dEeXJPQXVONGU4YV9xNnBqak9hVUxyNmZhRFFJWjBRblpWcS1rUV9OLUVYdllrNlBRb2h1TDg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjJhTWdYQ0hFN0VPVk0xaTZvSVZkb2R4Zlp1WHZOVDROSGZucnRiazB1M0ZmUnh0Z0R0Ylo5dmxVQXdIMFNlT1o4Q0hlMUdkQ2FGMXdDWHdybjA1bGRCUjFiQWpGNDJTb1dEeXJPQXVONGU4YV9xNnBqak9hVUxyNmZhRFFJWjBRblpWcS1rUV9OLUVYdllrNlBRb2h1TDg?oc=5"
+      },
+      {
+        "title": "Do reservation systems at Utah’s national parks favor wealthy visitors?",
+        "reports": 1,
+        "press": [
+          "The Salt Lake Tribune"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Do reservation systems at Utah’s national parks favor wealthy visitors?",
+            "press": "The Salt Lake Tribune",
+            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yamtVLWtmZGN2OGlmZ0phZHZfcDlabEJmN0tER3VIVDBSXzBvejZZRW5EOUcySXN0ejhZTFl3d0N3elhjNm1YcER5SzJNdHZXTGFBYlpLclpCTDRnZFdMQkUwcmthZ0FuMlRiaWxFeGxtZkx2bnRv?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yamtVLWtmZGN2OGlmZ0phZHZfcDlabEJmN0tER3VIVDBSXzBvejZZRW5EOUcySXN0ejhZTFl3d0N3elhjNm1YcER5SzJNdHZXTGFBYlpLclpCTDRnZFdMQkUwcmthZ0FuMlRiaWxFeGxtZkx2bnRv?oc=5"
+      },
+      {
+        "title": "4 Rules to Know Before Visiting Shenandoah National Park",
+        "reports": 1,
+        "press": [
+          "Only In Your State"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "4 Rules to Know Before Visiting Shenandoah National Park",
+            "press": "Only In Your State",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaklXcmNmLVdIREtuTlo5WXRXbWV2WnlPNXpxenNFQ3kySEQ1YndVOVpISHBNaHYwTGpTZlBKU2VmMzVOQXJIX0ZNM0loRmZXZ2E0ekVxVVdTOUZVSkxnOTVEc1ZnVnZQRmkwYTA1QWJGbG9xN0VMQ2VyamZ5aDREeQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaklXcmNmLVdIREtuTlo5WXRXbWV2WnlPNXpxenNFQ3kySEQ1YndVOVpISHBNaHYwTGpTZlBKU2VmMzVOQXJIX0ZNM0loRmZXZ2E0ekVxVVdTOUZVSkxnOTVEc1ZnVnZQRmkwYTA1QWJGbG9xN0VMQ2VyamZ5aDREeQ?oc=5"
+      },
+      {
+        "title": "I lead night sky programs in Yosemite National Park. Light pollution is becoming a threat",
+        "reports": 1,
+        "press": [
+          "San Francisco Chronicle"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "I lead night sky programs in Yosemite National Park. Light pollution is becoming a threat",
+            "press": "San Francisco Chronicle",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcnlnYmtmTmRxRENXbWhBMEYxdjlqMFktbXI5VjVtOUtNcGJKTVZRSGFCUUcxZ2ZNYTBkMUpQNTVFM0t2aXppZ213dDN0dUlXejZNMm9feFlhUmVvTGxuVEh4VUFhWlJoakI2UzJuOTRrQlhUX3VhdVBVazM2cm9wZzBkY3dCS0NfaDlMQ2hnZXE5cVF3ZWtfeTNocy1zTC1HU1FGdkxSNko?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcnlnYmtmTmRxRENXbWhBMEYxdjlqMFktbXI5VjVtOUtNcGJKTVZRSGFCUUcxZ2ZNYTBkMUpQNTVFM0t2aXppZ213dDN0dUlXejZNMm9feFlhUmVvTGxuVEh4VUFhWlJoakI2UzJuOTRrQlhUX3VhdVBVazM2cm9wZzBkY3dCS0NfaDlMQ2hnZXE5cVF3ZWtfeTNocy1zTC1HU1FGdkxSNko?oc=5"
+      },
+      {
+        "title": "Artists flock to Zion National Park's annual art invitational for the 'game of painting'",
+        "reports": 1,
+        "press": [
+          "St. George News"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Artists flock to Zion National Park's annual art invitational for the 'game of painting'",
+            "press": "St. George News",
+            "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSE9kUHRxMlE2QlVYbXI0Q2NLdHZESXkzU3BfQUFqT2c1NW55ZFZDeC1wemNtTmNrakQweFo3b1ZoNUJuaktxTVlydVQtbmlKNVlVMUtJdjFzdXlfTHdJLU0tdzZsVUpQbnRoT1BhR1daWmx3a01LZnZGUDAtNDNaY2UxT19rQnNUb1lkZnhJYnItMVdQU0o1T2hQcG8xRktITFp0WWJxSl9hY19zRGRuMVdwYXRFTWFkSm5aNHBsbHhLbklFR0wyVmJ3NXI0dnlydHAteS1yTEN4NVZjTDhub1prSUpPV1g3TzhXc1BzbVFRb1ZCWEhPZ1lmNFdrdw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSE9kUHRxMlE2QlVYbXI0Q2NLdHZESXkzU3BfQUFqT2c1NW55ZFZDeC1wemNtTmNrakQweFo3b1ZoNUJuaktxTVlydVQtbmlKNVlVMUtJdjFzdXlfTHdJLU0tdzZsVUpQbnRoT1BhR1daWmx3a01LZnZGUDAtNDNaY2UxT19rQnNUb1lkZnhJYnItMVdQU0o1T2hQcG8xRktITFp0WWJxSl9hY19zRGRuMVdwYXRFTWFkSm5aNHBsbHhLbklFR0wyVmJ3NXI0dnlydHAteS1yTEN4NVZjTDhub1prSUpPV1g3TzhXc1BzbVFRb1ZCWEhPZ1lmNFdrdw?oc=5"
+      },
+      {
+        "title": "I’ve Visited Over 60 National Parks—and This Remote Canadian Park Might Just be North America’s Most Scenic",
+        "reports": 1,
+        "press": [
+          "Travel + Leisure"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "I’ve Visited Over 60 National Parks—and This Remote Canadian Park Might Just be North America’s Most Scenic",
+            "press": "Travel + Leisure",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLUQ1WWM2RFVCQ1haMC1HU3JQSERvd0JWdnZpWHMxczJ2N2FpUVpCeEZKNUZfSnItVVFHYTBOejUyc1RpNDk3aGhocG5FakV3aFN5eEp6NkhRRU1HZTlMQlkwSkxNZ2k4dGZrRk9wWnlEX0dOTUlyWXVhQkxiX0d1Q3I4YWlxcE9GY3dTakNKd0NfdGM?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLUQ1WWM2RFVCQ1haMC1HU3JQSERvd0JWdnZpWHMxczJ2N2FpUVpCeEZKNUZfSnItVVFHYTBOejUyc1RpNDk3aGhocG5FakV3aFN5eEp6NkhRRU1HZTlMQlkwSkxNZ2k4dGZrRk9wWnlEX0dOTUlyWXVhQkxiX0d1Q3I4YWlxcE9GY3dTakNKd0NfdGM?oc=5"
+      },
+      {
+        "title": "The National Park River In Wyoming Renowned For Crystal Clear Waters, Recreation, And Scenery",
+        "reports": 1,
+        "press": [
+          "Yahoo"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The National Park River In Wyoming Renowned For Crystal Clear Waters, Recreation, And Scenery",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOHhjR1A2SnZjTXpWU2FqakdodE5jcDN5OENpLW9iMzNkdG8zZVdZcFV6clNFZUg5ZTQ4SVV4TERvVUJlVkRYSVZvUlMwSUNlNnJ5Qk52SlZHYzZaNkJuanFWblcyNHh0UW5KVjN4bnFBZTR3b2JNVEQ1cjlPS21TZ3lzTGtERGE1M3FRbWZudWw2MkRMSHdQcWNncHdhWHlkeVR5SGF1Z3NMampaVWk0aXJMRFg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOHhjR1A2SnZjTXpWU2FqakdodE5jcDN5OENpLW9iMzNkdG8zZVdZcFV6clNFZUg5ZTQ4SVV4TERvVUJlVkRYSVZvUlMwSUNlNnJ5Qk52SlZHYzZaNkJuanFWblcyNHh0UW5KVjN4bnFBZTR3b2JNVEQ1cjlPS21TZ3lzTGtERGE1M3FRbWZudWw2MkRMSHdQcWNncHdhWHlkeVR5SGF1Z3NMampaVWk0aXJMRFg?oc=5"
+      },
+      {
+        "title": "This 114-mile Train Is One of the Most Scenic in the U.S.—With Small Towns, Mountain Views, and National Park Access",
+        "reports": 1,
+        "press": [
+          "Yahoo"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "This 114-mile Train Is One of the Most Scenic in the U.S.—With Small Towns, Mountain Views, and National Park Access",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2lkdlZidFNJNDBpRWF6a294eXY5Wm95bEFNdGdkRzM4cjhoWVlncnAzejFRMUo4Tzd0U1hjX29lRFV4Y1NfMG5tbHhsbm5Pc1JiLVZoenJiOGVBeHBicUlQTVMwODZDMEtWbGQxUUVvNzE0bEFRSlp5SEVvaVNDVnNMLUlXckxmZjVJemlRTm9wdHZYM3o0clJnRFJ1UGVXLVE?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2lkdlZidFNJNDBpRWF6a294eXY5Wm95bEFNdGdkRzM4cjhoWVlncnAzejFRMUo4Tzd0U1hjX29lRFV4Y1NfMG5tbHhsbm5Pc1JiLVZoenJiOGVBeHBicUlQTVMwODZDMEtWbGQxUUVvNzE0bEFRSlp5SEVvaVNDVnNMLUlXckxmZjVJemlRTm9wdHZYM3o0clJnRFJ1UGVXLVE?oc=5"
+      },
+      {
+        "title": "One Of The World's Best National Parks Is An Underrated Beauty With Poland's Largest Peaks",
+        "reports": 1,
+        "press": [
+          "Yahoo"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "One Of The World's Best National Parks Is An Underrated Beauty With Poland's Largest Peaks",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ016VmhyQ0g2ZGlQdWx4WHY2MUZCNTBIUGpLbUtlWGs5VE5OVlFWOVk1TUNxQXY1dlZBai1lUVNiRkpEb3ptQUlhNW16aWJtOS1rTDhzenloU3R1UE9HeHVtNEpqbFpQVkZkb01KNUVVdEZOaktpRkVXNHlHOEQ4SzRIRk1Ja0tHMlZxR2dYZw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ016VmhyQ0g2ZGlQdWx4WHY2MUZCNTBIUGpLbUtlWGs5VE5OVlFWOVk1TUNxQXY1dlZBai1lUVNiRkpEb3ptQUlhNW16aWJtOS1rTDhzenloU3R1UE9HeHVtNEpqbFpQVkZkb01KNUVVdEZOaktpRkVXNHlHOEQ4SzRIRk1Ja0tHMlZxR2dYZw?oc=5"
+      },
+      {
+        "title": "Bill to expand Dayton aviation national park passes Senate unanimously - Springfield News-Sun",
+        "reports": 1,
+        "press": [
+          "Springfield News-Sun"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Bill to expand Dayton aviation national park passes Senate unanimously - Springfield News-Sun",
+            "press": "Springfield News-Sun",
+            "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd1N5WGtOM1d0ZWdzQVNvZVBFckRfSDQtQmhFU2ltSTJRZVd3NzlUYUt1TVFuN3pJLXBVNGZ4NWtrWDRtYWxaRmRNNGlzTjkzdkJXdzlLOWpLc0Jlblc4a1BfTV9OMkFNbS1Uc1N4SVowZGZYRU1qa1JHT2YtcndYa0t4d1ctM0NFMnlmNGk5MUF6S2VIQkFOWVpHRnFielYzQTBKOHlrOUFURHJOSkVzdTZDVTYxTEVqdmJVZ2E3Z1hLY1lGaXc4TFBmei0tWFdxcW83UjN6OTdkS1loR0NCQXFmRXJGYzFhWlpVRlV2NjBfVjA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd1N5WGtOM1d0ZWdzQVNvZVBFckRfSDQtQmhFU2ltSTJRZVd3NzlUYUt1TVFuN3pJLXBVNGZ4NWtrWDRtYWxaRmRNNGlzTjkzdkJXdzlLOWpLc0Jlblc4a1BfTV9OMkFNbS1Uc1N4SVowZGZYRU1qa1JHT2YtcndYa0t4d1ctM0NFMnlmNGk5MUF6S2VIQkFOWVpHRnFielYzQTBKOHlrOUFURHJOSkVzdTZDVTYxTEVqdmJVZ2E3Z1hLY1lGaXc4TFBmei0tWFdxcW83UjN6OTdkS1loR0NCQXFmRXJGYzFhWlpVRlV2NjBfVjA?oc=5"
+      },
+      {
+        "title": "The Snowiest National Park In America",
+        "reports": 1,
+        "press": [
+          "WorldAtlas"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The Snowiest National Park In America",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzdnN0NoVDVPdGlhRWZPMVRNd191c3NZcXpxazRCSmJyMEREbFlNSmJnSU9QbzJrajVxcEF6bEVTWWJON3kwQlJsS0F2eUJjUEVKNTNTQU4zY2ZNMTVkbnFwY3RIeUNTLTNjQmx3QkN5ZnVTZ1N2WlVXY2JNNTJtUUFONHZmR0d6TXQ1NA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzdnN0NoVDVPdGlhRWZPMVRNd191c3NZcXpxazRCSmJyMEREbFlNSmJnSU9QbzJrajVxcEF6bEVTWWJON3kwQlJsS0F2eUJjUEVKNTNTQU4zY2ZNMTVkbnFwY3RIeUNTLTNjQmx3QkN5ZnVTZ1N2WlVXY2JNNTJtUUFONHZmR0d6TXQ1NA?oc=5"
+      },
+      {
+        "title": "YOUR GUIDES: Visiting America’s Newest National Park",
+        "reports": 1,
+        "press": [
+          "Stillwater News Press"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "YOUR GUIDES: Visiting America’s Newest National Park",
+            "press": "Stillwater News Press",
+            "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEdELVVoSndsTHBOa1FTVV9RVTQ5QXNzV094WnNtWl9iSUJLa2lwUnFTWURoMnJyT01fOWVlMUJlSVNHRnl4d0hScFNTc0NGV3lOVUZIMUV5QkpMZXJKZjhySmhsMUM1WWhsQWVmWW5NUzZSa3ZPUGEwTkszR0R4Q3N1VTFqS0xpVlFjeDZjaUdBWkhiSHZ6TDBoZTR0MnFyanlGSXZtY0xDbTBTa1g4aFc5Y21NSTFPbmVxYUpJLVB1NGMzMVpWYjFjMHN5RGhRdm1mWXA1aThpOWEtNWJB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaEdELVVoSndsTHBOa1FTVV9RVTQ5QXNzV094WnNtWl9iSUJLa2lwUnFTWURoMnJyT01fOWVlMUJlSVNHRnl4d0hScFNTc0NGV3lOVUZIMUV5QkpMZXJKZjhySmhsMUM1WWhsQWVmWW5NUzZSa3ZPUGEwTkszR0R4Q3N1VTFqS0xpVlFjeDZjaUdBWkhiSHZ6TDBoZTR0MnFyanlGSXZtY0xDbTBTa1g4aFc5Y21NSTFPbmVxYUpJLVB1NGMzMVpWYjFjMHN5RGhRdm1mWXA1aThpOWEtNWJB?oc=5"
+      },
+      {
+        "title": "The State Parks Where You Share The Trail With Hunters",
+        "reports": 1,
+        "press": [
+          "WorldAtlas"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The State Parks Where You Share The Trail With Hunters",
+            "press": "WorldAtlas",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnJPZk9fdEVleldWYjI0dl81cGtaX20yMXJPQzk4VFJWRFJaaFpnRXZNaWI5ZFJkbW1wbnZSdmJUMmFRc0lCQlFqTjR1RWd1NTdhN1N1YWtObmU4OUhQcDRTZUkyUVlBazRsZHYyUzhGa3ZaX2FZZ1VZaDBzMXp6OFh2bjhhNVJpQTFpdkVqNTQzNndmZnNERDBvTXk4UFk?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnJPZk9fdEVleldWYjI0dl81cGtaX20yMXJPQzk4VFJWRFJaaFpnRXZNaWI5ZFJkbW1wbnZSdmJUMmFRc0lCQlFqTjR1RWd1NTdhN1N1YWtObmU4OUhQcDRTZUkyUVlBazRsZHYyUzhGa3ZaX2FZZ1VZaDBzMXp6OFh2bjhhNVJpQTFpdkVqNTQzNndmZnNERDBvTXk4UFk?oc=5"
+      },
+      {
+        "title": "Alice Springs Desert Park leads conservation project to protect rare desert plants",
+        "reports": 1,
+        "press": [
+          "Australasian Leisure Management Magazine"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Alice Springs Desert Park leads conservation project to protect rare desert plants",
+            "press": "Australasian Leisure Management Magazine",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON3ZWaldnbktVMkx2ajE3bmpNYmlRZmd6T2pfRGlXREFXZEo1X0tTS0tSbnBDTzgtMXpMOC03NlNSdDlOYm5nY0k0OG0wV3pFY3JMOVlEaEtxTVZLdDFOYXMyNWNNcXE4OGlGal9keC1HRVpwZC14SWZhbm56ckdfWmxMXzlZYjdaMzk1cUpwQjZYMEhZM2NGQVFxOXIwbmU3eXV1WE9uMXIwbklSMU4zbGZUeERELWRK?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON3ZWaldnbktVMkx2ajE3bmpNYmlRZmd6T2pfRGlXREFXZEo1X0tTS0tSbnBDTzgtMXpMOC03NlNSdDlOYm5nY0k0OG0wV3pFY3JMOVlEaEtxTVZLdDFOYXMyNWNNcXE4OGlGal9keC1HRVpwZC14SWZhbm56ckdfWmxMXzlZYjdaMzk1cUpwQjZYMEhZM2NGQVFxOXIwbmU3eXV1WE9uMXIwbklSMU4zbGZUeERELWRK?oc=5"
+      },
+      {
+        "title": "Dooars tourism boost: Meet to discuss balancing growth with wildlife conservation",
+        "reports": 1,
+        "press": [
+          "Telegraph India"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Dooars tourism boost: Meet to discuss balancing growth with wildlife conservation",
+            "press": "Telegraph India",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORi1VaE03UTRUMUR4YUFBM2o2WkNSdENNbWRONzQzRzhWZFliclpGcmRjN3VzSHRqTTZmZHVOeVJ5VzNuUEZiVEM0VERDWUMxLWNUZ1pDOHpHd1lndE5Tc21QWTVJS1ZfN3FVSmdnWEdYSzZtcjFXeDdLbHkyX0wwMVdVOFpkbk9tWUpCc084ajlmbDBTbGp1Z21iYUZtZEFHV19IZHJ0aGQzaWJEb1MyVXNsT0Vqc3JXbHY3U3QyUTRRUmFaSkFJYk04N0N6Xzg0QXRremNUTU1lUm80V1J4Z1lFZjdjRnFOSnfSAe8BQVVfeXFMTzRxU1J0RTg3NjlZN3NyemdCR3hGaHRYTWJVUEpUWnFWY08zUjl0YTFIcTdGT2dybUR1T01FRFNMRkNPemZieVRlNy1ZRDdVZlNfamo3aGVicGlrN21vVldiX1BETU14Vy1ha1BodWl6dml5eU1hUDRJLU0zMDlKc0ItU0R2a0xLUGZ4QkhrV0Z2Sm9YaUgwZXVuZ28zdGpSZ1ZDQzF0YmNUMFdTc0o2RUtVMF9jMGVGNnptVnNQSnJKYXNLUzI1X2V4UW1md2lBTjZYNXNXSGZLa0dkZE5NQm1NUUVMZTRGcklaNEpkX3c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORi1VaE03UTRUMUR4YUFBM2o2WkNSdENNbWRONzQzRzhWZFliclpGcmRjN3VzSHRqTTZmZHVOeVJ5VzNuUEZiVEM0VERDWUMxLWNUZ1pDOHpHd1lndE5Tc21QWTVJS1ZfN3FVSmdnWEdYSzZtcjFXeDdLbHkyX0wwMVdVOFpkbk9tWUpCc084ajlmbDBTbGp1Z21iYUZtZEFHV19IZHJ0aGQzaWJEb1MyVXNsT0Vqc3JXbHY3U3QyUTRRUmFaSkFJYk04N0N6Xzg0QXRremNUTU1lUm80V1J4Z1lFZjdjRnFOSnfSAe8BQVVfeXFMTzRxU1J0RTg3NjlZN3NyemdCR3hGaHRYTWJVUEpUWnFWY08zUjl0YTFIcTdGT2dybUR1T01FRFNMRkNPemZieVRlNy1ZRDdVZlNfamo3aGVicGlrN21vVldiX1BETU14Vy1ha1BodWl6dml5eU1hUDRJLU0zMDlKc0ItU0R2a0xLUGZ4QkhrV0Z2Sm9YaUgwZXVuZ28zdGpSZ1ZDQzF0YmNUMFdTc0o2RUtVMF9jMGVGNnptVnNQSnJKYXNLUzI1X2V4UW1md2lBTjZYNXNXSGZLa0dkZE5NQm1NUUVMZTRGcklaNEpkX3c?oc=5"
+      },
+      {
+        "title": "The best South African national parks to visit this summer",
+        "reports": 1,
+        "press": [
+          "The South African"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The best South African national parks to visit this summer",
+            "press": "The South African",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXFpbjZlTE1oU2RZQjA2Z214ejgtWWNxc3gyZWQzWEhfNEFSaXE5QTdxdVFURUdSSTBSVzVvN0dwbjlQMzVWbXRreGJQbHRUdGoxRjdEX0FGYnNjaW5TUlNsRHhKNWh0N185R0FSRDdocTFtRmNuMEhGR2NMblhCOTFWMDVPTlFqYVhfeVBwWmlkTWpzbnoxYnZqMVZJSkRubmxZeWxEMmdxNjJOUUQ1UTdVcmlFd1did2FFNWdR?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXFpbjZlTE1oU2RZQjA2Z214ejgtWWNxc3gyZWQzWEhfNEFSaXE5QTdxdVFURUdSSTBSVzVvN0dwbjlQMzVWbXRreGJQbHRUdGoxRjdEX0FGYnNjaW5TUlNsRHhKNWh0N185R0FSRDdocTFtRmNuMEhGR2NMblhCOTFWMDVPTlFqYVhfeVBwWmlkTWpzbnoxYnZqMVZJSkRubmxZeWxEMmdxNjJOUUQ1UTdVcmlFd1did2FFNWdR?oc=5"
+      },
+      {
+        "title": "2027 Seward Wildlife Cruise Buyer’s Guide",
+        "reports": 1,
+        "press": [
+          "https://www.thetraveler.org/"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "2027 Seward Wildlife Cruise Buyer’s Guide",
+            "press": "https://www.thetraveler.org/",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEV2h0S0VxRm1iTkwtalFoWEVXMXgtdVRpNWdCVXBwVkpsQjFyQklHZTlBa09vQlB0dWllVklQVmpYZGxybWxzRUJDQ3A5cm9IZER3dldBWjJCWHVwSFkwV1VkQW1GSGVja0pWUXlJaEdIbUtIRDA3NA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEV2h0S0VxRm1iTkwtalFoWEVXMXgtdVRpNWdCVXBwVkpsQjFyQklHZTlBa09vQlB0dWllVklQVmpYZGxybWxzRUJDQ3A5cm9IZER3dldBWjJCWHVwSFkwV1VkQW1GSGVja0pWUXlJaEdIbUtIRDA3NA?oc=5"
+      }
+    ]
+  }
+}
