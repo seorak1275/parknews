@@ -1,9 +1,9 @@
 {
   "month": "2026-11",
-  "days": 16,
+  "days": 17,
   "from": "2026-11-01",
-  "to": "2026-11-16",
-  "generatedAt": "2026-11-16T20:24:48.184Z",
+  "to": "2026-11-17",
+  "generatedAt": "2026-11-17T22:17:07.568Z",
   "kr": {
     "rows": [
       {
@@ -254,7 +254,7 @@
       },
       {
         "title": "“가을철 수리산도립공원 산행 안전사고 조심하세요”",
-        "reports": 14,
+        "reports": 16,
         "press": [
           "부천포커스",
           "경기도뉴스포털",
@@ -269,9 +269,11 @@
           "이코노뉴스",
           "한국공공정책신문",
           "투어코리아",
-          "수도권지역뉴스"
+          "수도권지역뉴스",
+          "환경일보",
+          "이트레블뉴스"
         ],
-        "outletCount": 14,
+        "outletCount": 16,
         "articles": [
           {
             "title": "“가을철 수리산도립공원 산행 안전사고 조심하세요”",
@@ -499,7 +501,7 @@
       },
       {
         "title": "국립공원공단, 겨울철 대설·한파 대비 안전관리 강화",
-        "reports": 9,
+        "reports": 10,
         "press": [
           "대한민국 정책브리핑",
           "전기신문",
@@ -615,6 +617,64 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1QmVJV0U0NlViOTBZbTlxc3FWc1dxcGdZbTVDdFlNOXZMaDNCWVBWMlFnZ0ZKZzNnc3FRTmxmMGlnQTJPaHRORjJNcVhKQ1lkNjFodHNiQWR1T3RRUzZwSGhNZXBUZmZ6aEJj?oc=5"
       },
       {
+        "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
+        "reports": 8,
+        "press": [
+          "https://www.theleader.co.kr/",
+          "더코리아",
+          "서울뉴스통신",
+          "일간투데이",
+          "LG헬로비전",
+          "더페어",
+          "이트레블뉴스",
+          "진일보 | 전남일보"
+        ],
+        "outletCount": 8,
+        "articles": [
+          {
+            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
+            "press": "https://www.theleader.co.kr/",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWdUszRE94RDdQTjBFVnJJT2RlQ1k1SzA4RFZSRHFfQWE5clJzaWo3YzVWVjdBeWcwNVdxMk1ZZ1A0YkkzekFBWElSWGFfb2NjeUY2T0hKZGF4VTZjdmRYaUtsc2hJRGZhNFI1Rk1n?oc=5"
+          },
+          {
+            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비 > 뉴스",
+            "press": "더코리아",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hWkF3VEFwWjV5bVpvN0xHZGQ0WjNyOU15eWlZTVFnR2Jqd1Uyd0FwTFRmak9IaFFfZU5FMy1fZUtIS05IUFpnTktncw?oc=5"
+          },
+          {
+            "title": "해남군, 12월까지 두륜산 도립공원 탐방로 대대적 정비",
+            "press": "서울뉴스통신",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4VmtxLU9jNDBRQnU3clMyTzJBT0dOQlo4VGdUZGtvTEdjdFJCVnlmR0RZQ0xzbGpZc3VmZHdMNjRtS3pKd21JcExYa0lUWURVR3BwQXAyVU5GMDVab3J0ZXFLZkxRdkdBTjc4?oc=5"
+          },
+          {
+            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
+            "press": "일간투데이",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JZk9obmR5bVFoMGx0RElqSFRka2VOZ3Y1bEZ5YUZ4OTdLdUlScGdFSkE2RTB6aldYeUdiWG5RbUprQk9zR193dWxwYjVrT2lMWlViUU4tX3JvMWRkVWZJOTI0TUZyMXZ4Z1hj?oc=5"
+          },
+          {
+            "title": "해남군, 두륜산 도립공원 주요 탐방로 정비",
+            "press": "LG헬로비전",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qcVgtaGZjak5QNndmSEhuM0FNY05hT3N1eHNLZ0dZMF91RXgyaFhEaWxBSU1LbDRLTDlxdjdYQWF1MU9GajlHMGdhTmt3RDBfektzdUJ0VTBXUTI1S3lQX3J0aURvNnFlLUtfWkpaOTMyUdIBdkFVX3lxTE1BNVlBLXlINlhwZ3N6Tk5ONGFoQ0dkX2QtRXZ6dldKbERHeE1zb0R4aVkxZ01YRVlka3poTHE2U2RYckkzZFpIUHcxbEJnQkRDM1o2Ym5fRTk0RGtSS0JYQW5SRndEdkozRGwyRnF1eEN6TndaVkE?oc=5"
+          },
+          {
+            "title": "해남군, 두륜산 탐방로 정비…겨울철 안전사고 예방",
+            "press": "더페어",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RM1dTU3hJWV9zZ1FzRmRjd0VfTlB5ZHppbFZLY1BlY01HZWVTYzZvVWJJd0I0SThCS1JjZEJMZUd3Szd6eV9jUzEzaHdfTGRpV0hRWkJhZ0t6T2hhWlpzMjlGUXFjRWoxbklfZ3c2MXjSAXRBVV95cUxPcTk2c3hvMVduaEU2QmNRMlFjVVhTQnRoQmlzY18xcV93NzJYVjJPcFVvMmZVZlVFZFpKUjUxTmNFbGx0N01oQkQxQU0tSGtZMVdJTGFwWVNFcTc4amJFNFpvcGF6bmJxYUxDeUpoQldteFFmYQ?oc=5"
+          },
+          {
+            "title": "해남군, 두륜산 도립공원 탐방로 정비 사업 착수",
+            "press": "이트레블뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8wUmUyVFBhaGZhMGI1MkRSdER2UFg3NE9BbERxc0d1N0hqS1hlOXJ6S0lfRW5aWXFxczZ1YlFlWWc0dXkw?oc=5"
+          },
+          {
+            "title": "해남군, 연말까지 두륜산 도립공원 탐방로 안전 정비",
+            "press": "진일보 | 전남일보",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Kbl9DeHBxZmhfb0VIZllRcVk0elJkWXIwV2ZLM3lGMzJPR0VHcmJSVDA4cjFZd1J0UE1JU2FFRWtfVGgtUE5ZbHNJeTJWdzZ5Rnd6NlBGQU05QWhoaTE2MzREU29ITzh0QlMxck02TQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWdUszRE94RDdQTjBFVnJJT2RlQ1k1SzA4RFZSRHFfQWE5clJzaWo3YzVWVjdBeWcwNVdxMk1ZZ1A0YkkzekFBWElSWGFfb2NjeUY2T0hKZGF4VTZjdmRYaUtsc2hJRGZhNFI1Rk1n?oc=5"
+      },
+      {
         "title": "\"산불 예방\" 경주국립공원, 15일부터 한 달 탐방로 10곳 통제",
         "reports": 7,
         "press": [
@@ -667,50 +727,50 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmOTI1dE95Q2tDelpYWGt0eFFOMWRFTXFlX20tQUVGeXRtazRsRzc4MEt5UjhTaTV5b0VHS0laMEY4WV85bDIxemk3Uy1vVUlzcWhxVWxPTUFsY1NVOTBRc9IBeEFVX3lxTE5ROUYtb2d2ZlBKMVdTN3BpSldUMkxvMmNGaHdfeFR0YWNUNWFuZ1RBNWx5andkWEhTSkE0dTkzakR0OEtaRXJ3cW1vaXhvT1lNOVZhTUZsS01XZnZnblpJdk8wMkdSTnZvS0dCUjNwZ2U3akYzdU9rYg?oc=5"
       },
       {
-        "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
+        "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선 촉구",
         "reports": 6,
         "press": [
-          "https://www.theleader.co.kr/",
-          "더코리아",
-          "서울뉴스통신",
-          "일간투데이",
-          "LG헬로비전",
-          "더페어"
+          "경북신문",
+          "다경뉴스",
+          "세명일보",
+          "대경일보",
+          "대한투데이",
+          "웹이코노미"
         ],
         "outletCount": 6,
         "articles": [
           {
-            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
-            "press": "https://www.theleader.co.kr/",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWdUszRE94RDdQTjBFVnJJT2RlQ1k1SzA4RFZSRHFfQWE5clJzaWo3YzVWVjdBeWcwNVdxMk1ZZ1A0YkkzekFBWElSWGFfb2NjeUY2T0hKZGF4VTZjdmRYaUtsc2hJRGZhNFI1Rk1n?oc=5"
+            "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선 촉구",
+            "press": "경북신문",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52S0l2Wm1HRFMwYnlDcGpxQWdJdWdic3BYYWQwMk9aZFVvUHE2ZTNfTDV1NkJWRms3TlpOWW9jV0NqMDZsUlFwcGVQSFlrWmJuczZhU3FfdEE?oc=5"
           },
           {
-            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비 > 뉴스",
-            "press": "더코리아",
-            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hWkF3VEFwWjV5bVpvN0xHZGQ0WjNyOU15eWlZTVFnR2Jqd1Uyd0FwTFRmak9IaFFfZU5FMy1fZUtIS05IUFpnTktncw?oc=5"
+            "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선 및 재산권 보호 촉구 결의문 발표",
+            "press": "다경뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5CODVpZ3c4Q2JjTWpVMDlmTk4yVkY1MkFtMEFLMjFRSFR0a0dIVDU3ZDEzbVdzRTVlc2JNWEVpVlJwSG1Y?oc=5"
           },
           {
-            "title": "해남군, 12월까지 두륜산 도립공원 탐방로 대대적 정비",
-            "press": "서울뉴스통신",
-            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4VmtxLU9jNDBRQnU3clMyTzJBT0dOQlo4VGdUZGtvTEdjdFJCVnlmR0RZQ0xzbGpZc3VmZHdMNjRtS3pKd21JcExYa0lUWURVR3BwQXAyVU5GMDVab3J0ZXFLZkxRdkdBTjc4?oc=5"
+            "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선",
+            "press": "세명일보",
+            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nWklabjNFWlZMN05tc1RRRnVPeUdfbFlUbk5QNlhyRXFYZms1cFZ2YXJUdTZpaXA4QTI3TExaT0VKYWdlQS1xWURoYTkxTml3MUt0eHdqSFpZMUNIcXlxb1hVMEVuZms2U2h2OXJnQlM?oc=5"
           },
           {
-            "title": "해남군 12월까지 두륜산 도립공원 탐방로 정비",
-            "press": "일간투데이",
-            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JZk9obmR5bVFoMGx0RElqSFRka2VOZ3Y1bEZ5YUZ4OTdLdUlScGdFSkE2RTB6aldYeUdiWG5RbUprQk9zR193dWxwYjVrT2lMWlViUU4tX3JvMWRkVWZJOTI0TUZyMXZ4Z1hj?oc=5"
+            "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선과 재산권 보호 결의문 발표",
+            "press": "대경일보",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzeGEyMFA1SHM4ZzVsM3dlYmk0RE5WeTQ2b1RQOGlLSXJGUERWLVl4N29OUjAzaFJiSWl0UkFKNEwyTEpFbDFXcjJ6RFB5RnlUdWI4MlJzdGEwMk1zVGxVZFF2YUNKWWYy?oc=5"
           },
           {
-            "title": "해남군, 두륜산 도립공원 주요 탐방로 정비",
-            "press": "LG헬로비전",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qcVgtaGZjak5QNndmSEhuM0FNY05hT3N1eHNLZ0dZMF91RXgyaFhEaWxBSU1LbDRLTDlxdjdYQWF1MU9GajlHMGdhTmt3RDBfektzdUJ0VTBXUTI1S3lQX3J0aURvNnFlLUtfWkpaOTMyUdIBdkFVX3lxTE1BNVlBLXlINlhwZ3N6Tk5ONGFoQ0dkX2QtRXZ6dldKbERHeE1zb0R4aVkxZ01YRVlka3poTHE2U2RYckkzZFpIUHcxbEJnQkRDM1o2Ym5fRTk0RGtSS0JYQW5SRndEdkozRGwyRnF1eEN6TndaVkE?oc=5"
+            "title": "청송군의회,‘주왕산국립공원 산불피해지 규제 개선 및 재산권 보호 촉구 결의문’발표",
+            "press": "대한투데이",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVQS1POU5Pc2RmVjllbVRvZW9FRU5HUllsRmlheXVmZU9hOXVuUC16Y3FrY0lhc0dxZ3dpaGlQTzVqRWhwOGwxaFA2TEk3SFMzMkNWX182RVhnOUltLTRRU0hUeHk0RnVmUUE?oc=5"
           },
           {
-            "title": "해남군, 두륜산 탐방로 정비…겨울철 안전사고 예방",
-            "press": "더페어",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RM1dTU3hJWV9zZ1FzRmRjd0VfTlB5ZHppbFZLY1BlY01HZWVTYzZvVWJJd0I0SThCS1JjZEJMZUd3Szd6eV9jUzEzaHdfTGRpV0hRWkJhZ0t6T2hhWlpzMjlGUXFjRWoxbklfZ3c2MXjSAXRBVV95cUxPcTk2c3hvMVduaEU2QmNRMlFjVVhTQnRoQmlzY18xcV93NzJYVjJPcFVvMmZVZlVFZFpKUjUxTmNFbGx0N01oQkQxQU0tSGtZMVdJTGFwWVNFcTc4amJFNFpvcGF6bmJxYUxDeUpoQldteFFmYQ?oc=5"
+            "title": "청송군의회, 주왕산국립공원 산불피해지 규제 개선 촉구",
+            "press": "웹이코노미",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0NVhQU1dRaEtyZm5xSXphWm9PSW5fSzZJaWtZRHFHUkE1U0tocm1CcGpYZkhXSkJzTmNWa3dqZmNpTk9Lb1ZfNlh0MVRhTTFIOS0tZlpqMzUxY1dwS2kxSi1XOThyb19ua19sekdFQ2ZpZw?oc=5"
           }
         ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWdUszRE94RDdQTjBFVnJJT2RlQ1k1SzA4RFZSRHFfQWE5clJzaWo3YzVWVjdBeWcwNVdxMk1ZZ1A0YkkzekFBWElSWGFfb2NjeUY2T0hKZGF4VTZjdmRYaUtsc2hJRGZhNFI1Rk1n?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52S0l2Wm1HRFMwYnlDcGpxQWdJdWdic3BYYWQwMk9aZFVvUHE2ZTNfTDV1NkJWRms3TlpOWW9jV0NqMDZsUlFwcGVQSFlrWmJuczZhU3FfdEE?oc=5"
       },
       {
         "title": "성주 가야산 가을산행대회 성료",
@@ -797,6 +857,46 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBYckw4RnUwQjYzSnNveEo5dGxtcElFOFpGVE9HQm1KWjVuQXczeU4weGlxMjcwRHhkdm1XNTVsTGlmc3M?oc=5"
+      },
+      {
+        "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
+        "reports": 5,
+        "press": [
+          "국제뉴스",
+          "춘천MBC",
+          "경북신문",
+          "청송군민신문",
+          "서울Pn"
+        ],
+        "outletCount": 5,
+        "articles": [
+          {
+            "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
+            "press": "국제뉴스",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
+          },
+          {
+            "title": "강원도, 가을철 국립공원 산불예방 캠페인 진행 ::::: 기사",
+            "press": "춘천MBC",
+            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93a241Zjd4akNwc2pMRjVTLUtEQUlxYUMtS0M1UDR5SjVaVlpBemV0SEd1TTRaTDhtR01FUDA5SWlVZWt3ZTdaS2I5WlI?oc=5"
+          },
+          {
+            "title": "주왕산국립공원, 합동 산불예방 캠페인 실시",
+            "press": "경북신문",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Pd3M1NHpqWnBIdFJvLU42SHhsLWttNHQ5cHMtWWtpcnJINS1walg5bzFqblJiOEt5N3FCRWtQVEpWR21jenRYaGNMTEh4Uk1kNl9vQnkzTlA?oc=5"
+          },
+          {
+            "title": "주왕산국립공원, 관계기관 합동 가을철 산불예방 캠페인 운영",
+            "press": "청송군민신문",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEZzBRVnVyMWFrcXVRNndFaWlPRF9mazJqTTM0V0d1UXFrVl9JRTViTmxndS04SGFjV2gyc1prZzc0SDdMVVZQcnlEQkowdHBmSUdJTWpvd2lWWWJiSjY1MzEtUXRPUTZrZDNrbV9XX0RaTUE?oc=5"
+          },
+          {
+            "title": "산림청 익산산림항공관리소, 국립공원관리공단 내장산관리소와 합동 산불예방 캠페인 실시",
+            "press": "서울Pn",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUlExMVh1V0VoSnA2WDlkYnFNakkyX0RaRTdLRXZNYXZ6OS16dkVzWDV2bVlySnppdk1FYV9ZTFAwdkc2YktUZFYtUjZ4ZXd6bmdWQkVickwtcHRnNHN2YzBEUGliQmJQandsUDhKRmYwbGxESE0xRW5LRF9PR24yXzdLN0ExTC1oU01yMA?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
       },
       {
         "title": "인제 백담사 진입로 정비 마무리…백담계곡 탐방로 개통",
@@ -944,40 +1044,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vcmF6ekN3X2c5clctaUtrMmR2djF3cEdyLVpVWmFmOUJhaDQtcFUyU01najZnbEpCMlJuMkRLU0RUWE1aSTROcGhEa0Jha3A1VlBkb3d0d3ZMV0MyRlFNMXZRVGY?oc=5"
-      },
-      {
-        "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
-        "reports": 4,
-        "press": [
-          "국제뉴스",
-          "춘천MBC",
-          "경북신문",
-          "청송군민신문"
-        ],
-        "outletCount": 4,
-        "articles": [
-          {
-            "title": "가을철 산불조심기간 맞아 강원 국립공원서 합동 산불예방 캠페인",
-            "press": "국제뉴스",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
-          },
-          {
-            "title": "강원도, 가을철 국립공원 산불예방 캠페인 진행 ::::: 기사",
-            "press": "춘천MBC",
-            "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE93a241Zjd4akNwc2pMRjVTLUtEQUlxYUMtS0M1UDR5SjVaVlpBemV0SEd1TTRaTDhtR01FUDA5SWlVZWt3ZTdaS2I5WlI?oc=5"
-          },
-          {
-            "title": "주왕산국립공원, 합동 산불예방 캠페인 실시",
-            "press": "경북신문",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Pd3M1NHpqWnBIdFJvLU42SHhsLWttNHQ5cHMtWWtpcnJINS1walg5bzFqblJiOEt5N3FCRWtQVEpWR21jenRYaGNMTEh4Uk1kNl9vQnkzTlA?oc=5"
-          },
-          {
-            "title": "주왕산국립공원, 관계기관 합동 가을철 산불예방 캠페인 운영",
-            "press": "청송군민신문",
-            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEZzBRVnVyMWFrcXVRNndFaWlPRF9mazJqTTM0V0d1UXFrVl9JRTViTmxndS04SGFjV2gyc1prZzc0SDdMVVZQcnlEQkowdHBmSUdJTWpvd2lWWWJiSjY1MzEtUXRPUTZrZDNrbV9XX0RaTUE?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ySUdpdlZWQzZROHJ5TXJsd2ZBQklLZlNmQXdyWjVHcHpJSFQ5U3Z1V3Q5alpWQU5RY1FJTC1ITmE1d3NfYzFLejZ0cUxhamlwVXhKaXNmSUI3a1hySHQ5aURPY1JGZGtyQzFyc0xB?oc=5"
       },
       {
         "title": "치악산 국립공원, 산불 예방 캠페인 전개",
@@ -1736,6 +1802,28 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TYlpGUzk0cFJtQjN2MkdzeUxVbklZY2dRR0pRS0JTMTFuVEIzNFJxSUhzRjBkOWxETGMzVDMyUVNodW5fcnN3YUs2NlliVHI4dmplSUg2ekUyclFDc21EMGRQbVNsSHlrbFE?oc=5"
       },
       {
+        "title": "광양시, 백운산 국립공원 지정 염원 담은 시민음악회 성황리 개최 > 뉴스",
+        "reports": 2,
+        "press": [
+          "더코리아",
+          "굿모닝투데이"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "광양시, 백운산 국립공원 지정 염원 담은 시민음악회 성황리 개최 > 뉴스",
+            "press": "더코리아",
+            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfazlXOTR1VmhUNm1hdlhqdVdleFNqVUxkTVlXWW0xZldEaXBYT3JENXVfSGVsTVBCQnFTVnM5MVROT1RKLV9idzlZUQ?oc=5"
+          },
+          {
+            "title": "'백운산 국립공원 지정 염원' 시민음악회",
+            "press": "굿모닝투데이",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Va25RVUZFekE3a3BTR2FxNTdDdTkzb0V2RHF2SklaZWNoQldVcl9lajJMdlVyUXBxYjRXV3lYSll4aVNWV2RkVXBPLVVXRG5wVzZrWGdfbUszSjlJVmxXM1VqMDhwSGV4R0E?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfazlXOTR1VmhUNm1hdlhqdVdleFNqVUxkTVlXWW0xZldEaXBYT3JENXVfSGVsTVBCQnFTVnM5MVROT1RKLV9idzlZUQ?oc=5"
+      },
+      {
         "title": "속리산국립공원–스템코, 도명산서 청렴 캠페인 및 환경정화 실시",
         "reports": 2,
         "press": [
@@ -1956,6 +2044,28 @@
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GaHliVTJBMGxES1BibmFETTRWZnFncGNnRTFnazVDalROLW1XMTBaWVF1TmlxUmZjd2M3MVNkMEhMeURZMXl3VzdGX1ZFZlZvajVJUVhURE0zWlNUajNwR200VjRUX05WMjRGRlA4WklVR2c?oc=5"
       },
       {
+        "title": "덕유산국립공원 멸종위기종, 지역 작가의 손끝에서 만나다",
+        "reports": 2,
+        "press": [
+          "내외일보",
+          "투어코리아"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "덕유산국립공원 멸종위기종, 지역 작가의 손끝에서 만나다",
+            "press": "내외일보",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sVjBtUFRBemRXLW5RMkhWNzRsV0tQZWtydVpncUx4QmVMbHhOaklMN1ZfdTNYZDlXY2l0VTdYYWQzR01ReG9EcDFFYXIteHJuVlM4dFhoRzFaRTJ4Zk5SamRwR1pmSV9IV1RqaDNDNA?oc=5"
+          },
+          {
+            "title": "덕유산 멸종위기종, 무주장애인·노인종합복지관 작가 38명의 손끝에서 예술로 피어나다",
+            "press": "투어코리아",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfbFM2c0lPVG9kSzk5X0JMaHdhVXhqMDZDVHlJZE5oeEFybVpvXzloSTE4dkVhUFo4TWZ0Wk9yWEtONkMybGxoR3lGR1VGZXpQdWxyMGw5VWZyMlZKek9kZmJKdmp2NW04SWdUcmFB?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sVjBtUFRBemRXLW5RMkhWNzRsV0tQZWtydVpncUx4QmVMbHhOaklMN1ZfdTNYZDlXY2l0VTdYYWQzR01ReG9EcDFFYXIteHJuVlM4dFhoRzFaRTJ4Zk5SamRwR1pmSV9IV1RqaDNDNA?oc=5"
+      },
+      {
         "title": "동나이성은 깟띠엔 국립공원을 인수하고 유네스코에 제출할 서류를 준비하고 있습니다.",
         "reports": 6,
         "press": [
@@ -1998,7 +2108,7 @@
       },
       {
         "title": "11월 24일에는 독립궁, 여러 박물관, 국립공원에 무료로 입장할 수 있습니다.",
-        "reports": 4,
+        "reports": 5,
         "press": [
           "Vietnam.vn"
         ],
@@ -2023,6 +2133,11 @@
             "title": "베트남 문화의 날에는 13개의 역사 유적지, 박물관, 국립공원이 무료 입장을 제공합니다.",
             "press": "Vietnam.vn",
             "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV3pxREFtYzJBZ1drWDRsYWhsd0xRYlRvelJtOXFOal8waG9IeFA4UEJ0VHNCZWR4S0ZQVFNuSDZBU1ZBVklqdXRGUUZ2ZV9FdHZ6MGdrWF9saTBsOTVZT1lXQkY5blptc0JjY1lrQlh0U2dMbUxNbk5BbGdxSjZqY1dJcGk0UXJJZTBhTUZYdmI2NE5uY2F3V1RBS0taZDNsUkdaMQ?oc=5"
+          },
+          {
+            "title": "베트남 문화의 날에는 13개의 역사 유적지, 박물관, 국립공원에 무료로 입장할 수 있습니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT29VdXEyblZTdWNfblRSelB6Wk16WXJ0SnNZZzVTLTBPRklPYzMzSnBhWVVueXF0M2VFRm1DWnBVQzAxaXdfbElpSmo5Z1ExbWF5TTQ3cVNFR0cwYUdpSmxFX1J0SmJjR21xMWJWcC1kQklNdXkyb28xdFNOWWdfU28tUjlkUFdpejl0TlR0Rl9ic0VFUnp4WW1PYURlX0xhRUxVZ0swOA?oc=5"
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObThNclJiTmtBeEJBeTZMRHBxRWQ3dEdfSklXaXFYQktwV013dlRic3liM1NyVkZqbkd3WTFaMEpPdWpxakpYOG83VktIcGlCcmREUmRsNWpmTU5WXzEyemRTbHlFazBpSV9ZR2NCd3hIdGpNQ09KRFRsamxTNXE4ZWIyTjNPODFHZG5NLWE4Vl9TbVI2SWltNHB3R09lZDdqaFAyRms1Zw?oc=5"
@@ -2216,6 +2331,27 @@
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS0R3OW9UVTJwVFpRQ1dUTF9lczJoR192anJVM1dwMEZoWWJlcjVCcEhiVzkzOUVtYk1GeXRDXzdQYTloU1ViNXVURF9SR2R5b1lxVk1vb1FqaTN6c2xlT3dyVUV4X0Q1akZLU3dVS0llSDZBTFlnaG9jc1o1dVBmem9zRHBuMzUzUTAwTG05SWtzdjF4MUNtT0FEalZxaHJsNWxJcVFwTU9FUUVQcndLN2xzS0xFaDdxcEo3QzQ5QQ?oc=5"
       },
       {
+        "title": "깟띠엔 국립공원의 통합 관리는 지역 주민들에게 더 많은 생계 기회를 제공합니다.",
+        "reports": 2,
+        "press": [
+          "Vietnam.vn"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "깟띠엔 국립공원의 통합 관리는 지역 주민들에게 더 많은 생계 기회를 제공합니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTkdOY0JOdzBVaVo0X2NtMkhsN3VlM1dVTzgyM1piUm1FZGM4b2VwZFJBWnBrbTJ3OUlMYldBVnA1TUVENzJ0RnhtUUFZN1dyWnE0b3RMZEw2Y1pmZFdmSlBPSWhzdDVLTHluZjZyQzBZLVVwQXdKVERveGFEZURMQXREenozaXpIQ0VOWVNfQVFBeXFJLUdnMHpyVTlVajBIYkJ5X0FxZw?oc=5"
+          },
+          {
+            "title": "깟띠엔 국립공원은 바우사우 지역에 무료 입장을 제공합니다.",
+            "press": "Vietnam.vn",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQVh4a1I5X0RjcktMYTZ5ZFREcUtiUTZkUlhTbGo1ZmtmcUVrX3ItM3AxUWNlY0JkRUF0N21aOFZaVUFfYUwzM1F5QUdCZmNlcEQwUm5xRnNseU1vTGJ3R1laQ3ZZNjM5Q3FBVjNmVi1hNUxHdVR4cklZUGxhaEZKTDR6M0I5Smt6eXBKM2V2bw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTkdOY0JOdzBVaVo0X2NtMkhsN3VlM1dVTzgyM1piUm1FZGM4b2VwZFJBWnBrbTJ3OUlMYldBVnA1TUVENzJ0RnhtUUFZN1dyWnE0b3RMZEw2Y1pmZFdmSlBPSWhzdDVLTHluZjZyQzBZLVVwQXdKVERveGFEZURMQXREenozaXpIQ0VOWVNfQVFBeXFJLUdnMHpyVTlVajBIYkJ5X0FxZw?oc=5"
+      },
+      {
         "title": "상생과 치유의 길 이은 ‘백담분소~백담사’ 탐방로 개통",
         "reports": 2,
         "press": [
@@ -2357,70 +2493,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FMVctRDFXcE5xMkJuMndNMG44dFFBbzZIeVBQZkE2MW8xejl6UHBoQ0ZIRGhxb1pvSExTSkRVMUlQY0dRb1lnQklydjFvTWNjV2ZOMA?oc=5"
-      },
-      {
-        "title": "치킨 들고 국립공원 찾은 BBQ…국립공원 지키는 직원들에 감사 전해",
-        "reports": 1,
-        "press": [
-          "스포츠서울"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "치킨 들고 국립공원 찾은 BBQ…국립공원 지키는 직원들에 감사 전해",
-            "press": "스포츠서울",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpbmhHR0FoX1ZTSE9TdHJIdk9jQXFpWVpZM2pQWW5JMHlQTnFVWVZIbEdDcE9vQVVFM0ZaYy1DQmxCNUhUR0FLQVgyN19DT01HUmFsYTJXSzI?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpbmhHR0FoX1ZTSE9TdHJIdk9jQXFpWVpZM2pQWW5JMHlQTnFVWVZIbEdDcE9vQVVFM0ZaYy1DQmxCNUhUR0FLQVgyN19DT01HUmFsYTJXSzI?oc=5"
-      },
-      {
-        "title": "한국산림과학고, 국립공원공단과 소백산 생태 체험교육 실시",
-        "reports": 1,
-        "press": [
-          "국제뉴스"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "한국산림과학고, 국립공원공단과 소백산 생태 체험교육 실시",
-            "press": "국제뉴스",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uMUhuUlpOSl9qamdIRTluZzRHUFJoaWlVX2gwRHpmdFRVQUZGVnVIWnhmQVo0ZVdIdWFZVjhBZWZEYmk0djlWQ0JmaHQ4WWFhbXZEOGVyRmJEejh1WUUxeHZPc3Z5VXVWdTNacmxR?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uMUhuUlpOSl9qamdIRTluZzRHUFJoaWlVX2gwRHpmdFRVQUZGVnVIWnhmQVo0ZVdIdWFZVjhBZWZEYmk0djlWQ0JmaHQ4WWFhbXZEOGVyRmJEejh1WUUxeHZPc3Z5VXVWdTNacmxR?oc=5"
-      },
-      {
-        "title": "소백산생태탐방원, 친환경 숲 결혼식 개최…예비부부 2쌍 화촉",
-        "reports": 1,
-        "press": [
-          "경북매일"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "소백산생태탐방원, 친환경 숲 결혼식 개최…예비부부 2쌍 화촉",
-            "press": "경북매일",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lWkctQVZfeE1tY01hc01Xc0VBaG1hbDJ5TnJuUHl2TnRmclhaZk52SFJ6aHlYeXBYdVB1RTNUWkJtTkhDZ01RbzdVbWd2MEVYbEltRmdjM21GZw?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lWkctQVZfeE1tY01hc01Xc0VBaG1hbDJ5TnJuUHl2TnRmclhaZk52SFJ6aHlYeXBYdVB1RTNUWkJtTkhDZ01RbzdVbWd2MEVYbEltRmdjM21GZw?oc=5"
-      },
-      {
-        "title": "해발 900m 높이, 너희가 왜 여기서 나와?···무등산 장불재에 개 두 마리가 돌아다니는 이유",
-        "reports": 1,
-        "press": [
-          "경향신문"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "해발 900m 높이, 너희가 왜 여기서 나와?···무등산 장불재에 개 두 마리가 돌아다니는 이유",
-            "press": "경향신문",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45SFRHMjdmaVhCcUNERlZKbmE1bEdXRENJNTM1YUc3MzBmdGRxN3RZRzNwdThjUGpxTTlCcFZRZzJsZ08xeFA2ckk4OG9Uc3gxeWZldWNqeTZrUdIBX0FVX3lxTE1OZEYzUkF2WW15aGdObHU3WnI4M1J4b19reHp0RXZsQ29RY2t6VkJjSEd0NnBDejNvWV9laWMxR0RIUHpJR3Q3TkhPY0ZCNjdpcDFMdHBCV3VBY2x4enFJ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45SFRHMjdmaVhCcUNERlZKbmE1bEdXRENJNTM1YUc3MzBmdGRxN3RZRzNwdThjUGpxTTlCcFZRZzJsZ08xeFA2ckk4OG9Uc3gxeWZldWNqeTZrUdIBX0FVX3lxTE1OZEYzUkF2WW15aGdObHU3WnI4M1J4b19reHp0RXZsQ29RY2t6VkJjSEd0NnBDejNvWV9laWMxR0RIUHpJR3Q3TkhPY0ZCNjdpcDFMdHBCV3VBY2x4enFJ?oc=5"
       }
     ]
   },
@@ -2551,6 +2623,64 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaHk1TmRUZkxYMVZEQlYtcUFvcVE2WHF1WjlIRDdrRFdGazI0RkZ3Y1BYM2tTczNwN0dWeEMwX2FqTE9MRlh4SmNVV2JXUVk3bnAtT2M4RU9HUnV5R1NsT3RnNkFGSXFuUjZpVTBGXzVNajZPdmpsTFdCWGpSaXdwTmhmNEMzcTFHaWlaZjYtaXlhZXhVWVdtd2lReDYyRFJjZWd1UDM4UHl3M0wtbXpxc1J3NjZZdW1XXzlMcmdXOWowZkNwS3VVUEtDeXROSlpNNTdoUQ?oc=5"
+      },
+      {
+        "title": "3 killed in plane crash at Grand Canyon National Park",
+        "reports": 8,
+        "press": [
+          "AZ Family",
+          "KNAU",
+          "FOX5 Vegas",
+          "New York Post",
+          "KOLD",
+          "National Park Service (.gov)",
+          "LehighValleyLive.com",
+          "KUTV"
+        ],
+        "outletCount": 8,
+        "articles": [
+          {
+            "title": "3 killed in plane crash at Grand Canyon National Park",
+            "press": "AZ Family",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDZlVFdIY0FDeUNDY2NsTVNfTW9xaGtYdmE3blEzRFZYYjd0MmZRWW93WmZCckFTMm1lS0VyT1l1RERVR3JBaWRnZmlsb1l6dDM1VU84LV9wRTNvekR2dE9vX0Zsa0FUZGI4ZHlzVzRCd2hMcGNFX29YNmpYcE5NQ2E0MkhSVEhtLUZTLVoxSTlJdHlq?oc=5"
+          },
+          {
+            "title": "Three dead in plane crash on North Rim of Grand Canyon National Park",
+            "press": "KNAU",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdmRSWDFLdnVVSTJ5QlhfQWt1bFdfS3VmUnJfRWhZZXZ4MkV0NVdaM0doN2U5cldHMDQ0aFBidl9wZzdjcGpGV2oxeFZ0ZHdPcW4wdDV5clV4TTM3TDlLQlFjb1hBS1Q5SjlDVUZfWmVTc0JpTEdzck5BMzEtM1RxQm1UMkM3TURuNWFkWmlkNzJZR3p2RmpIUm81UUV0ZWVMMTQ2d3J1RzhEY1pFWUR3V1VKVE9WM28td2lFdnJoQQ?oc=5"
+          },
+          {
+            "title": "3 killed in plane crash at Grand Canyon National Park",
+            "press": "FOX5 Vegas",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUWxEOWV1ejNLNGVNR1ZLX0hzUVBqaExCenJiYWJ5eFUzdklzeVpscU55cmJMamluQWVNcVVuT3JWaUlPbmt5aDBYQ3l3TjlpeXc2b1RTVUdTZ0tFVEZlcHZ4R2ZrS3BvbXJMYkFQY1U3WFZLUnUzVFFoZ01Ea21wX0tGcVE5cDZKcFJYOF83Z1A2QkYwS0E?oc=5"
+          },
+          {
+            "title": "Three dead after plane plunges into remote area of Grand Canyon National Park",
+            "press": "New York Post",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMHJoNC1rbThqN080QXpWTDdZWVJIajY5ZWNyOTcydDdyUUFmbmM5OEpBLThXZVlqNy1SZ19rRk51TFNvVi1ydDhGU0ZWQ0NkdlNObkEyM0J2OG8yOTNYTWt3Mm16MjVRakZCVF9xdlpkMFpIXzduaGUtU3JsOV8tSFdPejktUjRaVDNtdjYwUTZoQkFIZ3B4QnRsSFpUSzhr?oc=5"
+          },
+          {
+            "title": "3 killed in plane crash at Grand Canyon National Park",
+            "press": "KOLD",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN3pnSFJFQzlpYXBHcE1WRjIxam5SV1RRcWttejFQQUdFZTRVajZVb01OVk1aWWlCWjIxS0NXeHdneHdhRmVuVDdaN0RVSVZ3dzRVSGZLNjR6bHJjZ2pBMjE5cUlRb0JzM080X2ZrbkItQk51ZG5wMHRkX001N2FfOFdreHJYT09Cb1RnMzFrNA?oc=5"
+          },
+          {
+            "title": "Missing Aircraft Located on the North Rim of Grand Canyon National Park",
+            "press": "National Park Service (.gov)",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMFhwUVVoQy1OVGZtVmZiUkZ3SEQwVTJtajZZMHhRMjFJbFJ5ZWo1TDNhRGNRVERTMVFUM3hocHdiMHBrYmxzdnNHT2hzU3lkYlBiNGRaVzRSb1B5N1REdTgzWXpFcWw0d2h3SWJsM2VyQndOakJ5NlZ6MDdMY3ZqOFkyM1hfcXBf?oc=5"
+          },
+          {
+            "title": "3 dead after plane crash in Grand Canyon National Park",
+            "press": "LehighValleyLive.com",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSGg0LTZSQzRhVk51UkVIUzI5OWZKYU1MeTVrSE5vQ2ljVDh4Y1ZhMWxrRk15bGVJQldKY1c0cWowZUotb2ZuUmtOUzB6UVo5MjRzMUladmlmYW5uN0FQMXhaMUY1Z1dGbTVUMDFxMGh5VEhwY2VJWVQ0emhlSmo2RkhkYXRib091NUlfbTJpYUp1UkpJbnhsZG1SOWNwTmxQeE9fcTNBVVU?oc=5"
+          },
+          {
+            "title": "Three people killed in plane crash near North Rim of Grand Canyon National Park",
+            "press": "KUTV",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPblZMMFZEb080bE44djVqQi1hckVVVHFzTURhcHBzMTA1OGxqbGc2a2JSLXRxQnhfNWxYd2gzNU5vYTN0UlcxMGZqWXRUNjUycENOWGpKWVBNVEdQQmQzckJ4VG94ZlMwMFdmNDBISDFEWnNINHROR0U2eVg4Mi01dG4yWGVwcVh5SkZLaFVJUGU5TVZ4N0Z0MGFjV0I0MVl0QktJVDZJY3RyVTNTdkxJbGRqT0c?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeDZlVFdIY0FDeUNDY2NsTVNfTW9xaGtYdmE3blEzRFZYYjd0MmZRWW93WmZCckFTMm1lS0VyT1l1RERVR3JBaWRnZmlsb1l6dDM1VU84LV9wRTNvekR2dE9vX0Zsa0FUZGI4ZHlzVzRCd2hMcGNFX29YNmpYcE5NQ2E0MkhSVEhtLUZTLVoxSTlJdHlq?oc=5"
       },
       {
         "title": "Trail Ridge Road in Colorado's Rocky Mountain National Park closed for season due to snow, ice",
@@ -3632,6 +3762,50 @@
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTS0weHd1YnBLMkNzay1Cak5GTS1XWVhUTElfejFLS2lXRGk4a3F6MThkVGhKWXdCUjJLM2VlSzFzRkxQYUc4NVFBSndPRG1qTkEzLUtUbTBfWnNCV0VLWnVRZ3NKcElYc0FtZFltOUtCRFk3OVFTZk42bVozUkpBTXhtcVZNaGRD?oc=5"
       },
       {
+        "title": "Southern California road closures to dramatically limit access to popular national park site for years",
+        "reports": 2,
+        "press": [
+          "New York Post",
+          "Yahoo"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Southern California road closures to dramatically limit access to popular national park site for years",
+            "press": "New York Post",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXFqc1VDZXJTa1l1eWZzQ1RBZHZERTZ5R3lOQlp1akxNVWxzRGg3RFAzWEdaZzhoYmJ6UHMtRC0tSzIwbHpDcjRMM0d1YXZsVVA4cC1tMjExMkZDSE03VFlYUEs0YVhBZHFndE44MkZMcjdUbElqVldHYTRkcy14Um9vOVV6TXV4bVIyWWdhRzR6TXVQVjJHMDVFZHBpTGdhekllWUVpQWRvSVlRNzN3?oc=5"
+          },
+          {
+            "title": "Southern California road closures to dramatically limit access to popular national park site for years",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFQxeUVUZDZmNmdVNXdCRnEwYm9YeUt5eVNqUHV1RmJtQ1M5ejlLeThXQXpKT2VMNDFsS0swRmpoUFBoZURhSFlIZEdfblpwX0lYdFBZY0l3Wk9uQ1BEUEJTclR6eHdpU2dPZ2REejdFeldrbGZtZTJwa1pvMWpFNXZzUzFkZU1KcUY4YjZzSi1ISFRSeDZTM2piZ0VoSDJDWHc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXFqc1VDZXJTa1l1eWZzQ1RBZHZERTZ5R3lOQlp1akxNVWxzRGg3RFAzWEdaZzhoYmJ6UHMtRC0tSzIwbHpDcjRMM0d1YXZsVVA4cC1tMjExMkZDSE03VFlYUEs0YVhBZHFndE44MkZMcjdUbElqVldHYTRkcy14Um9vOVV6TXV4bVIyWWdhRzR6TXVQVjJHMDVFZHBpTGdhekllWUVpQWRvSVlRNzN3?oc=5"
+      },
+      {
+        "title": "Diljit Dosanjh's Wildlife Safari Trip Puts Gir National Park In Spotlight",
+        "reports": 2,
+        "press": [
+          "NDTV",
+          "https://www.indiagazette.com/"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "Diljit Dosanjh's Wildlife Safari Trip Puts Gir National Park In Spotlight",
+            "press": "NDTV",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemxCb3dES1NJZktHYVZERjhiNU0xdzhBQ3V2Zlowams1Q1NXRm1LemtBamJVeW1WbkRWYnd2TG1TZzViTk1YaVZMS2RRVlpFc2Y4ZWNzUTM1SDE0bW9QSV9GVkJuX0RzMUFWZmRiRkxpYldldmJTUzVzS3o2bWhxTVoxbmN4c09EMHRYeEduYTYxOUtPdjVBbzRHMHFNam1icnA4aWoycU9vejM1SlHSAbYBQVVfeXFMT0didW8yUGFqdDBSOE96eXVsQ2JrUFduME1ZeHRqMVVjUnFrTTV5U0xUMXljRnEyb0F1WWtGTmYwV3p5Q3FEUHZiMHZYTWxaZUdCTklhb3JiWUh5ZVRtaEJYeGprOV8zdnVqb3Q1NzdSSjIyN3NrWHQtcGJaXy0wREVqWHNYWU42cnl5OFBRSW9kd3NwOWxVQUFGZFNtb2NpTnJ5NVR1UWdqVFRCNnFkU2JvclYtdXc?oc=5"
+          },
+          {
+            "title": "Diljit Dosanjh enjoys thrilling wildlife safari at Gujarat's Gir National Park",
+            "press": "https://www.indiagazette.com/",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclpPNUJMMTBoYWhxRy1TdXJKOVc0SmRsYmtpNDdZRHY2N0p5OC1VRE9DaEMzRHJHTVZoeEJXT3JwY3B6VWRqYVpXbl9Tb2RVUy13bGxicUlxQVhzWWZzT0hPNm9Vek5rWW9KRlkzakVNM2VhcEZBZ2tkal9IR2xsNDJabHNCOHk1NmlZRFFFUG8zS0M3ZUcwWGdCUUw4T2RUb3FsM3Atakc2dml2QXZUWUhSNXBxZm5HVkExXw?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemxCb3dES1NJZktHYVZERjhiNU0xdzhBQ3V2Zlowams1Q1NXRm1LemtBamJVeW1WbkRWYnd2TG1TZzViTk1YaVZMS2RRVlpFc2Y4ZWNzUTM1SDE0bW9QSV9GVkJuX0RzMUFWZmRiRkxpYldldmJTUzVzS3o2bWhxTVoxbmN4c09EMHRYeEduYTYxOUtPdjVBbzRHMHFNam1icnA4aWoycU9vejM1SlHSAbYBQVVfeXFMT0didW8yUGFqdDBSOE96eXVsQ2JrUFduME1ZeHRqMVVjUnFrTTV5U0xUMXljRnEyb0F1WWtGTmYwV3p5Q3FEUHZiMHZYTWxaZUdCTklhb3JiWUh5ZVRtaEJYeGprOV8zdnVqb3Q1NzdSSjIyN3NrWHQtcGJaXy0wREVqWHNYWU42cnl5OFBRSW9kd3NwOWxVQUFGZFNtb2NpTnJ5NVR1UWdqVFRCNnFkU2JvclYtdXc?oc=5"
+      },
+      {
         "title": "At Cadillac Mountain, a missing Wabanaki marker and the fight over what national parks should tell",
         "reports": 2,
         "press": [
@@ -4050,6 +4224,28 @@
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0UyN0FQUzU0RGcwbHBNc0EyRmhLNUJKY2dKb2tsc2VIal9fVllpdklGUk5ETVJ5bmVsbHhOVHRkQVp1dmlTT1BJbDNpeUtBelN0Z3BvUkNiVVhKOENYeWpmYWhxR3dOVjh1WlBEa0pCNXZRZkdIeWZaODlsbml0RC1ydVBNdmRaS1pWWEtKTGdJdlZJSmVfQWtqUzNXWV8tRlZlRm1jZXVCMkFVUGRGZUluMElIbzds?oc=5"
       },
       {
+        "title": "The best South African national parks to visit this summer",
+        "reports": 2,
+        "press": [
+          "The South African",
+          "Travel + Leisure"
+        ],
+        "outletCount": 2,
+        "articles": [
+          {
+            "title": "The best South African national parks to visit this summer",
+            "press": "The South African",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXFpbjZlTE1oU2RZQjA2Z214ejgtWWNxc3gyZWQzWEhfNEFSaXE5QTdxdVFURUdSSTBSVzVvN0dwbjlQMzVWbXRreGJQbHRUdGoxRjdEX0FGYnNjaW5TUlNsRHhKNWh0N185R0FSRDdocTFtRmNuMEhGR2NMblhCOTFWMDVPTlFqYVhfeVBwWmlkTWpzbnoxYnZqMVZJSkRubmxZeWxEMmdxNjJOUUQ1UTdVcmlFd1did2FFNWdR?oc=5"
+          },
+          {
+            "title": "We Asked 5 Travel Pros to Name the Best National Park to Visit in Winter—and They All Picked This Snowy Paradise",
+            "press": "Travel + Leisure",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVWlyWEtGQkdvcS1tUU9IT2lGSnNsY2xrZ0hKcEVOX2xiRkJwQWJ3dWVoMl8zOThSRENZemlqMEplcGpERUVwMGlwMVhER21Yc1NlOUg4UnRrZGY4NzV3c3AxUHFNdDZoTWNqckRYVXFtbXNQVTBtMkI4dGFPYzR2d1NLMjB0ODg1aUlnTDJGdjExLVU?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXFpbjZlTE1oU2RZQjA2Z214ejgtWWNxc3gyZWQzWEhfNEFSaXE5QTdxdVFURUdSSTBSVzVvN0dwbjlQMzVWbXRreGJQbHRUdGoxRjdEX0FGYnNjaW5TUlNsRHhKNWh0N185R0FSRDdocTFtRmNuMEhGR2NMblhCOTFWMDVPTlFqYVhfeVBwWmlkTWpzbnoxYnZqMVZJSkRubmxZeWxEMmdxNjJOUUQ1UTdVcmlFd1did2FFNWdR?oc=5"
+      },
+      {
         "title": "Corcovado National Park keeps Sirena closed on 31 October - ad-hoc-news.de",
         "reports": 3,
         "press": [
@@ -4244,6 +4440,27 @@
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMkFzMVRNQ1dCR3lPNld4ZHZsak03bEJCeG92eXdBRE4wTFd1azM2T0JIc2pJeVEybzB1SnZwSm03Skt4bnM2ckNMNDdGSDBGV1lzSUFaYUtsUU5mN1p1NGNtYU1wbjdGSjlYb3ItbUYwUFdpZ0FmLU5XU3hoNkRkNkROMmpnWk85bVRER2FQTHJ0enFSb0dQYUdPRDJPdzZEc05RVFlfaHZ6dw?oc=5"
       },
       {
+        "title": "The Top Five Hiking Trails In Grand Teton National Park, According To Reviews",
+        "reports": 2,
+        "press": [
+          "Yahoo"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "The Top Five Hiking Trails In Grand Teton National Park, According To Reviews",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVERBVWxMU3FiTkNreUpoOURBd05ZUWZEWWVTTTVyWkJ1dFZ6bUFyek5rb19BOVVRUWZGTXlrYjJvVjRpcXNwNEctVlNGdVI4UWRCeElOSmlnTy1NaDZ2d0NhR3R0d2hwV0YxRTB1OFQ4aGt1ZzZEOXFmSWtwdUI0T0tMZnd5dw?oc=5"
+          },
+          {
+            "title": "The Top Five Hiking Trails In North Cascades National Park, According To Reviewers",
+            "press": "Yahoo",
+            "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRWZDQ1ZlLTVQMVUxTHBpYXRib2FxRWVSV1pOVE45YUwyVURrSWg4Ui1rTEZ6NjdFTmpJYWpybXhURVhLZTRRazRYQjgxNm0xbXFaOVNkTXI3dWVsQU5ua0t2bUhSRHp3TWVpWExROXkxR3NMbWVvWWhoSDN5T3lIRmdwclRIUQ?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVERBVWxMU3FiTkNreUpoOURBd05ZUWZEWWVTTTVyWkJ1dFZ6bUFyek5rb19BOVVRUWZGTXlrYjJvVjRpcXNwNEctVlNGdVI4UWRCeElOSmlnTy1NaDZ2d0NhR3R0d2hwV0YxRTB1OFQ4aGt1ZzZEOXFmSWtwdUI0T0tMZnd5dw?oc=5"
+      },
+      {
         "title": "One Of Europe's Best National Parks Is A Remote Destination With Endless Outdoor Beauty",
         "reports": 2,
         "press": [
@@ -4263,6 +4480,48 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFVwN3Y1eWpyRGo1Wk12RzBtbDM4ZThfNEpzRWhkOWowUFJhWUQ3N2taTEJ1ZS1MWWtMU2ZEWlFKZzd3bGc4Vmh5Z3ZId04tZ24tdVJBeUUyeXJ0aGNycWRtX1lpOE10QWYyeXZCLVBQRTVBNGJfRUNCd1ltLTJxWk1WT0t5bGlZR25zdXBkb3RQcFhIdVc0S2pXNG83Zw?oc=5"
+      },
+      {
+        "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
+        "reports": 2,
+        "press": [
+          "The New York Times"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
+            "press": "The New York Times",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjJhTWdYQ0hFN0VPVk0xaTZvSVZkb2R4Zlp1WHZOVDROSGZucnRiazB1M0ZmUnh0Z0R0Ylo5dmxVQXdIMFNlT1o4Q0hlMUdkQ2FGMXdDWHdybjA1bGRCUjFiQWpGNDJTb1dEeXJPQXVONGU4YV9xNnBqak9hVUxyNmZhRFFJWjBRblpWcS1rUV9OLUVYdllrNlBRb2h1TDg?oc=5"
+          },
+          {
+            "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
+            "press": "The New York Times",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjJhTWdYQ0hFN0VPVk0xaTZvSVZkb2R4Zlp1WHZOVDROSGZucnRiazB1M0ZmUnh0Z0R0Ylo5dmxVQXdIMFNlT1o4Q0hlMUdkQ2FGMXdDWHdybjA1bGRCUjFiQWpGNDJTb1dEeXJPQXVONGU4YV9xNnBqak9hVUxyNmZhRFFJWjBRblpWcS1rUV9OLUVYdllrNlBRb2h1TDg?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjJhTWdYQ0hFN0VPVk0xaTZvSVZkb2R4Zlp1WHZOVDROSGZucnRiazB1M0ZmUnh0Z0R0Ylo5dmxVQXdIMFNlT1o4Q0hlMUdkQ2FGMXdDWHdybjA1bGRCUjFiQWpGNDJTb1dEeXJPQXVONGU4YV9xNnBqak9hVUxyNmZhRFFJWjBRblpWcS1rUV9OLUVYdllrNlBRb2h1TDg?oc=5"
+      },
+      {
+        "title": "Kruger National Park tests digital indemnity form at Crocodile Bridge Gate",
+        "reports": 2,
+        "press": [
+          "The Citizen"
+        ],
+        "outletCount": 1,
+        "articles": [
+          {
+            "title": "Kruger National Park tests digital indemnity form at Crocodile Bridge Gate",
+            "press": "The Citizen",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVHBGMTlTaER3UkY2YnI3ZUVwWW5LTm83VmxNaDdPRWk2SDlzcUQtRW83SkJBeFVQeTZTY1h4cFc0dzBsNi1PSkNHbVRhYUo4U2tEc3RDaWIwbGY3bjNKS3lkUTF5ZXA4UkRETDV5Ry1kZ2trQVYxZS1wYzNsU3Z3WjQ5c0RNUllqWnhSelV0T2RMMEpJQm9UVDBzTkJtNjY5R1pwOTNUaXNJVW0wV3MtblhuVkhyR2F4eWxlSldOQmtYeF9GbmQ4Ni1tTE5wRFJUdDR4dnh1R213MEJ1MzFQMFU5ZFBBUEpzWnc?oc=5"
+          },
+          {
+            "title": "Kruger National Park tests digital indemnity form at Crocodile Bridge Gate",
+            "press": "The Citizen",
+            "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVHBGMTlTaER3UkY2YnI3ZUVwWW5LTm83VmxNaDdPRWk2SDlzcUQtRW83SkJBeFVQeTZTY1h4cFc0dzBsNi1PSkNHbVRhYUo4U2tEc3RDaWIwbGY3bjNKS3lkUTF5ZXA4UkRETDV5Ry1kZ2trQVYxZS1wYzNsU3Z3WjQ5c0RNUllqWnhSelV0T2RMMEpJQm9UVDBzTkJtNjY5R1pwOTNUaXNJVW0wV3MtblhuVkhyR2F4eWxlSldOQmtYeF9GbmQ4Ni1tTE5wRFJUdDR4dnh1R213MEJ1MzFQMFU5ZFBBUEpzWnc?oc=5"
+          }
+        ],
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVHBGMTlTaER3UkY2YnI3ZUVwWW5LTm83VmxNaDdPRWk2SDlzcUQtRW83SkJBeFVQeTZTY1h4cFc0dzBsNi1PSkNHbVRhYUo4U2tEc3RDaWIwbGY3bjNKS3lkUTF5ZXA4UkRETDV5Ry1kZ2trQVYxZS1wYzNsU3Z3WjQ5c0RNUllqWnhSelV0T2RMMEpJQm9UVDBzTkJtNjY5R1pwOTNUaXNJVW0wV3MtblhuVkhyR2F4eWxlSldOQmtYeF9GbmQ4Ni1tTE5wRFJUdDR4dnh1R213MEJ1MzFQMFU5ZFBBUEpzWnc?oc=5"
       },
       {
         "title": "Why rangers say stay on the trail and don’t feed wildlife",
@@ -4327,118 +4586,6 @@
           }
         ],
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5dTJTSF83YjBJenQ3ZWdoVm5xUUlicGM3OEJCZURRSTNPNVpwS0JjTjF5WmM2UnZfb0c2Mm5HdGxWM1BfbE55UktUenlqSEpFZ1M2NmNCMC00VU5PTTJ0dTc1MVBlaERMUmFYdnJn?oc=5"
-      },
-      {
-        "title": "Hotel Review: Outpost 12, Kanha National Park in India",
-        "reports": 1,
-        "press": [
-          "Luxury Lifestyle Magazine"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Hotel Review: Outpost 12, Kanha National Park in India",
-            "press": "Luxury Lifestyle Magazine",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnBlcWhYSHdxSWFBeVVyaHBEQWVfWFpIVFdUcXR6RW5FenBadlpsajkwSjBrYnNsSG1IRHF2eWl0bDVLNTJla09zVXRSc3BBTXZHTGJsZWtqQzRRcVBGem9Fa2J4VFlTX0VDQVRPNnp1bkdTWkRTeVg5cDlqNXBZNzRQRHFQOXdvZ0JMYlhSMnJYRE51Y1M0a0JqdWprQQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnBlcWhYSHdxSWFBeVVyaHBEQWVfWFpIVFdUcXR6RW5FenBadlpsajkwSjBrYnNsSG1IRHF2eWl0bDVLNTJla09zVXRSc3BBTXZHTGJsZWtqQzRRcVBGem9Fa2J4VFlTX0VDQVRPNnp1bkdTWkRTeVg5cDlqNXBZNzRQRHFQOXdvZ0JMYlhSMnJYRE51Y1M0a0JqdWprQQ?oc=5"
-      },
-      {
-        "title": "Conservation must open doors for next generation - Knysna-Plett Herald",
-        "reports": 1,
-        "press": [
-          "Knysna-Plett Herald"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Conservation must open doors for next generation - Knysna-Plett Herald",
-            "press": "Knysna-Plett Herald",
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORHUtTEFLVjdZcXRGTnU1LUJpbWZvT1lLSjRYT0habzQtb2hxMDcyWlNpVlpNcDRKeGhVN2luM1dKNnZvWk04cXAtY0kwdC11ZHo4cEhLMDZHSjJGeFlwQW9ZbGNwa2s2eFdzenlzR1RqbDR5cFgyWk1aMmxmcWJBSkI4OXRWSEtzdFRGSFhKSzdERDg1a2lZQ3prX3FPb1k0OXVKTmJZMlpxVWd6RDZTbFVJY2xXY0djWDc0?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORHUtTEFLVjdZcXRGTnU1LUJpbWZvT1lLSjRYT0habzQtb2hxMDcyWlNpVlpNcDRKeGhVN2luM1dKNnZvWk04cXAtY0kwdC11ZHo4cEhLMDZHSjJGeFlwQW9ZbGNwa2s2eFdzenlzR1RqbDR5cFgyWk1aMmxmcWJBSkI4OXRWSEtzdFRGSFhKSzdERDg1a2lZQ3prX3FPb1k0OXVKTmJZMlpxVWd6RDZTbFVJY2xXY0djWDc0?oc=5"
-      },
-      {
-        "title": "Great Koala National Park legislation passes",
-        "reports": 1,
-        "press": [
-          "Coffs Coast News Of The Area"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Great Koala National Park legislation passes",
-            "press": "Coffs Coast News Of The Area",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeEh0RU5rSWYxeUdTSlJUYm9IVTlpUWc2VzNiN1ZUTUk2MmI3aXlRNmJjdjRjSkp1Yk8tTXlaZ0czc2hpZjJDU0hzc003ejI4T0o5U3lsSnNidUFHQWlBSGZqZGVpQVZKQXB2a0JKZWlhYnNubHY3WElLVmtPb3ZnUXZSMzBkZ0JLYmIyUA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeEh0RU5rSWYxeUdTSlJUYm9IVTlpUWc2VzNiN1ZUTUk2MmI3aXlRNmJjdjRjSkp1Yk8tTXlaZ0czc2hpZjJDU0hzc003ejI4T0o5U3lsSnNidUFHQWlBSGZqZGVpQVZKQXB2a0JKZWlhYnNubHY3WElLVmtPb3ZnUXZSMzBkZ0JLYmIyUA?oc=5"
-      },
-      {
-        "title": "Elephant Safari Officially Launched at Manas National Park; Tourists Can Now Explore the Forest on Elephant Back",
-        "reports": 1,
-        "press": [
-          "NKTV"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Elephant Safari Officially Launched at Manas National Park; Tourists Can Now Explore the Forest on Elephant Back",
-            "press": "NKTV",
-            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWV9ZS2ZEdjU0bVZhSWtIa3RfcmtNcTFINDNncDFRSXk2N0JmcTN4S1lhTHhaQ3RXU0hydno5UHc1emU2WVp0UlBFVUE5NHFlN1hpU0N1SkFkYlUwXzdCVGw1Sl9JM3hDMTFaYW5UR3RiVnVzODVDT1RtZW8yelJTMXZNaXVHdUNKWW5ndHI4cmoweHpyV2prRjUyNnVlN3N1OXBlNGFhRl9jbnJVd0gwcDJoelFUcm1MaXgxTGZMYmNNUnJ1TnQtbElvYjA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWV9ZS2ZEdjU0bVZhSWtIa3RfcmtNcTFINDNncDFRSXk2N0JmcTN4S1lhTHhaQ3RXU0hydno5UHc1emU2WVp0UlBFVUE5NHFlN1hpU0N1SkFkYlUwXzdCVGw1Sl9JM3hDMTFaYW5UR3RiVnVzODVDT1RtZW8yelJTMXZNaXVHdUNKWW5ndHI4cmoweHpyV2prRjUyNnVlN3N1OXBlNGFhRl9jbnJVd0gwcDJoelFUcm1MaXgxTGZMYmNNUnJ1TnQtbElvYjA?oc=5"
-      },
-      {
-        "title": "More E-Bikes on National Park Trails Is a Bad Idea - Public Employees for Environmental Responsibility",
-        "reports": 1,
-        "press": [
-          "PEER"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "More E-Bikes on National Park Trails Is a Bad Idea - Public Employees for Environmental Responsibility",
-            "press": "PEER",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qc1ZrZHQ4WlFMVF8xZzFqZ1d6NlRGMzdiYVo2SVBPU2lGSDlxTWxUOC1PUHVJTWlVWlJ3ckxwckNrOWVfWnJWV2hRZTRXaHlIT3JDSlh5ZWlyd09QVTFaRkR3aVZRVjdrT245UQ?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qc1ZrZHQ4WlFMVF8xZzFqZ1d6NlRGMzdiYVo2SVBPU2lGSDlxTWxUOC1PUHVJTWlVWlJ3ckxwckNrOWVfWnJWV2hRZTRXaHlIT3JDSlh5ZWlyd09QVTFaRkR3aVZRVjdrT245UQ?oc=5"
-      },
-      {
-        "title": "Discover Israel’s national parks: Friday tours, concerts, and Hanukkah events",
-        "reports": 1,
-        "press": [
-          "The Jerusalem Post"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "Discover Israel’s national parks: Friday tours, concerts, and Hanukkah events",
-            "press": "The Jerusalem Post",
-            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02SFhkZzFLVTFBWHpIZkpkNjBCWVNvbEZNdVlvOFpSTTlYSHZsYjhJbGFrSjhoWEVBeDk5eDBCR2VaeEs4UmdEMjdfeU9Sa1pSSG1yVGxn?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02SFhkZzFLVTFBWHpIZkpkNjBCWVNvbEZNdVlvOFpSTTlYSHZsYjhJbGFrSjhoWEVBeDk5eDBCR2VaeEs4UmdEMjdfeU9Sa1pSSG1yVGxn?oc=5"
-      },
-      {
-        "title": "National Park Service lists Pass Creek Covered Bridge in the National Register of Historic Places",
-        "reports": 1,
-        "press": [
-          "nrtoday.com"
-        ],
-        "outletCount": 1,
-        "articles": [
-          {
-            "title": "National Park Service lists Pass Creek Covered Bridge in the National Register of Historic Places",
-            "press": "nrtoday.com",
-            "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRDRMUnNETEcwZnRyeEszZ3plamRkZ0stUlBzdk1sLTBoU2NfMWNGUjI3dEdKNmhJWGF1YU5CckdHNXBiY0ZGMDg1ZXlId0hacEdVLThzb2IzalFnR0hUVWFGSFJkTjdERHVWNW5DWWZwa1hWZ25SS09ieUN3Y3ZKOERkWHJHdV92aUw1ZERmZW9uYmxDa1RYNDBiazRlalRTVklOSDFqVHlJNW5XNkQxZHJnMjk4N1RvV09QbnluYm91MUcteGpjX3Q5Nmd4QWF1cUd3UmxzMk5ad2IyYy1zVnJnaENoUlhXUFFDdFkwS1JKbXpFR2dhSzlhS1VKekVsSlBaeHBENA?oc=5"
-          }
-        ],
-        "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRDRMUnNETEcwZnRyeEszZ3plamRkZ0stUlBzdk1sLTBoU2NfMWNGUjI3dEdKNmhJWGF1YU5CckdHNXBiY0ZGMDg1ZXlId0hacEdVLThzb2IzalFnR0hUVWFGSFJkTjdERHVWNW5DWWZwa1hWZ25SS09ieUN3Y3ZKOERkWHJHdV92aUw1ZERmZW9uYmxDa1RYNDBiazRlalRTVklOSDFqVHlJNW5XNkQxZHJnMjk4N1RvV09QbnluYm91MUcteGpjX3Q5Nmd4QWF1cUd3UmxzMk5ad2IyYy1zVnJnaENoUlhXUFFDdFkwS1JKbXpFR2dhSzlhS1VKekVsSlBaeHBENA?oc=5"
       }
     ]
   }
