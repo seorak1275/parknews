@@ -1305,6 +1305,13 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
 }
 .mapboxgl-ctrl-attrib a,.maplibregl-ctrl-attrib a{color:var(--ink-4)!important}
 .mapboxgl-ctrl-bottom-left,.maplibregl-ctrl-bottom-left{z-index:5}
+/* 하단 헤드라인 띠(데스크톱)가 지도 출처 표기를 가리지 않게 띠 위로 올린다 —
+   OpenStreetMap·OpenFreeMap 출처는 항상 보여야 하는 사용 조건이다.
+   모바일은 띠를 숨기므로 해당 없음. */
+@media (min-width:861px){
+  body.has-ticker .mapboxgl-ctrl-bottom-left,
+  body.has-ticker .maplibregl-ctrl-bottom-left{bottom:58px}
+}
 
 /* =============================================================
  *  반응형
