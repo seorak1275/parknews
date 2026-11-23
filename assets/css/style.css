@@ -1303,7 +1303,10 @@ body.db-page{overflow:auto;height:auto;min-height:100%}
   background:rgba(8,11,19,.6)!important;border-radius:8px!important;
   font-size:10px!important;
 }
-.mapboxgl-ctrl-attrib a,.maplibregl-ctrl-attrib a{color:var(--ink-4)!important}
+/* 출처 표기는 읽혀야 의미가 있다 — 밝은 지도 위에서도 대비가 나오게 글자·링크를 밝은색으로 */
+.mapboxgl-ctrl-attrib,.maplibregl-ctrl-attrib{color:var(--ink-2)!important}
+.mapboxgl-ctrl-attrib a,.maplibregl-ctrl-attrib a{color:var(--ink-2)!important}
+.mapboxgl-ctrl-attrib a:hover,.maplibregl-ctrl-attrib a:hover{color:#fff!important}
 .mapboxgl-ctrl-bottom-left,.maplibregl-ctrl-bottom-left{z-index:5}
 /* 하단 헤드라인 띠(데스크톱)가 지도 출처 표기를 가리지 않게 띠 위로 올린다 —
    OpenStreetMap·OpenFreeMap 출처는 항상 보여야 하는 사용 조건이다.
