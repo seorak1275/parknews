@@ -22,7 +22,7 @@ window.SafetyCal = (() => {
   const URL = 'assets/data/safety-calendar.json';
   const COLORS = {
     '산불': '#f87171', '호우·태풍': '#38bdf8', '폭설·한파': '#a5b4fc',
-    '산사태·낙석': '#c084fc', '폭염·가뭄': '#fb923c', '지진': '#facc15',
+    '산사태·낙석': '#c084fc', '폭염·가뭄': '#fb923c',
     '물놀이 위험지역': '#22d3ee', '실족·추락': '#f472b6', '수난사고': '#60a5fa',
     '조난·고립': '#34d399', '실종·수색': '#94a3b8', '심정지·응급질환': '#fda4af',
     '벌쏘임·뱀': '#fbbf24',
@@ -33,10 +33,22 @@ window.SafetyCal = (() => {
   let dataP = null;
   let chart = null;
 
+  /* 화면에서 뺄 위험 유형 — 지진·화산 같은 지질 재난은 탐방객이 계절·장소로 대비할 수
+     있는 위험이 아니라 캘린더에서 제외한다. 데이터를 굽는 쪽(build_safety_calendar.py)에서도
+     이미 빠져 있지만, 예전 데이터가 남아 있어도 화면에 나오지 않게 한 번 더 거른다. */
+  const EXCLUDED = ['지진', '화산', '화산 분화', '쓰나미'];
+  const dropExcluded = (d) => {
+    d.types = (d.types || []).filter((t) => !EXCLUDED.includes(t.key));
+    for (const park of Object.values(d.parks || {})) {
+      for (const k of EXCLUDED) delete park[k];
+    }
+    return d;
+  };
+
   const load = () => (dataP ||= fetch(URL).then((r) => {
     if (!r.ok) throw new Error('safety-calendar ' + r.status);
     return r.json();
-  }));
+  }).then(dropExcluded));
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
     (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -314,13 +314,26 @@ window.NewsService = (() => {
   /** 캐시에 이미 있으면 즉시 반환 (호버 팝업용) */
   const peek = (region) => cache.get(region.id)?.data || null;
 
+  /** 기사 날짜가 최근 days일 안인지 — 날짜를 못 읽는 기사는 '최근'으로 인정하지 않는다 */
+  const isWithin = (date, days) => {
+    const t = Date.parse(date);
+    return Number.isFinite(t) && Date.now() - t <= days * 86400 * 1000;
+  };
+
   /** 임의 키워드로 검색 — 국립공원 관련도 필터를 동일하게 적용
-      (핫이슈 띠 · 인기뉴스 순위 · 하단 티커 · 일일요약 간이본이 사용) */
-  async function search(query, lang = 'ko', limit = 12) {
-    const rss = googleRssUrl(query, lang);
+      (핫이슈 띠 · 인기뉴스 순위 · 하단 티커 · 일일요약 간이본이 사용)
+
+      opts.days — 최근 N일 기사만. 구글 뉴스 검색 결과는 관련도순이라 날짜 제한이 없으면
+      몇 달 전 대형 사건(예: 3월 산청 산불)이 '실시간'에 섞여 들어온다.
+      검색식 `when:Nd` 로 서버 쪽에서 먼저 좁히고, 그 조건이 무시되는 경로
+      (빙 폴백·프록시)에 대비해 받은 뒤에도 날짜로 한 번 더 거른다. */
+  async function search(query, lang = 'ko', limit = 12, opts = {}) {
+    const days = Number(opts.days) || 0;
+    const q = days ? `${query} when:${days}d` : query;
+    const rss = googleRssUrl(q, lang);
     let items = null;
 
-    try { items = await fetchViaApi(query, lang, limit * 3); }
+    try { items = await fetchViaApi(q, lang, limit * 3); }
     catch { /* 폴백 */ }
 
     if (!items) {
@@ -329,8 +342,43 @@ window.NewsService = (() => {
     }
     if (!items) items = parseRss(await fetchViaProxy(rss));
 
+    /* 관련도 필터는 원래 검색어 기준 — when: 같은 검색식이 필터에 섞이지 않게 */
     const pseudo = { name: query, q: query, lang, must: ['국립공원', 'national park'] };
-    return filterPark(pseudo, items.slice(0, limit * 3)).slice(0, limit);
+    const pool = days ? items.filter((n) => isWithin(n.date, days)) : items;
+    return filterPark(pseudo, pool.slice(0, limit * 3)).slice(0, limit);
+  }
+
+  /**
+   * 최근 기사 우선 수집 — 실시간 순위·핫이슈 띠가 함께 쓴다.
+   * 먼저 days[0]일(기본 2일) 안의 기사로 사안을 묶고, 사안이 minGroups 개에 못 미치면
+   * days[1]일(기본 7일)까지 넓혀 다시 모은다. 오래된 기사는 아무리 많은 언론사가
+   * 보도했어도 들어오지 못한다.
+   *
+   * @param opts.filter 기사별 추가 조건(예: 공원명 포함). 사안 수를 셀 때도 적용된다.
+   * @returns { groups, days, widened } — 전 검색이 실패하면 예외(장애와 '기사 없음'을 구분)
+   */
+  async function collectFresh(queries, lang = 'ko', opts = {}) {
+    const { perQuery = 25, days = [2, 7], minGroups = 6, filter = null } = opts;
+    const run = async (d) => {
+      const batches = (await Promise.all(
+        queries.map((q) => search(q, lang, perQuery, { days: d }).catch(() => null))
+      )).filter(Boolean);
+      return filter ? batches.map((b) => b.filter(filter)) : batches;
+    };
+
+    let used = days[0];
+    let batches = await run(used);
+    if (!batches.length) throw new Error('뉴스 검색이 모두 실패했습니다');
+    let groups = groupIssues(batches.flat());
+
+    if (groups.length < minGroups && days[1] > days[0]) {
+      const wide = await run(days[1]);
+      if (wide.length) {
+        const g = groupIssues(wide.flat());
+        if (g.length > groups.length) { groups = g; used = days[1]; }
+      }
+    }
+    return { groups, days: used, widened: used !== days[0] };
   }
 
   /* ---------- 헤드라인 키워드 추출 ---------- */
@@ -467,5 +515,5 @@ window.NewsService = (() => {
     return new Date(t).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
   }
 
-  return { load, peek, search, keywords, timeAgo, filterPark, coreTokens, groupIssues, hotList };
+  return { load, peek, search, collectFresh, keywords, timeAgo, filterPark, coreTokens, groupIssues, hotList };
 })();

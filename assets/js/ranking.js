@@ -92,16 +92,19 @@ window.Ranking = (() => {
     const queries = park
       ? [park.q, `${park.name} 탐방`, `${park.name} 사고`, `${park.name} 생태`]
       : cfg.queries;
-    const batches = await Promise.all(
-      queries.map((q) => NewsService.search(q, cfg.lang, 25).catch(() => null))
-    );
-    let ok = batches.filter(Boolean);
-    /* 전부 실패 = 수집 장애 — "기사 없음"과 구분해야 빈 화면으로 굳지 않는다 */
-    if (!ok.length) throw new Error('뉴스 검색이 모두 실패했습니다');
-    if (park) {
-      ok = ok.map((b) => b.filter((n) => `${n.title} ${n.summary || ''}`.includes(park.name)));
-    }
-    const groups = NewsService.groupIssues(ok.flat()).slice(0, 25);
+
+    /* '실시간'은 최근 기사만 — 날짜 제한이 없으면 몇 달 전 대형 사건(예: 3월 산청 산불)이
+       보도 언론사 수만으로 1위를 차지한다. 2일 안 기사로 먼저 묶고, 사안이 모자라면
+       7일까지 넓힌다. 전부 실패하면 예외 — 수집 장애를 "기사 없음"과 구분해야
+       빈 화면으로 굳지 않는다. */
+    const { groups: all, days, widened } = await NewsService.collectFresh(queries, cfg.lang, {
+      perQuery: 25,
+      days: [2, 7],
+      minGroups: park ? 3 : 6,
+      filter: park ? (n) => `${n.title} ${n.summary || ''}`.includes(park.name) : null,
+    });
+    const groups = all.slice(0, 25);
+    const clock = new Date().toLocaleTimeString('ko-KR', { hour12: false });
     return {
       rows: groups.map((g) => ({
         title: g.lead.title,
@@ -112,7 +115,9 @@ window.Ranking = (() => {
         time: NewsService.timeAgo(g.lead.date),
         others: g.arts.slice(1, 4).map((o) => ({ title: o.title, press: o.press, link: o.link })),
       })),
-      note: `지금 검색되는 기사 기준 · ${new Date().toLocaleTimeString('ko-KR', { hour12: false })} 집계`,
+      note: widened
+        ? `최근 2일 기사가 적어 ${days}일로 넓혀 집계 · ${clock} 집계`
+        : `최근 ${days}일 기사 기준 · ${clock} 집계`,
     };
   }
 
