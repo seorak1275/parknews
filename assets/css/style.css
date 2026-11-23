@@ -401,6 +401,20 @@ code{
 }
 .mk:hover .mk__dot,.mk.is-active .mk__dot{transform:scale(1.45)}
 .mk:hover .mk__label{opacity:1}
+/* 배경 지도 장애 안내 — 상단바 아래 잠깐 떴다 사라진다 (공원 표시·뉴스는 정상) */
+.map-notice{
+  position:fixed;left:50%;z-index:25;
+  top:calc(var(--topbar-h) + 22px + var(--hot-h));
+  max-width:min(92vw,460px);padding:9px 16px;border-radius:999px;
+  font-size:12px;font-weight:600;color:var(--ink);text-align:center;word-break:keep-all;
+  transform:translate(-50%,-8px);opacity:0;pointer-events:none;
+  transition:opacity .3s,transform .3s var(--ease);
+}
+.map-notice.is-on{opacity:1;transform:translate(-50%,0)}
+@media (max-width:860px){
+  .map-notice{top:calc(var(--topbar-h) + 14px + var(--hot-h));font-size:11.5px}
+}
+
 /* 낮은 줌 — 라벨 숨김 (겹침 방지 · 호버/선택 시엔 표시) */
 body.map-lowzoom .mk__label{opacity:0}
 body.map-lowzoom .mk:hover .mk__label,
@@ -969,7 +983,7 @@ body.dg-lock{overflow:hidden}
 .iconbtn--top.is-on{color:#18181b;background:#e4e4e7;border-color:#e4e4e7}
 
 /* =============================================================
- *  밝은 지도 (CARTO Positron)
+ *  밝은 지도
  *  타일만 밝게 바꾸고 UI 는 다크 글래스를 유지한다.
  * ========================================================== */
 body.map-light .vignette{opacity:.25}
