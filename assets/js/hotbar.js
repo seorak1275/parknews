@@ -2,6 +2,7 @@
  *  hotbar.js  —  최상단 핫이슈 한 줄 (흐르는 띠)
  *
  *  "가장 핫한 이슈" 기준
+ *   · 최근 2일 안에 보도된 기사만 대상 (사안이 모자라면 7일까지 넓힘)
  *   · 같은 사안을 보도한 언론사가 많을수록 뜨겁다
  *   · 최근 12시간 내 보도면 가산
  *   → 1위 이슈에 HOT 배지를 달고, 상위 6개를 순환시킵니다.
@@ -17,12 +18,13 @@ window.HotBar = (() => {
   const QUERIES = ['국립공원', '국립공원공단', '국립공원 탐방', '국립공원 멸종위기'];
   const REFRESH_MS = 15 * 60 * 1000;
 
-  /** 수집 → 사안별 묶기 (묶기 로직은 NewsService 공용) */
+  /** 수집 → 사안별 묶기 (묶기 로직은 NewsService 공용)
+      '실시간 핫이슈'이므로 최근 2일 기사만 쓰고, 모자라면 7일까지 넓힌다
+      (날짜 제한이 없으면 몇 달 전 대형 사건이 언론사 수만으로 1위를 차지한다) */
   async function collect() {
-    const batches = await Promise.all(
-      QUERIES.map((q) => NewsService.search(q, 'ko', 25).catch(() => []))
-    );
-    return NewsService.groupIssues(batches.flat()).slice(0, 6);
+    const { groups } = await NewsService.collectFresh(QUERIES, 'ko',
+      { perQuery: 25, days: [2, 7], minGroups: 4 });
+    return groups.slice(0, 6);
   }
 
   function render(groups) {
