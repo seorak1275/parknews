@@ -22,8 +22,9 @@
     showBounds: true,
     showAll: false,            // 모든 지점 표시 (국내+해외+기관 동시)
     allParksCache: null,       // 해외 공원 전체 (토글 첫 사용 시 로드)
-    glyphs: null,              // 응답 확인된 글리프 서버 (없으면 숫자 레이어 생략)
-    light: false,              // 밝은 지도 (CARTO Positron)
+    basemap: null,             // 배경 지도 상태 (Basemap.create 결과 — plan A/B/C/mapbox)
+    fontStack: null,           // 응답 확인된 라벨 글꼴 (없으면 숫자·이름 레이어 생략)
+    light: false,              // 밝은 지도
     popup: null,
     globalShown: [],           // 현재 지도에 뿌린 해외 공원
   };
@@ -84,77 +85,42 @@
     return t.startsWith('pk.') && !t.includes('여기에') && t.length > 40;
   };
 
-  /* 다크(기본)·라이트 타일을 한 스타일에 모두 실어 두고
-     가시성만 전환한다 — setStyle 과 달리 커스텀 레이어가 유지되고 즉시 바뀐다.
-     visibility:none 인 레이어는 타일을 요청하지 않으므로 트래픽 낭비도 없다. */
-  const cartoTiles = (kind) => ['a', 'b', 'c', 'd'].map((s) =>
-    `https://${s}.basemaps.cartocdn.com/${kind}/{z}/{x}/{y}@2x.png`);
-
-  /* 글리프(글꼴) 서버 — 클러스터 숫자·지도 라벨(text-field)에 필요.
-     글리프 요청이 실패하면 같은 타일의 원(circle)까지 통째로 사라지므로
-     부팅 때 실제로 응답하는 서버만 쓰고, 없으면 숫자 레이어를 생략한다. */
-  /* 타일과 같은 CDN(carto)을 앞에 둔다 — 어차피 지도 타일로 곧 붙을 서버라 대개 이미 따뜻하다 */
-  const GLYPH_SERVERS = [
-    'https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf',
-    'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
-  ];
-
-  /**
-   * 글꼴 서버 고르기.
-   * 후보를 하나씩 순서대로 확인하면 앞선 서버가 느릴 때 그만큼 지도가 늦게 뜬다.
-   * (실측 2026-08-16: openmaptiles 첫 요청 6.4초 · carto 0.03초 → 첫 화면이 10초까지 밀렸다)
-   * → 동시에 던져 두고 먼저 성공한 쪽을 쓴다. 전부 실패하면 글꼴 없이 진행한다.
-   */
-  async function pickGlyphs() {
-    const probe = (tpl) => {
-      const test = tpl
-        .replace('{fontstack}', encodeURIComponent('Open Sans Regular'))
-        .replace('{range}', '0-255');
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), 3500);
-      return fetch(test, { signal: ctrl.signal })
-        .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return tpl; })
-        .finally(() => clearTimeout(t));
-    };
-    try {
-      return await Promise.any(GLYPH_SERVERS.map(probe));
-    } catch {
-      return null;                     // 폐쇄망 등 — 라벨 글꼴 없이도 지도는 뜬다
-    }
-  }
-
   /** 밝은 지도로 열지 여부 — 저장된 설정이 없으면 밝게(기본값) */
   function prefersLight() {
     try { return localStorage.getItem('parknews-light') !== '0'; } catch { return true; }
   }
 
-  const makeFallbackStyle = (glyphs) => ({
-    version: 8,
-    ...(glyphs ? { glyphs } : {}),
-    sources: {
-      'carto-dark': {
-        type: 'raster', tiles: cartoTiles('dark_all'), tileSize: 256,
-        attribution: '© OpenStreetMap contributors © CARTO',
-      },
-      'carto-light': {
-        type: 'raster', tiles: cartoTiles('light_all'), tileSize: 256,
-        attribution: '© OpenStreetMap contributors © CARTO',
-      },
-    },
-    /* 기본은 밝은 지도. 스타일을 만들 때부터 맞춰 두어야
-       첫 화면이 어두웠다가 밝아지는 깜빡임이 없다. */
-    layers: (() => {
-      const light = prefersLight();
-      return [
-        { id: 'bg', type: 'background',
-          paint: { 'background-color': light ? '#e9ecf1' : '#080b13' } },
-        { id: 'carto-dark', type: 'raster', source: 'carto-dark',
-          layout: { visibility: light ? 'none' : 'visible' }, paint: { 'raster-opacity': 0.95 } },
-        { id: 'carto-light', type: 'raster', source: 'carto-light',
-          layout: { visibility: light ? 'visible' : 'none' }, paint: { 'raster-opacity': 1 } },
-      ];
-    })(),
-  });
+  /** 배경 지도에 문제가 생겼음을 짧게 알린다 (지도 위 공원 표시·뉴스는 정상) */
+  function notice(msg) {
+    let el = $('#map-notice');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'map-notice';
+      el.className = 'map-notice glass';
+      el.setAttribute('role', 'status');
+      document.body.appendChild(el);
+    }
+    el.textContent = msg;
+    el.classList.add('is-on');
+    clearTimeout(notice.t);
+    notice.t = setTimeout(() => el.classList.remove('is-on'), 9000);
+  }
+
+  /** 우리 오버레이 중 가장 아래 레이어 — 대체 타일은 그 밑에 깔아야 경계·마커를 가리지 않는다 */
+  const firstOverlayId = () =>
+    ['kr-bounds-fill', 'kr-bounds-line', 'global-bound-fill', 'gp-cluster']
+      .find((id) => state.map?.getLayer(id));
+
+  /** Plan A(OpenFreeMap)가 죽었을 때 — Plan B(Esri/OSM) 로 갈아타고, 그것도 안 되면 Plan C */
+  async function fallbackBasemap(why) {
+    console.warn('[basemap] Plan A 실패 → 대체 지도 탐색:', why);
+    const provider = await Basemap.activatePlanB(state.map, state.basemap, firstOverlayId());
+    if (provider) {
+      notice('기본 지도 서버 응답이 없어 대체 지도로 표시 중입니다.');
+    } else {
+      notice('배경 지도를 불러오지 못했습니다. 공원 표시와 뉴스는 정상 동작합니다.');
+    }
+  }
 
   /* ==========================================================
    *  1. 지도 초기화
@@ -163,33 +129,38 @@
     const boot = $('#boot-status');
 
     boot.textContent = '지도 엔진 로딩 중…';
+    const startLight = prefersLight();
+    let mapStyle;
     if (hasToken()) {
       await loadCss('https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css');
       await loadScript('https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js');
       state.gl = window.mapboxgl;
       state.gl.accessToken = CONFIG.MAPBOX_TOKEN.trim();
       state.engine = 'mapbox';
-      state.glyphs = 'mapbox';                        // 스타일이 자체 제공
+      state.basemap = { plan: 'mapbox' };
+      state.fontStack = ['Open Sans Regular'];        // Mapbox 스타일이 자체 제공하는 글꼴
+      mapStyle = CONFIG.MAPBOX_STYLE;
     } else {
-      const glyphsCheck = pickGlyphs();               // 라이브러리 로드와 병렬 확인
+      const styleReq = Basemap.loadStyle();            // 라이브러리 로드와 병렬로 받아 둔다
       await loadCss('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css');
       await loadScript('https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js');
       state.gl = window.maplibregl;
       state.engine = 'maplibre';
-      state.glyphs = await glyphsCheck;
+      state.basemap = Basemap.create(await styleReq, !startLight);
+      mapStyle = state.basemap.style;
     }
 
     const { center, zoom, pitch, bearing } = CONFIG.MAP_START;
     state.map = new state.gl.Map({
       container: 'map',
-      style: state.engine === 'mapbox' ? CONFIG.MAPBOX_STYLE
-        : makeFallbackStyle(state.glyphs === 'mapbox' ? null : state.glyphs),
+      style: mapStyle,
       center, zoom, pitch, bearing,
       attributionControl: false,
       projection: state.engine === 'mapbox' ? 'globe' : undefined,
     });
 
     window.__PN_MAP = state.map;   // 콘솔 디버그·테스트용 핸들
+    window.__PN_BM = state.basemap;   // 배경 지도 상태(plan A/B/C) — 진단용
 
     state.map.addControl(new state.gl.NavigationControl({ visualizePitch: true }), 'bottom-right');
     state.map.addControl(new state.gl.AttributionControl({ compact: true }), 'bottom-left');
@@ -200,7 +171,9 @@
       offset: 20, className: 'hover-pop', maxWidth: '300px',
     });
 
-    await new Promise((r) => state.map.on('load', r));
+    /* MapLibre 는 스타일이 읽히면 바로 진행한다 — 'load' 는 첫 타일까지 기다려서
+       타일 서버가 죽으면 부팅 화면에서 영영 멈춘다. */
+    await new Promise((r) => state.map.once(state.engine === 'mapbox' ? 'load' : 'style.load', r));
 
     if (state.engine === 'mapbox') {
       try {
@@ -214,6 +187,17 @@
     addGlobalLayer();
     await addBoundaryLayer();
     addMarkers();
+
+    /* 배경 지도 자동 복구 — 부팅을 막지 않도록 기다리지 않고 뒤에서 돌린다.
+       Plan C(스타일을 아예 못 받음)면 바로 대체 지도를 찾고,
+       Plan A 는 타일이 한 장도 안 오는 경우만 감시한다. */
+    if (state.basemap.plan === 'C') {
+      fallbackBasemap('스타일을 받지 못함').catch(() => {});
+    } else if (state.basemap.plan === 'A') {
+      Basemap.watch(state.map, state.basemap,
+        (info) => fallbackBasemap(`타일 응답 없음(오류 ${info.errs}건)`).catch(() => {}));
+    }
+    initGlobalText().catch(() => {});
 
     /* 낮은 줌에서는 마커 이름 라벨을 숨겨 겹침을 막는다 (호버·선택 시엔 표시)
        독도 표기는 시군구 수준(줌 7.5+)으로 확대했을 때만 보여준다 */
@@ -305,6 +289,48 @@
    * ======================================================== */
   const EMPTY_FC = { type: 'FeatureCollection', features: [] };
 
+  /**
+   * 클러스터 숫자·이름 라벨 — 글꼴 서버 응답을 확인한 뒤에만 넣는다.
+   * (글리프 요청이 실패하면 같은 소스의 원까지 통째로 사라지기 때문)
+   * 글꼴 이름은 배경 스타일이 실제로 쓰는 것을 따라 서버에 없는 글꼴을 요청하지 않는다.
+   */
+  async function initGlobalText() {
+    if (state.engine !== 'mapbox') {
+      if (!(await Basemap.probeGlyphs(state.basemap))) return;   // 글꼴 불가 → 원만 그린다
+      state.fontStack = state.basemap.font;
+    }
+    const m = state.map;
+    if (!m || m.getLayer('gp-count')) return;
+    const font = state.fontStack;
+
+    m.addLayer({
+      id: 'gp-count', type: 'symbol', source: 'global-parks',
+      filter: ['has', 'point_count'],
+      layout: {
+        'text-field': ['get', 'point_count_abbreviated'],
+        'text-size': 12, 'text-font': font,
+        'text-allow-overlap': true,
+      },
+      paint: { 'text-color': '#ffffff' },
+    }, m.getLayer('gp-point') ? 'gp-point' : undefined);
+
+    m.addLayer({
+      id: 'gp-label', type: 'symbol', source: 'global-parks',
+      filter: ['!', ['has', 'point_count']], minzoom: 6,
+      layout: {
+        'text-field': ['get', 'name'], 'text-size': 11,
+        'text-offset': [0, 1.1], 'text-anchor': 'top',
+        'text-font': font,
+      },
+      paint: {
+        'text-color': 'rgba(255,255,255,.92)',
+        'text-halo-color': 'rgba(0,0,0,.85)', 'text-halo-width': 1.4,
+      },
+    }, m.getLayer('gp-active') ? 'gp-active' : undefined);
+
+    applyOverlayTheme(state.light);     // 늦게 붙은 레이어에도 현재 밝기를 입힌다
+  }
+
   function addGlobalLayer() {
     /* 선택한 해외 공원의 경계 폴리곤 — 점 레이어보다 먼저 추가해 아래에 깔리게 */
     state.map.addSource('global-bound', { type: 'geojson', data: EMPTY_FC });
@@ -340,21 +366,6 @@
       },
     });
 
-    /* 글꼴 서버가 응답할 때만 숫자·라벨 레이어를 넣는다
-       (글리프 요청 실패는 타일 전체를 죽여 원까지 사라지게 하므로) */
-    if (state.glyphs) {
-      state.map.addLayer({
-        id: 'gp-count', type: 'symbol', source: 'global-parks',
-        filter: ['has', 'point_count'],
-        layout: {
-          'text-field': ['get', 'point_count_abbreviated'],
-          'text-size': 12, 'text-font': ['Open Sans Regular'],
-          'text-allow-overlap': true,
-        },
-        paint: { 'text-color': '#ffffff' },
-      });
-    }
-
     state.map.addLayer({
       id: 'gp-point', type: 'circle', source: 'global-parks',
       filter: ['!', ['has', 'point_count']],
@@ -365,22 +376,6 @@
         'circle-stroke-color': 'rgba(8,11,19,.9)',
       },
     });
-
-    if (state.glyphs) {
-      state.map.addLayer({
-        id: 'gp-label', type: 'symbol', source: 'global-parks',
-        filter: ['!', ['has', 'point_count']], minzoom: 6,
-        layout: {
-          'text-field': ['get', 'name'], 'text-size': 11,
-          'text-offset': [0, 1.1], 'text-anchor': 'top',
-          'text-font': ['Open Sans Regular'],
-        },
-        paint: {
-          'text-color': 'rgba(255,255,255,.92)',
-          'text-halo-color': 'rgba(0,0,0,.85)', 'text-halo-width': 1.4,
-        },
-      });
-    }
 
     /* 클러스터 클릭 → 확대
        MapLibre v4는 Promise, Mapbox는 콜백을 쓰므로 둘 다 지원한다
@@ -908,8 +903,8 @@
    *  7. UI 바인딩
    * ======================================================== */
   /* ---------- 밝은 지도 ----------
-     MapLibre 폴백 스타일에 실어 둔 다크·라이트 래스터 레이어의
-     가시성만 바꾼다. (Mapbox 토큰 사용 시에는 스타일이 달라 미적용)
+     배경 지도의 테마 전환은 basemap.js 가 맡는다 — 벡터 스타일은 색상만 바꾸고
+     (setPaintProperty), 대체 래스터 타일은 밝음/어둠 레이어를 켜고 끈다.
 
      기본값은 '밝은 지도'다. 저장된 설정이 없으면 밝게 시작하고,
      사용자가 직접 끈 경우('0')에만 어두운 지도로 연다. */
@@ -920,45 +915,43 @@
     $('#btn-light').classList.toggle('is-on', on);
     $('#btn-light').setAttribute('aria-pressed', String(on));
 
-    const m = state.map;
-    if (m?.getLayer('carto-light')) {
-      m.setLayoutProperty('carto-light', 'visibility', on ? 'visible' : 'none');
-      m.setLayoutProperty('carto-dark', 'visibility', on ? 'none' : 'visible');
-      m.setPaintProperty('bg', 'background-color', on ? '#e9ecf1' : '#080b13');
+    Basemap.setTheme(state.map, state.basemap, !on);   // 배경 지도 (Mapbox 는 내부에서 무시)
+    applyOverlayTheme(on);
+    if (persist) {
+      try { localStorage.setItem('parknews-light', on ? '1' : '0'); } catch { /* 무시 */ }
     }
+  }
+
+  /** 우리가 올린 레이어(경계·해외 지점·라벨)를 밝기에 맞는 색으로 */
+  function applyOverlayTheme(on) {
+    const m = state.map;
+    if (!m) return;
     /* 밝은 배경에서는 지도 위 글자를 어두운 색 + 밝은 외곽선으로 */
-    if (m?.getLayer('gp-label')) {
+    if (m.getLayer('gp-label')) {
       m.setPaintProperty('gp-label', 'text-color', on ? 'rgba(24,32,46,.95)' : 'rgba(255,255,255,.92)');
       m.setPaintProperty('gp-label', 'text-halo-color', on ? 'rgba(255,255,255,.9)' : 'rgba(0,0,0,.85)');
     }
-    if (m?.getLayer('gp-count')) {
+    if (m.getLayer('gp-count')) {
       m.setPaintProperty('gp-count', 'text-color', on ? '#1f2937' : '#ffffff');
     }
     /* 지역 표시(경계·해외 지점·강조 링)도 밝은 지도에서는 어두운 톤으로 */
     const DARK = { kr: '#0e7490', global: '#5b21b6' };
-    for (const id of ['kr-bounds-fill']) {
-      if (m?.getLayer(id)) m.setPaintProperty(id, 'fill-color', on ? DARK.kr : CONFIG.COLORS.kr);
-    }
-    if (m?.getLayer('kr-bounds-line')) {
-      m.setPaintProperty('kr-bounds-line', 'line-color', on ? DARK.kr : CONFIG.COLORS.kr);
-    }
-    if (m?.getLayer('gp-point')) {
+    if (m.getLayer('kr-bounds-fill')) m.setPaintProperty('kr-bounds-fill', 'fill-color', on ? DARK.kr : CONFIG.COLORS.kr);
+    if (m.getLayer('kr-bounds-line')) m.setPaintProperty('kr-bounds-line', 'line-color', on ? DARK.kr : CONFIG.COLORS.kr);
+    if (m.getLayer('gp-point')) {
       m.setPaintProperty('gp-point', 'circle-color', on ? DARK.global : CONFIG.COLORS.global);
       m.setPaintProperty('gp-point', 'circle-stroke-color', on ? 'rgba(255,255,255,.92)' : 'rgba(8,11,19,.9)');
     }
-    if (m?.getLayer('gp-cluster')) {
+    if (m.getLayer('gp-cluster')) {
       m.setPaintProperty('gp-cluster', 'circle-color', on ? DARK.global : CONFIG.COLORS.global);
       m.setPaintProperty('gp-cluster', 'circle-stroke-color', on ? DARK.global : CONFIG.COLORS.global);
     }
-    if (m?.getLayer('gp-active')) {
+    if (m.getLayer('gp-active')) {
       m.setPaintProperty('gp-active', 'circle-stroke-color', on ? DARK.global : CONFIG.COLORS.global);
     }
-    if (m?.getLayer('global-bound-fill')) {
+    if (m.getLayer('global-bound-fill')) {
       m.setPaintProperty('global-bound-fill', 'fill-color', on ? DARK.global : CONFIG.COLORS.global);
       m.setPaintProperty('global-bound-line', 'line-color', on ? DARK.global : CONFIG.COLORS.global);
-    }
-    if (persist) {
-      try { localStorage.setItem('parknews-light', on ? '1' : '0'); } catch { /* 무시 */ }
     }
   }
 

@@ -9,12 +9,10 @@
 
 <link rel="icon" href="assets/img/knps-mark.png" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-<!-- 지도 엔진(unpkg)·타일(carto) 연결을 미리 열어 첫 화면을 앞당긴다 -->
+<!-- 지도 엔진(unpkg)·배경 지도(OpenFreeMap) 연결을 미리 열어 첫 화면을 앞당긴다.
+     배경 지도는 fetch(CORS)로 받으므로 crossorigin 이 있어야 이 연결을 재사용한다 -->
 <link rel="preconnect" href="https://unpkg.com" />
-<link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
-<link rel="preconnect" href="https://b.basemaps.cartocdn.com" />
-<link rel="dns-prefetch" href="https://c.basemaps.cartocdn.com" />
-<link rel="dns-prefetch" href="https://d.basemaps.cartocdn.com" />
+<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -238,6 +236,7 @@
 <script src="assets/js/ranking.js"></script>
 <script src="assets/js/stats.js"></script>
 <script src="assets/js/safety.js"></script>
+<script src="assets/js/basemap.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
