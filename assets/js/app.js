@@ -1101,7 +1101,10 @@
   async function initTicker() {
     const rail = $('#ticker-rail');
     try {
-      const items = await NewsService.search('국립공원', 'ko', 14);
+      /* 최근 기사 우선 — 날짜 제한이 없으면 몇 달 전 대형 사건이 헤드라인에 섞인다.
+         3일 안 기사가 5건 미만이면 14일까지 넓힌다. */
+      let items = await NewsService.search('국립공원', 'ko', 14, { days: 3 });
+      if (items.length < 5) items = await NewsService.search('국립공원', 'ko', 14, { days: 14 });
       if (!items.length) throw new Error('empty');
       const html = items.map((n) =>
         `<a class="tk" href="${esc(n.link)}" target="_blank" rel="noopener noreferrer">
@@ -1110,8 +1113,10 @@
       rail.innerHTML = html + html;
       rail.classList.add('is-running');
       $('#ticker').hidden = false;
+      document.body.classList.add('has-ticker');       // 지도 출처 표기를 띠 위로 올리는 기준
     } catch {
       $('#ticker').hidden = true;
+      document.body.classList.remove('has-ticker');
     }
   }
 
